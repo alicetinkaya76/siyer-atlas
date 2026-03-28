@@ -95,7 +95,7 @@ export function CommandPalette() {
         type: 'companion',
         icon: '👤',
         url: `/companions/${c.id}`,
-        subtitle: c.category?.replace(/_/g, ' '),
+        subtitle: (c.category && typeof c.category === 'string') ? c.category.replace(/_/g, ' ') : undefined,
       });
     }
 
@@ -136,7 +136,7 @@ export function CommandPalette() {
               type: 'geography',
               icon: '🌍',
               url: `/map?fly=${(g as any).lat},${(g as any).lng},12`,
-              subtitle: key.replace(/_/g, ' '),
+              subtitle: (typeof key === 'string') ? key.replace(/_/g, ' ') : undefined,
             });
           }
         }
