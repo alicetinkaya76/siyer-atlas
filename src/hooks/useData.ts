@@ -1,19 +1,19 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 
-const BASE_PATH = import.meta.env.BASE_URL + 'data';
+const BASE = import.meta.env.BASE_URL || '/';
 
 /** Fetch JSON data from public/data/ with TanStack Query caching */
 export function useData<T>(key: string, enabled = true) {
   return useQuery<T>({
     queryKey: ['data', key],
     queryFn: async () => {
-      const url = key.startsWith('/') ? key : `${BASE_PATH}/${key}.json`;
+      const url = key.startsWith('/') ? `${BASE}${key.slice(1)}` : `${BASE}data/${key}.json`;
       const res = await fetch(url);
       if (!res.ok) throw new Error(`Failed to load ${key}: ${res.status}`);
       return res.json();
     },
-    staleTime: 1000 * 60 * 60, // 1 hour — static data
-    gcTime: 1000 * 60 * 60 * 24, // 24 hours
+    staleTime: 1000 * 60 * 60,
+    gcTime: 1000 * 60 * 60 * 24,
     enabled,
     retry: 2,
   });
@@ -27,7 +27,7 @@ export function usePrefetch() {
     queryClient.prefetchQuery({
       queryKey: ['data', key],
       queryFn: async () => {
-        const url = key.startsWith('/') ? key : `${BASE_PATH}/${key}.json`;
+        const url = key.startsWith('/') ? `${BASE}${key.slice(1)}` : `${BASE}data/${key}.json`;
         const res = await fetch(url);
         if (!res.ok) throw new Error(`Failed to prefetch ${key}`);
         return res.json();
