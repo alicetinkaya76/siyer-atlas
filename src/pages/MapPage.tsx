@@ -258,8 +258,10 @@ export default function MapPage() {
 
   // Museum data — only categories with coordinates (architecture + geography)
   const showMuseum = activeLayers.includes('museum');
-  const { data: museumArch = [] } = useData<MuseumMapItem[]>('museum_architecture', showMuseum);
-  const { data: museumGeo = [] } = useData<MuseumMapItem[]>('museum_geography', showMuseum);
+  const { data: rawMuseumArch } = useData<any>('museum_architecture', showMuseum);
+  const { data: rawMuseumGeo } = useData<any>('museum_geography', showMuseum);
+  const museumArch: MuseumMapItem[] = Array.isArray(rawMuseumArch) ? rawMuseumArch : (rawMuseumArch?.items ?? []);
+  const museumGeo: MuseumMapItem[] = Array.isArray(rawMuseumGeo) ? rawMuseumGeo : (rawMuseumGeo?.items ?? []);
 
   // Geography data — 7 categories all with lat/lng
   const showGeography = activeLayers.includes('geography');
@@ -418,7 +420,7 @@ export default function MapPage() {
           companionMarkers.map((m) => (
             <Marker
               key={m.key}
-              position={[m.lat, m.lng]}
+              position={[m.lat ?? 0, m.lng ?? 0]}
               icon={createMarkerIcon('companion', 24)}
             >
               <Popup maxWidth={280} className="glass-popup">
@@ -442,7 +444,7 @@ export default function MapPage() {
             return (
               <Marker
                 key={`museum-${item.id}`}
-                position={[item.coordinates!.lat, item.coordinates!.lng]}
+                position={[item.coordinates?.lat ?? 0, item.coordinates?.lng ?? 0]}
                 icon={createMarkerIcon(markerType as any, 26)}
               >
                 <Popup maxWidth={280} className="glass-popup">
@@ -464,12 +466,16 @@ export default function MapPage() {
         {/* ─── GEOGRAPHY LAYER (87 items — mountains, valleys, rivers, etc.) ─── */}
         {showGeography &&
           geoMarkers.map((item) => {
-            const markerType = ['rivers_water', 'ports_coasts'].includes(item.geoCategory) ? 'water' : 'mountain';
+            const markerType = (['mountains', 'mountain_passes'].includes(item.geoCategory)
+              ? 'mountain'
+              : ['rivers_water', 'ports_coasts'].includes(item.geoCategory)
+                ? 'water'
+                : 'geo') as any;
             return (
               <Marker
                 key={`geo-${item.id}`}
-                position={[item.lat, item.lng]}
-                icon={createMarkerIcon(markerType as any, 24)}
+                position={[item.lat ?? 0, item.lng ?? 0]}
+                icon={createMarkerIcon(markerType, 24)}
               >
                 <Popup maxWidth={280} className="glass-popup">
                   <GeographyPopup
@@ -508,33 +514,6 @@ export default function MapPage() {
               </Popup>
             </CircleMarker>
           ))}
-
-        {/* ─── GEOGRAPHY LAYER (87 items — mountains, valleys, rivers, etc.) ─── */}
-        {showGeography &&
-          geoMarkers.map((item) => {
-            const markerType = (['mountains', 'mountain_passes'].includes(item.geoCategory)
-              ? 'mountain'
-              : ['rivers_water', 'ports_coasts'].includes(item.geoCategory)
-                ? 'water'
-                : 'geo') as any;
-            return (
-              <Marker
-                key={`geo-${item.id}`}
-                position={[item.lat, item.lng]}
-                icon={createMarkerIcon(markerType, 24)}
-              >
-                <Popup maxWidth={280} className="glass-popup">
-                  <GeographyPopup
-                    name={item.name}
-                    category={item.geoCategory}
-                    description={item.description}
-                    elevation_m={item.elevation_m}
-                    quran_refs={item.quran_refs}
-                  />
-                </Popup>
-              </Marker>
-            );
-          })}
 
         {/* ─── HIJRAH ROUTE ─── */}
         {showHijrah && (

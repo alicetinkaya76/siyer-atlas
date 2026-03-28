@@ -1,28 +1,56 @@
 import { lazy } from 'react';
 import type { RouteObject } from 'react-router';
 
+/* ─── LAZY IMPORT WITH RETRY (handles stale chunk hashes after deploy) ─── */
+function lazyRetry<T extends { default: React.ComponentType<any> }>(
+  importFn: () => Promise<T>,
+  retries = 2,
+): React.LazyExoticComponent<T['default']> {
+  return lazy(() => {
+    const attempt = (remaining: number): Promise<T> =>
+      importFn().catch((err: unknown) => {
+        if (remaining <= 0) {
+          // Last resort: force reload to get fresh chunks
+          const alreadyReloaded = sessionStorage.getItem('chunk-reload');
+          if (!alreadyReloaded) {
+            sessionStorage.setItem('chunk-reload', '1');
+            window.location.reload();
+          }
+          throw err;
+        }
+        return new Promise<T>((resolve) =>
+          setTimeout(() => resolve(attempt(remaining - 1)), 500),
+        );
+      });
+    return attempt(retries);
+  });
+}
+
+/* ─── Clear chunk-reload flag on successful load ─── */
+sessionStorage.removeItem('chunk-reload');
+
 /* ─── LAZY PAGE IMPORTS ─── */
-const HomePage = lazy(() => import('@/pages/HomePage'));
-const MapPage = lazy(() => import('@/pages/MapPage'));
-const TimelinePage = lazy(() => import('@/pages/TimelinePage'));
-const CompanionsPage = lazy(() => import('@/pages/CompanionsPage'));
-const CompanionDetailPage = lazy(() => import('@/pages/CompanionDetailPage'));
-const BattlesPage = lazy(() => import('@/pages/BattlesPage'));
-const BattleDetailPage = lazy(() => import('@/pages/BattleDetailPage'));
-const QuranPage = lazy(() => import('@/pages/QuranPage'));
-const MuseumPage = lazy(() => import('@/pages/MuseumPage'));
-const MuseumItemPage = lazy(() => import('@/pages/MuseumItemPage'));
-const NetworkPage = lazy(() => import('@/pages/NetworkPage'));
-const ProphetPage = lazy(() => import('@/pages/ProphetPage'));
-const AudioPage = lazy(() => import('@/pages/AudioPage'));
-const StatsPage = lazy(() => import('@/pages/StatsPage'));
-const EconomyPage = lazy(() => import('@/pages/EconomyPage'));
-const LiteraturePage = lazy(() => import('@/pages/LiteraturePage'));
-const ReligionsPage = lazy(() => import('@/pages/ReligionsPage'));
-const GeographyPage = lazy(() => import('@/pages/GeographyPage'));
-const MesaNebeviPage = lazy(() => import('@/pages/MesaNebeviPage'));
-const AboutPage = lazy(() => import('@/pages/AboutPage'));
-const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
+const HomePage = lazyRetry(() => import('@/pages/HomePage'));
+const MapPage = lazyRetry(() => import('@/pages/MapPage'));
+const TimelinePage = lazyRetry(() => import('@/pages/TimelinePage'));
+const CompanionsPage = lazyRetry(() => import('@/pages/CompanionsPage'));
+const CompanionDetailPage = lazyRetry(() => import('@/pages/CompanionDetailPage'));
+const BattlesPage = lazyRetry(() => import('@/pages/BattlesPage'));
+const BattleDetailPage = lazyRetry(() => import('@/pages/BattleDetailPage'));
+const QuranPage = lazyRetry(() => import('@/pages/QuranPage'));
+const MuseumPage = lazyRetry(() => import('@/pages/MuseumPage'));
+const MuseumItemPage = lazyRetry(() => import('@/pages/MuseumItemPage'));
+const NetworkPage = lazyRetry(() => import('@/pages/NetworkPage'));
+const ProphetPage = lazyRetry(() => import('@/pages/ProphetPage'));
+const AudioPage = lazyRetry(() => import('@/pages/AudioPage'));
+const StatsPage = lazyRetry(() => import('@/pages/StatsPage'));
+const EconomyPage = lazyRetry(() => import('@/pages/EconomyPage'));
+const LiteraturePage = lazyRetry(() => import('@/pages/LiteraturePage'));
+const ReligionsPage = lazyRetry(() => import('@/pages/ReligionsPage'));
+const GeographyPage = lazyRetry(() => import('@/pages/GeographyPage'));
+const MesaNebeviPage = lazyRetry(() => import('@/pages/MesaNebeviPage'));
+const AboutPage = lazyRetry(() => import('@/pages/AboutPage'));
+const NotFoundPage = lazyRetry(() => import('@/pages/NotFoundPage'));
 
 /* ─── NAV ITEMS (Sidebar + BottomTabBar) ─── */
 export interface NavItem {

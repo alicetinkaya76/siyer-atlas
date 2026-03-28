@@ -17,20 +17,36 @@ export class ErrorBoundary extends Component<Props, State> {
     return { hasError: true, error };
   }
 
+  private isChunkError(error: Error | null): boolean {
+    if (!error) return false;
+    const msg = error.message || '';
+    return (
+      msg.includes('Failed to fetch dynamically imported module') ||
+      msg.includes('Loading chunk') ||
+      msg.includes('Loading CSS chunk') ||
+      msg.includes('Importing a module script failed')
+    );
+  }
+
   render() {
     if (this.state.hasError) {
       if (this.props.fallback) return this.props.fallback;
+
+      const isChunk = this.isChunkError(this.state.error);
+
       return (
         <div
           className="flex flex-col items-center justify-center gap-4 p-8 text-center"
           style={{ minHeight: '40vh' }}
         >
-          <div className="text-4xl">⚠️</div>
+          <div className="text-4xl">{isChunk ? '🔄' : '⚠️'}</div>
           <h2 className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            Bir hata oluştu
+            {isChunk ? 'Yeni güncelleme mevcut' : 'Bir hata oluştu'}
           </h2>
           <p className="max-w-md text-sm" style={{ color: 'var(--text-secondary)' }}>
-            {this.state.error?.message || 'Beklenmeyen bir hata meydana geldi.'}
+            {isChunk
+              ? 'Site güncellenmiş. Sayfayı yenileyerek son sürümü yükleyebilirsiniz.'
+              : (this.state.error?.message || 'Beklenmeyen bir hata meydana geldi.')}
           </p>
           <button
             onClick={() => {
@@ -43,7 +59,7 @@ export class ErrorBoundary extends Component<Props, State> {
               color: '#1a1a2e',
             }}
           >
-            Sayfayı Yenile
+            {isChunk ? 'Sayfayı Yenile' : 'Tekrar Dene'}
           </button>
         </div>
       );

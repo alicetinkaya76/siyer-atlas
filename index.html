@@ -13,22 +13,17 @@
   <meta property="og:title" content="Siyer Atlası" />
   <meta property="og:description" content="Asr-ı Saâdet İnteraktif Atlası — Harita, Zaman Çizelgesi, Dijital Müze" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://siyeratlas.org" />
+  <meta property="og:url" content="https://alicetinkaya76.github.io/siyer-atlas/" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:locale:alternate" content="ar_SA" />
 
-  <!-- Critical Fonts -->
+  <!-- Critical Fonts (single load) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    rel="preload"
-    as="style"
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Serif+4:wght@400;600&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&family=JetBrains+Mono:wght@400&display=swap"
-  />
-  <link
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Serif+4:wght@400;600&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&family=JetBrains+Mono:wght@400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Serif+4:wght@300;400;500;600;700&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
   />
 
   <!-- Leaflet CSS -->
@@ -39,17 +34,28 @@
     crossorigin=""
   />
 
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Serif+4:wght@300;400;500;600;700&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-      
-      
-    <style>
-      body, html { font-family: "Source Serif 4", "Noto Naskh Arabic", serif; font-size: 16px; -webkit-font-smoothing: antialiased; }
-      h1, h2, h3, h4, h5, h6 { font-family: "Playfair Display", "Amiri", serif; }
-    </style>
-  </head>
+  <link rel="icon" type="image/svg+xml" href="/siyer-atlas/favicon.svg" />
+
+  <!-- GitHub Pages SPA redirect handler (receives redirects from 404.html) -->
+  <script>
+    (function(){
+      var redir = sessionStorage.getItem('spa-redirect');
+      if (redir) {
+        sessionStorage.removeItem('spa-redirect');
+        window.history.replaceState(null, '', redir);
+      }
+    })();
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-51CDJ902YY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-51CDJ902YY');
+  </script>
+</head>
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>

@@ -10,9 +10,12 @@ const DEFEAT_KEYWORDS = ['yenilgi', 'bozgun', 'ağır kayıp', 'başarısız', '
 const TREATY_KEYWORDS = ['sulh', 'antlaşma', 'barış', 'teslim', 'biat', 'mübâhale', 'arabuluculuk', 'çatışma olmadı', 'savaş olmadı'];
 const CONQUEST_KEYWORDS = ['fethedildi', 'fetih', 'feth', 'tamamıyla feth'];
 
-export function resultCategory(result: string | undefined): ResultCategory {
+export function resultCategory(result: string | Record<string, string> | undefined): ResultCategory {
   if (!result) return 'inconclusive';
-  const r = result.toLowerCase().replace(/['ʾ]/g, '');
+  // Handle LocalizedText objects — use Turkish text for keyword matching
+  const text = typeof result === 'string' ? result : (typeof result === 'object' && result !== null ? (result.tr || result.en || Object.values(result)[0] || '') : '');
+  if (!text || typeof text !== 'string') return 'inconclusive';
+  const r = text.toLowerCase().replace(/['ʾ]/g, '');
 
   // Order matters: conquest before victory (fetih is specific)
   if (CONQUEST_KEYWORDS.some(k => r.includes(k))) return 'conquest';
@@ -41,7 +44,8 @@ export const RESULT_LABELS: Record<ResultCategory, { tr: string; en: string; col
 export type CompanionGroup = 'asere' | 'badri' | 'muhacir' | 'ansar' | 'ehl_beyt' | 'women' | 'other';
 
 export function companionGroup(category: string | string[] | undefined): CompanionGroup[] {
-  const cats = Array.isArray(category) ? category : category ? [category] : [];
+  const raw = Array.isArray(category) ? category : category ? [category] : [];
+  const cats = raw.filter((c): c is string => typeof c === 'string');
   const groups = new Set<CompanionGroup>();
 
   for (const c of cats) {
