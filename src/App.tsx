@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <AppShell />,
     children: routes,
   },
-]);
+], { basename: '/siyer-atlas' });
 
 /* ─── App Root ─── */
 export default function App() {
