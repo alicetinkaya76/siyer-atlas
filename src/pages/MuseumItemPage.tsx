@@ -128,7 +128,7 @@ export default function MuseumItemPage() {
           <div className="grid grid-cols-2 gap-px sm:grid-cols-4" style={{ background: 'var(--border-color)' }}>
             {[
               { label: lang === 'en' ? 'Material' : 'Malzeme', value: txt(item.material) || '—', icon: '🔩' },
-              { label: lang === 'en' ? 'Dimensions' : 'Boyutlar', value: item.dimensions || '—', icon: '📏' },
+              { label: lang === 'en' ? 'Dimensions' : 'Boyutlar', value: typeof item.dimensions === 'string' ? item.dimensions : (item.dimensions ? Object.entries(item.dimensions).map(([k,v]) => k + ': ' + v).join(', ') : '—'), icon: '📏' },
               { label: lang === 'en' ? 'Location' : 'Bulunduğu Yer', value: txt(item.current_location) || '—', icon: '🏛️' },
               { label: lang === 'en' ? 'Type' : 'Tür', value: txt(item.type) || '—', icon: '📋' },
             ].map((s, i) => (
