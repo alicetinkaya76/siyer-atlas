@@ -66,10 +66,15 @@ export default function MuseumItemPage() {
     );
   }
 
-  const txt = (v: LocalizedText | string | undefined): string => {
+  const txt = (v: any): string => {
     if (!v) return '';
     if (typeof v === 'string') return v;
-    return localize(v);
+    if (typeof v === 'number') return String(v);
+    if (v.tr || v.en || v.ar) return localize(v);
+    if (typeof v === 'object') {
+      return Object.entries(v).map(([k, val]) => k + ': ' + String(val)).join(', ');
+    }
+    return String(v);
   };
 
   return (
