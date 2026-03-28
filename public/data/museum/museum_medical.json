@@ -1,0 +1,869 @@
+{
+  "category": "medical",
+  "version": "v1.0.0",
+  "total_items": 24,
+  "subcategories": {
+    "therapeutic": "Tedavi araçları ve yöntemleri",
+    "herbal": "Bitkisel ilaç ve gıdalar",
+    "hygiene": "Temizlik ve hijyen",
+    "surgical": "Cerrahi ve müdahale araçları"
+  },
+  "items": [
+    {
+      "id": "med_hacamat_aleti",
+      "subcategory": "therapeutic",
+      "name": {
+        "tr": "Hacâmat Aleti (Mihcem)",
+        "en": "Cupping Instrument (Mihjam)",
+        "ar": "مِحْجَم"
+      },
+      "type": {
+        "tr": "Tedavi aleti — boynuzdan/metalden",
+        "en": "Cupping tool — horn/metal",
+        "ar": "آلة حجامة"
+      },
+      "material": {
+        "tr": "Hayvan boynuzu veya bakır",
+        "en": "Animal horn or copper",
+        "ar": "قرن حيوان أو نحاس"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber'in en çok tavsiye ettiği tedavi yöntemlerinden biri. 'Tedavilerinizin en hayırlısı hacâmattır' (Buhârî). İki başı açık silindirik alet; deri üzerine yerleştirilip hava emilerek kan dolaşımı düzenlenir.",
+        "en": "One of the most recommended treatments by the Prophet. A cylindrical tool placed on skin to regulate blood circulation through suction.",
+        "ar": "من أفضل العلاجات التي أوصى بها النبي ﷺ. آلة أسطوانية توضع على الجلد لتنظيم الدورة الدموية."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 3",
+        "Müslim, Selâm 71"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ebubekir"
+          },
+          {
+            "atlas_companion_id": "enes_malik"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_kina",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Kına (Hinnâ)",
+        "en": "Henna (Hinna)",
+        "ar": "حِنّاء"
+      },
+      "type": {
+        "tr": "Bitkisel tedavi — toz/macun",
+        "en": "Herbal remedy — powder/paste",
+        "ar": "علاج عشبي"
+      },
+      "material": {
+        "tr": "Kına yaprağı (Lawsonia inermis)",
+        "en": "Henna leaf (Lawsonia inermis)",
+        "ar": "ورق الحناء"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Yara tedavisinde ve baş ağrısında kullanılmıştır. Hz. Peygamber yaralanmalarda kına ile tedavi uygulanmasını tavsiye etmiştir. Ayrıca saç ve sakal boyama geleneğinin de bir parçasıdır.",
+        "en": "Used for wound healing and headaches. The Prophet recommended henna treatment for injuries. Also part of hair and beard dyeing tradition.",
+        "ar": "استُخدمت لعلاج الجروح والصداع. أوصى النبي ﷺ بالعلاج بالحناء."
+      },
+      "hadith_refs": [
+        "Tirmizî, Tıb 12",
+        "Ebû Dâvûd, Tereccül 4"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_sena_yapragi",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Senâ Yaprağı (Senâ Mekkî)",
+        "en": "Senna Leaf",
+        "ar": "سَنَا مَكّي"
+      },
+      "type": {
+        "tr": "Bitkisel müshil",
+        "en": "Herbal laxative",
+        "ar": "مسهل عشبي"
+      },
+      "material": {
+        "tr": "Cassia senna yaprağı",
+        "en": "Cassia senna leaf",
+        "ar": "ورق السنا"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber'in 'Senâ ve senût (bal) ile tedavi olun; çünkü bunlarda ölüm hariç her derde deva vardır' buyurduğu rivayet edilir (İbn Mâce). Mekke çevresinde yetişir.",
+        "en": "The Prophet reportedly said: 'Treat with senna and honey, for they cure every disease except death.' Grows around Mecca.",
+        "ar": "قال النبي ﷺ: عليكم بالسنا والسنوت. ينبت حول مكة."
+      },
+      "hadith_refs": [
+        "İbn Mâce, Tıb 5",
+        "Hâkim, Müstedrek IV/200"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "mekke"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_bal",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Bal (Asel)",
+        "en": "Honey (Asal)",
+        "ar": "عَسَل"
+      },
+      "type": {
+        "tr": "Gıda ve ilaç",
+        "en": "Food and medicine",
+        "ar": "غذاء ودواء"
+      },
+      "material": {
+        "tr": "Arı balı",
+        "en": "Bee honey",
+        "ar": "عسل النحل"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Kur'ân'da 'İnsanlar için şifâ' (Nahl 16:69) olarak zikredilir. Hz. Peygamber karın ağrısı şikâyetinde bal içirilmesini tavsiye etmiştir (Buhârî). Hem ilaç hem gıda olarak yaygın kullanılmıştır.",
+        "en": "Mentioned in the Quran as 'a healing for people' (16:69). The Prophet recommended honey for stomach ailments.",
+        "ar": "ذُكر في القرآن بأن فيه 'شفاء للناس'. أوصى النبي ﷺ بالعسل لآلام البطن."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 4",
+        "Müslim, Selâm 91"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          },
+          {
+            "atlas_location_id": "taif"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_habbes_sevda",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Çörekotu (Habbet-üs Sevdâ)",
+        "en": "Black Seed (Habbat al-Sawda)",
+        "ar": "حَبّة السَوداء"
+      },
+      "type": {
+        "tr": "Bitkisel ilaç — tohum",
+        "en": "Herbal medicine — seed",
+        "ar": "دواء عشبي — بذرة"
+      },
+      "material": {
+        "tr": "Nigella sativa tohumu",
+        "en": "Nigella sativa seed",
+        "ar": "بذرة الحبة السوداء"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber'in 'Ölüm hariç her derde devadır' buyurduğu meşhur ilaç (Buhârî, Tıb 7). Hem yenilerek hem de sürülerek kullanılmıştır. Hicaz bölgesinde yaygın.",
+        "en": "Famous medicine the Prophet called 'a cure for every disease except death'. Used both orally and topically. Widespread in Hijaz.",
+        "ar": "قال النبي ﷺ: 'فيها شفاء من كل داء إلا السام'. تُستخدم أكلاً ودهناً."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 7",
+        "Müslim, Selâm 88"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          },
+          {
+            "atlas_location_id": "mekke"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_misvak",
+      "subcategory": "hygiene",
+      "name": {
+        "tr": "Misvak (Siwâk)",
+        "en": "Miswak (Siwak)",
+        "ar": "سِواك / مِسواك"
+      },
+      "type": {
+        "tr": "Diş temizleme çubuğu",
+        "en": "Tooth-cleaning stick",
+        "ar": "عود تنظيف الأسنان"
+      },
+      "material": {
+        "tr": "Erâk ağacı (Salvadora persica)",
+        "en": "Arak tree (Salvadora persica)",
+        "ar": "شجر الأراك"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber'in en çok önem verdiği hijyen uygulamalarından biri. 'Misvak ağzı temizler, Rabbi razı eder' (Nesâî). Her abdest öncesi ve namaza durma öncesinde kullanılması tavsiye edilmiştir.",
+        "en": "One of the most emphasized hygiene practices by the Prophet. Recommended before every ablution and prayer.",
+        "ar": "من أهم ممارسات النظافة التي حث عليها النبي ﷺ. يُستحب قبل كل وضوء وصلاة."
+      },
+      "hadith_refs": [
+        "Buhârî, Savm 27",
+        "Nesâî, Tahâret 5"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          },
+          {
+            "atlas_location_id": "mekke"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_zemzem",
+      "subcategory": "therapeutic",
+      "name": {
+        "tr": "Zemzem Suyu",
+        "en": "Zamzam Water",
+        "ar": "ماء زَمزَم"
+      },
+      "type": {
+        "tr": "Kutsal su — şifâ amaçlı",
+        "en": "Sacred water — for healing",
+        "ar": "ماء مقدس — للاستشفاء"
+      },
+      "material": {
+        "tr": "Zemzem kuyusundan çıkan su",
+        "en": "Water from Zamzam well",
+        "ar": "ماء بئر زمزم"
+      },
+      "period": "Hz. İsmâil döneminden beri",
+      "description": {
+        "tr": "Kâbe yakınındaki kadîm kuyu. Hz. Peygamber: 'Zemzem suyu ne niyetle içilirse ona şifâdır' (İbn Mâce). Hac ve umre ibadeti sırasında içilir. Bilimsel analizlerde yüksek mineral içeriği tespit edilmiştir.",
+        "en": "Ancient well near the Kaaba. The Prophet said Zamzam water is a cure for whatever intention it is drunk for. Consumed during Hajj and Umrah.",
+        "ar": "بئر قديمة قرب الكعبة. قال النبي ﷺ: ماء زمزم لما شُرب له."
+      },
+      "hadith_refs": [
+        "İbn Mâce, Menâsik 78",
+        "Ahmed b. Hanbel, III/357"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "mekke"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_hurma",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Acve Hurması",
+        "en": "Ajwa Date",
+        "ar": "عَجوة المدينة"
+      },
+      "type": {
+        "tr": "Gıda ve ilaç — meyve",
+        "en": "Food and medicine — fruit",
+        "ar": "غذاء ودواء — تمر"
+      },
+      "material": {
+        "tr": "Medine acve hurması",
+        "en": "Madinah Ajwa date",
+        "ar": "تمر عجوة المدينة"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber: 'Her sabah yedi acve hurması yiyen kişiye o gün ne zehir ne de sihir zarar verir' (Buhârî). Medine'nin en meşhur ürünü. Âliye bölgesinde yetiştirilir.",
+        "en": "The Prophet said eating seven Ajwa dates each morning protects against poison and magic. The most famous product of Madinah.",
+        "ar": "قال النبي ﷺ: من تصبح كل يوم سبع تمرات عجوة لم يضره ذلك اليوم سم ولا سحر."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 52",
+        "Müslim, Eşribe 155"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_kay_daglamak",
+      "subcategory": "surgical",
+      "name": {
+        "tr": "Dağlama Aleti (Mikvâ/Mîsem)",
+        "en": "Cauterization Tool (Mikwa)",
+        "ar": "مِكْواة / مِيسَم"
+      },
+      "type": {
+        "tr": "Cerrahi alet — demir uçlu",
+        "en": "Surgical instrument — iron-tipped",
+        "ar": "آلة جراحية — حديدية الطرف"
+      },
+      "material": {
+        "tr": "Demir",
+        "en": "Iron",
+        "ar": "حديد"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Cahiliye ve İslâm döneminde yaygın tedavi yöntemi. Hz. Peygamber dağlamayı son çare olarak görmüş; 'Tedavi üç şeydedir: Bal şerbeti, hacâmat ve dağlama. Ümmetimi dağlamaktan nehyederim' (Buhârî). Yine de bazı sahâbîler kullanmıştır.",
+        "en": "Common treatment in pre-Islamic and Islamic periods. The Prophet viewed cauterization as a last resort while prohibiting his community from using it regularly.",
+        "ar": "طريقة علاج شائعة في الجاهلية والإسلام. كرهها النبي ﷺ مع إقراره بفعاليتها."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 2",
+        "Müslim, Selâm 69"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_kust_hindi",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Kust (Ud-ı Hindî / Ud-ı Bahrî)",
+        "en": "Costus (Indian/Sea Costus)",
+        "ar": "قُسط هندي / قُسط بحري"
+      },
+      "type": {
+        "tr": "Bitkisel tütsü ve ilaç",
+        "en": "Herbal incense and medicine",
+        "ar": "بخور ودواء عشبي"
+      },
+      "material": {
+        "tr": "Saussurea costus kökü",
+        "en": "Saussurea costus root",
+        "ar": "جذر القسط"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber: 'Kust-i Hindî'yi kullanın; çünkü onda yedi derde şifâ vardır' (Buhârî). Burun yoluyla çekilir veya vücuda sürülür. Hindistan'dan ithal edilirdi.",
+        "en": "The Prophet recommended Indian Costus for seven ailments. Applied nasally or topically. Imported from India.",
+        "ar": "أوصى النبي ﷺ بالقسط الهندي لسبعة أدواء. يُستعط به أو يُدهن."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 10",
+        "Müslim, Selâm 86"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_telbine",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Telbîne",
+        "en": "Talbina (Barley Porridge)",
+        "ar": "تَلبينة"
+      },
+      "type": {
+        "tr": "Şifâ yemeği — arpa lapası",
+        "en": "Healing food — barley porridge",
+        "ar": "طعام شفاء — حساء شعير"
+      },
+      "material": {
+        "tr": "Arpa unu + bal + süt",
+        "en": "Barley flour + honey + milk",
+        "ar": "دقيق شعير + عسل + لبن"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Âişe'nin rivayet ettiğine göre Hz. Peygamber: 'Telbîne hastanın kalbini ferahlatır ve hüznün bir kısmını giderir' buyurmuştur (Buhârî). Hasta ziyaretlerinde ikram edilirdi.",
+        "en": "The Prophet said Talbina soothes the patient's heart and relieves some grief. Served during sick visits.",
+        "ar": "قال النبي ﷺ: التلبينة مُجِمّة لفؤاد المريض وتُذهب بعض الحزن."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 24",
+        "İbn Mâce, Tıb 28"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "aise"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_su_ve_sirke",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Sirke (Hâll)",
+        "en": "Vinegar (Khall)",
+        "ar": "خَلّ"
+      },
+      "type": {
+        "tr": "Gıda ve tedavi",
+        "en": "Food and remedy",
+        "ar": "غذاء وعلاج"
+      },
+      "material": {
+        "tr": "Üzüm/hurma sirkesi",
+        "en": "Grape/date vinegar",
+        "ar": "خل عنب / خل تمر"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber: 'Sirke ne güzel katıktır' (Müslim). Ateş düşürücü olarak kullanılmıştır. Sofralardan eksik olmayan temel gıda maddesi.",
+        "en": "The Prophet praised vinegar as an excellent condiment. Used as a fever reducer. A staple food item.",
+        "ar": "قال النبي ﷺ: نِعم الإدام الخل. استُخدم كخافض للحرارة."
+      },
+      "hadith_refs": [
+        "Müslim, Eşribe 167",
+        "Tirmizî, Et'ıme 35"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_zeytin_yagi",
+      "subcategory": "herbal",
+      "name": {
+        "tr": "Zeytinyağı (Zeyt)",
+        "en": "Olive Oil (Zayt)",
+        "ar": "زَيت الزيتون"
+      },
+      "type": {
+        "tr": "Gıda ve sürme ilacı",
+        "en": "Food and topical remedy",
+        "ar": "غذاء ودهان"
+      },
+      "material": {
+        "tr": "Zeytin (Olea europaea) yağı",
+        "en": "Olive (Olea europaea) oil",
+        "ar": "زيت الزيتون"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Kur'ân'da mübarek ağaç olarak zikredilir (Nûr 24:35, Tîn 95:1). Hz. Peygamber: 'Zeytinyağını yiyin ve sürünün; çünkü o mübarek bir ağaçtandır' (Tirmizî). Hem gıda hem cilt bakımı hem tedavi.",
+        "en": "Mentioned in the Quran as a blessed tree. The Prophet recommended eating and applying olive oil. Used for food, skincare, and treatment.",
+        "ar": "ذُكرت في القرآن كشجرة مباركة. أوصى النبي ﷺ بأكل زيت الزيتون والادّهان به."
+      },
+      "hadith_refs": [
+        "Tirmizî, Et'ıme 43",
+        "İbn Mâce, Et'ıme 34"
+      ],
+      "atlas_cross_ref": {
+        "persons": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          },
+          {
+            "atlas_location_id": "taif"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_rukye",
+      "subcategory": "therapeutic",
+      "name": {
+        "tr": "Rukye (Şifâ Duaları)",
+        "en": "Ruqya (Healing Prayers)",
+        "ar": "رُقية شرعية"
+      },
+      "type": {
+        "tr": "Mânevî tedavi",
+        "en": "Spiritual healing",
+        "ar": "علاج روحي"
+      },
+      "material": {
+        "tr": "Kur'ân âyetleri ve meşrû dualar",
+        "en": "Quranic verses and prescribed prayers",
+        "ar": "آيات قرآنية وأدعية مشروعة"
+      },
+      "period": "7. yüzyıl",
+      "description": {
+        "tr": "Hz. Peygamber hastalandığında Muavvizeteyn (Felak-Nâs) okuyup avuçlarına üfler ve bedenini mesh ederdi (Buhârî). Şifâ âyetleri okunarak yapılan tedavi yöntemi. Hz. Cebrâîl de Peygamber'e rukye yapmıştır.",
+        "en": "When ill, the Prophet would recite the last two surahs, blow into his hands, and wipe his body. Gabriel also performed ruqya on the Prophet.",
+        "ar": "كان النبي ﷺ إذا مرض يقرأ المعوذتين وينفث في كفيه ويمسح بهما جسده."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıb 33",
+        "Müslim, Selâm 40"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "aise"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "med_deve_sutu",
+      "name": {
+        "tr": "Deve Sütü ve İdrarı",
+        "en": "Camel Milk and Urine",
+        "ar": "لبن الإبل وأبوالها"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) Medine'ye gelen ve havası ile uyuşamayan Ureyne heyetine deve sütü ve idrarı ile tedavi tavsiye etmiştir. Buhârî ve Müslim'de geçen sahih rivayettir.",
+        "en": "The Prophet (pbuh) prescribed camel milk and urine as treatment for a group from Uraynah who fell ill in Medina's climate. Recorded in al-Bukhārī and Muslim."
+      },
+      "sources": [
+        "Buhârî, Tıbb 5-6",
+        "Müslim, Kasâme 9-10"
+      ],
+      "companion_ids": [
+        "enes_malik"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "tıbb-ı nebevî",
+        "süt",
+        "deve",
+        "tedavi"
+      ]
+    },
+    {
+      "id": "med_keme",
+      "name": {
+        "tr": "Kem'e (Çöl Mantarı)",
+        "en": "Desert Truffle (Kamʾa)",
+        "ar": "الكمأة"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) 'Kem'e, kudret helvası cinsindendir ve suyu göze şifâdır' buyurmuştur. Çölde yetişen bir tür yer mantarıdır.",
+        "en": "The Prophet (pbuh) stated that truffles are a type of manna and their juice is a cure for the eyes. A desert fungus growing underground."
+      },
+      "sources": [
+        "Buhârî, Tıbb 12",
+        "Tirmizî, Tıbb 22"
+      ],
+      "companion_ids": [
+        "comp_ebu_hureyre_det"
+      ],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "göz",
+        "mantar",
+        "gıda"
+      ]
+    },
+    {
+      "id": "med_habbur_reshad",
+      "name": {
+        "tr": "Habbü'r-Reşâd (Tere Tohumu)",
+        "en": "Garden Cress Seeds (Ḥabb al-Rashād)",
+        "ar": "حبّ الرشاد"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) tere tohumunu şifâlı besinler arasında zikretmiştir. Sindirim düzenleyici ve güçlendirici olarak kullanılmıştır.",
+        "en": "The Prophet (pbuh) mentioned garden cress seeds among healing foods. Used as a digestive regulator and strengthener."
+      },
+      "sources": [
+        "İbn Kayyım, Zâdü'l-Meâd IV/340",
+        "Ebû Dâvûd, Tıbb"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "tohum",
+        "sindirim",
+        "gıda"
+      ]
+    },
+    {
+      "id": "med_amber",
+      "name": {
+        "tr": "Ud ve Buhur (Tütsü)",
+        "en": "Oud and Incense (ʿŪd / Bukhūr)",
+        "ar": "العود والبخور"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "mekke_medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) ud ağacı tütsüsünü tavsiye etmiş, özellikle zatürre ve plörezi (zatü'l-cenb) tedavisinde kullanmıştır. Kust ile birlikte anılır.",
+        "en": "The Prophet (pbuh) recommended oud wood incense, particularly for treating pleurisy. Often mentioned alongside qusṭ (costus)."
+      },
+      "sources": [
+        "Buhârî, Tıbb 10",
+        "Müslim, Selâm 86"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "tütsü",
+        "ud",
+        "solunum"
+      ]
+    },
+    {
+      "id": "med_su_tedavi",
+      "name": {
+        "tr": "Su ile Tedavi (Humma Hadisi)",
+        "en": "Water Therapy for Fever",
+        "ar": "الماء للحمى"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) 'Humma (ateşli hastalık) cehennem ateşindendir; onu su ile söndürün' buyurmuştur. Soğuk su ile vücut serinletme tedavisi.",
+        "en": "The Prophet (pbuh) said 'Fever is from the heat of Hellfire, so cool it with water.' Prescribing water cooling for fever reduction."
+      },
+      "sources": [
+        "Buhârî, Tıbb 28",
+        "Müslim, Selâm 78"
+      ],
+      "companion_ids": [
+        "aise"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "tıbb-ı nebevî",
+        "su",
+        "ateş",
+        "humma"
+      ]
+    },
+    {
+      "id": "med_surme",
+      "name": {
+        "tr": "Sürme (İsmid / Kohl)",
+        "en": "Kohl Antimony (Ithmid)",
+        "ar": "الإثمد / الكحل"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "mekke_medine",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) ismid (antimon) sürmesini tavsiye etmiş, 'göz nurunu artırır ve kirpikleri gürleştirir' buyurmuştur. Her gece üç çizgi sürmek sünnettir.",
+        "en": "The Prophet (pbuh) recommended ithmid (antimony) kohl, stating it improves eyesight and thickens eyelashes. Applying three lines nightly is sunnah."
+      },
+      "sources": [
+        "Tirmizî, Libâs 23",
+        "İbn Mâce, Tıbb 25",
+        "Nesâî, Zînet 25"
+      ],
+      "companion_ids": [
+        "comp_abdullah_abbas"
+      ],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "göz",
+        "sürme",
+        "kozmetik"
+      ]
+    },
+    {
+      "id": "med_nebiz",
+      "name": {
+        "tr": "Nebîz (Hurma/Kuru Üzüm Suyu)",
+        "en": "Nabīdh (Date/Raisin Infusion)",
+        "ar": "النبيذ"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_gida",
+      "period": "medine",
+      "description": {
+        "tr": "Hurma veya kuru üzümün suda bekletilmesiyle hazırlanan içecek. Hz. Peygamber (s.a.v.) taze nebîzi içer, fermantasyon başlamadan tüketilmesini tavsiye ederdi.",
+        "en": "A beverage prepared by soaking dates or raisins in water. The Prophet (pbuh) drank fresh nabīdh, recommending consumption before fermentation."
+      },
+      "sources": [
+        "Müslim, Eşribe 79-85",
+        "Ebû Dâvûd, Eşribe 5"
+      ],
+      "companion_ids": [
+        "aise"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "tıbb-ı nebevî",
+        "içecek",
+        "hurma",
+        "gıda"
+      ]
+    },
+    {
+      "id": "med_hicama_kase",
+      "name": {
+        "tr": "Kan Alma Kabı (Mihceme)",
+        "en": "Cupping Vessel (Miḥjama)",
+        "ar": "المحجمة"
+      },
+      "category": "medical",
+      "subcategory": "alet",
+      "period": "mekke_medine",
+      "description": {
+        "tr": "Hacâmat işleminde kullanılan cam veya boynuzdan yapılma kan çekme kabı. Deriyi keserek vakumla kan alma aletidir. Hz. Peygamber (s.a.v.) hacâmatı teşvik etmiştir.",
+        "en": "A glass or horn cupping vessel used for bloodletting. The Prophet (pbuh) encouraged cupping as a therapeutic practice."
+      },
+      "sources": [
+        "Buhârî, Tıbb 2",
+        "Tirmizî, Tıbb 12"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "alet",
+        "hacâmat",
+        "kan"
+      ]
+    },
+    {
+      "id": "med_sater",
+      "name": {
+        "tr": "Sa'ter (Dağ Kekiği / Zahter)",
+        "en": "Thyme / Zaʿtar",
+        "ar": "الصعتر / الزعتر"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_gida",
+      "period": "mekke_medine",
+      "description": {
+        "tr": "Arap yarımadasında yaygın olarak kullanılan aromatik bitki. Hz. Peygamber döneminde hem gıda hem tedavi amaçlı tüketilmiştir. Sindirim ve solunum yollarına faydalıdır.",
+        "en": "An aromatic herb widely used in the Arabian Peninsula. Consumed for both culinary and medicinal purposes during the Prophet's era."
+      },
+      "sources": [
+        "İbn Kayyım, Zâdü'l-Meâd IV",
+        "Suyûtî, et-Tıbbü'n-Nebevî"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "bitki",
+        "kekik",
+        "gıda"
+      ]
+    },
+    {
+      "id": "med_ihlidj",
+      "name": {
+        "tr": "İhlîlec (Halîle Meyvesi)",
+        "en": "Terminalia (Ihlīlaj)",
+        "ar": "الإهليلج"
+      },
+      "category": "medical",
+      "subcategory": "nebevi_tedavi",
+      "period": "medine",
+      "description": {
+        "tr": "Hindistan ve Yemen'den gelen şifalı meyve. Hz. Peygamber (s.a.v.) hakkında 'İhlîlec, Cennet ağaçlarındandır; acı olanı şifâdır' buyurduğu rivayet edilmiştir.",
+        "en": "A medicinal fruit from India and Yemen. The Prophet (pbuh) reportedly said it is from the trees of Paradise and its bitter variant is a cure."
+      },
+      "sources": [
+        "Tirmizî, Tıbb 20 (zayıf)",
+        "İbn Kayyım, Zâdü'l-Meâd"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [],
+      "tags": [
+        "tıbb-ı nebevî",
+        "meyve",
+        "bitki",
+        "hindistan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "recon_fetih_merv",
+    "battle_id": "fetih_merv",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 37.66,
+        "lng": 62.17
+      },
+      "name": "Merv Fethi",
+      "modern_location": "Mary, Türkmenistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "31",
+      "duration": "",
+      "description": "Doğuya ilerleme devam etti.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "31",
+      "duration": "",
+      "description": "Merv ele geçirildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ahnef b. Kays",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 401",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_horasan_merv",
+      "topic": "Hz. Peygamber: Doğu yönünden gelecek fitneler hakkında uyarı (Horasan bağlamı)",
+      "relevance": "contextual",
+      "source": "Buhârî, Fiten, 16; Müslim, Fiten"
+    }
+  ],
+  "impact": {
+    "result": "Fethedildi",
+    "significance": "Horasan'ın en önemli şehrinin fethi. İslâm'ın Orta Asya'daki ilk büyük merkezi.",
+    "cross_references": [
+      "fetih_horasan"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

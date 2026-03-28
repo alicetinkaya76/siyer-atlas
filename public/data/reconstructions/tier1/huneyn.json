@@ -1,0 +1,1678 @@
+{
+  "meta": {
+    "id": "reconstruction_huneyn",
+    "battle_id": "gazve_huneyn",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Huneyn Gazvesi — Mekke fethinden 2 hafta sonra (Şevval 8 AH / Şubat 630 CE). 12.000 kişilik İslâm ordusu Hevâzin-Sakîf koalisyonuna karşı. Vâdi-i Huneyn'de pusuya düşüldü, başlangıçta büyük bozgun. Hz. Peygamber'in eşsiz cesareti ile toparlanma ve zafer. Devamında Tâif kuşatması (~20 gün) ve Ci'râne'de devasa ganimet dağıtımı. Kur'ân'da ismen zikredilen tek savaş (Tevbe 9:25-26). Bedir/Uhud/Hendek/Hayber/Mekke Fethi şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.47,
+        "lng": 40.15
+      },
+      "bbox": {
+        "north": 21.6,
+        "south": 21.25,
+        "east": 40.55,
+        "west": 39.85
+      },
+      "terrain_type": "valley_ambush",
+      "terrain_desc": {
+        "tr": "Huneyn Vadisi, Mekke ile Tâif arasında derin ve dar bir geçittir. Vadi iki tarafı sarp yamaçlarla çevrili olup pusu için ideal bir coğrafyadır. Hevâzin kuvvetleri vadi kenarlarındaki yamaçlara ve kayalıkların arkasına gizlenerek baskın düzenledi. Vadinin dar yapısı büyük ordunun manevra kabiliyetini ciddi ölçüde kısıtlıyordu. Bölge bugünkü Mekke-Tâif karayolu güzergâhı üzerindedir. Tâif ise yüksek rakımlı (1.879 m), surlarla çevrili müstahkem bir şehirdir.",
+        "en": "The Valley of Hunayn is a deep, narrow pass between Mecca and Ta'if. The valley is flanked by steep slopes on both sides, making it ideal for ambush. Hawazin forces concealed themselves on the slopes and behind rocks. The narrow terrain severely restricted the large Muslim army's maneuverability. The area lies along the modern Mecca–Ta'if highway route. Ta'if is a fortified, high-altitude city (1,879 m)."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_vadi_huneyn",
+        "name": {
+          "tr": "Vâdi-i Huneyn (Pusu Noktası)",
+          "en": "Valley of Hunayn (Ambush Site)"
+        },
+        "lat": 21.47,
+        "lng": 40.15,
+        "type": "battlefield",
+        "phase_ids": [
+          "F2_ambush",
+          "F3_rally"
+        ],
+        "desc_tr": "Huneyn Gazvesi'nin ana muharebe alanı. Dar vadi, Hevâzin pususunun gerçekleştiği yer. Müslüman ordunun şafak vakti ilerlerken baskına uğradığı nokta.",
+        "desc_en": "Main battlefield of the Battle of Hunayn. Narrow valley where the Hawazin ambush occurred. The point where the Muslim army was ambushed at dawn."
+      },
+      {
+        "id": "lm_huneyn_giris",
+        "name": {
+          "tr": "Vadi Girişi (Müslüman İleri Kolu)",
+          "en": "Valley Entrance (Muslim Vanguard)"
+        },
+        "lat": 21.45,
+        "lng": 40.12,
+        "type": "tactical_point",
+        "phase_ids": [
+          "F2_ambush"
+        ],
+        "desc_tr": "Müslüman ordunun vadiye girdiği nokta. Hâlid b. Velîd'in öncü kolu ilk darbeyi burada aldı. Hevâzin okçuları her iki yamaçtan ok yağdırdı.",
+        "desc_en": "Point where the Muslim army entered the valley. Khalid ibn al-Walid's vanguard took the first blow here. Hawazin archers rained arrows from both slopes."
+      },
+      {
+        "id": "lm_peygamber_sebat",
+        "name": {
+          "tr": "Hz. Peygamber'in Sebat Noktası",
+          "en": "Prophet's Stand Point"
+        },
+        "lat": 21.46,
+        "lng": 40.14,
+        "type": "sacred_site",
+        "phase_ids": [
+          "F3_rally"
+        ],
+        "desc_tr": "Hz. Peygamber'in herkes dağılırken katırı üzerinde sebat ettiği nokta. 'Ben Peygamberim, yalan yok! Ben Abdülmuttalib'in oğluyum!' diye seslendi. Abbâs'a Bey'atü'r-Rıdvân ashabını çağırmasını emretti.",
+        "desc_en": "The point where the Prophet stood firm on his mule when everyone fled. He called out 'I am the Prophet, no lie! I am the son of Abd al-Muttalib!' He ordered Abbas to call the companions of Bay'at al-Ridwan."
+      },
+      {
+        "id": "lm_evtas",
+        "name": {
+          "tr": "Evtâs",
+          "en": "Awtas"
+        },
+        "lat": 21.4,
+        "lng": 40.3,
+        "type": "military_camp",
+        "phase_ids": [
+          "F4_victory"
+        ],
+        "desc_tr": "Hevâzin'in ailelerini ve sürülerini bıraktığı karargâh. Huneyn bozgunundan sonra kaçan Hevâzin kuvvetlerinin bir kısmı burada savaştı. Ebû Âmir el-Eş'arî burada şehit düştü.",
+        "desc_en": "Hawazin's camp where they left their families and herds. Part of the retreating Hawazin forces fought here after the Hunayn rout. Abu Amir al-Ash'ari was martyred here."
+      },
+      {
+        "id": "lm_taif_husun",
+        "name": {
+          "tr": "Tâif Kaleleri",
+          "en": "Fortresses of Ta'if"
+        },
+        "lat": 21.2703,
+        "lng": 40.4159,
+        "type": "fortress",
+        "phase_ids": [
+          "F5_taif_siege"
+        ],
+        "desc_tr": "Sakîf kabilesinin müstahkem kaleleri. Surlar kalın, burçlar yüksek. Hz. Peygamber mancınık ve debbâbe (zırhlı araç) kullandı ama kale düşmedi. ~18-20 gün kuşatmadan sonra çekildi.",
+        "desc_en": "Fortified castles of the Thaqif tribe. Thick walls, high towers. The Prophet used catapults and armored vehicles (dabbaba) but the fortress did not fall. Withdrew after ~18-20 days of siege."
+      },
+      {
+        "id": "lm_cirana",
+        "name": {
+          "tr": "Ci'râne",
+          "en": "al-Ji'rana"
+        },
+        "lat": 21.58,
+        "lng": 40.0,
+        "type": "camp_distribution",
+        "phase_ids": [
+          "F6_jiirana_spoils"
+        ],
+        "desc_tr": "Huneyn ganimetlerinin toplandığı ve dağıtıldığı yer. 6.000 esir, 24.000 deve, 40.000'den fazla koyun/keçi ve büyük miktarda gümüş burada muhafaza edildi. Hz. Peygamber Tâif'ten döndükten sonra burada ganimet dağıttı. Ayrıca Ensâr'a meşhur hutbesini burada irâd etti.",
+        "desc_en": "Location where the Hunayn spoils were gathered and distributed. 6,000 captives, 24,000 camels, 40,000+ sheep/goats and large quantities of silver were stored here. The Prophet distributed the spoils here after returning from Ta'if. He also delivered his famous sermon to the Ansar here."
+      },
+      {
+        "id": "lm_nahle",
+        "name": {
+          "tr": "Nahle Vadisi (Hevâzin Toplanma Bölgesi)",
+          "en": "Nakhlah Valley (Hawazin Assembly)"
+        },
+        "lat": 21.55,
+        "lng": 40.05,
+        "type": "assembly_point",
+        "phase_ids": [
+          "F0_background"
+        ],
+        "desc_tr": "Hevâzin'in kabileleri topladığı ve savaş planı yaptığı bölge. Mâlik b. Avf en-Nasrî burada aileleri ve sürüleri ordunun arkasına koydurma kararını aldı — Düreyd b. es-Sımme buna şiddetle itiraz etti.",
+        "desc_en": "Area where Hawazin assembled their tribes and planned their strategy. Malik ibn Awf al-Nasri decided to place families and herds behind the army here — Durayd ibn al-Simma strongly objected."
+      },
+      {
+        "id": "lm_mekke_kamp",
+        "name": {
+          "tr": "Mekke Ordugâhı (Çıkış Noktası)",
+          "en": "Mecca Camp (Departure Point)"
+        },
+        "lat": 21.4225,
+        "lng": 39.8262,
+        "type": "staging_area",
+        "phase_ids": [
+          "F1_preparation"
+        ],
+        "desc_tr": "12.000 kişilik ordunun Mekke'den Huneyn'e doğru yola çıktığı nokta. Safvân b. Ümeyye'den ödünç alınan 100 zırh ve silah burada dağıtıldı.",
+        "desc_en": "Departure point of the 12,000-strong army from Mecca toward Hunayn. 100 sets of armor and weapons borrowed from Safwan ibn Umayya were distributed here."
+      },
+      {
+        "id": "lm_huneyn_daralma",
+        "name": {
+          "tr": "Vadi Darboğazı (Kritik Pusu Hattı)",
+          "en": "Valley Narrows (Critical Ambush Line)"
+        },
+        "lat": 21.465,
+        "lng": 40.135,
+        "type": "tactical_point",
+        "phase_ids": [
+          "F2_ambush"
+        ],
+        "desc_tr": "Vadinin en dar noktası. Hevâzin okçuları ve süvarileri burada iki yandan aynı anda saldırdı. Dar alanda 12.000 kişilik ordunun panik ve izdihamı burada doruk noktasına ulaştı.",
+        "desc_en": "Narrowest point of the valley. Hawazin archers and cavalry attacked from both sides simultaneously. Panic and stampede of the 12,000-strong army peaked in this confined space."
+      },
+      {
+        "id": "lm_liyyah",
+        "name": {
+          "tr": "Liyye (Tâif Kuşatma Karargâhı)",
+          "en": "Liyyah (Siege Camp)"
+        },
+        "lat": 21.3,
+        "lng": 40.4,
+        "type": "military_camp",
+        "phase_ids": [
+          "F5_taif_siege"
+        ],
+        "desc_tr": "Hz. Peygamber'in Tâif kuşatması sırasında ordugâhını kurduğu yer. Mancınık ve debbâbe burada konuşlandırıldı. Kuşatma ~18-20 gün sürdü.",
+        "desc_en": "Location where the Prophet set up camp during the Ta'if siege. Catapults and dabbaba were positioned here. The siege lasted ~18-20 days."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_mekke_huneyn",
+        "name": {
+          "tr": "Mekke → Huneyn Yürüyüş Güzergâhı",
+          "en": "Mecca → Hunayn March Route"
+        },
+        "waypoints": [
+          {
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "label": "Mekke (çıkış)"
+          },
+          {
+            "lat": 21.44,
+            "lng": 39.95,
+            "label": "Mekke doğu çıkışı"
+          },
+          {
+            "lat": 21.45,
+            "lng": 40.05,
+            "label": "Nahle yolu"
+          },
+          {
+            "lat": 21.46,
+            "lng": 40.12,
+            "label": "Huneyn vadisi girişi"
+          },
+          {
+            "lat": 21.47,
+            "lng": 40.15,
+            "label": "Vâdi-i Huneyn (muharebe)"
+          }
+        ],
+        "type": "march",
+        "distance_km": 35,
+        "note_tr": "12.000 kişilik ordunun Mekke'den Huneyn vadisine yürüyüşü. Gece yürüyüşü, şafakta vadiye giriş.",
+        "note_en": "March of the 12,000-strong army from Mecca to the Valley of Hunayn. Night march, entry into valley at dawn."
+      },
+      {
+        "id": "route_huneyn_taif_cirana",
+        "name": {
+          "tr": "Huneyn → Tâif → Ci'râne Güzergâhı",
+          "en": "Hunayn → Ta'if → Ji'rana Route"
+        },
+        "waypoints": [
+          {
+            "lat": 21.47,
+            "lng": 40.15,
+            "label": "Huneyn (zafer sonrası)"
+          },
+          {
+            "lat": 21.4,
+            "lng": 40.3,
+            "label": "Evtâs"
+          },
+          {
+            "lat": 21.3,
+            "lng": 40.4,
+            "label": "Liyye (kuşatma karargâhı)"
+          },
+          {
+            "lat": 21.2703,
+            "lng": 40.4159,
+            "label": "Tâif kaleleri"
+          },
+          {
+            "lat": 21.35,
+            "lng": 40.3,
+            "label": "Tâif'ten çekilme"
+          },
+          {
+            "lat": 21.58,
+            "lng": 40.0,
+            "label": "Ci'râne (ganimet dağıtımı)"
+          }
+        ],
+        "type": "pursuit_and_siege",
+        "distance_km": 80,
+        "note_tr": "Huneyn zaferinden sonra kaçan Sakîf'in takibi → Tâif kuşatması (~20 gün) → çekilme → Ci'râne'de ganimet dağıtımı ve umre.",
+        "note_en": "Pursuit of fleeing Thaqif after Hunayn victory → Ta'if siege (~20 days) → withdrawal → spoils distribution and umrah at Ji'rana."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Hevâzin-Sakîf koalisyonu ve Mâlik b. Avf'ın planı",
+        "en": "Background: Hawazin-Thaqif coalition and Malik ibn Awf's plan"
+      },
+      "date_range": "Şevval 8 AH başı (Ocak/Şubat 630)",
+      "duration": "~2 hafta (Mekke fethinden sonra)",
+      "description": {
+        "tr": "Mekke fethinin (Ramazan 8 AH) hemen ardından Hevâzin ve Sakîf kabileleri alarm durumuna geçti. İslâm'ın Mekke'yi alması Hicaz'daki güç dengesini kökten değiştirmişti; Hevâzin ve müttefikleri sıranın kendilerine geleceğini biliyordu. Hevâzin'in genç ve hırslı komutanı Mâlik b. Avf en-Nasrî, Nasr, Cüşem, Sa'd b. Bekr ve Sakîf kollarını birleştirerek ~20.000 kişilik büyük bir koalisyon ordusu topladı. Mâlik tartışmalı bir karar aldı: tüm aileleri, kadınları, çocukları, sürüleri ve malları ordunun arkasına yerleştirdi — savaşçıların kaçmaması için 'geri dönüşü olmayan' bir strateji. Yaşlı ve tecrübeli Düreyd b. es-Sımme (o sırada ~100-160 yaşında rivâyet edilir, her halükârda çok yaşlı ve kör) bu karara şiddetle itiraz etti: 'Yenilirseniz ailenizi düşmana teslim etmiş olursunuz!' Ancak genç Mâlik Düreyd'i dinlemedi. Hevâzin kuvvetleri Huneyn Vadisi'nin yamaçlarına pusu kurmak üzere mevzilendi.",
+        "en": "Immediately after the Conquest of Mecca (Ramadan 8 AH), the Hawazin and Thaqif tribes went on alert. Islam's taking of Mecca fundamentally changed the Hijaz power balance; Hawazin and allies knew their turn would come. Hawazin's young and ambitious commander Malik ibn Awf al-Nasri united the Nasr, Jusham, Sa'd ibn Bakr, and Thaqif clans into a ~20,000-strong coalition army. Malik made a controversial decision: he placed all families, women, children, herds, and property behind the army — a 'no retreat' strategy to prevent warriors from fleeing. The elderly and experienced Durayd ibn al-Simma (reportedly ~100-160 years old, at any rate very old and blind) strongly objected: 'If you lose, you will have surrendered your families to the enemy!' But young Malik ignored Durayd. Hawazin forces positioned themselves in ambush on the slopes of the Valley of Hunayn."
+      },
+      "key_events": [
+        {
+          "id": "F0_E1",
+          "event": {
+            "tr": "Hevâzin-Sakîf koalisyonu kurulması — Mâlik b. Avf komutan seçildi",
+            "en": "Formation of Hawazin-Thaqif coalition — Malik ibn Awf chosen as commander"
+          }
+        },
+        {
+          "id": "F0_E2",
+          "event": {
+            "tr": "Aileler ve sürülerin ordunun arkasına yerleştirilmesi — Düreyd b. es-Sımme'nin itirazı",
+            "en": "Placement of families and herds behind the army — Durayd ibn al-Simma's objection"
+          }
+        },
+        {
+          "id": "F0_E3",
+          "event": {
+            "tr": "Hevâzin'in Huneyn Vadisi yamaçlarına pusu kurması",
+            "en": "Hawazin forces setting up ambush on the slopes of Hunayn Valley"
+          }
+        },
+        {
+          "id": "F0_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in istihbarat alması — Abdullah b. Ebî Hadred el-Eslemî Hevâzin kampına casus olarak gönderildi",
+            "en": "Prophet receiving intelligence — Abdullah ibn Abi Hadrad al-Aslami sent as spy to Hawazin camp"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.55,
+            "lng": 40.05,
+            "label": "Hevâzin toplanma bölgesi",
+            "type": "enemy_camp"
+          }
+        ],
+        "zones": [
+          {
+            "type": "ambush_zone",
+            "coords": [
+              {
+                "lat": 21.48,
+                "lng": 40.12
+              },
+              {
+                "lat": 21.48,
+                "lng": 40.18
+              },
+              {
+                "lat": 21.46,
+                "lng": 40.18
+              },
+              {
+                "lat": 21.46,
+                "lng": 40.12
+              }
+            ],
+            "label": "Hevâzin pusu hattı"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F1_preparation",
+      "order": 1,
+      "name": {
+        "tr": "Hazırlık: 12.000 kişilik ordunun Mekke'den hareketi",
+        "en": "Preparation: Departure of the 12,000-strong army from Mecca"
+      },
+      "date_range": "6 Şevval 8 AH (Şubat 630)",
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Hz. Peygamber Hevâzin tehdidini öğrenince derhal sefer hazırlığına başladı. 10.000 kişilik fetih ordusu zaten Mekke'deydi. Buna ~2.000 yeni Müslüman olan Mekkeli eklenerek toplam 12.000 kişilik, o güne kadarki en büyük İslâm ordusu oluşturuldu. Bazı Müslümanlar bu kalabalığı görerek 'Artık sayıca azlıktan yenilmeyiz!' dedi — bu güven Kur'ân'ın daha sonra eleştireceği bir tutumdu (Tevbe 9:25). Safvân b. Ümeyye henüz Müslüman olmamıştı ama Hz. Peygamber'den 100 zırh ve silah ödünç aldı — 'Gasb mı, ödünç mü?' diye sordu, Hz. Peygamber 'Ödünç; geri vereceğim' dedi. Ordu Mekke'den Huneyn istikametine hareket etti. Gece yürüyüşüyle vadiye şafak vakti varıldı.",
+        "en": "When the Prophet learned of the Hawazin threat, he immediately began campaign preparations. The 10,000-strong conquest army was already in Mecca. ~2,000 newly converted Meccans were added, forming a 12,000-strong force — the largest Muslim army to date. Some Muslims, seeing this multitude, said 'We cannot be defeated today due to small numbers!' — an attitude the Quran would later criticize (Tawbah 9:25). Safwan ibn Umayya had not yet embraced Islam but the Prophet borrowed 100 sets of armor and weapons from him — Safwan asked 'Seized or borrowed?' The Prophet said 'Borrowed; I will return them.' The army departed Mecca toward Hunayn. They reached the valley at dawn after a night march."
+      },
+      "key_events": [
+        {
+          "id": "F1_E1",
+          "event": {
+            "tr": "12.000 kişilik ordunun teşkili — İslâm tarihinin en büyük ordusu",
+            "en": "Formation of 12,000-strong army — largest Muslim army in Islamic history"
+          }
+        },
+        {
+          "id": "F1_E2",
+          "event": {
+            "tr": "Safvân b. Ümeyye'den 100 zırh ödünç alınması",
+            "en": "Borrowing 100 sets of armor from Safwan ibn Umayya"
+          }
+        },
+        {
+          "id": "F1_E3",
+          "event": {
+            "tr": "'Bugün sayıca azlıktan yenilmeyiz!' kibri — Tevbe 9:25 sebebi",
+            "en": "'We will not be defeated today by small numbers!' — cause of Tawbah 9:25"
+          }
+        },
+        {
+          "id": "F1_E4",
+          "event": {
+            "tr": "Gece yürüyüşüyle Mekke'den Huneyn vadisine hareket",
+            "en": "Night march from Mecca to the Valley of Hunayn"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "label": "Mekke (ordugâh)",
+            "type": "muslim_camp"
+          },
+          {
+            "lat": 21.46,
+            "lng": 40.12,
+            "label": "Vadi girişi",
+            "type": "waypoint"
+          }
+        ],
+        "routes": [
+          "route_mekke_huneyn"
+        ]
+      }
+    },
+    {
+      "id": "F2_ambush",
+      "order": 2,
+      "name": {
+        "tr": "Pusu: Vâdi-i Huneyn'de Hevâzin baskını ve Müslüman ordunun dağılması",
+        "en": "Ambush: Hawazin attack in the Valley of Hunayn and the Muslim army's rout"
+      },
+      "date_range": "10 Şevval 8 AH şafak vakti",
+      "duration": "~1-2 saat (pusu ve bozgun)",
+      "description": {
+        "tr": "Müslüman ordu şafak vakti karanlıkta vadiye girdi. Hâlid b. Velîd öncü kolu komuta ediyordu. Vadi daraldıkça Hevâzin pusudakileri harekete geçti — her iki yamaçtan ok yağmuru, ardından süvari hücumu. Dar vadide 12.000 kişilik ordunun öncü kolu ilk darbe ile çöktü. Panik dalga dalga geriye yayıldı. Süleymoğulları (Benî Süleym) ilk kaçanlardandı. Yeni Müslüman Mekkelilerin büyük kısmı dağıldı — Ebû Süfyân'ın 'Denize kadar durmayacaklar!' dediği; Şeybe b. Osman'ın 'Bugün Bedir'in intikamını alırım!' diye düşündüğü, Kelede b. Hanbel'in 'Bugün sihir bozuldu!' dediği rivâyet edilir. Ordunun büyük kısmı panik halinde geri kaçtı. Hz. Peygamber neredeyse tamamen yalnız kaldı — yanında yalnızca Ebû Bekir, Ömer, Ali, Abbâs, Ebû Süfyân b. Hâris, Fazl b. Abbâs ve birkaç kişi vardı.",
+        "en": "The Muslim army entered the valley at dawn in darkness. Khalid ibn al-Walid commanded the vanguard. As the valley narrowed, the Hawazin ambushers struck — a rain of arrows from both slopes, followed by cavalry charges. The vanguard of the 12,000-strong army collapsed from the first blow in the narrow valley. Panic spread backward in waves. The Banu Sulaym were among the first to flee. Most newly-converted Meccans scattered — Abu Sufyan reportedly said 'They won't stop until the sea!'; Shayba ibn Uthman thought 'Today I will avenge Badr!'; Kalada ibn Hanbal said 'Today the spell is broken!' The bulk of the army fled in panic. The Prophet was left almost entirely alone — only Abu Bakr, Umar, Ali, Abbas, Abu Sufyan ibn al-Harith, Fadl ibn Abbas, and a few others remained."
+      },
+      "key_events": [
+        {
+          "id": "F2_E1",
+          "event": {
+            "tr": "Şafak vakti vadiye giriş — Hâlid b. Velîd öncü kolda",
+            "en": "Dawn entry into the valley — Khalid ibn al-Walid in the vanguard"
+          }
+        },
+        {
+          "id": "F2_E2",
+          "event": {
+            "tr": "Hevâzin pusu hücumu — ok yağmuru ve süvari saldırısı",
+            "en": "Hawazin ambush attack — rain of arrows and cavalry charge"
+          }
+        },
+        {
+          "id": "F2_E3",
+          "event": {
+            "tr": "Müslüman ordunun büyük çoğunluğunun panikle dağılması",
+            "en": "Mass panic and flight of the majority of the Muslim army"
+          }
+        },
+        {
+          "id": "F2_E4",
+          "event": {
+            "tr": "Yeni Müslümanların ve münâfıkların sevinç ifadeleri",
+            "en": "Expressions of glee from new converts and hypocrites"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.465,
+            "lng": 40.135,
+            "label": "Pusu tetikleme noktası",
+            "type": "ambush"
+          },
+          {
+            "lat": 21.45,
+            "lng": 40.12,
+            "label": "Hâlid öncü kolu çöküşü",
+            "type": "skirmish"
+          },
+          {
+            "lat": 21.46,
+            "lng": 40.14,
+            "label": "Hz. Peygamber mevzii",
+            "type": "prophet_position"
+          }
+        ],
+        "zones": [
+          {
+            "type": "ambush_zone",
+            "coords": [
+              {
+                "lat": 21.475,
+                "lng": 40.12
+              },
+              {
+                "lat": 21.475,
+                "lng": 40.17
+              },
+              {
+                "lat": 21.455,
+                "lng": 40.17
+              },
+              {
+                "lat": 21.455,
+                "lng": 40.12
+              }
+            ],
+            "label": "Hevâzin ok hattı"
+          },
+          {
+            "type": "rout_zone",
+            "coords": [
+              {
+                "lat": 21.46,
+                "lng": 40.05
+              },
+              {
+                "lat": 21.46,
+                "lng": 40.14
+              },
+              {
+                "lat": 21.44,
+                "lng": 40.14
+              },
+              {
+                "lat": 21.44,
+                "lng": 40.05
+              }
+            ],
+            "label": "Müslüman geri çekilme / panik alanı"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F3_rally",
+      "order": 3,
+      "name": {
+        "tr": "Sebat ve toparlanma: Hz. Peygamber'in cesareti, Abbâs'ın çağrısı",
+        "en": "Steadfastness and rally: The Prophet's courage, Abbas's call"
+      },
+      "date_range": "10 Şevval 8 AH — pusudan kısa süre sonra",
+      "duration": "~30 dakika – 1 saat",
+      "description": {
+        "tr": "Ordunun dağıldığı o kritik anda Hz. Peygamber beyaz katırı Düldül'ün üzerinde düşmana doğru ilerledi ve yüksek sesle 'Ene'n-Nebiyyü lâ kezib! Ene'bnü Abdilmuttalib!' (Ben Peygamberim, yalan yok! Ben Abdülmuttalib'in oğluyum!) diye haykırdı. Amcası Abbâs'a — gür sesli biriydi — kaçanları çağırmasını emretti. Abbâs 'Ey Semüre (Hudeybiye ağacı) ashabı! Ey Bakara sûresi ashabı!' diye bağırdı. Bu çağrı dönüm noktası oldu. Ensâr ve muhâcirler 'Lebbeyk! Lebbeyk!' diyerek geri dönmeye başladı. Hz. Peygamber yerden bir avuç toprak/çakıl alıp düşmana doğru savurdu — 'Yüzleri çirkinleşsin!' dedi. Kısa sürede Hz. Peygamber'in etrafında yeterli kuvvet toplandı ve karşı saldırıya geçildi.",
+        "en": "At that critical moment when the army scattered, the Prophet advanced toward the enemy on his white mule Duldul and loudly proclaimed 'Ana al-Nabiyyu la kadhib! Ana ibn Abd al-Muttalib!' (I am the Prophet, no lie! I am the son of Abd al-Muttalib!). He ordered his uncle Abbas — a man with a powerful voice — to call back the fleeing soldiers. Abbas shouted 'O Companions of the Samura (Hudaybiyya tree)! O Companions of Surah al-Baqarah!' This call was the turning point. The Ansar and Muhajirun began returning, shouting 'Labbayk! Labbayk!' (At your service!). The Prophet picked up a handful of dust/pebbles from the ground and threw it toward the enemy — saying 'May their faces be disgraced!' Soon enough forces gathered around the Prophet to launch a counterattack."
+      },
+      "key_events": [
+        {
+          "id": "F3_E1",
+          "event": {
+            "tr": "Hz. Peygamber'in 'Ben Peygamberim, yalan yok!' nidâsı — katır üzerinde düşmana ilerleme",
+            "en": "Prophet's cry 'I am the Prophet, no lie!' — advancing toward enemy on his mule"
+          }
+        },
+        {
+          "id": "F3_E2",
+          "event": {
+            "tr": "Abbâs'ın gür sesiyle ashabı geri çağırması — 'Ey Semüre ashabı!'",
+            "en": "Abbas calling back companions with his powerful voice — 'O Companions of the Samura!'"
+          }
+        },
+        {
+          "id": "F3_E3",
+          "event": {
+            "tr": "Ensâr ve muhâcirlerin 'Lebbeyk!' diyerek geri dönmesi",
+            "en": "Ansar and Muhajirun returning shouting 'Labbayk!'"
+          }
+        },
+        {
+          "id": "F3_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in düşmana toprak savurması",
+            "en": "Prophet throwing dust toward the enemy"
+          }
+        },
+        {
+          "id": "F3_E5",
+          "event": {
+            "tr": "İlâhî sekînetin inmesi — Tevbe 9:26",
+            "en": "Descent of divine tranquility (sakina) — Tawbah 9:26"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.46,
+            "lng": 40.14,
+            "label": "Hz. Peygamber sebat noktası",
+            "type": "prophet_stand"
+          },
+          {
+            "lat": 21.46,
+            "lng": 40.14,
+            "label": "Abbâs'ın çağrı noktası",
+            "type": "rally_point"
+          }
+        ],
+        "zones": [
+          {
+            "type": "rally_zone",
+            "coords": [
+              {
+                "lat": 21.465,
+                "lng": 40.13
+              },
+              {
+                "lat": 21.465,
+                "lng": 40.155
+              },
+              {
+                "lat": 21.455,
+                "lng": 40.155
+              },
+              {
+                "lat": 21.455,
+                "lng": 40.13
+              }
+            ],
+            "label": "Toparlanma alanı"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_victory",
+      "order": 4,
+      "name": {
+        "tr": "Zafer: Hevâzin bozgunu ve Evtâs çatışması",
+        "en": "Victory: Hawazin rout and Battle of Awtas"
+      },
+      "date_range": "10 Şevval 8 AH — aynı gün",
+      "duration": "birkaç saat",
+      "description": {
+        "tr": "Toparlanmanın ardından Müslümanlar karşı saldırıya geçti. Hevâzin safları kırıldı ve büyük bir bozgun başladı. Düşman kuvvetleri iki yöne dağıldı: bir kısmı Evtâs'a (arka karargâhlarına), bir kısmı Tâif'e kaçtı. Hz. Peygamber Ebû Âmir el-Eş'arî komutasında bir birliği Evtâs'a gönderdi; burada şiddetli bir çatışma yaşandı ve Ebû Âmir şehit düştü — yeğeni Ebû Mûsâ el-Eş'arî komutayı devralarak zaferi tamamladı. Hevâzin kampı ele geçirildi: 6.000 esir (çoğunluğu kadın ve çocuk), 24.000 deve, 40.000'den fazla koyun/keçi, büyük miktarda gümüş. Yaşlı Düreyd b. es-Sımme savaş alanında öldürüldü. Mâlik b. Avf kaçarak Tâif kalesine sığındı. Mâlik'in önceki uyarısı doğru çıkmıştı: aile stratejisi felaketle sonuçlandı.",
+        "en": "After the rally, the Muslims launched a counterattack. The Hawazin lines broke and a massive rout began. Enemy forces scattered in two directions: some to Awtas (their rear camp), others to Ta'if. The Prophet sent a unit under Abu Amir al-Ash'ari to Awtas; fierce fighting ensued and Abu Amir was martyred — his nephew Abu Musa al-Ash'ari took command and completed the victory. The Hawazin camp was captured: 6,000 prisoners (mostly women and children), 24,000 camels, 40,000+ sheep/goats, large quantities of silver. The elderly Durayd ibn al-Simma was killed on the battlefield. Malik ibn Awf escaped and took refuge in the fortress of Ta'if. Durayd's earlier warning proved correct: the family strategy ended in catastrophe."
+      },
+      "key_events": [
+        {
+          "id": "F4_E1",
+          "event": {
+            "tr": "Müslüman karşı saldırısı ve Hevâzin hattının çökmesi",
+            "en": "Muslim counterattack and collapse of Hawazin lines"
+          }
+        },
+        {
+          "id": "F4_E2",
+          "event": {
+            "tr": "Ebû Âmir el-Eş'arî'nin Evtâs'a gönderilmesi ve şehâdeti",
+            "en": "Abu Amir al-Ash'ari sent to Awtas and his martyrdom"
+          }
+        },
+        {
+          "id": "F4_E3",
+          "event": {
+            "tr": "Hevâzin kampının ele geçirilmesi — 6.000 esir, 24.000 deve",
+            "en": "Capture of Hawazin camp — 6,000 captives, 24,000 camels"
+          }
+        },
+        {
+          "id": "F4_E4",
+          "event": {
+            "tr": "Düreyd b. es-Sımme'nin öldürülmesi",
+            "en": "Killing of Durayd ibn al-Simma"
+          }
+        },
+        {
+          "id": "F4_E5",
+          "event": {
+            "tr": "Mâlik b. Avf'ın Tâif'e kaçması",
+            "en": "Malik ibn Awf's flight to Ta'if"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.4,
+            "lng": 40.3,
+            "label": "Evtâs çatışması",
+            "type": "battle"
+          },
+          {
+            "lat": 21.2703,
+            "lng": 40.4159,
+            "label": "Tâif (kaçış hedefi)",
+            "type": "fortress"
+          }
+        ],
+        "routes": [
+          "route_huneyn_taif_cirana"
+        ]
+      }
+    },
+    {
+      "id": "F5_taif_siege",
+      "order": 5,
+      "name": {
+        "tr": "Tâif kuşatması: Sakîf'in direnci ve başarısız kuşatma",
+        "en": "Siege of Ta'if: Thaqif's resistance and unsuccessful siege"
+      },
+      "date_range": "Şevval 8 AH (yaklaşık 20 gün)",
+      "duration": "~18-20 gün (rivâyetler değişir)",
+      "description": {
+        "tr": "Huneyn zaferinin ardından Hz. Peygamber kaçan Sakîf kuvvetlerini Tâif'e kadar takip etti. Tâif yüksek, müstahkem surlarla çevrili bir şehirdi ve Sakîf kabilesi savaşa hazırlıklıydı — bir yıllık erzak depolamışlardı. Müslümanlar mancınık (catapult) ve debbâbe (zırhlı sığınak/koçbaşı) kullandılar. Sakîf surlardan erimiş demir (veya kızgın yağ) dökerek debbâbeyi yaktı. Hz. Peygamber Tâif bağlarının kesilmesini emretti ama daha sonra bunu durdurdu. Kuşatma sırasında ~12 Müslüman şehit düştü — çoğu surlardan atılan oklarla. Selmân-ı Fârisî'nin mancınık tavsiyesi rivâyet edilir. Hz. Peygamber istişare sonucu kuşatmayı kaldırdı; 'Allah bize Sakîf hakkında (şimdilik) izin vermedi' dedi. Ömer 'Dua etmeyecek misiniz?' deyince Hz. Peygamber 'Allahım, Sakîf'i hidâyete erdir ve bize gönder!' diye dua etti. Gerçekten de Sakîf kabilesi ertesi yıl (9 AH) heyet göndererek kendiliğinden İslâm'a girdi.",
+        "en": "After the Hunayn victory, the Prophet pursued the fleeing Thaqif forces to Ta'if. Ta'if was a city surrounded by high, fortified walls, and the Thaqif tribe was prepared — they had stored a year's provisions. The Muslims used catapults (manjaniq) and armored shelters (dabbaba). Thaqif poured molten iron (or boiling oil) from the walls and burned the dabbaba. The Prophet ordered the cutting of Ta'if's vineyards but later stopped this. During the siege ~12 Muslims were martyred — mostly from arrows shot from the walls. Salman al-Farisi's catapult advice is narrated. After consultation, the Prophet lifted the siege; he said 'God has not given us permission (for now) regarding Thaqif.' When Umar asked 'Won't you pray [against them]?' the Prophet prayed 'O Allah, guide Thaqif and send them to us!' Indeed, the Thaqif tribe sent a delegation the following year (9 AH) and voluntarily embraced Islam."
+      },
+      "key_events": [
+        {
+          "id": "F5_E1",
+          "event": {
+            "tr": "Tâif'e yürüyüş ve kuşatma başlangıcı — Liyye'de karargâh",
+            "en": "March to Ta'if and beginning of siege — camp at Liyyah"
+          }
+        },
+        {
+          "id": "F5_E2",
+          "event": {
+            "tr": "Mancınık ve debbâbe kullanımı — İslâm tarihinde ilk kuşatma mühendisliği",
+            "en": "Use of catapults and dabbaba — first siege engineering in Islamic history"
+          }
+        },
+        {
+          "id": "F5_E3",
+          "event": {
+            "tr": "Sakîf'in debbâbeyi erimiş demir ile yakması",
+            "en": "Thaqif burning the dabbaba with molten iron"
+          }
+        },
+        {
+          "id": "F5_E4",
+          "event": {
+            "tr": "Tâif bağlarının kesilmesi emri ve durdurulması",
+            "en": "Order to cut Ta'if vineyards and its cancellation"
+          }
+        },
+        {
+          "id": "F5_E5",
+          "event": {
+            "tr": "Kuşatmanın kaldırılması — 'Allah bize Sakîf hakkında izin vermedi'",
+            "en": "Lifting of the siege — 'God has not given us permission regarding Thaqif'"
+          }
+        },
+        {
+          "id": "F5_E6",
+          "event": {
+            "tr": "Hz. Peygamber'in 'Allahım Sakîf'i hidâyete erdir!' duası",
+            "en": "Prophet's prayer 'O Allah, guide Thaqif!'"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.3,
+            "lng": 40.4,
+            "label": "Liyye karargâhı",
+            "type": "muslim_camp"
+          },
+          {
+            "lat": 21.2703,
+            "lng": 40.4159,
+            "label": "Tâif kaleleri",
+            "type": "fortress"
+          },
+          {
+            "lat": 21.275,
+            "lng": 40.42,
+            "label": "Mancınık mevzii",
+            "type": "siege_weapon"
+          },
+          {
+            "lat": 21.268,
+            "lng": 40.41,
+            "label": "Debbâbe saldırı noktası",
+            "type": "siege_weapon"
+          }
+        ],
+        "zones": [
+          {
+            "type": "siege_perimeter",
+            "coords": [
+              {
+                "lat": 21.28,
+                "lng": 40.4
+              },
+              {
+                "lat": 21.28,
+                "lng": 40.44
+              },
+              {
+                "lat": 21.26,
+                "lng": 40.44
+              },
+              {
+                "lat": 21.26,
+                "lng": 40.4
+              }
+            ],
+            "label": "Tâif kuşatma çemberi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F6_jiirana_spoils",
+      "order": 6,
+      "name": {
+        "tr": "Ci'râne'de ganimet dağıtımı: Ensâr'ın kırgınlığı ve Hz. Peygamber'in hutbesi",
+        "en": "Spoils distribution at Ji'rana: The Ansar's dismay and the Prophet's sermon"
+      },
+      "date_range": "Zilkade 8 AH (Mart 630)",
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Hz. Peygamber Tâif'ten çekildikten sonra Ci'râne'ye döndü. Devasa ganimetler burada bekletiliyordu: 6.000 esir, 24.000 deve, 40.000+ koyun/keçi ve büyük miktarda gümüş. Hz. Peygamber ~2 hafta bekledi (Hevâzin'in gelip esirlerini istemesini umarak). Hevâzin heyeti geldiğinde İslâm'a girmiş olarak geldi ve esirlerin iadesini istedi. Hz. Peygamber 'Mallar mı esirler mi?' diye sordu, onlar 'Esirler!' dedi. Hz. Peygamber kendi payını ve Abdülmuttalib oğullarının payını hemen bıraktı, diğer Müslümanları da ikna etti. 6.000 esirin tamamı serbest bırakıldı. Ganimet dağıtımında Hz. Peygamber müellefe-i kulûba (kalpleri İslâm'a ısındırılacaklara) — Ebû Süfyân, Muâviye, İkrime, Safvân, Süheyl b. Amr gibi yeni Müslümanlara — çok büyük paylar verdi. Ensâr buna kırıldı; aralarında 'Hz. Peygamber kendi kavmini bulunca bizi bıraktı' diye söylenenler oldu. Hz. Peygamber Ensâr'ı toplayıp meşhur hutbesini irâd etti: 'Ey Ensâr! İnsanlar deve ve koyun alıp evlerine dönerken, siz Allah'ın Rasûlü ile dönmek istemez misiniz? Canım elinde olan Allah'a yemin olsun, hicret olmasaydı ben Ensâr'dan biri olurdum. İnsanlar bir vadiye girse, Ensâr başka bir vadiye girse, ben Ensâr'ın vadisine girdim!' Ensâr ağladı ve 'Biz Allah'ın Rasûlü'nü nasîbimiz olarak yeter buluyoruz' dediler. Hz. Peygamber ayrıca Ci'râne'den umre yaparak Mekke'ye girdi.",
+        "en": "After withdrawing from Ta'if, the Prophet returned to Ji'rana. The massive spoils were stored here: 6,000 captives, 24,000 camels, 40,000+ sheep/goats, and large quantities of silver. The Prophet waited ~2 weeks (hoping Hawazin would come to claim their captives). When the Hawazin delegation arrived, they had embraced Islam and requested the return of captives. The Prophet asked 'Property or captives?' They chose captives. The Prophet immediately released his own share and that of the Banu Abd al-Muttalib, then persuaded other Muslims. All 6,000 captives were freed. In the spoils distribution, the Prophet gave very large shares to the mu'allafa al-qulub (those whose hearts were to be reconciled to Islam) — newly converted figures like Abu Sufyan, Mu'awiya, Ikrimah, Safwan, Suhayl ibn Amr. The Ansar were hurt; some said 'The Prophet found his own people and left us.' The Prophet gathered the Ansar and delivered his famous sermon: 'O Ansar! People take camels and sheep home, would you not want to return with the Messenger of God? By God, were it not for the Hijra, I would be one of the Ansar. If people went into one valley and the Ansar into another, I would go into the Ansar's valley!' The Ansar wept and said 'We are content with the Messenger of God as our share.' The Prophet also performed umrah from Ji'rana entering Mecca."
+      },
+      "key_events": [
+        {
+          "id": "F6_E1",
+          "event": {
+            "tr": "Ci'râne'de ganimet muhafazası ve Hevâzin heyetinin beklenmesi",
+            "en": "Guarding spoils at Ji'rana and waiting for Hawazin delegation"
+          }
+        },
+        {
+          "id": "F6_E2",
+          "event": {
+            "tr": "Hevâzin heyetinin gelişi ve 6.000 esirin tamamen serbest bırakılması",
+            "en": "Arrival of Hawazin delegation and complete release of 6,000 captives"
+          }
+        },
+        {
+          "id": "F6_E3",
+          "event": {
+            "tr": "Müellefe-i kulûba büyük ganimet payları — Ebû Süfyân'a 100 deve",
+            "en": "Large spoils shares to mu'allafa al-qulub — 100 camels to Abu Sufyan"
+          }
+        },
+        {
+          "id": "F6_E4",
+          "event": {
+            "tr": "Ensâr'ın kırgınlığı — 'Kendi kavmini bulunca bizi bıraktı'",
+            "en": "Ansar's dismay — 'He found his own people and left us'"
+          }
+        },
+        {
+          "id": "F6_E5",
+          "event": {
+            "tr": "Hz. Peygamber'in Ensâr'a meşhur hutbesi — 'Hicret olmasaydı Ensâr'dan olurdum!'",
+            "en": "Prophet's famous sermon to the Ansar — 'Were it not for Hijra I'd be one of the Ansar!'"
+          }
+        },
+        {
+          "id": "F6_E6",
+          "event": {
+            "tr": "Mâlik b. Avf'ın İslâm'a girmesi ve Hevâzin komutanlığına iade edilmesi",
+            "en": "Malik ibn Awf's conversion to Islam and restoration as Hawazin commander"
+          }
+        },
+        {
+          "id": "F6_E7",
+          "event": {
+            "tr": "Hz. Peygamber'in Ci'râne'den umre yapması",
+            "en": "Prophet performing umrah from Ji'rana"
+          }
+        }
+      ],
+      "map_elements": {
+        "markers": [
+          {
+            "lat": 21.58,
+            "lng": 40.0,
+            "label": "Ci'râne (ganimet + hutbe)",
+            "type": "distribution_camp"
+          },
+          {
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "label": "Mekke (umre)",
+            "type": "sacred_site"
+          }
+        ]
+      }
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 12000,
+      "total_range": "12.000 (İbn Hişâm: 12.000; Vâkıdî: 12.000; İbn Sa'd: 10.000-12.000)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "fetih_ordusu": {
+          "count_est": "~10.000",
+          "note_tr": "Mekke fethine katılmış ana kuvvet: muhâcirler, ensâr ve müttefik kabileler (Eslem, Gifâr, Müzeyne, Cüheyne, Süleym, Eşca')."
+        },
+        "new_meccan_muslims": {
+          "count_est": "~2.000",
+          "note_tr": "Mekke fethinden sonra Müslüman olanlar. Savaş tecrübesi sınırlı, bağlılıkları test edilmemiş."
+        },
+        "cavalry": {
+          "count_est": "bilinmiyor — sınırlı",
+          "note_tr": "Tam süvari sayısı rivâyet edilmemiş."
+        }
+      },
+      "key_commanders": [
+        {
+          "id": "comp_halid_velid",
+          "role": "Öncü kol komutanı (mukaddime)",
+          "note_tr": "Vadiye ilk giren ve pusu ile ilk darbe alan birlik."
+        },
+        {
+          "id": "abbas",
+          "role": "Hz. Peygamber'in yanında — çağrı görevi",
+          "note_tr": "Gür sesiyle kaçanları geri çağırdı."
+        },
+        {
+          "id": "ali",
+          "role": "Sancaktar ve Hz. Peygamber'in yanında sebat edenlerden",
+          "note_tr": "Bozgun anında Hz. Peygamber'in yanından ayrılmadı."
+        },
+        {
+          "id": "comp_ebu_ubeyde",
+          "role": "Kıdemli komutan",
+          "note_tr": "Toparlanma sürecinde kilit rol."
+        },
+        {
+          "id": "comp_ebu_musa",
+          "role": "Evtâs birlik komutanı (Ebû Âmir'den sonra)",
+          "note_tr": "Amcası Ebû Âmir'in şehâdetinden sonra komutayı devraldı."
+        }
+      ],
+      "equipment": {
+        "swords": "evet — tam donanım",
+        "bows": "evet",
+        "armor": "evet — Safvân'dan 100 set ödünç",
+        "spears": "evet",
+        "siege_equipment": "mancınık ve debbâbe (Tâif kuşatmasında)"
+      }
+    },
+    "enemy": {
+      "total": 20000,
+      "total_range": "4.000-20.000 (Vâkıdî: 20.000; bazı rivâyetler 4.000-30.000 arası)",
+      "commander": "malik_avf",
+      "commander_name": {
+        "tr": "Mâlik b. Avf en-Nasrî",
+        "en": "Malik ibn Awf al-Nasri"
+      },
+      "composition": {
+        "hevazin": {
+          "count_est": "çoğunluk",
+          "note_tr": "Nasr, Cüşem, Sa'd b. Bekr kolları. Ana savaş gücü."
+        },
+        "sakif": {
+          "count_est": "önemli katkı",
+          "note_tr": "Tâif'in hâkim kabilesi. Okçuluğuyla ünlü."
+        },
+        "families_herds": {
+          "count_est": "kadınlar, çocuklar, 24.000+ deve, 40.000+ koyun/keçi",
+          "note_tr": "Mâlik b. Avf'ın tartışmalı kararıyla ordunun arkasına yerleştirildi."
+        }
+      },
+      "key_figures": [
+        {
+          "name": "Mâlik b. Avf en-Nasrî",
+          "role": "Başkomutan",
+          "note_tr": "Genç ve hırslı. Aile stratejisi felaketle sonuçlandı. Huneyn'den sonra Tâif'e sığındı, daha sonra İslâm'a girdi."
+        },
+        {
+          "name": "Düreyd b. es-Sımme",
+          "role": "Yaşlı danışman/eski komutan",
+          "note_tr": "Câhiliye'nin efsanevi savaşçısı. Mâlik'in aile stratejisine itiraz etti ama dinlenmedi. Savaş alanında öldürüldü."
+        }
+      ],
+      "tactics": "Dar vadide pusu. İki yamaçtan ok yağmuru + süvari hücumu. Amacı: büyük orduyu dar alanda panik ve izdihamla yenmek.",
+      "equipment": {
+        "bows": "evet — ünlü Hevâzin/Sakîf okçuluk geleneği",
+        "swords": "evet",
+        "spears": "evet",
+        "cavalry": "evet — güçlü süvari"
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": "İbn Hişâm, es-Sîretü'n-Nebeviyye",
+        "ref": "IV/71-96",
+        "note_tr": "Ana anlatım. Pusu, bozgun, toparlanma ve Ci'râne ganimet dağıtımı detaylı."
+      },
+      {
+        "id": "WQ",
+        "name": "Vâkıdî, Kitâbü'l-Megâzî",
+        "ref": "III/885-980",
+        "note_tr": "En detaylı kaynak. İsim listeleri, konak yerleri, Tâif kuşatması teknik detayları."
+      },
+      {
+        "id": "IS",
+        "name": "İbn Sa'd, et-Tabakātü'l-Kübrâ",
+        "ref": "II/148-172",
+        "note_tr": "Ganimet dağıtımı ve müellefe-i kulûb isimleri detaylı."
+      },
+      {
+        "id": "TB",
+        "name": "Taberî, Târîhu'r-Rusül ve'l-Mülûk",
+        "ref": "III/68-85",
+        "note_tr": "Kronoloji ve rivâyet zincirleri güçlü. Düreyd b. es-Sımme itirazı burada detaylı."
+      },
+      {
+        "id": "BU",
+        "name": "Buhârî, el-Câmiu's-Sahîh, Megâzî",
+        "ref": "Megâzî 54-56",
+        "note_tr": "Sahih hadisler: Hz. Peygamber'in sebatı, Ensâr hutbesi, ganimet."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_huneyn_sebat",
+        "ref": "Buhârî, Megâzî 54; Müslim, Cihâd 78",
+        "topic_tr": "Hz. Peygamber'in Huneyn'de 'Ben Peygamberim, yalan yok!' diye sebat etmesi"
+      },
+      {
+        "id": "hds_huneyn_katir",
+        "ref": "Buhârî, Megâzî 54; Müslim, Cihâd 78",
+        "topic_tr": "Katır üzerinde düşmana ilerleme — aynı olayın farklı rivâyeti"
+      },
+      {
+        "id": "hds_huneyn_ensar_hutbe",
+        "ref": "Buhârî, Megâzî 56; Müslim, Zekât 46",
+        "topic_tr": "Hz. Peygamber'in Ci'râne'de Ensâr'a hutbesi — 'Hicret olmasaydı Ensâr'dan olurdum!'",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_huneyn_toprak_savurma",
+        "ref": "Müslim, Cihâd 81; Ahmed b. Hanbel",
+        "topic_tr": "Hz. Peygamber'in düşmana toprak/çakıl savurması — 'Yüzleri çirkinleşsin!'",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_huneyn_safvan_odunc",
+        "ref": "Ebû Dâvûd, Büyû' 88; Beyhakî",
+        "topic_tr": "Safvân b. Ümeyye'den 100 zırh ödünç alınması — 'Gasb mı, ödünç mü?'",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_huneyn_muellefe",
+        "ref": "Buhârî, Cizye 19; Müslim, Zekât 46",
+        "topic_tr": "Müellefe-i kulûba ganimet dağıtımı — Ebû Süfyân'a 100 deve",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_huneyn_abbas_nida",
+        "ref": "Müslim, Cihâd 78; İbn Hişâm",
+        "topic_tr": "Abbâs'ın gür sesiyle 'Ey Semüre ashabı!' diye çağırması",
+        "status": "new_needed"
+      }
+    ],
+    "modern_studies": [
+      {
+        "id": "watt_medina",
+        "name": "W. Montgomery Watt, Muhammad at Medina",
+        "note_tr": "Huneyn'in siyasi analizi ve kabile dinamikleri."
+      },
+      {
+        "id": "lings_muhammad",
+        "name": "Martin Lings, Muhammad: His Life Based on the Earliest Sources",
+        "note_tr": "Huneyn anlatımı detaylı ve akıcı."
+      },
+      {
+        "id": "hamidullah_battlefields",
+        "name": "Muhammed Hamidullah, Battlefields of the Prophet Muhammad",
+        "note_tr": "Saha çalışması ve haritalarla Huneyn coğrafyası."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "id": "SC1_enemy_count",
+        "topic": {
+          "tr": "Hevâzin-Sakîf ordu sayısı",
+          "en": "Hawazin-Thaqif army size"
+        },
+        "positions": [
+          {
+            "source": "Vâkıdî",
+            "claim": "20.000"
+          },
+          {
+            "source": "İbn Hişâm",
+            "claim": "Sayı belirtilmez (çok kalabalık)"
+          },
+          {
+            "source": "Modern tahminler",
+            "claim": "4.000-20.000 arası — 20.000 abartılı olabilir"
+          }
+        ],
+        "assessment": "Kesin sayı belirsiz. Hevâzin'in güçlü bir koalisyon kurduğu ve Müslüman ordusuna yakın büyüklükte olduğu genel kabul."
+      },
+      {
+        "id": "SC2_muslim_count",
+        "topic": {
+          "tr": "Müslüman ordu sayısı",
+          "en": "Muslim army size"
+        },
+        "positions": [
+          {
+            "source": "Çoğunluk rivâyet",
+            "claim": "12.000 (10.000 + 2.000)"
+          },
+          {
+            "source": "Bazı rivâyetler",
+            "claim": "10.000"
+          },
+          {
+            "source": "İbn Hişâm",
+            "claim": "12.000"
+          }
+        ],
+        "assessment": "12.000 sayısı genel kabul. Kur'ân 'çokluğunuz sizi böbürlendirdi' ile uyumlu."
+      },
+      {
+        "id": "SC3_durayd_age",
+        "topic": {
+          "tr": "Düreyd b. es-Sımme'nin yaşı",
+          "en": "Age of Durayd ibn al-Simma"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "Çok yaşlı, kör, deve üzerinde taşınıyordu"
+          },
+          {
+            "source": "Bazı rivâyetler",
+            "claim": "120-160 yaş aralığı (abartılı olabilir)"
+          },
+          {
+            "source": "Modern değerlendirme",
+            "claim": "En az 80-90 yaşında olmalı"
+          }
+        ],
+        "assessment": "Kesin yaş belirsiz ama Câhiliye döneminin son efsanevi savaşçılarından biriydi."
+      },
+      {
+        "id": "SC4_siege_duration",
+        "topic": {
+          "tr": "Tâif kuşatma süresi",
+          "en": "Duration of Ta'if siege"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "~20 gün"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "15-18 gün"
+          },
+          {
+            "source": "İbn Sa'd",
+            "claim": "~40 gün (daha uzun tahmin)"
+          }
+        ],
+        "assessment": "15-20 gün aralığı genel kabul. 40 gün rivâyeti muhtemelen yürüyüş dahil toplam süre."
+      },
+      {
+        "id": "SC5_who_remained",
+        "topic": {
+          "tr": "Hz. Peygamber yanında kimler kaldı",
+          "en": "Who remained with the Prophet during the rout"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "Ebû Bekir, Ömer, Ali, Abbâs, Ebû Süfyân b. Hâris, Fazl b. Abbâs ve birkaç muhâcir"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "~100 kişi kaldı"
+          },
+          {
+            "source": "Bazı rivâyetler",
+            "claim": "Yalnızca aile (Abbâs, Ali, Fazl) ve 8-10 kişi"
+          }
+        ],
+        "assessment": "Kesin sayı tartışmalı ama Hz. Peygamber'in çok az kişiyle kaldığı ve büyük cesaret gösterdiği üzerinde icmâ var."
+      },
+      {
+        "id": "SC6_spoils_detail",
+        "topic": {
+          "tr": "Ganimet miktarı",
+          "en": "Exact amount of spoils"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm / Vâkıdî",
+            "claim": "6.000 esir, 24.000 deve, 40.000+ koyun/keçi"
+          },
+          {
+            "source": "İbn Sa'd",
+            "claim": "Benzer rakamlar, gümüş miktarı eklenir"
+          },
+          {
+            "source": "Bazı rivâyetler",
+            "claim": "Deve sayısı değişir (20.000-24.000)"
+          }
+        ],
+        "assessment": "Rakamlar küçük farklarla tutarlı. İslâm tarihinin en büyük ganimeti olduğu kesin."
+      },
+      {
+        "id": "SC7_ensar_reaction",
+        "topic": {
+          "tr": "Ensâr'ın tepkisinin boyutu",
+          "en": "Extent of Ansar's reaction to spoils distribution"
+        },
+        "positions": [
+          {
+            "source": "Buhârî",
+            "claim": "Ciddi kırgınlık — Hz. Peygamber özel hutbe irad etti"
+          },
+          {
+            "source": "İbn Hişâm",
+            "claim": "Genç Ensâr arasında söylenti; büyükler sakin"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "Sa'd b. Ubâde aracılık yaptı"
+          }
+        ],
+        "assessment": "Kırgınlık gerçek ama kontrol altındaydı. Hz. Peygamber'in hutbesi sorunu çözdü."
+      },
+      {
+        "id": "SC8_catapult_source",
+        "topic": {
+          "tr": "Mancınık bilgisinin kaynağı",
+          "en": "Source of catapult knowledge"
+        },
+        "positions": [
+          {
+            "source": "Bazı rivâyetler",
+            "claim": "Selmân-ı Fârisî tavsiyesi (Hendek'teki gibi)"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "Mancınık Cüreş / Tâif yakınlarından temin edildi"
+          },
+          {
+            "source": "Modern değerlendirme",
+            "claim": "Kaynağı kesin değil; Hendek tecrübesiyle birlikte gelişim"
+          }
+        ],
+        "assessment": "Selmân bağlantısı tartışmalı ama İslâm ordusunun kuşatma mühendisliğine adım attığı kesin."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "25-27",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Huneyn Gazvesi'nin doğrudan zikredildiği âyetler. Kur'ân'da ismen anılan tek savaş. 25. âyet: 'Allah size birçok yerde yardım etti. Huneyn gününde de sayıca çokluğunuz sizi böbürlendirmişti ama bir işe yaramamıştı; yeryüzü bütün genişliğine rağmen size dar gelmişti, sonra arkanızı dönüp kaçmıştınız.' 26. âyet: 'Sonra Allah, Rasûlüne ve mü'minlere sekînetini indirdi, sizin görmediğiniz ordular indirdi ve kâfirlere azap etti.' 27. âyet: 'Sonra Allah bunun ardından dilediğinin tevbesini kabul eder.'",
+        "en": "Verses directly mentioning the Battle of Hunayn — the only battle named in the Quran. Verse 25: 'God has helped you on many occasions, including the day of Hunayn when your great numbers impressed you but they availed you nothing; the earth, despite its vastness, became too narrow for you, and you turned and fled.' Verse 26: 'Then God sent down His tranquility upon His Messenger and the believers, and sent down forces you did not see, and punished the disbelievers.' Verse 27: 'Then after that, God relents toward whom He wills.'"
+      },
+      "key_verses": [
+        {
+          "ayah": 25,
+          "topic_tr": "Sayıca çokluğun kibri ve faydası olmadığı — 'yevme Huneynin' (Huneyn günü)",
+          "phase_id": "F2_ambush",
+          "esbab_id": "en_tevbe_9_25_27"
+        },
+        {
+          "ayah": 26,
+          "topic_tr": "Sekînet (huzur) indirilmesi ve görünmez ordular — toparlanma anı",
+          "phase_id": "F3_rally",
+          "esbab_id": "en_tevbe_9_25_27"
+        },
+        {
+          "ayah": 27,
+          "topic_tr": "Tevbenin kabul edilmesi — Hevâzin'in İslâm'a girmesi",
+          "phase_id": "F6_jiirana_spoils",
+          "esbab_id": "en_tevbe_9_25_27"
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "58-60",
+      "phase_id": "F6_jiirana_spoils",
+      "topic": {
+        "tr": "Zekât ve ganimet dağıtımında 'müellefe-i kulûb' (kalpleri kazanılmak istenenler) kategorisi. Hz. Peygamber'in Huneyn ganimetlerini yeni Müslümanlara cömertçe dağıtmasının Kur'ânî dayanağı. Âyet müellefe-i kulûbu zekâtın sekiz sınıfından biri olarak belirler.",
+        "en": "The category of 'mu'allafa al-qulub' (those whose hearts are to be reconciled) in the distribution of zakat and spoils. The Quranic basis for the Prophet's generous distribution of Hunayn spoils to new Muslims. The verse establishes mu'allafa al-qulub as one of the eight categories of zakat."
+      },
+      "key_verses": [
+        {
+          "ayah": 60,
+          "topic_tr": "Zekâtın sekiz sınıfı — müellefe-i kulûb dahil",
+          "phase_id": "F6_jiirana_spoils"
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "152-153",
+      "phase_id": "F2_ambush",
+      "topic": {
+        "tr": "Uhud'daki bozgun ile Huneyn bozgunu arasında tematik paralellik. Her ikisinde de başlangıçta zafer, ardından kibir/gaflet sonucu bozgun, sonra toparlanma. Âl-i İmrân 152: 'Siz... birbirinize düştünüz, isyan ettiniz.' Huneyn'de de sayısal kibir aynı sonucu doğurdu.",
+        "en": "Thematic parallel between the rout at Uhud and the rout at Hunayn. In both cases: initial advantage, then rout due to pride/negligence, then recovery. Al Imran 152: 'You... fell into dispute and disobeyed.' At Hunayn too, numerical pride produced the same outcome."
+      },
+      "key_verses": [
+        {
+          "ayah": 152,
+          "topic_tr": "Uhud–Huneyn paralelliği: zafer sonrası bozgun",
+          "phase_id": "F2_ambush"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_huneyn_sebat",
+      "topic": "Huneyn'de Peygamber'in sebatı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_katir",
+      "topic": "Huneyn'de Hz. Peygamber'in sebâtı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_ensar_hutbe",
+      "topic": "Huneyn ganimetleri sonrası Ensâr'a hutbe",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_toprak_savurma",
+      "topic": "Huneyn'de Hz. Peygamber'in düşmana toprak savurması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_safvan_odunc",
+      "topic": "Safvân b. Ümeyye'den silah ödünç alınması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_muellefe",
+      "topic": "Müellefe-i kulûba ganimet dağıtımı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_huneyn_abbas_nida",
+      "topic": "Abbâs'ın Huneyn'de toplanma çağrısı",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Huneyn, İslâm ordusunun yaşadığı en büyük krizlerden biriydi — 12.000 kişilik dev ordu pusuyla çöktü, neredeyse tamamen dağıldı. Ancak Hz. Peygamber'in kişisel cesareti ve liderliği sayesinde toparlandı. Askeri dersler: 1) Sayısal üstünlük tek başına zafer garantisi değildir, 2) Dar arazide pusu taktikleri büyük orduları felç edebilir, 3) Moral ve liderlik askeri gücün en kritik unsurlarıdır. Tâif kuşatması İslâm ordusunun ilk ciddi kuşatma mühendisliği tecrübesidir (mancınık, debbâbe). Başarısızlığa rağmen gelecek kuşatmalar için deneyim kazanıldı.",
+      "en": "Hunayn was one of the greatest crises the Muslim army faced — a 12,000-strong army collapsed under ambush and nearly completely scattered. But it recovered through the Prophet's personal courage and leadership. Military lessons: 1) Numerical superiority alone does not guarantee victory, 2) Ambush tactics in confined terrain can paralyze large armies, 3) Morale and leadership are the most critical elements of military power. The Ta'if siege was the Muslim army's first serious experience with siege engineering (catapult, dabbaba). Despite failure, experience was gained for future sieges."
+    },
+    "political": {
+      "tr": "Huneyn, Mekke fethi ile birlikte Arap Yarımadası'nın siyasi haritasını kesinleştirdi. Hevâzin-Sakîf — son büyük bağımsız kabile koalisyonu — yenildi. Mâlik b. Avf ve Hevâzin kabilesi İslâm'a girdi. Sakîf (Tâif) ertesi yıl kendiliğinden geldi. Müellefe-i kulûb politikası yeni Müslüman Kureyş liderlerini sisteme entegre etti — Ebû Süfyân, Muâviye, İkrime, Safvân gibi isimler İslâm devletinin yönetim kadrosuna katıldı. Bu, Emevî hanedanlığının siyasi temelini attı.",
+      "en": "Hunayn, together with the Conquest of Mecca, finalized the political map of the Arabian Peninsula. Hawazin-Thaqif — the last great independent tribal coalition — was defeated. Malik ibn Awf and the Hawazin tribe embraced Islam. Thaqif (Ta'if) came voluntarily the following year. The mu'allafa al-qulub policy integrated newly Muslim Quraysh leaders into the system — Abu Sufyan, Mu'awiya, Ikrimah, Safwan joined the Islamic state's administrative cadre. This laid the political foundation of the Umayyad dynasty."
+    },
+    "social": {
+      "tr": "Ensâr-muhâcir ilişkisindeki çatlak ve Hz. Peygamber'in hutbesiyle onarılması İslâm toplumunun olgunlaşmasını gösterir. Ganimet dağıtımı adaleti tartışmaları İslâm hukukunun gelişimine katkıda bulundu. 6.000 esirin serbest bırakılması İslâm'ın merhamet ilkesinin büyük ölçekli uygulamasıdır. Hz. Peygamber'in süt annesi Halîme es-Sa'diye'nin kabilesi (Sa'd b. Bekr / Hevâzin) ile yüzleşme, kişisel ve toplumsal bağların sınandığı bir andı.",
+      "en": "The crack in Ansar-Muhajir relations and its repair through the Prophet's sermon shows the maturation of the Islamic community. Debates over spoils distribution contributed to the development of Islamic jurisprudence. The release of 6,000 captives is a large-scale application of Islam's mercy principle. The confrontation with the tribe of the Prophet's wet nurse Halima al-Sa'diyya (Sa'd ibn Bakr / Hawazin) was a moment that tested personal and social bonds."
+    },
+    "theological": {
+      "tr": "Huneyn, Kur'ân'da ismen zikredilen tek savaştır (Tevbe 9:25-26). Teolojik dersi açık: sayısal/maddî üstünlüğe güvenmek yanlıştır; zafer ancak Allah'ın yardımıyla gelir. 'Sekînet' (ilâhî huzur) kavramı Huneyn'de somutlaşır. Müellefe-i kulûb kavramı zekât fıkhının temelini oluşturur. Hz. Peygamber'in 'Ben Peygamberim, yalan yok!' nidâsı nübüvvetin en kritik anda teyididir.",
+      "en": "Hunayn is the only battle mentioned by name in the Quran (Tawbah 9:25-26). Its theological lesson is clear: relying on numerical/material superiority is wrong; victory comes only through God's help. The concept of 'sakina' (divine tranquility) is concretized at Hunayn. The mu'allafa al-qulub concept forms the basis of zakat jurisprudence. The Prophet's cry 'I am the Prophet, no lie!' is the affirmation of prophethood at the most critical moment."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "~70 şehit (kesin sayı rivâyet edilmez; ~12 Tâif kuşatmasında ek şehit)",
+        "wounded": "çok sayıda (özellikle pusu anında)"
+      },
+      "enemy": {
+        "killed": "yüzlerce (kesin sayı belirsiz)",
+        "captured": "6.000 esir (büyük çoğunluğu kadın ve çocuk — daha sonra serbest bırakıldı)",
+        "spoils": "24.000 deve, 40.000+ koyun/keçi, 4.000 okka gümüş"
+      },
+      "note": "Müslüman şehit sayısı Huneyn ve Tâif birlikte rivâyet edilir. Kesin ayrım güçtür."
+    }
+  },
+  "visualization": {
+    "default_zoom": 10,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "ambush": "#FF6F00",
+      "rout": "#D32F2F",
+      "rally": "#1565C0",
+      "prophet_stand": "#FFD600",
+      "route_march": "#1565C0",
+      "route_pursuit": "#0D47A1",
+      "landmark": "#6A1B9A",
+      "sacred": "#FF6F00",
+      "siege": "#795548",
+      "distribution": "#00695C"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli Noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "style": {
+          "icon": "landmark",
+          "color": "#6A1B9A"
+        }
+      },
+      {
+        "id": "layer_march_route",
+        "name": "Mekke → Huneyn Yürüyüşü",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[0]",
+        "style": {
+          "color": "#1565C0",
+          "weight": 3,
+          "dashArray": "8,4"
+        }
+      },
+      {
+        "id": "layer_pursuit_route",
+        "name": "Huneyn → Tâif → Ci'râne",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[1]",
+        "style": {
+          "color": "#0D47A1",
+          "weight": 3,
+          "dashArray": "5,5"
+        }
+      },
+      {
+        "id": "layer_ambush_zone",
+        "name": "Pusu Alanı",
+        "type": "zone",
+        "default_visible": true,
+        "style": {
+          "color": "#FF6F00",
+          "opacity": 0.3
+        }
+      },
+      {
+        "id": "layer_rout_zone",
+        "name": "Bozgun Alanı",
+        "type": "zone",
+        "default_visible": false,
+        "style": {
+          "color": "#D32F2F",
+          "opacity": 0.2
+        }
+      },
+      {
+        "id": "layer_siege_zone",
+        "name": "Tâif Kuşatma Çemberi",
+        "type": "zone",
+        "default_visible": true,
+        "style": {
+          "color": "#795548",
+          "opacity": 0.25
+        }
+      },
+      {
+        "id": "layer_phases",
+        "name": "Savaş Fazları (Animasyon)",
+        "type": "animation",
+        "default_visible": false,
+        "data_source": "phases",
+        "style": {
+          "speed": "normal",
+          "auto_advance": false
+        }
+      }
+    ]
+  },
+  "cross_references": {
+    "prophet_battles": {
+      "id": "pb_huneyn",
+      "status": "valid"
+    },
+    "companions": [
+      {
+        "id": "comp_halid_velid",
+        "role": "öncü kol komutanı",
+        "status": "valid"
+      },
+      {
+        "id": "abbas",
+        "role": "Hz. Peygamber yanında — çağrı görevi",
+        "status": "valid"
+      },
+      {
+        "id": "ali",
+        "role": "sancaktar ve sebat edenlerden",
+        "status": "valid"
+      },
+      {
+        "id": "ebubekir",
+        "role": "Hz. Peygamber yanında sebat",
+        "status": "valid"
+      },
+      {
+        "id": "omer",
+        "role": "Hz. Peygamber yanında sebat",
+        "status": "valid"
+      },
+      {
+        "id": "comp_ebu_ubeyde",
+        "role": "kıdemli komutan",
+        "status": "valid"
+      },
+      {
+        "id": "comp_ebu_sufyan_det",
+        "role": "müellefe-i kulûb — ganimetten 100 deve",
+        "status": "valid"
+      },
+      {
+        "id": "safvan_umeyye",
+        "role": "100 zırh ödünç veren (henüz Müslüman değil)",
+        "status": "valid"
+      },
+      {
+        "id": "comp_ebu_musa",
+        "role": "Evtâs birlik komutanı",
+        "status": "valid"
+      },
+      {
+        "id": "comp_muaviye",
+        "role": "müellefe-i kulûb — ganimetten pay",
+        "status": "valid"
+      },
+      {
+        "id": "comp_amr_as",
+        "role": "savaşa katılım",
+        "status": "valid"
+      },
+      {
+        "id": "comp_sad_b_ubade",
+        "role": "Ensâr ile Hz. Peygamber arası aracılık",
+        "status": "valid"
+      },
+      {
+        "id": "comp_beraa_azib",
+        "role": "ana hadis râvîsi",
+        "status": "valid"
+      },
+      {
+        "id": "comp_ummu_sulaym",
+        "role": "savaşa katılan kadın sahâbî",
+        "status": "valid"
+      },
+      {
+        "id": "halime_sadiye",
+        "role": "Hz. Peygamber'in süt annesi — Sa'd b. Bekr / Hevâzin",
+        "status": "valid"
+      },
+      {
+        "id": "comp_abdullah_abbas",
+        "role": "İbn Abbâs — rivâyet râvîsi",
+        "status": "valid"
+      },
+      {
+        "id": "ebu_sufyan_haris_v2",
+        "role": "Hz. Peygamber yanında sebat — katırın dizginlerini tuttu",
+        "status": "valid"
+      }
+    ],
+    "locations": [
+      {
+        "id": "huneyn",
+        "status": "valid"
+      },
+      {
+        "id": "huneyn_vadi",
+        "status": "valid"
+      },
+      {
+        "id": "taif",
+        "status": "valid"
+      },
+      {
+        "id": "taif_husun",
+        "status": "valid"
+      },
+      {
+        "id": "cirana",
+        "status": "valid"
+      },
+      {
+        "id": "sakif_taif",
+        "status": "valid"
+      }
+    ],
+    "tribes": [
+      {
+        "id": "hevazin",
+        "role": "ana düşman koalisyonu",
+        "status": "valid"
+      },
+      {
+        "id": "sakif",
+        "role": "düşman koalisyon ortağı — Tâif",
+        "status": "valid"
+      }
+    ],
+    "hadith_db": [
+      {
+        "id": "hds_huneyn_sebat",
+        "status": "exists"
+      },
+      {
+        "id": "hds_huneyn_katir",
+        "status": "exists"
+      }
+    ],
+    "hadith_new_needed": [
+      {
+        "id": "hds_huneyn_ensar_hutbe",
+        "ref": "Buhârî, Megâzî 56; Müslim, Zekât 46",
+        "topic_tr": "Ensâr'a meşhur hutbe — 'Hicret olmasaydı Ensâr'dan olurdum!'"
+      },
+      {
+        "id": "hds_huneyn_toprak_savurma",
+        "ref": "Müslim, Cihâd 81; Ahmed b. Hanbel",
+        "topic_tr": "Düşmana toprak/çakıl savurma"
+      },
+      {
+        "id": "hds_huneyn_safvan_odunc",
+        "ref": "Ebû Dâvûd, Büyû' 88; Beyhakî",
+        "topic_tr": "Safvân'dan 100 zırh ödünç"
+      },
+      {
+        "id": "hds_huneyn_muellefe",
+        "ref": "Buhârî, Cizye 19; Müslim, Zekât 46",
+        "topic_tr": "Müellefe-i kulûba ganimet dağıtımı"
+      },
+      {
+        "id": "hds_huneyn_abbas_nida",
+        "ref": "Müslim, Cihâd 78; İbn Hişâm",
+        "topic_tr": "Abbâs'ın kaçanları geri çağırması"
+      }
+    ],
+    "esbab_nuzul": [
+      {
+        "id": "en_tevbe_9_25_27",
+        "status": "valid"
+      }
+    ],
+    "related_battles": [
+      {
+        "id": "reconstruction_bedir",
+        "relation": "önceki — ilk büyük zafer, az sayıyla"
+      },
+      {
+        "id": "reconstruction_uhud",
+        "relation": "tematik paralel — zafer sonrası bozgun"
+      },
+      {
+        "id": "reconstruction_hendek",
+        "relation": "Selmân mancınık bilgisi"
+      },
+      {
+        "id": "reconstruction_hayber",
+        "relation": "kuşatma tecrübesi"
+      },
+      {
+        "id": "reconstruction_mekke_fethi",
+        "relation": "doğrudan öncesi — 2 hafta önce"
+      }
+    ]
+  }
+}

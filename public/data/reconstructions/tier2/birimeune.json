@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "id": "reconstruction_birimeune",
+    "battle_id": "seriyye_birimeune",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Bi'r-i Maûne (Safer 4 AH / Temmuz 625 CE). Âmir b. Tufeyl'in tuzağı; 70 hâfız/kurrâ sahâbînin şehit edildiği trajedi. Hz. Peygamber'in en çok üzüldüğü olaylardan biri. 30 gün boyunca sabah namazlarında beddua (kunût-ı nâzile) okudu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.2,
+        "lng": 40.2
+      },
+      "bbox": {
+        "north": 25.25,
+        "south": 25.15,
+        "east": 40.28,
+        "west": 40.12
+      },
+      "terrain_type": "desert_well",
+      "terrain_desc": {
+        "tr": "Bi'r-i Maûne, Medîne ile Necid arasında, Benî Süleym ve Benî Âmir topraklarının kesiştiği bölgede bir kuyu. Çevresinde çöl arazisi ve kayalık tepeler. Pusu kurmaya elverişli vadi geçitleri.",
+        "en": "Biʾr Maʿūna is a well between Medina and Najd, at the intersection of Banū Sulaym and Banū ʿĀmir territories. Surrounded by desert terrain and rocky hills with valley passages suitable for ambush."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_bir_kuyu",
+        "name": {
+          "tr": "Maûne Kuyusu",
+          "en": "Maʿūna Well"
+        },
+        "lat": 25.2,
+        "lng": 40.2,
+        "type": "water_source",
+        "note_tr": "Olayın adını aldığı kuyu; sahâbîlerin konakladığı yer."
+      },
+      {
+        "id": "lm_pusu_noktasi",
+        "name": {
+          "tr": "Pusu Noktası",
+          "en": "Ambush Point"
+        },
+        "lat": 25.21,
+        "lng": 40.22,
+        "type": "ambush",
+        "note_tr": "Benî Süleym ve müttefiklerinin pusu kurduğu vadi geçidi."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_bir",
+        "name": {
+          "tr": "Medîne → Bi'r-i Maûne",
+          "en": "Medina → Biʾr Maʿūna"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 24.8,
+            "lng": 39.9,
+            "label": "Ara konak"
+          },
+          {
+            "lat": 25.2,
+            "lng": 40.2,
+            "label": "Bi'r-i Maûne"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Ebû Berâ'nın talebi",
+        "en": "Background: Abū Barāʾ's request"
+      },
+      "date_range": {
+        "start": "Muharrem 4 AH",
+        "end": "Safer 4 AH (başı)"
+      },
+      "duration": "~1 ay",
+      "description": {
+        "tr": "Benî Âmir kabilesinin reisi Ebû Berâ Âmir b. Mâlik (Mülâibu'l-Esine — 'Mızraklarla oynayan'), Hz. Peygamber'e gelerek kabilesine İslam'ı öğretecek hocalar gönderilmesini istedi. Hz. Peygamber önce tereddüt etti çünkü bölge güvensizdi. Ebû Berâ 'Onları ben himayeme alıyorum' diye taahhüt verince, Hz. Peygamber 70 hâfız/kurrâ sahâbîden oluşan bir heyet göndermeye karar verdi. Bu sahâbîler 'ashâbu's-suffe'den, yani Mescid-i Nebevî'nin suffasında kalan ilim ehli gençlerden seçildi.",
+        "en": "Abū Barāʾ ʿĀmir b. Mālik, chief of Banū ʿĀmir (known as Mulāʿib al-Asinna — 'The Spear Player'), came to the Prophet requesting teachers of Islam for his tribe. The Prophet hesitated due to regional insecurity. When Abū Barāʾ guaranteed their protection, the Prophet decided to send 70 ḥāfiẓ/qurrāʾ companions, selected from the Ahl al-Ṣuffa — scholarly young men residing in the Prophet's Mosque."
+      },
+      "events": [
+        {
+          "id": "E0_1_ebu_bera_talep",
+          "name_tr": "Ebû Berâ'nın hoca talebi",
+          "description_tr": "Kabilesine İslam öğretecek âlimler istedi."
+        },
+        {
+          "id": "E0_2_tereddut_kabul",
+          "name_tr": "Hz. Peygamber'in tereddüt edip sonra kabul etmesi",
+          "description_tr": "Ebû Berâ'nın himaye garantisi üzerine 70 kişilik heyet gönderilmesine karar verildi."
+        }
+      ]
+    },
+    {
+      "id": "F1_yolculuk",
+      "order": 1,
+      "name": {
+        "tr": "70 sahâbînin yola çıkması",
+        "en": "Departure of the 70 companions"
+      },
+      "date_range": {
+        "start": "Safer 4 AH (başı)",
+        "end": "Safer 4 AH"
+      },
+      "duration": "Birkaç gün",
+      "description": {
+        "tr": "Münzir b. Amr el-Ensârî (el-Mu'nik li-yemût — 'ölmek için atılan' lakabıyla anılacak) komutasında 70 kurrâ sahâbî Medîne'den yola çıktı. Bunlar Kur'ân hâfızı, gece ibâdet eden, gündüz müslümanlara öğreten seçkin bir topluluktu. Bi'r-i Maûne'ye ulaştıklarında Haram b. Milhân'ı elçi olarak Âmir b. Tufeyl'e gönderdiler.",
+        "en": "Under the command of Mundhir b. ʿAmr al-Anṣārī (later nicknamed al-Muʿniq li-yamūt — 'rushing to die'), 70 qurrāʾ companions departed Medina. They were Qurʾān memorizers, night worshippers, and daytime teachers — an elite scholarly group. Upon reaching Biʾr Maʿūna, they sent Ḥarām b. Milḥān as envoy to ʿĀmir b. Ṭufayl."
+      },
+      "events": [
+        {
+          "id": "E1_1_heyet_cikis",
+          "name_tr": "70 kişilik heyetin Medîne'den çıkışı",
+          "description_tr": "Münzir b. Amr komutasında seçkin kurrâ topluluğu."
+        },
+        {
+          "id": "E1_2_haram_elci",
+          "name_tr": "Haram b. Milhân'ın elçi gönderilmesi",
+          "description_tr": "Âmir b. Tufeyl'e İslam mektubunu götürdü."
+        }
+      ]
+    },
+    {
+      "id": "F2_ihanet",
+      "order": 2,
+      "name": {
+        "tr": "Âmir b. Tufeyl'in ihaneti ve pusu",
+        "en": "ʿĀmir b. Ṭufayl's treachery and the ambush"
+      },
+      "date_range": {
+        "start": "Safer 4 AH",
+        "end": "Safer 4 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Âmir b. Tufeyl, Ebû Berâ'nın yeğeniydi ama dayısının himaye sözünü tanımadı. Haram b. Milhân'ı arkadan mızraklattı. Haram, mızrak vücuduna saplanırken 'Fuztu bi-Rabbil-Kâbe! (Kâbe'nin Rabbine yemin olsun ki kurtuldum!)' diye haykırdı ve şehit oldu. Ardından Âmir b. Tufeyl, Benî Süleym kabilelerini (Ri'l, Zekvân, Usayye) sahâbîlerin üzerine kışkırttı. 70 sahâbî kuşatıldı ve tamamı şehit edildi. Sadece Amr b. Ümeyye ed-Damrî ve bir sahâbî (Ka'b b. Zeyd — bazı rivâyetlerde) hayatta kaldı.",
+        "en": "ʿĀmir b. Ṭufayl was Abū Barāʾ's nephew but refused to honor his uncle's guarantee. He had Ḥarām b. Milḥān speared from behind. As the spear pierced him, Ḥarām cried: 'Fuztu bi-Rabb al-Kaʿba! (I have won, by the Lord of the Kaʿba!)' and was martyred. ʿĀmir then incited Banū Sulaym clans (Riʿl, Dhakwān, ʿUṣayya) to attack. All 70 companions were surrounded and martyred. Only ʿAmr b. Umayya al-Ḍamrī and possibly Kaʿb b. Zayd survived."
+      },
+      "events": [
+        {
+          "id": "E2_1_haram_sehadet",
+          "name_tr": "Haram b. Milhân'ın şehadeti",
+          "description_tr": "'Fuztu bi-Rabbil-Kâbe!' sözüyle şehit oldu."
+        },
+        {
+          "id": "E2_2_pusu",
+          "name_tr": "Benî Süleym'in pusuya yatması",
+          "description_tr": "Ri'l, Zekvân, Usayye kabileleri 70 sahâbîyi kuşattı."
+        },
+        {
+          "id": "E2_3_toplu_sehadet",
+          "name_tr": "70 kurrâ sahâbînin şehadeti",
+          "description_tr": "Tamamı savaşarak şehit düştü; Münzir b. Amr en son şehit olanlardan."
+        }
+      ]
+    },
+    {
+      "id": "F3_hayatta_kalanlar",
+      "order": 3,
+      "name": {
+        "tr": "Amr b. Ümeyye'nin kurtuluşu ve haberin Medîne'ye ulaşması",
+        "en": "ʿAmr b. Umayya's survival and news reaching Medina"
+      },
+      "date_range": {
+        "start": "Safer 4 AH",
+        "end": "Safer 4 AH"
+      },
+      "duration": "Birkaç gün",
+      "description": {
+        "tr": "Amr b. Ümeyye ed-Damrî, olay sırasında develeri otlatıyordu. Akbabalardan trajedinin farkına vardı. Esir düştü ama Âmir b. Tufeyl, annesinin adağı gerekçesiyle onu serbest bıraktı (Haram'ın kulağını kesip boynuna münâdî nişanı olarak taktıktan sonra). Amr, Medîne'ye dönerken yolda iki Benî Âmirli'yi öldürdü — ancak onların aslında müslümanlarla antlaşmalı olduğu ortaya çıktı ve Hz. Peygamber diyetlerini ödedi.",
+        "en": "ʿAmr b. Umayya al-Ḍamrī was tending camels during the attack. He noticed vultures and realized the tragedy. Captured, he was released by ʿĀmir b. Ṭufayl due to his mother's vow. Returning to Medina, ʿAmr killed two men from Banū ʿĀmir — but they turned out to be protected by treaty, and the Prophet paid their blood-money."
+      },
+      "events": [
+        {
+          "id": "E3_1_amr_kurtulus",
+          "name_tr": "Amr b. Ümeyye'nin kurtuluşu",
+          "description_tr": "Develeri otlatırken olaydan kurtuldu; esir düşüp serbest bırakıldı."
+        },
+        {
+          "id": "E3_2_haber_medine",
+          "name_tr": "Haberin Medîne'ye ulaşması",
+          "description_tr": "Hz. Peygamber büyük üzüntü yaşadı."
+        }
+      ]
+    },
+    {
+      "id": "F4_kunut",
+      "order": 4,
+      "name": {
+        "tr": "Hz. Peygamber'in 30 gün kunût-ı nâzile okuması",
+        "en": "The Prophet's 30-day qunūt al-nāzila supplication"
+      },
+      "date_range": {
+        "start": "Safer 4 AH",
+        "end": "Rebîülevvel 4 AH"
+      },
+      "duration": "30 gün",
+      "description": {
+        "tr": "Hz. Peygamber, 30 gün boyunca sabah namazlarında Ri'l, Zekvân ve Usayye kabilelerine beddua etti (kunût-ı nâzile). Bu, Hz. Peygamber'in en uzun süreli ve en derin üzüntüsünü yaşadığı olaylardan biriydi. Sahâbîler onu hiç bu kadar üzgün görmemişlerdi. Bu olay, ileride İslam'a davet heyetlerinin korumasız gönderilmemesi ilkesinin yerleşmesine yol açtı.",
+        "en": "For 30 days, the Prophet recited qunūt al-nāzila (supplication against aggressors) during morning prayers against the clans of Riʿl, Dhakwān, and ʿUṣayya. This was one of the Prophet's longest and deepest periods of grief. Companions had never seen him so sorrowful. This tragedy established the principle that da'wa delegations should never be sent without protection."
+      },
+      "events": [
+        {
+          "id": "E4_1_kunut",
+          "name_tr": "30 gün kunût-ı nâzile",
+          "description_tr": "Sabah namazlarında Ri'l, Zekvân ve Usayye'ye beddua."
+        },
+        {
+          "id": "E4_2_uzuntu",
+          "name_tr": "Hz. Peygamber'in derin üzüntüsü",
+          "description_tr": "Sahâbîler onu hiç bu kadar üzgün görmemişlerdi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "70 (kurrâ/hâfız)",
+      "commander": "munzir_b_amr",
+      "commander_name": {
+        "tr": "Münzir b. Amr el-Ensârî (el-Mu'nik li-yemût)",
+        "en": "Mundhir b. ʿAmr al-Anṣārī (al-Muʿniq li-yamūt)"
+      },
+      "composition": {
+        "ashab_suffa": {
+          "note_tr": "Mescid-i Nebevî suffasında kalan genç hâfızlar ve âlimler"
+        }
+      },
+      "equipment": {
+        "note_tr": "Hafif donanım; bunlar savaşçı değil ilim heyetiydi."
+      },
+      "special_note": {
+        "tr": "Bunlar Kur'ân hâfızı, gece ibâdet ehli, gündüz müslümanlara öğreten seçkin bir gruptu. Kaybedilmeleri müslüman toplumun ilmî kapasitesine ağır bir darbe oldu.",
+        "en": "These were Qurʾān memorizers, night worshippers, daytime teachers — an elite group. Their loss dealt a severe blow to the scholarly capacity of the Muslim community."
+      }
+    },
+    "enemy": {
+      "total": "Benî Süleym kabilelerinden yüzlerce savaşçı",
+      "commander_name": {
+        "tr": "Âmir b. Tufeyl (kışkırtıcı) + Ri'l, Zekvân, Usayye reisleri",
+        "en": "ʿĀmir b. Ṭufayl (instigator) + Riʿl, Dhakwān, ʿUṣayya chiefs"
+      },
+      "composition": {
+        "beni_sulaym": {
+          "note_tr": "Ri'l, Zekvân ve Usayye alt kolları"
+        },
+        "beni_amir_dissident": {
+          "note_tr": "Âmir b. Tufeyl'in çevresi (Ebû Berâ'ya rağmen)"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Seriyyetü Bi'r-i Maûne",
+        "note_tr": "En ayrıntılı anlatım; Haram'ın şehadeti, Münzir'in rolü."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Bi'r-i Maûne",
+        "note_tr": "Asker sayısı detayları ve Amr b. Ümeyye'nin kurtuluşu."
+      },
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Megâzî, Bâbu gazvetü'r-Recî' ve Ri'l ve Zekvân",
+        "note_tr": "Kunût-ı nâzile rivâyeti ve 70 kurrânın şehadeti."
+      }
+    ],
+    "hadith": [
+      "hds_birimeune_haram",
+      "hds_birimeune_kunut",
+      "hds_birimeune_yetmis_kurra"
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Hamidullah",
+        "work": "İslam Peygamberi",
+        "note_tr": "Olayın stratejik analizi ve Necid bölgesi güvenlik değerlendirmesi."
+      },
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Kabile siyaseti bağlamında Bi'r-i Maûne."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Şehit sayısı",
+        "detail_tr": "Çoğu kaynak 70 derken, bazıları 40 veya 69 der.",
+        "resolution_tr": "Buhârî'nin 70 rakamı tercih edildi."
+      },
+      {
+        "topic_tr": "Hayatta kalanlar",
+        "detail_tr": "Amr b. Ümeyye kesin; Ka'b b. Zeyd tartışmalı (bazı kaynaklar Hendek'te şehit olduğunu söyler).",
+        "resolution_tr": "Her iki isim de zikredildi; Ka'b'ın durumu tartışmalı olarak not edildi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "169-171",
+      "phase_id": "F2_ihanet",
+      "topic": {
+        "tr": "Allah yolunda öldürülenlerin diri ve rızıklandırılmış olması",
+        "en": "Those killed in the way of Allah are alive and provided for"
+      },
+      "key_verses": [
+        {
+          "ayah": 169,
+          "topic_tr": "Şehitlerin Allah katında diri olup rızıklandırıldıkları",
+          "phase_id": "F2_ihanet",
+          "esbab_id": "en_aliimran_3_169"
+        },
+        {
+          "ayah": 170,
+          "topic_tr": "Şehitler sevinçli; arkalarından geleceklere müjde",
+          "phase_id": "F2_ihanet"
+        },
+        {
+          "ayah": 171,
+          "topic_tr": "Allah'ın ni'met ve fazlından sevinirler; müminlerin ecrini zayi etmez",
+          "phase_id": "F2_ihanet"
+        }
+      ],
+      "nuzul_context_tr": "Bi'r-i Maûne şehitleri (ve bir görüşe göre Uhud şehitleri) hakkında nâzil oldu. Hz. Peygamber şehitlerin 'Rabbimize söyleyin, biz razıyız, O da bizden razı' mesajını aktardı."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_birimeune_haram",
+      "topic": "Haram b. Milhân'ın 'Fuztu bi-Rabbil-Kâbe!' diyerek şehit olması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_birimeune_kunut",
+      "topic": "Hz. Peygamber'in 30 gün kunût-ı nâzile okuması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_birimeune_yetmis_kurra",
+      "topic": "70 kurrâ sahâbînin şehadeti",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "70 seçkin savaşçı/hâfız kaybedildi — bu, Uhud'dan sonra en ağır kayıp. Necid bölgesine güvenlik açığı oluştu.",
+      "en": "70 elite fighters/memorizers lost — the heaviest loss after Uḥud. A security gap emerged in the Najd region."
+    },
+    "political": {
+      "tr": "Elçi/heyet dokunulmazlığının ihlali, Arap kabile hukukunda büyük skandal oldu. Ebû Berâ'nın himaye sözünün çiğnenmesi, yeğeni Âmir b. Tufeyl'e karşı kabile içi gerginlik yarattı.",
+      "en": "The violation of envoy immunity was a major scandal in Arab tribal law. The breach of Abū Barāʾ's guarantee created intra-tribal tension against ʿĀmir b. Ṭufayl."
+    },
+    "social": {
+      "tr": "Ashâbu's-Suffe'nin büyük bölümü kaybedildi — bu, müslüman toplumun ilmî ve eğitim kapasitesine ağır darbe. Hz. Peygamber'in 30 gün süren kunûtu, toplumsal yasın derinliğini gösterir.",
+      "en": "A major portion of the Ahl al-Ṣuffa was lost — a severe blow to the community's scholarly and educational capacity. The Prophet's 30-day qunūt reflected the depth of communal mourning."
+    },
+    "theological": {
+      "tr": "Âl-i İmrân 169-171, şehitlerin Allah katında diri olduğunu teyit etti. Bi'r-i Maûne, İslam'da şehadet kavramının en derin örneklerinden oldu.",
+      "en": "Āl ʿImrān 169-171 confirmed that martyrs are alive with their Lord. Biʾr Maʿūna became one of the deepest examples of martyrdom in Islam."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 70,
+        "wounded": 0,
+        "note_tr": "Tamamı şehit (1-2 hayatta kalan hariç)"
+      },
+      "enemy": {
+        "killed": "Bilinmiyor",
+        "wounded": "Bilinmiyor"
+      }
+    },
+    "treaties": [],
+    "territorial_change": {
+      "tr": "Necid bölgesinde müslüman nüfuzu geçici olarak zayıfladı.",
+      "en": "Muslim influence in the Najd region was temporarily weakened."
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_beni_nadir",
+        "name_tr": "Benî Nadîr Kuşatması (Rebîülevvel 4 AH)",
+        "description_tr": "Bi'r-i Maûne'nin diyetini ödeme meselesi, Benî Nadîr'in ihanetinin tetikleyicilerinden biri oldu."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 11,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "ambush": "#B71C1C",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâh",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_ambush",
+        "name": "Pusu bölgesi",
+        "type": "zone",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "timeline",
+        "default_visible": false
+      }
+    ]
+  }
+}

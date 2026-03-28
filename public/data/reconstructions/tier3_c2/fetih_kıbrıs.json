@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "recon_fetih_kıbrıs",
+    "battle_id": "fetih_kıbrıs",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 35.13,
+        "lng": 33.43
+      },
+      "name": "Kıbrıs Fethi",
+      "modern_location": "Kıbrıs"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Deniz Seferi",
+      "date_range": "28",
+      "duration": "",
+      "description": "Muâviye donanma ile Kıbrıs'a yöneldi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "28",
+      "duration": "",
+      "description": "Kıbrıs ele geçirildi; cizye antlaşması.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Muâviye b. Ebî Süfyân",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Buhârî, Cihâd 3",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Taberî, Târîh, IV/258",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "Belâzürî, Fütûh, 152",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_deniz_gazisi",
+      "topic": "Hz. Peygamber'in deniz gazisine katılanlara cennet müjdesi — Ümmü Harâm hadisi",
+      "relevance": "direct",
+      "source": "Buhârî, Cihâd; Müslim, İmâre"
+    }
+  ],
+  "impact": {
+    "result": "Zafer",
+    "significance": "İslâm'ın ilk deniz seferi. Ümmü Harâm binti Milhân bu seferde şehit oldu (Hz. Peygamber'in müjdesi gerçekleşti).",
+    "cross_references": [
+      "fetih_zat_savari"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

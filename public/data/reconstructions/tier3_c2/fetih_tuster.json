@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "recon_fetih_tuster",
+    "battle_id": "fetih_tuster",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.04,
+        "lng": 48.86
+      },
+      "name": "Tüster Fethi",
+      "modern_location": "Şuştar, Huzistan, İran"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma",
+      "date_range": "20",
+      "duration": "",
+      "description": "Tüster kuşatıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Teslim",
+      "date_range": "20",
+      "duration": "",
+      "description": "Hürmüzân esir alınarak Medine'ye gönderildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ebû Mûsâ el-Eş'arî",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Hürmüzân",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/78",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 374",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_iran_fethi_mustu",
+      "topic": "Hendek kazılırken İran fethi müjdesi",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel"
+    }
+  ],
+  "impact": {
+    "result": "Hürmüzân esir alındı",
+    "significance": "Huzistan'ın fethi tamamlandı. Hürmüzân Hz. Ömer'in huzuruna getirildi ve Müslüman oldu.",
+    "cross_references": [
+      "kadisiye",
+      "nihavend"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "id": "reconstruction_beyat_ridvan",
+    "battle_id": "beyat_ridvan",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Bey'atü'r-Rıdvân (Rıdvân Biati / Ağaç Altında Biat, Zilkade 6 AH / Mart 628 CE). Hz. Osman'ın Mekke'de tutulması haberi üzerine sahâbîler Hz. Peygamber'e ölünceye kadar savaşma sözü verdiler. 1.400-1.500 kişi Hudeybiye'de bir ağacın altında biat etti. Fetih Sûresi 48:18-19'da Allah'ın rızâsı (rıdvân) bildirildi. Hudeybiye Antlaşması'nın diplomatik zeminini hazırladı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.441,
+        "lng": 39.6072
+      },
+      "bbox": {
+        "north": 21.46,
+        "south": 21.42,
+        "east": 39.63,
+        "west": 39.58
+      },
+      "terrain_type": "haram_border_plain",
+      "terrain_desc": {
+        "tr": "Hudeybiye bölgesi, Mekke Harem sınırının hemen dışında, kurak bir düzlük. Bir ağaç ('semüre' / sakız ağacı) etrafında toplantı yapıldı. Su kısıtlı; sahâbîler kudüret olarak bilinen sığ bir kuyudan içtiler.",
+        "en": "Hudaybiyah area, just outside the Mecca Haram boundary, an arid plain. The pledge took place around a tree (samura / gum tree). Water was scarce; companions drank from a shallow well known as Qudrat."
+      }
+    },
+    "route": {
+      "origin": {
+        "name": "Medîne",
+        "lat": 24.4672,
+        "lng": 39.6112
+      },
+      "destination": {
+        "name": "Hudeybiye",
+        "lat": 21.441,
+        "lng": 39.6072
+      },
+      "distance_km": "~420",
+      "duration": "~10 gün"
+    },
+    "key_locations": [
+      {
+        "id": "loc_biat_agaci",
+        "name_tr": "Biat Ağacı (Şeceretü'r-Rıdvân)",
+        "lat": 21.4415,
+        "lng": 39.607,
+        "type": "event_site",
+        "role_tr": "Biatin yapıldığı semüre (sakız) ağacı. Hz. Ömer döneminde fitne endişesiyle kesildiği rivâyet edilir."
+      },
+      {
+        "id": "loc_hudeybiye_kuyu",
+        "name_tr": "Hudeybiye Kuyusu",
+        "lat": 21.4405,
+        "lng": 39.6075,
+        "type": "water",
+        "role_tr": "Sığ su kaynağı; Hz. Peygamber'in mübarek eliyle dokunmasıyla suyun bereketlendiği rivâyet edilir."
+      },
+      {
+        "id": "loc_harem_siniri",
+        "name_tr": "Mekke Harem sınırı",
+        "lat": 21.445,
+        "lng": 39.61,
+        "type": "boundary",
+        "role_tr": "Kureyş'in Müslümanları Harem'e sokmadığı sınır noktası."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Osman'ın elçi gönderilmesi",
+        "en": "Background: Uthman's embassy to Mecca"
+      },
+      "date_range": {
+        "hijri": "Zilkade 6 AH",
+        "ce": "Mart 628"
+      },
+      "duration": "~2 gün",
+      "description": {
+        "tr": "Hz. Peygamber umre niyetiyle gelen kafileyi temsilen Hz. Osman'ı Mekke'ye elçi olarak gönderdi. Osman'ın görevi Kureyş'e barışçıl niyet iletmekti. Ancak Osman Mekke'de alıkonuldu ve öldürüldüğü haberi yayıldı.",
+        "en": "The Prophet sent Uthman as envoy to Mecca to convey peaceful intentions. Uthman was detained in Mecca and a rumor spread that he had been killed."
+      },
+      "events": [
+        {
+          "id": "E0_1_osman_gonderilmesi",
+          "name_tr": "Hz. Osman'ın Mekke'ye gönderilmesi",
+          "description_tr": "Hz. Peygamber önce Hirâş b. Ümeyye'yi gönderdi; devesi kesildi, kendisi dövüldü. Bunun üzerine Hz. Osman tercih edildi."
+        },
+        {
+          "id": "E0_2_olduruldu_haberi",
+          "name_tr": "Osman öldürüldü söylentisi",
+          "description_tr": "Osman'ın Mekke'de tutulması uzayınca 'şehit edildi' haberi yayıldı. Ordu büyük üzüntüye kapıldı."
+        }
+      ]
+    },
+    {
+      "id": "F1_biat_cagrisi",
+      "order": 1,
+      "name": {
+        "tr": "Hz. Peygamber'in biat çağrısı",
+        "en": "The Prophet's call for the pledge"
+      },
+      "date_range": {
+        "hijri": "Zilkade 6 AH",
+        "ce": "Mart 628"
+      },
+      "duration": "Aynı gün",
+      "description": {
+        "tr": "Hz. Peygamber Osman'ın öldürüldüğü haberini aldıktan sonra sahâbîleri ağacın altına çağırdı. 'Osman'ın kanını almadan geri dönmeyeceğiz' buyurdu. Bu, fiilen Mekke'ye karşı savaş ilanı anlamına geliyordu.",
+        "en": "Upon receiving news of Uthman's alleged death, the Prophet called companions under the tree. 'We will not depart without avenging Uthman's blood.' This effectively amounted to a declaration of war against Mecca."
+      },
+      "events": [
+        {
+          "id": "E1_1_cagri",
+          "name_tr": "Ağaç altında toplanma çağrısı",
+          "description_tr": "Hz. Peygamber bir semüre (sakız) ağacının altına oturdu ve sahâbîleri biate davet etti."
+        }
+      ]
+    },
+    {
+      "id": "F2_biat",
+      "order": 2,
+      "name": {
+        "tr": "Biat: Ölüm üzerine söz",
+        "en": "The Pledge: Oath unto death"
+      },
+      "date_range": {
+        "hijri": "Zilkade 6 AH",
+        "ce": "Mart 628"
+      },
+      "duration": "Birkaç saat",
+      "description": {
+        "tr": "1.400-1.500 sahâbî teker teker Hz. Peygamber'in eline biat etti. 'Kaçmamak, ölüm üzerine savaşmak' sözü verildi. Hz. Peygamber bir eliyle kendi elini tutarak 'Bu Osman'ın biatidir' buyurdu; Osman'ı gıyabında biat ettirdi. Yalnız Cedd b. Kays (münâfık) kaçarak biat etmedi.",
+        "en": "1,400-1,500 companions pledged one by one by clasping the Prophet's hand. They vowed not to flee and to fight to the death. The Prophet placed one hand over the other saying 'This is Uthman's pledge,' pledging on his behalf in absentia. Only Jadd ibn Qays (a hypocrite) evaded the pledge."
+      },
+      "events": [
+        {
+          "id": "E2_1_biat_baslangic",
+          "name_tr": "Biatın başlaması",
+          "description_tr": "İlk biat edenler muhâcirler ve Ensâr'ın önderleri oldu. Hz. Ebû Bekir, Hz. Ömer, Hz. Ali öncü biat edenler arasında."
+        },
+        {
+          "id": "E2_2_osman_giyabi",
+          "name_tr": "Hz. Osman'ın gıyâbî biati",
+          "description_tr": "Hz. Peygamber sağ elini sol eli üzerine koyarak: 'Bu Osman içindir' buyurdu."
+        },
+        {
+          "id": "E2_3_cedd_kacis",
+          "name_tr": "Cedd b. Kays'ın kaçınması",
+          "description_tr": "Münâfıklardan Cedd b. Kays devesinin arkasına saklanarak biattan kaçtı; tek istisna."
+        }
+      ]
+    },
+    {
+      "id": "F3_diplomatik_sonuc",
+      "order": 3,
+      "name": {
+        "tr": "Diplomatik sonuç: Kureyş'in geri adım atması",
+        "en": "Diplomatic result: Quraysh backing down"
+      },
+      "date_range": {
+        "hijri": "Zilkade 6 AH",
+        "ce": "Mart 628"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Biat haberi Mekke'ye ulaştığında Kureyş büyük endişeye kapıldı. Osman serbest bırakıldı. Süheyl b. Amr barış görüşmeleri için gönderildi. Bu, Hudeybiye Antlaşması'nın zeminini hazırladı. Biatın askerî kararlılık göstermesi, diplomatik çözümü mümkün kıldı.",
+        "en": "When news of the pledge reached Mecca, Quraysh grew alarmed. Uthman was released. Suhayl ibn Amr was sent to negotiate. This paved the way for the Treaty of Hudaybiyah. The military resolve shown by the pledge made the diplomatic solution possible."
+      },
+      "events": [
+        {
+          "id": "E3_1_osman_donus",
+          "name_tr": "Hz. Osman'ın serbest bırakılması",
+          "description_tr": "Biat haberinin ardından Kureyş Osman'ı serbest bıraktı. Osman sağ sâlim karargâha döndü."
+        },
+        {
+          "id": "E3_2_suheyl",
+          "name_tr": "Süheyl b. Amr'ın gönderilmesi",
+          "description_tr": "Kureyş barış müzakerecisi olarak Süheyl b. Amr'ı gönderdi; Hudeybiye Antlaşması görüşmeleri başladı."
+        }
+      ]
+    },
+    {
+      "id": "F4_ilahi_onay",
+      "order": 4,
+      "name": {
+        "tr": "İlâhî onay: Fetih Sûresi",
+        "en": "Divine approval: Surah al-Fath"
+      },
+      "date_range": {
+        "hijri": "Zilkade-Zilhicce 6 AH",
+        "ce": "Mart-Nisan 628"
+      },
+      "duration": "Nüzûl zamanı",
+      "description": {
+        "tr": "Fetih Sûresi 48:18-19 nâzil oldu: 'Andolsun ki Allah, ağacın altında sana biat ederlerken o mü'minlerden razı olmuştur.' Bu âyet, biat eden sahâbîlere 'rıdvân' (ilâhî rızâ) garantisi verdi ve onları İslam tarihinde müstesna bir konuma yükseltti. Ehl-i Sünnet geleneğinde 'Ashâbü'r-Rıdvân' olarak anılırlar.",
+        "en": "Surah al-Fath 48:18-19 was revealed: 'Allah was pleased with the believers when they pledged to you under the tree.' This verse guaranteed divine approval (ridwan) for the pledging companions, elevating them to a special status in Islamic history. In Sunni tradition they are known as 'Ashab al-Ridwan.'"
+      },
+      "events": [
+        {
+          "id": "E4_1_fetih_nuzul",
+          "name_tr": "Fetih 48:18 nüzûlü",
+          "description_tr": "Allah'ın ağaç altında biat edenlerden razı olduğunu bildiren âyet indi."
+        },
+        {
+          "id": "E4_2_ridvan_statusu",
+          "name_tr": "Ashâbü'r-Rıdvân statüsü",
+          "description_tr": "1.400-1.500 sahâbî ebedî olarak 'Rıdvân Sahâbîleri' unvanını kazandı; İslam tarihinde ayrı bir mertebe."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "1.400-1.500",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcir önderleri; Hz. Ebû Bekir, Hz. Ömer, Hz. Ali dahil."
+        },
+        "ansar": {
+          "note_tr": "Evs ve Hazrec'den katılımcılar."
+        }
+      },
+      "equipment": {
+        "note_tr": "İhramlı umre kafilesi olarak çıkıldığından tam savaş teçhizatı yoktu; yalnızca yolcu kılıçları (kınlı)."
+      }
+    },
+    "enemy": {
+      "total": "Kureyş (~Mekke garnizonu)",
+      "commander_name": {
+        "tr": "Kureyş liderliği (Ebû Süfyân, Süheyl b. Amr)",
+        "en": "Quraysh leadership (Abu Sufyan, Suhayl ibn Amr)"
+      },
+      "description": {
+        "tr": "Kureyş doğrudan savaşa girmedi; diplomatik engelleme uyguladı. Hâlid b. Velîd 200 süvariyle keşif hattında bulunuyordu.",
+        "en": "Quraysh did not engage in direct combat; applied diplomatic blockade. Khalid ibn al-Walid was on reconnaissance with 200 cavalry."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Bey'atü'r-Rıdvân",
+        "note_tr": "Biatin genel seyri ve sahâbe tepkileri."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü'l-Hudeybiye",
+        "note_tr": "Diplomatik bağlam ve Kureyş tepkisi."
+      },
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Kitâbü'l-Megāzî, Bâbü Gazveti'l-Hudeybiye",
+        "note_tr": "Biat detayları ve sahâbî rivâyetleri."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Hacer el-Askalânî",
+        "work": "Fethu'l-Bârî",
+        "note_tr": "Biat katılımcılarının tespiti ve hadis tahlili."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "18-19",
+      "phase_id": "F4_ilahi_onay",
+      "topic": {
+        "tr": "Allah'ın ağaç altında biat eden mü'minlerden razı olması; kalplerindeki sadakati bilmesi; sekînet indirmesi ve yakın bir fetih (ganîmet) vermesi",
+        "en": "Allah's pleasure with the believers who pledged under the tree; His knowledge of the sincerity in their hearts; sending down tranquility and granting them a near victory"
+      },
+      "key_verses": [
+        {
+          "ayah": 18,
+          "topic_tr": "Rıdvân: 'Ağaç altında sana biat ederken Allah mü'minlerden razı oldu'",
+          "phase_id": "F4_ilahi_onay"
+        },
+        {
+          "ayah": 19,
+          "topic_tr": "Yakın ganîmetler (Hayber'in fethi işareti)",
+          "phase_id": "F4_ilahi_onay"
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "10",
+      "phase_id": "F2_biat",
+      "topic": {
+        "tr": "'Sana biat edenler ancak Allah'a biat etmişlerdir; Allah'ın eli onların elleri üzerindedir' — biatin ilâhî boyutu",
+        "en": "'Those who pledge to you are pledging to Allah; the hand of Allah is over their hands' — the divine dimension of the pledge"
+      },
+      "key_verses": [
+        {
+          "ayah": 10,
+          "topic_tr": "Allah'ın eli biat edenlerin eli üzerinde",
+          "phase_id": "F2_biat"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_ridvan_seleme_olum",
+      "topic": "Seleme b. Ekva': Hz. Peygamber'e ölüm üzerine biat ettik; o gün hiçbirimiz kaçmayı düşünmedi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_ridvan_cabir_sayi",
+      "topic": "Câbir b. Abdullah: Ağacın altında 1.400 kişiydik; Hz. Peygamber Osman adına gıyâbî biat etti",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_ridvan_cehennem_yok",
+      "topic": "Hz. Peygamber: Ağaç altında biat edenlerden hiçbiri cehenneme girmeyecektir",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Silahsız bir umre kafilesinin ölüm üzerine biat etmesi, Kureyş'e Müslümanların askerî kararlılığını gösterdi. Doğrudan çatışma olmadan stratejik üstünlük sağlandı.",
+      "en": "An unarmed pilgrimage caravan pledging unto death demonstrated Muslim military resolve to Quraysh. Strategic superiority achieved without direct combat."
+    },
+    "political": {
+      "tr": "Biat, Hudeybiye Antlaşması'nın en güçlü diplomatik kozuydu. Kureyş'in barış masasına oturma kararı doğrudan bu gösteriden etkilendi. Hz. Peygamber'in liderlik otoritesi pekiştirildi.",
+      "en": "The pledge was the strongest diplomatic leverage for the Treaty of Hudaybiyah. Quraysh's decision to negotiate was directly influenced by this show of resolve. The Prophet's leadership authority was reinforced."
+    },
+    "social": {
+      "tr": "Ashâbü'r-Rıdvân İslam toplumunda müstesna bir sınıf oluşturdu. İlk nesil Müslümanların fedakârlık ve sadakat sembolü. Hz. Ömer döneminde dîvân (maaş) sıralamasında Rıdvân Sahâbîleri'ne öncelik verildi.",
+      "en": "The Companions of Ridwan formed a distinguished class in Muslim society. Symbol of the first generation's sacrifice and loyalty. In Umar's caliphate, Ridwan companions received priority in the diwan (stipend register)."
+    }
+  },
+  "visualization": {
+    "default_zoom": 13,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "biat_tree": "#FF8F00",
+      "route_march": "#1565C0",
+      "harem_boundary": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_route",
+        "name": "Medîne → Hudeybiye güzergâhı",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Biat fazları",
+        "type": "overlay",
+        "default_visible": false
+      }
+    ]
+  }
+}

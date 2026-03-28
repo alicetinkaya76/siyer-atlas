@@ -1,0 +1,581 @@
+{
+  "version": "0.18.0",
+  "description": "Tıbb-ı Nebevî — Hz. Peygamber'in sağlık, beslenme ve tedâvî önerileri",
+  "total_entries": 25,
+  "entries": [
+    {
+      "id": "med_bal",
+      "topic": {
+        "tr": "Bal",
+        "en": "Honey"
+      },
+      "category": "gıda/tedâvî",
+      "description": {
+        "tr": "Bal hem gıda hem şifâ olarak tavsiye edilmiştir.",
+        "en": "Honey recommended as both food and cure."
+      },
+      "quran_ref": {
+        "surah": 16,
+        "ayah": 69,
+        "text_tr": "Onların karınlarından renkleri çeşitli bir içecek (bal) çıkar; onda insanlar için şifâ vardır."
+      },
+      "hadith_refs": [
+        "hds_bal_sifa"
+      ],
+      "usage": {
+        "tr": "Mide rahatsızlığı, yara tedavisi, bağışıklık güçlendirme",
+        "en": "Stomach ailments, wound treatment, immunity"
+      }
+    },
+    {
+      "id": "med_corekotu",
+      "topic": {
+        "tr": "Çörekotu (Habbetü's-Sevdâ)",
+        "en": "Black Seed (Nigella Sativa)"
+      },
+      "category": "gıda/tedâvî",
+      "description": {
+        "tr": "Ölüm hâriç her derde devâ olarak nitelendirilmiştir.",
+        "en": "Described as cure for everything except death."
+      },
+      "quran_ref": null,
+      "hadith_refs": [
+        "hds_corekotu_sifa"
+      ],
+      "usage": {
+        "tr": "Genel bağışıklık, sindirim, nefes darlığı",
+        "en": "General immunity, digestion, breathing"
+      }
+    },
+    {
+      "id": "med_hurma",
+      "topic": {
+        "tr": "Hurma (Temer)",
+        "en": "Dates"
+      },
+      "category": "gıda",
+      "description": {
+        "tr": "Medîne'nin Acve hurması özellikle övülmüştür.",
+        "en": "Ajwa dates of Medina particularly praised."
+      },
+      "quran_ref": {
+        "surah": 19,
+        "ayah": 25,
+        "text_tr": "Hurma dalını kendine doğru silk, üzerine taze hurma dökülsün."
+      },
+      "hadith_refs": [
+        "hds_hurma_sifa"
+      ],
+      "usage": {
+        "tr": "Açlık giderme, enerji, doğumda destek, iftar",
+        "en": "Hunger relief, energy, childbirth support, iftar"
+      }
+    },
+    {
+      "id": "med_zemzem",
+      "topic": {
+        "tr": "Zemzem Suyu",
+        "en": "Zamzam Water"
+      },
+      "category": "içecek/şifâ",
+      "description": {
+        "tr": "Ne niyetle içilirse ona şifâ olduğu bildirilmiştir.",
+        "en": "Cures whatever it is drunk for."
+      },
+      "quran_ref": null,
+      "hadith_refs": [
+        "hds_zemzem_sifa"
+      ],
+      "usage": {
+        "tr": "Genel şifâ, susuzluk, bereket",
+        "en": "General cure, thirst, blessing"
+      }
+    },
+    {
+      "id": "med_hacamat",
+      "topic": {
+        "tr": "Hacâmat (Kan Aldırma)",
+        "en": "Cupping (Hijama)"
+      },
+      "category": "tedâvî",
+      "description": {
+        "tr": "En iyi tedâvi yöntemlerinden biri olarak nitelendirilmiştir. Peygamber bizzat hacamat yaptırdı.",
+        "en": "Described as one of best treatments. Prophet personally underwent cupping."
+      },
+      "quran_ref": null,
+      "hadith_refs": [
+        "hds_hacamat"
+      ],
+      "usage": {
+        "tr": "Baş ağrısı, bel ağrısı, dolaşım bozuklukları",
+        "en": "Headache, back pain, circulation disorders"
+      }
+    },
+    {
+      "id": "med_mide_uc",
+      "topic": {
+        "tr": "Mideyi Üçe Bölme",
+        "en": "Dividing Stomach into Thirds"
+      },
+      "category": "beslenme prensibi",
+      "description": {
+        "tr": "1/3 yemek, 1/3 su, 1/3 nefes — modern diyetetik ile örtüşen ilke.",
+        "en": "1/3 food, 1/3 water, 1/3 air — principle aligned with modern dietetics."
+      },
+      "quran_ref": {
+        "surah": 7,
+        "ayah": 31,
+        "text_tr": "Yiyin, için fakat israf etmeyin."
+      },
+      "hadith_refs": [
+        "hds_mide_uc_bolum"
+      ],
+      "usage": {
+        "tr": "Obezite önleme, sindirim sağlığı, genel sağlık",
+        "en": "Obesity prevention, digestive health, general wellness"
+      }
+    },
+    {
+      "id": "med_zeytinyagi",
+      "topic": {
+        "tr": "Zeytinyağı",
+        "en": "Olive Oil"
+      },
+      "category": "gıda/tedâvî",
+      "description": {
+        "tr": "Mübarek ağaçtan (zeytin) elde edilen yağ; yiyin ve sürünün.",
+        "en": "Oil from blessed tree (olive); eat it and apply it."
+      },
+      "quran_ref": {
+        "surah": 24,
+        "ayah": 35,
+        "text_tr": "Ne doğuya ne batıya ait olmayan mübarek bir zeytin ağacından (yakılır)."
+      },
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Cilt bakımı, saç bakımı, sindirim, kalp sağlığı",
+        "en": "Skincare, hair care, digestion, heart health"
+      }
+    },
+    {
+      "id": "med_senna",
+      "topic": {
+        "tr": "Sinameki (Sennâ)",
+        "en": "Senna"
+      },
+      "category": "tedâvî",
+      "description": {
+        "tr": "Peygamber sinameki ve sanût'u (rezene) tavsiye etmiştir.",
+        "en": "Prophet recommended senna and sanoot (fennel)."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Kabızlık, bağırsak temizliği",
+        "en": "Constipation, bowel cleansing"
+      }
+    },
+    {
+      "id": "med_tuz",
+      "topic": {
+        "tr": "Tuz",
+        "en": "Salt"
+      },
+      "category": "gıda",
+      "description": {
+        "tr": "Yemeklerin efendisi olarak nitelendirilmiştir.",
+        "en": "Described as master of foods."
+      },
+      "quran_ref": {
+        "surah": 25,
+        "ayah": 53,
+        "text_tr": "Biri tatlı, biri tuzlu iki denizi salıverdi."
+      },
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Yemeklere tat, koruyucu, mineral",
+        "en": "Seasoning, preservative, mineral"
+      }
+    },
+    {
+      "id": "med_misvak",
+      "topic": {
+        "tr": "Misvak (Diş Temizliği)",
+        "en": "Miswak (Tooth Cleaning)"
+      },
+      "category": "hijyen",
+      "description": {
+        "tr": "Her abdest öncesi, namaz öncesi ve uyandıktan sonra misvak kullanımı teşvik edilmiştir.",
+        "en": "Use before ablution, prayer, and after waking strongly encouraged."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Diş sağlığı, ağız temizliği, antibakteriyel",
+        "en": "Dental health, oral hygiene, antibacterial"
+      }
+    },
+    {
+      "id": "med_su_oturarak",
+      "topic": {
+        "tr": "Suyu Oturarak İçmek",
+        "en": "Drinking Water While Sitting"
+      },
+      "category": "beslenme âdâbı",
+      "description": {
+        "tr": "Ayakta su içilmemesi tavsiye edilmiştir.",
+        "en": "Drinking water while standing was discouraged."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Sindirim düzeni, mide sağlığı",
+        "en": "Digestive regulation, stomach health"
+      }
+    },
+    {
+      "id": "med_kust_hindi",
+      "topic": {
+        "tr": "Kust-i Hindî (Hint Ödu)",
+        "en": "Costus (Qust al-Hindi)"
+      },
+      "category": "tedâvî",
+      "description": {
+        "tr": "Yedi derde devâ olarak bildirilmiştir; özellikle burun yoluyla kullanımı tavsiye edilmiştir.",
+        "en": "Described as cure for seven ailments; nasal application recommended."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "usage": {
+        "tr": "Solunum yolu, bademcik, göğüs ağrısı",
+        "en": "Respiratory tract, tonsils, chest pain"
+      }
+    },
+    {
+      "id": "med_temizlik_iman",
+      "topic": {
+        "tr": "Temizlik İmanın Yarısıdır",
+        "en": "Cleanliness is Half of Faith"
+      },
+      "category": "hijyen prensibi",
+      "description": {
+        "tr": "Genel hijyen, abdest, gusül gibi temizlik pratiklerinin imanla ilişkilendirilmesi.",
+        "en": "Connecting hygiene practices with faith: ablution, bathing, general cleanliness."
+      },
+      "quran_ref": {
+        "surah": 2,
+        "ayah": 222,
+        "text_tr": "Allah çok tövbe edenleri ve temizlenenleri sever."
+      },
+      "hadith_refs": [
+        "hds_temizlik_iman"
+      ],
+      "usage": {
+        "tr": "Genel hijyen, hastalık önleme, ruhânî arınma",
+        "en": "General hygiene, disease prevention, spiritual purification"
+      }
+    },
+    {
+      "id": "med_fatiha_rukye",
+      "topic": {
+        "tr": "Fâtiha ile rukye (şifâ okuma)",
+        "en": "Healing recitation with Al-Fatiha"
+      },
+      "category": "rukye/duâ",
+      "description": {
+        "tr": "Sahâbî bir kabile reisini Fâtiha okuyarak tedâvi etti; Hz. Peygamber bunu onayladı.",
+        "en": "Companion healed a tribal chief by reciting Fatiha; Prophet approved."
+      },
+      "quran_ref": {
+        "surah": 1,
+        "ayah": 1,
+        "text_tr": "Fâtiha sûresi — Şifâ sûresi olarak da bilinir."
+      },
+      "hadith_refs": [
+        "hds_fatiha_rukye"
+      ],
+      "modern_note": {
+        "tr": "Psikolojik destek ve duâ yoluyla moral-motivasyon tedâvisi.",
+        "en": "Psychological support through prayer and morale."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_sidre_kina",
+      "topic": {
+        "tr": "Sidr (Kına ağacı) yaprağı",
+        "en": "Sidr (lote tree) leaves"
+      },
+      "category": "bitki tedâvîsi",
+      "description": {
+        "tr": "Yıkama, cenâze yıkama ve göz tedâvisinde sidr yaprağı tavsiye edilmiştir.",
+        "en": "Sidr leaves recommended for washing, funeral bathing, and eye treatment."
+      },
+      "quran_ref": {
+        "surah": 56,
+        "ayah": 28,
+        "text_tr": "Sidir ağaçları (sidretü'l-müntehâ) Kur'ân'da cennet ağacı olarak geçer."
+      },
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Sidr yaprağı antiseptik ve antifungal özellikler taşır.",
+        "en": "Sidr leaves have antiseptic and antifungal properties."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_kust_bahri",
+      "topic": {
+        "tr": "Kust-i Bahrî (Deniz kustası)",
+        "en": "Sea costus"
+      },
+      "category": "bitki tedâvîsi",
+      "description": {
+        "tr": "Boğaz ağrısı ve bâdemi iltihâbına karşı kust-i hindî ve bahrî tavsiye edilmiştir.",
+        "en": "Sea and Indian costus recommended for sore throat and tonsillitis."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Kust bitkisi anti-inflamatuar özelliklere sahiptir.",
+        "en": "Costus plant has anti-inflammatory properties."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_kor_goz",
+      "topic": {
+        "tr": "Sürme (İsmid) kullanımı",
+        "en": "Kohl (Ithmid) usage"
+      },
+      "category": "göz sağlığı",
+      "description": {
+        "tr": "Hz. Peygamber yatmadan önce her göze üç kez sürme çekerdi. Göz sağlığını koruyucu olarak tavsiye etti.",
+        "en": "Prophet applied kohl three times in each eye before sleep. Recommended for eye health."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Antimon sürme UV koruma sağlar; ancak aşırı kullanımı toksiktir.",
+        "en": "Antimony kohl provides UV protection but excessive use is toxic."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_abdest_temizlik",
+      "topic": {
+        "tr": "Abdest ve günlük temizlik",
+        "en": "Ablution and daily hygiene"
+      },
+      "category": "hijyen",
+      "description": {
+        "tr": "Günde 5 vakit abdest eli, yüzü, ağzı, burnu, kolları ve ayakları temizler. 'Kapınızın önünden akan nehirde günde 5 kez yıkansanız…'",
+        "en": "Five daily ablutions clean hands, face, mouth, nose, arms, feet."
+      },
+      "quran_ref": {
+        "surah": 5,
+        "ayah": 6,
+        "text_tr": "Namaza kalktığınızda yüzlerinizi ve ellerinizi… yıkayın."
+      },
+      "hadith_refs": [
+        "hds_gunahlari_temizler"
+      ],
+      "modern_note": {
+        "tr": "El yıkama enfeksiyon kontrolünün temel adımıdır (WHO).",
+        "en": "Hand washing is fundamental to infection control (WHO)."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_oruc_saglik",
+      "topic": {
+        "tr": "Oruç ve sağlık",
+        "en": "Fasting and health"
+      },
+      "category": "beslenme",
+      "description": {
+        "tr": "Hz. Peygamber Ramazan dışında Pazartesi-Perşembe ve her ayın 13-14-15. günleri oruç tutardı.",
+        "en": "Prophet fasted Mondays-Thursdays and 13th-15th of each month outside Ramadan."
+      },
+      "quran_ref": {
+        "surah": 2,
+        "ayah": 183,
+        "text_tr": "Oruç sizden öncekilere farz kılındığı gibi size de farz kılındı."
+      },
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Aralıklı oruç otofaji ve metabolik sağlık üzerinde olumlu etki gösterir.",
+        "en": "Intermittent fasting shows positive effects on autophagy and metabolic health."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_gece_uyku",
+      "topic": {
+        "tr": "Uyku düzeni",
+        "en": "Sleep routine"
+      },
+      "category": "uyku/dinlenme",
+      "description": {
+        "tr": "Yatsıdan sonra erken yatar, gece son üçte birinde teheccüd için kalkardı. Sağ tarafına yatmayı tavsiye etti.",
+        "en": "Slept after Isha, rose for tahajjud in last third of night. Recommended sleeping on right side."
+      },
+      "quran_ref": {
+        "surah": 73,
+        "ayah": 2,
+        "text_tr": "Gecenin yarısında kalk, biraz eksilt veya artır."
+      },
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Sağ tarafına yatmak mide-bağırsak reflüsünü azaltır.",
+        "en": "Right-side sleeping reduces gastroesophageal reflux."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_yurume_egzersiz",
+      "topic": {
+        "tr": "Yürüyüş ve fiziksel aktivite",
+        "en": "Walking and physical activity"
+      },
+      "category": "spor/hareket",
+      "description": {
+        "tr": "Hz. Peygamber hızlı yürürdü; ok atma, at binme, yüzme tavsiye etti. Hz. Âişe ile koşu yarışı yaptı.",
+        "en": "Prophet walked briskly; recommended archery, horse riding, swimming. Raced with Aisha."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Düzenli egzersiz kardiyovasküler hastalık riskini %30 azaltır.",
+        "en": "Regular exercise reduces cardiovascular disease risk by 30%."
+      },
+      "links": {
+        "persons": [
+          "aise"
+        ],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_dis_misvak2",
+      "topic": {
+        "tr": "Misvak — diş bakımı detayı",
+        "en": "Miswak — detailed dental care"
+      },
+      "category": "ağız sağlığı",
+      "description": {
+        "tr": "Her abdest öncesi, namaz öncesi ve uykudan kalktığında misvak kullanırdı: 'Ümmetime zor gelmese her namaz için misvak emrederdim.'",
+        "en": "Used miswak before ablution, prayer, waking: 'Were it not hard for my nation, I would order miswak for every prayer.'"
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Salvadora persica ağız mikrobiyomunu olumlu etkiler (PubMed çalışmaları).",
+        "en": "Salvadora persica positively affects oral microbiome (PubMed studies)."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_cenaze_hijyen",
+      "topic": {
+        "tr": "Cenâze hijyeni ve karantina",
+        "en": "Funeral hygiene and quarantine"
+      },
+      "category": "halk sağlığı",
+      "description": {
+        "tr": "Vebâ olan yere girmeyin, oradaysanız çıkmayın. Cenâze hızla defnedilmeli.",
+        "en": "Do not enter plague areas; if there, do not leave. Bury the dead quickly."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Modern karantina ilkesinin en erken örneklerinden.",
+        "en": "Among earliest examples of quarantine principle."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_kina_boya",
+      "topic": {
+        "tr": "Kına ile saç boyama",
+        "en": "Hair dyeing with henna"
+      },
+      "category": "kişisel bakım",
+      "description": {
+        "tr": "Saç ve sakal ağardığında kına ile boyamayı teşvik etti; saf siyah boyayı yasakladı.",
+        "en": "Encouraged dyeing grey hair with henna; prohibited pure black dye."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Kına (Lawsonia inermis) doğal antimikrobiyal boya.",
+        "en": "Henna is a natural antimicrobial dye."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "med_sabir_hastalik",
+      "topic": {
+        "tr": "Hastalıkta sabır — keffâret",
+        "en": "Patience in illness as expiation"
+      },
+      "category": "psikolojik destek",
+      "description": {
+        "tr": "Hastalık, ağrı, hüzün, hatta ayağına batan diken bile günahlara keffâret sayılır.",
+        "en": "Illness, pain, grief, even a thorn prick expiates sins."
+      },
+      "quran_ref": null,
+      "hadith_refs": [],
+      "modern_note": {
+        "tr": "Hastalığa anlam yükleme psikolojik direnci artırır (pozitif psikoloji).",
+        "en": "Finding meaning in illness increases psychological resilience."
+      },
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    }
+  ]
+}

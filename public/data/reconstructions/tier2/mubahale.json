@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "id": "reconstruction_mubahale",
+    "battle_id": "mubahale",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Mübâhale Olayı (10 AH / 631 CE). Necran Hristiyan heyetiyle Hz. Peygamber arasındaki teolojik tartışma. Hz. Îsâ'nın ilâhî tabiatı konusunda uzlaşılamayınca Âl-i İmrân 3:61 gereği karşılıklı lanetleşme (mübâhale) teklif edildi. Hz. Peygamber ailesiyle (Fâtıma, Ali, Hasan, Hüseyin) Mübâhale'ye çıktı; Necran heyeti çekinerek geri adım attı ve cizye antlaşması imzalandı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.4672,
+        "lng": 39.6112
+      },
+      "bbox": {
+        "north": 24.5,
+        "south": 24.44,
+        "east": 39.65,
+        "west": 39.57
+      },
+      "terrain_type": "urban_medina",
+      "terrain_desc": {
+        "tr": "Medîne şehri. Mescid-i Nebevî ve çevresi. Mübâhale için Medîne dışında açık bir alana çıkıldı. Necran heyeti (~60 kişi) Medîne'de misafir edildi.",
+        "en": "City of Medina. Masjid al-Nabawi and surroundings. For the Mubahalah, they went to an open area outside Medina. The Najran delegation (~60 people) was hosted in Medina."
+      }
+    },
+    "route": {
+      "origin": {
+        "name": "Necrân (Yemen)",
+        "lat": 17.4917,
+        "lng": 44.2167
+      },
+      "destination": {
+        "name": "Medîne",
+        "lat": 24.4672,
+        "lng": 39.6112
+      },
+      "distance_km": "~1.000",
+      "duration": "~15-20 gün"
+    },
+    "key_locations": [
+      {
+        "id": "loc_mescid_nebevi",
+        "name_tr": "Mescid-i Nebevî",
+        "lat": 24.4672,
+        "lng": 39.6112,
+        "type": "sacred",
+        "role_tr": "Teolojik müzakerelerin yapıldığı yer. Hz. Peygamber Necran heyetini mescidde karşıladı."
+      },
+      {
+        "id": "loc_mubahale_alani",
+        "name_tr": "Mübâhale Alanı",
+        "lat": 24.48,
+        "lng": 39.61,
+        "type": "event_site",
+        "role_tr": "Mübâhale için belirlenen açık alan. Hz. Peygamber Ehl-i Beyt'iyle buraya geldi."
+      },
+      {
+        "id": "loc_necran",
+        "name_tr": "Necrân",
+        "lat": 17.4917,
+        "lng": 44.2167,
+        "type": "origin",
+        "role_tr": "Yemen'deki önemli Hristiyan merkezi. Büyük bir kilise (Ka'betü Necrân) barındırıyordu."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Necran Hristiyan heyetinin gelişi",
+        "en": "Background: Arrival of the Najran Christian delegation"
+      },
+      "date_range": {
+        "hijri": "10 AH",
+        "ce": "631"
+      },
+      "duration": "Gidiş ~15-20 gün",
+      "description": {
+        "tr": "Necran, Yemen'deki en büyük Hristiyan merkeziydi; Ka'betü Necrân denilen büyük bir kilisesi vardı. Hz. Peygamber'in davet mektubuna cevaben ~60 kişilik bir heyet (14 ileri gelen dahil) Medîne'ye geldi. Heyetin başında Ebü'l-Hâris (piskopos), Abdülmesîh (âkıb/diplomatik lider) ve Şurahbîl (seyyid/siyasî lider) bulunuyordu.",
+        "en": "Najran was the largest Christian center in Yemen, with a major church called Ka'bat Najran. In response to the Prophet's invitation letter, a delegation of ~60 people (including 14 notables) came to Medina. The delegation was led by Abu al-Harith (bishop), Abd al-Masih (diplomat), and Shurahbil (political leader)."
+      },
+      "events": [
+        {
+          "id": "E0_1_mektup",
+          "name_tr": "Hz. Peygamber'in Necrân'a davet mektubu",
+          "description_tr": "İslâm'a davet mektubu gönderildi; Necran liderleri müzakere için heyet gönderme kararı aldı."
+        },
+        {
+          "id": "E0_2_heyet_varis",
+          "name_tr": "Heyetin Medîne'ye varışı",
+          "description_tr": "~60 kişilik heyet ipek giysiler ve altın haçlarla Medîne'ye geldi. Hz. Peygamber onları Mescid-i Nebevî'de karşıladı."
+        },
+        {
+          "id": "E0_3_ibadet_izni",
+          "name_tr": "Mescidde Hristiyan ibadeti",
+          "description_tr": "Namaz vakti geldiğinde Necranlılar doğuya dönerek ibadet etmek istediler. Hz. Peygamber buna izin verdi; Mescid-i Nebevî'de Hristiyan âyini yapıldı."
+        }
+      ]
+    },
+    {
+      "id": "F1_teolojik_tartisma",
+      "order": 1,
+      "name": {
+        "tr": "Teolojik müzakere: Hz. Îsâ'nın tabiatı",
+        "en": "Theological debate: The nature of Jesus"
+      },
+      "date_range": {
+        "hijri": "10 AH",
+        "ce": "631"
+      },
+      "duration": "Birkaç gün",
+      "description": {
+        "tr": "Tartışmanın odak noktası Hz. Îsâ'nın tabiatı idi. Necran heyeti Hz. Îsâ'nın ilâhlığını (teslis doktrini) savundu. Hz. Peygamber, Kur'ân'ın Hz. Îsâ'yı Allah'ın kulu ve elçisi olarak tanıttığını, babasız yaratılışının Hz. Âdem'in yaratılışına benzediğini (Âl-i İmrân 3:59) açıkladı. Uzlaşma sağlanamadı.",
+        "en": "The central issue was the nature of Jesus. The Najran delegation defended Jesus's divinity (Trinity doctrine). The Prophet explained that the Quran presents Jesus as a servant and messenger of God, and his birth without a father is analogous to Adam's creation (Al Imran 3:59). No agreement was reached."
+      },
+      "events": [
+        {
+          "id": "E1_1_tartisma",
+          "name_tr": "Hz. Îsâ tartışması",
+          "description_tr": "Heyet: 'Îsâ Allah'ın oğludur.' Hz. Peygamber: 'Îsâ Allah'ın kulu ve rasûlüdür; Âdem gibi topraktan yaratıldı.'"
+        },
+        {
+          "id": "E1_2_ali_imran_59",
+          "name_tr": "Âl-i İmrân 3:59 nüzûlü",
+          "description_tr": "'Allah katında Îsâ'nın durumu Âdem'in durumu gibidir. Onu topraktan yarattı, sonra 'Ol!' dedi; o da oldu.'"
+        }
+      ]
+    },
+    {
+      "id": "F2_mubahale_teklifi",
+      "order": 2,
+      "name": {
+        "tr": "Mübâhale teklifi: Âl-i İmrân 3:61",
+        "en": "Mubahalah challenge: Al Imran 3:61"
+      },
+      "date_range": {
+        "hijri": "10 AH",
+        "ce": "631"
+      },
+      "duration": "Aynı gün",
+      "description": {
+        "tr": "Uzlaşma sağlanamayınca Âl-i İmrân 3:61 nâzil oldu: 'Gelin, oğullarımızı ve oğullarınızı, kadınlarımızı ve kadınlarınızı, kendimizi ve kendinizi çağıralım, sonra dua edelim de Allah'ın lanetini yalancıların üzerine kılalım.' Bu, karşılıklı lanetleşme (mübâhale) davetiydi; iki taraftan yalancı olan ilâhî azaba uğrayacaktı.",
+        "en": "When no agreement was reached, Al Imran 3:61 was revealed: 'Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then let us pray and invoke the curse of Allah upon the liars.' This was an invitation to mutual cursing (mubahalah); whichever side was lying would face divine punishment."
+      },
+      "events": [
+        {
+          "id": "E2_1_ayet_nuzul",
+          "name_tr": "Âl-i İmrân 3:61 nüzûlü",
+          "description_tr": "Mübâhale âyeti indi; Hz. Peygamber Necran heyetine mübâhale teklifini iletti."
+        },
+        {
+          "id": "E2_2_heyet_istisare",
+          "name_tr": "Necran heyetinin iç istişaresi",
+          "description_tr": "Heyet kendi aralarında tartıştı. Ebü'l-Hâris (piskopos): 'Eğer o gerçek bir peygamberse ve biz mübâhaleye girersek helâk oluruz' uyarısı yaptı."
+        }
+      ]
+    },
+    {
+      "id": "F3_mubahale_gunu",
+      "order": 3,
+      "name": {
+        "tr": "Mübâhale günü: Hz. Peygamber Ehl-i Beyt ile çıkıyor",
+        "en": "Day of Mubahalah: The Prophet comes with Ahl al-Bayt"
+      },
+      "date_range": {
+        "hijri": "10 AH",
+        "ce": "631"
+      },
+      "duration": "Sabah",
+      "description": {
+        "tr": "Hz. Peygamber ertesi gün mübâhale için Hasan'ı kucağına almış, Hüseyin'in elinden tutmuş, arkasında Fâtıma, yanında Ali ile çıktı. 'Oğullarımız' = Hasan ve Hüseyin, 'kadınlarımız' = Fâtıma, 'kendimiz' = Ali (veya Hz. Peygamber'in kendisi). Bu manzara, Hz. Peygamber'in en değerli varlıklarını ortaya koyduğunu gösteriyordu. Necran heyeti bu kararlılığı görünce büyük korkuya kapıldı.",
+        "en": "The next day the Prophet came for mubahalah carrying Hasan in his arms, holding Husayn's hand, with Fatima behind him and Ali beside him. 'Our sons' = Hasan and Husayn, 'our women' = Fatima, 'ourselves' = Ali. This scene demonstrated the Prophet was staking his most precious loved ones. The Najran delegation was seized with great fear upon seeing this resolve."
+      },
+      "events": [
+        {
+          "id": "E3_1_cikis",
+          "name_tr": "Hz. Peygamber'in Ehl-i Beyt ile çıkışı",
+          "description_tr": "Siyah bir aba (hırka) altında Hasan, Hüseyin, Fâtıma ve Ali ile mübâhale alanına geldi."
+        },
+        {
+          "id": "E3_2_necran_korku",
+          "name_tr": "Necran heyetinin geri adım atması",
+          "description_tr": "Ebü'l-Hâris: 'Ben öyle yüzler görüyorum ki, eğer Allah'a dua etseler dağları yerinden oynatır. Mübâhaleye girmeyin, yoksa helâk oluruz!' Heyet mübâhaleden vazgeçti."
+        }
+      ]
+    },
+    {
+      "id": "F4_antlasma",
+      "order": 4,
+      "name": {
+        "tr": "Cizye antlaşması ve dönüş",
+        "en": "Jizyah treaty and return"
+      },
+      "date_range": {
+        "hijri": "10 AH",
+        "ce": "631"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Mübâhaleden vazgeçen Necran heyeti, İslâm'ı kabul etmek yerine cizye (vergi) ödemeyi tercih etti. Antlaşma şartları: Yıllık 2.000 hülle (elbise seti), savaş zamanı 30 zırh ve 30 at ödünç verme. Buna karşılık Necranlılar dinî özgürlüklerini koruyacak, kilise ve rahiplerine dokunulmayacaktı. Bu, İslam'ın gayrimüslimlerle ilk kapsamlı zimmî antlaşması sayılır.",
+        "en": "The Najran delegation, having withdrawn from mubahalah, chose to pay jizyah (tax) rather than accept Islam. Treaty terms: annual 2,000 sets of garments, wartime loan of 30 coats of armor and 30 horses. In return, Najranites would maintain religious freedom, and their churches and clergy would not be disturbed. This is considered one of Islam's first comprehensive dhimmi treaties."
+      },
+      "events": [
+        {
+          "id": "E4_1_antlasma",
+          "name_tr": "Cizye antlaşmasının imzalanması",
+          "description_tr": "2.000 hülle/yıl + savaş zamanı askerî malzeme ödüncü. Din ve ibadet özgürlüğü garanti."
+        },
+        {
+          "id": "E4_2_donus",
+          "name_tr": "Heyetin Necrân'a dönüşü",
+          "description_tr": "Heyet Medîne'den barışla ayrıldı. Hz. Peygamber Ebû Ubeyde b. Cerrâh'ı vergi tahsildarı olarak gönderdi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "—",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "ehl_i_beyt": {
+          "note_tr": "Mübâhale için: Hz. Ali, Hz. Fâtıma, Hz. Hasan, Hz. Hüseyin. Bunlar 'Ashâbü'l-Kisâ' (Aba Ehli) olarak da anılır."
+        }
+      }
+    },
+    "enemy": {
+      "total": "~60 kişilik Necran heyeti",
+      "commander_name": {
+        "tr": "Ebü'l-Hâris (piskopos), Abdülmesîh (âkıb), Şurahbîl (seyyid)",
+        "en": "Abu al-Harith (bishop), Abd al-Masih (aqib), Shurahbil (sayyid)"
+      },
+      "description": {
+        "tr": "Necran Hristiyan toplumu temsilcileri; düşman değil diplomatik muhatap. 14 ileri gelen + maiyet. Askerî unsur yok.",
+        "en": "Representatives of the Najran Christian community; not enemies but diplomatic counterparts. 14 notables + retinue. No military element."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Kıssatü vefdi Necrân",
+        "note_tr": "Heyetin gelişi, teolojik tartışma ve mübâhale."
+      },
+      {
+        "author": "Taberî",
+        "work": "Câmi'u'l-Beyân (Tefsîr)",
+        "section": "Âl-i İmrân 3:59-64 tefsîri",
+        "note_tr": "Mübâhale âyetlerinin nüzûl sebepleri."
+      },
+      {
+        "author": "Müslim",
+        "work": "Sahîh",
+        "section": "Fedâilü's-Sahâbe",
+        "note_tr": "Hz. Peygamber'in Ehl-i Beyt ile mübâhaleye çıkışı."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Kayyim el-Cevziyye",
+        "work": "Zâdü'l-Meâd",
+        "note_tr": "Mübâhale'nin fıkhî ve kelâmî tahlili."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "59-61",
+      "phase_id": "F2_mubahale_teklifi",
+      "topic": {
+        "tr": "Hz. Îsâ'nın Hz. Âdem'e benzetilmesi (59), gerçeğin Allah'tan olduğu (60) ve mübâhale daveti (61): 'Oğullarımızı ve oğullarınızı, kadınlarımızı ve kadınlarınızı çağıralım'",
+        "en": "Jesus likened to Adam (59), truth is from Allah (60), and the mubahalah invitation (61): 'Let us call our sons and your sons, our women and your women'"
+      },
+      "key_verses": [
+        {
+          "ayah": 59,
+          "topic_tr": "Îsâ'nın durumu Âdem gibidir — babasız yaratılış",
+          "phase_id": "F1_teolojik_tartisma"
+        },
+        {
+          "ayah": 61,
+          "topic_tr": "Mübâhale daveti: karşılıklı lanetleşme teklifi",
+          "phase_id": "F2_mubahale_teklifi"
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "64",
+      "phase_id": "F4_antlasma",
+      "topic": {
+        "tr": "'Ey Kitap Ehli! Aramızda ortak bir kelimeye gelin: Yalnız Allah'a kulluk edelim' — dinler arası diyalog daveti",
+        "en": "'O People of the Book! Come to a common word between us: that we worship none but Allah' — interfaith dialogue invitation"
+      },
+      "key_verses": [
+        {
+          "ayah": 64,
+          "topic_tr": "Kelimetün sevâ: ortak söz, İslam'ın dinler arası diyalog çerçevesi",
+          "phase_id": "F4_antlasma"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_mubahale_ehlibeyt_kisa",
+      "topic": "Hz. Peygamber Hasan, Hüseyin, Fâtıma ve Ali'yi hırkasının altına alarak 'Bunlar benim Ehl-i Beyt'imdir' dedi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mubahale_piskopos_uyari",
+      "topic": "Necranlı piskopos: Öyle yüzler görüyorum ki dağa dua etseler yerinden oynatırlar; mübâhaleye girmeyin!",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mubahale_ebu_ubeyde",
+      "topic": "Hz. Peygamber Ebû Ubeyde b. Cerrâh'ı Necrân'a gönderdi: 'Bu ümmetin emînidir'",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "religious": {
+      "tr": "Mübâhale, İslam kelâm tarihinde teolojik tartışmanın meşru yöntemi olarak kabul edildi. Âl-i İmrân 3:59-64 Hristiyan-Müslüman diyalogunun temel referans metni. Ehl-i Beyt'in özel konumunun Kur'ânî delili.",
+      "en": "Mubahalah was accepted as a legitimate method of theological dispute in Islamic theology. Al Imran 3:59-64 became the foundational reference text for Christian-Muslim dialogue. Quranic evidence for the special status of Ahl al-Bayt."
+    },
+    "political": {
+      "tr": "Necran antlaşması İslam devletinin gayrimüslim topluluklarla ilk kapsamlı zimmî sözleşmesi. Din ve ibadet özgürlüğü ilk kez kurumsal garanti altına alındı. Bu model Medîne Vesîkası'ndan sonra İslam'ın en önemli çoğulculuk belgesi.",
+      "en": "The Najran treaty was the Islamic state's first comprehensive dhimmi agreement with a non-Muslim community. Religious and worship freedom was institutionally guaranteed for the first time. This model is Islam's most important pluralism document after the Constitution of Medina."
+    },
+    "social": {
+      "tr": "Mescid-i Nebevî'de Hristiyan ibadeti izni verilmesi dinler arası hoşgörünün somut örneği. Ehl-i Beyt'in mübâhale günü konumu Şîa ve Sünnî gelenekte önemli teolojik referans noktası.",
+      "en": "Allowing Christian worship in Masjid al-Nabawi was a concrete example of interfaith tolerance. Ahl al-Bayt's position on the day of mubahalah is an important theological reference point in both Shia and Sunni traditions."
+    }
+  },
+  "visualization": {
+    "default_zoom": 7,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "christian": "#1565C0",
+      "neutral": "#5D4037",
+      "route_march": "#FF8F00",
+      "sacred": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_route",
+        "name": "Necrân → Medîne güzergâhı",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Olay fazları",
+        "type": "overlay",
+        "default_visible": false
+      }
+    ]
+  }
+}

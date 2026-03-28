@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "id": "recon_fetih_antakya",
+    "battle_id": "fetih_antakya",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.2,
+        "lng": 36.16
+      },
+      "name": "Antakya'nın Fethi",
+      "modern_location": "Antakya / Antioch, Hatay"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Yürüyüş",
+      "date_range": "16",
+      "duration": "",
+      "description": "Ebû Ubeyde Halep'ten güneye indi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "16",
+      "duration": "",
+      "description": "Antakya Bizans tarafından tahliye edildi / teslim oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ebû Ubeyde b. Cerrâh",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans garnizonu",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 148-150",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Taberî, Târîh, III/603",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 36,
+      "surah_name": "Yâsîn",
+      "ayah_range": "13-27",
+      "topic": {
+        "tr": "Antakya'ya gönderilen elçiler kıssası (Ashâbü'l-Karye) — müfessirlerin çoğunluğu Antakya olarak tefsir eder",
+        "en": "The story of the messengers sent to the city (Aṣḥāb al-Qarya) — majority of exegetes identify as Antioch"
+      },
+      "key_verses": [
+        {
+          "ayah": 13,
+          "topic_tr": "Şehre gönderilen elçiler — Antakya tefsiri",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_amik_ovasi",
+      "topic": "Hz. Peygamber: 'A'mâk veya Dâbık'ta Rum ile büyük savaş' — Antakya yakınındaki Amik Ovası",
+      "relevance": "direct",
+      "source": "Müslim, Fiten, 34 (Melhame-i Kübrâ hadisi)"
+    }
+  ],
+  "impact": {
+    "result": "Antakya düştü",
+    "significance": "Hıristiyanlığın beş büyük patrikhane merkezinden birinin fethi.",
+    "cross_references": [
+      "fetih_halep"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

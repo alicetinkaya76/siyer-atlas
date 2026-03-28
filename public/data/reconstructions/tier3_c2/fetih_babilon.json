@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_fetih_babilon",
+    "battle_id": "fetih_babilon",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 30.01,
+        "lng": 31.23
+      },
+      "name": "Bâbilûn Kalesi'nin Fethi",
+      "modern_location": "Eski Kahire / Kıptî Kahire"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma",
+      "date_range": "Muharrem 20",
+      "duration": "",
+      "description": "Bâbilûn Kalesi kuşatıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Düşüş",
+      "date_range": "Receb 20",
+      "duration": "",
+      "description": "Kale teslim oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. Âs",
+      "estimated_troops": 12000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans garnizonu",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 215",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Abdülhakem, Fütûhu Mısr, 70",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_misir_kibt",
+      "topic": "Mısır halkına iyi davranma emri",
+      "relevance": "contextual",
+      "source": "Müslim"
+    }
+  ],
+  "impact": {
+    "result": "Kale düştü — Fustât şehri kuruldu",
+    "significance": "Mısır'ın kilit kalesi. 7 aylık kuşatma sonrası düştü.",
+    "cross_references": [
+      "fetih_misir"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

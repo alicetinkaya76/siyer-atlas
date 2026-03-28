@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "recon_fetih_rodos",
+    "battle_id": "fetih_rodos",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.43,
+        "lng": 28.22
+      },
+      "name": "Rodos Seferi",
+      "modern_location": "Rodos Adası, Yunanistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Deniz Seferi",
+      "date_range": "53",
+      "duration": "",
+      "description": "Rodos'a deniz seferi düzenlendi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "53",
+      "duration": "",
+      "description": "Ada geçici olarak kontrol altına alındı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Cünâde b. Ebî Ümeyye",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, V/280",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_deniz_gazisi",
+      "topic": "Deniz gazisi müjdesi",
+      "relevance": "contextual",
+      "source": "Buhârî, Cihâd"
+    }
+  ],
+  "impact": {
+    "result": "Zafer",
+    "significance": "Akdeniz adalarına yönelik deniz operasyonlarının devamı.",
+    "cross_references": [
+      "fetih_kıbrıs"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

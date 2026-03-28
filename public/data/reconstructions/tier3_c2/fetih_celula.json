@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "recon_fetih_celula",
+    "battle_id": "fetih_celula",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 34.28,
+        "lng": 45.15
+      },
+      "name": "Celûlâ Muharebesi",
+      "modern_location": "Celûlâ, Diyala ili, Irak"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Muharebe",
+      "date_range": "Zilkade 16",
+      "duration": "",
+      "description": "Celûlâ'da Sâsânî bakiye kuvvetleriyle çarpışma.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Zilkade 16",
+      "duration": "",
+      "description": "Mihrân yenildi; Medâin kapıları açıldı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâşim b. Utbe",
+      "estimated_troops": 12000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Mihrân (Sâsânî)",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/538",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 264",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_magrib_bereket",
+      "topic": "Kuzey Afrika fetihlerinde Müslüman komutanların cihad motivasyonu",
+      "relevance": "contextual",
+      "source": "Taberî, Târîh (tarihî rivâyet)"
+    }
+  ],
+  "impact": {
+    "result": "Ezici zafer — Medâin yolu açıldı",
+    "significance": "Kâdisiye sonrası Sâsânî direnişinin kırılması. Başkent Medâin'in yolu açıldı.",
+    "cross_references": [
+      "kadisiye",
+      "fetih_medain"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

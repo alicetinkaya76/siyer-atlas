@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "id": "recon_fetih_sicilya_ilk",
+    "battle_id": "fetih_sicilya_ilk",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 37.6,
+        "lng": 14.02
+      },
+      "name": "Sicilya İlk Akını",
+      "modern_location": "Sicilya, İtalya"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Akın",
+      "date_range": "42",
+      "duration": "",
+      "description": "Sicilya'ya deniz akını düzenlendi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Geri Dönüş",
+      "date_range": "42",
+      "duration": "",
+      "description": "Ganimetle geri dönüldü.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Muâviye b. Hudeyc",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/440",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_deniz_gazisi",
+      "topic": "Deniz gazisi müjdesi",
+      "relevance": "contextual",
+      "source": "Buhârî, Cihâd"
+    }
+  ],
+  "impact": {
+    "result": "Ganimet",
+    "significance": "Avrupa'ya yönelik ilk İslâm deniz akınlarından biri.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

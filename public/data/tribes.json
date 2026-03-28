@@ -1,0 +1,2826 @@
+[
+  {
+    "id": "evs",
+    "name": {
+      "ar": "الأوس",
+      "tr": "Evs",
+      "en": "Aws"
+    },
+    "center_lat": 24.47,
+    "center_lng": 39.62,
+    "description": "Medine'nin iki büyük Arap kabilesinden biri. Hazrec ile birlikte Ensâr'ı oluşturur. Buâs Savaşı'nda Hazrec'e karşı galip gelmiştir. Sa'd b. Muâz Evs'in lideridir.",
+    "clans": [
+      {
+        "id": "abdüleshed",
+        "name": "Abdüleşheloğulları",
+        "note": "Sa'd b. Muâz'ın kolu. Hendek ve Benî Kurayza'da kritik rol."
+      },
+      {
+        "id": "zafer",
+        "name": "Zaferoğulları",
+        "note": "Ka'b b. Mâlik'in kolu."
+      },
+      {
+        "id": "harisa",
+        "name": "Hâriseoğulları",
+        "note": "Evs'in büyük kollarından."
+      },
+      {
+        "id": "amr_evs",
+        "name": "Amr b. Avfoğulları",
+        "note": "Kubâ bölgesinde yerleşik kol."
+      },
+      {
+        "id": "muaviye_malik",
+        "name": {
+          "ar": "بنو معاوية بن مالك",
+          "tr": "Benî Muâviye b. Mâlik"
+        },
+        "note": "Evs alt kolu."
+      },
+      {
+        "id": "umeyye_zeyd",
+        "name": {
+          "ar": "بنو أمية بن زيد",
+          "tr": "Benî Ümeyye b. Zeyd"
+        },
+        "note": "Evs alt kolu. Kubâ bölgesinde."
+      },
+      {
+        "id": "hatma_evs",
+        "name": {
+          "ar": "بنو خطمة",
+          "tr": "Benî Hatme"
+        },
+        "note": "Evs alt kolu."
+      },
+      {
+        "id": "vail_evs",
+        "name": {
+          "ar": "بنو واقف",
+          "tr": "Benî Vâkıf"
+        },
+        "note": "Evs alt kolu."
+      }
+    ],
+    "region": "Medine",
+    "territory_description": "Medine'nin güney ve güneydoğusu (Kubâ bölgesi)"
+  },
+  {
+    "id": "hazrec",
+    "name": {
+      "ar": "الخزرج",
+      "tr": "Hazrec",
+      "en": "Khazraj"
+    },
+    "center_lat": 24.46,
+    "center_lng": 39.6,
+    "description": "Medine'nin diğer büyük Arap kabilesi. Evs ile birlikte Ensâr'ı oluşturur. İlk Akabe Bey'atı'nda çoğunluğu Hazrecli'dir. Sa'd b. Ubâde Hazrec'in reisidir.",
+    "clans": [
+      {
+        "id": "neccar",
+        "name": "Neccâroğulları (Benî Neccâr)",
+        "note": "Hz. Peygamber'in anne tarafından akrabası. Ebû Eyyûb el-Ensârî bu koldan."
+      },
+      {
+        "id": "selime",
+        "name": "Selimeoğulları (Benî Selime)",
+        "note": "Câbir b. Abdullah'ın kolu."
+      },
+      {
+        "id": "beyaza",
+        "name": "Beyâzaoğulları",
+        "note": "Hazrec'in önemli kollarından."
+      },
+      {
+        "id": "sacid",
+        "name": "Sâideoğulları (Benî Sâide)",
+        "note": "Sa'd b. Ubâde'nin kolu. Sakîfetü Benî Sâide burada."
+      },
+      {
+        "id": "haris_hazrec",
+        "name": {
+          "ar": "بنو الحارث",
+          "tr": "Benî Hâris"
+        },
+        "note": "Hazrec alt kolu."
+      },
+      {
+        "id": "avf_hazrec",
+        "name": {
+          "ar": "بنو عوف",
+          "tr": "Benî Avf"
+        },
+        "note": "Hazrec alt kolu. Ubâde b. es-Sâmit bu koldan."
+      },
+      {
+        "id": "zurayq",
+        "name": {
+          "ar": "بنو زريق",
+          "tr": "Benî Zurayk"
+        },
+        "note": "Hazrec alt kolu. Râfi' b. Mâlik bu koldan."
+      },
+      {
+        "id": "bayada",
+        "name": {
+          "ar": "بنو بياضة",
+          "tr": "Benî Beyâza"
+        },
+        "note": "Hazrec alt kolu."
+      },
+      {
+        "id": "malik_neccar",
+        "name": {
+          "ar": "بنو مالك بن النجار",
+          "tr": "Benî Mâlik b. en-Neccâr"
+        },
+        "note": "Neccâr'ın büyük alt kolu. Mescid-i Nebevî'nin inşa edildiği arazi onlara aitti."
+      },
+      {
+        "id": "adiy_neccar",
+        "name": {
+          "ar": "بنو عدي بن النجار",
+          "tr": "Benî Adiy b. en-Neccâr"
+        },
+        "note": "Neccâr alt kolu. Ümmü Süleym ve Enes b. Mâlik bu koldan."
+      }
+    ],
+    "region": "Medine",
+    "territory_description": "Medine'nin kuzey ve batısı (Mescid-i Nebevî çevresi)"
+  },
+  {
+    "id": "hevazin",
+    "name": {
+      "ar": "هوازن",
+      "tr": "Hevâzin",
+      "en": "Hawazin"
+    },
+    "center_lat": 21.6,
+    "center_lng": 40.2,
+    "description": "Necid ile Hicaz arasında büyük Arap kabilesi. Sakîf'in akrabası. Huneyn Gazvesi'nde (630 CE) Müslümanlara karşı savaşmış, yenildikten sonra İslâm'a girmiştir.",
+    "clans": [
+      {
+        "id": "sa_d_bekr",
+        "name": "Sa'd b. Bekr",
+        "note": "Hz. Peygamber'in süt annesi Halîme'nin kabilesi."
+      },
+      {
+        "id": "nasr",
+        "name": "Nasr b. Muâviye",
+        "note": "Hevâzin'in büyük kollarından."
+      },
+      {
+        "id": "cusum",
+        "name": "Cüşem",
+        "note": "Huneyn'de savaşan kollardan."
+      }
+    ]
+  },
+  {
+    "id": "sakif",
+    "name": {
+      "ar": "ثقيف",
+      "tr": "Sakîf",
+      "en": "Thaqif"
+    },
+    "center_lat": 21.2703,
+    "center_lng": 40.4159,
+    "description": "Tâif'in hâkim kabilesi. Üzüm bağları ve tarımla zenginleşmiş. Hz. Peygamber'i taşlayan kabile. 630 yılında heyet göndererek İslâm'a girmiştir.",
+    "clans": [
+      {
+        "id": "ahla_f",
+        "name": "Ahlâf",
+        "note": "Sakîf'in iki ana kolundan biri."
+      },
+      {
+        "id": "malik_sakif",
+        "name": "Mâlik",
+        "note": "Sakîf'in diğer ana kolu."
+      }
+    ]
+  },
+  {
+    "id": "gatafan",
+    "name": {
+      "ar": "غطفان",
+      "tr": "Gatafân",
+      "en": "Ghatafan"
+    },
+    "center_lat": 25.5,
+    "center_lng": 40.5,
+    "description": "Necid bölgesinde büyük bedevî kabile konfederasyonu. Hendek Savaşı'nda Kureyş ile birlikte Medine'yi kuşatmıştır. Abs ve Zübyân alt kolları vardır.",
+    "clans": [
+      {
+        "id": "abs_gatafan",
+        "name": "Abs",
+        "note": "Gatafân'ın büyük kolu."
+      },
+      {
+        "id": "zubyan",
+        "name": "Zübyân",
+        "note": "Fezâre kolu bu alt kabileden."
+      },
+      {
+        "id": "esced",
+        "name": "Eşce'",
+        "note": "Gatafân'ın üçüncü büyük kolu."
+      }
+    ]
+  },
+  {
+    "id": "gassaniler",
+    "name": {
+      "ar": "الغساسنة",
+      "tr": "Gassânîler",
+      "en": "Ghassanids"
+    },
+    "center_lat": 32.0,
+    "center_lng": 36.0,
+    "type": "christian",
+    "description": "Güney Suriye ve Ürdün'de Bizans'a tâbi Hristiyan Arap devleti. Güney Arabistan (Kahtânî) kökenli. Mûte Savaşı'nda Bizans'ın müttefiki olarak Müslümanlara karşı savaşmıştır.",
+    "clans": []
+  },
+  {
+    "id": "kureys",
+    "name": {
+      "ar": "قريش",
+      "tr": "Kureyş",
+      "en": "Quraysh"
+    },
+    "type": "tribe",
+    "region": "Hicaz",
+    "clans": [
+      {
+        "id": "beni_hasim",
+        "name": {
+          "ar": "بنو هاشم",
+          "tr": "Hâşimoğulları",
+          "en": "Banu Hashim"
+        },
+        "notable": [
+          "ali",
+          "hamza",
+          "abbas",
+          "ebu_talib",
+          "ebu_leheb",
+          "hasan_ali",
+          "huseyin_ali"
+        ]
+      },
+      {
+        "id": "beni_umeyye",
+        "name": {
+          "ar": "بنو أمية",
+          "tr": "Ümeyyeoğulları",
+          "en": "Banu Umayya"
+        },
+        "notable": [
+          "osman",
+          "ebu_sufyan",
+          "ummu_habibe"
+        ]
+      },
+      {
+        "id": "beni_mahzum",
+        "name": {
+          "ar": "بنو مخزوم",
+          "tr": "Mahzûmoğulları",
+          "en": "Banu Makhzum"
+        },
+        "notable": [
+          "halid_velid",
+          "ebu_cehil"
+        ]
+      },
+      {
+        "id": "beni_teym",
+        "name": {
+          "ar": "بنو تيم",
+          "tr": "Teymoğulları",
+          "en": "Banu Taym"
+        },
+        "notable": [
+          "aisha"
+        ]
+      },
+      {
+        "id": "beni_adi",
+        "name": {
+          "ar": "بنو عدي",
+          "tr": "Adiyyoğulları",
+          "en": "Banu Adi"
+        },
+        "notable": [
+          "omer",
+          "abdullah_omer"
+        ]
+      },
+      {
+        "id": "beni_zuhra",
+        "name": {
+          "ar": "بنو زهرة",
+          "tr": "Zühreoğulları",
+          "en": "Banu Zuhra"
+        },
+        "notable": [
+          "abdurrahman"
+        ]
+      },
+      {
+        "id": "beni_esed_abduluzza",
+        "name": {
+          "ar": "بنو أسد بن عبد العزى",
+          "tr": "Esed b. Abdüluzzâ",
+          "en": "Banu Asad ibn Abd al-Uzza"
+        },
+        "notable": [
+          "zubeyr",
+          "abdullah_zubeyr"
+        ]
+      },
+      {
+        "id": "beni_abdüddar",
+        "name": {
+          "ar": "بنو عبد الدار",
+          "tr": "Abdüddâroğulları",
+          "en": "Banu Abd al-Dar"
+        },
+        "notable": [
+          "musab_umeyr"
+        ]
+      },
+      {
+        "id": "beni_sahm",
+        "name": {
+          "ar": "بنو سهم",
+          "tr": "Sehmoğulları",
+          "en": "Banu Sahm"
+        },
+        "notable": [
+          "amr_as",
+          "abdullah_amr"
+        ]
+      },
+      {
+        "id": "beni_amir_luey",
+        "name": {
+          "ar": "بنو عامر بن لؤي",
+          "tr": "Âmir b. Lüeyoğulları",
+          "en": "Banu Amir ibn Lu'ayy"
+        },
+        "notable": [
+          "sevde"
+        ]
+      },
+      {
+        "id": "beni_abd_sems",
+        "name": {
+          "ar": "بنو عبد شمس",
+          "tr": "Abdüşemsoğulları",
+          "en": "Banu Abd Shams"
+        },
+        "notable": [
+          "hind_utbe"
+        ]
+      },
+      {
+        "id": "abdusems",
+        "name": {
+          "ar": "بنو عبد شمس",
+          "tr": "Benî Abdüşşems"
+        },
+        "note": "Ümeyye ve Muttalib kollarının babası. Ebû Süfyân, Muâviye, Hz. Osman bu koldan."
+      },
+      {
+        "id": "nevfel",
+        "name": {
+          "ar": "بنو نوفل",
+          "tr": "Benî Nevfel"
+        },
+        "note": "Abdümenâf'ın oğlu Nevfel'in kolu. Mut'im b. Adiy bu koldan."
+      },
+      {
+        "id": "abduddar",
+        "name": {
+          "ar": "بنو عبد الدار",
+          "tr": "Benî Abdüddâr"
+        },
+        "note": "Kâbe perdedarlığı (hicâbe) ve sancaktarlığı (livâ) görevini üstlenen kol. Osman b. Talha bu koldan."
+      },
+      {
+        "id": "sehm",
+        "name": {
+          "ar": "بنو سهم",
+          "tr": "Benî Sehm"
+        },
+        "note": "Kureyş alt kolu. Amr b. el-Âs'ın kolu."
+      },
+      {
+        "id": "cumah",
+        "name": {
+          "ar": "بنو جمح",
+          "tr": "Benî Cumah"
+        },
+        "note": "Osman b. Maz'ûn ve Safvân b. Ümeyye'nin kolu."
+      },
+      {
+        "id": "muttalib",
+        "name": {
+          "ar": "بنو المطلب",
+          "tr": "Benî Muttalib"
+        },
+        "note": "Hâşimoğullarına en yakın kol. Şi'b-i Ebî Tâlib boykotunda Hâşimîlerle birlikte kuşatıldılar."
+      },
+      {
+        "id": "fihr",
+        "name": {
+          "ar": "بنو فهر",
+          "tr": "Benî Fihr"
+        },
+        "note": "Kureyş'in eponym atası. Bazı nesepçilere göre Kureyş = Fihr b. Mâlik."
+      },
+      {
+        "id": "amir_luey",
+        "name": {
+          "ar": "بنو عامر بن لؤي",
+          "tr": "Benî Âmir b. Lüey"
+        },
+        "note": "Süheyl b. Amr'ın kolu. Hudeybiye müzakerecisi."
+      },
+      {
+        "id": "muharibi",
+        "name": {
+          "ar": "بنو محارب",
+          "tr": "Benî Muhârib"
+        },
+        "note": "Kureyş'in küçük kollarından."
+      }
+    ],
+    "description": {
+      "tr": "Mekke'nin hâkim kabilesi. Hicaz ticaretini kontrol eden, Kâbe'nin hizmetini yürüten Arap kabilesi.",
+      "en": "Dominant tribe of Mecca. Controlled Hijaz trade and served as custodians of the Ka'ba.",
+      "ar": "القبيلة المهيمنة في مكة. سيطرت على تجارة الحجاز وخدمة الكعبة."
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "territory_description": "Mekke ve çevresi (Harem bölgesi)",
+    "estimated_population": "~10,000-15,000 (tüm kollar, Mekke fethi döneminde)"
+  },
+  {
+    "id": "temim",
+    "name": {
+      "ar": "تميم",
+      "tr": "Temîm",
+      "en": "Tamim"
+    },
+    "type": "tribe",
+    "region": "necid",
+    "clans": [
+      {
+        "id": "darim",
+        "name": "Dârim",
+        "note": "Temîm'in en güçlü kolu."
+      },
+      {
+        "id": "hanzala",
+        "name": "Hanzala",
+        "note": "Büyük alt kollardan."
+      },
+      {
+        "id": "amr_temim",
+        "name": "Amr b. Temîm",
+        "note": "Üçüncü büyük kol."
+      }
+    ],
+    "description": {
+      "tr": "Arabistan'ın en kalabalık kabilelerinden. Hucurât sûresinin bir kısmı onların heyeti hakkında nâzil oldu.",
+      "en": "One of the most numerous Arabian tribes. Part of Surah al-Hujurat was revealed regarding their delegation.",
+      "ar": "من أكبر القبائل العربية عدداً. نزل جزء من سورة الحجرات بشأن وفدهم."
+    }
+  },
+  {
+    "id": "huzaa",
+    "name": {
+      "ar": "خزاعة",
+      "tr": "Huzâa",
+      "en": "Khuza'a"
+    },
+    "type": "tribe",
+    "region": "mekke",
+    "clans": [
+      {
+        "id": "beni_mustaliq",
+        "name": "Benî Mustaliḳ",
+        "note": "Huzâa'nın alt kolu. Müreysî' Gazvesi bu kola karşı yapılmıştır."
+      },
+      {
+        "id": "ka_b_huzaa",
+        "name": "Ka'b b. Amr (Huzâa)",
+        "note": "Mekke'de Hz. Peygamber'le ittifak kuran kol."
+      }
+    ],
+    "description": {
+      "tr": "Mekke'nin eski hâkimi. Hudeybiye'den sonra Hz. Peygamber'in müttefiki. Kureyş'in müttefiki Benî Bekir'in saldırısı Mekke fethinin sebebi oldu.",
+      "en": "Former rulers of Mecca. Allied with the Prophet after Hudaybiyya. The attack by Quraysh's allies (Banu Bakr) on Khuza'a triggered the Conquest of Mecca.",
+      "ar": "حكام مكة السابقون. تحالفوا مع النبي ﷺ بعد الحديبية. هجوم حلفاء قريش (بنو بكر) عليهم أدى إلى فتح مكة."
+    }
+  },
+  {
+    "id": "beni_kaynuka_tribe",
+    "name": {
+      "ar": "بنو قينقاع",
+      "tr": "Benî Kaynukā'",
+      "en": "Banu Qaynuqa"
+    },
+    "type": "tribe",
+    "region": "Medine",
+    "clans": [],
+    "description": {
+      "tr": "Medine'nin üç Yahudi kabilesinden biri. Kuyumculuk ve silah ticareti yaparlardı. 2H'de anlaşmayı bozmaları üzerine sürgün edildiler.",
+      "en": "One of three Jewish tribes of Medina. Engaged in goldsmithing and arms trade. Exiled in 2 AH after breaking the treaty.",
+      "ar": "إحدى القبائل اليهودية الثلاث في المدينة. عملوا في الصياغة وتجارة السلاح. نُفوا سنة 2 هـ بعد نقضهم العهد."
+    },
+    "center_lat": 24.465,
+    "center_lng": 39.608,
+    "religion_pre_islam": "yahudi",
+    "territory_description": "Medine'nin güneyinde, çarşı bölgesinde. Kuyumculuk ve silah yapımıyla geçimlerini sağlıyorlardı.",
+    "estimated_population": "~700 savaşçı"
+  },
+  {
+    "id": "beni_nadir_tribe",
+    "name": {
+      "ar": "بنو النضير",
+      "tr": "Benî Nadîr",
+      "en": "Banu Nadir"
+    },
+    "type": "tribe",
+    "region": "Medine → Hayber",
+    "clans": [],
+    "description": {
+      "tr": "Medine'nin ikinci Yahudi kabilesi. Tarım ve hurma bahçeleriyle meşhur. 4H'de Hz. Peygamber'e suikast girişimi sonrası Hayber'e sürgün edildiler.",
+      "en": "Second Jewish tribe of Medina. Famous for agriculture and date farms. Exiled to Khaybar in 4 AH after attempting to assassinate the Prophet.",
+      "ar": "القبيلة اليهودية الثانية في المدينة. اشتهرت بالزراعة. نُفيت إلى خيبر سنة 4 هـ بعد محاولة اغتيال النبي ﷺ."
+    },
+    "center_lat": 24.48,
+    "center_lng": 39.63,
+    "religion_pre_islam": "yahudi",
+    "territory_description": "Medine'nin güneydoğusunda hurma bahçeleri ve hisarlar. Sürgün sonrası Hayber'e yerleştiler.",
+    "estimated_population": "~500-700 savaşçı"
+  },
+  {
+    "id": "beni_kurayza_tribe",
+    "name": {
+      "ar": "بنو قريظة",
+      "tr": "Benî Kurayza",
+      "en": "Banu Qurayza"
+    },
+    "type": "tribe",
+    "region": "Medine",
+    "clans": [],
+    "description": {
+      "tr": "Medine'nin üçüncü Yahudi kabilesi. Hendek Gazvesi'nde anlaşmayı bozarak Kureyş ittifakına katıldılar. Sa'd b. Muâz'ın hakemliğiyle cezalandırıldılar.",
+      "en": "Third Jewish tribe of Medina. Broke the treaty during the Battle of the Trench by joining the Quraysh alliance. Judged by Sa'd ibn Mu'adh.",
+      "ar": "القبيلة اليهودية الثالثة في المدينة. نقضوا العهد في الخندق بالانضمام لتحالف قريش. حكم فيهم سعد بن معاذ."
+    },
+    "center_lat": 24.455,
+    "center_lng": 39.635,
+    "religion_pre_islam": "yahudi",
+    "territory_description": "Medine'nin güneydoğusunda, Benî Nadîr'e komşu. Hisarları vardı.",
+    "estimated_population": "~600-900 savaşçı"
+  },
+  {
+    "id": "gıfar",
+    "name": {
+      "ar": "غفار",
+      "tr": "Gıfâr",
+      "en": "Ghifar"
+    },
+    "type": "tribe",
+    "region": "hicaz",
+    "clans": [
+      {
+        "id": "gıfar_ana",
+        "name": "Gıfâr b. Müleyh",
+        "note": "Ana kol. Ebû Zer el-Gıfârî bu kabileden."
+      }
+    ],
+    "description": {
+      "tr": "Ebû Zer el-Gıfârî'nin kabilesi. Hz. Peygamber 'Gıfâr'a Allah mağfiret etsin' diye dua etti. Erken dönemde topluca Müslüman oldular.",
+      "en": "The tribe of Abu Dharr al-Ghifari. The Prophet prayed: 'May Allah forgive Ghifar.' Embraced Islam collectively early on.",
+      "ar": "قبيلة أبي ذر الغفاري. دعا النبي ﷺ: 'غفار غفر الله لها'. أسلمت مبكراً بالجملة."
+    }
+  },
+  {
+    "id": "esari",
+    "name": {
+      "ar": "الأشعريون",
+      "tr": "Eş'arîler",
+      "en": "Ash'aris"
+    },
+    "type": "tribe",
+    "region": "yemen",
+    "clans": [
+      {
+        "id": "esari_yemen",
+        "name": "Eş'ar b. Edded",
+        "note": "Yemen kökenli. Ebû Mûsâ el-Eş'arî'nin kabilesi."
+      }
+    ],
+    "description": {
+      "tr": "Yemenli kabile. Ebû Mûsâ el-Eş'arî'nin kavmi. Hz. Peygamber 'Size Yemenliler geldi, onlar kalpleri en yumuşak insanlardır' buyurdu.",
+      "en": "Yemeni tribe. The people of Abu Musa al-Ash'ari. The Prophet said: 'The people of Yemen have come to you; they have the softest hearts.'",
+      "ar": "قبيلة يمنية. قوم أبي موسى الأشعري. قال النبي ﷺ: 'أتاكم أهل اليمن هم أرق أفئدة'."
+    }
+  },
+  {
+    "id": "devs",
+    "name": {
+      "ar": "دوس",
+      "tr": "Devs",
+      "en": "Daws"
+    },
+    "type": "tribe",
+    "region": "yemen",
+    "clans": [
+      {
+        "id": "devs_ana",
+        "name": "Devs b. Adnân",
+        "note": "Güney Hicaz kabilesi. Tufeyl b. Amr'ın kabilesi."
+      }
+    ],
+    "description": {
+      "tr": "Tufeyl b. Amr ed-Devsî'nin kabilesi. Hz. Peygamber'in duasıyla toplu olarak Müslüman oldular. Hz. Ebû Hüreyre de Devs'lidir.",
+      "en": "The tribe of Tufayl ibn Amr al-Dawsi. Embraced Islam collectively through the Prophet's prayer. Abu Hurayra was also from Daws.",
+      "ar": "قبيلة الطفيل بن عمرو الدوسي. أسلمت بدعاء النبي ﷺ. أبو هريرة أيضاً من دوس."
+    }
+  },
+  {
+    "id": "abs",
+    "name": {
+      "ar": "عبس",
+      "tr": "Abs",
+      "en": "Abs"
+    },
+    "type": "tribe",
+    "region": "necid",
+    "clans": [
+      {
+        "id": "abs_ana",
+        "name": "Abs b. Bagîd",
+        "note": "Gatafân'ın alt kolu. Câhiliye şairi Antere bu kabileden."
+      }
+    ],
+    "description": {
+      "tr": "Gatafân konfederasyonunun bir kolu. Huzeyfe b. el-Yemân'ın kabilesi.",
+      "en": "A branch of the Ghatafan confederation. The tribe of Hudhayfah ibn al-Yaman.",
+      "ar": "فرع من اتحاد غطفان. قبيلة حذيفة بن اليمان."
+    }
+  },
+  {
+    "id": "nemir",
+    "name": {
+      "ar": "بنو نمر بن قاسط",
+      "tr": "Nemir b. Kāsıt",
+      "en": "Banu Namir ibn Qasit"
+    },
+    "type": "tribe",
+    "region": "irak",
+    "clans": [],
+    "description": {
+      "tr": "Irak bölgesinden Rebîa koluna mensup kabile. Suheyb er-Rûmî bu kabileye mensuptur.",
+      "en": "Tribe from the Rabi'a branch in the Iraq region. Suhayb al-Rumi belonged to this tribe.",
+      "ar": "قبيلة من ربيعة في منطقة العراق. ينتمي إليها صهيب الرومي."
+    }
+  },
+  {
+    "id": "kinane",
+    "name": {
+      "ar": "كنانة",
+      "tr": "Kinâne",
+      "en": "Kinana"
+    },
+    "center_lat": 21.4,
+    "center_lng": 39.8,
+    "description": "Kureyş'in üst kabilesi. Mudar kolundan. Mekke çevresinde ve Tihâme'de yaşarlardı. Hz. Peygamber'in soyu Kinâne b. Huzeyme'ye dayanır.",
+    "clans": [
+      {
+        "id": "kureys_kinane",
+        "name": {
+          "ar": "قريش",
+          "tr": "Kureyş"
+        },
+        "note": "Kinâne'nin en önde gelen kolu."
+      },
+      {
+        "id": "bekir_abdumenaf",
+        "name": {
+          "ar": "بنو بكر بن عبد مناة",
+          "tr": "Benî Bekir b. Abdümenâf"
+        },
+        "note": "Kinâne alt kolu. Bedir'de Kureyş safında."
+      },
+      {
+        "id": "mudlic",
+        "name": {
+          "ar": "بنو مدلج",
+          "tr": "Benî Müdlic"
+        },
+        "note": "İz sürme (kıyâfe) ilmiyle meşhur. Sürâka b. Mâlik bu koldan."
+      },
+      {
+        "id": "leyt",
+        "name": {
+          "ar": "بنو الليث",
+          "tr": "Benî Leys"
+        },
+        "note": "Kinâne alt kolu."
+      },
+      {
+        "id": "damra",
+        "name": {
+          "ar": "بنو ضمرة",
+          "tr": "Benî Damra"
+        },
+        "note": "Hz. Peygamber'in ilk antlaşma yaptığı kabilelerden."
+      }
+    ],
+    "region": "Hicaz",
+    "religion_pre_islam": "müşrik",
+    "territory_description": "Mekke-Medine arasında Tihâme bölgesi",
+    "estimated_population": "~20,000+ savaşçı (alt kollar dahil)"
+  },
+  {
+    "id": "esed_huzeyme",
+    "name": {
+      "ar": "أسد بن خزيمة",
+      "tr": "Esed b. Huzeyme",
+      "en": "Asad ibn Khuzayma"
+    },
+    "center_lat": 27.5,
+    "center_lng": 43.0,
+    "description": "Orta Arabistan'da yaşayan büyük kabile. Tulayha b. Huveylid'in kabilesi. Ridde savaşlarında önemli rol oynadı.",
+    "clans": [
+      {
+        "id": "duil",
+        "name": {
+          "ar": "بنو دؤل",
+          "tr": "Benî Düel"
+        },
+        "note": "Esed alt kolu."
+      },
+      {
+        "id": "ganem_esed",
+        "name": {
+          "ar": "بنو غنم",
+          "tr": "Benî Ganem"
+        },
+        "note": "Esed alt kolu."
+      }
+    ],
+    "region": "Necid",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Heyet gönderdiler. Ridde'de mürted oldular, sonra tekrar döndüler.",
+    "territory_description": "Necid bölgesinde, Hayber'in güneydoğusu"
+  },
+  {
+    "id": "tay",
+    "name": {
+      "ar": "طيء",
+      "tr": "Tay",
+      "en": "Tayy"
+    },
+    "center_lat": 27.6,
+    "center_lng": 41.7,
+    "description": "Kuzey Arabistan'ın büyük kabilelerinden. Adiy b. Hâtim et-Tâî'nin kabilesi. Hâtim et-Tâî cömertliğin sembolü olarak Arap edebiyatına geçti.",
+    "clans": [
+      {
+        "id": "cedile",
+        "name": {
+          "ar": "جديلة",
+          "tr": "Cedîle"
+        },
+        "note": "Tay'ın iki ana kolundan biri."
+      },
+      {
+        "id": "gavs_tay",
+        "name": {
+          "ar": "الغوث",
+          "tr": "Gavs"
+        },
+        "note": "Tay'ın diğer ana kolu. Adiy b. Hâtim bu koldan."
+      }
+    ],
+    "region": "Kuzey Arabistan",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Adiy b. Hâtim heyetiyle gelerek Müslüman oldu (H.9).",
+    "sahabi_members": [
+      "adiy_hatim"
+    ],
+    "territory_description": "Ece Dağları (Hâil bölgesi)"
+  },
+  {
+    "id": "kinde",
+    "name": {
+      "ar": "كندة",
+      "tr": "Kinde",
+      "en": "Kinda"
+    },
+    "center_lat": 15.5,
+    "center_lng": 48.5,
+    "description": "Güney Arabistan kökenli büyük kabile konfederasyonu. Câhiliye döneminde kısa süreli bir krallık kurmuşlardı. Vâil b. Hucr el-Kindî bu kabileden.",
+    "clans": [
+      {
+        "id": "sukun",
+        "name": {
+          "ar": "السكون",
+          "tr": "Sükûn"
+        },
+        "note": "Kinde alt kolu."
+      },
+      {
+        "id": "sekasik",
+        "name": {
+          "ar": "السكاسك",
+          "tr": "Sekāsik"
+        },
+        "note": "Kinde alt kolu."
+      }
+    ],
+    "region": "Yemen/Hadramevt",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Heyet gönderdiler (H.10). Ridde'de kısmî irtidat.",
+    "sahabi_members": [
+      "vail_hucr"
+    ],
+    "territory_description": "Hadramevt ve Güney Arabistan"
+  },
+  {
+    "id": "hadramevt",
+    "name": {
+      "ar": "حضرموت",
+      "tr": "Hadramevt",
+      "en": "Hadhramawt"
+    },
+    "center_lat": 15.9,
+    "center_lng": 49.0,
+    "description": "Yemen'in doğusundaki büyük kabile/bölge. İslâm'a heyetle girdiler. Ridde döneminde karışıklık yaşandı.",
+    "clans": [],
+    "region": "Yemen",
+    "religion_pre_islam": "karma (müşrik + hristiyan)"
+  },
+  {
+    "id": "himyer",
+    "name": {
+      "ar": "حمير",
+      "tr": "Himyer",
+      "en": "Himyar"
+    },
+    "center_lat": 15.3,
+    "center_lng": 44.2,
+    "description": "Kadim Yemen krallığının torunu olan büyük Güney Arabistan kabilesi. İslâm öncesi dönemde Yahudi Himyer Krallığı kurulmuştu (Zû Nüvâs).",
+    "clans": [],
+    "region": "Yemen",
+    "religion_pre_islam": "yahudi + müşrik",
+    "conversion_context": "Heyet gönderdiler. Hz. Peygamber'e mektupla İslâm'ı kabul ettiler.",
+    "territory_description": "Yemen'in güneybatısı, San'a çevresi"
+  },
+  {
+    "id": "ezd",
+    "name": {
+      "ar": "الأزد",
+      "tr": "Ezd",
+      "en": "Azd"
+    },
+    "center_lat": 20.0,
+    "center_lng": 44.0,
+    "description": "Güney Arabistan kökenli çok büyük kabile konfederasyonu. Evs ve Hazrec'in üst kabilesi. Ebû Hüreyre ve Eş'arîler (Ebû Mûsâ) bu kabileden.",
+    "clans": [
+      {
+        "id": "gassaniler_ezd",
+        "name": {
+          "ar": "غسان",
+          "tr": "Gassân"
+        },
+        "note": "Şam'a göç eden Ezd kolu. Hristiyan Gassânî Devleti."
+      },
+      {
+        "id": "evs_ezd",
+        "name": {
+          "ar": "الأوس",
+          "tr": "Evs"
+        },
+        "note": "Medine'ye göç eden Ezd kolu."
+      },
+      {
+        "id": "hazrec_ezd",
+        "name": {
+          "ar": "الخزرج",
+          "tr": "Hazrec"
+        },
+        "note": "Medine'ye göç eden Ezd kolu."
+      },
+      {
+        "id": "deva_ezd",
+        "name": {
+          "ar": "أزد شنوءة",
+          "tr": "Ezd Şenûe"
+        },
+        "note": "Ebû Hüreyre'nin kolu (Devs). Tihâme bölgesinde."
+      },
+      {
+        "id": "esariler_ezd",
+        "name": {
+          "ar": "الأشعريون",
+          "tr": "Eş'arîler"
+        },
+        "note": "Ebû Mûsâ el-Eş'arî'nin kabilesi. Yemen kökenli."
+      },
+      {
+        "id": "uman_ezd",
+        "name": {
+          "ar": "أزد عمان",
+          "tr": "Ezd-i Umân"
+        },
+        "note": "Umman bölgesine yerleşen Ezd kolu."
+      }
+    ],
+    "region": "Güney Arabistan → Hicaz/Umân/Şam'a göç",
+    "religion_pre_islam": "müşrik",
+    "sahabi_members": [
+      "ebu_hureyre",
+      "ebu_musa_esari"
+    ],
+    "territory_description": "Geniş dağılım: Yemen, Hicaz, Umân, Şam"
+  },
+  {
+    "id": "cuheyne",
+    "name": {
+      "ar": "جهينة",
+      "tr": "Cüheyne",
+      "en": "Juhayna"
+    },
+    "center_lat": 24.5,
+    "center_lng": 38.0,
+    "description": "Batı Arabistan'da (Yenbû'-Medîne arasında) yaşayan büyük kabile. Erken dönemde İslâm'a girdiler. Hz. Peygamber'in keşif birliklerine katıldılar.",
+    "clans": [],
+    "region": "Hicaz",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Erken dönemde İslâm'a girdiler. Birçok seriyyeye katıldılar.",
+    "territory_description": "Yenbû' ile Medine arasındaki sahil şeridi",
+    "estimated_population": "~5,000-8,000 savaşçı"
+  },
+  {
+    "id": "muzeyne",
+    "name": {
+      "ar": "مزينة",
+      "tr": "Müzeyne",
+      "en": "Muzayna"
+    },
+    "center_lat": 24.0,
+    "center_lng": 38.5,
+    "description": "Batı Arabistan'da yaşayan kabile. Erken dönemde İslâm'a girdiler. Hz. Peygamber: 'Müzeyne ve Cüheyne Allah'ın aile halkıdır' dedi.",
+    "clans": [],
+    "region": "Hicaz",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Erken toplu İslâm'a giriş.",
+    "territory_description": "Medine'nin batısında, Cüheyne'ye komşu"
+  },
+  {
+    "id": "eslem",
+    "name": {
+      "ar": "أسلم",
+      "tr": "Eslem",
+      "en": "Aslam"
+    },
+    "center_lat": 25.0,
+    "center_lng": 37.5,
+    "description": "Hicaz'da yaşayan kabile. Gıfâr'a yakın. Erken dönemde topluca İslâm'a girdiler.",
+    "clans": [],
+    "region": "Hicaz",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Topluca İslâm'a girdiler.",
+    "territory_description": "Mekke-Medine yolu üzerinde"
+  },
+  {
+    "id": "fezare",
+    "name": {
+      "ar": "فزارة",
+      "tr": "Fezâre",
+      "en": "Fazara"
+    },
+    "center_lat": 27.0,
+    "center_lng": 40.5,
+    "description": "Gatafân konfederasyonunun büyük alt kolu. Uyeyne b. Hısn'ın kabilesi. Hendek savaşında Kureyş'le ittifak yaptılar.",
+    "clans": [
+      {
+        "id": "sammal",
+        "name": {
+          "ar": "شمال",
+          "tr": "Şemmâl"
+        },
+        "note": "Fezâre alt kolu."
+      }
+    ],
+    "parent_tribe": "gatafan",
+    "region": "Necid",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Hendek sonrası barışçıl ilişki, sonra heyet gönderdiler.",
+    "key_events": [
+      "gazve_hendek"
+    ],
+    "territory_description": "Necid bölgesinde, Hayber'in kuzeyi"
+  },
+  {
+    "id": "beni_hanife",
+    "name": {
+      "ar": "بنو حنيفة",
+      "tr": "Benî Hanîfe",
+      "en": "Banu Hanifa"
+    },
+    "center_lat": 24.7,
+    "center_lng": 46.7,
+    "description": "Yemâme (bugünkü Riyad bölgesi) merkezli kabile. Yalancı peygamber Müseylime bu kabileden. Ridde savaşlarının en ağır çarpışması burada yaşandı.",
+    "clans": [],
+    "region": "Yemâme/Necid",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Hz. Peygamber döneminde heyet gönderdiler. Ridde'de Müseylime'ye uydular. Yemâme savaşıyla tekrar İslâm'a döndüler.",
+    "territory_description": "Yemâme bölgesi (Riyad-Uyeyne)",
+    "estimated_population": "~40,000 (Müseylime ordusu ~40,000 sayılır)"
+  },
+  {
+    "id": "bekir_vail",
+    "name": {
+      "ar": "بكر بن وائل",
+      "tr": "Bekir b. Vâil",
+      "en": "Bakr ibn Wa'il"
+    },
+    "center_lat": 28.0,
+    "center_lng": 46.0,
+    "description": "Kuzey-doğu Arabistan'ın büyük kabilelerinden. Rebia kolundan. Zü Kār savaşında Sâsânîleri yenmeleriyle meşhur.",
+    "clans": [
+      {
+        "id": "seyban",
+        "name": {
+          "ar": "شيبان",
+          "tr": "Şeybân"
+        },
+        "note": "Ebû Hanîfe'nin aslının bu koldan olduğu rivayet edilir."
+      },
+      {
+        "id": "ycl",
+        "name": {
+          "ar": "يشكر",
+          "tr": "Yeşkür"
+        },
+        "note": "Bekir b. Vâil alt kolu."
+      },
+      {
+        "id": "hanife_bekir",
+        "name": {
+          "ar": "حنيفة",
+          "tr": "Hanîfe"
+        },
+        "note": "Bekir b. Vâil alt kolu. Yemâme'de."
+      }
+    ],
+    "region": "Kuzey-doğu Arabistan",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Heyetlerle Müslüman oldular.",
+    "territory_description": "Bahreyn-Irak arası bölge"
+  },
+  {
+    "id": "kudaa",
+    "name": {
+      "ar": "قضاعة",
+      "tr": "Kudâa",
+      "en": "Quda'a"
+    },
+    "center_lat": 29.0,
+    "center_lng": 37.0,
+    "description": "Kuzey Arabistan'da yaşayan büyük kabile konfederasyonu. Bizans sınır bölgesinde. Kelb, Cüheyne gibi alt kolları var.",
+    "clans": [
+      {
+        "id": "kelb",
+        "name": {
+          "ar": "كلب",
+          "tr": "Kelb"
+        },
+        "note": "Dımaşk çevresinde. Emevîlerle ittifak yapan önemli kabile."
+      },
+      {
+        "id": "beliy",
+        "name": {
+          "ar": "بلي",
+          "tr": "Beliy"
+        },
+        "note": "Kudâa alt kolu. Medine kuzeyinde."
+      },
+      {
+        "id": "uzre",
+        "name": {
+          "ar": "عذرة",
+          "tr": "Uzre"
+        },
+        "note": "Platonik aşk (el-hubbu'l-uzrî) kavramıyla meşhur."
+      }
+    ],
+    "region": "Kuzey Arabistan/Şam sınırı",
+    "religion_pre_islam": "müşrik",
+    "territory_description": "Kuzey Hicaz'dan Şam sınırına kadar geniş alan"
+  },
+  {
+    "id": "beni_suleim",
+    "name": {
+      "ar": "بنو سليم",
+      "tr": "Benî Süleym",
+      "en": "Banu Sulaym"
+    },
+    "center_lat": 23.5,
+    "center_lng": 40.0,
+    "description": "Mekke-Medine arasında yaşayan savaşçı kabile. Bazı kolları erken Müslüman oldu, bazıları Ridde'de mürted oldu.",
+    "clans": [],
+    "region": "Hicaz",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Kısım kısım İslâm'a girdiler.",
+    "territory_description": "Mekke'nin kuzeydoğusu, Tâif-Medine arası",
+    "estimated_population": "~10,000 savaşçı"
+  },
+  {
+    "id": "beni_amir_luay",
+    "name": {
+      "ar": "بنو عامر بن صعصعة",
+      "tr": "Benî Âmir b. Sa'saa",
+      "en": "Banu Amir ibn Sa'sa'a"
+    },
+    "center_lat": 25.0,
+    "center_lng": 44.0,
+    "description": "Orta Arabistan'ın büyük kabilelerinden. Bi'ri Maûne katliamını yapan kabile. Alt kolu Hilâl, Kilâb, Numeyr meşhurdur.",
+    "clans": [
+      {
+        "id": "kilab",
+        "name": {
+          "ar": "كلاب",
+          "tr": "Kilâb"
+        },
+        "note": "Benî Âmir'in en güçlü kolu."
+      },
+      {
+        "id": "hilal",
+        "name": {
+          "ar": "هلال",
+          "tr": "Hilâl"
+        },
+        "note": "Benî Hilâl göçleriyle meşhur."
+      },
+      {
+        "id": "numeyr",
+        "name": {
+          "ar": "نمير",
+          "tr": "Numeyr"
+        },
+        "note": "Benî Âmir alt kolu."
+      }
+    ],
+    "region": "Necid",
+    "religion_pre_islam": "müşrik",
+    "key_events": [
+      "biri_maune"
+    ],
+    "territory_description": "Necid'in batısı, Tâif'in doğusu"
+  },
+  {
+    "id": "mudar",
+    "name": {
+      "ar": "مضر",
+      "tr": "Mudar",
+      "en": "Mudar"
+    },
+    "center_lat": 24.0,
+    "center_lng": 42.0,
+    "description": "Kuzey Arap kabilelerinin büyük konfederasyonu. İki ana kolu: Kays Aylân ve İlyâs (Kinâne, Esed dahil). Kureyş, Mudar kolundandır.",
+    "clans": [
+      {
+        "id": "kays_aylan",
+        "name": {
+          "ar": "قيس عيلان",
+          "tr": "Kays Aylân"
+        },
+        "note": "Mudar'ın büyük kolu: Gatafân, Süleym, Hevâzin, Fehm."
+      },
+      {
+        "id": "ilyas_mudar",
+        "name": {
+          "ar": "إلياس",
+          "tr": "İlyâs"
+        },
+        "note": "Kinâne (→Kureyş), Esed b. Huzeyme, Hüzeyl."
+      }
+    ],
+    "region": "Kuzey/Orta Arabistan",
+    "religion_pre_islam": "müşrik",
+    "territory_description": "Kuzey ve Orta Arabistan geneli"
+  },
+  {
+    "id": "rebia",
+    "name": {
+      "ar": "ربيعة",
+      "tr": "Rebîa",
+      "en": "Rabi'a"
+    },
+    "center_lat": 28.0,
+    "center_lng": 44.0,
+    "description": "Kuzey Arabistan'ın diğer büyük konfederasyonu (Mudar'ın kardeş kolu). Bekir b. Vâil, Tağlib, Abdülkays alt kolları.",
+    "clans": [
+      {
+        "id": "taglib",
+        "name": {
+          "ar": "تغلب",
+          "tr": "Tağlib"
+        },
+        "note": "Hristiyan kabile. Emevî döneminde cizye yerine sadaka ödediler."
+      },
+      {
+        "id": "abdulkays",
+        "name": {
+          "ar": "عبد القيس",
+          "tr": "Abdülkays"
+        },
+        "note": "Bahreyn bölgesinde. İlk heyet gönderen kabilelerden."
+      },
+      {
+        "id": "bekir_rebia",
+        "name": {
+          "ar": "بكر بن وائل",
+          "tr": "Bekir b. Vâil"
+        },
+        "note": "Rebia'nın büyük alt kabilesi."
+      }
+    ],
+    "region": "Kuzey-doğu Arabistan",
+    "religion_pre_islam": "müşrik",
+    "territory_description": "Irak-Bahreyn-Kuzey Arabistan"
+  },
+  {
+    "id": "mezhic",
+    "name": {
+      "ar": "مذحج",
+      "tr": "Mezhic",
+      "en": "Madhhij"
+    },
+    "center_lat": 14.5,
+    "center_lng": 45.5,
+    "description": "Yemen'in büyük kabilelerinden. Muâz b. Cebel Yemen'e gönderildiğinde bu kabileye geldi. Alt kolları: Ens, Murâd, Zübeyd.",
+    "clans": [
+      {
+        "id": "murad",
+        "name": {
+          "ar": "مراد",
+          "tr": "Murâd"
+        },
+        "note": "Ebû Müslim el-Havlânî bu koldan. Ridde'de Esved el-Ansî'ye karşı savaştılar."
+      },
+      {
+        "id": "zubeyd",
+        "name": {
+          "ar": "زبيد",
+          "tr": "Zübeyd"
+        },
+        "note": "Yemen Mezhic alt kolu."
+      },
+      {
+        "id": "ens_mezhic",
+        "name": {
+          "ar": "أنس الله",
+          "tr": "Ens"
+        },
+        "note": "Mezhic alt kolu."
+      }
+    ],
+    "region": "Yemen",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Hz. Peygamber'in Yemen'e gönderdiği valilerle İslâm'a girdiler.",
+    "territory_description": "Yemen'in kuzey bölgesi"
+  },
+  {
+    "id": "hemdan",
+    "name": {
+      "ar": "همدان",
+      "tr": "Hemdân",
+      "en": "Hamdan"
+    },
+    "center_lat": 15.4,
+    "center_lng": 44.2,
+    "description": "Yemen'in büyük kabilelerinden. Hz. Ali'nin en sadık destekçisi. Hz. Peygamber'in mektubunu alıp topluca Müslüman oldular.",
+    "clans": [
+      {
+        "id": "hashid",
+        "name": {
+          "ar": "حاشد",
+          "tr": "Hâşid"
+        },
+        "note": "Hemdân'ın iki ana kolundan biri."
+      },
+      {
+        "id": "bekil",
+        "name": {
+          "ar": "بكيل",
+          "tr": "Bekîl"
+        },
+        "note": "Hemdân'ın diğer ana kolu."
+      }
+    ],
+    "region": "Yemen",
+    "religion_pre_islam": "müşrik",
+    "conversion_context": "Hz. Peygamber'in mektubuyla topluca İslâm'a girdiler. Hz. Ali'nin 'Hemdân olmasaydı…' sözü.",
+    "territory_description": "San'a kuzeyinde"
+  },
+  {
+    "id": "dıl",
+    "name": {
+      "ar": "الديل",
+      "tr": "Dıl (Benî Dîl)",
+      "en": "Dil (Banu Dil)"
+    },
+    "center_lat": 21.5,
+    "center_lng": 39.8,
+    "description": "Kinâne'nin alt kolu. Mekke çevresinde yaşardı.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Mekke güneyi"
+  },
+  {
+    "id": "lehiyan",
+    "name": {
+      "ar": "لحيان",
+      "tr": "Lehiyân (Benî Lihyân)",
+      "en": "Lihyan"
+    },
+    "center_lat": 26.0,
+    "center_lng": 38.0,
+    "description": "Hüzeyl kabilesinin bir kolu. Reci' hadisesini tertip eden kabile.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Mekke kuzeybatısı"
+  },
+  {
+    "id": "adel",
+    "name": {
+      "ar": "عضل",
+      "tr": "Adel",
+      "en": "Adal"
+    },
+    "center_lat": 21.8,
+    "center_lng": 40.0,
+    "description": "Reci' hadisesinde Lehiyân ile birlikte hareket eden kabile.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Mekke çevresi"
+  },
+  {
+    "id": "kare",
+    "name": {
+      "ar": "القارة",
+      "tr": "Kâre",
+      "en": "al-Qara"
+    },
+    "center_lat": 21.5,
+    "center_lng": 40.2,
+    "description": "Hüzeyl kabilesinin yakınında yaşayan küçük kabile. Okçulukları ile meşhur.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Hicaz"
+  },
+  {
+    "id": "zübeyd",
+    "name": {
+      "ar": "زبيد",
+      "tr": "Zübeyd",
+      "en": "Zubayd"
+    },
+    "center_lat": 14.5,
+    "center_lng": 44.0,
+    "description": "Yemen kökenli kabile. Amr b. Ma'dîkerib'in kabilesi.",
+    "clans": [],
+    "region": "Yemen",
+    "territory_description": "Yemen"
+  },
+  {
+    "id": "ans",
+    "name": {
+      "ar": "عنس",
+      "tr": "Ans",
+      "en": "Ans"
+    },
+    "center_lat": 14.8,
+    "center_lng": 44.5,
+    "description": "Yemen kabilesi. Yalancı peygamber el-Esved el-Ansî bu kabiledendir.",
+    "clans": [],
+    "region": "Yemen",
+    "territory_description": "Yemen"
+  },
+  {
+    "id": "cüzam",
+    "name": {
+      "ar": "جذام",
+      "tr": "Cüzâm",
+      "en": "Judham"
+    },
+    "center_lat": 30.0,
+    "center_lng": 36.0,
+    "description": "Ürdün ve Filistin bölgesinde yaşayan Kuzey Arap kabilesi. Mûte Savaşı'nda bazı kolları Müslüman ordusuna katıldı.",
+    "clans": [],
+    "region": "Şam / Ürdün",
+    "territory_description": "Ürdün ve güney Suriye"
+  },
+  {
+    "id": "beliy",
+    "name": {
+      "ar": "بلي",
+      "tr": "Beliy",
+      "en": "Bali"
+    },
+    "center_lat": 27.0,
+    "center_lng": 37.0,
+    "description": "Kudâa'nın alt kolu. Kuzey Hicaz'da Vâdi'l-Kurâ bölgesinde yaşardı.",
+    "clans": [],
+    "region": "Kuzey Hicaz",
+    "territory_description": "Vâdi'l-Kurâ ve çevresi"
+  },
+  {
+    "id": "dubyan",
+    "name": {
+      "ar": "ذبيان",
+      "tr": "Dübyân",
+      "en": "Dhubyan"
+    },
+    "center_lat": 26.5,
+    "center_lng": 40.5,
+    "description": "Gatafân'ın büyük kollarından. Fezâre de Dübyân'ın alt koludur. Hendek Gazvesi'nde Kureyş müttefiki.",
+    "clans": [
+      {
+        "id": "dubyan_fezare",
+        "name": "Fezâre",
+        "note": "Dübyân'ın en büyük alt kolu. Uyeyne b. Hısn'ın kabilesi."
+      },
+      {
+        "id": "dubyan_murra",
+        "name": "Mürre b. Avf",
+        "note": "Dübyân'ın diğer büyük kolu."
+      }
+    ],
+    "region": "Necid",
+    "territory_description": "Kuzey Necid / Gatafân bölgesi"
+  },
+  {
+    "id": "huzeyl",
+    "name": {
+      "ar": "هذيل",
+      "tr": "Hüzeyl",
+      "en": "Hudhayl"
+    },
+    "center_lat": 21.3,
+    "center_lng": 40.0,
+    "description": "Mekke güneydoğusunda yaşayan büyük kabile. Bi'r-i Maûne ve Reci' olaylarında yer aldı. Şiir geleneğiyle meşhur (Dîvânü'l-Hüzeliyyîn).",
+    "clans": [
+      {
+        "id": "huzeyl_lehiyan",
+        "name": "Lehiyân",
+        "note": "Reci' hadisesini düzenleyen kol."
+      },
+      {
+        "id": "huzeyl_adel",
+        "name": "Adel",
+        "note": "Lehiyân ile birlikte hareket eden kol."
+      }
+    ],
+    "region": "Hicaz",
+    "territory_description": "Mekke güneydoğusu, Tâif'e doğru"
+  },
+  {
+    "id": "beni_hasim",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو هاشم",
+      "tr": "Benî Hâşim",
+      "en": "Banu Hashim"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Kureyş'in en şerefli kolu. Hz. Peygamber, Hz. Ali, Hz. Hamza, Hz. Abbâs bu koldan.",
+      "en": "Most noble branch of Quraysh. The Prophet, Ali, Hamza, Abbas from this clan."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke Harem bölgesi"
+    }
+  },
+  {
+    "id": "beni_umeyye",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو أمية",
+      "tr": "Benî Ümeyye",
+      "en": "Banu Umayya"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Kureyş'in güçlü ticarî kolu. Hz. Osman, Ebû Süfyân, Muâviye bu koldan. Emevî Devleti kurucuları.",
+      "en": "Powerful mercantile branch. Uthman, Abu Sufyan, Muawiya from here."
+    },
+    "parent_tribe": "kureys",
+    "clans": [
+      "Benî Abdüşşems",
+      "Benî Harb"
+    ],
+    "territory_description": {
+      "tr": "Mekke ticaret bölgesi"
+    }
+  },
+  {
+    "id": "beni_mahzum",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو مخزوم",
+      "tr": "Benî Mahzûm",
+      "en": "Banu Makhzum"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Kureyş'in savaşçı kolu. Hâlid b. Velîd, Ebû Cehil bu koldan.",
+      "en": "Warrior branch of Quraysh. Khalid ibn al-Walid, Abu Jahl from here."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_teym",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو تيم",
+      "tr": "Benî Teym",
+      "en": "Banu Taym"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Hz. Ebû Bekir'in kabilesi.",
+      "en": "Clan of Abu Bakr."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_adiy",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو عدي",
+      "tr": "Benî Adiy",
+      "en": "Banu Adi"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Hz. Ömer'in kabilesi.",
+      "en": "Clan of Umar."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_zuhra",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو زهرة",
+      "tr": "Benî Zühre",
+      "en": "Banu Zuhra"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Sa'd b. Ebî Vakkâs ve Abdurrahman b. Avf'ın kabilesi. Peygamber'in annesi Âmine bint Vehb bu koldan.",
+      "en": "Clan of Sad ibn Abi Waqqas and Abdur-Rahman ibn Awf."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_abduddar",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو عبد الدار",
+      "tr": "Benî Abdüddâr",
+      "en": "Banu Abd ad-Dar"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Kâbe perdedarlığı (hicâbe) görevini üstlenen Kureyş kolu. Mus'ab b. Umeyr bu koldan.",
+      "en": "Custodians of the Kaaba. Musab ibn Umayr from here."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke, Kâbe çevresi"
+    }
+  },
+  {
+    "id": "beni_sehm",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو سهم",
+      "tr": "Benî Sehm",
+      "en": "Banu Sahm"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Amr b. el-Âs'ın kabilesi.",
+      "en": "Clan of Amr ibn al-As."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_cumah",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو جمح",
+      "tr": "Benî Cumah",
+      "en": "Banu Jumah"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Osmân b. Maz'ûn'un kabilesi.",
+      "en": "Clan of Uthman ibn Mazun."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_amir_luey",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو عامر بن لؤي",
+      "tr": "Benî Âmir b. Lüey",
+      "en": "Banu Amir ibn Luayy"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Süheyl b. Amr'ın kabilesi.",
+      "en": "Clan of Suhayl ibn Amr."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_muttalib",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو المطلب",
+      "tr": "Benî Muttalib",
+      "en": "Banu Muttalib"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Benî Hâşim'in kardeş kolu. Şi'b-i Ebî Tâlib boykotuna birlikte katıldılar.",
+      "en": "Brother clan of Banu Hashim."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_nevfel",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو نوفل",
+      "tr": "Benî Nevfel",
+      "en": "Banu Nawfal"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Cübeyr b. Mut'im'in kabilesi. Hâşimoğulları'na yakın kol.",
+      "en": "Clan of Jubayr ibn Mutim."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_esed_abdiluzza",
+    "region": "Mekke",
+    "name": {
+      "ar": "بنو أسد بن عبد العزى",
+      "tr": "Benî Esed b. Abdiluzzâ",
+      "en": "Banu Asad ibn Abd al-Uzza"
+    },
+    "center_lat": 21.4225,
+    "center_lng": 39.8262,
+    "description": {
+      "tr": "Hz. Hatice'nin kabilesi. Zübeyr b. Avvâm bu koldan.",
+      "en": "Clan of Khadija and Zubayr ibn al-Awwam."
+    },
+    "parent_tribe": "kureys",
+    "clans": [],
+    "territory_description": {
+      "tr": "Mekke"
+    }
+  },
+  {
+    "id": "beni_neccar",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو النجار",
+      "tr": "Benî Neccâr",
+      "en": "Banu Najjar"
+    },
+    "center_lat": 24.4672,
+    "center_lng": 39.6112,
+    "description": {
+      "tr": "Hazrec'in en kalabalık kolu. Hz. Peygamber'in anne tarafı. Ebû Eyyûb el-Ensârî bu koldan.",
+      "en": "Largest Khazraj sub-clan. Maternal side of the Prophet."
+    },
+    "parent_tribe": "hazrec",
+    "clans": [],
+    "territory_description": {
+      "tr": "Medine merkez"
+    }
+  },
+  {
+    "id": "beni_seleme",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو سلمة",
+      "tr": "Benî Seleme",
+      "en": "Banu Salima"
+    },
+    "center_lat": 24.48,
+    "center_lng": 39.6,
+    "description": {
+      "tr": "Hazrec'in batı Medine kolu. Câbir b. Abdullah bu koldan.",
+      "en": "Western Medina branch of Khazraj."
+    },
+    "parent_tribe": "hazrec",
+    "clans": [],
+    "territory_description": {
+      "tr": "Medine batısı"
+    }
+  },
+  {
+    "id": "beni_saide",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو ساعدة",
+      "tr": "Benî Sâide",
+      "en": "Banu Saida"
+    },
+    "center_lat": 24.47,
+    "center_lng": 39.61,
+    "description": {
+      "tr": "Sa'd b. Ubâde'nin kabilesi. Sakîfe-i Benî Sâide hilâfet şûrâsı burada.",
+      "en": "Clan of Sad ibn Ubada. Saqifa council held here."
+    },
+    "parent_tribe": "hazrec",
+    "clans": [],
+    "territory_description": {
+      "tr": "Medine"
+    }
+  },
+  {
+    "id": "beni_abduleshel",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو عبد الأشهل",
+      "tr": "Benî Abdüleşhel",
+      "en": "Banu Abd al-Ashhal"
+    },
+    "center_lat": 24.49,
+    "center_lng": 39.62,
+    "description": {
+      "tr": "Evs'in en güçlü kolu. Sa'd b. Muâz, Üseyd b. Hudayr bu koldan.",
+      "en": "Strongest Aws sub-clan. Sad ibn Muadh from here."
+    },
+    "parent_tribe": "evs",
+    "clans": [],
+    "territory_description": {
+      "tr": "Medine kuzeydoğusu"
+    }
+  },
+  {
+    "id": "beni_zafar",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو ظفر",
+      "tr": "Benî Zafer",
+      "en": "Banu Zafar"
+    },
+    "center_lat": 24.48,
+    "center_lng": 39.62,
+    "description": {
+      "tr": "Evs kabilesinin bir kolu. Kays b. Sa'd bu koldan.",
+      "en": "Sub-clan of Aws."
+    },
+    "parent_tribe": "evs",
+    "clans": [],
+    "territory_description": {
+      "tr": "Medine"
+    }
+  },
+  {
+    "id": "beni_amr_avf",
+    "region": "Medine",
+    "name": {
+      "ar": "بنو عمرو بن عوف",
+      "tr": "Benî Amr b. Avf",
+      "en": "Banu Amr ibn Awf"
+    },
+    "center_lat": 24.52,
+    "center_lng": 39.63,
+    "description": {
+      "tr": "Evs kollarından. Kubâ bölgesinde yerleşik. Hz. Peygamber Hicret'te ilk burada konakladı.",
+      "en": "Aws sub-clan in Quba area."
+    },
+    "parent_tribe": "evs",
+    "clans": [],
+    "territory_description": {
+      "tr": "Kubâ / Medine güneyi"
+    }
+  },
+  {
+    "id": "hasam",
+    "region": "Güney Arabistan",
+    "name": {
+      "ar": "خثعم",
+      "tr": "Has'am (Hasamîler)",
+      "en": "Khath'am"
+    },
+    "center_lat": 19.0,
+    "center_lng": 42.0,
+    "description": {
+      "tr": "Güney Arabistan kabilesi. Esmâ bt. Umeys bu kabileden.",
+      "en": "South Arabian tribe."
+    },
+    "parent_tribe": null,
+    "clans": [],
+    "territory_description": {
+      "tr": "Asîr bölgesi"
+    }
+  },
+  {
+    "id": "kelb",
+    "region": "Kuzey Arabistan",
+    "name": {
+      "ar": "كلب",
+      "tr": "Kelb",
+      "en": "Kalb"
+    },
+    "center_lat": 33.0,
+    "center_lng": 38.0,
+    "description": {
+      "tr": "Kudâa kollarından büyük kuzey Arabistan kabilesi. Zeyd b. Hârise bu kabileden.",
+      "en": "Large North Arabian tribe of Quda'a."
+    },
+    "parent_tribe": "kudaa",
+    "clans": [],
+    "territory_description": {
+      "tr": "Dûmetü'l-Cendel civarı"
+    }
+  },
+  {
+    "id": "beni_hilal",
+    "region": "Hicaz",
+    "name": {
+      "ar": "بنو هلال",
+      "tr": "Benî Hilâl",
+      "en": "Banu Hilal"
+    },
+    "center_lat": 22.0,
+    "center_lng": 40.0,
+    "description": {
+      "tr": "Hevâzin'in büyük kollarından. Ümmü'l-Fadl (Abbas'ın hanımı) bu kabileden.",
+      "en": "Major branch of Hawazin."
+    },
+    "parent_tribe": "hevazin",
+    "clans": [],
+    "territory_description": {
+      "tr": "Hicaz"
+    }
+  },
+  {
+    "id": "mehra",
+    "region": "Yemen/Umân",
+    "name": {
+      "ar": "مهرة",
+      "tr": "Mehra",
+      "en": "Mahra"
+    },
+    "center_lat": 16.0,
+    "center_lng": 52.0,
+    "description": {
+      "tr": "Güneydoğu Arabistan kabilesi. Mehra Heyeti gönderdi.",
+      "en": "Southeastern Arabian tribe."
+    },
+    "parent_tribe": null,
+    "clans": [],
+    "territory_description": {
+      "tr": "Hadramevt ile Umân arası"
+    }
+  },
+  {
+    "id": "beni_haris_ka'b",
+    "region": "Necrân",
+    "name": {
+      "ar": "بنو الحارث بن كعب",
+      "tr": "Benî Hâris b. Ka'b",
+      "en": "Banu al-Harith ibn Ka'b"
+    },
+    "center_lat": 17.5,
+    "center_lng": 44.2,
+    "description": {
+      "tr": "Necrân bölgesinin hâkim kabilesi.",
+      "en": "Dominant tribe of Najran region."
+    },
+    "parent_tribe": null,
+    "clans": [],
+    "territory_description": {
+      "tr": "Necrân"
+    }
+  },
+  {
+    "id": "tucib",
+    "region": "Yemen",
+    "name": {
+      "ar": "تجيب",
+      "tr": "Tücîb",
+      "en": "Tujib"
+    },
+    "center_lat": 15.5,
+    "center_lng": 44.0,
+    "description": {
+      "tr": "Kinde kollarından Yemen kabilesi.",
+      "en": "Yemeni sub-tribe of Kinda."
+    },
+    "parent_tribe": "kinde",
+    "clans": [],
+    "territory_description": {
+      "tr": "Yemen"
+    }
+  },
+  {
+    "id": "suda",
+    "region": "Yemen",
+    "name": {
+      "ar": "سُداء",
+      "tr": "Südâ",
+      "en": "Suda"
+    },
+    "center_lat": 15.0,
+    "center_lng": 44.5,
+    "description": {
+      "tr": "Yemen kabilesi. Hz. Peygamber'e heyet gönderdi.",
+      "en": "Yemeni tribe that sent delegation."
+    },
+    "parent_tribe": null,
+    "clans": [],
+    "territory_description": {
+      "tr": "Yemen"
+    }
+  },
+  {
+    "id": "murre",
+    "region": "Necid",
+    "name": {
+      "ar": "مرة",
+      "tr": "Mürre",
+      "en": "Murra"
+    },
+    "center_lat": 26.0,
+    "center_lng": 42.0,
+    "description": {
+      "tr": "Gatafân kollarından Necid kabilesi.",
+      "en": "Najdi tribe from Ghatafan."
+    },
+    "parent_tribe": "gatafan",
+    "clans": [],
+    "territory_description": {
+      "tr": "Necid"
+    }
+  },
+  {
+    "id": "huzayl",
+    "name": {
+      "ar": "هذيل",
+      "tr": "Hüzeyl",
+      "en": "Hudhayl"
+    },
+    "center_lat": 21.3,
+    "center_lng": 39.7,
+    "description": "Mekke güneyinde yaşayan kabile. Abdullah b. Mes'ûd bu kabilenin halîfidir. Fasihlikleriyle tanınır.",
+    "clans": []
+  },
+  {
+    "id": "behra",
+    "name": {
+      "ar": "بهراء",
+      "tr": "Behrâ",
+      "en": "Bahra"
+    },
+    "center_lat": 29.5,
+    "center_lng": 36.5,
+    "description": "Şam bölgesinde yaşayan Kahtânî kabile. Mikdâd b. Amr bu kabilendendir.",
+    "clans": []
+  },
+  {
+    "id": "anz",
+    "name": {
+      "ar": "عنز",
+      "tr": "Anz",
+      "en": "Anz"
+    },
+    "center_lat": 27.0,
+    "center_lng": 42.0,
+    "description": "Kuzey Arap kabilesi. Âmir b. Rebîa bu kabilenin halîfidir.",
+    "clans": []
+  },
+  {
+    "id": "cüheyne",
+    "name": {
+      "ar": "جهينة",
+      "tr": "Cüheyne",
+      "en": "Juhaynah"
+    },
+    "center_lat": 24.0,
+    "center_lng": 38.5,
+    "description": "Kızıldeniz sahiline yakın yaşayan büyük kabile. İslâm'a erken girenlerden. Bedir, Uhud ve Hendek'e katıldılar. Abdullah b. Cahş Nahle seriyyesinde Cüheyne bölgesinden geçti.",
+    "clans": [],
+    "origin": "Kudâ'a",
+    "key_events": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ]
+  },
+  {
+    "id": "müzeyne",
+    "name": {
+      "ar": "مزينة",
+      "tr": "Müzeyne",
+      "en": "Muzayna"
+    },
+    "center_lat": 24.0,
+    "center_lng": 38.5,
+    "description": "Medine-Mekke arasında yaşayan kabile. Büyük çoğunluğu erken müslüman oldu. 1.000 kişi ile Mekke fethine katıldı.",
+    "clans": []
+  },
+  {
+    "id": "gifar",
+    "name": {
+      "ar": "غفار",
+      "tr": "Gıfâr",
+      "en": "Ghifar"
+    },
+    "center_lat": 23.8,
+    "center_lng": 39.2,
+    "description": "Mekke-Medine yolu üzerinde. Yol kesme ile tanınan ama erken müslüman olan kabile. Ebû Zer el-Gıfârî bu kabileden.",
+    "clans": []
+  },
+  {
+    "id": "havazin",
+    "name": {
+      "ar": "هوازن",
+      "tr": "Hevâzin",
+      "en": "Hawazin"
+    },
+    "center_lat": 21.8,
+    "center_lng": 40.8,
+    "description": "Tâif ve çevresinde yaşayan büyük kabile konfederasyonu. Huneyn Gazvesi'nde müslümanlara karşı savaştı.",
+    "clans": [
+      {
+        "id": "sad_bekr",
+        "name": "Benî Sa'd b. Bekr",
+        "note": "Hz. Peygamber'in süt annesi Halîme'nin kabilesi."
+      }
+    ]
+  },
+  {
+    "id": "hanife",
+    "name": {
+      "ar": "بنو حنيفة",
+      "tr": "Benî Hanîfe",
+      "en": "Banu Hanifa"
+    },
+    "center_lat": 24.7,
+    "center_lng": 46.7,
+    "description": "Yemâme (bugünkü Riyad) merkezli kabile. Müseylime yalancı peygamber bunlardan çıktı. Yemâme Savaşı burada yapıldı.",
+    "clans": []
+  },
+  {
+    "id": "lahm",
+    "name": {
+      "ar": "لخم",
+      "tr": "Lahm (Lahmîler)",
+      "en": "Lakhmid"
+    },
+    "center_lat": 31.0,
+    "center_lng": 46.3,
+    "description": "Hîre (Kûfe yakını) merkezli Sâsânî vasalı Arap krallığı. Nu'mân b. Münzir meşhur. Rivayete göre Muallakāt şiirleri Hîre sarayında yazıya geçirildi.",
+    "clans": [],
+    "origin": "Yemenî",
+    "key_events": []
+  },
+  {
+    "id": "gassan",
+    "name": {
+      "ar": "غسان",
+      "tr": "Gassân",
+      "en": "Ghassanid"
+    },
+    "center_lat": 32.5,
+    "center_lng": 36.5,
+    "description": "Güney Suriye ve Ürdün'de Bizans'a bağlı Arap krallığı. Hristiyan. Hz. Peygamber mektup gönderdi. Mûte Savaşı'nda Bizans'ın Arap müttefiki olarak karşıdaydılar.",
+    "clans": [],
+    "origin": "Ezd (Yemenî)",
+    "key_events": [
+      "mute_savasi",
+      "mektup_gassan"
+    ]
+  },
+  {
+    "id": "zübyan",
+    "name": {
+      "ar": "ذبيان",
+      "tr": "Zübyân",
+      "en": "Dhubyan"
+    },
+    "center_lat": 25.8,
+    "center_lng": 39.5,
+    "description": "Gatafân kollarından. Câhiliye döneminde Abs ile uzun savaşlar yaşadı (Dâhis ve Gabrâ).",
+    "clans": []
+  },
+  {
+    "id": "lihyan",
+    "name": {
+      "ar": "لحيان",
+      "tr": "Lihyân",
+      "en": "Lihyan"
+    },
+    "center_lat": 26.8,
+    "center_lng": 37.9,
+    "description": "Hicaz kuzeybatısında yaşayan kabile. Dedanlıların devamı. Recî' hadisesinde sahâbîlere pusu kuranlar.",
+    "clans": []
+  },
+  {
+    "id": "beni_amir",
+    "name": {
+      "ar": "بنو عامر بن صعصعة",
+      "tr": "Benî Âmir b. Sa'sa'a",
+      "en": "Banu Amir ibn Sa'sa'a"
+    },
+    "center_lat": 23.5,
+    "center_lng": 44.2,
+    "description": "Necid'in en güçlü kabilelerinden. Hevâzin konfederasyonunun büyük kolu. Hz. Peygamber'in tebliğ için gittiği kabilelerden biri.",
+    "clans": [
+      {
+        "id": "beni_kilab",
+        "name": "Benî Kilâb",
+        "note": "Âmir'in en büyük kolu."
+      },
+      {
+        "id": "beni_numeyr",
+        "name": "Benî Numeyr",
+        "note": "Orta Necid'de yerleşik."
+      }
+    ],
+    "region": "Necid",
+    "territory_description": "Orta ve güney Necid bozkırları"
+  },
+  {
+    "id": "beni_bekr_b_vail",
+    "name": {
+      "ar": "بنو بكر بن وائل",
+      "tr": "Benî Bekr b. Vâil",
+      "en": "Banu Bakr ibn Wa'il"
+    },
+    "center_lat": 26.0,
+    "center_lng": 47.0,
+    "description": "Kuzey-doğu Arabistan'ın en büyük kabilesi. Tağlib ile kardeş kabile. Bahreyn ve Irak bölgesinde hâkim.",
+    "clans": [
+      {
+        "id": "beni_sheyban",
+        "name": "Benî Şeybân",
+        "note": "Zülcâr Savaşı'nda İran'ı yenen kol."
+      },
+      {
+        "id": "beni_hanife_sub",
+        "name": "Benî Hanîfe",
+        "note": "Yemâme bölgesinde. Müseylime bu koldan."
+      }
+    ],
+    "region": "Kuzey-doğu Arabistan",
+    "territory_description": "Bahreyn'den Irak sınırına kadar"
+  },
+  {
+    "id": "taglib",
+    "name": {
+      "ar": "بنو تغلب",
+      "tr": "Benî Tağlib",
+      "en": "Banu Taghlib"
+    },
+    "center_lat": 36.3,
+    "center_lng": 43.1,
+    "description": "Kuzey Mezopotamya'da yaşayan büyük Arap kabilesi. Çoğunluğu Hristiyan. Bekr b. Vâil ile Besûs Savaşı'nı yaşadı.",
+    "clans": [],
+    "region": "Kuzey Mezopotamya",
+    "territory_description": "Cezire (Kuzey Irak/Suriye sınırı)"
+  },
+  {
+    "id": "beni_abs",
+    "name": {
+      "ar": "بنو عبس",
+      "tr": "Benî Abs",
+      "en": "Banu Abs"
+    },
+    "center_lat": 25.5,
+    "center_lng": 41.0,
+    "description": "Gatafân'ın önemli kolu. Dâhis ve'l-Gabrâ Savaşı'nın tarafı. Şair Antere b. Şeddâd bu kabiledendir.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Kuzey Necid"
+  },
+  {
+    "id": "beni_zubyân",
+    "name": {
+      "ar": "بنو ذبيان",
+      "tr": "Benî Zübyân",
+      "en": "Banu Dhubyan"
+    },
+    "center_lat": 25.8,
+    "center_lng": 40.0,
+    "description": "Gatafân'ın diğer büyük kolu. Abs ile Dâhis ve'l-Gabrâ Savaşı'nın karşı tarafı.",
+    "clans": [
+      {
+        "id": "beni_fazara",
+        "name": "Benî Fezâre",
+        "note": "Zübyân'ın en güçlü kolu. Uyeyne b. Hısn bu koldan."
+      }
+    ],
+    "region": "Necid",
+    "territory_description": "Kuzey-batı Necid"
+  },
+  {
+    "id": "beni_kinde",
+    "name": {
+      "ar": "كندة",
+      "tr": "Kinde",
+      "en": "Kindah"
+    },
+    "center_lat": 15.5,
+    "center_lng": 48.5,
+    "description": "Güney Arabistan kökenli büyük kabile. Câhiliye'de krallık kurdu. Şair İmruülkays bu kabiledendir.",
+    "clans": [],
+    "region": "Yemen/Hadramevt",
+    "territory_description": "Hadramevt'ten Necid'e kadar"
+  },
+  {
+    "id": "beni_lahm",
+    "name": {
+      "ar": "لخم",
+      "tr": "Lahm",
+      "en": "Lakhm"
+    },
+    "center_lat": 31.0,
+    "center_lng": 46.5,
+    "description": "Güney Irak'ta Hîre'de Lahmî krallığını kuran kabile. Münzir hanedanı bu kabiledendir. Sâsânî vasal devleti.",
+    "clans": [],
+    "region": "Güney Irak",
+    "territory_description": "Hîre ve çevresi"
+  },
+  {
+    "id": "beni_cuzam",
+    "name": {
+      "ar": "جذام",
+      "tr": "Cüzâm",
+      "en": "Judham"
+    },
+    "center_lat": 30.0,
+    "center_lng": 36.5,
+    "description": "Güney Ürdün ve Filistin bölgesinde yaşayan büyük kabile. Mûte Savaşı bölgesinde etkin.",
+    "clans": [],
+    "region": "Ürdün/Filistin",
+    "territory_description": "Güney Ürdün - Kuzey Hicaz arası"
+  },
+  {
+    "id": "beni_kelb",
+    "name": {
+      "ar": "بنو كلب",
+      "tr": "Benî Kelb",
+      "en": "Banu Kalb"
+    },
+    "center_lat": 33.5,
+    "center_lng": 37.0,
+    "description": "Suriye çölünde yaşayan büyük Kudâa kabilesi. Dûmetülcendel bölgesinde hâkim. Bir kısmı Hristiyan.",
+    "clans": [],
+    "region": "Suriye Çölü",
+    "territory_description": "Dûmetülcendel'den Suriye iç bölgelerine"
+  },
+  {
+    "id": "beni_tayy",
+    "name": {
+      "ar": "طيئ",
+      "tr": "Tayy",
+      "en": "Tayy"
+    },
+    "center_lat": 27.5,
+    "center_lng": 41.5,
+    "description": "Ecâ ve Selmâ dağları çevresinde yaşayan kabile. Hâtim et-Tâî cömertliğiyle ünlüdür. Adî b. Hâtim İslâm'a girdi.",
+    "clans": [],
+    "region": "Kuzey Necid",
+    "territory_description": "Ecâ ve Selmâ dağları (Hâil bölgesi)"
+  },
+  {
+    "id": "beni_bahile",
+    "name": {
+      "ar": "باهلة",
+      "tr": "Bâhile",
+      "en": "Bahila"
+    },
+    "center_lat": 24.0,
+    "center_lng": 43.0,
+    "description": "Kays Aylân kollarından. Necid'de yaşardı. Fetihler döneminde Horasan'a yerleşti.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Orta Necid"
+  },
+  {
+    "id": "beni_ezd",
+    "name": {
+      "ar": "الأزد",
+      "tr": "Ezd",
+      "en": "Azd"
+    },
+    "center_lat": 20.0,
+    "center_lng": 44.5,
+    "description": "Güney Arabistan kökenli büyük kabile konfederasyonu. Seylü'l-Arim sonrası kuzeye göç etti. Evs ve Hazrec'in atası.",
+    "clans": [
+      {
+        "id": "ezd_uman",
+        "name": "Ezdü Umân",
+        "note": "Umân bölgesine yerleşen kol."
+      },
+      {
+        "id": "ezd_serât",
+        "name": "Ezdü Serât",
+        "note": "Güney Hicaz ve Serât dağlarında."
+      }
+    ],
+    "region": "Yemen/Güney Arabistan",
+    "territory_description": "Me'rib'den kuzeye dağılan geniş alan"
+  },
+  {
+    "id": "beni_lihyan",
+    "name": {
+      "ar": "بنو لحيان",
+      "tr": "Benî Lihyân",
+      "en": "Banu Lihyan"
+    },
+    "center_lat": 26.8,
+    "center_lng": 38.5,
+    "description": "Huzeyloğulları kollarından. Recî' olayında (4/625) müslüman elçilere ihanet etti.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Mekke-Medine arasında dağlık bölge"
+  },
+  {
+    "id": "beni_murre",
+    "name": {
+      "ar": "بنو مرة",
+      "tr": "Benî Mürre",
+      "en": "Banu Murrah"
+    },
+    "center_lat": 25.0,
+    "center_lng": 40.5,
+    "description": "Gatafân kollarından. Zübyân'ın alt kabilesi. Bi'r-i Ma'ûne faciasında rol aldı.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Batı Necid"
+  },
+  {
+    "id": "beni_sad_b_bekr",
+    "name": {
+      "ar": "بنو سعد بن بكر",
+      "tr": "Benî Sa'd b. Bekr",
+      "en": "Banu Sa'd ibn Bakr"
+    },
+    "center_lat": 22.0,
+    "center_lng": 40.5,
+    "description": "Hevâzin kollarından. Hz. Peygamber'in süt annesi Halîme es-Sa'diyye bu kabiledendir.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Tâif'in doğusu, dağlık Hicaz"
+  },
+  {
+    "id": "beni_huzeyl",
+    "name": {
+      "ar": "هذيل",
+      "tr": "Hüzeyl",
+      "en": "Hudhayl"
+    },
+    "center_lat": 21.8,
+    "center_lng": 40.0,
+    "description": "Mekke çevresinde yaşayan büyük kabile. Okçulukla ünlü. Recî' ve Bi'r-i Ma'ûne olaylarıyla ilgili.",
+    "clans": [
+      {
+        "id": "lihyan_sub",
+        "name": "Benî Lihyân",
+        "note": "Hüzeyl'in alt kolu. Recî' faciasının sorumlusu."
+      }
+    ],
+    "region": "Hicaz",
+    "territory_description": "Mekke'nin doğusu ve güneydoğusu"
+  },
+  {
+    "id": "beni_nadir",
+    "name": {
+      "ar": "بنو النضير",
+      "tr": "Benî Nadîr",
+      "en": "Banu Nadir"
+    },
+    "center_lat": 24.48,
+    "center_lng": 39.63,
+    "description": "Medine'nin üç büyük Yahudi kabilesinden biri. Hz. Peygamber'e suikast girişimi sonrası 4/625'te sürgün edildi. Hayber'e yerleşerek Hendek ittifakını kışkırttılar.",
+    "clans": [],
+    "origin": "İsrâiloğulları",
+    "religion": "Yahudilik",
+    "key_events": [
+      "surgun_beni_nadir",
+      "gazve_hendek",
+      "fetih_hayber"
+    ]
+  },
+  {
+    "id": "beni_kaynuka",
+    "name": {
+      "ar": "بنو قينقاع",
+      "tr": "Benî Kaynukā'",
+      "en": "Banu Qaynuqa"
+    },
+    "center_lat": 24.47,
+    "center_lng": 39.61,
+    "description": "Medine'nin Yahudi kuyumcu ve silah zanaatkârları. Bedir'den sonra Müslüman bir kadını rahatsız etmeleri üzerine kuşatılıp sürgün edildiler (2/624).",
+    "clans": [],
+    "origin": "İsrâiloğulları",
+    "religion": "Yahudilik",
+    "key_events": [
+      "surgun_beni_kaynuka"
+    ]
+  },
+  {
+    "id": "beni_kurayza",
+    "name": {
+      "ar": "بنو قريظة",
+      "tr": "Benî Kurayza",
+      "en": "Banu Qurayza"
+    },
+    "center_lat": 24.44,
+    "center_lng": 39.63,
+    "description": "Medine'nin üçüncü büyük Yahudi kabilesi. Hendek Gazvesi'nde ahdi bozarak Kureyş ittifakına katıldılar. Kuşatma sonrası Sa'd b. Muâz hakemliğinde cezalandırıldılar.",
+    "clans": [],
+    "origin": "İsrâiloğulları",
+    "religion": "Yahudilik",
+    "key_events": [
+      "gazve_hendek",
+      "beni_kurayza_muhasarasi"
+    ]
+  },
+  {
+    "id": "daws",
+    "name": {
+      "ar": "دوس",
+      "tr": "Devs",
+      "en": "Daws"
+    },
+    "center_lat": 19.8,
+    "center_lng": 41.6,
+    "description": "Güney Arabistan'da (Zehrân bölgesi) yaşayan Ezd kollarından. Tufeyl b. Amr ed-Devsî kabilesini İslâm'a davet etti. Hayber fethi sırasında Medine'ye geldi.",
+    "clans": [],
+    "origin": "Ezd kolu",
+    "key_events": [
+      "tufeyl_islama_davet"
+    ]
+  },
+  {
+    "id": "muzayne",
+    "name": {
+      "ar": "مزينة",
+      "tr": "Müzeyne",
+      "en": "Muzaynah"
+    },
+    "center_lat": 24.3,
+    "center_lng": 39.1,
+    "description": "Medine civarında yaşayan kabile. İslâm'ı erken kabul ettiler. Mekke fethine 1,000 kişilik kuvvetle katıldılar. Hz. Peygamber onları övdü.",
+    "clans": [],
+    "origin": "Adnânî",
+    "key_events": [
+      "fetih_mekke"
+    ]
+  },
+  {
+    "id": "beni_temim",
+    "name": {
+      "ar": "بنو تميم",
+      "tr": "Benî Temîm",
+      "en": "Banu Tamim"
+    },
+    "center_lat": 26.0,
+    "center_lng": 45.0,
+    "description": "Arabistan'ın en kalabalık kabilelerinden. Necid bölgesinde. Hucurât 49:4 bu kabilenin kaba davranışı üzerine indi. Şiir ve hitabette meşhurdular. Akra' b. Hâbis heyetinin başıydı.",
+    "clans": [
+      {
+        "id": "dârim",
+        "name": "Dârimîler",
+        "note": "Temîm'in en soylu kolu."
+      },
+      {
+        "id": "minkar",
+        "name": "Minkâr",
+        "note": "Şair kolu."
+      }
+    ],
+    "origin": "Adnânî",
+    "key_events": [
+      "hucurat_49_4"
+    ]
+  },
+  {
+    "id": "beni_sulaym",
+    "name": {
+      "ar": "بنو سليم",
+      "tr": "Benî Süleym",
+      "en": "Banu Sulaym"
+    },
+    "center_lat": 24.0,
+    "center_lng": 40.5,
+    "description": "Hicaz ile Necid arası yaşayan büyük kabile. Huneyn Gazvesi'ne katıldılar. Bi'r-i Ma'ûne faciasında bu kabilenin kolları sorumlu. Mekke fethinde 1,000 savaşçıyla katıldılar.",
+    "clans": [],
+    "origin": "Kaysî-Adnânî",
+    "key_events": [
+      "gazve_huneyn",
+      "biri_maune"
+    ]
+  },
+  {
+    "id": "beni_esed",
+    "name": {
+      "ar": "بنو أسد",
+      "tr": "Benî Esed",
+      "en": "Banu Asad"
+    },
+    "center_lat": 27.5,
+    "center_lng": 43.0,
+    "description": "Kuzey Necid'de yaşayan kabile. Tuleyha b. Huveylid bu kabiledendir. Ridde savaşlarında Tuleyha peygamberlik iddia etti; Hâlid b. Velîd tarafından mağlup edildi.",
+    "clans": [],
+    "origin": "Adnânî",
+    "key_events": [
+      "ridde_tuleyha"
+    ]
+  },
+  {
+    "id": "tribe_berber_sanhace",
+    "name": {
+      "ar": "صنهاجة",
+      "tr": "Sanhâce",
+      "en": "Sanhaja"
+    },
+    "center_lat": 34.0,
+    "center_lng": 2.0,
+    "description": "Kuzey Afrika'nın en büyük Berberî kabile konfederasyonlarından. Mağrib'in batı ve orta kesimleri. İslâm fethiyle müslüman oldu. Murâbıtlar hareketi buradan çıktı.",
+    "clans": [],
+    "region": "Mağrib",
+    "territory_description": "Fas, Cezayir, Moritanya"
+  },
+  {
+    "id": "tribe_berber_zenata",
+    "name": {
+      "ar": "زناتة",
+      "tr": "Zenâte",
+      "en": "Zenata"
+    },
+    "center_lat": 35.0,
+    "center_lng": 1.0,
+    "description": "Kuzey Afrika Berberî kabilesi. Savaşçılıklarıyla tanınır. İslâm'ın Mağrib'e yayılmasında önemli rol oynadı.",
+    "clans": [],
+    "region": "Mağrib",
+    "territory_description": "Cezayir, Tunus batısı"
+  },
+  {
+    "id": "tribe_coptic",
+    "name": {
+      "ar": "القبط",
+      "tr": "Kıptîler",
+      "en": "Copts"
+    },
+    "center_lat": 30.0,
+    "center_lng": 31.2,
+    "description": "Mısır'ın yerli Hristiyan halkı. Hz. Peygamber Mukavkıs'a (Mısır valisi) mektup gönderdi. Mâriye el-Kıptiyye Hz. Peygamber'e hediye edildi.",
+    "clans": [],
+    "region": "Mısır",
+    "territory_description": "Nil Vadisi"
+  },
+  {
+    "id": "tribe_turk_gokturk",
+    "name": {
+      "ar": "الترك",
+      "tr": "Göktürkler",
+      "en": "Göktürks"
+    },
+    "center_lat": 47.0,
+    "center_lng": 87.0,
+    "description": "Orta Asya'nın büyük Türk imparatorluğu (552-744). İslâm'ın doğuya yayılmasında etkileşim. Hz. Peygamber'in 'Türklere dokunmayın' hadisi rivayet edilir.",
+    "clans": [],
+    "region": "Orta Asya",
+    "territory_description": "Moğolistan, Orta Asya stepleri"
+  },
+  {
+    "id": "tribe_huzaa",
+    "name": {
+      "ar": "خزاعة",
+      "tr": "Huzâa",
+      "en": "Khuza'ah"
+    },
+    "center_lat": 21.3,
+    "center_lng": 39.7,
+    "description": "Mekke çevresinde yerleşik kabile. Ka'be'nin bekçiliğini Cürhüm'den devraldı. Mekke'nin fethine zemin hazırlayan Hudaybiye barışı ihlâli Huzâa'ya yapıldı.",
+    "clans": [],
+    "region": "Hicaz",
+    "territory_description": "Mekke çevresi, Merru'z-Zahrân"
+  },
+  {
+    "id": "tribe_sakif",
+    "name": {
+      "ar": "ثقيف",
+      "tr": "Sakîf",
+      "en": "Thaqif"
+    },
+    "center_lat": 21.28,
+    "center_lng": 40.4,
+    "description": "Tâif'te yerleşik güçlü kabile. Lât putu Sakîf'in korumurundaydı. Hz. Peygamber'i Tâif'te reddettiler. Huneyn sonrası müslüman oldu.",
+    "clans": [
+      {
+        "id": "ahlas",
+        "name": "Ahlâs",
+        "note": "Tâif kalesi sakinleri"
+      }
+    ],
+    "region": "Hicaz",
+    "territory_description": "Tâif ve çevresi"
+  },
+  {
+    "id": "tribe_kilâb",
+    "name": {
+      "ar": "كلاب",
+      "tr": "Kilâb",
+      "en": "Kilab"
+    },
+    "center_lat": 26.0,
+    "center_lng": 42.0,
+    "description": "Âmir b. Sa'sa'a'nın alt kolu. Necid'de güçlü kabile. Hz. Peygamber'e Akabe'de katılmadılar ama sonradan müslüman oldu.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Necid orta bölgesi"
+  },
+  {
+    "id": "tribe_abs",
+    "name": {
+      "ar": "عبس",
+      "tr": "Abs",
+      "en": "Abs"
+    },
+    "center_lat": 26.5,
+    "center_lng": 40.5,
+    "description": "Gatafân kollarından. Dâhis-Gabrâ savaşının tarafı. Antere b. Şeddâd bu kabileden. Hendek'te Ahzâb koalisyonuna katıldı.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Kuzey Hicaz - Necid arası"
+  },
+  {
+    "id": "tribe_zubeyan",
+    "name": {
+      "ar": "ذبيان",
+      "tr": "Zübyân",
+      "en": "Dhubyan"
+    },
+    "center_lat": 26.5,
+    "center_lng": 41.0,
+    "description": "Gatafân kollarından. Abs ile Dâhis-Gabrâ savaşını yaptı. Nâbiga ez-Zübyânî bu kabileden. Hendek'te Ahzâb koalisyonunda.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Necid"
+  },
+  {
+    "id": "tribe_tayy",
+    "name": {
+      "ar": "طيء",
+      "tr": "Tayy",
+      "en": "Tayy"
+    },
+    "center_lat": 27.5,
+    "center_lng": 41.5,
+    "description": "Kuzey Arabistan'da Ecâ ve Selmâ dağları çevresinde. Hâtim et-Tâî (cömertlik sembolü) bu kabileden. Oğlu Adî b. Hâtim sahâbî.",
+    "clans": [],
+    "region": "Kuzey Necid",
+    "territory_description": "Ecâ ve Selmâ dağları"
+  },
+  {
+    "id": "tribe_kinde",
+    "name": {
+      "ar": "كندة",
+      "tr": "Kinde",
+      "en": "Kindah"
+    },
+    "center_lat": 17.0,
+    "center_lng": 47.0,
+    "description": "Güney Arabistan kökenli ama Necid'e yayılan krallık kabilesi. İmruülkays bu kabileden. Hz. Peygamber döneminde irtidat eden Eş'as b. Kays da Kindeli.",
+    "clans": [],
+    "region": "Hadramut - Necid",
+    "territory_description": "Hadramut, Necid güneyi"
+  },
+  {
+    "id": "tribe_bahile",
+    "name": {
+      "ar": "باهلة",
+      "tr": "Bâhile",
+      "en": "Bahilah"
+    },
+    "center_lat": 25.0,
+    "center_lng": 41.0,
+    "description": "Kays Aylân kollarından. Necid'de yaşayan kabile. Câhiliye'de düşük statülü sayılırdı, İslâm ile eşitlenmeleri önemli bir dönüm noktası.",
+    "clans": [],
+    "region": "Necid",
+    "territory_description": "Necid kuzeyi"
+  },
+  {
+    "id": "damra",
+    "name": {
+      "ar": "بنو ضمرة",
+      "tr": "Benî Damra",
+      "en": "Banu Damra"
+    },
+    "region": "hicaz",
+    "description": {
+      "tr": "Kinâne kollarından bir kabile. Hz. Peygamber ile anlaşma yapmış kabilelerden.",
+      "ar": "قبيلة من كنانة عقدت حلفاً مع النبي",
+      "en": "A clan of Kinana that signed a pact with the Prophet."
+    },
+    "center_lat": 23.1,
+    "center_lng": 39.5
+  },
+  {
+    "id": "hilal",
+    "name": {
+      "ar": "بنو هلال",
+      "tr": "Benî Hilâl",
+      "en": "Banu Hilal"
+    },
+    "region": "hicaz",
+    "description": {
+      "tr": "Âmir b. Sa'sa'a kollarından bir kabile.",
+      "ar": "قبيلة من بني عامر بن صعصعة",
+      "en": "A clan of Amir ibn Sa'sa'a."
+    },
+    "center_lat": 23.5,
+    "center_lng": 42.0
+  }
+]

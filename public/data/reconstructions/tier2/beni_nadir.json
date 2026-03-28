@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "id": "reconstruction_beni_nadir",
+    "battle_id": "gazve_beni_nadir",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Benî Nadîr — Medîne'den sürgün edilen ikinci Yahudi kabilesi. Haşr sûresi bu olayla doğrudan ilişkilidir. Rebîülevvel 4 AH."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.458,
+        "lng": 39.618
+      },
+      "bbox": {
+        "north": 24.465,
+        "south": 24.451,
+        "east": 24.625,
+        "west": 39.61
+      },
+      "terrain_type": "fortified_settlement_oasis",
+      "terrain_desc": {
+        "tr": "Benî Nadîr yerleşkesi, Medîne'nin güneydoğusunda, yoğun hurmalıklar içinde müstahkem bir bölge. Kaleler (utum) hurma bahçeleri arasına serpiştirilmiş; bahçeler hem erzak kaynağı hem doğal savunma hattı. Yüksek taş duvarlar ve burçlarla korunan birkaç ana kale.",
+        "en": "The Banū al-Naḍīr settlement was a fortified area in southeastern Medina, embedded in dense date palm groves. Fortresses (uṭum) were interspersed among the orchards, which served as both a food supply and natural defensive barriers. Several main fortresses were protected by high stone walls and towers."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_nadir_utum",
+        "name": {
+          "tr": "Nadîr Kaleleri (Utum)",
+          "en": "Naḍīr Fortresses (Uṭum)"
+        },
+        "lat": 24.458,
+        "lng": 39.618,
+        "type": "fortress",
+        "note_tr": "Birbirine yakın birkaç kale; hurmalıklar içinde stratejik konumda."
+      },
+      {
+        "id": "lm_nadir_hurmalik",
+        "name": {
+          "tr": "Nadîr Hurmalıkları",
+          "en": "Naḍīr Palm Groves"
+        },
+        "lat": 24.4575,
+        "lng": 39.6195,
+        "type": "agriculture",
+        "note_tr": "Geniş hurma bahçeleri; kuşatma sırasında bir kısmı kesildi veya yakıldı."
+      },
+      {
+        "id": "lm_mescidi_nebevi_ref",
+        "name": {
+          "tr": "Mescid-i Nebevî",
+          "en": "Masjid al-Nabawī"
+        },
+        "lat": 24.4672,
+        "lng": 39.6112,
+        "type": "reference_point",
+        "note_tr": "Karargâh; suikast teşebbüsü haberi buraya ulaştı."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_siege_approach",
+        "name": {
+          "tr": "Kuşatma yaklaşımı",
+          "en": "Siege approach"
+        },
+        "type": "approach",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Mescid-i Nebevî"
+          },
+          {
+            "lat": 24.458,
+            "lng": 39.618,
+            "label": "Nadîr Kaleleri"
+          }
+        ]
+      },
+      {
+        "id": "route_exile",
+        "name": {
+          "tr": "Sürgün güzergâhı — Hayber'e",
+          "en": "Exile route — to Khaybar"
+        },
+        "type": "exile_route",
+        "waypoints": [
+          {
+            "lat": 24.458,
+            "lng": 39.618,
+            "label": "Nadîr Kaleleri"
+          },
+          {
+            "lat": 24.52,
+            "lng": 39.62,
+            "label": "Medîne kuzeyi"
+          },
+          {
+            "lat": 25.15,
+            "lng": 39.3,
+            "label": "Hayber"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Nadîr'in konumu ve Bi'r-i Maûne sonrası durum",
+        "en": "Background: Naḍīr's position and post-Biʾr Maʿūna context"
+      },
+      "date_range": {
+        "start": "1 AH",
+        "end": "Safer 4 AH"
+      },
+      "duration": "~3 yıl",
+      "description": {
+        "tr": "Benî Nadîr, Medîne'nin en zengin ve itibarlı Yahudi kabilesi. Evs kabilesinin müttefiki. Toprak sahibi aristokratlar ve din âlimleri (hahamlar) arasında etkililer. Medîne Vesîkası'na dahil. Bedir ve Uhud arasındaki dönemde görünürde tarafsız kaldılar ancak bazı kaynaklara göre Uhud'da Kureyş'e gizli istihbarat sağladılar. Bi'r-i Maûne faciası (Safer 4 AH) müslümanlar için ağır kayıptı: 70 hâfız şehit düştü. Hz. Peygamber, şehitlerin diyetine katkı için Nadîr'e gitti — bu ziyaret suikast teşebbüsüne sahne olacaktı.",
+        "en": "Banū al-Naḍīr was the wealthiest and most prestigious Jewish tribe of Medina, allied with the Aws. They were influential landowners and included learned rabbis. Included in the Constitution of Medina. Between Badr and Uḥud they maintained nominal neutrality, though some sources suggest they covertly shared intelligence with Quraysh at Uḥud. The Biʾr Maʿūna tragedy (Ṣafar 4 AH) was a devastating loss — 70 Qurʾān reciters were martyred. The Prophet went to Naḍīr to request their contribution to blood money — a visit that would become the scene of an assassination attempt."
+      },
+      "events": [
+        {
+          "id": "E0_1_vesika",
+          "name_tr": "Medîne Vesîkası'ndaki konumları",
+          "description_tr": "Nadîr, Vesîka'ya taraf olarak müslümanlarla ahit içinde."
+        },
+        {
+          "id": "E0_2_bir_maune",
+          "name_tr": "Bi'r-i Maûne faciası",
+          "description_tr": "70 sahâbî şehit edildi; Hz. Peygamber diyet yardımı için Nadîr'e gitti."
+        }
+      ]
+    },
+    {
+      "id": "F1_suikast",
+      "order": 1,
+      "name": {
+        "tr": "Suikast teşebbüsü — kırılma noktası",
+        "en": "Assassination attempt — the breaking point"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH (başı)",
+        "end": "aynı gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Hz. Peygamber birkaç sahâbî ile Bi'r-i Maûne şehitlerinin diyeti konusunu görüşmek üzere Benî Nadîr'e gitti. Nadîr liderleri (Huyeyy b. Ahtab, Sellâm b. Mişkem ve diğerleri) görünürde karşıladılar ancak gizlice Hz. Peygamber'in oturduğu duvarın üzerinden büyük bir kaya yuvarlamayı planladılar. Allah, Cebrâîl aracılığıyla Hz. Peygamber'i uyardı. Hz. Peygamber aniden kalkıp Medîne'ye döndü. Bu suikast girişimi, ahdin kesin ihlali olarak değerlendirildi.",
+        "en": "The Prophet went to Banū al-Naḍīr with several Companions to discuss the blood money for the Biʾr Maʿūna martyrs. Naḍīr leaders (Ḥuyayy b. Akhṭab, Sallām b. Mishkam, and others) received him outwardly but secretly plotted to drop a large boulder from the wall above where he sat. God warned the Prophet through Jibrīl. He abruptly stood and returned to Medina. This assassination attempt was deemed an absolute breach of the covenant."
+      },
+      "events": [
+        {
+          "id": "E1_1_ziyaret",
+          "name_tr": "Hz. Peygamber'in Nadîr'i ziyareti",
+          "description_tr": "Diyet yardımı talep etmek için Nadîr yerleşkesine gitti."
+        },
+        {
+          "id": "E1_2_komplo",
+          "name_tr": "Suikast komplosu",
+          "description_tr": "Duvardan kaya yuvarlama planı. Amr b. Cihâş (veya başka biri) görevlendirildi."
+        },
+        {
+          "id": "E1_3_vahiy_uyari",
+          "name_tr": "Vahiyle uyarı ve geri dönüş",
+          "description_tr": "Cebrâîl Hz. Peygamber'i uyardı; Hz. Peygamber aniden kalkıp Medîne'ye döndü."
+        }
+      ]
+    },
+    {
+      "id": "F2_ultimatom",
+      "order": 2,
+      "name": {
+        "tr": "Ultimatom ve Abdullah b. Ubeyy'in kışkırtması",
+        "en": "Ultimatum and ʿAbdullāh b. Ubayy's instigation"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH",
+        "end": "birkaç gün sonra"
+      },
+      "duration": "~3 gün",
+      "description": {
+        "tr": "Hz. Peygamber, Muhammed b. Mesleme'yi elçi olarak Nadîr'e gönderdi: 'On gün içinde Medîne'yi terk edin; bundan sonra burada görülen boynu vurulur.' Nadîr başlangıçta çıkmayı kabul etti. Ancak Abdullah b. Ubeyy gizlice haber göndererek 'Çıkmayın, direnin; iki bin adamımla size yardıma gelirim. Benî Kurayza ve Gatafân da sizi destekler' dedi. Bu boş vaade güvenen Nadîr direnme kararı aldı ve Hz. Peygamber'e 'Yapacağını yap, biz çıkmayacağız!' diye haber gönderdi.",
+        "en": "The Prophet sent Muḥammad b. Maslama as an envoy to Naḍīr: 'Leave Medina within ten days; anyone found here after that will be executed.' Naḍīr initially accepted departure. However, ʿAbdullāh b. Ubayy secretly sent word: 'Do not leave, resist; I will come with two thousand men. Banū Qurayẓa and Ghaṭafān will also support you.' Trusting this empty promise, Naḍīr resolved to resist and sent word to the Prophet: 'Do what you will; we will not leave!'"
+      },
+      "events": [
+        {
+          "id": "E2_1_elci",
+          "name_tr": "Muhammed b. Mesleme'nin elçiliği",
+          "description_tr": "10 günlük ultimatom iletildi."
+        },
+        {
+          "id": "E2_2_ubeyy_kiskirma",
+          "name_tr": "Abdullah b. Ubeyy'in gizli mesajı",
+          "description_tr": "2.000 asker vaadi — gerçekleşmeyen boş bir taahhüt."
+        },
+        {
+          "id": "E2_3_red",
+          "name_tr": "Nadîr'in direnme kararı",
+          "description_tr": "Ultimatomu reddederek kalelerini tahkim ettiler."
+        }
+      ]
+    },
+    {
+      "id": "F3_kusatma",
+      "order": 3,
+      "name": {
+        "tr": "Kuşatma — 15 gün (bazı rivayetlerde 6 gece)",
+        "en": "Siege — 15 days (some accounts say 6 nights)"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH (ortası)",
+        "end": "Rebîülevvel 4 AH (sonları)"
+      },
+      "duration": "6-15 gün",
+      "description": {
+        "tr": "Hz. Peygamber Nadîr kalelerini kuşattı. Medîne'de vekil olarak İbn Ümmi Mektûm bırakıldı. Sancak Ali b. Ebî Tâlib'e verildi. Abdullah b. Ubeyy'in vadettiği yardım asla gelmedi; Kurayza ve Gatafân da destek vermedi. Kuşatma sırasında Hz. Peygamber stratejik bir karar alarak Nadîr hurmalıklarının bir kısmını kestirdi veya yaktırdı. Bu, Nadîr'i psikolojik olarak çökerten ağır bir darbe oldu. Yahudiler 'Yâ Muhammed! Sen bozgunculuğu yasaklardın, hurma kesmek nedir?' diye itiraz ettiler. Bunun üzerine Haşr 59:5 nâzil oldu: 'Hurma ağaçlarından her ne kestiyseniz yahut kökü üzere bıraktıysanız, hepsi Allah'ın izniyledir.'",
+        "en": "The Prophet besieged the Naḍīr fortresses. Ibn Umm Maktūm was left as deputy in Medina. The banner was given to ʿAlī b. Abī Ṭālib. ʿAbdullāh b. Ubayy's promised aid never came; Qurayẓa and Ghaṭafān also withheld support. During the siege, the Prophet made a strategic decision to have some of Naḍīr's palm trees cut down or burned. This was a devastating psychological blow. The Jews protested: 'O Muhammad! You forbade corruption — what is cutting palms?' Thereupon al-Ḥashr 59:5 was revealed: 'Whatever palm trees you cut down or left standing on their roots, it was by God's permission.'"
+      },
+      "events": [
+        {
+          "id": "E3_1_sancak",
+          "name_tr": "Sancağın Hz. Ali'ye verilmesi",
+          "description_tr": "Hz. Peygamber sancağı Ali b. Ebî Tâlib'e verdi."
+        },
+        {
+          "id": "E3_2_yardim_yok",
+          "name_tr": "Vaadedilen yardımın gelmemesi",
+          "description_tr": "Abdullah b. Ubeyy, Kurayza ve Gatafân'dan beklenen destek hiç gelmedi."
+        },
+        {
+          "id": "E3_3_hurma_kesimi",
+          "name_tr": "Hurmalıkların kesilmesi/yakılması",
+          "description_tr": "Stratejik psikolojik operasyon; Haşr 59:5 nâzil oldu."
+        },
+        {
+          "id": "E3_4_teslim",
+          "name_tr": "Nadîr'in teslim olması",
+          "description_tr": "Moral çöküşü ve erzak sıkıntısıyla kayıtsız şartsız teslim."
+        }
+      ]
+    },
+    {
+      "id": "F4_surgun",
+      "order": 4,
+      "name": {
+        "tr": "Sürgün — Hayber'e ve ötesine",
+        "en": "Exile — to Khaybar and beyond"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH (sonları)",
+        "end": "Rebîülâhir 4 AH"
+      },
+      "duration": "birkaç hafta",
+      "description": {
+        "tr": "Teslim şartlarına göre Nadîr silahları dışında taşıyabildikleri kadar mal alarak Medîne'yi terk edecekti. Nadîrliler evlerini yıkmaya başladılar — müslümanların kullanmaması için kapıları, ahşap kirişleri ve hatta duvarları söktüler. Bu manzara üzerine Haşr 59:2 nâzil oldu. Büyük bölümü develerine yükleyebildiklerini alarak Hayber'e gitti; bir kısmı daha sonra Şam'a geçti. Lider Huyeyy b. Ahtab Hayber'de kalmaya devam etti ve daha sonra Hendek Savaşı'nın planlanmasında kilit rol oynayacaktı. Nadîr'in toprakları, hurmalıkları ve kaleleri müslümanlara kaldı; Hz. Peygamber bunları öncelikle muhâcirlere dağıttı (Haşr 59:7-8).",
+        "en": "Under the terms of surrender, Naḍīr would leave Medina carrying whatever possessions they could load on their camels, excluding weapons. The Naḍīr began demolishing their own houses — tearing out doors, wooden beams, and even walls so Muslims could not use them. This scene prompted the revelation of al-Ḥashr 59:2. Most went to Khaybar with whatever they could carry; some later moved on to Syria. Leader Ḥuyayy b. Akhṭab remained in Khaybar and would later play a key role in planning the Battle of the Trench. Naḍīr's lands, orchards, and fortresses were distributed primarily among the Muhājirūn (al-Ḥashr 59:7-8)."
+      },
+      "events": [
+        {
+          "id": "E4_1_ev_yikimi",
+          "name_tr": "Nadîr'in kendi evlerini yıkması",
+          "description_tr": "Evlerinin kapılarını, kirişlerini sökerek tahrip ettiler; Haşr 59:2 nâzil oldu."
+        },
+        {
+          "id": "E4_2_goc",
+          "name_tr": "Hayber'e göç",
+          "description_tr": "Çoğunluk develerine yükleyebildiklerini alarak Hayber'e gitti."
+        },
+        {
+          "id": "E4_3_arazi_dagitimi",
+          "name_tr": "Toprak ve mülk dağıtımı",
+          "description_tr": "Hz. Peygamber Nadîr mülklerini muhâcirlere ve iki fakir ensârîye dağıttı (Haşr 59:7-8)."
+        },
+        {
+          "id": "E4_4_huyeyy",
+          "name_tr": "Huyeyy b. Ahtab'ın Hayber'deki faaliyetleri",
+          "description_tr": "Hayber'de Hendek ittifakını kurmaya başlayacak."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "belirtilmez (Medîne'deki mevcut kuvvet)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "banner_bearer": {
+        "tr": "Ali b. Ebî Tâlib",
+        "en": "ʿAlī b. Abī Ṭālib"
+      },
+      "medina_deputy": {
+        "tr": "İbn Ümmi Mektûm",
+        "en": "Ibn Umm Maktūm"
+      }
+    },
+    "enemy": {
+      "total": "bilinmiyor (Nadîr nüfusu birkaç yüz savaşçı)",
+      "tribe": "Benî Nadîr",
+      "leader": {
+        "tr": "Huyeyy b. Ahtab (kabile reisi)",
+        "en": "Ḥuyayy b. Akhṭab (tribal chief)"
+      },
+      "other_leaders": [
+        "Sellâm b. Mişkem",
+        "Kinâne b. er-Rebî'"
+      ],
+      "strategy_tr": "Kale savunması; dışarıdan yardım beklentisi (Abdullah b. Ubeyy, Kurayza, Gatafân) — hiçbiri gelmedi."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Benî Nadîr",
+        "note_tr": "Suikast teşebbüsü, kuşatma ve sürgünün detaylı anlatımı."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Benî Nadîr",
+        "note_tr": "Kuşatma süresi (6 gece), hurma kesimi ve ganîmet dağılımı."
+      },
+      {
+        "author": "Taberî",
+        "work": "Câmiʿu'l-Beyân (Tefsir)",
+        "section": "Haşr sûresi tefsiri",
+        "note_tr": "Haşr sûresinin nüzûl sebebi olarak Nadîr olayı."
+      }
+    ],
+    "hadith": [
+      "hds_nadir_suikast",
+      "hds_nadir_hurma",
+      "hds_nadir_surgun"
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Nadîr'in ekonomik ve siyasi gücünün analizi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Kuşatma süresi",
+        "positions": [
+          {
+            "view_tr": "15 gün",
+            "sources": [
+              "İbn Hişâm"
+            ]
+          },
+          {
+            "view_tr": "6 gece",
+            "sources": [
+              "Vâkıdî"
+            ]
+          }
+        ],
+        "note_tr": "Fark, hesaplama biçiminden kaynaklanabilir; kesin rakam tartışmalı."
+      },
+      {
+        "topic": "Hurma kesiminin kapsamı",
+        "positions": [
+          {
+            "view_tr": "Sınırlı sayıda ağaç kesildi (el-buveyra)",
+            "sources": [
+              "İbn Hişâm, erken rivayetler"
+            ]
+          },
+          {
+            "view_tr": "Geniş çaplı kesim ve yakma",
+            "sources": [
+              "Bazı geç kaynaklar"
+            ]
+          }
+        ],
+        "note_tr": "Haşr 59:5 hem kesilen hem bırakılan ağaçları anarak tartışmayı çözer."
+      },
+      {
+        "topic": "Sürgün tarihi",
+        "positions": [
+          {
+            "view_tr": "Rebîülevvel 4 AH",
+            "sources": [
+              "Çoğunluk"
+            ]
+          },
+          {
+            "view_tr": "Cemâziyelevvel 4 AH",
+            "sources": [
+              "Bazı rivayetler"
+            ]
+          }
+        ],
+        "note_tr": "Rebîülevvel daha yaygın kabul görür."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 59,
+      "surah_name": "Haşr",
+      "ayah_range": "1-24",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Haşr sûresinin büyük bölümü Benî Nadîr olayıyla doğrudan ilgilidir",
+        "en": "Most of Sūrat al-Ḥashr directly relates to the Banū al-Naḍīr incident"
+      },
+      "key_verses": [
+        {
+          "ayah": 2,
+          "topic_tr": "Ehl-i Kitab'dan inkâr edenlerin ilk haşri — evlerini kendi elleriyle yıkmaları",
+          "phase_id": "F4_surgun",
+          "esbab_id": "en_hasr_59_2"
+        },
+        {
+          "ayah": 5,
+          "topic_tr": "Hurma ağaçlarının kesilmesi Allah'ın izniyledir",
+          "phase_id": "F3_kusatma",
+          "esbab_id": "en_hasr_59_5"
+        },
+        {
+          "ayah": 7,
+          "topic_tr": "Fey (savaşsız elde edilen ganîmet) dağılımı — muhâcirler için",
+          "phase_id": "F4_surgun",
+          "esbab_id": "en_hasr_59_7"
+        },
+        {
+          "ayah": 11,
+          "topic_tr": "Münafıkların Nadîr'e boş vaatleri — 'Çıkarılırsanız biz de çıkarız'",
+          "phase_id": "F2_ultimatom",
+          "esbab_id": "en_hasr_59_11"
+        }
+      ],
+      "nuzul_context_tr": "Haşr sûresinin tamamı veya büyük bölümü Benî Nadîr olayı üzerine nâzil olmuştur. Hz. Âişe'den: 'Sûretü'l-Haşr'e Sûretü Benî Nadîr denir.'"
+    },
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "58",
+      "phase_id": "F1_suikast",
+      "topic": {
+        "tr": "Hıyânet eden kavme karşı ahdi eşit biçimde bozmak",
+        "en": "Dissolving the treaty equally when treachery is detected"
+      },
+      "key_verses": [
+        {
+          "ayah": 58,
+          "topic_tr": "Bir kavmin hıyânetinden korkarsan ahdini kendilerine at",
+          "phase_id": "F1_suikast"
+        }
+      ],
+      "nuzul_context_tr": "Bazı müfessirler bu âyeti Nadîr bağlamına yerleştirir (Kaynukā yerine)."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_nadir_suikast",
+      "topic": "Benî Nadîr'in Hz. Peygamber'e suikast girişimi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_nadir_hurma",
+      "topic": "Benî Nadîr hurma ağaçlarının kesilmesi tartışması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_nadir_surgun",
+      "topic": "Benî Nadîr'in sürgünü ve Haşr Sûresi'nin nüzûlü",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Kuşatma ve psikolojik harp (hurma kesimi) birleşiminin etkinliği kanıtlandı. Ele geçirilen silahlar (50 zırh, 50 miğfer, 340 kılıç) müslümanları güçlendirdi.",
+      "en": "Effectiveness of combining siege with psychological warfare (palm cutting) was demonstrated. Captured weapons (50 coats of mail, 50 helmets, 340 swords) strengthened Muslim forces."
+    },
+    "political": {
+      "tr": "Abdullah b. Ubeyy'in ikinci büyük başarısızlığı: vadettiği 2.000 kişilik yardım gelmedi. Münafıkların güvenilirliği daha da sarsıldı. Hendek'e giden yolda Yahudi-Kureyş ittifakının temeli atıldı (Huyeyy b. Ahtab'ın Hayber'den planlaması).",
+      "en": "Second major failure for ʿAbdullāh b. Ubayy: his promised 2,000-strong aid never materialized, further undermining the munāfiqūn's credibility. The foundation for the Jewish-Quraysh alliance leading to the Battle of the Trench was laid (Ḥuyayy b. Akhṭab's planning from Khaybar)."
+    },
+    "social": {
+      "tr": "Nadîr topraklarının muhâcirlere dağıtılması, muhâcirlerin ensâra ekonomik bağımlılığını azalttı. Bu büyük bir sosyal denge değişikliğiydi.",
+      "en": "Distribution of Naḍīr lands to the Muhājirūn reduced their economic dependence on the Anṣār — a major shift in social balance."
+    },
+    "theological": {
+      "tr": "Haşr sûresinin nüzûlü, olayı doğrudan ilâhî perspektiften yorumladı. Fey (savaşsız ganîmet) kavramı şer'î hüküm olarak yerleşti.",
+      "en": "The revelation of Sūrat al-Ḥashr provided direct divine commentary on the events. The concept of fayʾ (spoils obtained without fighting) was established as a legal category."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 0,
+        "note_tr": "Kaynaklarda kuşatma sırasında şehit kaydı yok."
+      },
+      "enemy": {
+        "killed": "birkaç (kesin rakam belirtilmez)",
+        "note_tr": "Kuşatma sırasında birkaç Nadîrli öldürüldü; toplu katliam olmadı."
+      }
+    },
+    "treaties": {
+      "tr": "Nadîr'in Medîne Vesîkası'ndaki konumu sona erdi. Suikast teşebbüsü kesin ahit ihlali sayıldı.",
+      "en": "Naḍīr's position in the Medina Constitution was permanently ended. The assassination attempt was deemed an absolute covenant breach."
+    },
+    "territorial_change": {
+      "tr": "Nadîr kaleleri, hurmalıkları ve tüm taşınmaz mülkleri müslümanlara geçti ve Hz. Peygamber tarafından bizzat dağıtıldı.",
+      "en": "All Naḍīr fortresses, orchards, and real estate passed to Muslim control and were personally distributed by the Prophet."
+    },
+    "subsequent_events": [
+      {
+        "event_tr": "Huyeyy b. Ahtab'ın Hendek ittifakını kurması (5 AH)",
+        "battle_id": "gazve_hendek"
+      },
+      {
+        "event_tr": "Hayber Fethi (7 AH) — Nadîr kalıntılarının son tasfiyesi",
+        "battle_id": "gazve_hayber"
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 15,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_siege": "#1565C0",
+      "route_exile": "#FF8F00",
+      "landmark": "#6A1B9A",
+      "palm_groves": "#388E3C"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "point",
+        "default_visible": true
+      },
+      {
+        "id": "layer_siege",
+        "name": "Kuşatma hattı",
+        "type": "polygon",
+        "default_visible": true
+      },
+      {
+        "id": "layer_palm_cutting",
+        "name": "Hurma kesim bölgesi",
+        "type": "polygon",
+        "default_visible": true
+      },
+      {
+        "id": "layer_exile_route",
+        "name": "Sürgün güzergâhı",
+        "type": "line",
+        "default_visible": false
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "animation",
+        "default_visible": true
+      }
+    ]
+  }
+}

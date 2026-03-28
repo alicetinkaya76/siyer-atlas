@@ -1,0 +1,2379 @@
+[
+  {
+    "id": "mekke",
+    "name": {
+      "ar": "مكة المكرمة",
+      "tr": "Mekke",
+      "en": "Mecca"
+    },
+    "lat": 21.4225,
+    "lng": 39.8262,
+    "type": "city",
+    "description": "Ka'be'nin bulunduğu kutsal şehir. Hz. Peygamber'in doğum yeri.",
+    "museum_item_ids": [
+      "geo_cave_006",
+      "geo_desert_003",
+      "geo_route_002",
+      "geo_sacred_001",
+      "geo_well_001"
+    ]
+  },
+  {
+    "id": "medine",
+    "name": {
+      "ar": "المدينة المنورة",
+      "tr": "Medine",
+      "en": "Medina"
+    },
+    "lat": 24.4672,
+    "lng": 39.6112,
+    "type": "city",
+    "description": "Hicret şehri. İslâm devletinin ilk başkenti. Mescid-i Nebevî.",
+    "museum_item_ids": [
+      "geo_sacred_002",
+      "geo_well_003"
+    ]
+  },
+  {
+    "id": "kudus",
+    "name": {
+      "ar": "القدس",
+      "tr": "Kudüs",
+      "en": "Jerusalem"
+    },
+    "lat": 31.7683,
+    "lng": 35.2137,
+    "type": "city",
+    "description": "İlk kıble. Mescid-i Aksâ. İsrâ ve Mi'râc."
+  },
+  {
+    "id": "bedir",
+    "name": {
+      "ar": "بدر",
+      "tr": "Bedir",
+      "en": "Badr"
+    },
+    "lat": 23.7833,
+    "lng": 38.7833,
+    "type": "battlefield",
+    "description": "Bedir Gazvesi (624). İslâm'ın ilk büyük zaferi. 313 müslüman vs 1.000 müşrik."
+  },
+  {
+    "id": "uhud",
+    "name": {
+      "ar": "أحد",
+      "tr": "Uhud",
+      "en": "Uhud"
+    },
+    "lat": 24.5028,
+    "lng": 39.6139,
+    "type": "battlefield",
+    "description": "Uhud Gazvesi (625). Hz. Hamza şehit düştü. 70 sahâbî şehit oldu.",
+    "museum_item_ids": [
+      "geo_cave_003",
+      "geo_valley_005"
+    ]
+  },
+  {
+    "id": "hendek",
+    "name": {
+      "ar": "الخندق",
+      "tr": "Hendek",
+      "en": "Khandaq (Trench)"
+    },
+    "lat": 24.48,
+    "lng": 39.6,
+    "type": "battlefield",
+    "description": "Hendek Gazvesi (627). Selmân-ı Fârisî'nin önerisiyle hendek kazıldı. 10.000 kişilik Ahzâb ordusu.",
+    "museum_item_ids": [
+      "geo_well_005"
+    ]
+  },
+  {
+    "id": "hudeybiye",
+    "name": {
+      "ar": "الحديبية",
+      "tr": "Hudeybiye",
+      "en": "Hudaybiyya"
+    },
+    "lat": 21.4417,
+    "lng": 39.6,
+    "type": "treaty_site",
+    "description": "Hudeybiye Antlaşması (628). 'Feth-i Mübîn' olarak nitelendi.",
+    "museum_item_ids": [
+      "geo_well_006"
+    ]
+  },
+  {
+    "id": "hayber",
+    "name": {
+      "ar": "خيبر",
+      "tr": "Hayber",
+      "en": "Khaybar"
+    },
+    "lat": 25.6833,
+    "lng": 39.3,
+    "type": "fortress",
+    "description": "Hayber Gazvesi (628). Yahudi kalelerinin fethi. Hz. Ali'nin Merhab'ı yendiği savaş.",
+    "museum_item_ids": [
+      "geo_battle_003"
+    ]
+  },
+  {
+    "id": "mute",
+    "name": {
+      "ar": "مؤتة",
+      "tr": "Mûte",
+      "en": "Mu'ta"
+    },
+    "lat": 31.05,
+    "lng": 35.6833,
+    "type": "battlefield",
+    "description": "Mûte Savaşı (629). İlk büyük Bizans-Müslüman çatışması. Ca'fer, Zeyd ve Abdullah b. Revâha şehit.",
+    "museum_item_ids": [
+      "geo_battle_002"
+    ]
+  },
+  {
+    "id": "huneyn",
+    "name": {
+      "ar": "حنين",
+      "tr": "Huneyn",
+      "en": "Hunayn"
+    },
+    "lat": 21.3667,
+    "lng": 40.2333,
+    "type": "battlefield",
+    "description": "Huneyn Gazvesi (630). Hevâzin ve Sakîf'e karşı. Kur'ân'da zikredilir (Tevbe 9:25-26)."
+  },
+  {
+    "id": "taif",
+    "name": {
+      "ar": "الطائف",
+      "tr": "Tâif",
+      "en": "Ta'if"
+    },
+    "lat": 21.2703,
+    "lng": 40.516,
+    "type": "city",
+    "description": "Sakîf kabilesinin merkezi. Hz. Peygamber'in davet ziyareti (619) ve kuşatma (630)."
+  },
+  {
+    "id": "yemame",
+    "name": {
+      "ar": "اليمامة",
+      "tr": "Yemâme",
+      "en": "Yamama"
+    },
+    "lat": 24.6333,
+    "lng": 46.0333,
+    "type": "battlefield",
+    "description": "Yemâme Savaşı (633). Müseylime'ye karşı. 70+ hâfız şehit oldu. Kur'ân cem'i sebebi."
+  },
+  {
+    "id": "siffin",
+    "name": {
+      "ar": "صفين",
+      "tr": "Sıffîn",
+      "en": "Siffin"
+    },
+    "lat": 35.75,
+    "lng": 39.0,
+    "type": "battlefield",
+    "description": "Sıffîn Savaşı (657). Hz. Ali ile Hz. Muâviye arasında."
+  },
+  {
+    "id": "yermuk",
+    "name": {
+      "ar": "اليرموك",
+      "tr": "Yermük",
+      "en": "Yarmouk"
+    },
+    "lat": 32.7,
+    "lng": 35.95,
+    "type": "battlefield",
+    "description": "Yermük Savaşı (636). Bizans'a karşı kesin zafer. Suriye'nin fethini kesinleştirdi."
+  },
+  {
+    "id": "kadisiye",
+    "name": {
+      "ar": "القادسية",
+      "tr": "Kâdisiye",
+      "en": "Qadisiyya"
+    },
+    "lat": 32.05,
+    "lng": 44.35,
+    "type": "battlefield",
+    "description": "Kâdisiye Savaşı (636). Sâsânî İmparatorluğu'na karşı. Sa'd b. Ebî Vakkâs komutan."
+  },
+  {
+    "id": "nihavend",
+    "name": {
+      "ar": "نهاوند",
+      "tr": "Nihâvend",
+      "en": "Nihawand"
+    },
+    "lat": 34.1833,
+    "lng": 48.3833,
+    "type": "battlefield",
+    "description": "Nihâvend Savaşı (642). 'Fethu'l-Fütûh' (Fetihlerin fethi). Sâsânî İmparatorluğu'nun sonu."
+  },
+  {
+    "id": "reci",
+    "name": {
+      "ar": "الرجيع",
+      "tr": "Recî'",
+      "en": "al-Raji"
+    },
+    "lat": 22.5,
+    "lng": 39.8,
+    "type": "event_site",
+    "description": "Recî' hadisesi (625). 10 sahâbî pusuya düşürüldü."
+  },
+  {
+    "id": "birimeune",
+    "name": {
+      "ar": "بئر معونة",
+      "tr": "Bi'r-i Maûne",
+      "en": "Bi'r Ma'una"
+    },
+    "lat": 24.1,
+    "lng": 40.8,
+    "type": "event_site",
+    "description": "Bi'r-i Maûne hadisesi (625). 70 kurrâ sahâbî şehit edildi."
+  },
+  {
+    "id": "sevr_magarasi",
+    "name": {
+      "ar": "غار ثور",
+      "tr": "Sevr Mağarası",
+      "en": "Cave of Thawr"
+    },
+    "lat": 21.3767,
+    "lng": 39.8547,
+    "type": "cave",
+    "description": "Hz. Peygamber ve Hz. Ebû Bekir'in hicret sırasında gizlendiği mağara.",
+    "museum_item_ids": [
+      "geo_cave_002"
+    ]
+  },
+  {
+    "id": "hira_magarasi",
+    "name": {
+      "ar": "غار حراء",
+      "tr": "Hira Mağarası",
+      "en": "Cave of Hira"
+    },
+    "lat": 21.4575,
+    "lng": 39.8583,
+    "type": "cave",
+    "description": "İlk vahyin indiği yer. Cebrâîl (a.s.) Hz. Peygamber'e burada göründü.",
+    "museum_item_ids": [
+      "geo_cave_001"
+    ]
+  },
+  {
+    "id": "kuba",
+    "name": {
+      "ar": "قباء",
+      "tr": "Kubâ",
+      "en": "Quba"
+    },
+    "lat": 24.4397,
+    "lng": 39.6164,
+    "type": "mosque",
+    "description": "İslâm'ın ilk mescidi. Hz. Peygamber hicret yolunda burada konaklayıp Kubâ Mescidi'ni inşa etti.",
+    "museum_item_ids": [
+      "geo_sacred_007"
+    ]
+  },
+  {
+    "id": "basra",
+    "name": {
+      "ar": "البصرة",
+      "tr": "Basra",
+      "en": "Basra"
+    },
+    "lat": 30.5085,
+    "lng": 47.7804,
+    "type": "city",
+    "description": "638'de kurulan garnizon şehir. Basra ilim okulu. Hasan-ı Basrî'nin merkezi."
+  },
+  {
+    "id": "kufe",
+    "name": {
+      "ar": "الكوفة",
+      "tr": "Kûfe",
+      "en": "Kufa"
+    },
+    "lat": 32.0283,
+    "lng": 44.4014,
+    "type": "city",
+    "description": "638'de kurulan garnizon şehir. İbn Mes'ûd'un kurduğu fıkıh okulu. Ebû Hanîfe burada yetişti."
+  },
+  {
+    "id": "dimask",
+    "name": {
+      "ar": "دمشق",
+      "tr": "Dımaşk",
+      "en": "Damascus"
+    },
+    "lat": 33.5138,
+    "lng": 36.2765,
+    "type": "city",
+    "description": "Emevî hilâfetinin başkenti (661-750). Ümeyye Camii."
+  },
+  {
+    "id": "fustat",
+    "name": {
+      "ar": "الفسطاط",
+      "tr": "Fustat",
+      "en": "Fustat"
+    },
+    "lat": 30.0033,
+    "lng": 31.2311,
+    "type": "city",
+    "description": "Mısır'ın fethinden sonra kurulan garnizon şehir (642). Amr b. Âs Camii."
+  },
+  {
+    "id": "kayrevan",
+    "name": {
+      "ar": "القيروان",
+      "tr": "Kayrevân",
+      "en": "Kairouan"
+    },
+    "lat": 35.6781,
+    "lng": 10.0963,
+    "type": "city",
+    "description": "İfrîkıye'nin merkezi. Ukbe b. Nâfi' tarafından 670'te kuruldu."
+  },
+  {
+    "id": "sana",
+    "name": {
+      "ar": "صنعاء",
+      "tr": "San'â",
+      "en": "Sana'a"
+    },
+    "lat": 15.3694,
+    "lng": 44.191,
+    "type": "city",
+    "description": "Yemen'in merkezi. Hz. Peygamber Muâz b. Cebel'i buraya vali gönderdi."
+  },
+  {
+    "id": "habesistan",
+    "name": {
+      "ar": "الحبشة",
+      "tr": "Habeşistan",
+      "en": "Abyssinia (Aksum)"
+    },
+    "lat": 14.13,
+    "lng": 38.72,
+    "type": "country",
+    "description": "İlk hicret diyarı. Necâşi Ashama sahâbîleri korudu."
+  },
+  {
+    "id": "hims",
+    "name": {
+      "ar": "حمص",
+      "tr": "Hıms",
+      "en": "Homs"
+    },
+    "lat": 34.7324,
+    "lng": 36.7137,
+    "type": "city",
+    "description": "Suriye'nin önemli askeri garnizon şehri. Hâlid b. Velîd burada vefat etti."
+  },
+  {
+    "id": "hail_tayy",
+    "name": {
+      "ar": "حائل",
+      "tr": "Hâil",
+      "en": "Ha'il"
+    },
+    "lat": 27.5219,
+    "lng": 41.6907,
+    "type": "city",
+    "description": "Tayy kabilesinin merkezi. Adî b. Hâtim'in diyarı."
+  },
+  {
+    "id": "dumetulcendel",
+    "name": {
+      "ar": "دومة الجندل",
+      "tr": "Dûmetülcendel",
+      "en": "Dumat al-Jandal"
+    },
+    "lat": 29.8119,
+    "lng": 39.8714,
+    "type": "city",
+    "description": "Kuzey Arabistan'da stratejik vaha. Kelb kabilesinin merkezi. Hz. Peygamber gazve düzenledi."
+  },
+  {
+    "id": "hire",
+    "name": {
+      "ar": "الحيرة",
+      "tr": "Hîre",
+      "en": "al-Hira"
+    },
+    "lat": 31.9833,
+    "lng": 44.45,
+    "type": "city",
+    "description": "Lahmî krallığının başkenti. Sâsânî vassalı Arap devleti. Hâlid b. Velîd tarafından fethedildi (633)."
+  },
+  {
+    "id": "ebva",
+    "name": {
+      "ar": "الأبواء",
+      "tr": "Ebvâ",
+      "en": "al-Abwa"
+    },
+    "lat": 23.0833,
+    "lng": 39.0833,
+    "type": "village",
+    "description": "Hz. Peygamber'in annesinin vefat ettiği yer. İlk gazve (seriyye) burada."
+  },
+  {
+    "id": "buas",
+    "name": {
+      "ar": "بعاث",
+      "tr": "Buâs",
+      "en": "Bu'ath"
+    },
+    "lat": 24.5,
+    "lng": 39.65,
+    "type": "battlefield",
+    "description": "Evs-Hazrec arasındaki son büyük savaş (617). İslâm'ın Medine'ye girişini kolaylaştırdı.",
+    "museum_item_ids": [
+      "geo_desert_001"
+    ]
+  },
+  {
+    "id": "tebuk",
+    "name": {
+      "ar": "تبوك",
+      "tr": "Tebük",
+      "en": "Tabuk"
+    },
+    "lat": 28.3835,
+    "lng": 36.5662,
+    "type": "city",
+    "description": "Tebük Gazvesi (630). En uzak sefer. Hz. Peygamber'in son gazvesi.",
+    "museum_item_ids": [
+      "geo_battle_004"
+    ]
+  },
+  {
+    "id": "kerbela",
+    "name": {
+      "ar": "كربلاء",
+      "tr": "Kerbelâ",
+      "en": "Karbala"
+    },
+    "lat": 32.616,
+    "lng": 44.0234,
+    "type": "city",
+    "description": "Hz. Hüseyin'in 680'de şehit edildiği yer."
+  },
+  {
+    "id": "arafat",
+    "name": {
+      "ar": "عرفات",
+      "tr": "Arafat",
+      "en": "Arafat"
+    },
+    "lat": 21.3547,
+    "lng": 39.9847,
+    "type": "sacred_site",
+    "description": "Vedâ Haccı hutbesinin irad edildiği yer. Hac ibadetinin en önemli rüknü."
+  },
+  {
+    "id": "mina",
+    "name": {
+      "ar": "منى",
+      "tr": "Minâ",
+      "en": "Mina"
+    },
+    "lat": 21.4133,
+    "lng": 39.8933,
+    "type": "sacred_site",
+    "description": "Akabe Bey'atlarının yapıldığı yer. Hac menâsikinden.",
+    "museum_item_ids": [
+      "geo_sacred_005"
+    ]
+  },
+  {
+    "id": "nakhla",
+    "name": {
+      "ar": "نخلة",
+      "tr": "Nahle",
+      "en": "Nakhla"
+    },
+    "lat": 21.5,
+    "lng": 40.1,
+    "type": "valley",
+    "description": "İlk seriyyenin yapıldığı yer. Abdullah b. Cahş komutasında."
+  },
+  {
+    "id": "havran",
+    "name": {
+      "ar": "حوران",
+      "tr": "Havrân",
+      "en": "Hawran"
+    },
+    "lat": 32.6,
+    "lng": 36.3,
+    "type": "region",
+    "description": "Güney Suriye bölgesi. Sa'd b. Ubâde'nin vefat ettiği yer."
+  },
+  {
+    "id": "amvas",
+    "name": {
+      "ar": "عمواس",
+      "tr": "Amvâs",
+      "en": "Emmaus (Amwas)"
+    },
+    "lat": 31.84,
+    "lng": 34.99,
+    "type": "city",
+    "description": "Amvâs tâunu (639). Ebû Ubeyde, Muâz b. Cebel vb. vefat etti."
+  },
+  {
+    "id": "ninova",
+    "name": {
+      "ar": "نينوى",
+      "tr": "Ninova",
+      "en": "Nineveh"
+    },
+    "lat": 36.36,
+    "lng": 43.15,
+    "type": "city",
+    "description": "Antik Asur başkenti. Kûfe yakınlarında."
+  },
+  {
+    "id": "hadramevt",
+    "name": {
+      "ar": "حضرموت",
+      "tr": "Hadramevt",
+      "en": "Hadhramaut"
+    },
+    "lat": 15.35,
+    "lng": 48.5,
+    "type": "region",
+    "description": "Güney Yemen bölgesi. Buhur ticaretinin merkezi."
+  },
+  {
+    "id": "misir",
+    "name": {
+      "ar": "مصر",
+      "tr": "Mısır (genel)",
+      "en": "Egypt"
+    },
+    "lat": 30.04,
+    "lng": 31.24,
+    "type": "country",
+    "description": "Amr b. Âs tarafından fethedildi (641)."
+  },
+  {
+    "id": "kibris",
+    "name": {
+      "ar": "قبرص",
+      "tr": "Kıbrıs",
+      "en": "Cyprus"
+    },
+    "lat": 35.13,
+    "lng": 33.43,
+    "type": "island",
+    "description": "Muâviye döneminde fethedildi. Ümmü Harâm şehit düştü."
+  },
+  {
+    "id": "devs_diyari",
+    "name": {
+      "ar": "ديار دوس",
+      "tr": "Devs Diyarı",
+      "en": "Daws Territory"
+    },
+    "lat": 19.8,
+    "lng": 41.6,
+    "type": "region",
+    "description": "Güneybatı Arabistan. Tufeyl b. Amr ed-Devsî'nin kabilesi."
+  },
+  {
+    "id": "dimaşk",
+    "name": {
+      "ar": "دمشق",
+      "tr": "Dımaşk (alias)",
+      "en": "Damascus (alias)"
+    },
+    "lat": 33.51,
+    "lng": 36.28,
+    "type": "city",
+    "description": "dimask ile aynı. Alias."
+  },
+  {
+    "id": "horasan",
+    "name": {
+      "ar": "خراسان",
+      "tr": "Horasan",
+      "en": "Khorasan"
+    },
+    "lat": 36.3,
+    "lng": 59.6,
+    "type": "region",
+    "description": "Kuzeydoğu İran. Merv, Nişâbur, Belh. İlim ve cihad merkezi."
+  },
+  {
+    "id": "akik_medine",
+    "name": {
+      "ar": "وادي العقيق",
+      "tr": "Akîk Vadisi",
+      "en": "Wadi al-Aqiq"
+    },
+    "lat": 24.5,
+    "lng": 39.55,
+    "type": "valley",
+    "description": "Medine batısındaki vadi. Hz. Peygamber mübarek saydı.",
+    "museum_item_ids": [
+      "geo_valley_003"
+    ]
+  },
+  {
+    "id": "istanbul",
+    "name": {
+      "ar": "القسطنطينية",
+      "tr": "İstanbul (Kostantiniyye)",
+      "en": "Constantinople"
+    },
+    "lat": 41.01,
+    "lng": 28.98,
+    "type": "city",
+    "description": "Bizans başkenti. Ebû Eyyûb el-Ensârî kuşatmada şehit düştü."
+  },
+  {
+    "id": "habesistan_genel",
+    "name": {
+      "ar": "الحبشة",
+      "tr": "Habeşistan (genel)",
+      "en": "Abyssinia (general)"
+    },
+    "lat": 14.13,
+    "lng": 38.72,
+    "type": "country",
+    "description": "İlk hicret diyarı. habesistan ile aynı. Alias."
+  },
+  {
+    "id": "rebeze",
+    "name": {
+      "ar": "الربذة",
+      "tr": "Rebeze",
+      "en": "al-Rabadha"
+    },
+    "lat": 25.4,
+    "lng": 42.5,
+    "type": "village",
+    "description": "Medine-Mekke yolu üzerinde. Ebû Zer el-Gıfârî burada vefat etti."
+  },
+  {
+    "id": "medain",
+    "name": {
+      "ar": "المدائن",
+      "tr": "Medâin (Ktesifon)",
+      "en": "al-Mada'in (Ctesiphon)"
+    },
+    "lat": 33.09,
+    "lng": 44.58,
+    "type": "city",
+    "description": "Sâsânî başkenti. Selmân-ı Fârisî burada vali oldu."
+  },
+  {
+    "id": "kudüs",
+    "name": {
+      "ar": "القدس",
+      "tr": "Kudüs (alias)",
+      "en": "Jerusalem (alias)"
+    },
+    "lat": 31.77,
+    "lng": 35.21,
+    "type": "city",
+    "description": "kudus ile aynı. Alias."
+  },
+  {
+    "id": "büzâha",
+    "name": {
+      "ar": "بزاخة",
+      "tr": "Büzâha",
+      "en": "Buzakha"
+    },
+    "lat": 27.5,
+    "lng": 43.5,
+    "type": "battlefield",
+    "description": "Ridde savaşlarından. Tuleyha b. Huveylid burada yenildi."
+  },
+  {
+    "id": "kıbrıs",
+    "name": {
+      "ar": "قبرص",
+      "tr": "Kıbrıs (alias)",
+      "en": "Cyprus (alias)"
+    },
+    "lat": 35.13,
+    "lng": 33.43,
+    "type": "island",
+    "description": "kibris ile aynı. Alias."
+  },
+  {
+    "id": "necid",
+    "name": {
+      "ar": "نجد",
+      "tr": "Necid",
+      "en": "Najd"
+    },
+    "lat": 24.5,
+    "lng": 45.0,
+    "type": "region",
+    "description": "Orta Arabistan yaylası. Temîm, Esed, Gatafân kabilelerinin yurdu."
+  },
+  {
+    "id": "yemame_bolge",
+    "name": {
+      "ar": "اليمامة",
+      "tr": "Yemâme (Bölge)",
+      "en": "al-Yamama"
+    },
+    "lat": 24.1,
+    "lng": 47.3,
+    "type": "region",
+    "description": "Benî Hanîfe'nin merkezi. Müseylimetü'l-Kezzâb'ın karargâhı."
+  },
+  {
+    "id": "tihame",
+    "name": {
+      "ar": "تهامة",
+      "tr": "Tihâme",
+      "en": "Tihama"
+    },
+    "lat": 20.0,
+    "lng": 40.5,
+    "type": "region",
+    "description": "Kızıldeniz sahil ovası. Mekke'nin de bulunduğu bölge.",
+    "museum_item_ids": [
+      "geo_route_004"
+    ]
+  },
+  {
+    "id": "hicaz",
+    "name": {
+      "ar": "الحجاز",
+      "tr": "Hicaz",
+      "en": "Hijaz"
+    },
+    "lat": 23.0,
+    "lng": 39.5,
+    "type": "region",
+    "description": "Mekke, Medine ve Tâif'i kapsayan bölge. İslâm'ın beşiği."
+  },
+  {
+    "id": "bahreyn",
+    "name": {
+      "ar": "البحرين",
+      "tr": "Bahreyn (Bölge)",
+      "en": "al-Bahrain (Region)"
+    },
+    "lat": 25.5,
+    "lng": 50.0,
+    "type": "region",
+    "description": "Doğu Arabistan kıyı bölgesi. Abdülkays kabilesinin yurdu."
+  },
+  {
+    "id": "uman",
+    "name": {
+      "ar": "عمان",
+      "tr": "Umân",
+      "en": "Oman"
+    },
+    "lat": 22.5,
+    "lng": 57.0,
+    "type": "region",
+    "description": "Arabistan'ın güneydoğusu. Ezd kabilesinin önemli kolu burada."
+  },
+  {
+    "id": "hadramevt_sehir",
+    "name": {
+      "ar": "شبام حضرموت",
+      "tr": "Şibâm (Hadramevt)",
+      "en": "Shibam (Hadhramaut)"
+    },
+    "lat": 15.92,
+    "lng": 48.63,
+    "type": "city",
+    "description": "Kinde ve Hadramevt kabilelerinin merkezi."
+  },
+  {
+    "id": "necran",
+    "name": {
+      "ar": "نجران",
+      "tr": "Necrân",
+      "en": "Najran"
+    },
+    "lat": 17.49,
+    "lng": 44.13,
+    "type": "city",
+    "description": "Hristiyan Arap cemaatinin merkezi. Mübâhele olayı."
+  },
+  {
+    "id": "devmetulcendel",
+    "name": {
+      "ar": "دومة الجندل",
+      "tr": "Dûmetülcendel",
+      "en": "Dumat al-Jandal"
+    },
+    "lat": 29.81,
+    "lng": 39.87,
+    "type": "city",
+    "description": "Kuzey Arabistan garnizonu. Hâlid b. Velîd burayı fethetti."
+  },
+  {
+    "id": "fedek",
+    "name": {
+      "ar": "فدك",
+      "tr": "Fedek",
+      "en": "Fadak"
+    },
+    "lat": 25.4,
+    "lng": 40.5,
+    "type": "city",
+    "description": "Hayber yakınlarında yahudi yerleşimi. Fetih sonrası Hz. Fâtıma meselesi."
+  },
+  {
+    "id": "vadilkura",
+    "name": {
+      "ar": "وادي القرى",
+      "tr": "Vâdilkurâ",
+      "en": "Wadi al-Qura"
+    },
+    "lat": 26.55,
+    "lng": 37.55,
+    "type": "city",
+    "description": "Medine-Şam yolu üzerinde. Yahudi yerleşimi. Hayber sonrası fethedildi."
+  },
+  {
+    "id": "cand",
+    "name": {
+      "ar": "الجند",
+      "tr": "Cend",
+      "en": "al-Jand"
+    },
+    "lat": 13.57,
+    "lng": 44.14,
+    "type": "city",
+    "description": "Yemen'de İslâmî yönetim merkezi. Muâz b. Cebel burada kadılık yaptı."
+  },
+  {
+    "id": "zatu_irk",
+    "name": {
+      "ar": "ذات عرق",
+      "tr": "Zâtü Irk",
+      "en": "Dhat Irq"
+    },
+    "lat": 21.95,
+    "lng": 40.45,
+    "type": "sacred_site",
+    "description": "Irak ve doğu yönünden gelenlerin mîkat noktası."
+  },
+  {
+    "id": "cirana",
+    "name": {
+      "ar": "الجعرانة",
+      "tr": "Ci'râne",
+      "en": "al-Ji'rana"
+    },
+    "lat": 21.58,
+    "lng": 40.0,
+    "type": "sacred_site",
+    "description": "Umre mîkatı. Huneyn ganimetlerinin dağıtıldığı yer.",
+    "museum_item_ids": [
+      "geo_valley_007"
+    ]
+  },
+  {
+    "id": "huneyn_vadi",
+    "name": {
+      "ar": "وادي حنين",
+      "tr": "Huneyn Vadisi",
+      "en": "Valley of Hunayn"
+    },
+    "lat": 21.47,
+    "lng": 40.15,
+    "type": "valley",
+    "description": "Huneyn Gazvesi'nin cereyan ettiği vadi (Mekke-Tâif arası)."
+  },
+  {
+    "id": "hamraulesed",
+    "name": {
+      "ar": "حمراء الأسد",
+      "tr": "Hamrâü'l-Esed",
+      "en": "Hamra al-Asad"
+    },
+    "lat": 21.22,
+    "lng": 39.82,
+    "type": "event_site",
+    "description": "Uhud'dan sonra müslümanların Kureyş'i takip ettiği yer (8 mil güneyde)."
+  },
+  {
+    "id": "beni_kaynuka",
+    "name": {
+      "ar": "بنو قينقاع",
+      "tr": "Benî Kaynukâ Çarşısı",
+      "en": "Banu Qaynuqa Market"
+    },
+    "lat": 24.47,
+    "lng": 39.61,
+    "type": "settlement",
+    "description": "Medine'deki Yahudi kabilesi Benî Kaynukâ'nın mahallesi ve çarşısı.",
+    "museum_item_ids": [
+      "geo_valley_002"
+    ]
+  },
+  {
+    "id": "beni_nadir_mah",
+    "name": {
+      "ar": "بنو النضير",
+      "tr": "Benî Nadîr Mahallesi",
+      "en": "Banu Nadir Quarter"
+    },
+    "lat": 24.44,
+    "lng": 39.6,
+    "type": "settlement",
+    "description": "Medine'nin güneyinde Benî Nadîr Yahudi kabilesinin yerleşim bölgesi."
+  },
+  {
+    "id": "beni_kurayza_mah",
+    "name": {
+      "ar": "بنو قريظة",
+      "tr": "Benî Kurayza Kalesi",
+      "en": "Banu Qurayza Fort"
+    },
+    "lat": 24.42,
+    "lng": 39.62,
+    "type": "fortress",
+    "description": "Medine güneyinde Benî Kurayza'nın müstahkem yerleşimi.",
+    "museum_item_ids": [
+      "geo_battle_005"
+    ]
+  },
+  {
+    "id": "seviq",
+    "name": {
+      "ar": "السويق",
+      "tr": "Sevîk",
+      "en": "al-Sawiq"
+    },
+    "lat": 24.3,
+    "lng": 39.65,
+    "type": "event_site",
+    "description": "Sevîk Gazvesi yeri. Ebû Süfyân'ın baskın girişimi (H. 2)."
+  },
+  {
+    "id": "beni_mustalik_suyu",
+    "name": {
+      "ar": "المريسيع",
+      "tr": "Müreysî' Suyu",
+      "en": "al-Muraysi"
+    },
+    "lat": 22.0,
+    "lng": 39.3,
+    "type": "event_site",
+    "description": "Benî Mustalık Gazvesi'nin cereyan ettiği su kaynağı."
+  },
+  {
+    "id": "zatu_riqa",
+    "name": {
+      "ar": "ذات الرقاع",
+      "tr": "Zâtürrıkâ'",
+      "en": "Dhat al-Riqa"
+    },
+    "lat": 25.2,
+    "lng": 40.5,
+    "type": "event_site",
+    "description": "Necid yönünde gazve yeri. Korku namazı (salâtü'l-havf) burada kılındı."
+  },
+  {
+    "id": "dumetu",
+    "name": {
+      "ar": "دومة الجندل",
+      "tr": "Dûme Gazvesi Yeri",
+      "en": "Dumat Expedition"
+    },
+    "lat": 29.81,
+    "lng": 39.87,
+    "type": "event_site",
+    "description": "Hz. Peygamber'in Dûmetülcendel seferi (H. 5). Kuzey sınır güvenliği."
+  },
+  {
+    "id": "batn_nahle",
+    "name": {
+      "ar": "بطن نخلة",
+      "tr": "Batn-ı Nahle",
+      "en": "Batn Nakhla"
+    },
+    "lat": 21.47,
+    "lng": 40.28,
+    "type": "valley",
+    "description": "Nahle Seriyyesi yeri. Mekke-Tâif arası vadi."
+  },
+  {
+    "id": "zatussalasil",
+    "name": {
+      "ar": "ذات السلاسل",
+      "tr": "Zâtüsselâsil",
+      "en": "Dhat al-Salasil"
+    },
+    "lat": 29.5,
+    "lng": 36.5,
+    "type": "event_site",
+    "description": "Amr b. Âs komutasındaki seriyye yeri. Kuzey Arabistan."
+  },
+  {
+    "id": "hudeybiye_alani",
+    "name": {
+      "ar": "منطقة الحديبية",
+      "tr": "Hudeybiye Alanı",
+      "en": "Hudaybiyya Area"
+    },
+    "lat": 21.44,
+    "lng": 39.63,
+    "type": "treaty_site",
+    "description": "Bey'atü'r-Rıdvân ağacının bulunduğu alan."
+  },
+  {
+    "id": "ecnadeyn",
+    "name": {
+      "ar": "أجنادين",
+      "tr": "Ecnâdeyn",
+      "en": "Ajnadayn"
+    },
+    "lat": 31.69,
+    "lng": 34.93,
+    "type": "battlefield",
+    "description": "Suriye fetihlerinin ilk büyük muharebesinin yeri (634)."
+  },
+  {
+    "id": "fihl",
+    "name": {
+      "ar": "فحل (بيسان)",
+      "tr": "Fihl (Beysân)",
+      "en": "Fahl (Pella)"
+    },
+    "lat": 32.45,
+    "lng": 35.62,
+    "type": "battlefield",
+    "description": "Bizans'a karşı önemli muharebe yeri (635). Ürdün Vadisi."
+  },
+  {
+    "id": "mercirrahit",
+    "name": {
+      "ar": "مرج راهط",
+      "tr": "Mercirâhit",
+      "en": "Marj Rahit"
+    },
+    "lat": 33.38,
+    "lng": 36.38,
+    "type": "battlefield",
+    "description": "Dımaşk yakınlarında muharebe alanı."
+  },
+  {
+    "id": "iskenderiye",
+    "name": {
+      "ar": "الإسكندرية",
+      "tr": "İskenderiye",
+      "en": "Alexandria"
+    },
+    "lat": 31.2,
+    "lng": 29.92,
+    "type": "city",
+    "description": "Mısır'ın Akdeniz limanı. Amr b. Âs tarafından fethedildi (642)."
+  },
+  {
+    "id": "babilon",
+    "name": {
+      "ar": "حصن بابليون",
+      "tr": "Bâbilûn Kalesi",
+      "en": "Fortress of Babylon"
+    },
+    "lat": 30.01,
+    "lng": 31.23,
+    "type": "fortress",
+    "description": "Mısır'daki Bizans garnizonu. Fustât bu kalenin yanında kuruldu."
+  },
+  {
+    "id": "celula",
+    "name": {
+      "ar": "جلولاء",
+      "tr": "Celûlâ",
+      "en": "Jalula"
+    },
+    "lat": 34.28,
+    "lng": 45.15,
+    "type": "battlefield",
+    "description": "Kâdisiye sonrası Sâsânî kuvvetleriyle ikinci büyük muharebe (637)."
+  },
+  {
+    "id": "nahavend",
+    "name": {
+      "ar": "نهاوند",
+      "tr": "Nahâvend",
+      "en": "Nahavand"
+    },
+    "lat": 34.18,
+    "lng": 48.38,
+    "type": "city",
+    "description": "Fethu'l-Fütûh (Fetihlerin Fethi). Sâsânî ordusunun son direniş noktası (642)."
+  },
+  {
+    "id": "merv",
+    "name": {
+      "ar": "مرو",
+      "tr": "Merv",
+      "en": "Merv"
+    },
+    "lat": 37.66,
+    "lng": 62.17,
+    "type": "city",
+    "description": "Horasan'ın başkenti. Doğu fetihleri üssü."
+  },
+  {
+    "id": "isfahan",
+    "name": {
+      "ar": "أصفهان",
+      "tr": "İsfahân",
+      "en": "Isfahan"
+    },
+    "lat": 32.65,
+    "lng": 51.67,
+    "type": "city",
+    "description": "İran'ın büyük şehri. Nihâvend sonrası fethedildi."
+  },
+  {
+    "id": "rey",
+    "name": {
+      "ar": "الري",
+      "tr": "Rey",
+      "en": "Ray"
+    },
+    "lat": 35.58,
+    "lng": 51.45,
+    "type": "city",
+    "description": "İran'ın kuzey merkezi. Hicri 22/23'te fethedildi."
+  },
+  {
+    "id": "hemedan",
+    "name": {
+      "ar": "همذان",
+      "tr": "Hemedân",
+      "en": "Hamadan"
+    },
+    "lat": 34.8,
+    "lng": 48.52,
+    "type": "city",
+    "description": "Batı İran'ın stratejik şehri. Medler'in eski başkenti."
+  },
+  {
+    "id": "musul",
+    "name": {
+      "ar": "الموصل",
+      "tr": "Musul",
+      "en": "Mosul"
+    },
+    "lat": 36.34,
+    "lng": 43.12,
+    "type": "city",
+    "description": "Dicle üzerinde stratejik şehir. Hicri 16'da fethedildi."
+  },
+  {
+    "id": "halep",
+    "name": {
+      "ar": "حلب",
+      "tr": "Halep",
+      "en": "Aleppo"
+    },
+    "lat": 36.2,
+    "lng": 37.15,
+    "type": "city",
+    "description": "Kuzey Suriye'nin merkezi. Hicri 16'da Ebû Ubeyde tarafından fethedildi."
+  },
+  {
+    "id": "antakya",
+    "name": {
+      "ar": "أنطاكية",
+      "tr": "Antakya",
+      "en": "Antioch"
+    },
+    "lat": 36.2,
+    "lng": 36.16,
+    "type": "city",
+    "description": "Bizans'ın Suriye üssü. Yermük sonrası düştü."
+  },
+  {
+    "id": "trablus_sam",
+    "name": {
+      "ar": "طرابلس الشام",
+      "tr": "Trablus (Şam)",
+      "en": "Tripoli (Levant)"
+    },
+    "lat": 34.44,
+    "lng": 35.85,
+    "type": "city",
+    "description": "Lübnan sahilinde Bizans limanı."
+  },
+  {
+    "id": "beytulmakdis",
+    "name": {
+      "ar": "إيلياء",
+      "tr": "İlyâ (Kudüs)",
+      "en": "Aelia (Jerusalem)"
+    },
+    "lat": 31.78,
+    "lng": 35.23,
+    "type": "city",
+    "description": "Hz. Ömer'in teslim aldığı Kudüs. Bizans adı Aelia Capitolina."
+  },
+  {
+    "id": "barka",
+    "name": {
+      "ar": "برقة",
+      "tr": "Berka",
+      "en": "Barqa"
+    },
+    "lat": 32.37,
+    "lng": 20.07,
+    "type": "city",
+    "description": "Libya'da ilk İslâm garnizonu. Amr b. Âs tarafından fethedildi."
+  },
+  {
+    "id": "medine_mescidi_nebevi",
+    "name": {
+      "ar": "المسجد النبوي",
+      "tr": "Mescid-i Nebevî",
+      "en": "Prophet's Mosque"
+    },
+    "lat": 24.4672,
+    "lng": 39.6112,
+    "type": "mosque",
+    "description": "Hz. Peygamber'in Medine'de inşa ettiği mescit. İslâm'ın ikinci haremi."
+  },
+  {
+    "id": "mescidi_haram",
+    "name": {
+      "ar": "المسجد الحرام",
+      "tr": "Mescid-i Harâm",
+      "en": "al-Masjid al-Haram"
+    },
+    "lat": 21.4225,
+    "lng": 39.8262,
+    "type": "mosque",
+    "description": "Ka'be'nin bulunduğu mescit. İslâm'ın ilk haremi."
+  },
+  {
+    "id": "mescidi_aksa",
+    "name": {
+      "ar": "المسجد الأقصى",
+      "tr": "Mescid-i Aksâ",
+      "en": "al-Masjid al-Aqsa"
+    },
+    "lat": 31.776,
+    "lng": 35.2354,
+    "type": "mosque",
+    "description": "İsrâ ve Mi'rac hadisesi. İslâm'ın üçüncü haremi.",
+    "museum_item_ids": [
+      "geo_sacred_003"
+    ]
+  },
+  {
+    "id": "bakiu_garkad",
+    "name": {
+      "ar": "بقيع الغرقد",
+      "tr": "Bakîü'l-Garkad",
+      "en": "al-Baqi"
+    },
+    "lat": 24.467,
+    "lng": 39.615,
+    "type": "cemetery",
+    "description": "Medine mezarlığı. On binden fazla sahâbî burada medfun."
+  },
+  {
+    "id": "cennetul_mualla",
+    "name": {
+      "ar": "جنة المعلى",
+      "tr": "Cennetü'l-Muallâ",
+      "en": "Jannat al-Mualla"
+    },
+    "lat": 21.43,
+    "lng": 39.82,
+    "type": "cemetery",
+    "description": "Mekke'nin tarihi mezarlığı. Hz. Hatice burada defnedildi."
+  },
+  {
+    "id": "mekke_darul_erkam",
+    "name": {
+      "ar": "دار الأرقم",
+      "tr": "Dârülerkam",
+      "en": "Dar al-Arqam"
+    },
+    "lat": 21.424,
+    "lng": 39.827,
+    "type": "historic_building",
+    "description": "Erkam b. Ebi'l-Erkam'ın Safâ yakınındaki evi. Gizli davet merkezi."
+  },
+  {
+    "id": "suffe",
+    "name": {
+      "ar": "الصفة",
+      "tr": "Suffe",
+      "en": "al-Suffa"
+    },
+    "lat": 24.467,
+    "lng": 39.611,
+    "type": "historic_building",
+    "description": "Mescid-i Nebevî'nin kimsesiz sahâbîlere ayrılan bölümü. İlk İslâm üniversitesi."
+  },
+  {
+    "id": "nehrevan",
+    "name": {
+      "ar": "النهروان",
+      "tr": "Nehrevân",
+      "en": "Nahrawan"
+    },
+    "lat": 33.35,
+    "lng": 44.75,
+    "type": "battlefield",
+    "description": "Bağdat doğusunda. Hz. Ali'nin Hâricîleri yendiği savaş meydanı."
+  },
+  {
+    "id": "mahra",
+    "name": {
+      "ar": "المهرة",
+      "tr": "Mehra",
+      "en": "al-Mahra"
+    },
+    "lat": 16.52,
+    "lng": 51.95,
+    "type": "region",
+    "description": "Arabistan'ın güneydoğusundaki kadim bölge."
+  },
+  {
+    "id": "kinane_bolgesi",
+    "name": {
+      "ar": "ديار كنانة",
+      "tr": "Kinâne Diyarı",
+      "en": "Kinana Territory"
+    },
+    "lat": 21.5,
+    "lng": 40.2,
+    "type": "region",
+    "description": "Kinâne kabilesinin Hicaz'daki yurdu."
+  },
+  {
+    "id": "sulaym_bolgesi",
+    "name": {
+      "ar": "ديار سليم",
+      "tr": "Süleym Diyarı",
+      "en": "Sulaym Territory"
+    },
+    "lat": 23.4,
+    "lng": 39.8,
+    "type": "region",
+    "description": "Süleym kabilesinin Hicaz-Necid arasındaki yurdu."
+  },
+  {
+    "id": "gatafan_bolgesi",
+    "name": {
+      "ar": "ديار غطفان",
+      "tr": "Gatafân Diyarı",
+      "en": "Ghatafan Territory"
+    },
+    "lat": 25.3,
+    "lng": 40.5,
+    "type": "region",
+    "description": "Gatafân kabilesinin Necid'deki yurdu."
+  },
+  {
+    "id": "tayy_bolgesi",
+    "name": {
+      "ar": "جبلا طيئ",
+      "tr": "Tayy Dağları (Ecâ-Selmâ)",
+      "en": "Tayy Mountains"
+    },
+    "lat": 27.58,
+    "lng": 41.68,
+    "type": "region",
+    "description": "Tayy kabilesinin Ecâ ve Selmâ dağlarındaki yurdu."
+  },
+  {
+    "id": "devs_bolgesi",
+    "name": {
+      "ar": "ديار دوس",
+      "tr": "Devs Diyarı",
+      "en": "Daws Territory"
+    },
+    "lat": 19.8,
+    "lng": 41.6,
+    "type": "region",
+    "description": "Devs kabilesinin Serât dağlarındaki yurdu (bugünkü Bâha)."
+  },
+  {
+    "id": "sakif_taif",
+    "name": {
+      "ar": "ديار ثقيف",
+      "tr": "Sakîf / Tâif Bölgesi",
+      "en": "Thaqif / Taif Region"
+    },
+    "lat": 21.27,
+    "lng": 40.42,
+    "type": "region",
+    "description": "Sakîf kabilesinin Tâif'teki yurdu.",
+    "museum_item_ids": [
+      "geo_desert_005"
+    ]
+  },
+  {
+    "id": "hamra_asad",
+    "name": {
+      "ar": "حمراء الأسد",
+      "tr": "Hamrâü'l-Esed",
+      "en": "Hamra al-Asad"
+    },
+    "lat": 24.37,
+    "lng": 39.55,
+    "type": "battlefield",
+    "description": "Uhud sonrası Hz. Peygamber'in Kureyş'i takip ettiği mevki.",
+    "museum_item_ids": [
+      "geo_route_003"
+    ]
+  },
+  {
+    "id": "bir_maune",
+    "name": {
+      "ar": "بئر معونة",
+      "tr": "Bi'r-i Maûne",
+      "en": "Bir Mauna"
+    },
+    "lat": 24.8,
+    "lng": 40.2,
+    "type": "event_site",
+    "description": "70 kurrâ sahâbînin şehit edildiği facia. H. 4 / 625."
+  },
+  {
+    "id": "bedir_mevid",
+    "name": {
+      "ar": "بدر الموعد",
+      "tr": "Bedir-i Mev'id",
+      "en": "Badr al-Mawid"
+    },
+    "lat": 23.78,
+    "lng": 38.79,
+    "type": "battlefield",
+    "description": "İkinci Bedir — Ebû Süfyân'ın randevuya gelmediği buluşma.",
+    "museum_item_ids": [
+      "geo_battle_001",
+      "geo_well_004"
+    ]
+  },
+  {
+    "id": "buzaha",
+    "name": {
+      "ar": "بزاخة",
+      "tr": "Büzâha",
+      "en": "Buzakha"
+    },
+    "lat": 25.2,
+    "lng": 42.1,
+    "type": "battlefield",
+    "description": "Ridde Savaşları — Tuleyha b. Huveylid'in yenildiği muharebe."
+  },
+  {
+    "id": "akraba_yemame",
+    "name": {
+      "ar": "عقرباء",
+      "tr": "Akrabâ (Yemâme)",
+      "en": "Aqraba (Yamama)"
+    },
+    "lat": 24.1,
+    "lng": 45.5,
+    "type": "battlefield",
+    "description": "Müseylimetülkezzâb'ın öldürüldüğü büyük Ridde muharebesi."
+  },
+  {
+    "id": "buhara",
+    "name": {
+      "ar": "بخارى",
+      "tr": "Buhârâ",
+      "en": "Bukhara"
+    },
+    "lat": 39.77,
+    "lng": 64.42,
+    "type": "city",
+    "description": "Mâverâünnehir'in en önemli şehirlerinden, İmâm Buhârî'nin memleketi."
+  },
+  {
+    "id": "semerkand",
+    "name": {
+      "ar": "سمرقند",
+      "tr": "Semerkand",
+      "en": "Samarkand"
+    },
+    "lat": 39.65,
+    "lng": 66.96,
+    "type": "city",
+    "description": "Mâverâünnehir'in ikinci büyük şehri, İpek Yolu kavşağı."
+  },
+  {
+    "id": "sind",
+    "name": {
+      "ar": "السند",
+      "tr": "Sind",
+      "en": "Sindh"
+    },
+    "lat": 26.0,
+    "lng": 68.5,
+    "type": "region",
+    "description": "Hint alt-kıtasında ilk İslâm fetihleri bölgesi (Muhammed b. Kâsım, 711)."
+  },
+  {
+    "id": "endulus_cordoba",
+    "name": {
+      "ar": "قرطبة",
+      "tr": "Kurtuba",
+      "en": "Cordoba"
+    },
+    "lat": 37.88,
+    "lng": -4.77,
+    "type": "city",
+    "description": "Endülüs Emevî Devleti'nin başşehri, İslâm medeniyetinin batıdaki merkezi."
+  },
+  {
+    "id": "toledo",
+    "name": {
+      "ar": "طليطلة",
+      "tr": "Tuleytula",
+      "en": "Toledo"
+    },
+    "lat": 39.86,
+    "lng": -4.02,
+    "type": "city",
+    "description": "Vizigot başkenti, 711 fethi sonrası İslâm ilim merkezi."
+  },
+  {
+    "id": "konstantiniyye",
+    "name": {
+      "ar": "القسطنطينية",
+      "tr": "Konstantiniyye",
+      "en": "Constantinople"
+    },
+    "lat": 41.01,
+    "lng": 28.98,
+    "type": "city",
+    "description": "Bizans başkenti, müslümanlar tarafından birkaç kez kuşatılmıştır. Ebû Eyyûb el-Ensârî burada şehit olmuştur."
+  },
+  {
+    "id": "talas",
+    "name": {
+      "ar": "طلاس",
+      "tr": "Talas",
+      "en": "Talas"
+    },
+    "lat": 42.52,
+    "lng": 72.24,
+    "type": "battlefield",
+    "description": "Abbâsîler ile T'ang Çin'i arasındaki muharebe (751). Kâğıt teknolojisinin batıya geçişi."
+  },
+  {
+    "id": "tuster",
+    "name": {
+      "ar": "تستر",
+      "tr": "Tüster (Şuşter)",
+      "en": "Tustar (Shushtar)"
+    },
+    "lat": 32.04,
+    "lng": 48.86,
+    "type": "city",
+    "description": "İran fetihlerinde önemli kale şehri, Hürmüzân'ın yakalandığı yer."
+  },
+  {
+    "id": "ctesiphon_medain",
+    "name": {
+      "ar": "المدائن",
+      "tr": "Medâin (Ktesifon)",
+      "en": "Ctesiphon (al-Madain)"
+    },
+    "lat": 33.09,
+    "lng": 44.58,
+    "type": "city",
+    "description": "Sâsânî İmparatorluğu'nun başkenti. Hz. Ömer döneminde fethedilmiştir (637)."
+  },
+  {
+    "id": "kudus_mescid",
+    "name": {
+      "ar": "بيت المقدس",
+      "tr": "Kudüs (Beytülmakdis)",
+      "en": "Jerusalem (Bayt al-Maqdis)"
+    },
+    "lat": 31.78,
+    "lng": 35.23,
+    "type": "sacred_site",
+    "description": "Mescid-i Aksâ'nın bulunduğu kutsal şehir. Hz. Ömer tarafından sulhen teslim alınmıştır (637)."
+  },
+  {
+    "id": "zeytun_liman",
+    "name": {
+      "ar": "زيتون",
+      "tr": "Zeytûn (Quanzhou)",
+      "en": "Zayton (Quanzhou)"
+    },
+    "lat": 24.87,
+    "lng": 118.68,
+    "type": "city",
+    "description": "Çin'deki en eski müslüman ticaret limanı. Sahâbî kabirleri rivayeti var."
+  },
+  {
+    "id": "sana_himyer",
+    "name": {
+      "ar": "صنعاء",
+      "tr": "San'â",
+      "en": "Sanaa"
+    },
+    "lat": 15.37,
+    "lng": 44.21,
+    "type": "city",
+    "description": "Yemen'in kadim başkenti. Himyerîler, Ebrehe ve İslâm'ın erken yayılışı."
+  },
+  {
+    "id": "isfahan_v2",
+    "name": {
+      "ar": "أصفهان",
+      "tr": "İsfahân",
+      "en": "Isfahan"
+    },
+    "lat": 32.65,
+    "lng": 51.68,
+    "type": "city",
+    "description": "İran'ın merkezi şehri, fetih sonrası önemli ilim ve ticaret merkezi."
+  },
+  {
+    "id": "aksun_habes",
+    "name": {
+      "ar": "أكسوم",
+      "tr": "Aksûm",
+      "en": "Aksum"
+    },
+    "lat": 14.13,
+    "lng": 38.72,
+    "type": "city",
+    "description": "Habeşistan Krallığı'nın başkenti. Necâşî Ashama'nın payitahtı, ilk hicret yurdu."
+  },
+  {
+    "id": "socotra",
+    "name": {
+      "ar": "سقطرى",
+      "tr": "Sokotra",
+      "en": "Socotra"
+    },
+    "lat": 12.47,
+    "lng": 53.87,
+    "type": "island",
+    "description": "Hint Okyanusu'ndaki ada, buhur ticareti ve eski Hristiyan/Arap yerleşimi."
+  },
+  {
+    "id": "mada_in_salih",
+    "name": {
+      "ar": "مدائن صالح",
+      "tr": "Medâin-i Sâlih",
+      "en": "Mada'in Salih"
+    },
+    "lat": 26.78,
+    "lng": 37.95,
+    "type": "sacred_site",
+    "description": "Semûd kavminin helâk olduğu yer. Kur'ân'da zikredilen tarihî mekân."
+  },
+  {
+    "id": "ukaz_panayir",
+    "name": {
+      "ar": "سوق عكاظ",
+      "tr": "Ukâz Panayırı",
+      "en": "Suq Ukaz"
+    },
+    "lat": 21.32,
+    "lng": 40.38,
+    "type": "event_site",
+    "description": "Câhiliye döneminin en ünlü şiir ve ticaret panayırı. Tâif yakınında."
+  },
+  {
+    "id": "zulmecaz_panayir",
+    "name": {
+      "ar": "سوق ذي المجاز",
+      "tr": "Zülmecâz Panayırı",
+      "en": "Suq Dhu al-Majaz"
+    },
+    "lat": 21.38,
+    "lng": 39.92,
+    "type": "event_site",
+    "description": "Hac mevsiminde kurulan panayır. Hz. Peygamber burada davet yapmıştır."
+  },
+  {
+    "id": "mecenne_panayir",
+    "name": {
+      "ar": "سوق مجنة",
+      "tr": "Mecenne Panayırı",
+      "en": "Suq Majanna"
+    },
+    "lat": 21.5,
+    "lng": 40.1,
+    "type": "event_site",
+    "description": "Ukâz ile birlikte Hicaz'ın üç büyük panayırından biri."
+  },
+  {
+    "id": "yesrib_beni_kaynuka",
+    "name": {
+      "ar": "سوق بني قينقاع",
+      "tr": "Benî Kaynukâ Çarşısı",
+      "en": "Banu Qaynuqa Market"
+    },
+    "lat": 24.47,
+    "lng": 39.61,
+    "type": "settlement",
+    "description": "Medine'de Benî Kaynukâ Yahudilerinin çarşı ve kale bölgesi. H.2'de sürgün edildiler."
+  },
+  {
+    "id": "dumetulcendel_merkez",
+    "name": {
+      "ar": "دومة الجندل",
+      "tr": "Dûmetülcendel Merkezi",
+      "en": "Dumat al-Jandal Center"
+    },
+    "lat": 29.81,
+    "lng": 39.87,
+    "type": "city",
+    "description": "Kuzey Arabistan'da önemli ticaret merkezi. Suriye-Irak güzergâhının kilit noktası."
+  },
+  {
+    "id": "vadi_kura",
+    "name": {
+      "ar": "وادي القرى",
+      "tr": "Vâdilkurâ",
+      "en": "Wadi al-Qura"
+    },
+    "lat": 26.54,
+    "lng": 37.36,
+    "type": "valley",
+    "description": "Medine-Şam yolunda verimli vadi. Yahudi yerleşimlerinin yoğun olduğu bölge."
+  },
+  {
+    "id": "eyle",
+    "name": {
+      "ar": "أيلة",
+      "tr": "Eyle (Akabe)",
+      "en": "Ayla (Aqaba)"
+    },
+    "lat": 29.52,
+    "lng": 35.0,
+    "type": "city",
+    "description": "Kızıldeniz'in kuzey ucundaki liman şehri. Tebük seferi sırasında İslâm'a boyun eğdi.",
+    "museum_item_ids": [
+      "geo_port_004"
+    ]
+  },
+  {
+    "id": "mekke_safa_merve",
+    "name": {
+      "ar": "الصفا والمروة",
+      "tr": "Safâ ve Merve",
+      "en": "Safa and Marwa"
+    },
+    "lat": 21.4225,
+    "lng": 39.8262,
+    "type": "sacred_site",
+    "description": "Sa'y ibâdetinin yapıldığı iki tepe. Hz. Hâcer'in su araması."
+  },
+  {
+    "id": "arafat_cebel_rahme",
+    "name": {
+      "ar": "جبل الرحمة",
+      "tr": "Cebel-i Rahme (Arafat)",
+      "en": "Mount of Mercy"
+    },
+    "lat": 21.3547,
+    "lng": 39.9842,
+    "type": "sacred_site",
+    "description": "Arafat'ta Vedâ Hutbesi'nin irad edildiği tepe.",
+    "museum_item_ids": [
+      "geo_cave_004",
+      "geo_sacred_004"
+    ]
+  },
+  {
+    "id": "muzdelife",
+    "name": {
+      "ar": "مزدلفة",
+      "tr": "Müzdelife",
+      "en": "Muzdalifah"
+    },
+    "lat": 21.3833,
+    "lng": 39.9333,
+    "type": "sacred_site",
+    "description": "Arafat-Minâ arasında geceleme yeri. Meş'ar-i Harâm burada.",
+    "museum_item_ids": [
+      "geo_sacred_006"
+    ]
+  },
+  {
+    "id": "sevilla",
+    "name": {
+      "ar": "إشبيلية",
+      "tr": "İşbîliye (Sevilla)",
+      "en": "Seville"
+    },
+    "lat": 37.38,
+    "lng": -5.98,
+    "type": "city",
+    "description": "Endülüs'ün en büyük şehirlerinden. Abbâdîler dönemi merkezi."
+  },
+  {
+    "id": "gırnata",
+    "name": {
+      "ar": "غرناطة",
+      "tr": "Gırnata (Granada)",
+      "en": "Granada"
+    },
+    "lat": 37.18,
+    "lng": -3.6,
+    "type": "city",
+    "description": "Endülüs'ün son İslâm devleti Benî Ahmer'in başkenti. Elhamrâ Sarayı."
+  },
+  {
+    "id": "sarakusta",
+    "name": {
+      "ar": "سرقسطة",
+      "tr": "Sarakusta (Zaragoza)",
+      "en": "Zaragoza"
+    },
+    "lat": 41.65,
+    "lng": -0.88,
+    "type": "city",
+    "description": "Endülüs'ün kuzey sınırındaki önemli İslâm şehri."
+  },
+  {
+    "id": "fergana",
+    "name": {
+      "ar": "فرغانة",
+      "tr": "Fergana",
+      "en": "Fergana"
+    },
+    "lat": 40.38,
+    "lng": 71.79,
+    "type": "city",
+    "description": "Mâverâünnehir'in doğu ucunda verimli vadi şehri."
+  },
+  {
+    "id": "belh",
+    "name": {
+      "ar": "بلخ",
+      "tr": "Belh",
+      "en": "Balkh"
+    },
+    "lat": 36.76,
+    "lng": 66.9,
+    "type": "city",
+    "description": "Horasan'ın büyük ilim merkezi. 'Ümmü'l-Bilâd' (Şehirlerin anası) lakaplı."
+  },
+  {
+    "id": "nişabur",
+    "name": {
+      "ar": "نيسابور",
+      "tr": "Nîşâbûr",
+      "en": "Nishapur"
+    },
+    "lat": 36.21,
+    "lng": 58.8,
+    "type": "city",
+    "description": "Horasan'ın dört büyük şehrinden biri. Hadis ilminin önemli merkezi."
+  },
+  {
+    "id": "herat",
+    "name": {
+      "ar": "هراة",
+      "tr": "Herât",
+      "en": "Herat"
+    },
+    "lat": 34.34,
+    "lng": 62.2,
+    "type": "city",
+    "description": "Horasan'ın batı kapısı. Stratejik ticaret kavşağı."
+  },
+  {
+    "id": "hubasha_panayir",
+    "name": {
+      "ar": "سوق حباشة",
+      "tr": "Hubâşe Panayırı",
+      "en": "Suq Hubasha"
+    },
+    "lat": 20.1,
+    "lng": 41.2,
+    "type": "market",
+    "description": "Tihâme bölgesinde kurulan panayır. Hz. Hatice'nin ticaret kervanları buraya gelirdi."
+  },
+  {
+    "id": "nahle",
+    "name": {
+      "ar": "نخلة",
+      "tr": "Nahle Vadisi",
+      "en": "Valley of Nakhlah"
+    },
+    "lat": 21.55,
+    "lng": 40.05,
+    "type": "valley",
+    "description": "Mekke-Tâif yolunda vadi. İlk seriyye (Batn-ı Nahle) burada gerçekleşti."
+  },
+  {
+    "id": "taif_husun",
+    "name": {
+      "ar": "حصون الطائف",
+      "tr": "Tâif Kaleleri",
+      "en": "Fortresses of Ta'if"
+    },
+    "lat": 21.27,
+    "lng": 40.42,
+    "type": "fortress",
+    "description": "Sakîf kabilesinin savunma kaleleri. Hz. Peygamber'in kuşatması (~20 gün)."
+  },
+  {
+    "id": "mekke_hira_daği",
+    "name": {
+      "ar": "جبل حراء",
+      "tr": "Hirâ Dağı / Nûr Dağı",
+      "en": "Mount Hira / Jabal al-Nour"
+    },
+    "lat": 21.4575,
+    "lng": 39.8583,
+    "type": "sacred_site",
+    "description": "İlk vahyin indiği mağara. Hz. Peygamber'in tefekkür ve inziva yeri."
+  },
+  {
+    "id": "dar_erkam",
+    "name": {
+      "ar": "دار الأرقم",
+      "tr": "Dâru'l-Erkam",
+      "en": "House of al-Arqam"
+    },
+    "lat": 21.4267,
+    "lng": 39.8267,
+    "type": "historic_building",
+    "description": "Safâ tepesi yakınında gizli davet merkezi. İlk müslümanların toplandığı ev.",
+    "museum_item_ids": [
+      "geo_valley_001"
+    ]
+  },
+  {
+    "id": "babil",
+    "name": {
+      "ar": "بابل",
+      "tr": "Bâbil",
+      "en": "Babylon"
+    },
+    "lat": 32.54,
+    "lng": 44.42,
+    "type": "city",
+    "description": "Kadim Mezopotamya şehri. Hârût-Mârût kıssasının geçtiği yer."
+  },
+  {
+    "id": "petra",
+    "name": {
+      "ar": "البتراء",
+      "tr": "Petra",
+      "en": "Petra"
+    },
+    "lat": 30.3285,
+    "lng": 35.4444,
+    "type": "city",
+    "description": "Nabat Krallığı'nın başkenti. Kayalara oyulmuş görkemli yapılar. Semûd ile ilişkilendirilir."
+  },
+  {
+    "id": "tedmur",
+    "name": {
+      "ar": "تدمر",
+      "tr": "Tedmür (Palmira)",
+      "en": "Palmyra"
+    },
+    "lat": 34.5519,
+    "lng": 38.2691,
+    "type": "city",
+    "description": "Suriye'de kadim ticaret şehri. Zenobya kraliçesi. Arap-Roma arası köprü şehir."
+  },
+  {
+    "id": "ctesiphon",
+    "name": {
+      "ar": "المدائن",
+      "tr": "Medâin (Ctesiphon)",
+      "en": "Ctesiphon (Al-Mada'in)"
+    },
+    "lat": 33.09,
+    "lng": 44.58,
+    "type": "city",
+    "description": "Sâsânî İmparatorluğu'nun başkenti. Tâk-ı Kisrâ sarayı. Sa'd b. Ebî Vakkâs tarafından fethedildi (637)."
+  },
+  {
+    "id": "dumetul_cendel",
+    "name": {
+      "ar": "دومة الجندل",
+      "tr": "Dûmetülcendel",
+      "en": "Dumat al-Jandal"
+    },
+    "lat": 29.81,
+    "lng": 39.87,
+    "type": "city",
+    "description": "Suriye sınırında stratejik şehir. Kuzey ticaret yolları kavşağı. Kelb kabilesinin merkezi."
+  },
+  {
+    "id": "dibba",
+    "name": {
+      "ar": "دبا",
+      "tr": "Dibbâ",
+      "en": "Dibba"
+    },
+    "lat": 25.62,
+    "lng": 56.27,
+    "type": "settlement",
+    "description": "Uman kıyısında ridde savaşı yapılan yer."
+  },
+  {
+    "id": "trablusgarp",
+    "name": {
+      "ar": "طرابلس الغرب",
+      "tr": "Trablusgarp",
+      "en": "Tripoli"
+    },
+    "lat": 32.9,
+    "lng": 13.18,
+    "type": "city",
+    "description": "Libya'nın başkenti. Hz. Ömer döneminde fethedildi."
+  },
+  {
+    "id": "ermenistan",
+    "name": {
+      "ar": "أرمينية",
+      "tr": "Ermenistan",
+      "en": "Armenia"
+    },
+    "lat": 40.18,
+    "lng": 44.51,
+    "type": "region",
+    "description": "Hz. Ömer döneminde İslâm fetihleriyle ulaşılan bölge."
+  },
+  {
+    "id": "taberistan",
+    "name": {
+      "ar": "طبرستان",
+      "tr": "Taberistân",
+      "en": "Tabaristan"
+    },
+    "lat": 36.56,
+    "lng": 53.06,
+    "type": "region",
+    "description": "Hazar Denizi kıyısında dağlık bölge. Kısmî fetih."
+  },
+  {
+    "id": "rodos",
+    "name": {
+      "ar": "رودس",
+      "tr": "Rodos",
+      "en": "Rhodes"
+    },
+    "lat": 36.43,
+    "lng": 28.22,
+    "type": "island",
+    "description": "Ege Denizi'nde ada. Muâviye döneminde deniz seferi."
+  },
+  {
+    "id": "sicilya",
+    "name": {
+      "ar": "صقلية",
+      "tr": "Sicilya",
+      "en": "Sicily"
+    },
+    "lat": 37.6,
+    "lng": 14.02,
+    "type": "island",
+    "description": "İlk İslâm akınlarının yapıldığı Akdeniz adası."
+  },
+  {
+    "id": "azerbaycan",
+    "name": {
+      "ar": "أذربيجان",
+      "tr": "Azerbaycan",
+      "en": "Azerbaijan"
+    },
+    "lat": 38.0,
+    "lng": 46.3,
+    "type": "region",
+    "description": "İran'ın kuzeybatısında bölge. Hz. Ömer döneminde sulh ile fethedildi."
+  },
+  {
+    "id": "zat_savari",
+    "name": {
+      "ar": "ذات الصواري",
+      "tr": "Zâtü's-Sevârî",
+      "en": "Battle of the Masts"
+    },
+    "lat": 36.18,
+    "lng": 29.65,
+    "type": "sea",
+    "description": "Likya açıklarında ilk büyük İslâm deniz savaşı."
+  },
+  {
+    "id": "mekke_kabe",
+    "name": {
+      "ar": "الكعبة المشرفة",
+      "tr": "Kâbe-i Muazzama",
+      "en": "The Kaaba"
+    },
+    "lat": 21.4225,
+    "lng": 39.8262,
+    "type": "sacred_site",
+    "description": {
+      "tr": "Mekke'deki Mescid-i Harâm'ın merkezinde yer alan kutsal yapı.",
+      "ar": "البيت الحرام في وسط المسجد الحرام بمكة المكرمة",
+      "en": "The sacred structure at the center of Masjid al-Haram in Mecca."
+    }
+  },
+  {
+    "id": "busra",
+    "name": {
+      "ar": "بصرى الشام",
+      "tr": "Busrâ (Havran)",
+      "en": "Bosra"
+    },
+    "lat": 32.5178,
+    "lng": 36.4814,
+    "type": "city",
+    "description": {
+      "tr": "Şam bölgesinde tarihi şehir. Hz. Muhammed'in gençliğinde Rahip Bahîrâ ile karşılaştığı yer.",
+      "ar": "مدينة تاريخية في حوران. مكان لقاء النبي محمد بالراهب بحيرى",
+      "en": "Historic city in Hauran. Where young Muhammad met the monk Bahira."
+    }
+  },
+  {
+    "id": "iran",
+    "name": {
+      "ar": "إيران",
+      "tr": "İran (genel)",
+      "en": "Iran (general)"
+    },
+    "lat": 32.4279,
+    "lng": 53.688,
+    "type": "region",
+    "description": {
+      "tr": "Sâsânî İmparatorluğu coğrafyası.",
+      "ar": "جغرافية الإمبراطورية الساسانية",
+      "en": "Geography of the Sasanian Empire."
+    }
+  },
+  {
+    "id": "yenbu",
+    "name": {
+      "ar": "ينبع",
+      "tr": "Yenbû'",
+      "en": "Yanbu"
+    },
+    "lat": 24.0895,
+    "lng": 38.0618,
+    "type": "city",
+    "description": {
+      "tr": "Kızıldeniz kıyısında liman şehri.",
+      "ar": "مدينة ميناء على ساحل البحر الأحمر",
+      "en": "Port city on the Red Sea coast."
+    }
+  },
+  {
+    "id": "geo_cave_005",
+    "name": "Tûr-i Sînâ (Sînâ Dağı)",
+    "name_i18n": {
+      "tr": "Tûr-i Sînâ (Sînâ Dağı)",
+      "en": "Mount Sinai (Tur Sina)",
+      "ar": "جبل الطور (طور سيناء)"
+    },
+    "lat": 28.5394,
+    "lng": 33.9753,
+    "type": "caves_mountains",
+    "description": "Sînâ Yarımadası'nda 2.285 m yüksekliğinde granit dağ. Hz. Mûsâ'nın ilâhî hitaba mazhar olduğu ve Levhaları aldığı yer. Kur'ân'da müstakil sûre ismi (et-Tûr, 52. sûre) ve çok sayıda âyette zikredilir.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_cave_005"
+    ]
+  },
+  {
+    "id": "geo_well_002",
+    "name": "Bi'r-i Maûne",
+    "name_i18n": {
+      "tr": "Bi'r-i Maûne",
+      "en": "Well of Ma'una (Bi'r Ma'una)",
+      "ar": "بئر معونة"
+    },
+    "lat": 25.1,
+    "lng": 39.8,
+    "type": "wells_springs",
+    "description": "Medîne'nin kuzeydoğusunda, Necid yolu üzerinde bir kuyu ve mevki. Hz. Peygamber'in davet amacıyla gönderdiği 70 kurrâ sahâbî, Âmir b. Tufeyl'in ihaneti sonucu Ri'l, Zekvân ve Usayye kabilelerince pusuya düşürülerek şehit edilmiştir.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_well_002"
+    ]
+  },
+  {
+    "id": "geo_valley_004",
+    "name": "Vedân Vadisi (Ebvâ)",
+    "name_i18n": {
+      "tr": "Vedân Vadisi (Ebvâ)",
+      "en": "Wadi Waddan (Abwa)",
+      "ar": "وادي وَدّان (الأبواء)"
+    },
+    "lat": 23.47,
+    "lng": 38.88,
+    "type": "valleys_plains",
+    "description": "Mekke-Medîne yolunda, Cuhfe yakınında bir vadi ve yerleşim. Hz. Peygamber'in bizzat katıldığı ilk gazve burada gerçekleşmiştir. Ayrıca Hz. Peygamber'in annesi Âmine bint Vehb'in kabri de bu civardadır.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_valley_004"
+    ]
+  },
+  {
+    "id": "geo_valley_006",
+    "name": "Huneyn Vadisi",
+    "name_i18n": {
+      "tr": "Huneyn Vadisi",
+      "en": "Valley of Hunayn",
+      "ar": "وادي حُنَين"
+    },
+    "lat": 21.47,
+    "lng": 40.06,
+    "type": "valleys_plains",
+    "description": "Mekke ile Tâif arasında dar bir geçit vadisi. Fethu Mekke'den kısa süre sonra 12.000 kişilik İslâm ordusu burada Hevâzin-Sakîf ittifakıyla karşılaşmıştır. Sayısal üstünlüğe rağmen başlangıçta bozguna uğranmış, ardından Hz. Peygamber'in sebatıyla zafer kazanılmıştır.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_valley_006"
+    ]
+  },
+  {
+    "id": "geo_battle_006",
+    "name": "Yermük Savaş Alanı",
+    "name_i18n": {
+      "tr": "Yermük Savaş Alanı",
+      "en": "Battlefield of Yarmouk",
+      "ar": "ميدان معركة اليرموك"
+    },
+    "lat": 32.75,
+    "lng": 35.98,
+    "type": "battlefields",
+    "description": "Suriye-Ürdün sınırında Yermük Nehri vadisi. Hâlid b. Velîd komutasındaki yaklaşık 25.000-40.000 kişilik İslâm ordusu, 100.000'i aşan Bizans ordusunu ağır yenilgiye uğratmıştır. Bu zafer Suriye, Filistin ve Mısır'ın fethinin yolunu açmıştır.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_battle_006"
+    ]
+  },
+  {
+    "id": "geo_route_001",
+    "name": "Hicret Yolu (Mekke → Medîne)",
+    "name_i18n": {
+      "tr": "Hicret Yolu (Mekke → Medîne)",
+      "en": "Hijra Route (Mecca → Medina)",
+      "ar": "طريق الهجرة (مكة → المدينة)"
+    },
+    "lat": 22.9,
+    "lng": 39.15,
+    "type": "routes_roads",
+    "description": "Yaklaşık 450 km'lik güzergâh, normal kervan yolundan farklı olarak güneye sapıp Sevr Mağarası'na, ardından sahil yolundan kuzeye devam etmiştir. Kılavuz Abdullah b. Uraykıt'tır. Sürâka b. Mâlik'in takip girişimi, Ümmü Ma'bed çadırı ve Kubâ'ya varış bu yolun önemli durakları arasındadır.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_route_001"
+    ]
+  },
+  {
+    "id": "geo_desert_002",
+    "name": "Rubʿu'l-Hâlî (Büyük Kum Çölü)",
+    "name_i18n": {
+      "tr": "Rubʿu'l-Hâlî (Büyük Kum Çölü)",
+      "en": "Rub' al-Khali (Empty Quarter)",
+      "ar": "الربع الخالي"
+    },
+    "lat": 20.0,
+    "lng": 50.0,
+    "type": "deserts_landmarks",
+    "description": "650.000 km²'lik alan, Arabistan Yarımadası'nın güneydoğu çeyreğini kaplar. Câhiliye döneminde Yemen-Hicaz arası kara bağlantısını fiilen imkânsız kılarak deniz ve kıyı yollarını zorunlu hale getirmiştir. Tütsü/baharat ticaretinin güzergâhını belirleyen temel coğrafî faktördür.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_desert_002"
+    ]
+  },
+  {
+    "id": "geo_desert_004",
+    "name": "Nefûd Çölü",
+    "name_i18n": {
+      "tr": "Nefûd Çölü",
+      "en": "Nafud Desert (An-Nafud)",
+      "ar": "صحراء النفود"
+    },
+    "lat": 28.5,
+    "lng": 41.0,
+    "type": "deserts_landmarks",
+    "description": "Yaklaşık 65.000 km²'lik kırmızı kumlu çöl. Kuzey Arabistan'ın en büyük kum çölü olup Şam-Irak ticaret yollarının güzergâhını belirlemiştir. Tay ve Şemmer kabileleri bu çölün kenarlarında göçebelik yapardı.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_desert_004"
+    ]
+  },
+  {
+    "id": "geo_port_001",
+    "name": "Şu'aybe Limanı",
+    "name_i18n": {
+      "tr": "Şu'aybe Limanı",
+      "en": "Port of Shu'ayba",
+      "ar": "ميناء الشُّعَيبة"
+    },
+    "lat": 21.35,
+    "lng": 39.45,
+    "type": "ports_coasts",
+    "description": "Mekke'nin güneybatısında, Cüdde'den önce kullanılan ana liman. Hindistan, Yemen ve Habeşistan'dan gelen mallar buradan Mekke'ye ulaştırılırdı. Habeşistan'a hicret eden Müslümanlar bu limandan denize açılmıştır. Cüdde'nin gelişmesiyle önemini kaybetmiştir.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_port_001"
+    ]
+  },
+  {
+    "id": "geo_port_002",
+    "name": "Cüdde (Cidde) Limanı",
+    "name_i18n": {
+      "tr": "Cüdde (Cidde) Limanı",
+      "en": "Port of Jeddah",
+      "ar": "ميناء جُدّة"
+    },
+    "lat": 21.4858,
+    "lng": 39.1925,
+    "type": "ports_coasts",
+    "description": "Kızıldeniz'in doğu kıyısında, Mekke'ye en yakın büyük liman. Hz. Osman tarafından Şu'aybe yerine tercih edilmiştir. Hac mevsiminde deniz yoluyla gelen hacıların karaya çıkış noktası olarak asırlarca hizmet vermiştir. Adının Hz. Havvâ'nın (Cüdde=nine) türbesinden geldiği rivayet edilir.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_port_002"
+    ]
+  },
+  {
+    "id": "geo_port_003",
+    "name": "Aden Limanı",
+    "name_i18n": {
+      "tr": "Aden Limanı",
+      "en": "Port of Aden",
+      "ar": "ميناء عدن"
+    },
+    "lat": 12.7855,
+    "lng": 45.0187,
+    "type": "ports_coasts",
+    "description": "Yemen'in güneyinde, Bâbülmendeb Boğazı'na yakın doğal liman. Hindistan, Doğu Afrika ve Akdeniz dünyası arasındaki ticaretin kavşak noktası. Baharat, tütsü, ipek ve değerli taşların aktarma merkezi olarak binlerce yıllık geçmişe sahiptir.",
+    "source": "museum_geography",
+    "museum_item_ids": [
+      "geo_port_003"
+    ]
+  }
+]

@@ -1,0 +1,1126 @@
+{
+  "version": "0.18.0",
+  "description": "Hz. Peygamber'in hayatındaki dönüm noktaları — kronolojik sıralı",
+  "total_entries": 30,
+  "entries": [
+    {
+      "id": "evt_dogum",
+      "event": {
+        "tr": "Doğum",
+        "en": "Birth"
+      },
+      "date_ce": 570,
+      "date_hijri": "",
+      "age": 0,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Fil Yılı'nda (bazı rivâyetlere göre 571), Rebîülevvel ayında, Pazartesi günü Mekke'de doğdu.",
+        "en": "Born in Year of Elephant (some say 571), Monday in Rabi al-Awwal."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Dünyaya gelişi ile Fil Vak'ası arasındaki ilâhî hikmet",
+        "en": "Divine wisdom connecting his birth to the Elephant incident"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/158-171",
+          "note_tr": "Hz. Peygamber'in doğumu ve Fil Yılı"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/100-103"
+        },
+        {
+          "source": "Buhârî",
+          "ref": "Menâkıb, 24 (Hadis No: 3619)"
+        }
+      ]
+    },
+    {
+      "id": "evt_sut_anne",
+      "event": {
+        "tr": "Halîme'ye Verilmesi",
+        "en": "Given to Halimah"
+      },
+      "date_ce": 570,
+      "date_hijri": "",
+      "age": 0,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Benî Sa'd kabilesinden Halîme es-Sa'diyye'ye süt anneliğe verildi. Çölde 4-5 yıl kaldı.",
+        "en": "Given to wet nurse Halimah from Banu Sa'd. Spent 4-5 years in desert."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Fasih Arapça öğrenme, çöl hayatı tecrübesi",
+        "en": "Learning eloquent Arabic, desert life experience"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/173-178",
+          "note_tr": "Halîme es-Sa'diyye'ye verilmesi ve süt anneliği"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/110-113"
+        },
+        {
+          "source": "Müslim",
+          "ref": "Fedâil, 2 (Hadis No: 2276)"
+        }
+      ]
+    },
+    {
+      "id": "evt_sakkı_sadr",
+      "event": {
+        "tr": "Göğsünün Yarılması (Şakkı Sadr)",
+        "en": "Opening of the Chest (Shaq al-Sadr)"
+      },
+      "date_ce": 574,
+      "date_hijri": "",
+      "age": 4,
+      "location_id": "",
+      "description": {
+        "tr": "Melekler gelip göğsünü yardı, kalbini zemzem ile yıkadı ve yerine koydu.",
+        "en": "Angels came, opened his chest, washed heart with Zamzam, and returned it."
+      },
+      "quran_refs": [
+        {
+          "surah": 94,
+          "ayah": 1,
+          "text_tr": "Senin göğsünü açmadık mı?"
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Peygamberliğe hazırlık, kalpten şer unsurlarının temizlenmesi",
+        "en": "Preparation for prophethood, purification of heart"
+      },
+      "source_refs": [
+        {
+          "source": "Müslim",
+          "ref": "Îmân, 261 (Hadis No: 162)",
+          "note_tr": "Göğsün yarılması (şakk-ı sadr) hadisi"
+        },
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/174-175"
+        },
+        {
+          "source": "Ahmed b. Hanbel",
+          "ref": "Müsned, III/149"
+        }
+      ]
+    },
+    {
+      "id": "evt_anne_vefat",
+      "event": {
+        "tr": "Annesinin Vefatı",
+        "en": "Mother's Death"
+      },
+      "date_ce": 576,
+      "date_hijri": "",
+      "age": 6,
+      "location_id": "ebva",
+      "description": {
+        "tr": "Annesi Âmine bt. Vehb, Medine ziyaretinden dönüşte Ebvâ'da vefat etti. Yetimlik başladı.",
+        "en": "Mother Aminah died at Abwa during return from Medina visit. Orphanhood began."
+      },
+      "quran_refs": [
+        {
+          "surah": 93,
+          "ayah": 6,
+          "text_tr": "Seni yetim bulup barındırmadı mı?"
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Yetimliğin ilâhî hikmeti — yetimlere duyarlılık",
+        "en": "Divine wisdom of orphanhood — sensitivity to orphans"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/177",
+          "note_tr": "Âmine bint Vehb'in Ebvâ'da vefatı"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/116-117"
+        }
+      ]
+    },
+    {
+      "id": "evt_dede_vefat",
+      "event": {
+        "tr": "Dedesinin Vefatı",
+        "en": "Grandfather's Death"
+      },
+      "date_ce": 578,
+      "date_hijri": "",
+      "age": 8,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Dedesi Abdülmuttalib vefat etti. Amcası Ebû Tâlib'in himâyesine geçti.",
+        "en": "Grandfather Abd al-Muttalib died. Placed under uncle Abu Talib's care."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Himâyecinin değişmesi, Ebû Tâlib döneminin başlangıcı",
+        "en": "Change of guardian, beginning of Abu Talib era"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/179",
+          "note_tr": "Abdülmuttalib'in vefatı ve Hz. Peygamber'in Ebû Tâlib'e geçmesi"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/118-119"
+        }
+      ]
+    },
+    {
+      "id": "evt_bahira",
+      "event": {
+        "tr": "Râhip Bahîrâ ile Karşılaşma",
+        "en": "Meeting Monk Bahira"
+      },
+      "date_ce": 583,
+      "date_hijri": "",
+      "age": 12,
+      "location_id": "busra",
+      "description": {
+        "tr": "Amcasıyla Şam ticaret yolculuğunda Busrâ'da Hristiyan râhip Bahîrâ, onda peygamberlik alâmetlerini gördü.",
+        "en": "During trade journey to Syria, Christian monk Bahira recognized signs of prophethood."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Ehl-i kitabın beklediği peygamberin ilk tespiti",
+        "en": "First recognition by People of the Book"
+      },
+      "source_refs": [
+        {
+          "source": "Tirmizî",
+          "book": "Menâkıb",
+          "number": "3620"
+        }
+      ]
+    },
+    {
+      "id": "evt_hilful_fudul",
+      "event": {
+        "tr": "Hılfü'l-Fudûl (Erdemliler Antlaşması)",
+        "en": "Alliance of the Virtuous (Hilf al-Fudul)"
+      },
+      "date_ce": 590,
+      "date_hijri": "",
+      "age": 20,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Mazlumlara yardım, adaletsizliğe karşı durma antlaşmasına katıldı. Peygamberlikten sonra da bunu övdü.",
+        "en": "Joined pact to help oppressed and stand against injustice. Praised it even after prophethood."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Câhiliye döneminde bile adalet arayışı",
+        "en": "Pursuit of justice even in pre-Islamic era"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "186-187"
+        }
+      ]
+    },
+    {
+      "id": "evt_evlilik_hatice",
+      "event": {
+        "tr": "Hz. Hatîce ile Evlilik",
+        "en": "Marriage to Khadija"
+      },
+      "date_ce": 595,
+      "date_hijri": "",
+      "age": 25,
+      "location_id": "mekke",
+      "description": {
+        "tr": "40 yaşındaki Hz. Hatîce ile evlendi. 25 yıl mutlu bir evlilik sürdü.",
+        "en": "Married 40-year-old Khadija. Happy marriage lasting 25 years."
+      },
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_hatice_selam"
+      ],
+      "significance": {
+        "tr": "Hayatının en büyük destekçisi, ilk iman eden",
+        "en": "Greatest supporter of his life, first believer"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "187-190"
+        }
+      ]
+    },
+    {
+      "id": "evt_kabe_hakemlik",
+      "event": {
+        "tr": "Ka'be Hakemliği (Hacer-i Esved)",
+        "en": "Ka'ba Arbitration (Black Stone)"
+      },
+      "date_ce": 605,
+      "date_hijri": "",
+      "age": 35,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Ka'be tamirinde Hacer-i Esved'i yerine koyma anlaşmazlığını çözümledi. Taşı bir kumaşa koyup tüm kabilelerin tutmasını sağladı.",
+        "en": "Resolved dispute over placing Black Stone. Put it on cloth for all tribes to carry together."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "el-Emîn unvanının kanıtı, diplomatik deha",
+        "en": "Proof of al-Amin title, diplomatic genius"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, I/192-197",
+          "note_tr": "Hacer-i Esved hakemlik olayı, Ka'be tamiri sırasında"
+        },
+        {
+          "source": "Ahmed b. Hanbel",
+          "ref": "Müsned, III/425"
+        },
+        {
+          "source": "Beyhakî",
+          "ref": "Delâilü'n-Nübüvve, II/66-69"
+        }
+      ]
+    },
+    {
+      "id": "evt_ilk_vahiy",
+      "event": {
+        "tr": "İlk Vahiy (Hirâ Mağarası)",
+        "en": "First Revelation (Cave Hira)"
+      },
+      "date_ce": 610,
+      "date_hijri": "",
+      "age": 40,
+      "location_id": "hira_magarasi",
+      "description": {
+        "tr": "Ramazan'ın 17'sinde Pazartesi gecesi Cebrâîl (a.s.) geldi: 'İkra!' (Oku!). Alak sûresinin ilk 5 âyeti nâzil oldu.",
+        "en": "Monday night, 17th Ramadan: Gabriel came with 'Read!' First 5 verses of al-Alaq revealed."
+      },
+      "quran_refs": [
+        {
+          "surah": 96,
+          "ayah": 1,
+          "text_tr": "Oku! Yaratan Rabbinin adıyla oku."
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İnsanlık tarihinin dönüm noktası — vahyin başlangıcı",
+        "en": "Turning point of human history — beginning of revelation"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Bed'ül-Vahy",
+          "number": "1",
+          "narrator": "Âişe (r.a.)"
+        }
+      ]
+    },
+    {
+      "id": "evt_gizli_davet",
+      "event": {
+        "tr": "Gizli Davet Dönemi",
+        "en": "Secret Da'wah Period"
+      },
+      "date_ce": 610,
+      "date_hijri": "",
+      "age": 40,
+      "location_id": "mekke",
+      "description": {
+        "tr": "İlk 3 yıl gizli davet yapıldı. Dârü'l-Erkam'da toplantılar. İlk Müslümanlar: Hatîce, Ali, Ebû Bekir, Zeyd b. Hârise.",
+        "en": "First 3 years of secret invitation. Meetings at Dar al-Arqam."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Tedrîcî tebliğ metodu",
+        "en": "Gradual method of preaching"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "262"
+        }
+      ]
+    },
+    {
+      "id": "evt_acik_davet",
+      "event": {
+        "tr": "Açık Davet (Safâ Tepesi)",
+        "en": "Public Da'wah (Mount Safa)"
+      },
+      "date_ce": 613,
+      "date_hijri": "",
+      "age": 43,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Safâ tepesinden tüm Kureyş kabilelerini çağırarak açık davet yaptı. Ebû Leheb karşı çıktı.",
+        "en": "Called all Quraysh from Mount Safa. Abu Lahab opposed."
+      },
+      "quran_refs": [
+        {
+          "surah": 26,
+          "ayah": 214,
+          "text_tr": "En yakın akrabalarını uyar."
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İslâm'ın açık davet safhasının başlangıcı",
+        "en": "Beginning of public phase of Islamic da'wah"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Tefsîr",
+          "number": "Şuarâ 214"
+        },
+        {
+          "source": "Müslim",
+          "book": "Îmân",
+          "number": "355"
+        }
+      ]
+    },
+    {
+      "id": "evt_habesistan_hicreti",
+      "event": {
+        "tr": "Habeşistan Hicreti",
+        "en": "Emigration to Abyssinia"
+      },
+      "date_ce": 615,
+      "date_hijri": "",
+      "age": 45,
+      "location_id": "",
+      "description": {
+        "tr": "İşkence altındaki sahâbîler Hristiyan Necâşî'nin ülkesine sığındı. İlk kafile 15, ikinci kafile 80+ kişi.",
+        "en": "Persecuted companions sought refuge in Christian Negus's land. First group 15, second 80+."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İslâm'ın ilk uluslararası ilişkisi, din-dışı koruma arayışı",
+        "en": "Islam's first international relations, seeking secular protection"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "321-338"
+        }
+      ],
+      "museum_item_ids": [
+        "geo_route_004"
+      ]
+    },
+    {
+      "id": "evt_boykot",
+      "event": {
+        "tr": "Şi'b-i Ebî Tâlib Boykotu",
+        "en": "Boycott of Shi'b Abi Talib"
+      },
+      "date_ce": 616,
+      "date_hijri": "",
+      "age": 46,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Kureyş, Benî Hâşim'i 3 yıl boykot etti. Alışveriş, evlilik, konuşma yasağı. Ağaç kabuğu yediler.",
+        "en": "Quraysh boycotted Banu Hashim for 3 years. Trade, marriage, communication banned."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İmtihânın zirvesi — iman sabır ilişkisi",
+        "en": "Peak of trial — relationship between faith and patience"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "375"
+        }
+      ],
+      "museum_item_ids": [
+        "arch_ebu_talib_sib",
+        "geo_valley_001"
+      ]
+    },
+    {
+      "id": "evt_huzun_yili",
+      "event": {
+        "tr": "Hüzün Yılı (Âmü'l-Hüzn)",
+        "en": "Year of Sorrow"
+      },
+      "date_ce": 619,
+      "date_hijri": "",
+      "age": 49,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Hz. Hatîce ve Ebû Tâlib aynı yıl vefat etti. Maddî ve mânevî en büyük desteklerini kaybetti.",
+        "en": "Khadija and Abu Talib died same year. Lost greatest material and spiritual supporters."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "En zor dönemin başlangıcı — Tâif yolculuğu bu dönemde",
+        "en": "Beginning of hardest period — Ta'if journey follows"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "I",
+          "page": "395"
+        }
+      ]
+    },
+    {
+      "id": "evt_isra_mirac",
+      "event": {
+        "tr": "İsrâ ve Mi'râc",
+        "en": "Night Journey and Ascension"
+      },
+      "date_ce": 621,
+      "date_hijri": "",
+      "age": 51,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Mescid-i Harâm'dan Mescid-i Aksâ'ya gece yolculuğu (İsrâ) ve göklere yükselme (Mi'râc). Beş vakit namaz burada farz kılındı.",
+        "en": "Night journey from Masjid al-Haram to al-Aqsa (Isra) and ascension to heavens (Mi'raj). Five daily prayers prescribed."
+      },
+      "quran_refs": [
+        {
+          "surah": 17,
+          "ayah": 1,
+          "text_tr": "Bir gece, kulunu Mescid-i Harâm'dan Mescid-i Aksâ'ya yürüten (Allah'ın) şânı yücedir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_isra_miracb_sut"
+      ],
+      "significance": {
+        "tr": "Hüzün yılı tesellîsi, beş vakit namazın farz kılınması",
+        "en": "Consolation after Year of Sorrow, prescription of five daily prayers"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Salât",
+          "number": "1"
+        },
+        {
+          "source": "Müslim",
+          "book": "Îmân",
+          "number": "259"
+        }
+      ]
+    },
+    {
+      "id": "evt_akabe_biatlari",
+      "event": {
+        "tr": "Akabe Biatları",
+        "en": "Pledges of Aqaba"
+      },
+      "date_ce": 621,
+      "date_hijri": "",
+      "age": 51,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Birinci (621, 12 kişi) ve ikinci (622, 75 kişi) Akabe biatları. Medine'ye hicretin temeli atıldı.",
+        "en": "First (621, 12 people) and Second (622, 75 people) Pledges of Aqaba."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Medîne'ye hicretin altyapısı, ilk siyâsî antlaşma",
+        "en": "Foundation for Hijra, first political agreement"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, II/41-58",
+          "note_tr": "Birinci (12 kişi) ve İkinci (73 erkek, 2 kadın) Akabe Biatları"
+        },
+        {
+          "source": "Buhârî",
+          "ref": "Menâkıbu'l-Ensâr, 43 (Hadis No: 3892)"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/219-224"
+        }
+      ],
+      "museum_item_ids": [
+        "geo_sacred_005"
+      ]
+    },
+    {
+      "id": "evt_hicret",
+      "event": {
+        "tr": "Hicret (Mekke → Medîne)",
+        "en": "Hijra (Mecca → Medina)"
+      },
+      "date_ce": 622,
+      "date_hijri": 1,
+      "age": 52,
+      "location_id": "medine",
+      "description": {
+        "tr": "12 Rebîülevvel (24 Eylül 622). Ebû Bekir ile birlikte Sevr mağarasına sığınıp ardından Medine'ye ulaştı.",
+        "en": "12 Rabi al-Awwal (24 Sept 622). Took refuge in Thawr cave with Abu Bakr, then reached Medina."
+      },
+      "quran_refs": [
+        {
+          "surah": 9,
+          "ayah": 40,
+          "text_tr": "İkinin ikincisi"
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İslâm takviminin başlangıcı, İslâm devletinin kuruluşu",
+        "en": "Beginning of Islamic calendar, establishment of Islamic state"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Menâkıbu'l-Ensâr",
+          "number": "45",
+          "narrator": "Âişe (r.a.)"
+        }
+      ],
+      "museum_item_ids": [
+        "arch_suffah"
+      ]
+    },
+    {
+      "id": "evt_muahat",
+      "event": {
+        "tr": "Muâhât (Muhâcir-Ensâr Kardeşliği)",
+        "en": "Brotherhood Pact (Muhajirun-Ansar)"
+      },
+      "date_ce": 622,
+      "date_hijri": 1,
+      "age": 52,
+      "location_id": "medine",
+      "description": {
+        "tr": "Mekke'den göçen Muhâcirlerle Medine'nin Ensârını kardeş ilan etti. Miras bile paylaşıldı.",
+        "en": "Declared brotherhood between Meccan emigrants and Medinan helpers. Even inheritance was shared."
+      },
+      "quran_refs": [
+        {
+          "surah": 59,
+          "ayah": 9,
+          "text_tr": "Onlardan önce o yurda (Medine'ye) yerleşip imana sarılanlar, hicret edenleri severler."
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "İslâm kardeşliğinin kurumsal modeli",
+        "en": "Institutional model of Islamic brotherhood"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Menâkıbu'l-Ensâr",
+          "number": "3937"
+        }
+      ]
+    },
+    {
+      "id": "evt_medine_vesikasi",
+      "event": {
+        "tr": "Medîne Vesîkası (Anayasası)",
+        "en": "Constitution of Medina"
+      },
+      "date_ce": 622,
+      "date_hijri": 1,
+      "age": 52,
+      "location_id": "medine",
+      "description": {
+        "tr": "Müslümanlar, Yahudiler ve diğer gruplar arasında tarihte bilinen ilk yazılı anayasa niteliğinde sözleşme.",
+        "en": "Written agreement between Muslims, Jews, and others — considered first written constitution in history."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Çoğulcu toplum modeli, vatandaşlık hakları",
+        "en": "Pluralistic society model, citizenship rights"
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "book": "es-Sîre",
+          "volume": "II",
+          "page": "501"
+        }
+      ]
+    },
+    {
+      "id": "evt_veda_hutbesi",
+      "event": {
+        "tr": "Vedâ Hutbesi",
+        "en": "Farewell Sermon"
+      },
+      "date_ce": 632,
+      "date_hijri": 10,
+      "age": 63,
+      "location_id": "arafat",
+      "description": {
+        "tr": "9 Zilhicce 10H'de Arafat'ta 100.000+ sahâbîye hitâben okunan, insan haklarının evrensel beyannamesi niteliğindeki hutbe.",
+        "en": "Sermon at Arafat on 9 Dhul Hijjah 10H to 100,000+ companions — universal declaration of human rights."
+      },
+      "quran_refs": [
+        {
+          "surah": 5,
+          "ayah": 3,
+          "text_tr": "Bugün dininizi tamamladım..."
+        }
+      ],
+      "hadith_refs": [
+        "hds_veda_hutbesi_hadis",
+        "hds_kadin_haklari_veda"
+      ],
+      "significance": {
+        "tr": "İslâm'ın temel ilkelerinin son özeti, vefatından ~80 gün önce",
+        "en": "Final summary of Islamic principles, ~80 days before passing"
+      },
+      "source_refs": [
+        {
+          "source": "Müslim",
+          "book": "Hac",
+          "number": "147",
+          "narrator": "Câbir (r.a.)"
+        }
+      ]
+    },
+    {
+      "id": "evt_vefat",
+      "event": {
+        "tr": "Vefat",
+        "en": "Passing"
+      },
+      "date_ce": 632,
+      "date_hijri": 11,
+      "age": 63,
+      "location_id": "medine",
+      "description": {
+        "tr": "12 Rebîülevvel 11H (8 Haziran 632), Pazartesi günü, Hz. Âişe'nin odasında, 'er-Refîku'l-A'lâ' (en yüce dost) diyerek vefat etti.",
+        "en": "12 Rabi al-Awwal 11H (8 June 632), Monday, in Aisha's room, saying 'The Highest Companion.'"
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 144,
+          "text_tr": "Muhammed ancak bir resûldür. Ondan önce de peygamberler gelip geçmiştir."
+        }
+      ],
+      "hadith_refs": [],
+      "significance": {
+        "tr": "Nübüvvet döneminin kapanışı, Râşid Hilâfet'in başlangıcı",
+        "en": "End of prophethood era, beginning of Rashidun Caliphate"
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "book": "Megâzî",
+          "number": "83",
+          "narrator": "Âişe (r.a.)"
+        }
+      ]
+    },
+    {
+      "id": "evt_ilk_cuma",
+      "event": {
+        "tr": "İlk Cumâ Namazı",
+        "en": "First Friday Prayer"
+      },
+      "date_ce": 622,
+      "date_hijri": "1",
+      "age": 52,
+      "location_id": "medine",
+      "description": {
+        "tr": "Hicret yolunda Kubâ'dan Medîne'ye giderken Benî Sâlim yurdunda ilk cumâ namazını kıldırdı.",
+        "en": "Led first Friday prayer at Banu Salim's territory on route from Quba to Medina."
+      },
+      "quran_refs": [
+        {
+          "surah": 62,
+          "ayah": 9
+        }
+      ],
+      "hadith_refs": [],
+      "links": {
+        "persons": [],
+        "locations": [
+          "medine"
+        ],
+        "battles": []
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, II/113-114",
+          "note_tr": "Kubâ'dan Medine'ye gelirken Rânûnâ vadisinde ilk cuma namazı"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/233-234"
+        },
+        {
+          "source": "Beyhakî",
+          "ref": "Delâilü'n-Nübüvve, II/517"
+        }
+      ]
+    },
+    {
+      "id": "evt_kible_degisimi",
+      "event": {
+        "tr": "Kıble Değişimi",
+        "en": "Change of Qibla"
+      },
+      "date_ce": 624,
+      "date_hijri": "2 (Receb)",
+      "age": 54,
+      "location_id": "medine",
+      "description": {
+        "tr": "16-17 ay Kudüs'e doğru namaz kıldıktan sonra Mescid-i Harâm'a döndürüldü. Mescid-i Kıbleteyn'de gerçekleşti.",
+        "en": "After 16-17 months facing Jerusalem, qibla changed to Ka'ba. Occurred at Masjid al-Qiblatayn."
+      },
+      "quran_refs": [
+        {
+          "surah": 2,
+          "ayah": 144
+        }
+      ],
+      "hadith_refs": [],
+      "links": {
+        "persons": [],
+        "locations": [
+          "medine",
+          "mekke"
+        ],
+        "battles": []
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "ref": "Salât, 31 (Hadis No: 403)",
+          "note_tr": "Kıblenin Kudüs'ten Mekke'ye çevrilmesi (Şa'bân 2 H)"
+        },
+        {
+          "source": "Müslim",
+          "ref": "Mesâcid, 11 (Hadis No: 525)"
+        },
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, II/170-171"
+        }
+      ]
+    },
+    {
+      "id": "evt_bedir_karari",
+      "event": {
+        "tr": "Bedir Kararı",
+        "en": "Decision for Badr"
+      },
+      "date_ce": 624,
+      "date_hijri": "2 (Ramazan)",
+      "age": 54,
+      "location_id": "bedir",
+      "description": {
+        "tr": "Kervanı takip mi, orduyu karşılama mı? İstişâreyle savaş kararı. Hubâb b. Münzir'in su kaynağı önerisi kabul edildi.",
+        "en": "Consultation: pursue caravan or face army? Battle decision. Hubab ibn Mundhir's water source suggestion accepted."
+      },
+      "quran_refs": [
+        {
+          "surah": 8,
+          "ayah": 5
+        }
+      ],
+      "hadith_refs": [
+        "hds_bedir_dua"
+      ],
+      "links": {
+        "persons": [],
+        "locations": [
+          "bedir"
+        ],
+        "battles": [
+          "bedir"
+        ]
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, II/220-234",
+          "note_tr": "Bedir savaş kararı, istişare ve Hubâb b. Münzir'in önerisi"
+        },
+        {
+          "source": "Müslim",
+          "ref": "Cihâd, 83 (Hadis No: 1779)"
+        },
+        {
+          "source": "Vâkıdî",
+          "ref": "Kitâbü'l-Megâzî, I/48-53"
+        }
+      ]
+    },
+    {
+      "id": "evt_uhud_sonrasi",
+      "event": {
+        "tr": "Uhud Sonrası Yeniden Yapılanma",
+        "en": "Rebuilding After Uhud"
+      },
+      "date_ce": 625,
+      "date_hijri": "3",
+      "age": 55,
+      "location_id": "medine",
+      "description": {
+        "tr": "70 şehitten sonra morali yükseltme, Hamrâü'l-Esed takibi ve münâfıkların ifşâsı.",
+        "en": "Morale restoration after 70 martyrs, Hamra al-Asad pursuit, exposing hypocrites."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 139
+        }
+      ],
+      "hadith_refs": [],
+      "links": {
+        "persons": [],
+        "locations": [
+          "medine",
+          "uhud"
+        ],
+        "battles": [
+          "uhud"
+        ]
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, III/120-128",
+          "note_tr": "Uhud sonrası Hamrâü'l-Esed seferi ve yeniden yapılanma"
+        },
+        {
+          "source": "Vâkıdî",
+          "ref": "Kitâbü'l-Megâzî, I/334-338"
+        },
+        {
+          "source": "Kur'ân-ı Kerîm",
+          "ref": "Âl-i İmrân 3:139-175"
+        }
+      ]
+    },
+    {
+      "id": "evt_ifk_hadisesi",
+      "event": {
+        "tr": "İfk Hâdisesi",
+        "en": "Ifk (Slander) Incident"
+      },
+      "date_ce": 627,
+      "date_hijri": "5-6",
+      "age": 57,
+      "location_id": "medine",
+      "description": {
+        "tr": "Hz. Âişe'ye atılan iftira bir ay sürdü. Nûr sûresinin 11-20. âyetleri ile berâatı ilan edildi.",
+        "en": "Slander against Aisha lasted a month. Her innocence declared through Quran 24:11-20."
+      },
+      "quran_refs": [
+        {
+          "surah": 24,
+          "ayah": 11
+        }
+      ],
+      "hadith_refs": [],
+      "links": {
+        "persons": [
+          "aise"
+        ],
+        "locations": [
+          "medine"
+        ],
+        "battles": []
+      },
+      "source_refs": [
+        {
+          "source": "Buhârî",
+          "ref": "Tefsîr, Nûr Sûresi 6 (Hadis No: 4750)",
+          "note_tr": "Hz. Âişe'ye yönelik iftira olayı ve Nûr Sûresi'nin inişi"
+        },
+        {
+          "source": "Müslim",
+          "ref": "Tevbe, 56 (Hadis No: 2770)"
+        },
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, III/310-322"
+        }
+      ]
+    },
+    {
+      "id": "evt_umretul_kaza",
+      "event": {
+        "tr": "Umretü'l-Kazâ",
+        "en": "Compensatory Umrah"
+      },
+      "date_ce": 629,
+      "date_hijri": "7 (Zilkāde)",
+      "age": 59,
+      "location_id": "mekke",
+      "description": {
+        "tr": "Hudeybiye anlaşması gereği 2.000 sahâbî ile Mekke'ye girdi; 3 gün kalıp umre yaptı.",
+        "en": "Under Hudaybiyyah terms, entered Mecca with 2000 companions; stayed 3 days for umrah."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "links": {
+        "persons": [],
+        "locations": [
+          "mekke"
+        ],
+        "battles": []
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, IV/11-14",
+          "note_tr": "Hudeybiye Antlaşması gereği yapılan kaza umresi (7 H / 629)"
+        },
+        {
+          "source": "Vâkıdî",
+          "ref": "Kitâbü'l-Megâzî, II/731-737"
+        },
+        {
+          "source": "Buhârî",
+          "ref": "Megâzî, 43 (Hadis No: 4251)"
+        }
+      ]
+    },
+    {
+      "id": "evt_mekke_fethi_detay",
+      "event": {
+        "tr": "Mekke Fethi Detayı",
+        "en": "Conquest of Mecca Detail"
+      },
+      "date_ce": 630,
+      "date_hijri": "8 (Ramazan)",
+      "age": 60,
+      "location_id": "mekke",
+      "description": {
+        "tr": "10.000 kişilik orduyla kansız fetih. Genel af ilan etti: 'Bugün size kınama yoktur.' Kâbe'deki 360 putu kırdırdı.",
+        "en": "Bloodless conquest with 10,000. General amnesty: 'No blame on you today.' 360 idols in Ka'ba destroyed."
+      },
+      "quran_refs": [
+        {
+          "surah": 110,
+          "ayah": 1
+        }
+      ],
+      "hadith_refs": [
+        "hds_mekke_fethi"
+      ],
+      "links": {
+        "persons": [],
+        "locations": [
+          "mekke"
+        ],
+        "battles": [
+          "mekke_fethi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, IV/38-68",
+          "note_tr": "Mekke'nin fethi (20 Ramazan 8 H), Ebû Süfyân'ın Müslüman oluşu, Ka'be'nin putlardan temizlenmesi"
+        },
+        {
+          "source": "Buhârî",
+          "ref": "Megâzî, 48 (Hadis No: 4280-4289)"
+        },
+        {
+          "source": "Müslim",
+          "ref": "Cihâd, 84-88"
+        },
+        {
+          "source": "Vâkıdî",
+          "ref": "Kitâbü'l-Megâzî, II/780-858"
+        }
+      ]
+    },
+    {
+      "id": "evt_diplomatik_mektuplar",
+      "event": {
+        "tr": "Hükümdarlara Mektuplar",
+        "en": "Letters to Rulers"
+      },
+      "date_ce": 628,
+      "date_hijri": "6-7",
+      "age": 58,
+      "location_id": "medine",
+      "description": {
+        "tr": "Bizans (Herakleios), Sâsânî (Hüsrev Pervîz), Mısır (Mukavkıs), Habeşistan (Necâşî) ve diğerlerine İslâm'a davet mektupları gönderildi.",
+        "en": "Letters sent to rulers of Byzantine, Sassanid, Egypt, Abyssinia inviting them to Islam."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "links": {
+        "persons": [],
+        "locations": [
+          "medine"
+        ],
+        "battles": []
+      },
+      "source_refs": [
+        {
+          "source": "İbn Hişâm",
+          "ref": "es-Sîretü'n-Nebeviyye, IV/254-272",
+          "note_tr": "Bizans, Sâsânî, Mısır, Habeşistan vb. hükümdarlara gönderilen davet mektupları (6-7 H)"
+        },
+        {
+          "source": "Buhârî",
+          "ref": "Bed'ü'l-Vahy, 6 (Hadis No: 7)"
+        },
+        {
+          "source": "İbn Sa'd",
+          "ref": "et-Tabakâtü'l-Kübrâ, I/258-274"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1337 @@
+{
+  "meta": {
+    "id": "reconstruction_bedir",
+    "battle_id": "gazve_bedir",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Pilot reconstruction — 7 katman tam. Bedir, İslâm'ın ilk ve en belirleyici muharebesi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 23.7833,
+        "lng": 38.7833
+      },
+      "bbox": {
+        "north": 23.81,
+        "south": 23.75,
+        "east": 38.82,
+        "west": 38.74
+      },
+      "terrain_type": "valley_plain",
+      "terrain_desc": {
+        "tr": "Bedir, Medîne ile Mekke arasındaki ticaret yolu üzerinde sığ bir vadi. Kuzeyde yüksek kum tepeleri (udve), güneyde alçak düzlük. Vadide birkaç kuyu bulunur. Kuzey tarafı (udvetü'l-kusvâ) stratejik avantaj sağlar.",
+        "en": "Badr is a shallow valley on the Medina–Mecca trade route. Sandy ridges (udwa) to the north, lower ground to the south. Several wells in the valley. The northern elevation (al-udwat al-quswa) offers strategic advantage."
+      },
+      "elevation_m": 155,
+      "area_km2": 6.5,
+      "coord_source": "google_maps + hamidullah_map"
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_arish",
+        "name": {
+          "ar": "العريش",
+          "tr": "Arîş (Hz. Peygamber'in çadırı/gölgeliği)",
+          "en": "Al-Arish (Prophet's command shelter)"
+        },
+        "lat": 23.786,
+        "lng": 38.7815,
+        "type": "command_post",
+        "strategic_role": {
+          "tr": "Hz. Peygamber'in savaşı yönettiği, dua ettiği yüksek nokta. Hz. Ebû Bekir yanında nöbet tuttu.",
+          "en": "Elevated point from which the Prophet commanded battle and made supplication. Abu Bakr stood guard."
+        },
+        "elevation_m": 165,
+        "confidence": "estimated",
+        "coord_source": "hamidullah_map_bedir + IH_II/261"
+      },
+      {
+        "id": "lm_kuyular",
+        "name": {
+          "ar": "آبار بدر",
+          "tr": "Bedir kuyuları",
+          "en": "Wells of Badr"
+        },
+        "lat": 23.783,
+        "lng": 38.784,
+        "type": "water_source",
+        "strategic_role": {
+          "tr": "Hubâb b. el-Münzir'in önerisiyle kuyular müslüman tarafında tutuldu. Kureyş'in su erişimi kesildi. Savaşın kaderini belirleyen karar.",
+          "en": "On Hubab ibn al-Mundhir's advice, wells were secured on the Muslim side. Quraysh's water access was cut off — a decisive strategic move."
+        },
+        "confidence": "high",
+        "coord_source": "google_maps + WQ_I/48"
+      },
+      {
+        "id": "lm_udvetul_kusva",
+        "name": {
+          "ar": "العدوة القصوى",
+          "tr": "Udvetü'l-kusvâ (uzak yamaç — Müslüman mevzii)",
+          "en": "Al-Udwat al-Quswa (far bank — Muslim position)"
+        },
+        "lat": 23.788,
+        "lng": 38.781,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Medîne tarafındaki yüksek kum tepesi. Müslümanlar burada mevzilendi. Kur'ân'da Enfâl 8:42'de bahsedilir.",
+          "en": "Elevated sandy ridge on the Medina side. Muslims positioned here. Referenced in Quran 8:42."
+        },
+        "confidence": "high",
+        "coord_source": "quran_8_42 + hamidullah_map"
+      },
+      {
+        "id": "lm_udvetul_dunya",
+        "name": {
+          "ar": "العدوة الدنيا",
+          "tr": "Udvetü'd-dünyâ (yakın yamaç — Kureyş mevzii)",
+          "en": "Al-Udwat al-Dunya (near bank — Quraysh position)"
+        },
+        "lat": 23.777,
+        "lng": 38.787,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Mekke tarafındaki alçak düzlük. Kureyş ordusu burada konuşlandı. Su kuyularından uzak, stratejik dezavantaj.",
+          "en": "Lower ground on the Mecca side. Quraysh army positioned here, away from water wells — a strategic disadvantage."
+        },
+        "confidence": "high",
+        "coord_source": "quran_8_42 + hamidullah_map"
+      },
+      {
+        "id": "lm_kalip_kuyu",
+        "name": {
+          "ar": "قليب بدر",
+          "tr": "Kalîb (düşman cesetlerinin atıldığı kuyu)",
+          "en": "Qalib (well where enemy dead were cast)"
+        },
+        "lat": 23.781,
+        "lng": 38.785,
+        "type": "burial_site",
+        "strategic_role": {
+          "tr": "Savaş sonrası Kureyş ileri gelenlerinin cesetlerinin atıldığı kuru kuyu. Hz. Peygamber savaş sonrası burada hitap etti.",
+          "en": "Dry well where Quraysh notables' bodies were placed after battle. The Prophet addressed the dead here."
+        },
+        "confidence": "estimated",
+        "coord_source": "BM_megazi_4 + hamidullah_map"
+      },
+      {
+        "id": "lm_bedir_mezarlik",
+        "name": {
+          "ar": "مقبرة شهداء بدر",
+          "tr": "Bedir Şehitliği",
+          "en": "Badr Martyrs Cemetery"
+        },
+        "lat": 23.7845,
+        "lng": 38.7835,
+        "type": "cemetery",
+        "strategic_role": {
+          "tr": "14 müslüman şehidin defnedildiği yer. Bugün ziyaret yeri.",
+          "en": "Burial site of the 14 Muslim martyrs. A visitation site today."
+        },
+        "confidence": "high",
+        "coord_source": "google_maps"
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_bedir",
+        "name": {
+          "tr": "Medîne → Bedir güzergâhı",
+          "en": "Medina → Badr route"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "name": "Medîne",
+            "lat": 24.4672,
+            "lng": 39.6112
+          },
+          {
+            "name": "Bi'r-i Ebî İnebe",
+            "lat": 24.25,
+            "lng": 39.3,
+            "note_tr": "İlk mola — keşif kolu gönderildi",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Safra vadisi",
+            "lat": 24.05,
+            "lng": 39.05,
+            "note_tr": "Kervanın güzergâh değiştirdiği haber alındı",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Zefirân",
+            "lat": 23.85,
+            "lng": 38.85,
+            "note_tr": "Kureyş ordusunun yaklaştığı öğrenildi — istişâre",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Bedir",
+            "lat": 23.7833,
+            "lng": 38.7833
+          }
+        ],
+        "distance_km": 150,
+        "duration_days": 3,
+        "coord_source": "hamidullah_map + IH_II/245"
+      },
+      {
+        "id": "route_mekke_bedir",
+        "name": {
+          "tr": "Mekke → Bedir (Kureyş güzergâhı)",
+          "en": "Mecca → Badr (Quraysh route)"
+        },
+        "type": "enemy_march",
+        "waypoints": [
+          {
+            "name": "Mekke",
+            "lat": 21.4225,
+            "lng": 39.8262
+          },
+          {
+            "name": "Cuhfe",
+            "lat": 22.75,
+            "lng": 39.15,
+            "note_tr": "Mola — Kureyş ordusunun toplanma alanı",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Bedir",
+            "lat": 23.7833,
+            "lng": 38.7833
+          }
+        ],
+        "distance_km": 310,
+        "duration_days": 7,
+        "coord_source": "hamidullah_map + WQ_I/37"
+      },
+      {
+        "id": "route_kervan",
+        "name": {
+          "tr": "Ebû Süfyân kervan güzergâhı (Şam → Mekke, deniz kıyısı sapmasi)",
+          "en": "Abu Sufyan caravan route (diversion via coast)"
+        },
+        "type": "caravan",
+        "waypoints": [
+          {
+            "name": "Şam (kuzeyden)",
+            "lat": 33.5138,
+            "lng": 36.2765
+          },
+          {
+            "name": "Bedir civarı (tehlike noktası)",
+            "lat": 23.9,
+            "lng": 38.8,
+            "confidence": "estimated"
+          },
+          {
+            "name": "Kızıldeniz kıyısı (sapma)",
+            "lat": 23.5,
+            "lng": 38.2,
+            "note_tr": "Ebû Süfyân kervanı sahile saptırdı",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Mekke (güvenli varış)",
+            "lat": 21.4225,
+            "lng": 39.8262
+          }
+        ],
+        "distance_km": 1400,
+        "note": {
+          "tr": "Ebû Süfyân keşifçi Damdam'ı Mekke'ye gönderip yardım istedi, kendisi kervanı sahilden saptırdı.",
+          "en": "Abu Sufyan sent scout Damdam to Mecca for help, then diverted the caravan via the coast."
+        },
+        "coord_source": "WQ_I/19 + IH_II/241"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Kervan haberi ve çıkış kararı",
+        "en": "Background: Caravan intelligence and departure decision"
+      },
+      "date_range": {
+        "start": "1-3 Ramazan 2 AH",
+        "end": "3-8 Ramazan 2 AH"
+      },
+      "duration": "~7 gün",
+      "description": {
+        "tr": "Ebû Süfyân b. Harb, Kureyş'in büyük ticaret kervanıyla Şam'dan dönmektedir (1.000 deve, 50.000 dinar değerinde mal). Hz. Peygamber Medîne'ye haber ulaşınca kervanı engelleme kararı aldı. Amaç, Kureyş'in ekonomik gücüne darbe vurmak ve Medîne'nin varlığını kabul ettirmektir. Kervan önleme harekâtı olarak planlandı; büyük bir muharebe beklenmiyordu.",
+        "en": "Abu Sufyan ibn Harb was returning from Syria with a major Quraysh trade caravan (1,000 camels, goods worth 50,000 dinars). The Prophet decided to intercept, aiming to strike Quraysh's economic base and assert Medina's sovereignty. It was planned as a caravan interception, not a major battle."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Kervanı önleme kararı",
+            "en": "Decision to intercept the caravan"
+          },
+          "maker": "prophet",
+          "participants": [
+            "ebubekir",
+            "omer",
+            "ali"
+          ],
+          "impact": {
+            "tr": "Medîne'den ~313 kişi çıktı. Ağır silahlanma yok, kervan baskını bekleniyor.",
+            "en": "~313 departed from Medina. No heavy armament — a caravan raid was expected."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "route_kervan",
+          "route_medine_bedir"
+        ],
+        "zoom": 7,
+        "focus": "regional"
+      }
+    },
+    {
+      "id": "F1_intelligence",
+      "order": 1,
+      "name": {
+        "tr": "İstihbârat ve istişâre: Kervan mı, ordu mu?",
+        "en": "Intelligence and consultation: Caravan or army?"
+      },
+      "date_range": {
+        "start": "~12 Ramazan 2 AH",
+        "end": "~14 Ramazan 2 AH"
+      },
+      "duration": "2-3 gün",
+      "description": {
+        "tr": "İki kritik haber geldi: (1) Ebû Süfyân kervanı sahilden saptırdı, hedef kaçtı. (2) Mekke'den ~1.000 kişilik bir ordu yola çıktı (Damdam'ın çağrısı üzerine). Hz. Peygamber istişâre topladı. Muhâcirler ve Ensâr'dan destek aldı. Mikdâd b. el-Esved: 'Mûsâ kavmi gibi demeyiz, git sen ve Rabbin savaşın. Biz de sizinle beraber savaşırız.' Sa'd b. Muâz (Ensâr adına): 'Bize ne emredersen yap. Şu denize dalsan peşinden dalardık.' Bu istişâre İslâm'da şûrâ ilkesinin temel örneklerinden biridir.",
+        "en": "Two critical pieces of intelligence arrived: (1) Abu Sufyan diverted the caravan via the coast — target escaped. (2) A ~1,000-strong army had marched from Mecca. The Prophet convened consultation. Miqdad ibn al-Aswad pledged: 'We will not say as Moses' people said. Go, you and your Lord fight; we will fight alongside you.' Sa'd ibn Mu'adh (for the Ansar): 'Command us as you will. If you plunged into the sea, we would follow.' This consultation is a foundational example of shura in Islam."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Kervan yerine Kureyş ordusuyla yüzleşme kararı",
+            "en": "Decision to confront the Quraysh army instead of the caravan"
+          },
+          "maker": "prophet",
+          "participants": [
+            "mikdad_esved",
+            "comp_sad_b_muaz",
+            "ebubekir",
+            "omer"
+          ],
+          "impact": {
+            "tr": "313 kişi 1.000 kişilik bir orduyla savaşmayı kabul etti. İslâm tarihinin dönüm noktası.",
+            "en": "313 accepted battle against 1,000. A turning point in Islamic history."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "route_medine_bedir",
+          "route_mekke_bedir"
+        ],
+        "zoom": 8,
+        "focus": "convergence"
+      }
+    },
+    {
+      "id": "F2_march",
+      "order": 2,
+      "name": {
+        "tr": "Seferberlik ve yürüyüş: Medîne'den Bedir'e",
+        "en": "Mobilization and march: Medina to Badr"
+      },
+      "date_range": {
+        "start": "~8 Ramazan 2 AH",
+        "end": "~16 Ramazan 2 AH"
+      },
+      "duration": "~3 gün yürüyüş",
+      "description": {
+        "tr": "Hz. Peygamber 313 kişiyle Medîne'den çıktı. Ordu: 2 at (Zübeyr ve Mikdâd'ın), 70 deve (nöbetleşe binildi). Oruç ayı — çoğu oruçlu. Güzergâh: Medîne → Bi'r-i Ebî İnebe → Safra → Zefirân → Bedir. Yolda keşif kolları gönderildi (Ali b. Ebî Tâlib ve Zübeyr b. el-Avvâm). Zefirân'da düşman ordusunun büyüklüğü öğrenildi.",
+        "en": "The Prophet departed with 313. Army assets: 2 horses (Zubayr's and Miqdad's), 70 camels (shared in rotation). Ramadan — most were fasting. Route: Medina → Bi'r Abi Inaba → Safra → Zafiran → Badr. Scout parties were sent (Ali ibn Abi Talib and Zubayr ibn al-Awwam). At Zafiran, the enemy army's size was confirmed."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Keşif kolu gönderme — su taşıyan Kureyş casusları yakalandı",
+            "en": "Sending scout party — Quraysh water carriers captured"
+          },
+          "maker": "prophet",
+          "participants": [
+            "ali",
+            "zubeyr"
+          ],
+          "impact": {
+            "tr": "Düşman gücü ve konumu hakkında kesin bilgi edinildi. Hz. Peygamber'in istihbarat yöntemi.",
+            "en": "Confirmed enemy strength and position. Example of the Prophet's intelligence methods."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "route_medine_bedir"
+        ],
+        "zoom": 9,
+        "focus": "march_progress",
+        "animation": "sequential_waypoints"
+      }
+    },
+    {
+      "id": "F3_positioning",
+      "order": 3,
+      "name": {
+        "tr": "Mevzilenme: Kuyuların kontrolü ve arîş",
+        "en": "Positioning: Securing the wells and command post"
+      },
+      "date_range": "16 Ramazan 2 AH",
+      "duration": "1 gün (gece)",
+      "description": {
+        "tr": "Müslümanlar Bedir'e ilk ulaştı. Hz. Peygamber başlangıçta kuyulardan uzak bir noktada konakladı. Hubâb b. el-Münzir: 'Yâ Resûlallah, burası vahiyle mi belirlendi, yoksa savaş stratejisi mi? Eğer strateji ise, en yakın kuyunun önüne konuşlanalım, gerisini kapatalım.' Hz. Peygamber bunu kabul etti. Kuyular müslüman tarafına alındı, diğerleri kapatıldı. Arîş (çadır/gölgelik) yüksek noktaya kuruldu — Hz. Peygamber ve Hz. Ebû Bekir burada. Gece yağmur yağdı: müslüman tarafında kumları sıkıştırıp yürüyüşü kolaylaştırdı, Kureyş tarafında çamur oluşturdu (Enfâl 8:11).",
+        "en": "Muslims arrived at Badr first. The Prophet initially camped away from the wells. Hubab ibn al-Mundhir advised: 'Is this position by revelation or strategy? If strategy, let us camp in front of the nearest well and block the rest.' The Prophet accepted. Wells secured, others sealed. The arish (command shelter) was set on high ground — the Prophet and Abu Bakr there. Night rain fell: firmed the sand on the Muslim side, created mud on Quraysh's side (Quran 8:11)."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hubâb'ın su kuyusu stratejisi kabul edildi",
+            "en": "Hubab's water well strategy accepted"
+          },
+          "maker": "hubab_munzir",
+          "participants": [
+            "hubab_munzir"
+          ],
+          "impact": {
+            "tr": "Savaşın kaderini belirleyen stratejik karar. Düşmanın su erişimini kesti. İslâm'da istişâre ve uzman görüşüne değer verilmesinin örneği.",
+            "en": "Decisive strategic move that cut enemy water access. An example of valuing expert counsel in Islam."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Arîş (komuta çadırı) yüksek noktaya kuruldu",
+            "en": "Command shelter placed on elevated ground"
+          },
+          "maker": "comp_sad_b_muaz",
+          "participants": [
+            "comp_sad_b_muaz"
+          ],
+          "impact": {
+            "tr": "Sa'd b. Muâz'ın önerisi: Hz. Peygamber'in güvenliği + savaşı yukarıdan yönetme avantajı.",
+            "en": "Sa'd ibn Mu'adh's suggestion: protecting the Prophet + advantage of commanding from above."
+          }
+        }
+      ],
+      "weather": {
+        "tr": "Gece hafif yağmur. Müslüman tarafında kumları sıkıştırdı (avantaj), Kureyş tarafında çamur oluşturdu (dezavantaj).",
+        "en": "Light overnight rain. Firmed sand on Muslim side (advantage), created mud on Quraysh side (disadvantage).",
+        "quran_ref": "Enfâl 8:11"
+      },
+      "map_state": {
+        "show": [
+          "lm_kuyular",
+          "lm_arish",
+          "lm_udvetul_kusva",
+          "lm_udvetul_dunya"
+        ],
+        "zoom": 14,
+        "focus": "battlefield_setup"
+      }
+    },
+    {
+      "id": "F4_prelude",
+      "order": 4,
+      "name": {
+        "tr": "Ön çatışma: Teke tek düellolar",
+        "en": "Prelude: Single combats"
+      },
+      "date_range": "17 Ramazan 2 AH (sabah erken)",
+      "duration": "~1 saat",
+      "description": {
+        "tr": "Savaştan önce Arap geleneğine uygun olarak teke tek düellolar yapıldı. Kureyş safından üç savaşçı çıktı: Utbe b. Rebîa, Şeybe b. Rebîa ve Velîd b. Utbe. Ensâr'dan karşılık gelince Kureyş 'bize denklerimizi çıkarın' dedi. Hz. Peygamber Hamza, Ali ve Ubeyde b. el-Hâris'i gönderdi. Hamza Şeybe'yi, Ali Velîd'i hızla öldürdü. Ubeyde ile Utbe karşılıklı yaralandı; Hamza ve Ali Utbe'yi bitirdi ama Ubeyde ağır yaralı kaldı (sonra şehîd oldu).",
+        "en": "Before general combat, single duels took place per Arab custom. Three Quraysh champions stepped forward: Utba ibn Rabi'a, Shayba ibn Rabi'a, and Walid ibn Utba. When Ansari volunteers came forward, Quraysh demanded 'Send us our equals.' The Prophet sent Hamza, Ali, and Ubayda ibn al-Harith. Hamza killed Shayba, Ali killed Walid swiftly. Ubayda and Utba wounded each other; Hamza and Ali finished Utba, but Ubayda was mortally wounded."
+      },
+      "combats": [
+        {
+          "muslim": "hamza",
+          "enemy": "Şeybe b. Rebîa",
+          "result": "muslim_victory",
+          "detail_tr": "Hamza hızlı bir darbe ile Şeybe'yi öldürdü."
+        },
+        {
+          "muslim": "ali",
+          "enemy": "Velîd b. Utbe",
+          "result": "muslim_victory",
+          "detail_tr": "Ali genç yaşına rağmen Velîd'i hızla yendi."
+        },
+        {
+          "muslim": "ubeyde_haris_bedir",
+          "muslim_name": "Ubeyde b. el-Hâris b. Abdülmuttalib",
+          "note": "companions_v190'da kaydı yok — Bedir'de şehîd oldu, Hz. Peygamber'in amcaoğlu",
+          "enemy": "Utbe b. Rebîa",
+          "result": "mutual_wound",
+          "detail_tr": "Her ikisi de ağır yaralandı. Hamza ve Ali yardıma geldi, Utbe öldürüldü. Ubeyde Medîne dönüşünde şehîd oldu."
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_udvetul_kusva",
+          "lm_udvetul_dunya"
+        ],
+        "zoom": 15,
+        "focus": "duel_ground"
+      }
+    },
+    {
+      "id": "F5_main_battle",
+      "order": 5,
+      "name": {
+        "tr": "Ana muharebe: Genel saldırı ve melek yardımı",
+        "en": "Main battle: General assault and angelic aid"
+      },
+      "date_range": "17 Ramazan 2 AH (sabah)",
+      "duration": "birkaç saat",
+      "description": {
+        "tr": "Düelloların ardından genel savaş başladı. Hz. Peygamber arîşta secdeye kapanarak uzun süre dua etti: 'Allah'ım, bu küçük grubu helâk edersen yeryüzünde sana ibadet eden kalmaz.' Hz. Ebû Bekir: 'Yâ Resûlallah, yeter. Allah vaadini yerine getirecek.' Ardından Hz. Peygamber yerden bir avuç kum/çakıl alıp düşmana attı (Enfâl 8:17). Müslümanlar 'Ahad, Ahad!' nidâsıyla hücuma geçti. Kureyş saflarında panik başladı. İslâm kaynaklarına göre melekler savaşa katıldı (Enfâl 8:9, 8:12, Âl-i İmrân 3:123-126). Ebû Cehil, muâz_amr (Muâz b. Amr b. el-Cemûh) ve muaz_hazrec (Muâz b. el-Hâris / İbn Afrâ) tarafından yaralandı, Abdullah b. Mes'ûd tarafından öldürüldü. Ümeyye b. Halef, Bilâl'in tanımasıyla Ensâr tarafından öldürüldü.",
+        "en": "After the duels, general combat began. The Prophet prostrated at the arish in prolonged supplication: 'O Allah, if You destroy this small group, none will worship You on earth.' Abu Bakr said: 'Enough, Messenger of Allah. Allah will fulfill His promise.' The Prophet then cast a handful of pebbles at the enemy (Quran 8:17). Muslims charged with 'Ahad, Ahad!' cries. Panic spread through Quraysh ranks. Per Islamic sources, angels participated (8:9, 8:12, 3:123-126). Abu Jahl was struck by Mu'adh ibn Amr and Mu'adh ibn al-Harith (Ibn Afra), then finished by Abdullah ibn Mas'ud. Umayya ibn Khalaf was killed by Ansar after Bilal recognized him."
+      },
+      "unit_movements": [
+        {
+          "unit": "Müslüman merkez",
+          "commander": "prophet",
+          "action": {
+            "tr": "Saf düzeninde ileri hücum, ok atışıyla başlayıp kılıçla devam",
+            "en": "Advance in line formation, opening with arrows then sword combat"
+          },
+          "direction": "south"
+        },
+        {
+          "unit": "Müslüman sağ kanat",
+          "commander": "zubeyr",
+          "action": {
+            "tr": "Sağ kanat hücumu — Kureyş sol cenahını sardı",
+            "en": "Right flank charge — enveloped Quraysh left"
+          },
+          "direction": "south-east"
+        },
+        {
+          "unit": "Kureyş merkez",
+          "commander": "Ebû Cehil",
+          "action": {
+            "tr": "Başlangıçta ileri çıktı, düelloların kaybedilmesiyle moral düştü, genel hücumda geri çekilmeye başladı",
+            "en": "Initially advanced, morale dropped after losing duels, retreated during general assault"
+          },
+          "direction": "retreat_south"
+        }
+      ],
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in arîşta uzun süre dua etmesi ve ardından çakıl atması",
+            "en": "The Prophet's prolonged supplication and casting of pebbles"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kur'ân'da özel olarak anılır (8:17): 'Attığın zaman sen atmadın, Allah attı.' Savaşın dönüm noktası.",
+            "en": "Specifically referenced in Quran (8:17): 'When you threw, it was not you who threw, but Allah.' Turning point of battle."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_arish",
+          "lm_kuyular",
+          "lm_udvetul_kusva",
+          "lm_udvetul_dunya"
+        ],
+        "zoom": 15,
+        "focus": "battle_overview",
+        "animation": "troop_movements"
+      }
+    },
+    {
+      "id": "F6_aftermath",
+      "order": 6,
+      "name": {
+        "tr": "Sonuç: Zafer, esirler ve ganîmet",
+        "en": "Aftermath: Victory, prisoners, and spoils"
+      },
+      "date_range": "17-20 Ramazan 2 AH",
+      "duration": "3-4 gün",
+      "description": {
+        "tr": "Kureyş ordusu ağır bir bozguna uğradı. 70 kişi öldürüldü, 70 kişi esir alındı (IH). Müslümanlardan 14 şehîd (6 muhâcir, 8 ensâr). Esirler meselesi büyük tartışma yarattı: Hz. Ebû Bekir fidye, Hz. Ömer öldürülme önerdi. Hz. Peygamber fidye kararı aldı — okuma-yazma bilen esirler 10 müslümana okuma-yazma öğretme karşılığı serbest bırakıldı. Bu karar sonra Enfâl 8:67-68'de eleştirildi. Ganîmet paylaşımı tartışması Enfâl 8:1 ve 8:41'in nüzûlüne sebep oldu. Cesetler Kalîb kuyusuna atıldı; Hz. Peygamber kuyuya hitap etti. Medîne'ye dönüşte büyük sevinç ve Bedir ehline ümmet içinde ayrı bir mertebe verildi.",
+        "en": "Quraysh was routed. 70 killed, 70 captured (IH). 14 Muslim martyrs (6 Muhajirun, 8 Ansar). The prisoner question caused major debate: Abu Bakr favored ransom, Umar execution. The Prophet chose ransom — literate prisoners freed in exchange for teaching 10 Muslims to read and write. This decision was later critiqued in Quran 8:67-68. Spoils dispute caused the revelation of 8:1 and 8:41. Bodies were placed in Qalib well; the Prophet addressed them. Return to Medina brought great celebration and the Badr veterans were given a special status in the ummah."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Esirlere fidye uygulanması (Hz. Ebû Bekir'in görüşü)",
+            "en": "Ransoming prisoners (Abu Bakr's view prevailed)"
+          },
+          "maker": "prophet",
+          "participants": [
+            "ebubekir",
+            "omer"
+          ],
+          "impact": {
+            "tr": "Ekonomik kazanç + okuryazarlık artışı + merhamet mesajı. Ancak Enfâl 8:67-68 bu kararı eleştirdi.",
+            "en": "Economic gain + literacy boost + message of mercy. However, Quran 8:67-68 critiqued this decision."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Ganîmet taksiminde beşte bir (humus) ilkesi",
+            "en": "One-fifth (khumus) principle for spoils division"
+          },
+          "maker": "divine_revelation",
+          "participants": [],
+          "impact": {
+            "tr": "Enfâl 8:41 ile ganîmet taksimi hukuku oluşturuldu — İslâm savaş hukukunun temel taşı.",
+            "en": "Quran 8:41 established spoils law — a cornerstone of Islamic law of war."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kalip_kuyu",
+          "lm_bedir_mezarlik",
+          "route_medine_bedir"
+        ],
+        "zoom": 14,
+        "focus": "aftermath"
+      }
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 313,
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "count": 82,
+          "note_tr": "Mekke'den hicret eden ilk müslümanlar"
+        },
+        "ansar_evs": {
+          "count": 61,
+          "note_tr": "Medîne Evs kabilesi"
+        },
+        "ansar_hazrec": {
+          "count": 170,
+          "note_tr": "Medîne Hazrec kabilesi"
+        }
+      },
+      "equipment": {
+        "horses": 2,
+        "camels": 70,
+        "swords": "çoğunlukta",
+        "bows": "sınırlı",
+        "armor": "çok az (6-8 zırh)",
+        "note_tr": "Kervan baskını için çıkıldığından ağır silahlanma yok."
+      },
+      "formation": {
+        "type": "saff",
+        "description_tr": "Hz. Peygamber safları düzenledi: ok atışına uygun saf düzeni. Kanat komutanları atandı.",
+        "right_wing": "zubeyr",
+        "left_wing": "mikdad_esved",
+        "flag_bearer_muhajirun": "ali",
+        "flag_bearer_ansar": "comp_sad_b_muaz"
+      },
+      "morale": {
+        "level": "very_high",
+        "note_tr": "313 sayısına rağmen iman gücü yüksek. Gece yağmur moral artırdı. İstişâre ile herkes kararın parçası."
+      },
+      "logistics": {
+        "supply": "3 günlük erzak (hurma, su)",
+        "water": "kuyular kontrol altında (Hubâb stratejisi)",
+        "fasting": true,
+        "note_tr": "Ramazan orucu tutanlar vardı. Hz. Peygamber oruç açılmasına izin verdi."
+      }
+    },
+    "enemy": {
+      "total": 1000,
+      "total_range": "950-1.000",
+      "commander": "Ebû Cehil (Amr b. Hişâm)",
+      "sub_commanders": [
+        {
+          "name": "Utbe b. Rebîa",
+          "role": "ileri gelen, düello savaşçısı",
+          "fate": "öldürüldü"
+        },
+        {
+          "name": "Şeybe b. Rebîa",
+          "role": "ileri gelen",
+          "fate": "öldürüldü (Hamza)"
+        },
+        {
+          "name": "Ümeyye b. Halef",
+          "role": "savaşçı",
+          "fate": "öldürüldü"
+        },
+        {
+          "name": "Ebû Süfyân b. Harb",
+          "role": "kervan komutanı",
+          "fate": "savaşa katılmadı (kervanı saptırdı)"
+        }
+      ],
+      "composition": {
+        "kureysh_soylu": "~600 (kabilenin önde gelenleri)",
+        "muttefik_kabileler": "~400",
+        "note_tr": "Kureyş'in en ileri gelenleri bizzat katıldı. Mekke'nin 'eliti' olarak çıktılar."
+      },
+      "equipment": {
+        "horses": 100,
+        "camels": 700,
+        "swords": "bol",
+        "bows": "bol",
+        "armor": "çoğunluğun zırhı var",
+        "note_tr": "Tam donanımlı ordu: 100 at, 700 deve, bol silah ve zırh."
+      },
+      "morale": {
+        "level": "mixed",
+        "note_tr": "Bazıları (Utbe, Hakîm b. Hizâm) savaşa isteksiz. Ebû Cehil kibrinden ısrar etti. Kervanın kurtulma haberi gelince bazıları dönmek istedi ama Ebû Cehil 'Bedir'de üç gün eğleniriz, bizi herkes duysun' dedi."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": {
+          "ar": "السيرة النبوية",
+          "tr": "es-Sîretü'n-Nebeviyye",
+          "en": "al-Sira al-Nabawiyya"
+        },
+        "author": "İbn Hişâm (ö. 218/833)",
+        "reliability": "high",
+        "sections": [
+          "II/241-294 (Bedir bölümü)"
+        ],
+        "note_tr": "En eski tam siyer. İbn İshâk'ın (ö. 151/768) eserinin ihtisarı."
+      },
+      {
+        "id": "WQ",
+        "name": {
+          "ar": "كتاب المغازي",
+          "tr": "el-Megāzî",
+          "en": "Kitab al-Maghazi"
+        },
+        "author": "Vâkıdî (ö. 207/823)",
+        "reliability": "medium_high",
+        "sections": [
+          "I/19-152 (Bedir bölümü — en detaylı)"
+        ],
+        "note_tr": "En ayrıntılı megâzî eseri. Güvenilirliği tartışmalı ama taktik detaylarda eşsiz."
+      },
+      {
+        "id": "TB",
+        "name": {
+          "ar": "تاريخ الرسل والملوك",
+          "tr": "Târîhü'r-Rusül ve'l-Mülûk",
+          "en": "History of Prophets and Kings"
+        },
+        "author": "Taberî (ö. 310/923)",
+        "reliability": "high",
+        "sections": [
+          "II/421-469"
+        ],
+        "note_tr": "Çoklu isnad: aynı olayı birden fazla rivâyet zinciriyle aktarır."
+      },
+      {
+        "id": "IS",
+        "name": {
+          "ar": "الطبقات الكبرى",
+          "tr": "et-Tabakātü'l-kübrâ",
+          "en": "al-Tabaqat al-Kubra"
+        },
+        "author": "İbn Sa'd (ö. 230/845)",
+        "reliability": "high",
+        "sections": [
+          "II/11-25, III/Bedir ehli listeleri"
+        ],
+        "note_tr": "Vâkıdî'nin öğrencisi. Bedir ehlinin biyografileri için en kapsamlı."
+      },
+      {
+        "id": "BL",
+        "name": {
+          "ar": "أنساب الأشراف",
+          "tr": "Ensâbü'l-eşrâf",
+          "en": "Ansab al-Ashraf"
+        },
+        "author": "Belâzürî (ö. 279/892)",
+        "reliability": "high",
+        "sections": [
+          "I/Bedir"
+        ],
+        "note_tr": "Neseb perspektifinden savaş — kabile yapılarıyla ilişkilendirir."
+      }
+    ],
+    "hadith": [
+      {
+        "ref": "Buhârî, Megāzî 4",
+        "topic": "Bedir genel anlatımı"
+      },
+      {
+        "ref": "Buhârî, Megāzî 6",
+        "topic": "Melek yardımı"
+      },
+      {
+        "ref": "Müslim, Cihâd 58",
+        "topic": "Hz. Peygamber'in duası ve Ebû Bekir'in sözü"
+      },
+      {
+        "ref": "Buhârî, Megāzî 8",
+        "topic": "Ebû Cehil'in öldürülmesi"
+      },
+      {
+        "ref": "Müslim, Cihâd 83",
+        "topic": "Esirler meselesi — fidye kararı"
+      },
+      {
+        "ref": "Tirmizî, Menâkıb",
+        "topic": "Bedir ehline özel mertebe"
+      },
+      {
+        "ref": "Ebû Dâvûd, Cihâd",
+        "topic": "Ganîmet taksimi"
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Hamidullah",
+        "work": "İslâm Peygamberi (Siyasî-Askerî hayatı)",
+        "note_tr": "Bedir haritası ve taktik analizi için temel modern kaynak. Koordinatlar bu eserden."
+      },
+      {
+        "author": "M. Hamidullah",
+        "work": "Hz. Peygamber'in Savaşları / Battlefields of the Prophet",
+        "note_tr": "Savaş alanı detay haritaları, topografya analizi."
+      },
+      {
+        "author": "W. M. Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Batılı akademik perspektif. Ekonomik ve sosyal bağlam analizi."
+      },
+      {
+        "author": "M. Lings",
+        "work": "Muhammad: His Life Based on the Earliest Sources",
+        "note_tr": "Edebî anlatım, hadis kaynaklarına dayalı."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Müslüman sayısı",
+        "versions": {
+          "IH": {
+            "value": 313,
+            "ref": "II/253"
+          },
+          "WQ": {
+            "value": 313,
+            "ref": "I/26"
+          },
+          "TB": {
+            "value": "313-317",
+            "ref": "II/421"
+          },
+          "BM": {
+            "value": 313,
+            "ref": "Megāzî, 4"
+          }
+        },
+        "consensus": 313,
+        "confidence": "high",
+        "note_tr": "Tüm kaynaklar 313'te birleşir. Taberî bazı rivâyetlerde 317 verir ama 313 ağırlıklı."
+      },
+      {
+        "topic": "Düşman sayısı",
+        "versions": {
+          "IH": {
+            "value": "950-1.000",
+            "ref": "II/257"
+          },
+          "WQ": {
+            "value": 1000,
+            "ref": "I/37"
+          },
+          "TB": {
+            "value": "~1.000",
+            "ref": "II/427"
+          },
+          "IS": {
+            "value": "950",
+            "ref": "II/12"
+          }
+        },
+        "consensus": "~1.000",
+        "confidence": "medium_high",
+        "note_tr": "Yaklaşık 1.000. İbn Sa'd 950 verir. Kesin rakam belirsiz ama aralık dar."
+      },
+      {
+        "topic": "Müslüman şehîd sayısı",
+        "versions": {
+          "IH": {
+            "value": 14,
+            "ref": "II/290",
+            "detail": "6 muhâcir + 8 ensâr"
+          },
+          "WQ": {
+            "value": 14,
+            "ref": "I/145"
+          },
+          "TB": {
+            "value": 14,
+            "ref": "II/465"
+          },
+          "BM": {
+            "value": 14,
+            "ref": "Megāzî"
+          }
+        },
+        "consensus": 14,
+        "confidence": "high",
+        "note_tr": "Tüm kaynaklar 14'te birleşir. İsim listesi de büyük ölçüde tutarlı."
+      },
+      {
+        "topic": "Düşman kayıp sayısı",
+        "versions": {
+          "IH": {
+            "value": "70 öldürüldü, 70 esir",
+            "ref": "II/287"
+          },
+          "WQ": {
+            "value": "70 öldürüldü, 70+ esir",
+            "ref": "I/139"
+          },
+          "TB": {
+            "value": "70 + 70",
+            "ref": "II/460"
+          }
+        },
+        "consensus": "70 öldürüldü, 70 esir",
+        "confidence": "high",
+        "note_tr": "Tüm temel kaynaklar tutarlı. Bazı modern tarihçiler sayının sembolik olabileceğini tartışır."
+      },
+      {
+        "topic": "Tarih (Hicrî)",
+        "versions": {
+          "IH": {
+            "value": "17 Ramazan 2",
+            "ref": "II/258"
+          },
+          "WQ": {
+            "value": "17 Ramazan 2 (Cuma)",
+            "ref": "I/50"
+          },
+          "TB": {
+            "value": "17 Ramazan 2",
+            "ref": "II/430"
+          }
+        },
+        "consensus": "17 Ramazan 2 AH / 13 Mart 624 CE (veya 15 Mart tartışmalı)",
+        "confidence": "high",
+        "note_tr": "17 Ramazan'da icmâ var. CE dönüşümünde küçük fark (13 veya 15 Mart)."
+      },
+      {
+        "topic": "Savaş süresi",
+        "versions": {
+          "IH": {
+            "value": "kısa sürdü (birkaç saat)",
+            "ref": "II/270"
+          },
+          "WQ": {
+            "value": "sabahtan öğleye",
+            "ref": "I/75"
+          }
+        },
+        "consensus": "birkaç saat (sabah erken → öğle arası)",
+        "confidence": "medium",
+        "note_tr": "Kesin süre belirsiz ama kaynaklar kısa sürdüğünde hemfikir."
+      },
+      {
+        "topic": "Komutan isimleri (kanat)",
+        "versions": {
+          "WQ": {
+            "value": "Sağ: Zübeyr, Sol: Mikdâd",
+            "ref": "I/48"
+          },
+          "IH": {
+            "value": "belirgin atama yok, ama sancak taşıyıcıları belirtilir",
+            "ref": "II/260"
+          }
+        },
+        "consensus": "Zübeyr (sağ), Mikdâd (sol) — Vâkıdî'den",
+        "confidence": "medium",
+        "note_tr": "İbn Hişâm kanat komutanını açıkça belirtmez. Vâkıdî detayı verir."
+      },
+      {
+        "topic": "Melek yardımı",
+        "versions": {
+          "quran": {
+            "value": "1.000 melek (Enfâl 8:9), 3.000-5.000 (Âl-i İmrân 3:124-125)",
+            "ref": "8:9, 3:124-125"
+          },
+          "BM": {
+            "value": "Melekler beyaz sarıklı atlılar olarak görüldü",
+            "ref": "Buhârî, Megāzî 6"
+          }
+        },
+        "consensus": "Kur'ânî veri: 1.000+ melek. Hadisler beyaz sarıklı atlılar şeklinde tasvir eder.",
+        "confidence": "theological",
+        "note_tr": "Kur'ân açıkça belirtir. Sayı farkı (1.000 vs 3.000-5.000) müfessirler tarafından 'ardışık takviye' olarak açıklanır."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "1-75",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Enfâl sûresinin büyük bölümü Bedir'le ilgilidir",
+        "en": "Most of Surah al-Anfal relates to Badr"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Ganîmet hükmü — Allah'a ve Resûlüne aittir",
+          "phase_id": "F6_aftermath",
+          "esbab_id": "en_enfal_8_1"
+        },
+        {
+          "ayah": 5,
+          "topic_tr": "Savaşa çıkma emri — bazıları isteksizdi",
+          "phase_id": "F1_intelligence"
+        },
+        {
+          "ayah": 9,
+          "topic_tr": "1.000 melekle yardım vaadi",
+          "phase_id": "F5_main_battle"
+        },
+        {
+          "ayah": 11,
+          "topic_tr": "Uyku/huzur ve gökten su (yağmur)",
+          "phase_id": "F3_positioning"
+        },
+        {
+          "ayah": 12,
+          "topic_tr": "Meleklere vahiy: 'Boyunlarının üstüne, parmaklarına vurun'",
+          "phase_id": "F5_main_battle"
+        },
+        {
+          "ayah": 17,
+          "topic_tr": "Çakıl atma: 'Attığın zaman sen atmadın, Allah attı'",
+          "phase_id": "F5_main_battle"
+        },
+        {
+          "ayah": 41,
+          "topic_tr": "Ganîmet taksimi: beşte bir (humus)",
+          "phase_id": "F6_aftermath",
+          "esbab_id": "en_enfal_8_41"
+        },
+        {
+          "ayah": 42,
+          "topic_tr": "İki yakadaki (udve) konumlanma — Allah'ın planı",
+          "phase_id": "F3_positioning"
+        },
+        {
+          "ayah_range": "67-68",
+          "topic_tr": "Esirler meselesi — fidye kararının eleştirisi",
+          "phase_id": "F6_aftermath",
+          "esbab_id": "en_enfal_8_67"
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "121-129",
+      "phase_id": "F5_main_battle",
+      "topic": {
+        "tr": "Bedir zaferi hatırlatması (Uhud bağlamında)",
+        "en": "Reminder of Badr victory (in context of Uhud)"
+      },
+      "key_verses": [
+        {
+          "ayah": 123,
+          "topic_tr": "'Siz güçsüzken Bedir'de Allah size yardım etmişti' — doğrudan Bedir atfı",
+          "phase_id": "F5_main_battle"
+        },
+        {
+          "ayah_range": "124-125",
+          "topic_tr": "3.000-5.000 melekle takviye (müfessirlere göre Bedir'e işaret)",
+          "phase_id": "F5_main_battle"
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "63",
+      "phase_id": "F0_background",
+      "topic": {
+        "tr": "Evs ve Hazrec'in kalplerinin birleştirilmesi",
+        "en": "Uniting hearts of Aws and Khazraj"
+      },
+      "key_verses": [
+        {
+          "ayah": 63,
+          "topic_tr": "100 yıllık düşmanlığın İslâm ile kardeşliğe dönüşmesi",
+          "phase_id": "F0_background",
+          "esbab_id": "en_enfal_8_63"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_bedir_dua",
+      "topic": "Bedir'de Hz. Peygamber'in duası",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_melekler",
+      "topic": "Bedir'de meleklerin yardımı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_genel",
+      "topic": "Bedir savaşının genel seyri",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_dua_aris",
+      "topic": "Hz. Peygamber'in arîştaki duası",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_ebu_cehil",
+      "topic": "Ebû Cehil'in öldürülmesi — iki genç Ensâr",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_esirler",
+      "topic": "Bedir esirleri istişâresi — Ebû Bekir vs Ömer",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_ehli_cennet",
+      "topic": "Bedir ehli cennettedir",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_hubab_kuyu",
+      "topic": "Hubâb b. el-Münzir'in su kuyusu stratejisi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_teke_tek",
+      "topic": "Bedir teke tek düellolar — Hamza, Ali, Ubeyde",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_megazi_bedir_dua",
+      "topic": "Bedir'de Hz. Peygamber'in duâsı",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İslâm'ın ilk askerî zaferi. 3:1 orana rağmen kesin galibiyet. Medîne'nin savunulabilir bir güç olduğunu kanıtladı. Müslüman ordusunun savaş kapasitesi ilk kez test edildi.",
+      "en": "Islam's first military victory. Decisive win despite 3:1 odds. Proved Medina was a defensible power. First test of Muslim army's combat capability."
+    },
+    "political": {
+      "tr": "Kureyş'in yenilmezlik imajı kırıldı. Medîne İslâm devletinin meşruiyeti güçlendi. Arap yarımadasında güç dengesi değişmeye başladı. Yahudi kabileleriyle ilişkiler gerildi (Benî Kaynukā' krizi).",
+      "en": "Quraysh's invincibility image shattered. Medina state's legitimacy strengthened. Power balance on the Arabian Peninsula began shifting. Relations with Jewish tribes strained."
+    },
+    "social": {
+      "tr": "Bedir ehli İslâm toplumunda ayrıcalıklı bir sınıf oluşturdu. 'Bedir ehli' unvanı nesiller boyu saygı kaynağı oldu. Ensâr-Muhâcir kardeşliği savaş meydanında kanıtlandı.",
+      "en": "Badr veterans formed a privileged class. The title 'Ahl al-Badr' became a source of respect for generations. Ansar-Muhajirun brotherhood was proven on the battlefield."
+    },
+    "theological": {
+      "tr": "İlâhî yardım (melek desteği) inancı güçlendi. Azla çoğa galip gelme teması Kur'ânî bir ilke olarak yerleşti. Tevekkül + planlama dengesi (istişâre + dua) İslâmî liderlik modeli olarak kristalize oldu. Ganîmet ve esir hukuku (Enfâl sûresi) İslâm savaş hukukunun temeli oldu.",
+      "en": "Belief in divine aid (angelic support) strengthened. The theme of few defeating many became a Quranic principle. The balance of trust in God + planning (consultation + supplication) crystallized as an Islamic leadership model. Spoils and prisoner law became the foundation of Islamic jus in bello."
+    },
+    "casualties_detail": {
+      "muslim_killed": {
+        "total": 14,
+        "muhajirun": 6,
+        "ansar": 8,
+        "notable": [
+          {
+            "name": "Ubeyde b. el-Hâris",
+            "companion_id": "ubeyde_haris_bedir",
+            "note_tr": "Düelloda ağır yaralandı, dönüşte şehîd oldu. Hz. Peygamber'in amcaoğlu. companions_v190'da kaydı yok."
+          },
+          {
+            "name": "Umeyr b. Ebî Vakkâs",
+            "note_tr": "Sa'd b. Ebî Vakkâs'ın küçük kardeşi. Savaşa katılmak için yalvardı."
+          },
+          {
+            "name": "Züşşimâleyn b. Abdi Amr",
+            "note_tr": "Muhâcir şehîd."
+          },
+          {
+            "name": "Âkil b. el-Bükeyr",
+            "note_tr": "Muhâcir şehîd."
+          }
+        ]
+      },
+      "enemy_killed_notable": [
+        {
+          "name": "Ebû Cehil (Amr b. Hişâm)",
+          "role": "Kureyş lideri, İslâm'ın baş düşmanı",
+          "killed_by": "Muâz b. Amr + Muâz b. el-Hâris, son darbe: Abdullah b. Mes'ûd"
+        },
+        {
+          "name": "Utbe b. Rebîa",
+          "role": "Kureyş ileri geleni",
+          "killed_by": "Hamza + Ali (düelloda)"
+        },
+        {
+          "name": "Şeybe b. Rebîa",
+          "role": "Kureyş ileri geleni",
+          "killed_by": "Hamza (düelloda)"
+        },
+        {
+          "name": "Velîd b. Utbe",
+          "role": "Utbe'nin oğlu",
+          "killed_by": "Ali (düelloda)"
+        },
+        {
+          "name": "Ümeyye b. Halef",
+          "role": "Bilâl'in eski efendisi",
+          "killed_by": "Ensâr (Bilâl'in tanımasıyla)"
+        },
+        {
+          "name": "Ukbe b. Ebî Muayt",
+          "role": "Hz. Peygamber'e eziyet edenlerden",
+          "killed_by": "esir alınıp idam edildi"
+        },
+        {
+          "name": "Nadr b. el-Hâris",
+          "role": "Hz. Peygamber'e hakaret edenlerden",
+          "killed_by": "esir alınıp idam edildi (Ali)"
+        },
+        {
+          "name": "Hanzala b. Ebî Süfyân",
+          "role": "Ebû Süfyân'ın oğlu",
+          "killed_by": "savaşta öldürüldü"
+        }
+      ],
+      "prisoners": {
+        "total": 70,
+        "notable": [
+          {
+            "name": "Abbâs b. Abdülmuttalib",
+            "note_tr": "Hz. Peygamber'in amcası. Fidye ödeyerek serbest kaldı. Daha sonra müslüman oldu."
+          },
+          {
+            "name": "Süheyl b. Amr",
+            "note_tr": "Kureyş'in ünlü hatibi. Fidye ile serbest kaldı. Fetih'te müslüman oldu."
+          },
+          {
+            "name": "Ebü'l-Âs b. er-Rebî'",
+            "note_tr": "Hz. Zeyneb'in kocası. Zeyneb'in gönderdiği gerdanlıkla (Hz. Hatîce'nin hediyesi) serbest kaldı."
+          }
+        ],
+        "ransom_policy": {
+          "tr": "Zenginlerden 4.000 dirhem fidye. Okuma-yazma bilenlere 10 müslümana okuma-yazma öğretme karşılığı serbest bırakılma.",
+          "en": "4,000 dirhams ransom for the wealthy. Literate prisoners freed for teaching 10 Muslims to read and write."
+        }
+      }
+    },
+    "treaties": [],
+    "territorial_change": {
+      "tr": "Doğrudan toprak değişimi yok. Ancak Medîne'nin kontrol alanı genişledi, ticaret yollarında söz sahibi oldu.",
+      "en": "No direct territorial change. But Medina's sphere of influence expanded, gaining leverage over trade routes."
+    },
+    "subsequent_events": [
+      {
+        "event": "gazve_beni_kaynuka",
+        "note_tr": "Bedir sonrası Yahudi kabilesi Benî Kaynukā' ile ilişkiler bozuldu → sürgün (624)"
+      },
+      {
+        "event": "gazve_uhud",
+        "note_tr": "Kureyş intikam için Uhud savaşına hazırlandı (625)"
+      },
+      {
+        "event": "bedir_mevid",
+        "note_tr": "İkinci Bedir randevusu — Ebû Süfyân gelmedi (626)"
+      }
+    ],
+    "ganimet": {
+      "total_value": "~50.000+ dirhem (deve, silah, ticaret malı)",
+      "distribution": {
+        "tr": "Enfâl 8:41 gereği beşte biri (humus) Allah'a ve Resûlüne, kalanı savaşçılara eşit dağıtıldı.",
+        "en": "Per Quran 8:41, one-fifth (khumus) to Allah and His Messenger, remainder equally distributed to fighters."
+      },
+      "items": [
+        "develer (~150)",
+        "atlar",
+        "zırhlar",
+        "kılıçlar",
+        "ticaret malları"
+      ],
+      "note_tr": "Bu İslâm'da ganîmet taksim hukukunun ilk uygulaması oldu."
+    }
+  },
+  "visualization": {
+    "default_zoom": 14,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_enemy": "#B71C1C",
+      "route_caravan": "#FF8F00",
+      "landmark": "#6A1B9A",
+      "cemetery": "#000000"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks"
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "polyline",
+        "default_visible": true,
+        "data_source": "spatial.routes"
+      },
+      {
+        "id": "layer_phases",
+        "name": "Savaş fazları (animasyon)",
+        "type": "animated_overlay",
+        "default_visible": false,
+        "data_source": "phases"
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvet konumları",
+        "type": "area_overlay",
+        "default_visible": false,
+        "data_source": "forces"
+      }
+    ]
+  }
+}

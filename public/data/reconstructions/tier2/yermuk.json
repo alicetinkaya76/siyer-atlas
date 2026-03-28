@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "id": "reconstruction_yermuk",
+    "battle_id": "yermuk",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Yermük Muharebesi (Receb 15 AH / Ağustos 636 CE). İslâm tarihinin en belirleyici savaşı. Hâlid b. Velîd'in taktik dehası ile Bizans'ın Suriye hâkimiyeti sona erdi. Herakleios'un topladığı büyük ordu Yermük vadisinde imha edildi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.7,
+        "lng": 35.95
+      },
+      "bbox": {
+        "north": 32.78,
+        "south": 32.62,
+        "east": 36.05,
+        "west": 35.85
+      },
+      "terrain_type": "river_valley",
+      "terrain_desc": {
+        "tr": "Yermük Nehri vadisi, Golan Tepeleri'nin güneyi ile Ürdün platosu arasında derin bir boğaz. Güneyde Vâdî Rukkâd ile kuzeyde Yermük arasında doğal bir tuzak oluşturuyor. Batıda uçurumlar, doğuda açık step.",
+        "en": "The Yarmūk River valley, a deep gorge between the southern Golan Heights and the Jordanian plateau. A natural trap between Wādī Ruqqād to the south and the Yarmūk to the north. Cliffs to the west, open steppe to the east."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_yermuk_kopru",
+        "name": {
+          "tr": "Yermük Köprüsü",
+          "en": "Yarmūk Bridge"
+        },
+        "lat": 32.7,
+        "lng": 35.94,
+        "type": "bridge",
+        "note_tr": "Bizans geri çekilme güzergâhındaki kritik köprü; Hâlid'in süvarisi bunu keserek çekilme yolunu tıkadı."
+      },
+      {
+        "id": "lm_rukkad_vadisi",
+        "name": {
+          "tr": "Vâdî Rukkâd Uçurumu",
+          "en": "Wādī Ruqqād Gorge"
+        },
+        "lat": 32.68,
+        "lng": 35.92,
+        "type": "natural_barrier",
+        "note_tr": "Derin uçurum; Bizans askerlerinin kaçış sırasında düştüğü yer."
+      },
+      {
+        "id": "lm_yermuk_kamp_islam",
+        "name": {
+          "tr": "İslâm Ordusu Kampı",
+          "en": "Muslim Army Camp"
+        },
+        "lat": 32.73,
+        "lng": 36.0,
+        "type": "camp",
+        "note_tr": "Jâbiye düzlüğüne yakın İslâm karargâhı."
+      },
+      {
+        "id": "lm_yermuk_kamp_bizans",
+        "name": {
+          "tr": "Bizans Karargâhı",
+          "en": "Byzantine Camp"
+        },
+        "lat": 32.72,
+        "lng": 35.9,
+        "type": "camp",
+        "note_tr": "Bizans ordusunun nehir ile vadi arasındaki konumu."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_halid_manevra",
+        "name": {
+          "tr": "Hâlid Süvari Çevirme Manevras",
+          "en": "Khālid's Cavalry Flanking Maneuver"
+        },
+        "type": "flanking",
+        "waypoints": [
+          {
+            "lat": 32.73,
+            "lng": 36.0,
+            "label": "İslâm sağ kanadı"
+          },
+          {
+            "lat": 32.75,
+            "lng": 35.98,
+            "label": "Kuzeye dolanma"
+          },
+          {
+            "lat": 32.72,
+            "lng": 35.93,
+            "label": "Köprü baskını"
+          },
+          {
+            "lat": 32.7,
+            "lng": 35.91,
+            "label": "Bizans gerisini kesme"
+          }
+        ]
+      },
+      {
+        "id": "route_bizans_cekilme",
+        "name": {
+          "tr": "Bizans Geri Çekilme Yolu",
+          "en": "Byzantine Retreat Route"
+        },
+        "type": "retreat",
+        "waypoints": [
+          {
+            "lat": 32.72,
+            "lng": 35.9,
+            "label": "Bizans kampı"
+          },
+          {
+            "lat": 32.7,
+            "lng": 35.94,
+            "label": "Köprüye doğru"
+          },
+          {
+            "lat": 32.68,
+            "lng": 35.92,
+            "label": "Rukkâd uçurumları (tuzak)"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Bizans karşı taarruzu",
+        "en": "Background: Byzantine counter-offensive"
+      },
+      "date_range": {
+        "start": "Rebîülâhir 15 AH",
+        "end": "Cemâziyelâhir 15 AH"
+      },
+      "duration": "~3 ay hazırlık",
+      "description": {
+        "tr": "İmparator Herakleios, Ecnâdeyn ve Fihl yenilgilerinden sonra büyük bir karşı taarruz ordusu topladı. Suriye-Filistin garnizonları, Ermeni ve Arap (Gassânî) yardımcı kuvvetler birleştirildi. Hâlid b. Velîd, dağınık İslâm birliklerini tek ordu altında birleştirdi.",
+        "en": "Emperor Heraclius assembled a massive counter-offensive army after the defeats at Ajnādayn and Fiḥl. Syrian-Palestinian garrisons, Armenian and Arab (Ghassānid) auxiliary forces were combined. Khālid b. al-Walīd unified the dispersed Muslim forces under a single army."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Herakleios'un ordu toplama emri",
+          "description_tr": "İmparator Antakya'dan büyük seferberlik başlattı."
+        },
+        {
+          "id": "E0_2",
+          "name_tr": "Hâlid'in kuvvet birleştirmesi",
+          "description_tr": "Ebû Ubeyde, Yezîd b. Ebî Süfyân ve diğer komutanlarla tek ordu oluşturuldu."
+        }
+      ]
+    },
+    {
+      "id": "F1_karsilasma",
+      "order": 1,
+      "name": {
+        "tr": "Karşılaşma ve diplomatik temaslar",
+        "en": "Encounter and diplomatic contacts"
+      },
+      "date_range": {
+        "start": "5 Receb 15 AH",
+        "end": "~15 Receb 15 AH"
+      },
+      "duration": "~10 gün",
+      "description": {
+        "tr": "İki ordu Yermük vadisinde karşı karşıya geldi. Günlerce diplomatik temaslar yapıldı. Ebû Ubeyde ve Hâlid, Bizans komutanı Vahan ile görüştü. İslâm'a davet, cizye veya savaş seçenekleri sunuldu. Vahan reddetti.",
+        "en": "The two armies faced each other in the Yarmūk valley. Days of diplomatic contacts ensued. Abū ʿUbayda and Khālid met with Byzantine commander Vahan. Options of Islam, jizya, or battle were presented. Vahan refused."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Ebû Ubeyde-Vahan görüşmesi",
+          "description_tr": "Barış teklifleri reddedildi."
+        },
+        {
+          "id": "E1_2",
+          "name_tr": "Hâlid'in savaş düzeni planı",
+          "description_tr": "Ordu 36-40 alaya bölündü; mobil süvari yedek ayrıldı."
+        }
+      ]
+    },
+    {
+      "id": "F2_ilk_gunler",
+      "order": 2,
+      "name": {
+        "tr": "İlk günler: Bizans taarruzu",
+        "en": "Opening days: Byzantine offensive"
+      },
+      "date_range": {
+        "start": "15 Receb 15 AH",
+        "end": "17 Receb 15 AH"
+      },
+      "duration": "3 gün",
+      "description": {
+        "tr": "Bizans taarruzu başladı. Çok sayıda süvari ile İslâm sol kanadı geri çekildi. Kadın sahâbîler (Hind bint Utbe, Esmâ bint Ebî Bekr) çadır direkleriye geri çekilenleri durdurmaya çalıştı. Hâlid süvari yedekleriyle karşı taarruzlar düzenledi.",
+        "en": "The Byzantine offensive began. Numerous cavalry forced the Muslim left wing back. Women companions (Hind bint ʿUtba, Asmāʾ bint Abī Bakr) tried to stop retreating soldiers with tent poles. Khālid organized counter-attacks with cavalry reserves."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "İslâm sol kanadının geri çekilmesi",
+          "description_tr": "Bizans ağır süvarisi etkili oldu."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Kadın sahâbîlerin direnişi",
+          "description_tr": "Geri çekilenleri savaş alanına döndürdüler."
+        },
+        {
+          "id": "E2_3",
+          "name_tr": "Hâlid'in karşı taarruzları",
+          "description_tr": "Mobil süvari ile Bizans ilerlemesi durduruldu."
+        }
+      ]
+    },
+    {
+      "id": "F3_cevirme",
+      "order": 3,
+      "name": {
+        "tr": "Hâlid'in çevirme harekâtı",
+        "en": "Khālid's envelopment maneuver"
+      },
+      "date_range": {
+        "start": "18 Receb 15 AH",
+        "end": "19 Receb 15 AH"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Hâlid, süvari birliğiyle Bizans ordusunun arkasına dolanarak Yermük köprüsü bağlantısını kesti. Geri çekilme yolu kapandı. Kum fırtınası Bizans cephesine çarptı (doğudan esen rüzgâr). Bizans safları karıştı.",
+        "en": "Khālid circled behind the Byzantine army with his cavalry and cut off the Yarmūk bridge connection. The retreat route was closed. A sandstorm hit the Byzantine front (east wind). Byzantine lines fell into disorder."
+      },
+      "events": [
+        {
+          "id": "E3_1",
+          "name_tr": "Köprü baskını",
+          "description_tr": "Hâlid süvarisi Yermük köprüsünü ele geçirdi."
+        },
+        {
+          "id": "E3_2",
+          "name_tr": "Kum fırtınası",
+          "description_tr": "Doğu rüzgârı Bizans yüzüne kum savurdu."
+        },
+        {
+          "id": "E3_3",
+          "name_tr": "Bizans panik halinde geri çekilme",
+          "description_tr": "Köprüsüz geri çekilme Rukkâd uçurumlarına yöneldi."
+        }
+      ]
+    },
+    {
+      "id": "F4_imha",
+      "order": 4,
+      "name": {
+        "tr": "Kesin gün: Bizans ordusunun imhası",
+        "en": "Decisive day: Destruction of the Byzantine army"
+      },
+      "date_range": {
+        "start": "20 Receb 15 AH",
+        "end": "20 Receb 15 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Bizans ordusu Vâdî Rukkâd uçurumlarına sıkıştırıldı. Kaçmaya çalışanlar uçurumlardan düştü. Çok büyük kayıplar verildi. Vahan muhtemelen öldürüldü. Herakleios Antakya'dan ayrılırken 'Elveda Suriye!' dedi (Taberî). Suriye tamamen İslâm'a açıldı.",
+        "en": "The Byzantine army was trapped against the Wādī Ruqqād gorges. Those trying to flee fell from the cliffs. Catastrophic losses. Vahan was likely killed. Heraclius, departing Antioch, said 'Farewell Syria!' (al-Ṭabarī). Syria was fully opened to Islam."
+      },
+      "events": [
+        {
+          "id": "E4_1",
+          "name_tr": "Rukkâd uçurumlarında imha",
+          "description_tr": "Binlerce Bizans askeri uçurumlardan düştü."
+        },
+        {
+          "id": "E4_2",
+          "name_tr": "Herakleios'un vedası",
+          "description_tr": "'Elveda güzel diyar!' (Taberî rivayeti)."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~25.000-40.000",
+      "commander": "halid_b_velid",
+      "commander_name": {
+        "tr": "Hâlid b. Velîd (taktik kumandan) / Ebû Ubeyde b. Cerrâh (başkumandan)",
+        "en": "Khālid b. al-Walīd (field commander) / Abū ʿUbayda b. al-Jarrāḥ (supreme commander)"
+      },
+      "composition": {
+        "sag_kanat": {
+          "note_tr": "Muâz b. Cebel / Amr b. Âs komutasında"
+        },
+        "sol_kanat": {
+          "note_tr": "Yezîd b. Ebî Süfyân komutasında"
+        },
+        "merkez": {
+          "note_tr": "Ebû Ubeyde b. Cerrâh"
+        },
+        "suvari_yedek": {
+          "note_tr": "Hâlid b. Velîd'in mobil süvari birliği — savaşın kaderini değiştirdi"
+        }
+      },
+      "equipment": {
+        "note_tr": "Hafif süvari ağırlıklı; mızrak, kılıç, ok. Deve ve at."
+      },
+      "banner_bearer": {
+        "tr": "Ebû Süfyân b. Harb (İslâm sancağı taşıyanlardan)",
+        "en": "Abū Sufyān b. Ḥarb (among the banner bearers)"
+      }
+    },
+    "enemy": {
+      "total": "~100.000-200.000 (kaynaklara göre değişir; modern tahminler ~15.000-40.000)",
+      "commander_name": {
+        "tr": "Vahan (Ermeni asıllı Bizans generali) / Theodorus Trithyrius",
+        "en": "Vahan (Armenian Byzantine general) / Theodore Trithyrius"
+      },
+      "composition": {
+        "bizans_profesyonel": {
+          "note_tr": "Bizans düzenli ordusu (cataphract ağır süvari dahil)"
+        },
+        "ermeni": {
+          "note_tr": "Ermeni yardımcı kuvvetler"
+        },
+        "gassani": {
+          "note_tr": "Gassânî Arap müttefikleri (Cebele b. Eyhem)"
+        },
+        "slavlar": {
+          "note_tr": "Slav paralı askerler"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "III/396-410",
+        "note_tr": "En kapsamlı anlatım; faz faz muharebe detayı."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Fütûhu'ş-Şâm",
+        "section": "",
+        "note_tr": "Erken fetih dönemi; bazı detaylar tartışmalı."
+      },
+      {
+        "author": "Belâzürî",
+        "work": "Fütûhu'l-Büldân",
+        "section": "135-142",
+        "note_tr": "Coğrafî ve idari detaylar."
+      },
+      {
+        "author": "İbn İshâk / İbn Hişâm",
+        "work": "es-Sîre",
+        "section": "",
+        "note_tr": "Erken kaynak; sınırlı muharebe detayı."
+      }
+    ],
+    "hadith": [],
+    "modern_studies": [
+      {
+        "author": "W. E. Kaegi",
+        "work": "Byzantium and the Early Islamic Conquests",
+        "note_tr": "Bizans perspektifinden kapsamlı analiz."
+      },
+      {
+        "author": "M. Hamidullah",
+        "work": "İslam Peygamberi",
+        "note_tr": "Genel bağlam ve askeri analiz."
+      },
+      {
+        "author": "A. I. Akram",
+        "work": "The Sword of Allah: Khalid bin al-Waleed",
+        "note_tr": "Hâlid'in taktiklerine odaklanan detaylı inceleme."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Asker sayıları",
+        "detail_tr": "Bizans: 100.000-200.000 (erken İslâm kaynakları) vs 15.000-40.000 (modern tahminler). İslâm: 25.000-46.000.",
+        "resolution_tr": "Modern tarihçiler genellikle daha düşük rakamları kabul eder; İslâm: ~25.000, Bizans: ~20.000-40.000."
+      },
+      {
+        "topic_tr": "Savaşın tarihi",
+        "detail_tr": "5. veya 20. Receb 15 AH tartışmalı.",
+        "resolution_tr": "Taberî'nin 15 AH Receb anlatımı esas alındı."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "9-12",
+      "topic": {
+        "tr": "Allah'ın meleklerle yardımı — Bedir bağlamında inmiş olsa da tüm cihad savaşları için genel ilke",
+        "en": "God's aid with angels — revealed for Badr but a general principle for all jihad battles"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "Bin melekle takviye",
+          "phase_id": "F3_cevirme"
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "139-142",
+      "topic": {
+        "tr": "Sabır ve sebat emri; mü'minlerin üstün olacağı vaadi",
+        "en": "Command for patience and steadfastness; promise of believers' superiority"
+      },
+      "key_verses": [
+        {
+          "ayah": 139,
+          "topic_tr": "Gevşemeyin, üzülmeyin; mü'minseniz üstün olan sizsiniz",
+          "phase_id": "F2_ilk_gunler"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_yermuk_halid_kilic",
+      "topic": "Hâlid b. Velîd'in Yermük'te 9 kılıç kırdığı rivayeti",
+      "relevance": "direct",
+      "source": "Buhârî, Megâzî"
+    },
+    {
+      "hadith_id": "hds_suriye_fethi",
+      "topic": "Suriye fethi müjdesi — 'Şam (Suriye) mutlaka fethedilecektir'",
+      "relevance": "contextual",
+      "source": "Müslim"
+    },
+    {
+      "hadith_id": "hds_ebu_ubeyde_emin",
+      "topic": "Ebû Ubeyde b. Cerrâh'ın 'ümmetin emîni' vasfı",
+      "relevance": "contextual",
+      "source": "Buhârî, Menâkıb"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Bizans'ın Suriye'deki askeri varlığı tamamen yok edildi. Herakleios bir daha Suriye'yi geri almaya teşebbüs edemedi. İslâm ordularına Filistin, Lübnan ve Kuzey Suriye yolu açıldı.",
+      "en": "Byzantine military presence in Syria was completely destroyed. Heraclius never again attempted to reclaim Syria. The path to Palestine, Lebanon and northern Syria was opened for Muslim armies."
+    },
+    "political": {
+      "tr": "Suriye vilayeti kalıcı olarak Bizans'tan koptu. Gassânî tampon devleti sona erdi. Dımaşk İslâm'ın idari merkezi haline gelecekti (Emevîler).",
+      "en": "The Syrian province was permanently severed from Byzantium. The Ghassānid buffer state ended. Damascus would become the administrative center of Islam (Umayyads)."
+    },
+    "social": {
+      "tr": "Suriye'nin yerli Arap ve Süryânî nüfusu büyük ölçüde barışçıl geçiş yaşadı. Cizye sistemi kuruldu.",
+      "en": "The native Arab and Syriac population of Syria largely experienced a peaceful transition. The jizya system was established."
+    },
+    "theological": {
+      "tr": "Yermük zaferi, Hz. Ebû Bekir döneminde başlayan fetih hareketinin meşruiyetini pekiştirdi. 'Allah'ın kılıcı' Hâlid'in taktik dehası tarihsel hafızaya kazındı.",
+      "en": "The Yarmūk victory cemented the legitimacy of the conquest movement begun under Abū Bakr. The tactical genius of 'the Sword of God' Khālid was etched into historical memory."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "~3.000-4.000",
+        "wounded": "bilinmiyor",
+        "note_tr": "İkrime b. Ebî Cehl ve oğlu şehit düştü."
+      },
+      "enemy": {
+        "killed": "~50.000+ (abartılı olabilir)",
+        "wounded": "bilinmiyor",
+        "note_tr": "Birçoğu Rukkâd uçurumlarında öldü."
+      }
+    },
+    "territorial_change": {
+      "tr": "Tüm Suriye ve Filistin İslâm hâkimiyetine geçti. Antakya-Halep hattına kadar fetihler hızlandı.",
+      "en": "All of Syria and Palestine passed under Muslim control. Conquests accelerated to the Antioch-Aleppo line."
+    },
+    "subsequent_events": [
+      {
+        "id": "fetih_dimask",
+        "name_tr": "Dımaşk Fethi (Receb 14 AH)",
+        "description_tr": "Yermük sonrası Dımaşk direniş göstermeden teslim oldu."
+      },
+      {
+        "id": "fetih_kudus",
+        "name_tr": "Kudüs Fethi (17 AH)",
+        "description_tr": "Patriğin talebiyle Hz. Ömer bizzat Kudüs'e geldi."
+      },
+      {
+        "id": "fetih_misir",
+        "name_tr": "Mısır Seferi (19 AH)",
+        "description_tr": "Suriye güvenceye alındıktan sonra Amr b. Âs Mısır'a yöneldi."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "route_march": "#1565C0",
+      "route_flanking": "#FF8F00",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Rotalar",
+        "type": "overlay",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "recon_seriyye_ebu_seleme",
+    "battle_id": "seriyye_ebu_seleme",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.0,
+        "lng": 40.0
+      },
+      "name": "Katan suyu (Benî Esed yurdu)",
+      "modern_location": "Necid batısı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görev",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Tuleyha'nın topladığı kuvvete karşı Katan suyuna sevk.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Baskın",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Gece baskını, düşman dağıldı. Deve ve koyun sürüleri ele geçirildi.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Dönüş",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Ebû Seleme yaralıydı (Uhud yarası nüksetmişti), Medine'ye döndü ve vefat etti.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ebû Seleme b. Abdülesed",
+      "estimated_troops": 150,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/340-343",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Düşman dağıtıldı",
+    "significance": "Uhud sonrası caydırıcılığın sürdürülmesi. Ebû Seleme'nin son görevi.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

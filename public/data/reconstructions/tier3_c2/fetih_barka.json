@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "recon_fetih_barka",
+    "battle_id": "fetih_barka",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.37,
+        "lng": 20.07
+      },
+      "name": "Berka Fethi",
+      "modern_location": "Bingazi yakını, Libya"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "22",
+      "duration": "",
+      "description": "Amr Mısır'dan batıya yürüdü.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sulh",
+      "date_range": "22",
+      "duration": "",
+      "description": "Berka halkı sulh yaptı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. Âs",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 227",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_misir_fetih",
+      "topic": "Hz. Peygamber'in Mısır ve çevresinin (Kıptîler) fethi hakkındaki vasiyeti",
+      "relevance": "contextual",
+      "source": "Müslim, Fedâilü's-Sahâbe (Mısır kıptîleri bahsi)"
+    }
+  ],
+  "impact": {
+    "result": "Sulh",
+    "significance": "Kuzey Afrika'ya doğru ilk adım.",
+    "cross_references": [
+      "fetih_misir"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

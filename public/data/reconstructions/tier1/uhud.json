@@ -1,0 +1,1450 @@
+{
+  "meta": {
+    "id": "reconstruction_uhud",
+    "battle_id": "gazve_uhud",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Uhud — İslâm tarihinin en dramatik muharebesi. Okçuların mevzi terk etmesi, Hz. Peygamber'in yaralanması, Hz. Hamza'nın şehâdeti. 9 faz (F5a-F5d özel alt fazlar). Bedir şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.5028,
+        "lng": 39.6139
+      },
+      "bbox": {
+        "north": 24.515,
+        "south": 24.49,
+        "east": 39.63,
+        "west": 39.6
+      },
+      "terrain_type": "mountain_plain",
+      "terrain_desc": {
+        "tr": "Medîne'nin kuzeyinde, Uhud dağının güneyindeki düzlük. Uhud dağı doğal siper olarak kuzeyi korur. Güneybatıda Ayneyn (Okçular) tepesi stratejik kontrol noktası. Dağ ile tepe arasındaki geçit düşman süvarisinin kuşatma güzergâhı. Vadi ve kuru dere yatakları araziyi bölümler.",
+        "en": "Plain south of Mount Uhud, north of Medina. Uhud mountain provides natural cover from the north. Aynayn (Archers') hill to the southwest controls the flank. The gap between mountain and hill formed the cavalry flanking route. Wadis and dry streambeds segment the terrain."
+      },
+      "elevation_m": 625,
+      "area_km2": 4.0,
+      "coord_source": "google_maps + hamidullah_map_uhud + modern_site_visit"
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_uhud_dagi",
+        "name": {
+          "ar": "جبل أحد",
+          "tr": "Uhud Dağı",
+          "en": "Mount Uhud"
+        },
+        "lat": 24.51,
+        "lng": 39.612,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Müslüman ordusunun arkasını koruyan doğal siper. Hz. Peygamber sırtını bu dağa vererek mevzilendi. 'Uhud bizi sever, biz de onu severiz' hadisi.",
+          "en": "Natural barrier protecting the Muslim rear. The Prophet positioned his army with backs to this mountain. 'Uhud loves us and we love it' hadith."
+        },
+        "elevation_m": 1077,
+        "confidence": "verified",
+        "coord_source": "google_maps_verified"
+      },
+      {
+        "id": "lm_ayneyn",
+        "name": {
+          "ar": "جبل عينين (جبل الرماة)",
+          "tr": "Ayneyn Tepesi (Okçular Tepesi)",
+          "en": "Aynayn Hill (Archers' Hill)"
+        },
+        "lat": 24.4985,
+        "lng": 39.6075,
+        "type": "strategic_position",
+        "strategic_role": {
+          "tr": "Hz. Peygamber'in 50 okçu yerleştirdiği stratejik tepe. Sol kanadı ve geçidi kontrol eder. Komutan: Abdullah b. Cübeyr. Emir: 'Bizi kuşlar kapsa bile yerinizden ayrılmayın.' Okçuların terk etmesi savaşın dönüm noktası.",
+          "en": "Strategic hill where the Prophet placed 50 archers. Controls the left flank and pass. Commander: Abdullah ibn Jubayr. Order: 'Do not leave even if birds snatch us.' Archers' departure was the turning point."
+        },
+        "elevation_m": 680,
+        "confidence": "verified",
+        "coord_source": "google_maps_verified + modern_ziyaret_yeri"
+      },
+      {
+        "id": "lm_hamza_sehitlik",
+        "name": {
+          "ar": "مقبرة شهداء أحد",
+          "tr": "Uhud Şehitliği (Hz. Hamza kabri)",
+          "en": "Uhud Martyrs' Cemetery (Hamza's grave)"
+        },
+        "lat": 24.501,
+        "lng": 39.615,
+        "type": "burial_site",
+        "strategic_role": {
+          "tr": "70 şehidin, başta Hz. Hamza'nın defnedildiği alan. Savaş sonrası Hz. Peygamber şehitlerin üzerine namaz kıldı. Günümüzde ziyaret yeri.",
+          "en": "Burial ground of 70 martyrs, primarily Hamza. The Prophet prayed over the martyrs after battle. A visitation site today."
+        },
+        "confidence": "verified",
+        "coord_source": "google_maps_verified"
+      },
+      {
+        "id": "lm_savaş_alani",
+        "name": {
+          "ar": "ساحة المعركة",
+          "tr": "Ana savaş alanı düzlüğü",
+          "en": "Main battlefield plain"
+        },
+        "lat": 24.501,
+        "lng": 39.611,
+        "type": "battlefield_plain",
+        "strategic_role": {
+          "tr": "Uhud dağı ile Ayneyn tepesi arasındaki düzlük. İlk saflar burada dizildi. Düelloların ve ana muharebenin gerçekleştiği alan.",
+          "en": "Plain between Mount Uhud and Aynayn hill. Initial battle lines formed here. Site of duels and main combat."
+        },
+        "confidence": "high",
+        "coord_source": "hamidullah_map_uhud"
+      },
+      {
+        "id": "lm_gecit",
+        "name": {
+          "ar": "الخلة (الثغرة)",
+          "tr": "Geçit (Ayneyn-Uhud arası boşluk)",
+          "en": "The Gap (passage between Aynayn and Uhud)"
+        },
+        "lat": 24.5005,
+        "lng": 39.606,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Ayneyn tepesi ile savaş alanı arasındaki geçit. Okçular burayı kapatıyordu. Terk edilince Hâlid b. Velîd bu geçitten süvari ile arkadan dolandı.",
+          "en": "Pass between Aynayn hill and the battlefield. Archers blocked this. When abandoned, Khalid ibn al-Walid's cavalry flanked through here."
+        },
+        "confidence": "high",
+        "coord_source": "hamidullah_map_uhud + WQ_I/220"
+      },
+      {
+        "id": "lm_peygamber_yaralanma",
+        "name": {
+          "ar": "موقع جرح النبي",
+          "tr": "Hz. Peygamber'in yaralandığı nokta (tahmini)",
+          "en": "Site where the Prophet was wounded (estimated)"
+        },
+        "lat": 24.5045,
+        "lng": 39.6125,
+        "type": "event_site",
+        "strategic_role": {
+          "tr": "Hz. Peygamber'in dişinin kırıldığı, yüzüne miğfer parçasının battığı bölge. Dağ yamacına çekilme sırasında. Etrafında Ali, Talha, Sa'd b. Ebî Vakkâs, Ebû Dücâne koruma halkası oluşturdu.",
+          "en": "Area where the Prophet's tooth was broken and helmet fragment wounded his face. During retreat toward the mountain slope. Ali, Talha, Sa'd, and Abu Dujana formed a protective ring."
+        },
+        "confidence": "estimated",
+        "coord_source": "IH_III/23-30 + hamidullah_map"
+      },
+      {
+        "id": "lm_kureysli_kamp",
+        "name": {
+          "ar": "معسكر قريش",
+          "tr": "Kureyş karargâhı",
+          "en": "Quraysh camp"
+        },
+        "lat": 24.495,
+        "lng": 39.614,
+        "type": "enemy_camp",
+        "strategic_role": {
+          "tr": "Kureyş ordusunun 3.000 kişilik kampı. Güney tarafta, düzlüğün karşısında. Hind bt. Utbe burada savaşçıları def çalarak motive etti.",
+          "en": "Quraysh army camp of 3,000. On the southern side. Hind bint Utba motivated warriors here with tambourine playing."
+        },
+        "confidence": "estimated",
+        "coord_source": "IH_III/6 + WQ_I/207"
+      },
+      {
+        "id": "lm_sib_uhud",
+        "name": {
+          "ar": "شِعب أحد",
+          "tr": "Uhud dağı şibi (sığınak vadi)",
+          "en": "Gorge of Uhud (refuge ravine)"
+        },
+        "lat": 24.507,
+        "lng": 39.613,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Bozgun sonrası Hz. Peygamber ve bir grup sahâbînin sığındığı dağ yarığı. Buradan toparlanma sağlandı.",
+          "en": "Mountain gorge where the Prophet and companions took refuge after the rout. Regrouping happened here."
+        },
+        "confidence": "estimated",
+        "coord_source": "IH_III/30 + BM_megazi"
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_uhud",
+        "name": {
+          "tr": "Medîne → Uhud güzergâhı (gece yürüyüşü)",
+          "en": "Medina → Uhud route (night march)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "name": "Medîne (Mescid-i Nebevî)",
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "note_tr": "Cum'a namazı sonrası çıkış"
+          },
+          {
+            "name": "Şeyhân",
+            "lat": 24.48,
+            "lng": 39.612,
+            "note_tr": "Gece konaklama, ordu gözden geçirildi. Abdullah b. Übey burada 300 kişiyle ayrıldı.",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Şevt bahçeleri",
+            "lat": 24.49,
+            "lng": 39.613,
+            "note_tr": "Uhud'a yakın geçiş noktası",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Uhud savaş alanı",
+            "lat": 24.501,
+            "lng": 39.611
+          }
+        ]
+      },
+      {
+        "id": "route_mekke_uhud",
+        "name": {
+          "tr": "Mekke → Uhud (Kureyş güzergâhı)",
+          "en": "Mecca → Uhud (Quraysh route)"
+        },
+        "type": "enemy_march",
+        "waypoints": [
+          {
+            "name": "Mekke",
+            "lat": 21.4225,
+            "lng": 39.8262
+          },
+          {
+            "name": "Abvâ",
+            "lat": 23.1,
+            "lng": 39.1,
+            "note_tr": "Ara konaklama",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Medîne yakınları (güney)",
+            "lat": 24.45,
+            "lng": 39.62,
+            "note_tr": "Kureyş Medîne'nin güneyinden dolaşarak Uhud düzlüğüne ulaştı",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Uhud düzlüğü (güney cephe)",
+            "lat": 24.495,
+            "lng": 39.614
+          }
+        ]
+      },
+      {
+        "id": "route_halid_kuşatma",
+        "name": {
+          "tr": "Hâlid b. Velîd kuşatma güzergâhı",
+          "en": "Khalid ibn al-Walid flanking route"
+        },
+        "type": "flanking_maneuver",
+        "waypoints": [
+          {
+            "name": "Kureyş sağ kanadı",
+            "lat": 24.497,
+            "lng": 39.607,
+            "note_tr": "Hâlid'in süvari birliğinin başlangıç noktası"
+          },
+          {
+            "name": "Ayneyn geçidi",
+            "lat": 24.5005,
+            "lng": 39.606,
+            "note_tr": "Okçular terk edince açılan boşluk"
+          },
+          {
+            "name": "Müslüman arka cephe",
+            "lat": 24.503,
+            "lng": 39.61,
+            "note_tr": "Arkadan kuşatma — bozgunun başladığı nokta"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Bedir intikamı ve Kureyş hazırlığı",
+        "en": "Background: Revenge for Badr and Quraysh preparations"
+      },
+      "date_range": "Şevvâl 2 – Şevvâl 3 AH (Nisan 624 – Mart 625)",
+      "duration": "~11 ay hazırlık",
+      "description": {
+        "tr": "Bedir'de 70 ileri gelenini kaybeden Kureyş, intikam için bir yıl boyunca hazırlandı. Ebû Süfyân kervan gelirlerini savaş fonuna aktardı. Müttefik kabileler toplandı: Kinâne, Tihâme Arapları, Sakîf. Hind bt. Utbe (Ebû Süfyân'ın karısı) intikamın en güçlü savunucusuydu — babası Utbe, amcası Şeybe ve kardeşi Velîd Bedir'de öldürülmüştü. 3.000 kişilik ordu, 200 süvari, 3.000 deve ile yola çıktı. Kadınlar da eşlik etti — moral ve geri dönüşü engellemek için.",
+        "en": "Quraysh, having lost 70 notables at Badr, spent a year preparing for revenge. Abu Sufyan channeled caravan revenues into a war fund. Allied tribes gathered: Kinana, Tihama Arabs, Thaqif. Hind bint Utba was the fiercest advocate for vengeance — her father Utba, uncle Shayba, and brother Walid were killed at Badr. An army of 3,000 with 200 cavalry and 3,000 camels set out. Women accompanied to boost morale and prevent retreat."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Ebû Süfyân tüm kervan gelirlerini savaş fonuna aktardı",
+            "en": "Abu Sufyan diverted all caravan revenues to the war fund"
+          },
+          "maker": "comp_ebu_sufyan_det",
+          "participants": [
+            "comp_ebu_sufyan_det"
+          ],
+          "impact": {
+            "tr": "Kureyş'in en büyük askerî seferberliğinin mali altyapısı oluşturuldu. Ticaret gelirlerinin askere dönüşümü.",
+            "en": "Financial infrastructure for Quraysh's largest military mobilization. Converting trade revenues into military power."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kureysli_kamp"
+        ],
+        "zoom": 8,
+        "focus": "regional_preparation"
+      }
+    },
+    {
+      "id": "F1_consultation",
+      "order": 1,
+      "name": {
+        "tr": "İstişâre: Medîne'de savunma mı, dışarıda savaş mı?",
+        "en": "Consultation: Defend inside Medina or fight outside?"
+      },
+      "date_range": "5-6 Şevvâl 3 AH",
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Kureyş ordusunun Medîne'ye yaklaştığı haberi ulaştı. Hz. Peygamber rüyasında zırhlı bir şehir gördü ve Medîne'de kalarak savunma savaşı (sokak savaşı / tuzak) yapmayı tercih etti. Abdullah b. Übey de bu görüşteydi. Ancak Bedir'e katılamayan genç sahâbîler ve Hamza başta olmak üzere coşkulu savaşçılar dışarıda karşılamayı ısrarla istedi: 'Yâ Resûlallah, bizi düşmanımızla buluştur!' Hz. Peygamber istişâre sonucu çoğunluk kararına uydu ve dışarıda savaşmaya karar verdi. Zırhını giyip çıktı. Bazıları pişman olup 'zorladık mı?' diye sordular; Hz. Peygamber 'Peygamber zırhını giydikten sonra çıkarmaz' dedi.",
+        "en": "News arrived that the Quraysh army was approaching Medina. The Prophet saw armored city in a dream and preferred defending inside Medina (urban warfare / ambush). Abdullah ibn Ubayy shared this view. However, enthusiastic young companions and warriors led by Hamza insisted on meeting the enemy outside: 'O Messenger, lead us to our enemy!' The Prophet followed majority counsel and decided to fight outside. He donned his armor. Some regretted pressuring him; the Prophet said: 'A Prophet does not remove his armor once put on.'"
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Medîne dışında, açık alanda savaşma kararı (istişâre ile)",
+            "en": "Decision to fight outside Medina in open field (by consultation)"
+          },
+          "maker": "prophet",
+          "participants": [
+            "hamza",
+            "ali",
+            "comp_sad_vakkas"
+          ],
+          "impact": {
+            "tr": "İstişâre ilkesi: Hz. Peygamber kendi görüşünden vazgeçip çoğunluğa uydu. Bu İslâm siyaset teorisinde şûrâ prensibinin temel örneği. Ancak Uhud'un sonucu bu kararın riskini gösterdi.",
+            "en": "Principle of consultation: The Prophet relinquished his own view and followed the majority. A foundational example of shura in Islamic political theory. Yet Uhud's outcome demonstrated the risk of this decision."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_uhud_dagi"
+        ],
+        "zoom": 12,
+        "focus": "medina_consultation"
+      }
+    },
+    {
+      "id": "F2_march",
+      "order": 2,
+      "name": {
+        "tr": "Çıkış ve yürüyüş: Medîne → Uhud + Abdullah b. Übey'in ayrılması",
+        "en": "Departure and march: Medina → Uhud + Ibn Ubayy's desertion"
+      },
+      "date_range": "6 Şevvâl 3 AH (Cum'a akşamı – Cumartesi sabahı)",
+      "duration": "1 gece",
+      "description": {
+        "tr": "Hz. Peygamber Cum'a namazından sonra 1.000 kişilik orduyla Medîne'den kuzeye, Uhud'a doğru yürüyüşe geçti. Gece Şeyhân'da konakladı. Sabah ordusunu gözden geçirirken iki olay yaşandı: (1) 15 yaşından küçük gençler geri gönderildi (Râfi' b. Hadîc ve Semure b. Cündeb istisna — ok atma becerileri nedeniyle). (2) Abdullah b. Übey, 300 münafık ve müttefikiyle ayrıldı: 'Bize danışmadı, çocuklara uydu. Neden kendimizi boşuna öldürelim?' Ordu 700 kişiye düştü. Bu ayrılık morali sarstı. Âl-i İmrân 3:167-168 bu olaya işaret eder.",
+        "en": "The Prophet led 1,000 men north from Medina toward Uhud after Friday prayer. They camped at Shaykhan overnight. At morning review two events occurred: (1) Boys under 15 were sent back (exceptions: Rafi' ibn Khadij and Samura ibn Jundab for archery skill). (2) Abdullah ibn Ubayy deserted with 300 hypocrites and allies: 'He didn't consult us, he followed the youth. Why should we get ourselves killed?' Army reduced to 700. This desertion shook morale. Quran 3:167-168 references this event."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Abdullah b. Übey'in ayrılmasına rağmen yürüyüşe devam kararı",
+            "en": "Decision to continue the march despite Ibn Ubayy's desertion"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Ordunun %30'unu kaybetmek büyük risk. Ama geri dönmek moral çöküşü demekti. Hz. Peygamber kararlılıkla devam etti. Münafıkların ayrılması aynı zamanda safları netleştirdi.",
+            "en": "Losing 30% of the army was a major risk. But returning would collapse morale. The Prophet continued resolutely. The hypocrites' departure also clarified the ranks."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_uhud_dagi",
+          "lm_savaş_alani"
+        ],
+        "zoom": 13,
+        "focus": "march_route",
+        "active_route": "route_medine_uhud"
+      }
+    },
+    {
+      "id": "F3_positioning",
+      "order": 3,
+      "name": {
+        "tr": "Mevzilenme: Uhud dağı sırt, Ayneyn tepesine 50 okçu",
+        "en": "Positioning: Uhud as rear guard, 50 archers on Aynayn hill"
+      },
+      "date_range": "7 Şevvâl 3 AH sabahı",
+      "duration": "birkaç saat",
+      "description": {
+        "tr": "Hz. Peygamber savaş alanını titizlikle seçti: Uhud dağı arkada (kuzey), düşman güneyde. Sol kanatta Ayneyn tepesi stratejik zayıf nokta olarak belirlendi — burası düşman süvarisinin dolaşabileceği geçit. 50 seçkin okçuyu buraya yerleştirdi, komutan olarak Abdullah b. Cübeyr'i atadı. EMİR (mutlak): 'Bizi kuşların kaptığını görseniz bile yerinizden ayrılmayın. Zafer kazandığımızı görseniz bile gelmeyin, bozulduğumuzu görseniz bile yardıma gelmeyin. Yerinizde kalın!' Bu emir İslâm askerî tarihinin en kritik komutlarından biridir. Sağ kanat komutanı: Zübeyr b. Avvâm. Sancaktar: Mus'ab b. Umeyr.",
+        "en": "The Prophet chose the battlefield meticulously: Uhud mountain behind (north), enemy to the south. Aynayn hill on the left flank was identified as the strategic weakness — the pass through which enemy cavalry could circle. He placed 50 elite archers there under Abdullah ibn Jubayr with an ABSOLUTE ORDER: 'Do not leave your position even if you see birds snatching us. Do not come if you see us winning, do not come to help if you see us losing. Stay put!' This is one of the most critical orders in Islamic military history. Right wing commander: Zubayr ibn al-Awwam. Standard-bearer: Mus'ab ibn Umayr."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "50 okçunun Ayneyn tepesine yerleştirilmesi ve mutlak kalma emri",
+            "en": "Placement of 50 archers on Aynayn hill with absolute hold order"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Hz. Peygamber'in askerî dehasının göstergesi. Geçidin kapatılması düşman süvarisini etkisiz kılardı. Bu emre uyulsaydı Uhud kesin zaferle bitebilirdi. Emrin ihlali savaşın kaderini değiştirdi.",
+            "en": "Demonstration of the Prophet's military genius. Blocking the pass would have neutralized enemy cavalry. Had the order been obeyed, Uhud could have ended in decisive victory. Its violation changed the battle's fate."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Sırtı Uhud dağına verme taktiği",
+            "en": "Tactic of placing Uhud mountain at the rear"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Arkadan kuşatma riski minimize edildi. Düşmanın sayı üstünlüğü (3.000 vs 700) daraltılmış cephede etkisizleştirildi.",
+            "en": "Risk of rear encirclement minimized. Enemy numerical superiority (3,000 vs 700) neutralized on a narrowed front."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_uhud_dagi",
+          "lm_ayneyn",
+          "lm_savaş_alani",
+          "lm_gecit",
+          "lm_kureysli_kamp"
+        ],
+        "zoom": 14,
+        "focus": "full_positioning"
+      }
+    },
+    {
+      "id": "F4_prelude",
+      "order": 4,
+      "name": {
+        "tr": "Ön çatışma: Düellolar ve moral savaşı",
+        "en": "Prelude: Duels and morale warfare"
+      },
+      "date_range": "7 Şevvâl 3 AH sabahı",
+      "duration": "kısa (savaş öncesi)",
+      "description": {
+        "tr": "Savaş öncesi Kureyş sancaktarı Talha b. Ebî Talha (Abdüddâr oğulları sancağı taşırdı) meydan okudu. Ali b. Ebî Tâlib onu düelloda öldürdü. Sancağı alan her Abdüddâr savaşçısı sırayla öldürüldü — toplam 9 sancaktar düştü. Bu Kureyş'in moralini ciddi sarstı. Ebû Dücâne Hz. Peygamber'in kılıcını aldı ve kırmızı sarığını bağlayarak müşriklerin arasına daldı. Hind bt. Utbe ve diğer kadınlar def çalarak Kureyş savaşçılarını motive etti: şiirler söyleyerek Bedir intikamına çağırdı.",
+        "en": "Before general engagement, Quraysh standard-bearer Talha ibn Abi Talha (Abdud-Dar clan carried the banner) challenged. Ali killed him in single combat. Every Abdud-Dar warrior who took up the banner was killed in turn — 9 standard-bearers fell. This severely damaged Quraysh morale. Abu Dujana took the Prophet's sword and, tying his red turban, charged into the enemy. Hind bint Utba and other women played tambourines motivating Quraysh warriors, reciting war poetry calling for Badr vengeance."
+      },
+      "combats": [
+        {
+          "type": "duel",
+          "muslim": "ali",
+          "enemy": "Talha b. Ebî Talha (sancaktar)",
+          "result": "Talha öldürüldü",
+          "significance_tr": "Kureyş sancağı düştü. 9 sancaktar sırayla öldürüldü."
+        },
+        {
+          "type": "individual_charge",
+          "muslim": "ebu_ducane",
+          "weapon": "Hz. Peygamber'in kılıcı (Zülfekār değil, başka kılıç)",
+          "result": "Müşrik saflarında tahribat",
+          "significance_tr": "Ebû Dücâne kılıcı almak için 'hakkını verme' sözü verdi."
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_savaş_alani",
+          "lm_ayneyn",
+          "lm_kureysli_kamp"
+        ],
+        "zoom": 15,
+        "focus": "duels_frontline"
+      }
+    },
+    {
+      "id": "F5a_initial_victory",
+      "order": 5,
+      "name": {
+        "tr": "Ana muharebe — İlk aşama: Müslüman zaferi",
+        "en": "Main battle — Phase 1: Muslim victory"
+      },
+      "date_range": "7 Şevvâl 3 AH kuşluk",
+      "duration": "birkaç saat",
+      "description": {
+        "tr": "Genel saldırı başladığında müslümanlar büyük bir kararlılıkla savaştı. Hamza 'Esedullâh' (Allah'ın aslanı) lakabıyla en önde çarpıştı. Okçuların tepeden attığı ok yağmuru düşman süvarisini iki kez püskürttü. Kureyş safları dağılmaya başladı. Müşrikler kaçışmaya, kadınlar dağa doğru çekilmeye başladı. Müslümanlar Kureyş kampına ulaşarak ganîmet toplamaya başladı. ZAFER KESİN GÖRÜNüYORDU. Ancak tam bu noktada felaket başladı...",
+        "en": "When the general assault began, Muslims fought with great determination. Hamza, called 'Asadullah' (Lion of God), fought at the forefront. Arrows raining from Aynayn hill repelled enemy cavalry twice. Quraysh lines began to break. Polytheists fled, women retreated toward the hills. Muslims reached the Quraysh camp and began collecting spoils. VICTORY SEEMED CERTAIN. But at this very point, disaster struck..."
+      },
+      "unit_movements": [
+        {
+          "unit": "Müslüman piyade",
+          "from": "lm_savaş_alani",
+          "to": "lm_kureysli_kamp",
+          "action": "İleri atılım — Kureyş kampını ele geçirme",
+          "time": "kuşluk"
+        },
+        {
+          "unit": "Ayneyn okçuları",
+          "position": "lm_ayneyn",
+          "action": "Düşman süvarisini 2 kez püskürttü — MEVZİDE",
+          "time": "kuşluk"
+        }
+      ],
+      "key_decisions": [],
+      "map_state": {
+        "show": [
+          "lm_savaş_alani",
+          "lm_ayneyn",
+          "lm_kureysli_kamp",
+          "lm_gecit"
+        ],
+        "zoom": 14,
+        "focus": "initial_victory_push"
+      }
+    },
+    {
+      "id": "F5b_archers_crisis",
+      "order": 6,
+      "name": {
+        "tr": "OK TEPESİ KRİZİ: Okçular mevziyi terk etti → Hâlid kuşatması",
+        "en": "ARCHERS' HILL CRISIS: Archers abandon position → Khalid's flanking"
+      },
+      "date_range": "7 Şevvâl 3 AH öğleye doğru",
+      "duration": "dakikalar içinde (ani dönüm noktası)",
+      "description": {
+        "tr": "DÖNÜM NOKTASI: Zafer kesinleşmiş görünürken, okçuların büyük bölümü (yaklaşık 40 kişi) tepeyi terk etti. Sebep: ganîmet toplama arzusu. 'Savaş bitti, arkadaşlarımız ganîmet topluyor, biz de gidelim!' Komutan Abdullah b. Cübeyr 'Hz. Peygamber'in emrini unuttunuz mu?' diye engel olmaya çalıştı ama çoğunluk dinlemedi. Abdullah yanında sadece ~10 okçuyla kaldı. Hâlid b. Velîd (henüz müşrik, Kureyş süvari komutanı) bu fırsatı gördü. Süvarisiyle boşalan geçitten dolanarak müslümanları arkadan vurdu. Abdullah b. Cübeyr ve kalan okçular şehîd edildi. Müslümanlar iki ateş arasında kaldı: önde toparlanmaya çalışan Kureyş, arkada Hâlid'in süvarisi. Panik ve kargaşa başladı.",
+        "en": "TURNING POINT: With victory seemingly secured, most archers (~40) abandoned the hill. Reason: desire to collect spoils. 'The battle is over, our friends are collecting booty, let us go!' Commander Abdullah ibn Jubayr tried to stop them — 'Have you forgotten the Prophet's order?' — but the majority ignored him. Abdullah remained with only ~10 archers. Khalid ibn al-Walid (still polytheist, Quraysh cavalry commander) seized this opportunity. His cavalry circled through the vacated pass and struck Muslims from behind. Abdullah ibn Jubayr and remaining archers were martyred. Muslims were caught between two fires: regrouping Quraysh in front, Khalid's cavalry behind. Panic and chaos ensued."
+      },
+      "unit_movements": [
+        {
+          "unit": "Okçuların çoğunluğu (~40)",
+          "from": "lm_ayneyn",
+          "to": "lm_kureysli_kamp",
+          "action": "EMRİ İHLAL — ganîmet için tepeyi terk",
+          "time": "öğleye doğru"
+        },
+        {
+          "unit": "Hâlid b. Velîd süvarisi",
+          "from": "Kureyş sağ kanadı",
+          "to": "lm_gecit → Müslüman arka cephe",
+          "action": "Geçitten dolanarak arkadan kuşatma",
+          "time": "dakikalar sonra",
+          "route_ref": "route_halid_kuşatma"
+        },
+        {
+          "unit": "Abdullah b. Cübeyr + ~10 okçu",
+          "position": "lm_ayneyn",
+          "action": "Emre sadık kaldı — son nefesine kadar direndi — ŞEHİD",
+          "time": "öğle"
+        }
+      ],
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Okçuların Hz. Peygamber'in emrine rağmen mevziyi terk etmesi",
+            "en": "Archers abandoning position despite the Prophet's order"
+          },
+          "maker": "unnamed_archers",
+          "participants": [],
+          "impact": {
+            "tr": "İslâm askerî tarihinin en yıkıcı disiplin ihlali. Kesin zafer, yenilgiye döndü. Kur'ân'da Âl-i İmrân 3:152 bu olaya açıkça işaret eder: 'Hani O size vadini göstermişti... Sonra siz gevşediniz, emir konusunda çekiştiniz ve isyan ettiniz.'",
+            "en": "The most devastating discipline violation in Islamic military history. Certain victory turned to defeat. Quran 3:152 explicitly references this: 'When He showed you what you desired... then you faltered, disputed the order, and disobeyed.'"
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_ayneyn",
+          "lm_gecit",
+          "lm_savaş_alani",
+          "lm_kureysli_kamp"
+        ],
+        "zoom": 14,
+        "focus": "flanking_crisis",
+        "active_route": "route_halid_kuşatma",
+        "highlight": "lm_gecit"
+      }
+    },
+    {
+      "id": "F5c_prophet_wounded",
+      "order": 7,
+      "name": {
+        "tr": "Hz. Peygamber'in yaralanması ve 'Muhammed öldü' söylentisi",
+        "en": "The Prophet wounded and 'Muhammad is dead' rumor"
+      },
+      "date_range": "7 Şevvâl 3 AH öğle",
+      "duration": "kısa (savaşın en karanlık anı)",
+      "description": {
+        "tr": "Kuşatma kargaşasında Hz. Peygamber hedef oldu. Utbe b. Ebî Vakkâs (Sa'd'ın müşrik kardeşi) fırlattığı taşla alt dişlerinden biri (rebâiye) kırıldı. Abdullah b. Kamie kılıçla yüzüne vurdu — miğfer halkaları yanaklarına battı. Yüzünden kan aktı. Hz. Peygamber: 'Peygamberini yaralayan kavim nasıl felah bulur?' dedi, sonra 'Allahım, kavmime hidayet ver, onlar bilmiyorlar' diye dua etti. Mus'ab b. Umeyr sancağı savunurken şehîd oldu. Mus'ab Hz. Peygamber'e benzediği için düşman 'Muhammed öldü!' diye bağırdı. Bu söylenti müslümanlar arasında şok etkisi yaptı: bazıları silahını bıraktı, bazıları kaçtı, bazıları 'Muhammed öldüyse Allah ölmedi — savaşın!' dedi (Enes b. Nadr). Âl-i İmrân 3:144: 'Muhammed ancak bir resûldür. Ondan önce de resûller gelip geçmiştir. Şimdi o ölürse veya öldürülürse gerisin geriye mi döneceksiniz?'",
+        "en": "In the chaos of encirclement, the Prophet became a target. Utba ibn Abi Waqqas (Sa'd's polytheist brother) broke one of his lower teeth (rabaiyya) with a stone. Abdullah ibn Qami'a struck his face with a sword — helmet rings pierced his cheeks. Blood streamed from his face. The Prophet said: 'How can a people who wound their Prophet find salvation?' then prayed: 'O God, guide my people, they know not.' Mus'ab ibn Umayr was martyred defending the standard. Because Mus'ab resembled the Prophet, the enemy shouted 'Muhammad is dead!' This rumor shocked the Muslims: some dropped weapons, some fled, some said 'If Muhammad is dead, God is not — fight!' (Anas ibn Nadr). Quran 3:144: 'Muhammad is but a messenger. Messengers have passed before him. If he dies or is killed, will you turn back?'"
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in yaralı halde savaşa devam etmesi ve düşmana beddua yerine hidayet duası etmesi",
+            "en": "The Prophet continuing to fight while wounded and praying for his enemies' guidance instead of cursing them"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "İslâm ahlâk ve peygamberlik anlayışının doruk noktası. Düşmanına beddua etmek yerine hidayet dilemesi, siyer edebiyatının en çarpıcı anlarından biri. Âl-i İmrân 3:159'daki yumuşak huy vurgusu.",
+            "en": "Pinnacle of Islamic ethics and prophetic character. Praying for guidance of his enemies rather than cursing them is one of the most striking moments in sira literature. Reflects the emphasis on gentleness in Quran 3:159."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_peygamber_yaralanma",
+          "lm_savaş_alani",
+          "lm_sib_uhud"
+        ],
+        "zoom": 15,
+        "focus": "prophet_wounded_zone"
+      }
+    },
+    {
+      "id": "F5d_regrouping",
+      "order": 8,
+      "name": {
+        "tr": "Toparlanma: Koruma halkası ve dağa çekilme",
+        "en": "Regrouping: Protective ring and retreat to the mountain"
+      },
+      "date_range": "7 Şevvâl 3 AH öğleden sonra",
+      "duration": "birkaç saat",
+      "description": {
+        "tr": "Hz. Peygamber'in hayatta olduğu anlaşılınca bir grup sadık sahâbî etrafında koruma halkası oluşturdu. Öne çıkanlar: Ali b. Ebî Tâlib (kılıç), Talha b. Ubeydullâh (vücudunu siper etti — 70'ten fazla yara aldı, eli felç oldu), Sa'd b. Ebî Vakkâs (ok), Ebû Dücâne (sırtını siper etti), Ümmü Umâre Nesîbe bt. Ka'b (kadın savaşçı — kılıç ve ok ile savaştı, boyun yarası aldı). Hz. Peygamber Uhud dağı yamacına çekildi. Übey b. Halef Hz. Peygamber'e saldırdı, Hz. Peygamber onu mızrakla yaraladı (sonra öldü). Dağ yamacında toparlanma sağlandı. Kureyş kesin zafer elde edemedi — tam bir imha gerçekleşmedi.",
+        "en": "When it became clear the Prophet was alive, a group of loyal companions formed a protective ring. Key figures: Ali (sword), Talha ibn Ubaydullah (shielded with his body — took over 70 wounds, his hand was paralyzed), Sa'd ibn Abi Waqqas (arrows), Abu Dujana (used his back as shield), Umm Umara Nasiba bint Ka'b (female warrior — fought with sword and bow, sustained neck wound). The Prophet retreated to Mount Uhud's slope. Ubayy ibn Khalaf attacked the Prophet; the Prophet wounded him with a spear (he later died). Regrouping was achieved on the slope. Quraysh failed to achieve total victory — full annihilation did not occur."
+      },
+      "unit_movements": [
+        {
+          "unit": "Koruma halkası (Ali, Talha, Sa'd, Ebû Dücâne, Ümmü Umâre)",
+          "position": "lm_peygamber_yaralanma → lm_sib_uhud",
+          "action": "Hz. Peygamber'i koruyarak dağ yamacına çekilme",
+          "time": "öğle → öğleden sonra"
+        },
+        {
+          "unit": "Dağınık müslüman grupları",
+          "from": "lm_savaş_alani (dağınık)",
+          "to": "lm_sib_uhud",
+          "action": "'Muhammed yaşıyor!' haberiyle toparlanma",
+          "time": "öğleden sonra"
+        }
+      ],
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Uhud dağına taktik çekilme ve savunma hattı oluşturma",
+            "en": "Tactical retreat to Mount Uhud and forming a defensive line"
+          },
+          "maker": "prophet",
+          "participants": [
+            "ali",
+            "talha",
+            "comp_sad_vakkas",
+            "ebu_ducane"
+          ],
+          "impact": {
+            "tr": "Tam imhayı engelledi. Dağın doğal koruması sayesinde Kureyş saldırıya devam edemedi. Stratejik geri çekilme, felaketi sınırladı.",
+            "en": "Prevented total annihilation. Quraysh could not continue the attack due to mountain's natural protection. Strategic withdrawal limited the disaster."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_peygamber_yaralanma",
+          "lm_sib_uhud",
+          "lm_uhud_dagi"
+        ],
+        "zoom": 15,
+        "focus": "retreat_and_regroup"
+      }
+    },
+    {
+      "id": "F6_aftermath",
+      "order": 9,
+      "name": {
+        "tr": "Sonuç: Şehitler, Hamza'nın müslesi, geri dönüş",
+        "en": "Aftermath: Martyrs, Hamza's mutilation, return to Medina"
+      },
+      "date_range": "7-8 Şevvâl 3 AH",
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Kureyş savaş alanını terk etmeye karar verdi. Tam bir zafer elde edemediğini biliyordu. Ebû Süfyân 'Gelecek yıl Bedir'de buluşalım' diye seslendi. Hind bt. Utbe Hz. Hamza'nın cesedine müsle yaptı: karnını yardı, ciğerini çıkarıp ısırdı (Bedir'de öldürülen babası Utbe'nin intikamı). Hz. Peygamber Hamza'nın cesedini görünce çok üzüldü. 70 şehîd defnedildi: çoğu kanlarıyla, namazları kılınarak. Hamza 'Seyyidü'ş-Şühedâ' (Şehitlerin Efendisi) unvanı aldı. Hz. Peygamber ertesi gün yaralı haldeyken orduyu Hamrâü'l-Esed'e kadar takip için çıkardı — Kureyş'in geri dönmesini engellemek ve moral göstermek için. Âl-i İmrân 3:121-179 bütünüyle Uhud'u konu alır.",
+        "en": "Quraysh decided to leave the battlefield, knowing they had not achieved total victory. Abu Sufyan called out: 'Let us meet at Badr next year.' Hind bint Utba mutilated Hamza's body: she cut open his abdomen and bit his liver (revenge for her father Utba killed at Badr). The Prophet was deeply grieved upon seeing Hamza's body. 70 martyrs were buried: most in their bloodied clothes, prayers performed. Hamza received the title 'Sayyid al-Shuhada' (Chief of Martyrs). The next day, despite his wounds, the Prophet led the army to Hamra al-Asad in pursuit — to prevent Quraysh's return and demonstrate resolve. Quran 3:121-179 addresses Uhud comprehensively."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hamrâü'l-Esed'e takip seferi (ertesi gün, yaralı halde)",
+            "en": "Pursuit to Hamra al-Asad (next day, while wounded)"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Stratejik deha: Yenilgi sonrası hemen takip, düşmana 'hâlâ güçlüyüz' mesajı. Kureyş dönmeye cesaret edemedi. Moral yeniden kuruldu. Âl-i İmrân 3:172-174 bu olaya işaret eder.",
+            "en": "Strategic genius: Immediate pursuit after defeat sent the message 'we are still strong.' Quraysh did not dare return. Morale was rebuilt. Quran 3:172-174 references this event."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Müsle yasağı: Hz. Peygamber'in Hamza'nın cesedine yapılana rağmen misilleme yasaklaması",
+            "en": "Prohibition of mutilation: The Prophet forbidding retaliation despite what was done to Hamza"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "İslâm savaş hukukunun temel ilkelerinden biri oluştu. Hz. Peygamber 'Hamza'ya yaptıklarının 70 mislini yaparım' yemine rağmen Nahl 16:126 inince sabır ve müsle yasağını kabul etti.",
+            "en": "One of the foundational principles of Islamic laws of war was established. Despite initially vowing retaliation, when Quran 16:126 was revealed the Prophet accepted patience and prohibition of mutilation."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_hamza_sehitlik",
+          "lm_savaş_alani",
+          "lm_uhud_dagi"
+        ],
+        "zoom": 14,
+        "focus": "aftermath_burial"
+      }
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 700,
+      "total_pre_desertion": 1000,
+      "deserters": 300,
+      "deserter_leader": "Abdullah b. Übey (münafıklar)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "count_est": "~200",
+          "note_tr": "Kesin rakam tartışmalı"
+        },
+        "ansar": {
+          "count_est": "~500",
+          "note_tr": "Evs ve Hazrec kabileleri"
+        }
+      },
+      "equipment": {
+        "horses": "2-3",
+        "camels": "bir miktar",
+        "swords": "çoğunlukta",
+        "bows": "50+ (okçu birliği dahil)",
+        "armor": "100 zırh civarı (Hz. Peygamber iki zırh giydi)",
+        "note_tr": "Bedir'e göre daha iyi teçhizatlı, ama hâlâ düşmandan çok zayıf."
+      },
+      "formation": {
+        "type": "saff_with_flanking_guard",
+        "description_tr": "Ana saf düzeni: sırt Uhud'a. Sol kanatta Ayneyn tepesinde 50 okçu. Sağ kanat: Zübeyr. Sancaktar: Mus'ab b. Umeyr.",
+        "right_wing": "zubeyr",
+        "left_wing_archers": "Abdullah b. Cübeyr (50 okçu)",
+        "flag_bearer": "comp_mus_ab",
+        "prophet_armor": "İki zırh giydi (Zât el-Fudûl ve bir diğeri)"
+      },
+      "morale": {
+        "level": "high_but_fragmented",
+        "note_tr": "Bedir zaferi morali yükseltmişti, ancak Abdullah b. Übey'in ayrılması ve %30 kayıp bazı endişe yarattı. Genç savaşçıların coşkusu baskın."
+      },
+      "logistics": {
+        "supply": "1 günlük sefer (Medîne yakını)",
+        "water": "vadi kaynaklarından",
+        "note_tr": "Medîne'ye 6 km mesafe — lojistik sorun yok."
+      },
+      "key_figures": [
+        {
+          "companion_id": "hamza",
+          "role": "Ön saf savaşçı, Esedullâh",
+          "fate": "şehîd",
+          "note_tr": "Vahşî b. Harb tarafından mızrakla şehid edildi. Hind bt. Utbe'nin intikam hedefe."
+        },
+        {
+          "companion_id": "comp_mus_ab",
+          "role": "Sancaktar (muhâcir bayrağı)",
+          "fate": "şehîd",
+          "note_tr": "Sancağı savunurken şehid oldu. Hz. Peygamber'e benzediği için 'Muhammed öldü' söylentisi çıktı."
+        },
+        {
+          "companion_id": "ali",
+          "role": "Savaşçı, koruma halkası",
+          "fate": "yaralı (hayatta)",
+          "note_tr": "Düelloda sancaktar Talha'yı öldürdü. Bozgun sonrası Hz. Peygamber'i koruyan iç halkada."
+        },
+        {
+          "companion_id": "talha",
+          "role": "Koruma halkası — insan kalkan",
+          "fate": "ağır yaralı (hayatta, eli felç)",
+          "note_tr": "Vücudunu Hz. Peygamber'e siper etti. 70'ten fazla yara aldı. Hz. Peygamber: 'Talha cennet ehlinden biridir.'"
+        },
+        {
+          "companion_id": "comp_sad_vakkas",
+          "role": "Okçu, koruma halkası",
+          "fate": "hayatta",
+          "note_tr": "Hz. Peygamber ona ok verip 'At yâ Sa'd' dedi. En mahir okçulardan."
+        },
+        {
+          "companion_id": "zubeyr",
+          "role": "Sağ kanat komutanı",
+          "fate": "hayatta",
+          "note_tr": "Sağ kanatı yönetti."
+        },
+        {
+          "companion_id": "ebu_ducane",
+          "role": "Hz. Peygamber'in kılıcını alan savaşçı",
+          "fate": "hayatta",
+          "note_tr": "Kırmızı sarıklı savaşçı. Bozgundan sonra Hz. Peygamber'e sırtını siper etti."
+        },
+        {
+          "name": "Abdullah b. Cübeyr",
+          "companion_id_note": "companions_v190'da kaydı yok",
+          "role": "Okçu birliği komutanı (Ayneyn tepesi)",
+          "fate": "şehîd",
+          "note_tr": "Emre sonuna kadar sadık kaldı. ~10 okçuyla birlikte şehid oldu."
+        },
+        {
+          "name": "Ümmü Umâre Nesîbe bt. Ka'b",
+          "companion_id_note": "kadın sahâbî — ayrı kontrol gerekli",
+          "role": "Kadın savaşçı — kılıç ve ok",
+          "fate": "ağır yaralı (hayatta)",
+          "note_tr": "İslâm tarihinin en ünlü kadın savaşçılarından. Boyun yarası aldı. Hz. Peygamber: 'Sağıma baktım onu gördüm, soluma baktım onu gördüm.'"
+        },
+        {
+          "name": "Enes b. Nadr",
+          "companion_id_note": "companions_v190'da kontrol gerekli",
+          "role": "'Muhammed öldü' söylentisine karşı direniş sembolü",
+          "fate": "şehîd",
+          "note_tr": "'Muhammed öldüyse Muhammed'in Rabbi ölmedi. Onun savaştığı şey uğruna savaşın!' 70'ten fazla yara ile şehid."
+        }
+      ]
+    },
+    "enemy": {
+      "total": 3000,
+      "total_range": "3.000 (IH) – 3.700 (WQ, bazı rivâyetler)",
+      "commander": "Ebû Süfyân b. Harb",
+      "sub_commanders": [
+        {
+          "name": "Hâlid b. Velîd",
+          "companion_id": "comp_halid_velid",
+          "role": "Süvari komutanı (sağ kanat)",
+          "note": "Henüz müşrik. Kuşatma manevrası savaşın kaderini değiştirdi. Müslüman olması 8 AH'de.",
+          "is_muslim_later": true
+        },
+        {
+          "name": "İkrime b. Ebî Cehil",
+          "role": "Sol kanat komutanı",
+          "note": "Bedir'de öldürülen Ebû Cehil'in oğlu."
+        },
+        {
+          "name": "Ebû Âmir er-Râhib",
+          "role": "Ensâr'dan münâfık/müşrik",
+          "note": "Evs kabilesinden, İslâm'ı terk etti. Medîne'den tanıdıkları çağırdı ama kimse katılmadı."
+        }
+      ],
+      "equipment": {
+        "cavalry": 200,
+        "camels": 3000,
+        "infantry": "~2.800",
+        "armor": "çok sayıda zırhlı savaşçı",
+        "note_tr": "Bedir'in intikam fonundan finanse edilmiş, tam teçhizatlı ordu."
+      },
+      "formation": {
+        "type": "saff_with_cavalry_wings",
+        "description_tr": "Merkez piyade, sağ kanatta Hâlid süvarisi, sol kanatta İkrime. Kadınlar geride def ve şiir ile moral verdi.",
+        "right_cavalry": "Hâlid b. Velîd (200 süvari)",
+        "left_cavalry": "İkrime b. Ebî Cehil",
+        "standard_bearers": "Abdüddâr oğulları (9 sancaktar düştü)"
+      },
+      "morale": {
+        "level": "revenge_driven",
+        "note_tr": "Bedir intikamı birincil motivasyon. Kadınların varlığı geri dönmeyi imkânsız kıldı. Hind'in def ve şiiri coşku kaynağı."
+      },
+      "key_figures": [
+        {
+          "name": "Ebû Süfyân b. Harb",
+          "role": "Başkomutan",
+          "fate": "hayatta",
+          "note_tr": "Savaş sonrası 'Gelecek yıl Bedir'de' diye seslendi."
+        },
+        {
+          "name": "Hind bt. Utbe",
+          "companion_id": "comp_hind_utbe",
+          "role": "Moral/intikam figürü",
+          "fate": "hayatta",
+          "note_tr": "Hamza'nın cesedine müsle yaptı. Sonradan müslüman olacak (Mekke fethi).",
+          "is_muslim_later": true
+        },
+        {
+          "name": "Vahşî b. Harb",
+          "role": "Habeşli mızrakçı — Hamza'nın katili",
+          "fate": "hayatta",
+          "note_tr": "Cübeyr b. Mut'im'in kölesi. Hamza'yı öldürürse azat edileceği vaat edildi. Sonradan müslüman olacak.",
+          "is_muslim_later": true
+        }
+      ]
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": "İbn Hişâm, es-Sîretü'n-Nebeviyye",
+        "vol": "III",
+        "pages": "1-120",
+        "note": "Ana sîret kaynağı. En detaylı Uhud anlatımı."
+      },
+      {
+        "id": "WQ",
+        "name": "Vâkıdî, el-Megāzî",
+        "vol": "I",
+        "pages": "199-334",
+        "note": "En ayrıntılı megāzî kaynağı. Bağımsız detaylar ve rakamlar."
+      },
+      {
+        "id": "TB",
+        "name": "Taberî, Târîhu'r-Rusul ve'l-Mülûk",
+        "vol": "III",
+        "pages": "1-50 (Uhud bölümü)",
+        "note": "Çoklu isnâd zincirleri ve alternatif rivâyetler."
+      },
+      {
+        "id": "BM",
+        "name": "Buhârî, Sahîh (Megāzî kitabı)",
+        "chapters": "17-23",
+        "note": "En sahih hadis kaynağı. Uhud ile ilgili bölümler."
+      },
+      {
+        "id": "MQ",
+        "name": "İbn Sa'd, et-Tabakātü'l-Kübrâ",
+        "vol": "II",
+        "pages": "36-52",
+        "note": "Biyografik detaylar ve şehid listeleri."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_uhud_dagi",
+        "ref": "Buhârî, Megāzî 17 + Müslim",
+        "topic": "Uhud bizi sever hadisi"
+      },
+      {
+        "id": "hds_uhud_peygamber_yarali",
+        "ref": "Buhârî, Megāzî 22",
+        "topic": "Hz. Peygamber'in yaralanması anlatımı"
+      },
+      {
+        "id": "hds_uhud_disler",
+        "ref": "Buhârî, Megāzî 24",
+        "topic": "Dişin kırılması ve duası"
+      },
+      {
+        "id": "hds_megazi_uhud_diş",
+        "ref": "Müslim, Cihâd",
+        "topic": "Dişin kırılması detayları"
+      },
+      {
+        "id": "hds_cenaze_namaz",
+        "ref": "Buhârî, Cenâiz",
+        "topic": "Uhud şehitlerine namaz"
+      },
+      {
+        "ref": "Buhârî, Megāzî 18",
+        "topic": "Okçulara verilen emir"
+      },
+      {
+        "ref": "Buhârî, Megāzî 20",
+        "topic": "Talha'nın yaralanması ve fedakârlığı"
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Hamidullah",
+        "title": "Hz. Peygamber'in Savaşları / Battlefields of the Prophet",
+        "note": "Savaş alanı haritaları ve stratejik analiz"
+      },
+      {
+        "author": "W. M. Watt",
+        "title": "Muhammad at Medina",
+        "note": "Uhud'un siyasi sonuçları analizi"
+      },
+      {
+        "author": "M. A. Shaban",
+        "title": "Islamic History: A New Interpretation",
+        "note": "Uhud'un Arap yarımadası güç dengesi üzerindeki etkisi"
+      },
+      {
+        "author": "Safi-ur-Rahman Mubarakpuri",
+        "title": "er-Rahîku'l-Mahtûm / The Sealed Nectar",
+        "note": "Detaylı savaş anlatımı ve faz analizi"
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Müslüman sayısı (ayrılma öncesi)",
+        "versions": {
+          "IH": {
+            "value": 1000,
+            "ref": "III/6"
+          },
+          "WQ": {
+            "value": 1000,
+            "ref": "I/203"
+          },
+          "TB": {
+            "value": 1000,
+            "ref": "III/5"
+          },
+          "BM": {
+            "value": 1000,
+            "ref": "Megāzî 17"
+          }
+        },
+        "consensus": 1000,
+        "confidence": "high",
+        "note_tr": "Kaynaklar hemfikir: 1.000 kişi çıktı, 300 döndü, 700 kaldı."
+      },
+      {
+        "topic": "Müslüman sayısı (ayrılma sonrası)",
+        "versions": {
+          "IH": {
+            "value": 700,
+            "ref": "III/8"
+          },
+          "WQ": {
+            "value": 700,
+            "ref": "I/211"
+          },
+          "alternative": {
+            "value": "~750",
+            "ref": "bazı rivâyetler"
+          }
+        },
+        "consensus": 700,
+        "confidence": "high",
+        "note_tr": "300 münafığın ayrılmasıyla 700. Bazı rivâyetlerde tam 700 olmadığı söylenir ama fark ihmal edilebilir."
+      },
+      {
+        "topic": "Düşman sayısı",
+        "versions": {
+          "IH": {
+            "value": 3000,
+            "ref": "III/3"
+          },
+          "WQ": {
+            "value": 3000,
+            "ref": "I/199"
+          },
+          "alternative": {
+            "value": 3700,
+            "ref": "bazı Vâkıdî rivâyetleri"
+          }
+        },
+        "consensus": 3000,
+        "confidence": "medium",
+        "note_tr": "3.000 ağırlıklı kabul. 3.700 Vâkıdî'nin bazı rivâyetlerinde geçer, muhtemelen müttefik kabileler dahil edilince."
+      },
+      {
+        "topic": "Müslüman şehîd sayısı",
+        "versions": {
+          "IH": {
+            "value": 70,
+            "ref": "III/95"
+          },
+          "WQ": {
+            "value": 65,
+            "ref": "I/302"
+          },
+          "BM": {
+            "value": 70,
+            "ref": "Megāzî 20"
+          },
+          "IS": {
+            "value": 74,
+            "ref": "Tabakāt II/42"
+          }
+        },
+        "consensus": 70,
+        "confidence": "medium",
+        "note_tr": "70 en yaygın rakam. 65-74 arası rivâyetler mevcut. Fark muhtemelen ağır yaralılardan sonradan şehid olanlarla ilgili."
+      },
+      {
+        "topic": "Düşman kayıpları",
+        "versions": {
+          "IH": {
+            "value": 22,
+            "ref": "III/96"
+          },
+          "WQ": {
+            "value": 22,
+            "ref": "I/301"
+          },
+          "alternative": {
+            "value": 37,
+            "ref": "bazı kaynaklar"
+          }
+        },
+        "consensus": 22,
+        "confidence": "medium",
+        "note_tr": "22 en yaygın. Bazı kaynaklar daha yüksek rakam verir."
+      },
+      {
+        "topic": "Ok tepesini terk eden okçu sayısı",
+        "versions": {
+          "IH": {
+            "value": "çoğunluk",
+            "ref": "III/15"
+          },
+          "WQ": {
+            "value": "~40",
+            "ref": "I/229"
+          },
+          "general": {
+            "value": "50'den 10'u kaldı",
+            "ref": "yaygın kabul"
+          }
+        },
+        "consensus": "~40 ayrıldı, ~10 kaldı",
+        "confidence": "medium",
+        "note_tr": "Kesin rakam tartışmalı. 50 okçudan büyük çoğunluğun gittiği, Abdullah b. Cübeyr ile birlikte ~10 kalanın şehid olduğu genel kabul."
+      },
+      {
+        "topic": "Hz. Peygamber'in yaralanma detayları",
+        "versions": {
+          "IH": {
+            "value": "Diş kırıldı, miğfer halkaları yüze battı, alt dudak yaralandı",
+            "ref": "III/23"
+          },
+          "WQ": {
+            "value": "Rebâiye (alt köpek dişi yanı) kırıldı, yüzünde iki halka yarası",
+            "ref": "I/240"
+          },
+          "BM": {
+            "value": "Dişi kırıldı, başı yaralandı",
+            "ref": "Megāzî 22"
+          }
+        },
+        "consensus": "Rebâiye kırıldı + miğfer halkaları yüze battı",
+        "confidence": "high",
+        "note_tr": "Detaylar küçük farklılıklar gösterir ama dişin kırılması ve yüz yarası tüm kaynaklarda ortak."
+      },
+      {
+        "topic": "Hamza'nın şehâdet şekli",
+        "versions": {
+          "IH": {
+            "value": "Vahşî mızrakla vurdu",
+            "ref": "III/19"
+          },
+          "WQ": {
+            "value": "Vahşî gizlendi, mızrak fırlattı",
+            "ref": "I/234"
+          },
+          "BM": {
+            "value": "Vahşî anlatımı: 'Taşın arkasına gizlendim, mızrağımı hazırladım'",
+            "ref": "Megāzî 20"
+          }
+        },
+        "consensus": "Vahşî b. Harb tarafından mızrakla — pusu taktığiyle",
+        "confidence": "high",
+        "note_tr": "Vahşî'nin bizzat anlattığı rivâyet tüm kaynaklarda tutarlı. Cübeyr b. Mut'im azat vaadi motivasyon."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "121-179",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Âl-i İmrân'ın büyük bölümü (121-179) doğrudan Uhud Gazvesi'ni konu alır",
+        "en": "Most of Aal-e-Imran (121-179) directly addresses the Battle of Uhud"
+      },
+      "key_verses": [
+        {
+          "ayah": 121,
+          "topic_tr": "Hz. Peygamber'in müminleri savaş mevzilerine yerleştirmesi",
+          "phase": "F3_positioning"
+        },
+        {
+          "ayah": 122,
+          "topic_tr": "İki grubun (Benû Selime ve Benû Hârise) gevşemesi — Âl-i İmrân",
+          "phase": "F2_march"
+        },
+        {
+          "ayah": 123,
+          "topic_tr": "Bedir hatırlatması — 'Allah sizi Bedir'de de azsınız iken desteklemişti'",
+          "phase": "F0_background"
+        },
+        {
+          "ayah": 140,
+          "topic_tr": "Savaş günleri insanlar arasında döndürülür — imtihan",
+          "phase": "F5b_archers_crisis"
+        },
+        {
+          "ayah": 144,
+          "topic_tr": "'Muhammed ancak bir resûldür' — öldü söylentisi yanıtı",
+          "phase": "F5c_prophet_wounded"
+        },
+        {
+          "ayah": 152,
+          "topic_tr": "Okçuların itaatsizliği — 'Gevşediniz, emir konusunda çekiştiniz, isyan ettiniz'",
+          "phase": "F5b_archers_crisis"
+        },
+        {
+          "ayah": 159,
+          "topic_tr": "Hz. Peygamber'in yumuşaklığı — 'Kaba ve katı kalpli olsaydın dağılırlardı'",
+          "phase": "F5d_regrouping"
+        },
+        {
+          "ayah": "167-168",
+          "topic_tr": "Münafıkların geri dönmesi — 'Eğer bilseydik savaşırdık' dediler",
+          "phase": "F2_march"
+        },
+        {
+          "ayah": "169-171",
+          "topic_tr": "Şehitlerin Allah katındaki yaşamı — 'Onlar diridir, rızıklanırlar'",
+          "phase": "F6_aftermath"
+        },
+        {
+          "ayah": "172-174",
+          "topic_tr": "Hamrâü'l-Esed takibi — yaralarına rağmen çıkanlar",
+          "phase": "F6_aftermath"
+        }
+      ],
+      "esbab_cross_ref": [
+        "en_ali_imran_3_121_179",
+        "en_ali_imran_3_169"
+      ]
+    },
+    {
+      "surah": 16,
+      "surah_name": "Nahl",
+      "ayah_range": "126-127",
+      "phase_id": "F6_aftermath",
+      "topic": {
+        "tr": "Müsle yasağı ve sabır emri — Hz. Hamza olayı bağlamında",
+        "en": "Prohibition of mutilation and command for patience — in context of Hamza incident"
+      },
+      "key_verses": [
+        {
+          "ayah": 126,
+          "topic_tr": "Cezalandıracaksanız misliyle cezalandırın. Ama sabrederseniz bu sabredenler için daha hayırlıdır.",
+          "phase": "F6_aftermath"
+        }
+      ],
+      "esbab_cross_ref": []
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_uhud_peygamber_yarali",
+      "topic": "Uhud'da Peygamber'in yaralanması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_uhud_disler",
+      "topic": "Uhud'da yaralanan Peygamber'in duâsı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_uhud_okculara_emir",
+      "topic": "Uhud'da okçulara verilen kesin emir",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_uhud_talha",
+      "topic": "Talha b. Ubeydullâh'ın fedakârlığı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_uhud_hamza_seyyid",
+      "topic": "Hz. Hamza — Seyyidü'ş-Şühedâ",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_uhud_vahsi_itiraf",
+      "topic": "Vahşî'nin Hz. Hamza'yı nasıl öldürdüğünü anlatması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_megazi_uhud_diş",
+      "topic": "Uhud'da dişinin kırılması",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İslâm'ın ilk ciddi askerî aksaklığı. Ok tepesi olayı İslâm askerî tarihinde 'emre itaat' dersinin klasik örneği oldu. Taktik yenilgi ama stratejik imha engellendi. Hamrâü'l-Esed takibi ile mesaj verildi.",
+      "en": "Islam's first serious military setback. The archers' hill incident became the classic lesson in 'obedience to command' in Islamic military history. Tactical defeat but strategic annihilation prevented. Message sent through Hamra al-Asad pursuit."
+    },
+    "political": {
+      "tr": "Münafıkların ve Yahudi kabilelerinin cesareti arttı. Abdullah b. Übey'in ayrılması münafıklık sorununu gün yüzüne çıkardı. Kureyş tam zafer kazanamadığı için siyasi etki sınırlı kaldı. Medîne İslâm devleti ayakta kalmaya devam etti.",
+      "en": "Emboldened hypocrites and Jewish tribes. Ibn Ubayy's desertion exposed the hypocrisy problem. Because Quraysh failed to achieve total victory, political impact was limited. The Medinan Islamic state survived."
+    },
+    "social": {
+      "tr": "70 şehid toplumda derin yara açtı. Hamza'nın şehâdeti en büyük kayıp. Hz. Peygamber'in yaralanması toplumda şok etkisi yaptı ama 'Muhammed bir resûldür' mesajı İslâm'ın şahıslara bağımlı olmadığını öğretti. Kadın savaşçıların (Ümmü Umâre) rolü dikkat çekici.",
+      "en": "70 martyrs left a deep wound. Hamza's martyrdom was the greatest loss. The Prophet's wounding shocked the community but the message 'Muhammad is a messenger' taught that Islam does not depend on individuals. Role of female warriors (Umm Umara) is notable."
+    },
+    "theological": {
+      "tr": "Uhud İslâm teolojisinde çok katmanlı dersler içerir: (1) İmtihan — zafer ve yenilgi Allah'ın takdiri (3:140). (2) İtaat — emre uyulmamasının sonuçları (3:152). (3) Şehitlik — 'Ölü demeyin, onlar diridir' (3:169). (4) Peygamberin beşerî yönü — yaralanabilir ama mesajı ölümsüz (3:144). (5) Sabır ve af — müsle yasağı, düşmana dua. (6) Münafıklık — inancın test edilmesi.",
+      "en": "Uhud contains multilayered theological lessons: (1) Trial — victory and defeat are God's decree (3:140). (2) Obedience — consequences of disobeying the command (3:152). (3) Martyrdom — 'Do not say dead, they are alive' (3:169). (4) Prophet's humanity — he can be wounded but his message is immortal (3:144). (5) Patience and forgiveness — prohibition of mutilation, prayer for enemies. (6) Hypocrisy — testing of faith."
+    },
+    "casualties_detail": {
+      "muslim_killed": {
+        "total": 70,
+        "total_range": "65-74",
+        "muhajirun": 4,
+        "ansar": 66,
+        "notable": [
+          {
+            "name": "Hz. Hamza b. Abdülmuttalib",
+            "companion_id": "hamza",
+            "note_tr": "Seyyidü'ş-Şühedâ. Vahşî'nin mızrağıyla şehid. Hind bt. Utbe müsle yaptı. Hz. Peygamber'in amcası."
+          },
+          {
+            "name": "Mus'ab b. Umeyr",
+            "companion_id": "comp_mus_ab",
+            "note_tr": "Muhâcir sancaktarı. Sancağı savunurken şehid oldu. Hz. Peygamber'e benziyordu."
+          },
+          {
+            "name": "Abdullah b. Cübeyr",
+            "note_tr": "Okçu birliği komutanı. Emre sonuna kadar sadık kaldı. ~10 okçuyla birlikte şehid."
+          },
+          {
+            "name": "Enes b. Nadr",
+            "note_tr": "'Muhammed'in Rabbi ölmedi!' diye seslenen kahraman. 80+ yara ile şehid. Tanınmayacak haldeydi, kız kardeşi parmak ucundan tanıdı."
+          },
+          {
+            "name": "Hanzala b. Ebû Âmir (Gasîlü'l-Melâike)",
+            "note_tr": "Düğün gecesi savaşa koştu, cünüp halde şehid oldu. Melekler tarafından yıkandı rivâyeti."
+          }
+        ]
+      },
+      "enemy_killed": {
+        "total": 22,
+        "total_range": "22-37",
+        "notable": [
+          {
+            "name": "Talha b. Ebî Talha (sancaktar)",
+            "note_tr": "Ali tarafından düelloda öldürüldü."
+          },
+          {
+            "name": "Toplam 9 Abdüddâr sancaktarı",
+            "note_tr": "Sancağı sırayla alan her savaşçı öldürüldü."
+          }
+        ]
+      }
+    },
+    "treaties": null,
+    "territorial_change": {
+      "tr": "Toprak değişikliği yok. Kureyş savaş alanını terk etti. Medîne müslüman kontrolünde kaldı.",
+      "en": "No territorial change. Quraysh left the battlefield. Medina remained under Muslim control."
+    },
+    "subsequent_events": [
+      {
+        "event": "Hamrâü'l-Esed seferi",
+        "date": "8 Şevvâl 3 AH",
+        "desc_tr": "Hz. Peygamber yaralı halde ordusunu takip için çıkardı. Kureyş geri dönmeye cesaret edemedi."
+      },
+      {
+        "event": "Recî' ve Bi'r-i Maûne faciaları",
+        "date": "Safer 4 AH",
+        "desc_tr": "Uhud sonrası müslüman zayıflığını fırsat bilen kabilelerin pusu saldırıları. 70 hafız şehid (Bi'r-i Maûne)."
+      },
+      {
+        "event": "Bedir-i Mev'id (Vadeleşme)",
+        "date": "Şa'ban 4 AH",
+        "desc_tr": "Ebû Süfyân'ın 'gelecek yıl Bedir'de' vaadine karşılık her iki taraf geldi ama savaş olmadı."
+      }
+    ],
+    "ganimet": {
+      "tr": "Müslümanlar ganîmet toplayamadı (savaşın sonucu nedeniyle). Kureyş tarafı da organize bir ganîmet toplamadı. Müslüman şehitlerin bazı silahları alındı.",
+      "en": "Muslims could not collect spoils (due to battle outcome). Quraysh side also did not organize spoil collection. Some weapons from Muslim martyrs were taken."
+    }
+  },
+  "visualization": {
+    "default_zoom": 14,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_enemy": "#B71C1C",
+      "route_flanking": "#FF6F00",
+      "landmark": "#6A1B9A",
+      "cemetery": "#000000",
+      "archers_hill": "#1B5E20",
+      "crisis_zone": "#D32F2F"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks"
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "polyline",
+        "default_visible": true,
+        "data_source": "spatial.routes"
+      },
+      {
+        "id": "layer_phases",
+        "name": "Savaş fazları (animasyonlu)",
+        "type": "animated_phases",
+        "default_visible": false,
+        "data_source": "phases"
+      },
+      {
+        "id": "layer_archers_crisis",
+        "name": "Ok tepesi krizi (özel katman)",
+        "type": "highlight_zone",
+        "default_visible": false,
+        "phases": [
+          "F5b_archers_crisis"
+        ],
+        "note": "Ayneyn → geçit → arkadan kuşatma animasyonu"
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvet dizilişi",
+        "type": "formation",
+        "default_visible": false,
+        "data_source": "forces"
+      },
+      {
+        "id": "layer_cemetery",
+        "name": "Şehitlik",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks[id=lm_hamza_sehitlik]"
+      }
+    ]
+  }
+}

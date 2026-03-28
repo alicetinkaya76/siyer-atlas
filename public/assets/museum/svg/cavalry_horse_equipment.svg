@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8"/><stop offset="100%" stop-color="#ece3d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#bg3)"/>
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">Süvari At Teçhizatı / Cavalry Horse Equipment</text>
+  <text x="350" y="48" text-anchor="middle" font-size="11" fill="#7f8c8d">Asr-ı Saâdet Dönemi — عُدَّة الخيل</text>
+
+  <!-- Horse silhouette (simplified) -->
+  <g transform="translate(350,270)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="120" ry="55" fill="#8B7355" opacity="0.15" stroke="#6d5b3e" stroke-width="1.5"/>
+    <!-- Neck -->
+    <path d="M-100,-30 Q-130,-80 -110,-120 Q-100,-130 -85,-125 Q-80,-100 -90,-60 Q-95,-40 -100,-30" fill="#8B7355" opacity="0.15" stroke="#6d5b3e" stroke-width="1.5"/>
+    <!-- Head -->
+    <ellipse cx="-95" cy="-135" rx="20" ry="15" fill="#8B7355" opacity="0.15" stroke="#6d5b3e" stroke-width="1.5"/>
+    <!-- Legs -->
+    <line x1="-60" y1="50" x2="-65" y2="120" stroke="#6d5b3e" stroke-width="1.5" opacity="0.4"/>
+    <line x1="-30" y1="52" x2="-35" y2="122" stroke="#6d5b3e" stroke-width="1.5" opacity="0.4"/>
+    <line x1="50" y1="50" x2="45" y2="120" stroke="#6d5b3e" stroke-width="1.5" opacity="0.4"/>
+    <line x1="80" y1="48" x2="75" y2="118" stroke="#6d5b3e" stroke-width="1.5" opacity="0.4"/>
+    <!-- Tail -->
+    <path d="M115,10 Q140,30 130,60" fill="none" stroke="#6d5b3e" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- 1. EYER / SADDLE (on back) -->
+  <g transform="translate(350,240)">
+    <path d="M-40,-15 Q0,-30 40,-15 Q45,0 40,10 Q0,5 -40,10 Q-45,0 -40,-15Z" fill="#8B4513" stroke="#5B2C06" stroke-width="1.5"/>
+    <text y="-2" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">Eyer</text>
+  </g>
+  <line x1="310" y1="225" x2="160" y2="130" stroke="#8B4513" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(50,100)">
+    <rect x="-5" y="-15" width="175" height="60" rx="5" fill="#fff" opacity="0.9" stroke="#8B4513"/>
+    <text font-size="10" font-weight="bold" fill="#8B4513">① Eyer (es-Serc) السَّرْج</text>
+    <text y="16" font-size="8" fill="#5D4E37">Deri kaplı ahşap iskelet.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Ön ve arka kaş (qarbûs).</text>
+    <text y="44" font-size="8" fill="#7f8c8d">Hz. Peygamber: "Atlarınıza iyi bakın"</text>
+  </g>
+
+  <!-- 2. ÜZENGİ / STIRRUP (side, hanging from saddle) -->
+  <g transform="translate(320,310)">
+    <path d="M0,-10 L0,10 Q-8,18 0,20 Q8,18 0,10" fill="none" stroke="#4a4a4a" stroke-width="2.5"/>
+    <ellipse cy="20" rx="7" ry="4" fill="#4a4a4a"/>
+  </g>
+  <line x1="320" y1="325" x2="160" y2="380" stroke="#4a4a4a" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(50,365)">
+    <rect x="-5" y="-15" width="175" height="55" rx="5" fill="#fff" opacity="0.9" stroke="#4a4a4a"/>
+    <text font-size="10" font-weight="bold" fill="#4a4a4a">② Üzengi (er-Rikâb) الرِّكَاب</text>
+    <text y="16" font-size="8" fill="#5D4E37">Demir veya bronz halka.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Biniş ve savaşta denge sağlar.</text>
+  </g>
+
+  <!-- 3. GEM / BRIDLE (on head) -->
+  <g transform="translate(255,135)">
+    <circle r="3" fill="#c0392b"/>
+    <path d="M0,3 Q-5,15 0,25 Q5,15 0,3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  </g>
+  <line x1="255" y1="135" x2="160" y2="65" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(50,38)">
+    <rect x="-5" y="-15" width="175" height="48" rx="5" fill="#fff" opacity="0.9" stroke="#c0392b"/>
+    <text font-size="10" font-weight="bold" fill="#c0392b">③ Gem (el-Licâm) اللِّجَام</text>
+    <text y="16" font-size="8" fill="#5D4E37">Ağızlık + yular + dizgin seti.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Deri ve demir kombinasyonu.</text>
+  </g>
+
+  <!-- 4. GÖĞÜSLÜK / BREAST COLLAR -->
+  <g transform="translate(290,270)">
+    <path d="M-40,0 Q-20,-15 10,-10" fill="none" stroke="#d4ac0d" stroke-width="3"/>
+  </g>
+  <line x1="540" y1="180" x2="290" y2="260" stroke="#d4ac0d" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(480,100)">
+    <rect x="-5" y="-15" width="210" height="60" rx="5" fill="#fff" opacity="0.9" stroke="#d4ac0d"/>
+    <text font-size="10" font-weight="bold" fill="#d4ac0d">④ Göğüslük (es-Sinâf) السِّنَاف</text>
+    <text y="16" font-size="8" fill="#5D4E37">Eyerin kaymasını önleyen kayış.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Göğüsten geçen deri bant.</text>
+    <text y="44" font-size="8" fill="#7f8c8d">Savaş atlarında zorunlu teçhizat.</text>
+  </g>
+
+  <!-- 5. AT ZIRHi / HORSE ARMOR -->
+  <line x1="540" y1="310" x2="400" y2="275" stroke="#1a5276" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(480,290)">
+    <rect x="-5" y="-15" width="210" height="55" rx="5" fill="#fff" opacity="0.9" stroke="#1a5276"/>
+    <text font-size="10" font-weight="bold" fill="#1a5276">⑤ At Zırhı (et-Ticfâf) التِّجْفَاف</text>
+    <text y="16" font-size="8" fill="#5D4E37">Deri veya keçe örtü.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Ok ve kılıçtan koruma. Nadir.</text>
+  </g>
+
+  <!-- 6. KUSKUN / CRUPPER -->
+  <line x1="540" y1="400" x2="440" y2="280" stroke="#6c3483" stroke-width="1" stroke-dasharray="3,2"/>
+  <g transform="translate(480,380)">
+    <rect x="-5" y="-15" width="210" height="48" rx="5" fill="#fff" opacity="0.9" stroke="#6c3483"/>
+    <text font-size="10" font-weight="bold" fill="#6c3483">⑥ Kuskun (el-Ğarc) الغَرْض</text>
+    <text y="16" font-size="8" fill="#5D4E37">Kuyruk altı kayışı.</text>
+    <text y="30" font-size="8" fill="#5D4E37">Eyer geriye kaymasını önler.</text>
+  </g>
+
+  <!-- Hz. Peygamber'in atları notu -->
+  <g transform="translate(50,440)">
+    <rect x="-5" y="-12" width="280" height="45" rx="5" fill="#1e8449" opacity="0.1" stroke="#1e8449"/>
+    <text y="2" font-size="8" font-weight="bold" fill="#1e8449">Hz. Peygamber'in atları:</text>
+    <text y="16" font-size="8" fill="#5D4E37">es-Sekb, el-Murtecez, el-Lahîf, ez-Zarîb, el-Verd, Lizâz, el-Ya'sûb</text>
+    <text y="30" font-size="7" fill="#7f8c8d">Bedir'de 2 at — Mekke Fethi'nde yüzlerce süvari</text>
+  </g>
+
+  <text x="350" y="492" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #22</text>
+</svg>

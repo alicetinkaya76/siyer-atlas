@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "recon_seriyye_abdullah_cahs",
+    "battle_id": "seriyye_abdullah_cahs",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.47,
+        "lng": 40.28
+      },
+      "name": "Batn-ı Nahle (Mekke-Tâif arası)",
+      "modern_location": "Nakhla vadisi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Gizli görev",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Hz. Peygamber mühürlü mektup verdi: 'İki gün yürü, aç'. Nahle'ye keşif görevi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Kervan baskını",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Receb'in son günü (haram ay) kervan geldi. Vâkıd b. Abdullah ok attı, Amr b. el-Hadramî öldü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Tartışma",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Haram ayda savaş yasağı ihlali tartışması. Bakara 217 nazil oldu.",
+      "events": []
+    },
+    {
+      "id": "phase_4",
+      "order": 4,
+      "name": "Sonuç",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Ganimetin beşte biri ayrıldı (ilk humus). İki esir alındı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Cahş",
+      "estimated_troops": 12,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, II/252-257",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Vâkıdî, el-Megâzî, I/13-18",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "Taberî, Târîh, II/410-414",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": "Bakara",
+      "ayah": "217",
+      "relevance": "Haram ayda savaş"
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_megazi_bedir_dua",
+      "topic": "Bedir'de Hz. Peygamber'in duâsı",
+      "relevance": "indirect"
+    }
+  ],
+  "impact": {
+    "result": "Müslüman zaferi, 1 öldürme, 2 esir",
+    "significance": "İslam'da ilk öldürme ve ilk ganîmet. Haram ay ihlali tartışması. Bakara 217 nüzûlü. Kervan baskını stratejisinin doruk noktası.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#4CAF50",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "recon_fetih_misir",
+    "battle_id": "fetih_misir",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 30.0033,
+        "lng": 31.2311
+      },
+      "name": "Mısır'ın Fethi",
+      "modern_location": "Kahire / Fustât"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Ariş-Bilbeys",
+      "date_range": "Zilhicce 19",
+      "duration": "",
+      "description": "Amr b. Âs 4.000 kişiyle Mısır'a girdi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Bâbilûn Kuşatması",
+      "date_range": "Muharrem 20",
+      "duration": "",
+      "description": "Bâbilûn Kalesi kuşatıldı; 7 ay sürdü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "İskenderiye Anlaşması",
+      "date_range": "Şevvâl 20",
+      "duration": "",
+      "description": "İskenderiye barışla teslim oldu.",
+      "events": []
+    },
+    {
+      "id": "phase_4",
+      "order": 4,
+      "name": "Fustât'ın Kuruluşu",
+      "date_range": "20",
+      "duration": "",
+      "description": "Amr b. Âs Fustât'ı kurdu; camisi inşa edildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. Âs",
+      "estimated_troops": 4000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Mukavkıs (Bizans valisi)",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/64-100",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 210-225",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "İbn Abdülhakem, Fütûhu Mısr",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_misir_kibt",
+      "topic": "Hz. Peygamber: 'Mısır'ı fethettiğinizde halkına iyi davranın, çünkü onlarla akrabalık (Hâcer/İsmâil) ve dostluk bağı vardır'",
+      "relevance": "direct",
+      "source": "Müslim, Fazâilü's-Sahâbe"
+    }
+  ],
+  "impact": {
+    "result": "Mısır fethedildi — Fustât şehri kuruldu",
+    "significance": "Afrika'nın kapısı açıldı. Fustât (daha sonra Kahire) İslâm'ın yeni merkezi oldu. Hz. Ömer'in izniyle gerçekleşti.",
+    "cross_references": [
+      "fetih_babilon",
+      "fetih_iskenderiye"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

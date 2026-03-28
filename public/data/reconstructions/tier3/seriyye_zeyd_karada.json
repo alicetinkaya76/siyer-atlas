@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_zeyd_karada",
+    "battle_id": "seriyye_zeyd_karada",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.6,
+        "lng": 39.3
+      },
+      "name": "Karada suyu (Necid yolu)",
+      "modern_location": "Medine kuzeydoğusu"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "İstihbarat",
+      "date_range": "Cemâziyelâhir 3",
+      "duration": "",
+      "description": "Kureyş Bedir sonrası alternatif (Irak) yolunu denedi. Hz. Peygamber haberdar oldu.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Pusu",
+      "date_range": "Cemâziyelâhir 3",
+      "duration": "",
+      "description": "Zeyd 100 kişiyle Karada suyunda pusu kurdu.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Ele geçirme",
+      "date_range": "Cemâziyelâhir 3",
+      "duration": "",
+      "description": "Kervan ele geçirildi, muhafızlar kaçtı. Gümüş ve ticaret malları ganîmet olarak alındı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Zeyd b. Hârise",
+      "estimated_troops": 100,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/197",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Sa'd, et-Tabakât, II/35",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Kervan ele geçirildi",
+    "significance": "Kureyş'in alternatif ticaret yolunu da kaybetmesi. Ekonomik baskının başarısı.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

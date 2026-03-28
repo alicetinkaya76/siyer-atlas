@@ -1,0 +1,178 @@
+[
+  {
+    "id": "buhur",
+    "name": {
+      "ar": "اللبان / البخور",
+      "tr": "Buhur (Günlük)",
+      "en": "Frankincense"
+    },
+    "origin": "Güney Arabistan (Hadramevt, Oman)",
+    "category": "koku",
+    "description": "Arap ticaretinin en değerli malı. Boswellia ağacının reçinesi. Tapınaklarda ve evlerde kullanılır. Güney Arabistan'ın zenginliğinin kaynağı."
+  },
+  {
+    "id": "murrusafi",
+    "name": {
+      "ar": "المر",
+      "tr": "Mürrüsafi (Mür)",
+      "en": "Myrrh"
+    },
+    "origin": "Yemen, Habeşistan",
+    "category": "koku",
+    "description": "Commiphora ağacından elde edilen reçine. Tıpta, mumyalamada ve parfümde kullanılır."
+  },
+  {
+    "id": "ipek",
+    "name": {
+      "ar": "الحرير",
+      "tr": "İpek",
+      "en": "Silk"
+    },
+    "origin": "Çin → İpek Yolu → Arabistan",
+    "category": "kumaş",
+    "description": "En değerli kumaş. Hz. Peygamber erkeklere ipek giymeyi yasakladı ama ticaretine izin verdi."
+  },
+  {
+    "id": "baharat",
+    "name": {
+      "ar": "التوابل",
+      "tr": "Baharat",
+      "en": "Spices"
+    },
+    "origin": "Hindistan, Güneydoğu Asya → Yemen → Mekke",
+    "category": "gıda",
+    "description": "Karabiber, tarçın, karanfil, zencefil. Hint Okyanusu ticaretinin en kârlı malları."
+  },
+  {
+    "id": "deri",
+    "name": {
+      "ar": "الجلود والأديم",
+      "tr": "Deri ve Meşin",
+      "en": "Leather and Hides"
+    },
+    "origin": "Tâif, Medine, Yemen",
+    "category": "hammadde",
+    "description": "Tâif özellikle tabaklanmış deriyle ünlüydü. Kemer, çanta, ayakkabı, kalkan yapımında."
+  },
+  {
+    "id": "hurma",
+    "name": {
+      "ar": "التمر",
+      "tr": "Hurma",
+      "en": "Dates"
+    },
+    "origin": "Medine (Acve), Basra, Bahreyn",
+    "category": "gıda",
+    "description": "Arap yarımadasının temel gıdası. Medine'nin Acve hurması en meşhuru. Hz. Peygamber: 'Sabah yedi Acve hurması yiyen...'"
+  },
+  {
+    "id": "deve",
+    "name": {
+      "ar": "الإبل",
+      "tr": "Deve",
+      "en": "Camels"
+    },
+    "origin": "Arabistan geneli",
+    "category": "hayvan",
+    "description": "Hem taşımacılık hem ticaret malı. Sütü, eti, derisi, yünü kullanılır. Diyet bedeli olarak da ödenir."
+  },
+  {
+    "id": "kumas",
+    "name": {
+      "ar": "القماش",
+      "tr": "Kumaş",
+      "en": "Textiles"
+    },
+    "origin": "Yemen (bürde), Mısır (keten), Şam",
+    "category": "kumaş",
+    "description": "Yemen bürdesi özellikle kıymetliydi. Hz. Peygamber'in bürde-i şerîfesi. Mısır keteni, Şam brokarı."
+  },
+  {
+    "id": "altin",
+    "name": {
+      "ar": "الذهب",
+      "tr": "Altın",
+      "en": "Gold"
+    },
+    "origin": "Habeşistan, Nübya, Güney Arabistan",
+    "category": "maden",
+    "description": "Dinar (altın sikke). Roma ve Sâsânî dinarları kullanılırdı. Hz. Ömer döneminde İslâmî dinar basıldı."
+  },
+  {
+    "id": "gumus",
+    "name": {
+      "ar": "الفضة",
+      "tr": "Gümüş",
+      "en": "Silver"
+    },
+    "origin": "İran, Arabistan madenleri",
+    "category": "maden",
+    "description": "Dirhem (gümüş sikke). Sâsânî dirhemi temel para birimiydi."
+  },
+  {
+    "id": "silah",
+    "name": {
+      "ar": "السلاح",
+      "tr": "Silah (Kılıç, Zırh)",
+      "en": "Weapons (Swords, Armor)"
+    },
+    "origin": "Hindistan (çelik), Yemen (kılıç), Dımaşk",
+    "category": "silah",
+    "description": "Hint çeliği (Wootz) en kıymetli kılıç malzemesi. Yemen'in Seyfü'l-Yemenî kılıçları meşhur. Hz. Peygamber'in kılıçları: Zülfikār, Bâtir, Hatf."
+  },
+  {
+    "id": "misk",
+    "name": {
+      "ar": "المسك",
+      "tr": "Misk",
+      "en": "Musk"
+    },
+    "origin": "Tibet, Hindistan → Arap ticareti",
+    "category": "koku",
+    "description": "En kıymetli koku maddesi. Hz. Peygamber'in en sevdiği koku. 'Misk ile sıvanmış koku' tabiri."
+  },
+  {
+    "id": "kafur",
+    "name": {
+      "ar": "الكافور",
+      "tr": "Kâfûr",
+      "en": "Camphor"
+    },
+    "origin": "Güneydoğu Asya (Borneo, Sumatra)",
+    "category": "koku",
+    "description": "Kur'ân'da cennet içeceği olarak geçer (İnsan 76:5). Tıpta ve cenaze yıkamada kullanılır."
+  },
+  {
+    "id": "tuz",
+    "name": {
+      "ar": "الملح",
+      "tr": "Tuz",
+      "en": "Salt"
+    },
+    "origin": "Ölü Deniz, Yemâme, çeşitli tuzlalar",
+    "category": "gıda",
+    "description": "Hayatî ihtiyaç maddesi. Ticaret ve muhafaza için temel madde."
+  },
+  {
+    "id": "buğday",
+    "name": {
+      "ar": "القمح",
+      "tr": "Buğday",
+      "en": "Wheat"
+    },
+    "origin": "Suriye, Mısır, Irak",
+    "category": "gıda",
+    "description": "Temel gıda maddesi. Ribâ (faiz) yasağının tanımlandığı altı maddeden biri."
+  },
+  {
+    "id": "zeytinyagi",
+    "name": {
+      "ar": "زيت الزيتون",
+      "tr": "Zeytinyağı",
+      "en": "Olive Oil"
+    },
+    "origin": "Suriye, Filistin",
+    "category": "gıda",
+    "description": "Kur'ân'da mübarek ağaç olarak zikredilen zeytinin yağı. Gıda, aydınlatma ve tıpta kullanılır."
+  }
+]

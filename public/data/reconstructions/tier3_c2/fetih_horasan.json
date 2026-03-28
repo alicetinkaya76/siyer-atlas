@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "recon_fetih_horasan",
+    "battle_id": "fetih_horasan",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.21,
+        "lng": 58.8
+      },
+      "name": "Horasan Fethi",
+      "modern_location": "Nişabur bölgesi, İran"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "İlerleme",
+      "date_range": "22",
+      "duration": "",
+      "description": "Ahnef Horasan'a doğru ilerledi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "22",
+      "duration": "",
+      "description": "Nişabur ve çevresi ele geçirildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ahnef b. Kays",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Sâsânî valileri",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/160",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 398",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_horasan_bayraklar",
+      "topic": "Hz. Peygamber: 'Horasan tarafından siyah bayraklar gelecektir' — Abbâsî ihtilâli bağlamında da yorumlanır",
+      "relevance": "contextual",
+      "source": "Tirmizî; İbn Mâce (zayıf tartışmalı)"
+    }
+  ],
+  "impact": {
+    "result": "Zafer",
+    "significance": "İslâm'ın Orta Asya'ya açılan kapısı. İran'ın doğusunun fethi başladı.",
+    "cross_references": [
+      "nihavend",
+      "fetih_merv"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

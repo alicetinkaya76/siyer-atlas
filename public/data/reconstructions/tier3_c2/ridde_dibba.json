@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "recon_ridde_dibba",
+    "battle_id": "ridde_dibba",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.62,
+        "lng": 56.27
+      },
+      "name": "Dibbâ Muharebesi",
+      "modern_location": "Dibba al-Hisn, BAE/Uman sınırı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Uman İsyanı",
+      "date_range": "Safer 12",
+      "duration": "",
+      "description": "Lakit b. Mâlik Uman'da irtidad hareketi başlattı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Muharebe",
+      "date_range": "Rebîülevvel 12",
+      "duration": "",
+      "description": "Dibbâ'da şiddetli çarpışma; 10.000 kişi katıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "Rebîülevvel 12",
+      "duration": "",
+      "description": "Mürted güçler dağıtıldı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Huzeyfe b. Muhsin + Arfece b. Herseme",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Lakit b. Mâlik el-Ezdî",
+      "estimated_troops": 10000,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/306-310",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 86",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_ebubekir_ridde",
+      "topic": "Hz. Ebû Bekir'in Ridde savaşlarındaki kararlılığı",
+      "relevance": "contextual",
+      "source": "Buhârî, Zekât"
+    }
+  ],
+  "impact": {
+    "result": "Müslüman zaferi",
+    "significance": "Uman bölgesindeki ridde hareketinin sona erdirilmesi. Arap Yarımadası'nın doğu kıyısının yeniden kontrolü.",
+    "cross_references": [
+      "ridde_buzaha",
+      "ridde_yemame"
+    ]
+  },
+  "visualization": {
+    "icon": "ridde",
+    "color": "#FF5722",
+    "priority": "medium"
+  }
+}

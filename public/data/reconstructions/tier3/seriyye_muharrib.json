@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_muharrib",
+    "battle_id": "seriyye_muharrib",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.0,
+        "lng": 40.5
+      },
+      "name": "Zû Amer (Necid)",
+      "modern_location": "Necid batısı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "Rebîülevvel 3",
+      "duration": "",
+      "description": "Gatafân tehdidine karşı Zû Amer'e yürüyüş.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Gavres olayı",
+      "date_range": "Rebîülevvel 3",
+      "duration": "",
+      "description": "Hz. Peygamber ağaç altında istirahat ederken Gavres yaklaştı: 'Seni benden kim koruyacak?' Hz. Peygamber: 'Allah.' Kılıç elinden düştü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Dönüş",
+      "date_range": "Rebîülevvel 3",
+      "duration": "",
+      "description": "Düşman dağıldı, 15 gün sonra Medine'ye dönüş.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Muhammed (s.a.v.)",
+      "estimated_troops": 450,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/193-196",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Buhârî, Megâzî, 31",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Çatışmasız, caydırıcı",
+    "significance": "Gavres olayı Hz. Peygamber'in cesaretinin sembolü olarak rivayet edilir.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

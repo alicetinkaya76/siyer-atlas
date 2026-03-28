@@ -1,0 +1,1193 @@
+{
+  "version": "v2.12.0",
+  "companion_to_items": {
+    "osman": [
+      "sword_zulfiqar",
+      "sword_masur",
+      "spear_aneze",
+      "arch_peygamber_hucreleri",
+      "arch_mescid_ahzab",
+      "arch_makam_ibrahim",
+      "dl_burde",
+      "dl_nalin",
+      "dl_hirka",
+      "dl_muhur",
+      "geo_well_003",
+      "geo_well_005",
+      "geo_battle_004",
+      "geo_route_004",
+      "geo_port_001",
+      "geo_port_002",
+      "ms_mushaf_osman",
+      "ms_muhur"
+    ],
+    "ali": [
+      "sword_zulfiqar",
+      "arch_hayber_kalesi",
+      "arch_tebuk_ordugahi",
+      "geo_battle_001",
+      "geo_battle_003",
+      "ms_sahife_ali",
+      "ms_medine_vesikasi",
+      "ms_hudeybiye_metni",
+      "flag_ukab",
+      "flag_liva_beyaz",
+      "flag_rayah_hayber",
+      "flag_sancak_muhacirun",
+      "flag_rayah_tebuk",
+      "flag_rayah_hendek"
+    ],
+    "zubeyr": [
+      "spear_aneze",
+      "spear_harbat_zubayr",
+      "flag_rayah_hendek"
+    ],
+    "hamza": [
+      "spear_harba_hamza",
+      "spear_harba_wahshi",
+      "geo_cave_003",
+      "flag_rayah_beni_kaynuka"
+    ],
+    "comp_selman_farisi": [
+      "siege_manjaniq",
+      "siege_dabbaba",
+      "siege_hendek",
+      "arch_hendek",
+      "dl_hurma",
+      "geo_valley_005"
+    ],
+    "omer": [
+      "arch_darul_erkam",
+      "arch_peygamber_hucreleri",
+      "arch_mescid_kuba",
+      "arch_mescid_haram",
+      "arch_zulmecaz",
+      "arch_makam_ibrahim",
+      "dl_kepce",
+      "dl_canak",
+      "dl_dirhem",
+      "dl_hasir",
+      "geo_sacred_003",
+      "geo_sacred_007",
+      "geo_well_003",
+      "geo_well_005",
+      "geo_valley_003",
+      "geo_battle_006",
+      "ms_mushaf_ebubekir",
+      "ms_medine_vesikasi",
+      "ms_muhur"
+    ],
+    "ebubekir": [
+      "arch_ebu_bekir_evi",
+      "arch_bedir_ordugahi",
+      "arch_fedek_kalesi",
+      "dl_kirba",
+      "dl_parsomen",
+      "geo_cave_002",
+      "geo_well_003",
+      "geo_route_001",
+      "med_hacamat_aleti",
+      "ms_mushaf_ebubekir",
+      "ms_medine_vesikasi",
+      "ms_muhur"
+    ],
+    "comp_halid_velid": [
+      "arch_ebu_eyyub_evi",
+      "geo_battle_002",
+      "geo_battle_006",
+      "geo_desert_004",
+      "flag_sancak_halid",
+      "flag_rayah_mute"
+    ],
+    "comp_ebu_hureyre_det": [
+      "arch_suffah",
+      "med_keme",
+      "ms_sahife_hemmam"
+    ],
+    "comp_ebu_zer": [
+      "arch_suffah"
+    ],
+    "hatice": [
+      "arch_7c_mekke_evi",
+      "arch_ebu_talib_sib",
+      "geo_valley_001"
+    ],
+    "enes_malik": [
+      "arch_7c_medine_evi",
+      "med_hacamat_aleti",
+      "med_deve_sutu"
+    ],
+    "comp_zeyd_sabit": [
+      "dl_murekkep",
+      "dl_levha",
+      "ms_mushaf_osman",
+      "ms_mushaf_ebubekir"
+    ],
+    "comp_cafer_tayyar": [
+      "geo_route_004",
+      "flag_rayah_mute"
+    ],
+    "rukaiye": [
+      "geo_route_004"
+    ],
+    "comp_muaz_cebel": [
+      "geo_port_003"
+    ],
+    "aise": [
+      "med_telbine",
+      "med_rukye",
+      "med_su_tedavi",
+      "med_nebiz",
+      "ms_vasiyetname"
+    ],
+    "comp_abdullah_abbas": [
+      "med_surme"
+    ],
+    "comp_hafsa": [
+      "ms_mushaf_ebubekir"
+    ],
+    "comp_abdullah_b_amr": [
+      "ms_sahife_sadika"
+    ],
+    "dihye_kelbi": [
+      "ms_mektup_herakleios"
+    ],
+    "hatib_belta": [
+      "ms_mektup_mukavkis"
+    ],
+    "comp_cabir_b_abdallah": [
+      "ms_sahife_cabir"
+    ],
+    "comp_abdullah_huzafe": [
+      "ms_mektup_kisra"
+    ],
+    "comp_ummu_habibe": [
+      "ms_mektup_necasi"
+    ],
+    "comp_usame_zeyd": [
+      "ms_vasiyetname",
+      "flag_sancak_usame"
+    ],
+    "comp_mus_ab": [
+      "flag_liva_beyaz",
+      "flag_sancak_muhacirun"
+    ],
+    "comp_sad_b_ubade": [
+      "flag_sancak_sad",
+      "flag_sancak_hazrec"
+    ],
+    "comp_zeyd_harise": [
+      "flag_rayah_mute"
+    ],
+    "useyd_hudayr": [
+      "flag_sancak_evs"
+    ],
+    "comp_sad_b_muaz": [
+      "flag_sancak_evs"
+    ],
+    "comp_ebu_ubeyde": [
+      "flag_rayah_tebuk"
+    ]
+  },
+  "battle_to_items": {
+    "gazve_bedir": [
+      "sword_zulfiqar",
+      "sword_battar",
+      "sword_hatf",
+      "sword_mikhzam",
+      "sword_rasub",
+      "sword_adb",
+      "spear_harba_hamza",
+      "spear_harbat_zubayr",
+      "bow_safra",
+      "bow_katum",
+      "shield_quraysh",
+      "armor_dir_generic",
+      "helmet_bayda_generic",
+      "siege_arish",
+      "arch_bedir_ordugahi",
+      "geo_well_004",
+      "geo_valley_002",
+      "geo_battle_001",
+      "geo_route_002",
+      "flag_ukab",
+      "flag_liva_beyaz",
+      "flag_sancak_sad",
+      "flag_sancak_muhacirun"
+    ],
+    "gazve_uhud": [
+      "sword_zulfiqar",
+      "sword_masur",
+      "sword_hatf",
+      "spear_bayda",
+      "spear_harba_hamza",
+      "spear_harba_wahshi",
+      "spear_harbat_zubayr",
+      "bow_rawha",
+      "bow_bayda_bow",
+      "arrow_arab_types",
+      "shield_zaluq",
+      "shield_uhud",
+      "shield_quraysh",
+      "armor_sadiyya",
+      "armor_dir_generic",
+      "helmet_muwashah",
+      "helmet_burnus",
+      "arch_kabe_7c",
+      "arch_uhud_ordugahi",
+      "dl_parsomen",
+      "geo_sacred_003",
+      "geo_cave_003",
+      "geo_well_002",
+      "geo_valley_002",
+      "geo_valley_003",
+      "geo_battle_002",
+      "flag_ukab",
+      "flag_liva_beyaz",
+      "flag_sancak_muhacirun"
+    ],
+    "gazve_taif": [
+      "arrow_arab_types",
+      "siege_manjaniq",
+      "siege_dabbaba",
+      "siege_nari_arrow",
+      "arch_ukaz_panayiri",
+      "arch_zulmecaz",
+      "arch_taif_surlari",
+      "arch_huneyn_ordugahi",
+      "dl_bal",
+      "dl_deri",
+      "geo_valley_006",
+      "geo_valley_007",
+      "geo_desert_005"
+    ],
+    "gazve_fetih_mekke": [
+      "helmet_zu_subugh",
+      "helmet_bayda_generic",
+      "arch_ebu_sufyan_evi",
+      "arch_kabe_7c",
+      "arch_mescid_haram",
+      "arch_mekke_fetih_ordugahi",
+      "arch_huneyn_ordugahi",
+      "arch_makam_ibrahim",
+      "dl_imame",
+      "geo_sacred_001",
+      "geo_valley_006",
+      "flag_ukab",
+      "flag_sancak_halid",
+      "flag_sancak_sad"
+    ],
+    "gazve_hendek": [
+      "siege_hendek",
+      "arch_sad_muaz_evi",
+      "arch_mescid_fetih",
+      "arch_mescid_ahzab",
+      "arch_hendek",
+      "arch_medine_utum",
+      "arch_kurayza_kalesi",
+      "arch_hendek_ordugahi",
+      "dl_tencere",
+      "geo_valley_005",
+      "geo_battle_003",
+      "geo_battle_005",
+      "geo_desert_001",
+      "flag_ukab",
+      "flag_sancak_muhacirun"
+    ],
+    "gazve_tebuk": [
+      "arch_mescid_dirar",
+      "arch_tebuk_ordugahi",
+      "geo_battle_004",
+      "geo_desert_003",
+      "geo_port_004"
+    ],
+    "gazve_hayber": [
+      "arch_hayber_kalesi",
+      "arch_nadir_kalesi",
+      "arch_hayber_ordugahi",
+      "arch_fedek_kalesi",
+      "dl_hurma",
+      "geo_battle_003",
+      "geo_battle_005",
+      "flag_ukab",
+      "flag_rayah_hayber"
+    ],
+    "gazve_huneyn": [
+      "arch_huneyn_ordugahi",
+      "dl_sacayak",
+      "geo_valley_004",
+      "geo_valley_006",
+      "geo_desert_005"
+    ],
+    "seriyye_mute": [
+      "geo_battle_002",
+      "flag_sancak_halid",
+      "flag_rayah_mute"
+    ],
+    "yermuk": [
+      "geo_battle_006"
+    ],
+    "gazve_hudeybiye": [
+      "ms_hudeybiye_metni"
+    ],
+    "mute": [
+      "ms_mektup_haris_gassani"
+    ],
+    "seriyye_usame": [
+      "flag_sancak_usame"
+    ],
+    "bedir": [
+      "flag_sancak_evs",
+      "flag_sancak_hazrec"
+    ],
+    "uhud": [
+      "flag_sancak_evs",
+      "flag_sancak_hazrec"
+    ],
+    "tebuk": [
+      "flag_rayah_tebuk"
+    ],
+    "hendek": [
+      "flag_rayah_hendek"
+    ],
+    "beni_kaynuka": [
+      "flag_rayah_beni_kaynuka"
+    ]
+  },
+  "location_to_items": {
+    "medine": [
+      "med_hacamat_aleti",
+      "med_kina",
+      "med_bal",
+      "med_habbes_sevda",
+      "med_misvak",
+      "med_hurma",
+      "med_kay_daglamak",
+      "med_kust_hindi",
+      "med_telbine",
+      "med_su_ve_sirke",
+      "med_zeytin_yagi",
+      "med_rukye",
+      "med_deve_sutu",
+      "med_su_tedavi",
+      "med_nebiz",
+      "ms_mushaf_osman",
+      "ms_mushaf_ebubekir",
+      "ms_sahife_sadika",
+      "ms_sahife_ali",
+      "ms_medine_vesikasi",
+      "ms_mektup_herakleios",
+      "ms_mektup_mukavkis",
+      "ms_sahife_cabir",
+      "ms_sahife_hemmam",
+      "ms_muhur",
+      "ms_mektup_kisra",
+      "ms_mektup_necasi",
+      "ms_mektup_munzir",
+      "ms_mektup_haris_gassani",
+      "ms_mektup_hawze",
+      "ms_vasiyetname",
+      "flag_sancak_sad",
+      "flag_sancak_usame",
+      "flag_sancak_evs",
+      "flag_sancak_hazrec",
+      "flag_rayah_tebuk",
+      "flag_rayah_hendek",
+      "flag_rayah_beni_kaynuka"
+    ],
+    "mekke": [
+      "med_sena_yapragi",
+      "med_habbes_sevda",
+      "med_misvak",
+      "med_zemzem",
+      "ms_sahife_cabir"
+    ],
+    "taif": [
+      "med_bal",
+      "med_zeytin_yagi"
+    ],
+    "hudeybiye": [
+      "ms_hudeybiye_metni"
+    ],
+    "hayber": [
+      "flag_rayah_hayber"
+    ],
+    "tebuk": [
+      "flag_rayah_tebuk"
+    ]
+  },
+  "item_to_companions": {
+    "sword_zulfiqar": [
+      "osman",
+      "ali"
+    ],
+    "sword_masur": [
+      "osman"
+    ],
+    "spear_aneze": [
+      "osman",
+      "zubeyr"
+    ],
+    "spear_harba_hamza": [
+      "hamza"
+    ],
+    "spear_harba_wahshi": [
+      "hamza"
+    ],
+    "spear_harbat_zubayr": [
+      "zubeyr"
+    ],
+    "siege_manjaniq": [
+      "comp_selman_farisi"
+    ],
+    "siege_dabbaba": [
+      "comp_selman_farisi"
+    ],
+    "siege_hendek": [
+      "comp_selman_farisi"
+    ],
+    "arch_darul_erkam": [
+      "omer"
+    ],
+    "arch_ebu_bekir_evi": [
+      "ebubekir"
+    ],
+    "arch_peygamber_hucreleri": [
+      "omer",
+      "osman"
+    ],
+    "arch_ebu_eyyub_evi": [
+      "comp_halid_velid"
+    ],
+    "arch_suffah": [
+      "comp_ebu_hureyre_det",
+      "comp_ebu_zer"
+    ],
+    "arch_7c_mekke_evi": [
+      "hatice"
+    ],
+    "arch_7c_medine_evi": [
+      "enes_malik"
+    ],
+    "arch_ebu_talib_sib": [
+      "hatice"
+    ],
+    "arch_mescid_kuba": [
+      "omer"
+    ],
+    "arch_mescid_ahzab": [
+      "osman"
+    ],
+    "arch_mescid_haram": [
+      "omer"
+    ],
+    "arch_zulmecaz": [
+      "omer"
+    ],
+    "arch_hendek": [
+      "comp_selman_farisi"
+    ],
+    "arch_hayber_kalesi": [
+      "ali"
+    ],
+    "arch_bedir_ordugahi": [
+      "ebubekir"
+    ],
+    "arch_tebuk_ordugahi": [
+      "ali"
+    ],
+    "arch_makam_ibrahim": [
+      "omer",
+      "osman"
+    ],
+    "arch_fedek_kalesi": [
+      "ebubekir"
+    ],
+    "dl_kepce": [
+      "omer"
+    ],
+    "dl_canak": [
+      "omer"
+    ],
+    "dl_kirba": [
+      "ebubekir"
+    ],
+    "dl_hurma": [
+      "comp_selman_farisi"
+    ],
+    "dl_burde": [
+      "osman"
+    ],
+    "dl_nalin": [
+      "osman"
+    ],
+    "dl_hirka": [
+      "osman"
+    ],
+    "dl_dirhem": [
+      "omer"
+    ],
+    "dl_murekkep": [
+      "comp_zeyd_sabit"
+    ],
+    "dl_parsomen": [
+      "ebubekir"
+    ],
+    "dl_levha": [
+      "comp_zeyd_sabit"
+    ],
+    "dl_muhur": [
+      "osman"
+    ],
+    "dl_hasir": [
+      "omer"
+    ],
+    "geo_sacred_003": [
+      "omer"
+    ],
+    "geo_sacred_007": [
+      "omer"
+    ],
+    "geo_cave_002": [
+      "ebubekir"
+    ],
+    "geo_cave_003": [
+      "hamza"
+    ],
+    "geo_well_003": [
+      "ebubekir",
+      "omer",
+      "osman"
+    ],
+    "geo_well_005": [
+      "omer",
+      "osman"
+    ],
+    "geo_valley_001": [
+      "hatice"
+    ],
+    "geo_valley_003": [
+      "omer"
+    ],
+    "geo_valley_005": [
+      "comp_selman_farisi"
+    ],
+    "geo_battle_001": [
+      "ali"
+    ],
+    "geo_battle_002": [
+      "comp_halid_velid"
+    ],
+    "geo_battle_003": [
+      "ali"
+    ],
+    "geo_battle_004": [
+      "osman"
+    ],
+    "geo_battle_006": [
+      "omer",
+      "comp_halid_velid"
+    ],
+    "geo_route_001": [
+      "ebubekir"
+    ],
+    "geo_route_004": [
+      "comp_cafer_tayyar",
+      "rukaiye",
+      "osman"
+    ],
+    "geo_desert_004": [
+      "comp_halid_velid"
+    ],
+    "geo_port_001": [
+      "osman"
+    ],
+    "geo_port_002": [
+      "osman"
+    ],
+    "geo_port_003": [
+      "comp_muaz_cebel"
+    ],
+    "med_hacamat_aleti": [
+      "ebubekir",
+      "enes_malik"
+    ],
+    "med_telbine": [
+      "aise"
+    ],
+    "med_rukye": [
+      "aise"
+    ],
+    "med_deve_sutu": [
+      "enes_malik"
+    ],
+    "med_keme": [
+      "comp_ebu_hureyre_det"
+    ],
+    "med_su_tedavi": [
+      "aise"
+    ],
+    "med_surme": [
+      "comp_abdullah_abbas"
+    ],
+    "med_nebiz": [
+      "aise"
+    ],
+    "ms_mushaf_osman": [
+      "osman",
+      "comp_zeyd_sabit"
+    ],
+    "ms_mushaf_ebubekir": [
+      "ebubekir",
+      "omer",
+      "comp_zeyd_sabit",
+      "comp_hafsa"
+    ],
+    "ms_sahife_sadika": [
+      "comp_abdullah_b_amr"
+    ],
+    "ms_sahife_ali": [
+      "ali"
+    ],
+    "ms_medine_vesikasi": [
+      "ebubekir",
+      "omer",
+      "ali"
+    ],
+    "ms_hudeybiye_metni": [
+      "ali"
+    ],
+    "ms_mektup_herakleios": [
+      "dihye_kelbi"
+    ],
+    "ms_mektup_mukavkis": [
+      "hatib_belta"
+    ],
+    "ms_sahife_cabir": [
+      "comp_cabir_b_abdallah"
+    ],
+    "ms_sahife_hemmam": [
+      "comp_ebu_hureyre_det"
+    ],
+    "ms_muhur": [
+      "ebubekir",
+      "omer",
+      "osman"
+    ],
+    "ms_mektup_kisra": [
+      "comp_abdullah_huzafe"
+    ],
+    "ms_mektup_necasi": [
+      "comp_ummu_habibe"
+    ],
+    "ms_vasiyetname": [
+      "aise",
+      "comp_usame_zeyd"
+    ],
+    "flag_ukab": [
+      "ali"
+    ],
+    "flag_liva_beyaz": [
+      "comp_mus_ab",
+      "ali"
+    ],
+    "flag_rayah_hayber": [
+      "ali"
+    ],
+    "flag_sancak_halid": [
+      "comp_halid_velid"
+    ],
+    "flag_sancak_sad": [
+      "comp_sad_b_ubade"
+    ],
+    "flag_sancak_muhacirun": [
+      "ali",
+      "comp_mus_ab"
+    ],
+    "flag_sancak_usame": [
+      "comp_usame_zeyd"
+    ],
+    "flag_rayah_mute": [
+      "comp_zeyd_harise",
+      "comp_cafer_tayyar",
+      "comp_halid_velid"
+    ],
+    "flag_sancak_evs": [
+      "useyd_hudayr",
+      "comp_sad_b_muaz"
+    ],
+    "flag_sancak_hazrec": [
+      "comp_sad_b_ubade"
+    ],
+    "flag_rayah_tebuk": [
+      "ali",
+      "comp_ebu_ubeyde"
+    ],
+    "flag_rayah_hendek": [
+      "ali",
+      "zubeyr"
+    ],
+    "flag_rayah_beni_kaynuka": [
+      "hamza"
+    ]
+  },
+  "item_to_battles": {
+    "sword_zulfiqar": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "sword_masur": [
+      "gazve_uhud"
+    ],
+    "sword_battar": [
+      "gazve_bedir"
+    ],
+    "sword_hatf": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "sword_mikhzam": [
+      "gazve_bedir"
+    ],
+    "sword_rasub": [
+      "gazve_bedir"
+    ],
+    "sword_adb": [
+      "gazve_bedir"
+    ],
+    "spear_bayda": [
+      "gazve_uhud"
+    ],
+    "spear_harba_hamza": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "spear_harba_wahshi": [
+      "gazve_uhud"
+    ],
+    "spear_harbat_zubayr": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "bow_rawha": [
+      "gazve_uhud"
+    ],
+    "bow_safra": [
+      "gazve_bedir"
+    ],
+    "bow_katum": [
+      "gazve_bedir"
+    ],
+    "bow_bayda_bow": [
+      "gazve_uhud"
+    ],
+    "arrow_arab_types": [
+      "gazve_uhud",
+      "gazve_taif"
+    ],
+    "shield_zaluq": [
+      "gazve_uhud"
+    ],
+    "shield_uhud": [
+      "gazve_uhud"
+    ],
+    "shield_quraysh": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "armor_sadiyya": [
+      "gazve_uhud"
+    ],
+    "armor_dir_generic": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "helmet_muwashah": [
+      "gazve_uhud"
+    ],
+    "helmet_zu_subugh": [
+      "gazve_fetih_mekke"
+    ],
+    "helmet_burnus": [
+      "gazve_uhud"
+    ],
+    "helmet_bayda_generic": [
+      "gazve_bedir",
+      "gazve_fetih_mekke"
+    ],
+    "siege_manjaniq": [
+      "gazve_taif"
+    ],
+    "siege_dabbaba": [
+      "gazve_taif"
+    ],
+    "siege_nari_arrow": [
+      "gazve_taif"
+    ],
+    "siege_hendek": [
+      "gazve_hendek"
+    ],
+    "siege_arish": [
+      "gazve_bedir"
+    ],
+    "arch_sad_muaz_evi": [
+      "gazve_hendek"
+    ],
+    "arch_ebu_sufyan_evi": [
+      "gazve_fetih_mekke"
+    ],
+    "arch_mescid_dirar": [
+      "gazve_tebuk"
+    ],
+    "arch_mescid_fetih": [
+      "gazve_hendek"
+    ],
+    "arch_mescid_ahzab": [
+      "gazve_hendek"
+    ],
+    "arch_kabe_7c": [
+      "gazve_uhud",
+      "gazve_fetih_mekke"
+    ],
+    "arch_mescid_haram": [
+      "gazve_fetih_mekke"
+    ],
+    "arch_ukaz_panayiri": [
+      "gazve_taif"
+    ],
+    "arch_zulmecaz": [
+      "gazve_taif"
+    ],
+    "arch_hendek": [
+      "gazve_hendek"
+    ],
+    "arch_hayber_kalesi": [
+      "gazve_hayber"
+    ],
+    "arch_taif_surlari": [
+      "gazve_taif"
+    ],
+    "arch_medine_utum": [
+      "gazve_hendek"
+    ],
+    "arch_kurayza_kalesi": [
+      "gazve_hendek"
+    ],
+    "arch_nadir_kalesi": [
+      "gazve_hayber"
+    ],
+    "arch_bedir_ordugahi": [
+      "gazve_bedir"
+    ],
+    "arch_uhud_ordugahi": [
+      "gazve_uhud"
+    ],
+    "arch_mekke_fetih_ordugahi": [
+      "gazve_fetih_mekke"
+    ],
+    "arch_tebuk_ordugahi": [
+      "gazve_tebuk"
+    ],
+    "arch_hendek_ordugahi": [
+      "gazve_hendek"
+    ],
+    "arch_hayber_ordugahi": [
+      "gazve_hayber"
+    ],
+    "arch_huneyn_ordugahi": [
+      "gazve_fetih_mekke",
+      "gazve_huneyn",
+      "gazve_taif"
+    ],
+    "arch_makam_ibrahim": [
+      "gazve_fetih_mekke"
+    ],
+    "arch_fedek_kalesi": [
+      "gazve_hayber"
+    ],
+    "dl_tencere": [
+      "gazve_hendek"
+    ],
+    "dl_sacayak": [
+      "gazve_huneyn"
+    ],
+    "dl_hurma": [
+      "gazve_hayber"
+    ],
+    "dl_bal": [
+      "gazve_taif"
+    ],
+    "dl_imame": [
+      "gazve_fetih_mekke"
+    ],
+    "dl_parsomen": [
+      "gazve_uhud"
+    ],
+    "dl_deri": [
+      "gazve_taif"
+    ],
+    "geo_sacred_001": [
+      "gazve_fetih_mekke"
+    ],
+    "geo_sacred_003": [
+      "gazve_uhud"
+    ],
+    "geo_cave_003": [
+      "gazve_uhud"
+    ],
+    "geo_well_002": [
+      "gazve_uhud"
+    ],
+    "geo_well_004": [
+      "gazve_bedir"
+    ],
+    "geo_valley_002": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "geo_valley_003": [
+      "gazve_uhud"
+    ],
+    "geo_valley_004": [
+      "gazve_huneyn"
+    ],
+    "geo_valley_005": [
+      "gazve_hendek"
+    ],
+    "geo_valley_006": [
+      "gazve_fetih_mekke",
+      "gazve_huneyn",
+      "gazve_taif"
+    ],
+    "geo_valley_007": [
+      "gazve_taif"
+    ],
+    "geo_battle_001": [
+      "gazve_bedir"
+    ],
+    "geo_battle_002": [
+      "gazve_uhud",
+      "seriyye_mute"
+    ],
+    "geo_battle_003": [
+      "gazve_hendek",
+      "gazve_hayber"
+    ],
+    "geo_battle_004": [
+      "gazve_tebuk"
+    ],
+    "geo_battle_005": [
+      "gazve_hendek",
+      "gazve_hayber"
+    ],
+    "geo_battle_006": [
+      "yermuk"
+    ],
+    "geo_route_002": [
+      "gazve_bedir"
+    ],
+    "geo_desert_001": [
+      "gazve_hendek"
+    ],
+    "geo_desert_003": [
+      "gazve_tebuk"
+    ],
+    "geo_desert_005": [
+      "gazve_huneyn",
+      "gazve_taif"
+    ],
+    "geo_port_004": [
+      "gazve_tebuk"
+    ],
+    "ms_hudeybiye_metni": [
+      "gazve_hudeybiye"
+    ],
+    "ms_mektup_haris_gassani": [
+      "mute"
+    ],
+    "flag_ukab": [
+      "gazve_bedir",
+      "gazve_uhud",
+      "gazve_hendek",
+      "gazve_hayber",
+      "gazve_fetih_mekke"
+    ],
+    "flag_liva_beyaz": [
+      "gazve_bedir",
+      "gazve_uhud"
+    ],
+    "flag_rayah_hayber": [
+      "gazve_hayber"
+    ],
+    "flag_sancak_halid": [
+      "seriyye_mute",
+      "gazve_fetih_mekke"
+    ],
+    "flag_sancak_sad": [
+      "gazve_fetih_mekke",
+      "gazve_bedir"
+    ],
+    "flag_sancak_muhacirun": [
+      "gazve_bedir",
+      "gazve_uhud",
+      "gazve_hendek"
+    ],
+    "flag_sancak_usame": [
+      "seriyye_usame"
+    ],
+    "flag_rayah_mute": [
+      "seriyye_mute"
+    ],
+    "flag_sancak_evs": [
+      "bedir",
+      "uhud"
+    ],
+    "flag_sancak_hazrec": [
+      "bedir",
+      "uhud"
+    ],
+    "flag_rayah_tebuk": [
+      "tebuk"
+    ],
+    "flag_rayah_hendek": [
+      "hendek"
+    ],
+    "flag_rayah_beni_kaynuka": [
+      "beni_kaynuka"
+    ]
+  },
+  "item_to_locations": {
+    "med_hacamat_aleti": [
+      "medine"
+    ],
+    "med_kina": [
+      "medine"
+    ],
+    "med_sena_yapragi": [
+      "mekke"
+    ],
+    "med_bal": [
+      "medine",
+      "taif"
+    ],
+    "med_habbes_sevda": [
+      "medine",
+      "mekke"
+    ],
+    "med_misvak": [
+      "medine",
+      "mekke"
+    ],
+    "med_zemzem": [
+      "mekke"
+    ],
+    "med_hurma": [
+      "medine"
+    ],
+    "med_kay_daglamak": [
+      "medine"
+    ],
+    "med_kust_hindi": [
+      "medine"
+    ],
+    "med_telbine": [
+      "medine"
+    ],
+    "med_su_ve_sirke": [
+      "medine"
+    ],
+    "med_zeytin_yagi": [
+      "medine",
+      "taif"
+    ],
+    "med_rukye": [
+      "medine"
+    ],
+    "med_deve_sutu": [
+      "medine"
+    ],
+    "med_su_tedavi": [
+      "medine"
+    ],
+    "med_nebiz": [
+      "medine"
+    ],
+    "ms_mushaf_osman": [
+      "medine"
+    ],
+    "ms_mushaf_ebubekir": [
+      "medine"
+    ],
+    "ms_sahife_sadika": [
+      "medine"
+    ],
+    "ms_sahife_ali": [
+      "medine"
+    ],
+    "ms_medine_vesikasi": [
+      "medine"
+    ],
+    "ms_hudeybiye_metni": [
+      "hudeybiye"
+    ],
+    "ms_mektup_herakleios": [
+      "medine"
+    ],
+    "ms_mektup_mukavkis": [
+      "medine"
+    ],
+    "ms_sahife_cabir": [
+      "medine",
+      "mekke"
+    ],
+    "ms_sahife_hemmam": [
+      "medine"
+    ],
+    "ms_muhur": [
+      "medine"
+    ],
+    "ms_mektup_kisra": [
+      "medine"
+    ],
+    "ms_mektup_necasi": [
+      "medine"
+    ],
+    "ms_mektup_munzir": [
+      "medine"
+    ],
+    "ms_mektup_haris_gassani": [
+      "medine"
+    ],
+    "ms_mektup_hawze": [
+      "medine"
+    ],
+    "ms_vasiyetname": [
+      "medine"
+    ],
+    "flag_rayah_hayber": [
+      "hayber"
+    ],
+    "flag_sancak_sad": [
+      "medine"
+    ],
+    "flag_sancak_usame": [
+      "medine"
+    ],
+    "flag_sancak_evs": [
+      "medine"
+    ],
+    "flag_sancak_hazrec": [
+      "medine"
+    ],
+    "flag_rayah_tebuk": [
+      "medine",
+      "tebuk"
+    ],
+    "flag_rayah_hendek": [
+      "medine"
+    ],
+    "flag_rayah_beni_kaynuka": [
+      "medine"
+    ]
+  }
+}

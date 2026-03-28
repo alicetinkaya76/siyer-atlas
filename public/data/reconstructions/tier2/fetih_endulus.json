@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "id": "reconstruction_fetih_endulus",
+    "battle_id": "fetih_endulus",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Endülüs Fethi (92 AH / 711 CE). Târık b. Ziyâd'ın Cebelitârık'tan geçişi ve Vizigot Krallığı'nı yıkması. 8 asırlık İslâm Endülüs medeniyetinin başlangıcı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.4,
+        "lng": -5.9
+      },
+      "bbox": {
+        "north": 37.9,
+        "south": 36.1,
+        "east": -4.7,
+        "west": -6.3
+      },
+      "terrain_type": "coastal_plain",
+      "terrain_desc": {
+        "tr": "Cebelitârık Boğazı'ndan geçiş; Vâdî Lekke (Guadalete) nehri kıyısında kesin muharebe. Güney İspanya'nın kıyı ovası ve iç platosu.",
+        "en": "Crossing via the Strait of Gibraltar; decisive battle on the Guadalete (Wādī Lakka) river bank. Coastal plain and interior plateau of southern Spain."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_cebeli_tarik",
+        "name": {
+          "tr": "Cebelitârık (Jabal Ṭāriq)",
+          "en": "Gibraltar (Jabal Ṭāriq)"
+        },
+        "lat": 36.14,
+        "lng": -5.35,
+        "type": "mountain",
+        "note_tr": "Târık b. Ziyâd'ın adını taşıyan kaya; çıkartma noktası."
+      },
+      {
+        "id": "lm_vadi_lekke",
+        "name": {
+          "tr": "Vâdî Lekke (Guadalete)",
+          "en": "Wādī Lakka (Guadalete)"
+        },
+        "lat": 36.75,
+        "lng": -6.0,
+        "type": "river",
+        "note_tr": "Vizigot Kralı Rodrigo'nun yenildiği yer."
+      },
+      {
+        "id": "lm_kurtuba",
+        "name": {
+          "tr": "Kurtuba (Córdoba)",
+          "en": "Córdoba"
+        },
+        "lat": 37.88,
+        "lng": -4.77,
+        "type": "city",
+        "note_tr": "Vizigot başkenti; fetihten sonra Endülüs'ün merkezi oldu."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_tarik_gecis",
+        "name": {
+          "tr": "Târık'ın Boğaz geçişi ve kuzeye ilerleyişi",
+          "en": "Ṭāriq's strait crossing and northward advance"
+        },
+        "type": "campaign",
+        "waypoints": [
+          {
+            "lat": 35.78,
+            "lng": -5.81,
+            "label": "Tanca (çıkış)"
+          },
+          {
+            "lat": 36.14,
+            "lng": -5.35,
+            "label": "Cebelitârık"
+          },
+          {
+            "lat": 36.75,
+            "lng": -6.0,
+            "label": "Vâdî Lekke"
+          },
+          {
+            "lat": 37.38,
+            "lng": -5.98,
+            "label": "İşbîliye (Sevilla)"
+          },
+          {
+            "lat": 37.88,
+            "lng": -4.77,
+            "label": "Kurtuba"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_hazirlik",
+      "order": 0,
+      "name": {
+        "tr": "Keşif ve hazırlık",
+        "en": "Reconnaissance and preparation"
+      },
+      "date_range": {
+        "start": "91 AH",
+        "end": "Receb 92 AH"
+      },
+      "duration": "~6 ay",
+      "description": {
+        "tr": "Mûsâ b. Nusayr'ın emriyle Tarîf b. Mâlik 500 kişiyle keşif seferi yaptı (Tarîfa adı buradan). Vizigot iç savaşı fırsat olarak değerlendirildi. Kont Julyan (Yulyan) lojistik destek sağladı.",
+        "en": "Under Mūsā b. Nuṣayr's orders, Ṭarīf b. Mālik conducted a reconnaissance expedition with 500 men (Tarifa named after him). The Visigothic civil war was exploited. Count Julian (Yuliyān) provided logistical support."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Tarîf'in keşif seferi",
+          "description_tr": "500 kişiyle İber Yarımadası'na ilk çıkartma."
+        }
+      ]
+    },
+    {
+      "id": "F1_gecis",
+      "order": 1,
+      "name": {
+        "tr": "Cebelitârık geçişi",
+        "en": "Gibraltar crossing"
+      },
+      "date_range": {
+        "start": "1 Receb 92 AH / Nisan 711",
+        "end": "5 Receb 92 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Târık b. Ziyâd 7.000 Berberî askeriyle boğazı geçti. Kayaların tepesinde karargâh kurdu. Meşhur konuşması: 'Arkanızda deniz, önünüzde düşman. Sabır ve doğruluktan başka çareniz yok!' (sonraki kaynaklarda)",
+        "en": "Ṭāriq b. Ziyād crossed the strait with 7,000 Berber soldiers. Established camp atop the rocks. His famous speech: 'The sea is behind you, the enemy before you. You have no choice but patience and truth!' (in later sources)"
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Boğaz geçişi",
+          "description_tr": "7.000 askerle İber Yarımadası'na çıkartma."
+        },
+        {
+          "id": "E1_2",
+          "name_tr": "Târık'ın meşhur konuşması",
+          "description_tr": "'Arkada deniz, önde düşman' — motivasyon konuşması."
+        }
+      ]
+    },
+    {
+      "id": "F2_vadi_lekke",
+      "order": 2,
+      "name": {
+        "tr": "Vâdî Lekke Muharebesi",
+        "en": "Battle of Guadalete"
+      },
+      "date_range": {
+        "start": "28 Ramazan 92 AH / 19 Temmuz 711",
+        "end": "~5 Şevval 92 AH"
+      },
+      "duration": "~8 gün",
+      "description": {
+        "tr": "Vizigot Kralı Rodrigo (Lüzrîk) 25.000 kişilik orduyla geldi. Ancak Rodrigo'nun rakipleri (Witiza oğulları) savaş sırasında taraf değiştirdi. 8 gün süren muharebede Vizigot ordusu çöktü. Rodrigo muhtemelen öldü (cesedi bulunamadı).",
+        "en": "Visigothic King Roderic (Ludhīrīq) came with 25,000 troops. But Roderic's rivals (sons of Witiza) switched sides during battle. After 8 days of fighting, the Visigothic army collapsed. Roderic likely died (body not found)."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Witiza oğullarının ihaneti",
+          "description_tr": "Vizigot ordusunun bir kısmı savaş sırasında taraf değiştirdi."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Rodrigo'nun sonu",
+          "description_tr": "Kral muhtemelen öldü; cesedi bulunamadı."
+        }
+      ]
+    },
+    {
+      "id": "F3_kuzeye_ilerleme",
+      "order": 3,
+      "name": {
+        "tr": "İşbîliye ve Kurtuba'nın fethi",
+        "en": "Conquest of Seville and Córdoba"
+      },
+      "date_range": {
+        "start": "Şevval 92 AH",
+        "end": "93 AH"
+      },
+      "duration": "birkaç ay",
+      "description": {
+        "tr": "Vizigot direniş merkezleri birer birer düştü. İşbîliye (Sevilla), Kurtuba, sonra Tuleytula (Toledo — eski başkent). Mûsâ b. Nusayr 18.000 kişilik takviyeyle geldi. Yarımadanın büyük kısmı 2 yılda fethedildi.",
+        "en": "Visigothic resistance centers fell one by one. Seville, Córdoba, then Toledo (former capital). Mūsā b. Nuṣayr arrived with 18,000 reinforcements. Most of the peninsula was conquered within 2 years."
+      },
+      "events": [
+        {
+          "id": "E3_1",
+          "name_tr": "Mûsâ b. Nusayr'ın varışı",
+          "description_tr": "18.000 kişilik takviye."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~7.000 (ilk) + 18.000 (takviye) = ~25.000",
+      "commander_name": {
+        "tr": "Târık b. Ziyâd (alan kumandanı) / Mûsâ b. Nusayr (genel vali)",
+        "en": "Ṭāriq b. Ziyād (field commander) / Mūsā b. Nuṣayr (governor)"
+      },
+      "composition": {
+        "berberi": {
+          "note_tr": "Kuzey Afrikalı Berberîler — ana kuvvet"
+        },
+        "arap": {
+          "note_tr": "Arap askerleri — Mûsâ ile gelen takviye"
+        }
+      }
+    },
+    "enemy": {
+      "total": "~25.000-33.000",
+      "commander_name": {
+        "tr": "Kral Rodrigo (Lüzrîk)",
+        "en": "King Roderic (Ludhīrīq)"
+      },
+      "composition": {
+        "vizigot": {
+          "note_tr": "Vizigot düzenli ordusu"
+        },
+        "feodal": {
+          "note_tr": "Feodal beylerden toplanan kuvvetler (bir kısmı ihanet etti)"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Abdilhakem",
+        "work": "Fütûhu Mısr ve'l-Mağrib",
+        "section": "",
+        "note_tr": "En erken Arap kaynağı; Endülüs fethi detayları."
+      },
+      {
+        "author": "İbnü'l-Kûtiyye",
+        "work": "Târîhu İftitâhi'l-Endelüs",
+        "section": "",
+        "note_tr": "Endülüs yerli perspektifi."
+      },
+      {
+        "author": "Makkarî",
+        "work": "Nefhu't-Tîb",
+        "section": "",
+        "note_tr": "Geç dönem kapsamlı Endülüs tarihi."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "R. Collins",
+        "work": "The Arab Conquest of Spain",
+        "note_tr": "Modern perspektif."
+      }
+    ]
+  },
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_konstaniyye_fethi",
+      "topic": "Hz. Peygamber'in Konstantiniyye'nin fethi müjdesi — benzer şekilde büyük fetihlere ilham kaynağı",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Vizigot Krallığı tamamen yıkıldı. İber Yarımadası'nın neredeyse tamamı 3 yılda fethedildi. Puvatye'ye kadar (114 AH/732) ilerleme.",
+      "en": "The Visigothic Kingdom was completely destroyed. Almost the entire Iberian Peninsula was conquered within 3 years. Advance up to Poitiers (114 AH/732)."
+    },
+    "political": {
+      "tr": "Endülüs Emevî Devleti'nin temeli atıldı. 8 asırlık İslâm varlığı başladı.",
+      "en": "Foundation of the Andalusian Umayyad state was laid. 8 centuries of Islamic presence began."
+    },
+    "theological": {
+      "tr": "Endülüs, medeniyetler arası diyalogun ve ilmî üretimin altın çağını yaşadı. İbn Rüşd, İbn Arabi, İbn Haldun gibi büyük âlimler bu topraklarda yetişti.",
+      "en": "Al-Andalus experienced a golden age of inter-civilizational dialogue and scholarly production. Great scholars like Ibn Rushd, Ibn ʿArabī, and Ibn Khaldūn emerged from this land."
+    },
+    "subsequent_events": [
+      {
+        "id": "muharebe_talas",
+        "name_tr": "Talas Muharebesi (751)",
+        "description_tr": "Doğu'daki fetih sınırı."
+      },
+      {
+        "id": "evt_kurtuba_hilafet",
+        "name_tr": "Kurtuba Hilâfeti (929)",
+        "description_tr": "III. Abdurrahmân'ın hilâfet ilanı."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 7,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "route_campaign": "#FF8F00"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      }
+    ]
+  }
+}

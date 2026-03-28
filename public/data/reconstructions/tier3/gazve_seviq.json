@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_gazve_seviq",
+    "battle_id": "gazve_seviq",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.3,
+        "lng": 39.65
+      },
+      "name": "Karkaratü'l-Küdr (Medine çevresi)",
+      "modern_location": "Medine güneyi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Ebû Süfyân baskını",
+      "date_range": "Zilhicce 2",
+      "duration": "",
+      "description": "200 atlıyla el-Arîd'e gece baskını. Bir ensârî ve işçisini öldürdü, hurmalıkları yaktı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Takip",
+      "date_range": "Zilhicce 2",
+      "duration": "",
+      "description": "Hz. Peygamber 200 kişiyle takip etti. Karkaratü'l-Küdr'e kadar gitti.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Geri dönüş",
+      "date_range": "Zilhicce 2",
+      "duration": "",
+      "description": "Müşrikler sevîk çuvallarını atarak hızla kaçtı. Gazve adını buradan aldı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Muhammed (s.a.v.)",
+      "estimated_troops": 200,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/181-183",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, III/46-47",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Karşılaşma olmadı, baskıncılar kaçtı",
+    "significance": "Bedir sonrası Kureyş'in ilk karşılık girişimi. Medine çevresinin savunma açığını gösterdi.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "gazve",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

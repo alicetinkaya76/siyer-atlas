@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf6ef"/><stop offset="100%" stop-color="#f0e8d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="450" fill="url(#bg7)"/>
+  <text x="350" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Yeme-İçme Kapları / Food &amp; Drink Vessels</text>
+  <text x="350" y="44" text-anchor="middle" font-size="10" fill="#7f8c8d">أواني الطعام والشراب — Asr-ı Saâdet</text>
+
+  <!-- 1. SAHAN / QASA (wide bowl) -->
+  <g transform="translate(120,150)">
+    <ellipse rx="40" ry="10" fill="#c49a5e" stroke="#8B6914" stroke-width="1.5"/>
+    <path d="M-40,0 Q-42,20 -30,30 Q0,38 30,30 Q42,20 40,0" fill="#d4a76a" stroke="#8B6914" stroke-width="1.5"/>
+    <ellipse cy="30" rx="30" ry="6" fill="none" stroke="#8B6914" stroke-width="0.5" opacity="0.5"/>
+  </g>
+  <g transform="translate(120,200)">
+    <text text-anchor="middle" font-size="11" font-weight="bold" fill="#5B2C06">Sahân / Kasʿa</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#8B6914">القَصْعَة / الصَّحْن</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Büyük yemek tabağı</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Ahşap veya çömlek</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">Ortak yemek kültürü</text>
+  </g>
+
+  <!-- 2. KADEH / KA'S (drinking cup) -->
+  <g transform="translate(280,140)">
+    <path d="M-12,-20 Q-15,-10 -12,0 Q0,5 12,0 Q15,-10 12,-20Z" fill="#E8D5A3" stroke="#8B6914" stroke-width="1.5"/>
+    <ellipse cy="-20" rx="12" ry="4" fill="#F5E6C8" stroke="#8B6914" stroke-width="1"/>
+    <rect x="-5" y="0" width="10" height="8" fill="#c49a5e" stroke="#8B6914" stroke-width="0.5"/>
+    <ellipse cy="8" rx="10" ry="3" fill="#c49a5e" stroke="#8B6914" stroke-width="1"/>
+  </g>
+  <g transform="translate(280,200)">
+    <text text-anchor="middle" font-size="11" font-weight="bold" fill="#5B2C06">Ka's / Kadeh</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#8B6914">الكَأْس / القَدَح</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">İçme kabı</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Çömlek, cam, ahşap</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">Sağ elle içilir</text>
+  </g>
+
+  <!-- 3. KIRBA / QIRBA (water skin) -->
+  <g transform="translate(440,130)">
+    <path d="M0,-35 Q-5,-30 -15,-15 Q-20,10 -15,30 Q-5,42 5,42 Q15,42 20,30 Q25,10 20,-15 Q10,-30 5,-35Z" fill="#A0896A" stroke="#6d5b3e" stroke-width="1.5"/>
+    <path d="M0,-35 Q-3,-40 0,-42 Q3,-40 0,-35" fill="#8B6914" stroke="#6d5b3e" stroke-width="1"/>
+    <!-- Stitching -->
+    <path d="M-5,-20 Q0,-18 5,-20" fill="none" stroke="#5B2C06" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <path d="M-8,0 Q0,3 8,0" fill="none" stroke="#5B2C06" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <!-- Tie -->
+    <line x1="0" y1="-42" x2="0" y2="-50" stroke="#6d5b3e" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(440,200)">
+    <text text-anchor="middle" font-size="11" font-weight="bold" fill="#5B2C06">Kırba / Meşk</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#8B6914">القِرْبَة / المَشْك</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Su tulumu</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Keçi/koyun derisi</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">Yolculuk+savaş temel</text>
+  </g>
+
+  <!-- 4. TESTİ / IBRIQ -->
+  <g transform="translate(600,130)">
+    <!-- Body -->
+    <path d="M-15,-15 Q-20,5 -15,25 Q0,35 15,25 Q20,5 15,-15 Q0,-20 -15,-15Z" fill="#c49a5e" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Neck -->
+    <path d="M-5,-15 Q-4,-30 0,-35 Q4,-30 5,-15" fill="#c49a5e" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Spout -->
+    <path d="M0,-35 Q-8,-40 -12,-35" fill="none" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Handle -->
+    <path d="M12,-20 Q25,-15 22,5 Q20,15 15,20" fill="none" stroke="#8B6914" stroke-width="2"/>
+  </g>
+  <g transform="translate(600,200)">
+    <text text-anchor="middle" font-size="11" font-weight="bold" fill="#5B2C06">İbrîk / Testi</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#8B6914">الإبْرِيق</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Su kabı / abdest testisi</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Çömlek veya bakır</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">Kulplu, emzikli</text>
+  </g>
+
+  <!-- Additional vessels row -->
+  <line x1="50" y1="320" x2="650" y2="320" stroke="#E8D5A3" stroke-width="1"/>
+
+  <g transform="translate(140,360)">
+    <rect x="-65" y="-18" width="130" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-3" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Cefne الجَفْنة</text>
+    <text y="11" text-anchor="middle" font-size="7" fill="#5D4E37">Büyük ortak yemek çanağı</text>
+    <text y="23" text-anchor="middle" font-size="7" fill="#7f8c8d">Misafirperverlik sembolü</text>
+  </g>
+  <g transform="translate(350,360)">
+    <rect x="-65" y="-18" width="130" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-3" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Dubba الدُّبَّاء</text>
+    <text y="11" text-anchor="middle" font-size="7" fill="#5D4E37">Kabak kabı (su saklama)</text>
+    <text y="23" text-anchor="middle" font-size="7" fill="#7f8c8d">Kurutulmuş kabak</text>
+  </g>
+  <g transform="translate(560,360)">
+    <rect x="-65" y="-18" width="130" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-3" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Mihras المِهْراس</text>
+    <text y="11" text-anchor="middle" font-size="7" fill="#5D4E37">Taş havan / çeşme</text>
+    <text y="23" text-anchor="middle" font-size="7" fill="#7f8c8d">Abdest / yemek hazırlık</text>
+  </g>
+
+  <text x="350" y="440" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #26</text>
+</svg>

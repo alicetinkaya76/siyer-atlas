@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="blade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="30%" stop-color="#E8E8E8"/>
+      <stop offset="50%" stop-color="#F5F5F5"/>
+      <stop offset="70%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#A0A0A0"/>
+    </linearGradient>
+    <linearGradient id="guard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="50%" stop-color="#DAB96E"/>
+      <stop offset="100%" stop-color="#B8972D"/>
+    </linearGradient>
+    <linearGradient id="grip" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A3520"/>
+      <stop offset="50%" stop-color="#5C4330"/>
+      <stop offset="100%" stop-color="#3A2510"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#00000030"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#FAFAF5"/>
+  <rect x="20" y="20" width="760" height="460" fill="none" stroke="#D4C5A0" stroke-width="1"/>
+  <rect x="25" y="25" width="750" height="450" fill="none" stroke="#D4C5A0" stroke-width="0.5"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2C1810" font-weight="bold">ذُو الْفَقَار</text>
+  <text x="400" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#5C4330">Dhū al-Faqār  |  Zülfikār</text>
+  <text x="400" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#8B7355" font-style="italic">The Prophet's Double-Pointed Sword</text>
+
+  <!-- Main Sword Group - horizontal orientation -->
+  <g transform="translate(90, 260)" filter="url(#shadow)">
+    <!-- Blade body -->
+    <path d="M 0,0 L 420,-8 L 420,8 L 0,0 Z" fill="url(#blade)" stroke="#888" stroke-width="0.5"/>
+    
+    <!-- Fuller (groove) -->
+    <line x1="30" y1="0" x2="400" y2="0" stroke="#B0B0B0" stroke-width="1.5"/>
+    
+    <!-- Bifurcated tip (the distinctive split point) -->
+    <path d="M 420,-8 L 480,-16 L 510,-12 L 490,-4 L 420,0 Z" fill="url(#blade)" stroke="#888" stroke-width="0.5"/>
+    <path d="M 420,8 L 480,16 L 510,12 L 490,4 L 420,0 Z" fill="url(#blade)" stroke="#888" stroke-width="0.5"/>
+    
+    <!-- Guard (crossguard) -->
+    <rect x="-10" y="-22" width="12" height="44" rx="2" fill="url(#guard)" stroke="#8B6914" stroke-width="0.5"/>
+    <circle cx="-4" cy="-18" r="3" fill="#DAB96E" stroke="#8B6914" stroke-width="0.5"/>
+    <circle cx="-4" cy="18" r="3" fill="#DAB96E" stroke="#8B6914" stroke-width="0.5"/>
+    
+    <!-- Grip -->
+    <rect x="-55" y="-10" width="45" height="20" rx="4" fill="url(#grip)" stroke="#2A1A0A" stroke-width="0.5"/>
+    <!-- Grip wrapping lines -->
+    <line x1="-48" y1="-9" x2="-48" y2="9" stroke="#6B5040" stroke-width="0.8"/>
+    <line x1="-40" y1="-9" x2="-40" y2="9" stroke="#6B5040" stroke-width="0.8"/>
+    <line x1="-32" y1="-9" x2="-32" y2="9" stroke="#6B5040" stroke-width="0.8"/>
+    <line x1="-24" y1="-9" x2="-24" y2="9" stroke="#6B5040" stroke-width="0.8"/>
+    
+    <!-- Pommel -->
+    <ellipse cx="-62" cy="0" rx="10" ry="14" fill="url(#guard)" stroke="#8B6914" stroke-width="0.5"/>
+    <circle cx="-62" cy="0" r="5" fill="#DAB96E" stroke="#8B6914" stroke-width="0.5"/>
+  </g>
+
+  <!-- Dimension lines -->
+  <g font-family="'Courier New', monospace" font-size="10" fill="#8B7355">
+    <!-- Total length -->
+    <line x1="28" y1="310" x2="600" y2="310" stroke="#B8972D" stroke-width="0.5" stroke-dasharray="3,2"/>
+    <line x1="28" y1="305" x2="28" y2="315" stroke="#B8972D" stroke-width="0.5"/>
+    <line x1="600" y1="305" x2="600" y2="315" stroke="#B8972D" stroke-width="0.5"/>
+    <text x="314" y="325" text-anchor="middle">~95 cm (overall length)</text>
+    
+    <!-- Blade length -->
+    <line x1="80" y1="340" x2="600" y2="340" stroke="#B8972D" stroke-width="0.5" stroke-dasharray="3,2"/>
+    <line x1="80" y1="335" x2="80" y2="345" stroke="#B8972D" stroke-width="0.5"/>
+    <line x1="600" y1="335" x2="600" y2="345" stroke="#B8972D" stroke-width="0.5"/>
+    <text x="340" y="355" text-anchor="middle">~80 cm (blade)</text>
+  </g>
+
+  <!-- Annotations -->
+  <g font-family="Georgia, serif" font-size="10" fill="#5C4330">
+    <!-- Split tip annotation -->
+    <line x1="590" y1="244" x2="650" y2="180" stroke="#8B7355" stroke-width="0.5"/>
+    <text x="655" y="175" font-size="9">Bifurcated tip</text>
+    <text x="655" y="187" font-size="8" fill="#8B7355" font-style="italic">(distinctive double point)</text>
+    
+    <!-- Fuller annotation -->
+    <line x1="350" y1="260" x2="350" y2="210" stroke="#8B7355" stroke-width="0.5"/>
+    <text x="355" y="208" font-size="9">Fuller (blood groove)</text>
+    
+    <!-- Guard annotation -->
+    <line x1="80" y1="238" x2="80" y2="180" stroke="#8B7355" stroke-width="0.5"/>
+    <text x="55" y="175" font-size="9">Gold guard</text>
+    
+    <!-- Pommel -->
+    <line x1="28" y1="260" x2="28" y2="200" stroke="#8B7355" stroke-width="0.5"/>
+    <text x="15" y="195" font-size="9">Pommel</text>
+  </g>
+
+  <!-- Material and provenance -->
+  <g font-family="Georgia, serif" font-size="10" fill="#5C4330">
+    <text x="50" y="400" font-weight="bold">Material:</text>
+    <text x="115" y="400">Damascus steel (wootz), gold fittings, leather grip</text>
+    
+    <text x="50" y="418" font-weight="bold">Provenance:</text>
+    <text x="125" y="418">Spoils of Badr (624 CE) — originally Munabbih ibn al-Hajjaj's</text>
+    
+    <text x="50" y="436" font-weight="bold">Significance:</text>
+    <text x="130" y="436">Given to ʿAlī ibn Abī Ṭālib; most celebrated sword in Islamic tradition</text>
+    
+    <text x="50" y="454" font-weight="bold">Source:</text>
+    <text x="105" y="454">Ibn Saʿd, al-Ṭabaqāt al-Kubrā, I/486</text>
+  </g>
+
+  <!-- Catalog number -->
+  <text x="750" y="465" text-anchor="end" font-family="'Courier New', monospace" font-size="9" fill="#B8972D">DSM-WPN-001</text>
+</svg>

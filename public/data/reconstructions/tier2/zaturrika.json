@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "id": "reconstruction_zaturrika",
+    "battle_id": "gazve_zaturrika",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-26",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Zâtürrıkā' Gazvesi (Muharrem veya Rebîülevvel 5 AH / 626 CE — tarih tartışmalı; bazı rivâyetler 7 AH). Necid bölgesine sefer; Gatafân (Anha/Sa'lebe) kabilelerine karşı. Adı, yıpranmış ayakkabıları saran paçavralardan (rikā') gelir. Korku namazı (salâtü'l-havf) ilk kez burada kılındı. Gavres b. Hâris suikast girişimi meşhur."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.2,
+        "lng": 40.5
+      },
+      "bbox": {
+        "north": 25.35,
+        "south": 25.05,
+        "east": 40.7,
+        "west": 40.3
+      },
+      "terrain_type": "highland_desert",
+      "terrain_desc": {
+        "tr": "Necid yaylası; volkanik taşlık arazi (harre), engebeli tepeler ve vadilerle kaplı. Yaz sıcağında kayalık yollar ayakkabıları parçaladı. Su kaynakları seyrek; kabile otlakları bölgesi.",
+        "en": "Najd plateau; volcanic rocky terrain (ḥarra), covered with rugged hills and valleys. Rocky paths in summer heat shredded footwear. Water sources sparse; tribal pastureland zone."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_nahlatu_zaturrika",
+        "name": {
+          "tr": "Zâtürrıkā' mevkii",
+          "en": "Dhāt al-Riqāʿ location"
+        },
+        "lat": 25.2,
+        "lng": 40.5,
+        "type": "campsite",
+        "note_tr": "Seferin adını aldığı mevki; bazı rivâyetlere göre alaca renkli dağ, bazılarına göre yamalı bayraklar."
+      },
+      {
+        "id": "lm_nahla",
+        "name": {
+          "tr": "Nahle",
+          "en": "Nakhla"
+        },
+        "lat": 25.15,
+        "lng": 40.45,
+        "type": "valley",
+        "note_tr": "Yakın vadilerden biri; Gatafân kabilelerinin konaklama alanı."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_necid",
+        "name": {
+          "tr": "Medîne → Necid (Zâtürrıkā')",
+          "en": "Medina → Najd (Dhāt al-Riqāʿ)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 24.8,
+            "lng": 40.0,
+            "label": "Ara konak"
+          },
+          {
+            "lat": 25.2,
+            "lng": 40.5,
+            "label": "Zâtürrıkā'"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Gatafân tehdidi",
+        "en": "Background: Ghaṭafān threat"
+      },
+      "date_range": {
+        "start": "Zilhicce 4 AH",
+        "end": "Muharrem 5 AH"
+      },
+      "duration": "~2-3 hafta",
+      "description": {
+        "tr": "Gatafân kabilesinin kolları (Anha ve Sa'lebe) Medîne'ye saldırı hazırlığına girdi. Necid bölgesinde kabile toplantıları yapıldığı haberi geldi. Hz. Peygamber, düşman toplanmadan müdahale etmeye karar verdi.",
+        "en": "Branches of the Ghaṭafān tribe (Anḥā and Thaʿlaba) were preparing to attack Medina. Reports arrived of tribal assemblies in the Najd region. The Prophet decided to intervene before the enemy could consolidate."
+      },
+      "events": [
+        {
+          "id": "E0_1_istihbarat",
+          "type": "intelligence",
+          "description_tr": "Gatafân'ın Anha ve Sa'lebe kollarının toplanma haberi alındı.",
+          "description_en": "News of Ghaṭafān's Anḥā and Thaʿlaba branches assembling received."
+        }
+      ]
+    },
+    {
+      "id": "F1_seferberlik",
+      "order": 1,
+      "name": {
+        "tr": "Seferberlik ve Necid'e yürüyüş",
+        "en": "Mobilization and march to Najd"
+      },
+      "date_range": {
+        "start": "Muharrem 5 AH",
+        "end": "~10 gün sonra"
+      },
+      "duration": "~7-10 gün",
+      "description": {
+        "tr": "Hz. Peygamber 400-700 kişilik bir kuvvetle Necid'e doğru yola çıktı. Osman b. Affân (veya bir rivâyete göre Ebû Zerr) Medîne'de vekil bırakıldı. Yol son derece zordu — kayalık ve sıcak arazi yüzünden sahâbîlerin ayakkabıları parçalandı. Ayaklarını bez parçalarıyla sardılar. Seferin adı ('Zâtürrıkā' — paçavralar/yamalar gazvesi) buradan gelir.",
+        "en": "The Prophet set out for Najd with 400-700 troops. ʿUthmān b. ʿAffān (or Abū Dharr in one report) was left as deputy in Medina. The route was extremely difficult — rocky and hot terrain shredded the companions' footwear. They wrapped their feet with cloth strips. The expedition's name ('Dhāt al-Riqāʿ' — campaign of patches/rags) derives from this."
+      },
+      "events": [
+        {
+          "id": "E1_1_yola_cikis",
+          "type": "march",
+          "description_tr": "400-700 kişilik kuvvet Necid'e doğru hareket etti.",
+          "description_en": "A force of 400-700 marched toward Najd."
+        },
+        {
+          "id": "E1_2_ayakkabi",
+          "type": "hardship",
+          "description_tr": "Kayalık arazide ayakkabılar parçalandı; sahâbîler ayaklarını sardı.",
+          "description_en": "Footwear was destroyed on rocky terrain; companions wrapped their feet."
+        }
+      ]
+    },
+    {
+      "id": "F2_karsilasma",
+      "order": 2,
+      "name": {
+        "tr": "Düşmanla karşılaşma",
+        "en": "Encounter with the enemy"
+      },
+      "date_range": {
+        "start": "~Muharrem 5 AH (ortası)",
+        "end": "Aynı gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Müslüman ordusu Necid yaylasında Gatafân kuvvetleriyle karşılaştı. İki taraf birbirini gördü ama büyük çaplı çatışma olmadı. Gatafân dağlara çekildi; kadınları ve çocuklarını geride bıraktılar. Bazı esirler alındı. Bir rivâyete göre bir Gatafânlı kadın esir edildi ve kocası intikam yemini etti.",
+        "en": "The Muslim army encountered Ghaṭafān forces on the Najd plateau. Both sides saw each other but no large-scale battle occurred. Ghaṭafān withdrew to the mountains, leaving women and children behind. Some captives were taken. One report tells of a Ghaṭafān woman captured, whose husband swore revenge."
+      },
+      "events": [
+        {
+          "id": "E2_1_karsilasma",
+          "type": "standoff",
+          "description_tr": "İki ordu karşılaştı; Gatafân büyük çatışmayı göze alamadı.",
+          "description_en": "The two forces met; Ghaṭafān could not risk a major battle."
+        },
+        {
+          "id": "E2_2_geri_cekilme",
+          "type": "withdrawal",
+          "description_tr": "Gatafân dağlara çekildi; bazı aileler esir alındı.",
+          "description_en": "Ghaṭafān withdrew to mountains; some families were captured."
+        }
+      ]
+    },
+    {
+      "id": "F3_gavres_suikast",
+      "order": 3,
+      "name": {
+        "tr": "Gavres b. Hâris suikast girişimi",
+        "en": "Ghawrath b. al-Ḥārith assassination attempt"
+      },
+      "date_range": {
+        "start": "Aynı gün (öğle molası)",
+        "end": "Aynı gün"
+      },
+      "duration": "Birkaç dakika",
+      "description": {
+        "tr": "Hz. Peygamber bir ağaç altında tek başına dinlenirken Gatafânlı Gavres (veya Du'sûr) b. Hâris, kılıcını kaptı ve 'Seni benden kim kurtaracak?' diye sordu. Hz. Peygamber sükunetle 'Allah' dedi. Gavres'in eli titredi, kılıç düştü. Hz. Peygamber kılıcı aldı ve aynı soruyu sordu. Gavres af diledi ve müslüman olduğu (veya bir daha saldırmayacağına söz verdiği) rivâyet edilir.",
+        "en": "While the Prophet rested alone under a tree, the Ghaṭafānī Ghawrath (or Duʿthūr) b. al-Ḥārith seized his sword and asked 'Who will protect you from me?' The Prophet calmly replied 'Allah.' Ghawrath's hand trembled and the sword fell. The Prophet picked it up and asked the same question. Ghawrath asked for pardon and reportedly became Muslim (or pledged never to attack again)."
+      },
+      "events": [
+        {
+          "id": "E3_1_suikast",
+          "type": "assassination_attempt",
+          "description_tr": "Gavres kılıcı kaptı: 'Seni benden kim kurtaracak?' — 'Allah.'",
+          "description_en": "Ghawrath seized the sword: 'Who protects you from me?' — 'Allah.'"
+        },
+        {
+          "id": "E3_2_af",
+          "type": "pardon",
+          "description_tr": "Hz. Peygamber Gavres'i affetti; Gavres müslüman oldu veya söz verdi.",
+          "description_en": "The Prophet pardoned Ghawrath, who reportedly became Muslim or pledged peace."
+        }
+      ]
+    },
+    {
+      "id": "F4_korku_namazi",
+      "order": 4,
+      "name": {
+        "tr": "Korku namazı (Salâtü'l-havf)",
+        "en": "Prayer of fear (Ṣalāt al-khawf)"
+      },
+      "date_range": {
+        "start": "Aynı gece/gün",
+        "end": "Aynı gece/gün"
+      },
+      "duration": "Namaz süresi",
+      "description": {
+        "tr": "Düşman tehdidi altında namaz vakti geldiğinde Hz. Peygamber, sahâbîleri iki gruba ayırdı: bir grup namaz kılarken diğer grup nöbet tuttu, sonra değiştiler. Bu, Kur'ân'da Nisâ 101-103'te emredilen salâtü'l-havf'ın (korku namazı) ilk uygulamasıydı. Her grup imam ile sadece bir rekât kılıp diğerini kendi başına tamamladı.",
+        "en": "When prayer time came under enemy threat, the Prophet divided the companions into two groups: one prayed while the other stood guard, then they switched. This was the first implementation of ṣalāt al-khawf (prayer of fear) commanded in Qurʾān Nisāʾ 101-103. Each group prayed one rakʿa with the imam and completed the other alone."
+      },
+      "events": [
+        {
+          "id": "E4_1_korku_namazi",
+          "type": "worship",
+          "description_tr": "Salâtü'l-havf ilk kez uygulandı: iki grup nöbetleşe namaz kıldı.",
+          "description_en": "Ṣalāt al-khawf implemented for the first time: two groups prayed in alternation."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~400-700",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcirlerden seçkin savaşçılar."
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan katılım."
+        }
+      },
+      "equipment": {
+        "note_tr": "Savaş teçhizatı tam; ancak uzun yürüyüşte lojistik sıkıntılar (ayakkabı, su)."
+      }
+    },
+    "enemy": {
+      "total": "Belirsiz (birkaç yüz savaşçı)",
+      "commander_name": {
+        "tr": "Gatafân kabile reisleri",
+        "en": "Ghaṭafān tribal chiefs"
+      },
+      "composition": {
+        "gatafan": {
+          "note_tr": "Anha ve Sa'lebe kolları ağırlıklı; Muharib ve diğer Gatafân alt-kolları."
+        }
+      },
+      "note_tr": "Dağınık kabile kuvvetleri; birleşik cephe oluşturamadılar."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Zâtürrıkā'",
+        "note_tr": "Gavres kıssası ve genel sefer bilgisi."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Zâtürrıkā'",
+        "note_tr": "Tarih tartışması ve asker sayıları; en ayrıntılı rivâyet."
+      },
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Megâzî, Bâbu gazvetü Zâtürrıkā'",
+        "note_tr": "Gavres hadisi ve korku namazı rivâyeti."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Kayyim el-Cevziyye",
+        "work": "Zâdü'l-meâd",
+        "note_tr": "Tarih tartışması: 5 AH mi 7 AH mi? İbn Kayyim 7 AH'ı tercih eder."
+      },
+      {
+        "author": "İbn Hacer el-Askalânî",
+        "work": "Fethü'l-bârî",
+        "note_tr": "Buhârî şerhi; farklı rivâyetlerin değerlendirmesi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 4,
+      "surah_name": "Nisâ",
+      "ayah_range": "101-103",
+      "phase_id": "F4_korku_namazi",
+      "topic": {
+        "tr": "Seferde namaz kısaltma ve korku namazının (salâtü'l-havf) hükmü",
+        "en": "Shortening prayer during travel and the ruling on prayer of fear (ṣalāt al-khawf)"
+      },
+      "key_verses": [
+        {
+          "ayah": 101,
+          "topic_tr": "Yeryüzünde sefere çıktığınızda namazı kısaltmanızda bir günah yoktur",
+          "phase_id": "F4_korku_namazi",
+          "esbab_id": "en_nisa_4_101_103"
+        },
+        {
+          "ayah": 102,
+          "topic_tr": "İçlerinde olup namaz kıldırdığında bir kısmı seninle namaz kılsın, silahlarını kuşansın",
+          "phase_id": "F4_korku_namazi",
+          "esbab_id": "en_nisa_4_101_103"
+        },
+        {
+          "ayah": 103,
+          "topic_tr": "Namazı kılıp bitirince ayakta, otururken ve yanlarınız üzere Allah'ı anın",
+          "phase_id": "F4_korku_namazi",
+          "esbab_id": "en_nisa_4_101_103"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_ref": "Buhârî, Megâzî, Bâbu gazvetü Zâtürrıkā'",
+      "phase_id": "F3_gavres_suikast",
+      "topic": {
+        "tr": "Gavres b. Hâris'in Hz. Peygamber'e suikast girişimi ve affedilmesi",
+        "en": "Ghawrath b. al-Ḥārith's assassination attempt on the Prophet and his pardon"
+      },
+      "hadith_id": "hds_zaturrika_gavres",
+      "db_status": "new",
+      "db_id": "hds_zaturrika_gavres"
+    },
+    {
+      "hadith_ref": "Buhârî, Havf (Salâtü'l-havf); Müslim, Salâtü'l-müsâfirîn",
+      "phase_id": "F4_korku_namazi",
+      "topic": {
+        "tr": "Salâtü'l-havf: iki grup nöbetleşe namaz kılması",
+        "en": "Ṣalāt al-khawf: two groups praying in alternation"
+      },
+      "hadith_id": "hds_zaturrika_salat_havf",
+      "db_status": "new",
+      "db_id": "hds_zaturrika_salat_havf"
+    },
+    {
+      "hadith_ref": "Buhârî, Megâzî; Vâkıdî",
+      "phase_id": "F1_seferberlik",
+      "topic": {
+        "tr": "Necid seferinde sahâbîlerin ayakkabıları yırtılıp ayaklarını sardıkları — ismin kaynağı",
+        "en": "Companions' footwear being destroyed on the Najd expedition and wrapping their feet — origin of the name"
+      },
+      "hadith_id": "hds_zaturrika_isim",
+      "db_status": "new",
+      "db_id": "hds_zaturrika_isim"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Büyük çatışma olmadan Gatafân'ın saldırı planı boşa çıkarıldı. Necid'de müslüman gücü gösterildi. Caydırıcılık sağlandı.",
+      "en": "Ghaṭafān's attack plan was thwarted without major battle. Muslim power was demonstrated in Najd. Deterrence achieved."
+    },
+    "political": {
+      "tr": "Necid kabileleri müslümanların uzak mesafe sefer kapasitesini gördü. Gatafân'ın birleşme çabası başarısız oldu.",
+      "en": "Najd tribes witnessed Muslim capability for long-range expeditions. Ghaṭafān's unification effort failed."
+    },
+    "religious": {
+      "tr": "Salâtü'l-havf ilk kez burada tatbik edildi — savaş ortamında bile namazın terk edilmeyeceği gösterildi. Nisâ 101-103'ün pratik uygulaması.",
+      "en": "Ṣalāt al-khawf was first practiced here — demonstrating that prayer is not abandoned even in war. Practical application of Nisāʾ 101-103."
+    },
+    "social": {
+      "tr": "Gavres kıssası Hz. Peygamber'in cesaretini ve af kültürünü gösteren meşhur bir siyer anekdotu oldu.",
+      "en": "The Ghawrath story became a famous sīra anecdote demonstrating the Prophet's courage and culture of pardon."
+    }
+  },
+  "visualization": {
+    "default_zoom": 10,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "landmark": "#FF8F00"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "military",
+        "default_visible": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "id": "reconstruction_cemel_savasi",
+    "battle_id": "cemel_savasi",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Cemel Vak'ası (10 Cemâziyelâhir 36 AH / 7 Aralık 656 CE). Hz. Ali ile Hz. Âişe-Talha-Zübeyr arasındaki ilk iç çatışma. Hz. Osman'ın şehadetinin ardından fitne dönemi başladı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 30.51,
+        "lng": 47.78
+      },
+      "bbox": {
+        "north": 30.55,
+        "south": 30.47,
+        "east": 47.82,
+        "west": 47.74
+      },
+      "terrain_type": "urban_plain",
+      "terrain_desc": {
+        "tr": "Basra şehri yakınlarında düz ova. Haccâc Sarayı bölgesinde mevzilenme. Deve (cemel) etrafında yoğun çarpışma.",
+        "en": "Flat plain near the city of Basra. Positions near the Ḥajjāj Palace area. Intense fighting around the camel (jamal)."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_cemel_deve",
+        "name": {
+          "tr": "Hz. Âişe'nin Devesi (Asker)",
+          "en": "ʿĀʾisha's Camel (ʿAskar)"
+        },
+        "lat": 30.51,
+        "lng": 47.78,
+        "type": "symbolic",
+        "note_tr": "Savaşın adını veren deve; etrafında en şiddetli çarpışma yaşandı. Deve çökertilince savaş bitti."
+      },
+      {
+        "id": "lm_basra_mescid",
+        "name": {
+          "tr": "Basra Câmii",
+          "en": "Basra Mosque"
+        },
+        "lat": 30.5,
+        "lng": 47.79,
+        "type": "mosque",
+        "note_tr": "Hz. Ali'nin savaş sonrası hutbe okuduğu yer."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_mekke_basra",
+        "name": {
+          "tr": "Mekke → Basra (muhalefet yürüyüşü)",
+          "en": "Mecca → Basra (opposition march)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 21.42,
+            "lng": 39.83,
+            "label": "Mekke"
+          },
+          {
+            "lat": 24.0,
+            "lng": 42.0,
+            "label": "Rebeze"
+          },
+          {
+            "lat": 28.0,
+            "lng": 45.5,
+            "label": "Hav'eb"
+          },
+          {
+            "lat": 30.51,
+            "lng": 47.78,
+            "label": "Basra"
+          }
+        ]
+      },
+      {
+        "id": "route_medine_basra",
+        "name": {
+          "tr": "Medîne → Basra (Hz. Ali)",
+          "en": "Medina → Basra (ʿAlī)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.47,
+            "lng": 39.61,
+            "label": "Medîne"
+          },
+          {
+            "lat": 29.0,
+            "lng": 43.0,
+            "label": "Zîkâr"
+          },
+          {
+            "lat": 30.51,
+            "lng": 47.78,
+            "label": "Basra"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Hz. Osman'ın şehadeti sonrası kriz",
+        "en": "Crisis after ʿUthmān's martyrdom"
+      },
+      "date_range": {
+        "start": "Zilhicce 35 AH",
+        "end": "Rebîülevvel 36 AH"
+      },
+      "duration": "~3 ay",
+      "description": {
+        "tr": "Hz. Osman şehit edildi (35 AH). Hz. Ali halife seçildi. Talha, Zübeyr ve Hz. Âişe kısas talep ederek Basra'ya yürüdü. Hz. Ali onları durdurmak için Medîne'den çıktı.",
+        "en": "ʿUthmān was martyred (35 AH). ʿAlī was elected caliph. Ṭalḥa, Zubayr and ʿĀʾisha marched to Basra demanding retribution. ʿAlī left Medina to stop them."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Hz. Âişe'nin Hav'eb'de köpek sesleri duyması",
+          "description_tr": "Hz. Peygamber'in 'Sizden birinize Hav'eb köpekleri havlayacak' hadisi hatırlatıldı; Hz. Âişe dönmek istedi ancak ikna edildi."
+        }
+      ]
+    },
+    {
+      "id": "F1_muzakere",
+      "order": 1,
+      "name": {
+        "tr": "Barış müzakereleri",
+        "en": "Peace negotiations"
+      },
+      "date_range": {
+        "start": "Cemâziyelâhir 36 AH",
+        "end": "10 Cemâziyelâhir 36 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Hz. Ali ile Talha ve Zübeyr arasında müzakereler yapıldı. Barış neredeyse sağlanacaktı. Ancak fitne yanlıları (Hz. Osman'ın katilleri) barışı sabote etti — gece baskınıyla çatışmayı kışkırttılar.",
+        "en": "Negotiations between ʿAlī and Ṭalḥa/Zubayr. Peace was nearly achieved. But sedition-seekers (ʿUthmān's killers) sabotaged peace — they provoked fighting with a night raid."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Barış görüşmeleri",
+          "description_tr": "İki taraf da savaş istemiyordu; anlaşma yakındı."
+        },
+        {
+          "id": "E1_2",
+          "name_tr": "Gece provokasyonu",
+          "description_tr": "Fitne yanlıları gece baskınıyla çatışma başlattı."
+        }
+      ]
+    },
+    {
+      "id": "F2_muharebe",
+      "order": 2,
+      "name": {
+        "tr": "Deve etrafında çarpışma",
+        "en": "Fighting around the camel"
+      },
+      "date_range": {
+        "start": "10 Cemâziyelâhir 36 AH",
+        "end": "10 Cemâziyelâhir 36 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Şiddetli çarpışma başladı. Hz. Âişe'nin devesi (Asker adlı deve) merkez noktası oldu. Devenin yuları tutan her el kesildi — 70'den fazla kişi devenin yanında öldü. Talha okla vurularak şehit düştü. Zübeyr savaş alanından ayrılırken öldürüldü.",
+        "en": "Intense fighting broke out. ʿĀʾisha's camel (named ʿAskar) became the focal point. Every hand holding the camel's reins was cut — over 70 people died beside the camel. Ṭalḥa was struck by an arrow and martyred. Zubayr was killed while leaving the battlefield."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Talha'nın şehadeti",
+          "description_tr": "Ok isabeti ile şehit oldu (bazılarına göre Mervân b. Hakem'in oku)."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Zübeyr'in şehadeti",
+          "description_tr": "Savaştan çekilirken İbn Cürmûz tarafından öldürüldü."
+        },
+        {
+          "id": "E2_3",
+          "name_tr": "Devenin çökertilmesi",
+          "description_tr": "Hz. Ali emriyle deve çökertildi; savaş bitti."
+        }
+      ]
+    },
+    {
+      "id": "F3_sonuc",
+      "order": 3,
+      "name": {
+        "tr": "Savaş sonrası",
+        "en": "Aftermath"
+      },
+      "date_range": {
+        "start": "11 Cemâziyelâhir 36 AH",
+        "end": "Receb 36 AH"
+      },
+      "duration": "birkaç hafta",
+      "description": {
+        "tr": "Hz. Ali Hz. Âişe'ye büyük saygı gösterdi; kardeşi Muhammed b. Ebî Bekr ile Medîne'ye uğurladı. Basra Hz. Ali'nin kontrolüne geçti. Ancak fitne bitmedi — Muâviye sorunu devam ediyordu.",
+        "en": "ʿAlī showed great respect to ʿĀʾisha; escorted her to Medina with her brother Muḥammad b. Abī Bakr. Basra came under ʿAlī's control. But the fitna was not over — the Muʿāwiya problem continued."
+      },
+      "events": [
+        {
+          "id": "E3_1",
+          "name_tr": "Hz. Âişe'nin uğurlanması",
+          "description_tr": "Hz. Ali saygıyla Medîne'ye gönderdi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~20.000",
+      "commander": "ali_b_ebi_talib",
+      "commander_name": {
+        "tr": "Hz. Ali b. Ebî Tâlib",
+        "en": "ʿAlī b. Abī Ṭālib"
+      },
+      "composition": {
+        "kufe": {
+          "note_tr": "Kûfe'den katılanlar"
+        },
+        "medine": {
+          "note_tr": "Medîne'den gelen sahâbîler"
+        }
+      }
+    },
+    "enemy": {
+      "total": "~30.000",
+      "commander_name": {
+        "tr": "Hz. Âişe (sembolik lider) / Talha b. Ubeydullah / Zübeyr b. Avvâm",
+        "en": "ʿĀʾisha (symbolic leader) / Ṭalḥa b. ʿUbaydullāh / Zubayr b. al-ʿAwwām"
+      },
+      "composition": {
+        "mekke": {
+          "note_tr": "Mekke'den gelenler"
+        },
+        "basra": {
+          "note_tr": "Basra'dan katılanlar"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "IV/450-510",
+        "note_tr": "En kapsamlı anlatım."
+      },
+      {
+        "author": "İbnü'l-Esîr",
+        "work": "el-Kâmil",
+        "section": "III/210-250",
+        "note_tr": "Derli toplu anlatım."
+      },
+      {
+        "author": "İbn Sa'd",
+        "work": "Tabakât",
+        "section": "",
+        "note_tr": "Sahâbî biyografileri bağlamında."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Madelung",
+        "work": "The Succession to Muhammad",
+        "note_tr": "Fitne döneminin en kapsamlı modern analizi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 49,
+      "surah_name": "Hucurât",
+      "ayah_range": "9-10",
+      "topic": {
+        "tr": "Mü'minlerden iki grup savaşırsa aralarını bulun... Mü'minler ancak kardeştir",
+        "en": "If two groups of believers fight, make peace between them... The believers are but brothers"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "İki mü'min grup arasında sulh emri — Cemel bağlamında sıkça zikredilir",
+          "phase_id": "F1_muzakere"
+        },
+        {
+          "ayah": 10,
+          "topic_tr": "İnnemü'l-mü'minûne ihvetün — Kardeşlik vurgusu",
+          "phase_id": "F3_sonuc"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_haveb_kopekleri",
+      "topic": "Hz. Peygamber'in 'Sizden birinize Hav'eb köpekleri havlayacak' hadisi — Hz. Âişe'ye yönelik uyarı",
+      "relevance": "direct",
+      "source": "Ahmed b. Hanbel, Müsned; Hâkim, Müstedrek"
+    },
+    {
+      "hadith_id": "hds_talha_sehid",
+      "topic": "Hz. Peygamber'in Talha hakkında 'O yeryüzünde yürüyen bir şehittir' sözü",
+      "relevance": "direct",
+      "source": "Tirmizî; İbn Hibbân"
+    },
+    {
+      "hadith_id": "hds_zubeyr_havari",
+      "topic": "Zübeyr'in Hz. Peygamber'in havârîsi (özel yardımcısı) oluşu",
+      "relevance": "contextual",
+      "source": "Buhârî, Megâzî"
+    },
+    {
+      "hadith_id": "hds_ali_fitne",
+      "topic": "Hz. Peygamber'in Ali'ye 'Seninle savaşan benimle savaşmıştır' hadisi",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İlk müslümanlar arası büyük silahlı çatışma. ~10.000 kayıp (iki taraf toplam).",
+      "en": "First major armed conflict among Muslims. ~10,000 casualties (both sides combined)."
+    },
+    "political": {
+      "tr": "Hz. Ali Basra'yı kontrol altına aldı ancak Muâviye meselesi çözümsüz kaldı. İslâm dünyası kalıcı olarak bölündü.",
+      "en": "ʿAlī brought Basra under control but the Muʿāwiya problem remained unresolved. The Islamic world was permanently divided."
+    },
+    "theological": {
+      "tr": "Ehl-i Sünnet: Her iki tarafı da ictihadlarında mazur görür. Sahâbîlerin aralarındaki meselelere girmekten kaçınır (el-İmsâk). 'Cemel sahâbîleri fitne çıkarmak istemedi; provokasyona maruz kaldılar.'",
+      "en": "Ahl al-Sunna: Excuses both sides in their ijtihād. Avoids delving into disputes among Companions (al-Imsāk). 'The Companions of Jamal did not seek to cause fitna; they were subjected to provocation.'"
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "~5.000",
+        "note_tr": "Hz. Ali tarafı"
+      },
+      "enemy": {
+        "killed": "~5.000 (Talha + Zübeyr dahil)",
+        "note_tr": "Muhalefet tarafı."
+      }
+    },
+    "subsequent_events": [
+      {
+        "id": "siffin_savasi",
+        "name_tr": "Sıffîn Muharebesi (37 AH)",
+        "description_tr": "Hz. Ali-Muâviye çatışması."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#FF9800",
+      "neutral": "#5D4037",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

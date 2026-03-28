@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_fetih_taberistan",
+    "battle_id": "fetih_taberistan",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.56,
+        "lng": 53.06
+      },
+      "name": "Taberistân Fethi",
+      "modern_location": "Mâzenderân, İran"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "30",
+      "duration": "",
+      "description": "Saîd kuzey İran'a yürüdü.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Kısmî Başarı",
+      "date_range": "30",
+      "duration": "",
+      "description": "Bazı bölgeler kontrol altına alındı ama tam fetih olmadı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Saîd b. el-Âs",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/268",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 339",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_iran_fetih",
+      "topic": "Hz. Peygamber: 'Kisrâ'nın hazineleri size açılacaktır'",
+      "relevance": "contextual",
+      "source": "Buhârî, Menâkıb, 25; Müslim, Fiten"
+    }
+  ],
+  "impact": {
+    "result": "Kısmî fetih — dağlık bölge direniş",
+    "significance": "Hazar kıyısı dağlık bölgesi; tam kontrol sağlanamadı.",
+    "cross_references": [
+      "nihavend"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

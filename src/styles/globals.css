@@ -1,0 +1,595 @@
+@import "tailwindcss";
+
+/* ============================================================
+   SIYER ATLAS — DESIGN SYSTEM v3.0
+   Islamic Gold + Navy · Glassmorphic · Dark/Light · RTL-ready
+   ============================================================ */
+
+/* ─── TAILWIND 4 THEME ─── */
+@theme {
+  --font-display: "Playfair Display", "Amiri", serif;
+  --font-body: "Source Serif 4", "Noto Naskh Arabic", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-gold-50: #fdf8e8;
+  --color-gold-100: #f9edd0;
+  --color-gold-200: #f0d68a;
+  --color-gold-300: #e6bf55;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c9a84c;
+  --color-gold-600: #a08030;
+  --color-gold-700: #7a6124;
+  --color-gold-800: #544218;
+  --color-gold-900: #302510;
+
+  --color-navy-50: #e8eaf0;
+  --color-navy-100: #c5cad8;
+  --color-navy-200: #8a92b0;
+  --color-navy-300: #4f5a88;
+  --color-navy-400: #2a3562;
+  --color-navy-500: #1a1a2e;
+  --color-navy-600: #16213e;
+  --color-navy-700: #111a30;
+  --color-navy-800: #0d1322;
+  --color-navy-900: #080c16;
+
+  --color-cream: #faf8f3;
+  --color-cream-dark: #f0ebe0;
+  --color-cini: #2e5984;
+  --color-cini-light: #5ba3d9;
+  --color-henna: #8b4513;
+  --color-henna-light: #a0522d;
+  --color-emerald: #2d6a4f;
+  --color-emerald-light: #40916c;
+
+  /* Museum category colors */
+  --color-cat-weapons: #8b4513;
+  --color-cat-architecture: #1a6b4a;
+  --color-cat-daily-life: #b8860b;
+  --color-cat-geography: #2e5984;
+  --color-cat-medical: #2d6a4f;
+  --color-cat-manuscripts: #6b3a2a;
+  --color-cat-flags: #1a1a2e;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+/* ─── CSS CUSTOM PROPERTIES (Semantic Tokens) ─── */
+:root {
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* ─── LIGHT MODE (default) ─── */
+  --bg-primary: #faf8f3;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f0ebe0;
+  --bg-elevated: #ffffff;
+  --text-primary: #2a2a2a;
+  --text-secondary: #6b6b6b;
+  --text-tertiary: #999999;
+  --text-accent: #d4af37;
+  --border-color: #e0d8c8;
+  --border-hover: rgba(201, 168, 76, 0.27);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.15);
+
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-blur: 12px;
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+
+  --sidebar-width: 260px;
+  --header-height: 64px;
+  --bottom-bar-height: 72px;
+
+  color-scheme: light;
+}
+
+/* ─── DARK MODE ─── */
+.dark {
+  --bg-primary: #0f0f1a;
+  --bg-secondary: #1a1a2e;
+  --bg-tertiary: #16213e;
+  --bg-elevated: #1e1e36;
+  --text-primary: #e8e0d0;
+  --text-secondary: #8899a6;
+  --text-tertiary: #556677;
+  --text-accent: #e6bf55;
+  --border-color: #2a2a40;
+  --border-hover: rgba(212, 175, 55, 0.27);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.1);
+
+  --glass-bg: rgba(26, 26, 46, 0.72);
+  --glass-blur: 16px;
+  --glass-border: rgba(201, 168, 76, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  color-scheme: dark;
+}
+
+/* ─── BASE RESET ─── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  transition: background-color var(--duration-normal) var(--ease-out),
+              color var(--duration-normal) var(--ease-out);
+}
+
+/* ─── TYPOGRAPHY ─── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+h1 { font-size: 2.25rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.875rem; letter-spacing: -0.015em; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+  background-clip: padding-box;
+}
+
+/* ─── SELECTION ─── */
+::selection {
+  background: rgba(212, 175, 55, 0.25);
+  color: var(--text-primary);
+}
+
+/* ─── FOCUS ─── */
+:focus-visible {
+  outline: 2px solid var(--text-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ─── GLASS UTILITY CLASSES ─── */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+.glass-strong {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(1.2);
+  -webkit-backdrop-filter: blur(20px) saturate(1.2);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* ─── GOLD ACCENT UTILITIES ─── */
+.gold-gradient {
+  background: linear-gradient(135deg, #d4af37, #e6bf55, #f0d68a, #e6bf55, #d4af37);
+  background-size: 200% 200%;
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #d4af37, #e6bf55);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.gold-glow {
+  box-shadow: var(--shadow-gold);
+}
+
+/* ─── ISLAMIC GEOMETRIC PATTERN (Background) ─── */
+.geometric-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.geometric-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image:
+    linear-gradient(30deg, var(--text-accent) 12%, transparent 12.5%, transparent 87%, var(--text-accent) 87.5%, var(--text-accent)),
+    linear-gradient(150deg, var(--text-accent) 12%, transparent 12.5%, transparent 87%, var(--text-accent) 87.5%, var(--text-accent)),
+    linear-gradient(30deg, var(--text-accent) 12%, transparent 12.5%, transparent 87%, var(--text-accent) 87.5%, var(--text-accent)),
+    linear-gradient(150deg, var(--text-accent) 12%, transparent 12.5%, transparent 87%, var(--text-accent) 87.5%, var(--text-accent)),
+    linear-gradient(60deg, rgba(212, 175, 55, 0.15) 25%, transparent 25.5%, transparent 75%, rgba(212, 175, 55, 0.15) 75%, rgba(212, 175, 55, 0.15)),
+    linear-gradient(60deg, rgba(212, 175, 55, 0.15) 25%, transparent 25.5%, transparent 75%, rgba(212, 175, 55, 0.15) 75%, rgba(212, 175, 55, 0.15));
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .geometric-bg::before {
+  opacity: 0.04;
+}
+
+/* ─── CARD BASE ─── */
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.card-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glass-shadow);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+/* ─── BADGE ─── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  line-height: 1.5;
+}
+
+.badge-gold {
+  background: rgba(212, 175, 55, 0.12);
+  color: #a08030;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.dark .badge-gold {
+  background: rgba(212, 175, 55, 0.15);
+  color: #e6bf55;
+}
+
+/* ─── ANIMATED GOLD INDICATOR (Tab) ─── */
+.tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #d4af37, #e6bf55);
+  border-radius: 3px 3px 0 0;
+  transition: left var(--duration-normal) var(--ease-spring),
+              width var(--duration-normal) var(--ease-spring);
+}
+
+/* ─── SKELETON LOADING ─── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-tertiary) 25%,
+    var(--bg-secondary) 50%,
+    var(--bg-tertiary) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: var(--radius-md);
+}
+
+/* ─── PAGE TRANSITION ─── */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: fadeSlideIn var(--duration-slow) var(--ease-out) both;
+}
+
+/* ─── RANGE SLIDER (Timeline) ─── */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4af37, #e6bf55);
+  border: 2px solid var(--bg-secondary);
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.4);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2px 12px rgba(212, 175, 55, 0.6);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4af37, #e6bf55);
+  border: 2px solid var(--bg-secondary);
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.4);
+  cursor: pointer;
+}
+
+/* ─── MAP PAGE FULL BLEED ─── */
+.leaflet-container {
+  z-index: 0;
+}
+
+.marker-icon {
+  transition: transform 0.2s ease;
+}
+
+.marker-icon:hover {
+  transform: scale(1.15);
+  z-index: 999 !important;
+}
+
+/* ─── LEAFLET OVERRIDES ─── */
+.leaflet-container {
+  font-family: var(--font-body);
+  background: var(--bg-tertiary);
+}
+
+.dark .leaflet-container {
+  filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9);
+}
+
+.dark .leaflet-container .leaflet-tile {
+  filter: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+  color: var(--text-primary) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--glass-bg) !important;
+}
+
+/* ─── RTL SUPPORT ─── */
+[dir="rtl"] {
+  font-family: "Amiri", "Noto Naskh Arabic", serif;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: "Amiri", serif;
+  letter-spacing: 0;
+}
+
+/* Chips horizontal scroll — reverse direction */
+[dir="rtl"] .chips-scroll {
+  direction: rtl;
+}
+
+/* Map overlay positions — mirror for RTL */
+[dir="rtl"] .leaflet-top.leaflet-right {
+  right: auto;
+  left: 0;
+}
+[dir="rtl"] .leaflet-bottom.leaflet-left {
+  left: auto;
+  right: 0;
+}
+
+/* Map custom controls — mirror */
+[dir="rtl"] .map-controls-wrapper {
+  right: auto;
+  left: 0.75rem;
+}
+[dir="rtl"] .map-legend-wrapper {
+  left: auto;
+  right: 0.75rem;
+}
+
+/* Arrow indicators in RTL */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* ─── MOBILE TOUCH TARGETS ─── */
+@media (pointer: coarse) {
+  button,
+  [role="button"],
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .badge,
+  .chip-compact {
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* ─── SCROLL SNAP FILTER CHIPS ─── */
+.chips-scroll {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.chips-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.chips-scroll > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* ─── STICKY NOW PLAYING BAR ─── */
+.now-playing-sticky {
+  position: fixed;
+  bottom: calc(var(--bottom-bar-height) + env(safe-area-inset-bottom, 0px));
+  left: 0;
+  right: 0;
+  z-index: 45;
+  backdrop-filter: blur(20px) saturate(1.2);
+  -webkit-backdrop-filter: blur(20px) saturate(1.2);
+}
+
+@media (min-width: 768px) {
+  .now-playing-sticky {
+    bottom: 0;
+  }
+}
+
+/* ─── SAFE AREA (iOS notch) ─── */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+  }
+}
+
+/* ─── REDUCED MOTION ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* ─── PRINT ─── */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}

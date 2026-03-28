@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_ubeyde_haris",
+    "battle_id": "seriyye_ubeyde_haris",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 22.8,
+        "lng": 39.05
+      },
+      "name": "Seniyyetü'l-Murre (Râbiğ civarı)",
+      "modern_location": "Rabigh, Suudi Arabistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Yola çıkış",
+      "date_range": "Şevval 1",
+      "duration": "",
+      "description": "60 muhâcirle Seniyyetü'l-Murre'ye hareket.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Karşılaşma",
+      "date_range": "Şevval 1",
+      "duration": "",
+      "description": "Ebû Süfyân'ın 200 kişilik grubuyla karşılaşma. Sa'd b. Ebî Vakkâs ok attı — İslam'da ilk ok.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Dönüş",
+      "date_range": "Şevval 1",
+      "duration": "",
+      "description": "İki Kureyşli (Utbe b. Gazvan, Mikdâd) Müslüman safına geçti.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ubeyde b. el-Hâris b. Abdülmuttalib",
+      "estimated_troops": 60,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, II/245-246",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Vâkıdî, el-Megâzî, I/10-11",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Sınırlı çatışma, iki iltica",
+    "significance": "İslam'da atılan ilk ok (Sa'd b. Ebî Vakkâs). İlk düşman safından ilticalar.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

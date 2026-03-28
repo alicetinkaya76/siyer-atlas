@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "gazve_bedir",
+    "name": {
+      "ar": "غزوة بدر الكبرى",
+      "tr": "Bedir Gazvesi",
+      "en": "Battle of Badr"
+    },
+    "date_hijri": "17 Ramazan 2",
+    "date_ce": "13 Mart 624",
+    "year_ce": 624,
+    "type": "gazve",
+    "location_id": "bedir",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Cehil (Amr b. Hişâm)",
+    "muslim_forces": 313,
+    "enemy_forces": 1000,
+    "muslim_casualties": 14,
+    "enemy_casualties": 70,
+    "result": "Kesin zafer",
+    "quran_ref": "Enfâl 8:1-75, Âl-i İmrân 3:123",
+    "description": "İslâm'ın ilk ve en belirleyici savaşı. 313 müslüman 1.000 kişilik Kureyş ordusunu yendi. Meleklerin yardımı. 70 esir alındı.",
+    "museum_item_ids": [
+      "arch_bedir_ordugahi",
+      "armor_dir_generic",
+      "bow_katum",
+      "bow_safra",
+      "flag_liva_beyaz",
+      "flag_sancak_muhacirun",
+      "flag_sancak_sad",
+      "flag_ukab",
+      "geo_battle_001",
+      "geo_route_002",
+      "geo_valley_002",
+      "geo_well_004",
+      "helmet_bayda_generic",
+      "shield_quraysh",
+      "siege_arish",
+      "spear_harba_hamza",
+      "spear_harbat_zubayr",
+      "sword_adb",
+      "sword_battar",
+      "sword_hatf",
+      "sword_mikhzam",
+      "sword_rasub",
+      "sword_zulfiqar"
+    ]
+  },
+  {
+    "id": "gazve_uhud",
+    "name": {
+      "ar": "غزوة أحد",
+      "tr": "Uhud Gazvesi",
+      "en": "Battle of Uhud"
+    },
+    "date_hijri": "7 Şevval 3",
+    "date_ce": "23 Mart 625",
+    "year_ce": 625,
+    "type": "gazve",
+    "location_id": "uhud",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Süfyân b. Harb",
+    "muslim_forces": 700,
+    "enemy_forces": 3000,
+    "muslim_casualties": 70,
+    "enemy_casualties": 22,
+    "result": "Taktik yenilgi",
+    "quran_ref": "Âl-i İmrân 3:121-179",
+    "description": "Okçuların mevzi terk etmesiyle başlayan bozgun. Hz. Hamza şehit düştü. Hz. Peygamber yaralandı.",
+    "museum_item_ids": [
+      "arch_kabe_7c",
+      "arch_uhud_ordugahi",
+      "armor_dir_generic",
+      "armor_sadiyya",
+      "arrow_arab_types",
+      "bow_bayda_bow",
+      "bow_rawha",
+      "dl_parsomen",
+      "flag_liva_beyaz",
+      "flag_sancak_muhacirun",
+      "flag_ukab",
+      "geo_battle_002",
+      "geo_cave_003",
+      "geo_sacred_003",
+      "geo_valley_002",
+      "geo_valley_003",
+      "geo_well_002",
+      "helmet_burnus",
+      "helmet_muwashah",
+      "shield_quraysh",
+      "shield_uhud",
+      "shield_zaluq",
+      "spear_bayda",
+      "spear_harba_hamza",
+      "spear_harba_wahshi",
+      "spear_harbat_zubayr",
+      "sword_hatf",
+      "sword_masur",
+      "sword_zulfiqar"
+    ]
+  },
+  {
+    "id": "gazve_hendek",
+    "name": {
+      "ar": "غزوة الخندق / الأحزاب",
+      "tr": "Hendek (Ahzâb) Gazvesi",
+      "en": "Battle of the Trench"
+    },
+    "date_hijri": "Şevval 5",
+    "date_ce": "Mart 627",
+    "year_ce": 627,
+    "type": "gazve",
+    "location_id": "hendek",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Süfyân (koalisyon)",
+    "muslim_forces": 3000,
+    "enemy_forces": 10000,
+    "muslim_casualties": 6,
+    "enemy_casualties": 3,
+    "result": "Savunma zaferi",
+    "quran_ref": "Ahzâb 33:9-27",
+    "description": "Selmân-ı Fârisî'nin önerisiyle hendek kazıldı. 10.000 kişilik Ahzâb ordusu püskürtüldü.",
+    "museum_item_ids": [
+      "arch_hendek",
+      "arch_hendek_ordugahi",
+      "arch_kurayza_kalesi",
+      "arch_medine_utum",
+      "arch_mescid_ahzab",
+      "arch_mescid_fetih",
+      "arch_sad_muaz_evi",
+      "dl_tencere",
+      "flag_sancak_muhacirun",
+      "flag_ukab",
+      "geo_battle_003",
+      "geo_battle_005",
+      "geo_desert_001",
+      "geo_valley_005",
+      "siege_hendek"
+    ]
+  },
+  {
+    "id": "gazve_beni_kurayza",
+    "name": {
+      "ar": "غزوة بني قريظة",
+      "tr": "Benî Kurayza Gazvesi",
+      "en": "Siege of Banu Qurayza"
+    },
+    "date_hijri": "Zilkade 5",
+    "date_ce": "Nisan 627",
+    "year_ce": 627,
+    "type": "gazve",
+    "location_id": "medine",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "result": "Kuşatma ve teslim",
+    "quran_ref": "Ahzâb 33:26-27",
+    "description": "Hendek'te ihanet eden Benî Kurayza'nın kuşatılması. Sa'd b. Muâz hakemlik yaptı."
+  },
+  {
+    "id": "gazve_hudeybiye",
+    "name": {
+      "ar": "صلح الحديبية",
+      "tr": "Hudeybiye Antlaşması",
+      "en": "Treaty of Hudaybiyya"
+    },
+    "date_hijri": "Zilkade 6",
+    "date_ce": "Mart 628",
+    "year_ce": 628,
+    "type": "gazve",
+    "location_id": "hudeybiye",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "result": "Antlaşma (Fetih-i mübîn)",
+    "quran_ref": "Fetih 48:1-29",
+    "description": "1.400 sahâbî ile umre niyetiyle yola çıkıldı. Bey'atü'r-Rıdvân. 10 yıllık barış antlaşması. Kur'ân 'apaçık fetih' dedi.",
+    "museum_item_ids": [
+      "ms_hudeybiye_metni"
+    ]
+  },
+  {
+    "id": "gazve_hayber",
+    "name": {
+      "ar": "غزوة خيبر",
+      "tr": "Hayber Gazvesi",
+      "en": "Battle of Khaybar"
+    },
+    "date_hijri": "Muharrem 7",
+    "date_ce": "Mayıs 628",
+    "year_ce": 628,
+    "type": "gazve",
+    "location_id": "hayber",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "muslim_forces": 1600,
+    "result": "Zafer",
+    "description": "Yahudi kalelerinin fethi. Hz. Ali kale kapısını söktü. Müzâraa (ortakçılık) sistemi uygulandı.",
+    "museum_item_ids": [
+      "arch_fedek_kalesi",
+      "arch_hayber_kalesi",
+      "arch_hayber_ordugahi",
+      "arch_nadir_kalesi",
+      "dl_hurma",
+      "flag_rayah_hayber",
+      "flag_ukab",
+      "geo_battle_003",
+      "geo_battle_005"
+    ]
+  },
+  {
+    "id": "gazve_fetih_mekke",
+    "name": {
+      "ar": "فتح مكة",
+      "tr": "Mekke'nin Fethi",
+      "en": "Conquest of Mecca"
+    },
+    "date_hijri": "20 Ramazan 8",
+    "date_ce": "11 Ocak 630",
+    "year_ce": 630,
+    "type": "gazve",
+    "location_id": "mekke",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "muslim_forces": 10000,
+    "muslim_casualties": 2,
+    "enemy_casualties": 12,
+    "result": "Kan dökülmeden fetih",
+    "quran_ref": "Nasr 110:1-3",
+    "description": "10.000 kişilik orduyla neredeyse kan dökülmeden fetih. Ka'be'den putlar kaldırıldı. Genel af ilân edildi.",
+    "museum_item_ids": [
+      "arch_ebu_sufyan_evi",
+      "arch_huneyn_ordugahi",
+      "arch_kabe_7c",
+      "arch_makam_ibrahim",
+      "arch_mekke_fetih_ordugahi",
+      "arch_mescid_haram",
+      "dl_imame",
+      "flag_sancak_halid",
+      "flag_sancak_sad",
+      "flag_ukab",
+      "geo_sacred_001",
+      "geo_valley_006",
+      "helmet_bayda_generic",
+      "helmet_zu_subugh"
+    ]
+  },
+  {
+    "id": "gazve_huneyn",
+    "name": {
+      "ar": "غزوة حنين",
+      "tr": "Huneyn Gazvesi",
+      "en": "Battle of Hunayn"
+    },
+    "date_hijri": "10 Şevval 8",
+    "date_ce": "31 Ocak 630",
+    "year_ce": 630,
+    "type": "gazve",
+    "location_id": "huneyn",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Mâlik b. Avf en-Nasrî",
+    "muslim_forces": 12000,
+    "enemy_forces": 4000,
+    "result": "Zafer",
+    "quran_ref": "Tevbe 9:25-26",
+    "description": "Hevâzin ve Sakîf'e karşı. Başta bozgun, sonra toparlanma ve zafer. Kur'ân'da zikredilir.",
+    "museum_item_ids": [
+      "arch_huneyn_ordugahi",
+      "dl_sacayak",
+      "geo_desert_005",
+      "geo_valley_004",
+      "geo_valley_006"
+    ]
+  },
+  {
+    "id": "gazve_taif",
+    "name": {
+      "ar": "حصار الطائف",
+      "tr": "Tâif Kuşatması",
+      "en": "Siege of Ta'if"
+    },
+    "date_hijri": "Şevval 8",
+    "date_ce": "Şubat 630",
+    "year_ce": 630,
+    "type": "gazve",
+    "location_id": "taif",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "result": "Kuşatma kaldırıldı",
+    "description": "Huneyn sonrası Tâif kuşatıldı. Mancınık kullanıldı. Bir ay sonra kuşatma kaldırıldı; Sakîf daha sonra heyet göndererek müslüman oldu.",
+    "museum_item_ids": [
+      "arch_huneyn_ordugahi",
+      "arch_taif_surlari",
+      "arch_ukaz_panayiri",
+      "arch_zulmecaz",
+      "arrow_arab_types",
+      "dl_bal",
+      "dl_deri",
+      "geo_desert_005",
+      "geo_valley_006",
+      "geo_valley_007",
+      "siege_dabbaba",
+      "siege_manjaniq",
+      "siege_nari_arrow"
+    ]
+  },
+  {
+    "id": "gazve_tebuk",
+    "name": {
+      "ar": "غزوة تبوك",
+      "tr": "Tebük Gazvesi",
+      "en": "Expedition to Tabuk"
+    },
+    "date_hijri": "Recep 9",
+    "date_ce": "Ekim 630",
+    "year_ce": 630,
+    "type": "gazve",
+    "location_id": "tebuk",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "muslim_forces": 30000,
+    "result": "Savaş olmadı",
+    "description": "Hz. Peygamber'in son gazvesi. En uzak sefer. Bizans sınırına kadar gidildi. Savaş olmadan dönüldü.",
+    "museum_item_ids": [
+      "arch_mescid_dirar",
+      "arch_tebuk_ordugahi",
+      "geo_battle_004",
+      "geo_desert_003",
+      "geo_port_004"
+    ]
+  },
+  {
+    "id": "gazve_beni_mustalik",
+    "name": {
+      "ar": "غزوة بني المصطلق",
+      "tr": "Benî Mustalık Gazvesi",
+      "en": "Battle of Banu Mustaliq"
+    },
+    "date_hijri": "Şa'bân 5/6",
+    "date_ce": "626/627",
+    "year_ce": 627,
+    "type": "gazve",
+    "location_id": "mekke",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "result": "Zafer",
+    "description": "İfk hadisesi bu gazveden dönüşte yaşandı."
+  },
+  {
+    "id": "seriyye_nahle",
+    "name": {
+      "ar": "سرية نخلة",
+      "tr": "Nahle Seriyyesi",
+      "en": "Expedition of Nakhla"
+    },
+    "date_hijri": "Recep 2",
+    "date_ce": "Ocak 624",
+    "year_ce": 624,
+    "type": "seriyye",
+    "location_id": "nakhla",
+    "commander_muslim": "Abdullah b. Cahş",
+    "muslim_forces": 12,
+    "result": "Başarı (tartışmalı)",
+    "description": "İlk kan dökülen seriyye. Haram ayda çatışma tartışmasına sebep oldu. Bakara 2:217 nazil oldu."
+  },
+  {
+    "id": "seriyye_hamza",
+    "name": {
+      "ar": "سرية حمزة",
+      "tr": "Hamza Seriyyesi",
+      "en": "Expedition of Hamza"
+    },
+    "date_hijri": "Ramazan 1",
+    "date_ce": "Mart 623",
+    "year_ce": 623,
+    "type": "seriyye",
+    "location_id": "ebva",
+    "commander_muslim": "Hz. Hamza b. Abdülmuttalib",
+    "muslim_forces": 30,
+    "result": "Çatışma olmadı",
+    "description": "İslâm'ın ilk seriyyesi. Kureyş kervanını durdurmak için gönderildi."
+  },
+  {
+    "id": "seriyye_mute",
+    "name": {
+      "ar": "غزوة مؤتة",
+      "tr": "Mûte Savaşı",
+      "en": "Battle of Mu'ta"
+    },
+    "date_hijri": "Cemâziyelevvel 8",
+    "date_ce": "Eylül 629",
+    "year_ce": 629,
+    "type": "seriyye",
+    "location_id": "mute",
+    "commander_muslim": "Zeyd b. Hârise → Ca'fer → İbn Revâha → Hâlid b. Velîd",
+    "muslim_forces": 3000,
+    "enemy_forces": 100000,
+    "result": "Stratejik geri çekilme",
+    "description": "İlk büyük Bizans-Müslüman savaşı. Üç komutan sırayla şehit düştü. Hâlid b. Velîd orduyu kurtardı.",
+    "museum_item_ids": [
+      "flag_rayah_mute",
+      "flag_sancak_halid",
+      "geo_battle_002"
+    ]
+  },
+  {
+    "id": "seriyye_usame",
+    "name": {
+      "ar": "جيش أسامة",
+      "tr": "Üsâme Ordusu",
+      "en": "Expedition of Usama"
+    },
+    "date_hijri": "Safer 11",
+    "date_ce": "Mayıs 632",
+    "year_ce": 632,
+    "type": "seriyye",
+    "location_id": "havran",
+    "commander_muslim": "Üsâme b. Zeyd",
+    "muslim_forces": 3000,
+    "result": "Başarı",
+    "description": "Hz. Peygamber'in son emrettiği sefer. Hz. Ebû Bekir vefattan sonra orduyu gönderdi.",
+    "museum_item_ids": [
+      "flag_sancak_usame"
+    ]
+  },
+  {
+    "id": "yermuk",
+    "name": {
+      "ar": "معركة اليرموك",
+      "tr": "Yermük Savaşı",
+      "en": "Battle of Yarmouk"
+    },
+    "date_hijri": "Recep 15",
+    "date_ce": "Ağustos 636",
+    "year_ce": 636,
+    "type": "fetih",
+    "location_id": "yermuk",
+    "commander_muslim": "Hâlid b. Velîd",
+    "muslim_forces": 25000,
+    "enemy_forces": 100000,
+    "result": "Kesin zafer",
+    "description": "Bizans'a karşı en büyük zafer. Suriye, Filistin ve Mısır'ın yolu açıldı.",
+    "museum_item_ids": [
+      "geo_battle_006"
+    ]
+  },
+  {
+    "id": "kadisiye",
+    "name": {
+      "ar": "معركة القادسية",
+      "tr": "Kâdisiye Savaşı",
+      "en": "Battle of Qadisiyya"
+    },
+    "date_hijri": "Muharrem 15",
+    "date_ce": "Kasım 636",
+    "year_ce": 636,
+    "type": "fetih",
+    "location_id": "kadisiye",
+    "commander_muslim": "Sa'd b. Ebî Vakkâs",
+    "muslim_forces": 30000,
+    "enemy_forces": 60000,
+    "result": "Kesin zafer",
+    "description": "Sâsânî İmparatorluğu'na karşı. Rüstem öldürüldü. Irak'ın fethini kesinleştirdi."
+  },
+  {
+    "id": "nihavend",
+    "name": {
+      "ar": "معركة نهاوند",
+      "tr": "Nihâvend Savaşı",
+      "en": "Battle of Nihawand"
+    },
+    "date_hijri": "19",
+    "date_ce": "642",
+    "year_ce": 642,
+    "type": "fetih",
+    "location_id": "nihavend",
+    "commander_muslim": "Nu'mân b. Mukarrin",
+    "result": "Kesin zafer",
+    "description": "'Fethu'l-Fütûh' (Fetihlerin fethi). Sâsânî direnişinin sonu."
+  },
+  {
+    "id": "fetih_kudus",
+    "name": {
+      "ar": "فتح القدس",
+      "tr": "Kudüs'ün Fethi",
+      "en": "Conquest of Jerusalem"
+    },
+    "date_hijri": "16",
+    "date_ce": "637",
+    "year_ce": 637,
+    "type": "fetih",
+    "location_id": "kudus",
+    "commander_muslim": "Hz. Ömer (bizzat teslim aldı)",
+    "result": "Barışçıl teslim",
+    "description": "Hz. Ömer bizzat gelerek Patrik Sophronius'tan teslim aldı. Ömerî Antlaşması."
+  },
+  {
+    "id": "fetih_misir",
+    "name": {
+      "ar": "فتح مصر",
+      "tr": "Mısır'ın Fethi",
+      "en": "Conquest of Egypt"
+    },
+    "date_hijri": "20",
+    "date_ce": "641",
+    "year_ce": 641,
+    "type": "fetih",
+    "location_id": "fustat",
+    "commander_muslim": "Amr b. Âs",
+    "result": "Zafer",
+    "description": "Amr b. Âs 4.000 askerle Mısır'ı fethetti. Fustat şehri kuruldu."
+  },
+  {
+    "id": "gazve_beni_kaynuka",
+    "type": "gazve",
+    "year_ce": 624,
+    "name": {
+      "ar": "غزوة بني قينقاع",
+      "tr": "Benî Kaynukâ Gazvesi",
+      "en": "Expedition against Banu Qaynuqa"
+    },
+    "date_hijri": "Şevval 2",
+    "date_ce": "Nisan 624",
+    "location_id": "beni_kaynuka",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ka'b b. Esed",
+    "muslim_forces": null,
+    "enemy_forces": 700,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "استسلام بني قينقاع ونفيهم",
+      "tr": "Benî Kaynukâ teslim oldu ve sürgün edildi",
+      "en": "Banu Qaynuqa surrendered and were expelled"
+    },
+    "quran_ref": null,
+    "description": "Bedir sonrası antlaşmayı bozan ilk Yahudi kabilesi."
+  },
+  {
+    "id": "gazve_beni_nadir",
+    "type": "gazve",
+    "year_ce": 625,
+    "name": {
+      "ar": "غزوة بني النضير",
+      "tr": "Benî Nadîr Gazvesi",
+      "en": "Expedition against Banu Nadir"
+    },
+    "date_hijri": "Rebîülevvel 4",
+    "date_ce": "Ağustos 625",
+    "location_id": "beni_nadir_mah",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Huyey b. Ahtab",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "نفي بني النضير إلى خيبر",
+      "tr": "Benî Nadîr Hayber'e sürgün edildi",
+      "en": "Banu Nadir expelled to Khaybar"
+    },
+    "quran_ref": "Haşr 59:2-5",
+    "description": "Antlaşmayı bozarak Hz. Peygamber'e suikast girişiminde bulunan Yahudi kabilesi."
+  },
+  {
+    "id": "gazve_seviq",
+    "type": "gazve",
+    "year_ce": 624,
+    "name": {
+      "ar": "غزوة السويق",
+      "tr": "Sevîk Gazvesi",
+      "en": "Expedition of al-Sawiq"
+    },
+    "date_hijri": "Zilhicce 2",
+    "date_ce": "Haziran 624",
+    "location_id": "seviq",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Süfyân",
+    "muslim_forces": 200,
+    "enemy_forces": 200,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "فرار قريش دون قتال",
+      "tr": "Kureyş savaşmadan kaçtı",
+      "en": "Quraysh fled without fighting"
+    },
+    "quran_ref": null,
+    "description": "Ebû Süfyân'ın Medine çevresine baskın girişimi. Sevîk (kavut) çuvallarını atarak kaçtılar."
+  },
+  {
+    "id": "gazve_hamraulesed",
+    "type": "gazve",
+    "year_ce": 625,
+    "name": {
+      "ar": "غزوة حمراء الأسد",
+      "tr": "Hamrâü'l-Esed Gazvesi",
+      "en": "Expedition of Hamra al-Asad"
+    },
+    "date_hijri": "8 Şevval 3",
+    "date_ce": "24 Mart 625",
+    "location_id": "hamraulesed",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Süfyân",
+    "muslim_forces": 630,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "إظهار القوة بعد أحد",
+      "tr": "Uhud sonrası güç gösterisi — Kureyş geri dönmedi",
+      "en": "Show of force after Uhud — Quraysh retreated"
+    },
+    "quran_ref": "Âl-i İmrân 3:172-174",
+    "description": "Uhud'un ertesi günü yaralı müslümanların düşmanı takibi."
+  },
+  {
+    "id": "gazve_zatürrika",
+    "type": "gazve",
+    "year_ce": 627,
+    "name": {
+      "ar": "غزوة ذات الرقاع",
+      "tr": "Zâtürrıkâ' Gazvesi",
+      "en": "Expedition of Dhat al-Riqa"
+    },
+    "date_hijri": "Muharrem 5",
+    "date_ce": "Haziran 626",
+    "location_id": "zatu_riqa",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Gatafân kabileleri",
+    "muslim_forces": 400,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "تفرق الأعراب دون قتال",
+      "tr": "Bedevîler savaşmadan dağıldı",
+      "en": "Bedouins dispersed without fighting"
+    },
+    "quran_ref": "Nisâ 4:101-102",
+    "description": "Salâtü'l-Havf (korku namazı) ilk kez burada kılındı."
+  },
+  {
+    "id": "gazve_bedir_mevid",
+    "type": "gazve",
+    "year_ce": 626,
+    "name": {
+      "ar": "غزوة بدر الموعد",
+      "tr": "Bedir-i Mev'id (İkinci Bedir)",
+      "en": "Second Badr (Badr al-Mawid)"
+    },
+    "date_hijri": "Zi'l-Ka'de 4",
+    "date_ce": "Nisan 626",
+    "location_id": "bedir",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ebû Süfyân",
+    "muslim_forces": 1500,
+    "enemy_forces": 2000,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "لم يحضر أبو سفيان فتحول إلى معرض تجاري",
+      "tr": "Ebû Süfyân gelmedi; müslümanlar ticaret yaptı",
+      "en": "Abu Sufyan didn't show; Muslims traded instead"
+    },
+    "quran_ref": null,
+    "description": "Uhud'da verilen randevu. Kureyş gelmeyince ekonomik kazanca döndü."
+  },
+  {
+    "id": "gazve_dume",
+    "type": "gazve",
+    "year_ce": 626,
+    "name": {
+      "ar": "غزوة دومة الجندل",
+      "tr": "Dûmetülcendel Gazvesi",
+      "en": "Expedition of Dumat al-Jandal"
+    },
+    "date_hijri": "Rebîülevvel 5",
+    "date_ce": "Ağustos 626",
+    "location_id": "dumetulcendel",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ükeydir b. Abdülmelik",
+    "muslim_forces": 1000,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "تفرق الأعداء دون قتال",
+      "tr": "Düşman savaşmadan dağıldı",
+      "en": "Enemy dispersed without fighting"
+    },
+    "quran_ref": null,
+    "description": "Medine'den 500 km kuzeyde. Şam ticaret yolunu tehdit eden kabilelere karşı."
+  },
+  {
+    "id": "seriyye_abdullah_cahs",
+    "type": "seriyye",
+    "year_ce": 624,
+    "name": {
+      "ar": "سرية عبد الله بن جحش",
+      "tr": "Abdullah b. Cahş Seriyyesi",
+      "en": "Expedition of Abdullah ibn Jahsh"
+    },
+    "date_hijri": "Receb 2",
+    "date_ce": "Ocak 624",
+    "location_id": "batn_nahle",
+    "commander_muslim": "Abdullah b. Cahş",
+    "commander_enemy": "Kureyş kervanı",
+    "muslim_forces": 12,
+    "enemy_forces": 4,
+    "muslim_casualties": 0,
+    "enemy_casualties": 1,
+    "result": {
+      "ar": "أسر اثنين وغنيمة",
+      "tr": "2 esir, ganimet elde edildi",
+      "en": "2 captives taken, booty acquired"
+    },
+    "quran_ref": "Bakara 2:217",
+    "description": "Haram ayda savaş tartışmasına yol açan ilk askerî müdahale."
+  },
+  {
+    "id": "seriyye_batn_nahle",
+    "type": "seriyye",
+    "year_ce": 623,
+    "name": {
+      "ar": "سرية سعد بن أبي وقاص",
+      "tr": "Sa'd b. Ebî Vakkâs Seriyyesi",
+      "en": "Expedition of Sa'd ibn Abi Waqqas"
+    },
+    "date_hijri": "Zi'l-Ka'de 1",
+    "date_ce": "Haziran 623",
+    "location_id": "nakhla",
+    "commander_muslim": "Sa'd b. Ebî Vakkâs",
+    "commander_enemy": null,
+    "muslim_forces": 8,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "استطلاع",
+      "tr": "Keşif seferi — çatışma olmadı",
+      "en": "Reconnaissance — no engagement"
+    },
+    "quran_ref": null,
+    "description": "İlk seriyyelerden. Mekke kervan yolunun keşfi."
+  },
+  {
+    "id": "seriyye_zeyd_harsa",
+    "type": "seriyye",
+    "year_ce": 627,
+    "name": {
+      "ar": "سرية زيد بن حارثة إلى العيص",
+      "tr": "Zeyd b. Hârise – Îs Seriyyesi",
+      "en": "Zeyd ibn Haritha – al-Is Expedition"
+    },
+    "date_hijri": "Cumâde'l-ûlâ 6",
+    "date_ce": "Ekim 627",
+    "location_id": null,
+    "commander_muslim": "Zeyd b. Hârise",
+    "commander_enemy": "Kureyş kervanı",
+    "muslim_forces": 170,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "غنائم وأسرى",
+      "tr": "Ganimet ve esirler alındı",
+      "en": "Booty and captives taken"
+    },
+    "quran_ref": null,
+    "description": "Kureyş'in Şam kervanına baskın."
+  },
+  {
+    "id": "seriyye_halid_beniceuzime",
+    "type": "seriyye",
+    "year_ce": 630,
+    "name": {
+      "ar": "سرية خالد بن الوليد إلى بني جذيمة",
+      "tr": "Hâlid b. Velîd – Benî Cezîme Seriyyesi",
+      "en": "Khalid – Banu Jadhima Expedition"
+    },
+    "date_hijri": "Şevval 8",
+    "date_ce": "Şubat 630",
+    "location_id": null,
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": null,
+    "muslim_forces": 350,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "خطأ خالد في القتل",
+      "tr": "Hâlid'in hatalı katliam olayı",
+      "en": "Khalid's mistaken killings"
+    },
+    "quran_ref": null,
+    "description": "Fetih sonrası Hâlid'in teslim olan kabileye saldırması. Hz. Peygamber beri olduğunu ilan etti."
+  },
+  {
+    "id": "seriyye_zatusselasil",
+    "type": "seriyye",
+    "year_ce": 629,
+    "name": {
+      "ar": "سرية ذات السلاسل",
+      "tr": "Zâtüsselâsil Seriyyesi",
+      "en": "Expedition of Dhat al-Salasil"
+    },
+    "date_hijri": "Cumâde'l-âhire 8",
+    "date_ce": "Eylül 629",
+    "location_id": "zatussalasil",
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": "Kudâa kabileleri",
+    "muslim_forces": 300,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "تفرق العدو",
+      "tr": "Düşman dağıtıldı",
+      "en": "Enemy dispersed"
+    },
+    "quran_ref": null,
+    "description": "Amr b. Âs'ın komutanlığında kuzey sınır operasyonu. Ebû Bekir ve Ömer de katıldı."
+  },
+  {
+    "id": "seriyye_muha_emakin",
+    "type": "seriyye",
+    "year_ce": 630,
+    "name": {
+      "ar": "سرية خالد إلى نخلة",
+      "tr": "Hâlid – Uzzâ'nın Yıkılması",
+      "en": "Khalid – Destruction of al-Uzza"
+    },
+    "date_hijri": "Ramazan 8",
+    "date_ce": "Ocak 630",
+    "location_id": "batn_nahle",
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": null,
+    "muslim_forces": 30,
+    "enemy_forces": 0,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": {
+      "ar": "تدمير صنم العزى",
+      "tr": "Uzzâ putu yıkıldı",
+      "en": "Idol of al-Uzza destroyed"
+    },
+    "quran_ref": "Necm 53:19",
+    "description": "Mekke fethi sonrası put kırma seriyyelerinden."
+  },
+  {
+    "id": "seriyye_recî",
+    "type": "seriyye",
+    "year_ce": 625,
+    "name": {
+      "ar": "سرية الرجيع",
+      "tr": "Recî' Vak'ası",
+      "en": "Incident of al-Raji"
+    },
+    "date_hijri": "Safer 4",
+    "date_ce": "Temmuz 625",
+    "location_id": "reci",
+    "commander_muslim": "Âsım b. Sâbit",
+    "commander_enemy": "Adal ve Kâre kabileleri",
+    "muslim_forces": 10,
+    "enemy_forces": 100,
+    "muslim_casualties": 8,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "استشهاد معظم المسلمين غدراً",
+      "tr": "8 sahâbî hile ile şehit edildi",
+      "en": "8 Muslims martyred through treachery"
+    },
+    "quran_ref": null,
+    "description": "Muallim olarak gönderilen sahâbîlere pusu. Hubeyb b. Adî'nin şehadeti."
+  },
+  {
+    "id": "seriyye_birimeune",
+    "type": "seriyye",
+    "year_ce": 625,
+    "name": {
+      "ar": "مأساة بئر معونة",
+      "tr": "Bi'r-i Maûne Faciası",
+      "en": "Tragedy of Bi'r Mauna"
+    },
+    "date_hijri": "Safer 4",
+    "date_ce": "Temmuz 625",
+    "location_id": "birimeune",
+    "commander_muslim": "Münzir b. Amr",
+    "commander_enemy": "Âmir b. Tufeyl / Usayye",
+    "muslim_forces": 70,
+    "enemy_forces": null,
+    "muslim_casualties": 69,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "استشهاد 69 من حفاظ القرآن",
+      "tr": "69 Kur'ân hâfızı şehit edildi",
+      "en": "69 Quran memorizers martyred"
+    },
+    "quran_ref": null,
+    "description": "Hz. Peygamber'i en çok üzen olaylardan biri. 30 gün boyunca sabah namazında kunût okudu."
+  },
+  {
+    "id": "ridde_buzaha",
+    "type": "ridde",
+    "year_ce": 632,
+    "name": {
+      "ar": "معركة بزاخة",
+      "tr": "Büzâha Muharebesi",
+      "en": "Battle of Buzakha"
+    },
+    "date_hijri": "Rebîülâhir 11",
+    "date_ce": "Temmuz 632",
+    "location_id": "büzâha",
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": "Tuleyha b. Huveylid",
+    "muslim_forces": 6000,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "هزيمة طليحة وفراره",
+      "tr": "Tuleyha yenildi ve kaçtı (sonra müslüman oldu)",
+      "en": "Tulayha defeated and fled (later converted)"
+    },
+    "quran_ref": null,
+    "description": "Esed ve Gatafân kabilelerinin irtidadına karşı savaş."
+  },
+  {
+    "id": "fetih_ecnadeyn",
+    "type": "fetih",
+    "year_ce": 634,
+    "name": {
+      "ar": "معركة أجنادين",
+      "tr": "Ecnâdeyn Muharebesi",
+      "en": "Battle of Ajnadayn"
+    },
+    "date_hijri": "Cumâde'l-ûlâ 13",
+    "date_ce": "30 Temmuz 634",
+    "location_id": "ecnadeyn",
+    "commander_muslim": "Hâlid b. Velîd (veya Amr b. Âs)",
+    "commander_enemy": "Artabanus (Bizans)",
+    "muslim_forces": 33000,
+    "enemy_forces": 90000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "نصر حاسم للمسلمين",
+      "tr": "Kesin müslüman zaferi",
+      "en": "Decisive Muslim victory"
+    },
+    "quran_ref": null,
+    "description": "Suriye topraklarında Bizans'a karşı ilk büyük meydan muharebesi."
+  },
+  {
+    "id": "fetih_fihl",
+    "type": "fetih",
+    "year_ce": 635,
+    "name": {
+      "ar": "معركة فحل",
+      "tr": "Fihl Muharebesi",
+      "en": "Battle of Fahl (Pella)"
+    },
+    "date_hijri": "Zi'l-Ka'de 13",
+    "date_ce": "23 Ocak 635",
+    "location_id": "fihl",
+    "commander_muslim": "Ebû Ubeyde / Şurahbîl b. Hasene",
+    "commander_enemy": "Saklar (Bizans)",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "فتح فحل وتأمين الأردن",
+      "tr": "Fihl fethi, Ürdün güvenliği sağlandı",
+      "en": "Fahl captured, Jordan secured"
+    },
+    "quran_ref": null,
+    "description": "Ürdün Vadisi'ndeki Bizans direniş noktasının düşmesi."
+  },
+  {
+    "id": "fetih_dimask",
+    "type": "fetih",
+    "year_ce": 634,
+    "name": {
+      "ar": "فتح دمشق",
+      "tr": "Dımaşk'ın Fethi",
+      "en": "Conquest of Damascus"
+    },
+    "date_hijri": "Receb 14",
+    "date_ce": "Eylül 634",
+    "location_id": "dimask",
+    "commander_muslim": "Hâlid b. Velîd / Ebû Ubeyde",
+    "commander_enemy": "Thomas (Bizans)",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "فتح دمشق صلحاً وعنوة",
+      "tr": "Dımaşk barışla/savaşla fethedildi",
+      "en": "Damascus captured (partly by peace, partly by force)"
+    },
+    "quran_ref": null,
+    "description": "Suriye'nin başkenti. Hâlid doğu kapısından savaşla, Ebû Ubeyde batı kapısından anlaşmayla girdi."
+  },
+  {
+    "id": "fetih_celula",
+    "type": "fetih",
+    "year_ce": 637,
+    "name": {
+      "ar": "معركة جلولاء",
+      "tr": "Celûlâ Muharebesi",
+      "en": "Battle of Jalula"
+    },
+    "date_hijri": "Zi'l-Ka'de 16",
+    "date_ce": "Kasım 637",
+    "location_id": "celula",
+    "commander_muslim": "Hâşim b. Utbe",
+    "commander_enemy": "Mihrân (Sâsânî)",
+    "muslim_forces": 12000,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "نصر ساحق",
+      "tr": "Ezici zafer — Medâin yolu açıldı",
+      "en": "Crushing victory — road to Ctesiphon opened"
+    },
+    "quran_ref": null,
+    "description": "Kâdisiye sonrası Sâsânî ordusunun ikinci büyük yenilgisi."
+  },
+  {
+    "id": "fetih_halep",
+    "type": "fetih",
+    "year_ce": 637,
+    "name": {
+      "ar": "فتح حلب",
+      "tr": "Halep'in Fethi",
+      "en": "Conquest of Aleppo"
+    },
+    "date_hijri": "16 H.",
+    "date_ce": "637",
+    "location_id": "halep",
+    "commander_muslim": "Ebû Ubeyde b. Cerrâh",
+    "commander_enemy": "Bizans garnizonu",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "فتح حلب",
+      "tr": "Halep fethedildi",
+      "en": "Aleppo captured"
+    },
+    "quran_ref": null,
+    "description": "Kuzey Suriye'nin stratejik merkezi."
+  },
+  {
+    "id": "fetih_antakya",
+    "type": "fetih",
+    "year_ce": 637,
+    "name": {
+      "ar": "فتح أنطاكية",
+      "tr": "Antakya'nın Fethi",
+      "en": "Conquest of Antioch"
+    },
+    "date_hijri": "16 H.",
+    "date_ce": "637",
+    "location_id": "antakya",
+    "commander_muslim": "Ebû Ubeyde b. Cerrâh",
+    "commander_enemy": "Bizans garnizonu",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "سقوط أنطاكية",
+      "tr": "Antakya düştü",
+      "en": "Antioch fell"
+    },
+    "quran_ref": null,
+    "description": "Doğu Roma'nın en önemli Suriye şehri."
+  },
+  {
+    "id": "fetih_iskenderiye",
+    "type": "fetih",
+    "year_ce": 642,
+    "name": {
+      "ar": "فتح الإسكندرية",
+      "tr": "İskenderiye'nin Fethi",
+      "en": "Conquest of Alexandria"
+    },
+    "date_hijri": "21 H.",
+    "date_ce": "642",
+    "location_id": "iskenderiye",
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": "Cyrus (Mukavkıs)",
+    "muslim_forces": 15000,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "فتح الإسكندرية",
+      "tr": "İskenderiye barışla teslim oldu",
+      "en": "Alexandria surrendered peacefully"
+    },
+    "quran_ref": null,
+    "description": "Mısır'ın Akdeniz başkenti. Antik dünyanın en büyük kütüphanesi burada."
+  },
+  {
+    "id": "fetih_babilon",
+    "type": "fetih",
+    "year_ce": 641,
+    "name": {
+      "ar": "فتح حصن بابليون",
+      "tr": "Bâbilûn Kalesi'nin Fethi",
+      "en": "Conquest of Fortress of Babylon"
+    },
+    "date_hijri": "Rebîülâhir 20",
+    "date_ce": "Nisan 641",
+    "location_id": "babilon",
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": "Bizans garnizonu",
+    "muslim_forces": 12000,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "سقوط الحصن",
+      "tr": "Kale düştü — Fustât şehri kuruldu",
+      "en": "Fortress fell — Fustat founded"
+    },
+    "quran_ref": null,
+    "description": "Nil deltasındaki Bizans kalesi. Fustât (eski Kahire) bu kalenin yanında kuruldu."
+  },
+  {
+    "id": "fetih_kayrevan",
+    "type": "fetih",
+    "year_ce": 670,
+    "name": {
+      "ar": "تأسيس القيروان",
+      "tr": "Kayrevân'ın Kuruluşu",
+      "en": "Founding of Kairouan"
+    },
+    "date_hijri": "50 H.",
+    "date_ce": "670",
+    "location_id": "kayrevan",
+    "commander_muslim": "Ukbe b. Nâfi'",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "تأسيس القيروان",
+      "tr": "Kayrevân garnizon şehri kuruldu",
+      "en": "Kairouan garrison city founded"
+    },
+    "quran_ref": null,
+    "description": "Kuzey Afrika fetihlerinin kalıcı üssü. İslâm medeniyetinin Mağrib merkezi."
+  },
+  {
+    "id": "cemel_savasi",
+    "type": "fitne",
+    "year_ce": 656,
+    "name": {
+      "ar": "معركة الجمل",
+      "tr": "Cemel Vak'ası",
+      "en": "Battle of the Camel"
+    },
+    "date_hijri": "10 Cumâde'l-âhire 36",
+    "date_ce": "7 Aralık 656",
+    "location_id": "basra",
+    "commander_muslim": "Hz. Ali",
+    "commander_enemy": "Hz. Âişe / Talha / Zübeyr",
+    "muslim_forces": 20000,
+    "enemy_forces": 30000,
+    "muslim_casualties": 5000,
+    "enemy_casualties": 13000,
+    "result": {
+      "ar": "انتصار علي",
+      "tr": "Hz. Ali galip geldi; Talha ve Zübeyr şehit düştü",
+      "en": "Ali victorious; Talha and Zubayr killed"
+    },
+    "quran_ref": null,
+    "description": "Hz. Osman'ın şehadetinin ardından ilk büyük iç çatışma."
+  },
+  {
+    "id": "siffin_savasi",
+    "type": "fitne",
+    "year_ce": 657,
+    "name": {
+      "ar": "معركة صفين",
+      "tr": "Sıffîn Muharebesi",
+      "en": "Battle of Siffin"
+    },
+    "date_hijri": "Safer 37",
+    "date_ce": "Temmuz 657",
+    "location_id": "siffin",
+    "commander_muslim": "Hz. Ali",
+    "commander_enemy": "Muâviye b. Ebî Süfyân",
+    "muslim_forces": 80000,
+    "enemy_forces": 120000,
+    "muslim_casualties": 25000,
+    "enemy_casualties": 45000,
+    "result": {
+      "ar": "تحكيم",
+      "tr": "Tahkîm (hakem olayı) ile sonuçsuz kaldı",
+      "en": "Ended in arbitration (tahkim)"
+    },
+    "quran_ref": null,
+    "description": "İslâm tarihinin en büyük iç savaşı. Ammâr b. Yâsir burada şehit düştü."
+  },
+  {
+    "id": "nehrevan",
+    "type": "fitne",
+    "year_ce": 658,
+    "name": {
+      "ar": "معركة النهروان",
+      "tr": "Nehrevân Muharebesi",
+      "en": "Battle of Nahrawan"
+    },
+    "date_hijri": "9 Safer 38",
+    "date_ce": "17 Temmuz 658",
+    "location_id": "nehrevan",
+    "commander_muslim": "Hz. Ali",
+    "commander_enemy": "Hâricîler",
+    "muslim_forces": 14000,
+    "enemy_forces": 4000,
+    "muslim_casualties": null,
+    "enemy_casualties": 2400,
+    "result": {
+      "ar": "هزيمة الخوارج",
+      "tr": "Hâricîler bozguna uğradı",
+      "en": "Kharijites defeated"
+    },
+    "quran_ref": null,
+    "description": "Tahkîm'i reddeden Hâricîlere karşı savaş. Hâricîlik burada doğdu."
+  },
+  {
+    "id": "kerbela_savasi",
+    "type": "fitne",
+    "year_ce": 680,
+    "name": {
+      "ar": "واقعة كربلاء",
+      "tr": "Kerbelâ Vak'ası",
+      "en": "Battle of Karbala"
+    },
+    "date_hijri": "10 Muharrem 61",
+    "date_ce": "10 Ekim 680",
+    "location_id": "kerbela",
+    "commander_muslim": "Hz. Hüseyin b. Ali",
+    "commander_enemy": "Ömer b. Sa'd (Yezîd adına)",
+    "muslim_forces": 72,
+    "enemy_forces": 4000,
+    "muslim_casualties": 72,
+    "enemy_casualties": null,
+    "result": {
+      "ar": "استشهاد الحسين وأهل بيته",
+      "tr": "Hz. Hüseyin ve Ehl-i Beyt şehit edildi",
+      "en": "Husayn and Ahl al-Bayt martyred"
+    },
+    "quran_ref": null,
+    "description": "İslâm tarihinin en trajik olayı. Emevî-Ehl-i Beyt çatışmasının doruk noktası."
+  },
+  {
+    "id": "seriyye_ubeyde_haris",
+    "name": {
+      "ar": "سرية عبيدة بن الحارث",
+      "tr": "Ubeyde b. Hâris Seriyyesi",
+      "en": "Expedition of Ubayda ibn al-Harith"
+    },
+    "date_hijri": "1 Şevvâl",
+    "date_ce": "623-04",
+    "year_ce": 623,
+    "type": "seriyye",
+    "location_id": null,
+    "commander_muslim": "Ubeyde b. Hâris",
+    "commander_enemy": "Ebû Süfyân",
+    "muslim_forces": 60,
+    "enemy_forces": 200,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "Ok atışları, Sa'd ilk oku attı",
+    "quran_ref": null,
+    "description": "İlk ok atışının yapıldığı seriyye."
+  },
+  {
+    "id": "seriyye_necid",
+    "name": {
+      "ar": "سرية نجد",
+      "tr": "Necid Seriyyesi",
+      "en": "Expedition to Najd"
+    },
+    "date_hijri": "3",
+    "date_ce": "625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "necid",
+    "commander_muslim": "Ebû Seleme b. Abdülesed",
+    "commander_enemy": "Tuleyha b. Huveylid",
+    "muslim_forces": 150,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": null,
+    "result": "Baskın başarılı",
+    "quran_ref": null,
+    "description": "Necid'deki Gatafân kabilelerine karşı seriyye."
+  },
+  {
+    "id": "fetih_medain",
+    "name": {
+      "ar": "فتح المدائن",
+      "tr": "Medâin (Ktesifon) Fethi",
+      "en": "Fall of Ctesiphon"
+    },
+    "date_hijri": "16",
+    "date_ce": "637",
+    "year_ce": 637,
+    "type": "fetih",
+    "location_id": "ctesiphon_medain",
+    "commander_muslim": "Sa'd b. Ebî Vakkâs",
+    "commander_enemy": "III. Yezdicerd (kaçtı)",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Sâsânî başkenti düştü",
+    "quran_ref": null,
+    "description": "Hz. Ömer döneminde Sâsânî başkentinin fethi. Hz. Peygamber'in kehaneti: 'Kisrâ'nın beyaz sarayı.'"
+  },
+  {
+    "id": "muharebe_talas",
+    "name": {
+      "ar": "معركة طلاس",
+      "tr": "Talas Muharebesi",
+      "en": "Battle of Talas"
+    },
+    "date_hijri": "133",
+    "date_ce": "751-07",
+    "year_ce": 751,
+    "type": "fetih",
+    "location_id": "talas",
+    "commander_muslim": "Ziyâd b. Sâlih",
+    "commander_enemy": "Gao Xianzhi (T'ang)",
+    "muslim_forces": 30000,
+    "enemy_forces": 30000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "İslâm zaferi — Orta Asya'da İslâm hâkimiyeti",
+    "quran_ref": null,
+    "description": "Abbâsî-T'ang muharebesi. Çinli kâğıtçı esirler sayesinde kâğıt üretimi İslâm dünyasına geçti."
+  },
+  {
+    "id": "fetih_endulus",
+    "name": {
+      "ar": "فتح الأندلس",
+      "tr": "Endülüs Fethi",
+      "en": "Muslim Conquest of Iberia"
+    },
+    "date_hijri": "92",
+    "date_ce": "711",
+    "year_ce": 711,
+    "type": "fetih",
+    "location_id": "endulus_cordoba",
+    "commander_muslim": "Târık b. Ziyâd + Mûsâ b. Nusayr",
+    "commander_enemy": "Kral Rodrigo",
+    "muslim_forces": 12000,
+    "enemy_forces": 25000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Vizigot krallığı yıkıldı",
+    "quran_ref": null,
+    "description": "Târık b. Ziyâd'ın İber yarımadasına geçişi. Cebel-i Târık (Gibraltar) adını ondan alır."
+  },
+  {
+    "id": "fetih_sind",
+    "name": {
+      "ar": "فتح السند",
+      "tr": "Sind Fethi",
+      "en": "Muslim Conquest of Sindh"
+    },
+    "date_hijri": "93",
+    "date_ce": "712",
+    "year_ce": 712,
+    "type": "fetih",
+    "location_id": "sind",
+    "commander_muslim": "Muhammed b. Kâsım es-Sekafî",
+    "commander_enemy": "Racâ Dâhir",
+    "muslim_forces": 6000,
+    "enemy_forces": 20000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Sind fethedildi",
+    "quran_ref": null,
+    "description": "17 yaşındaki Muhammed b. Kâsım'ın Hint alt-kıtasını İslâm'a açan seferi."
+  },
+  {
+    "id": "fetih_kuzey_afrika",
+    "name": {
+      "ar": "فتح إفريقية",
+      "tr": "Kuzey Afrika Fetihleri",
+      "en": "Muslim Conquest of North Africa"
+    },
+    "date_hijri": "27-90",
+    "date_ce": "647-709",
+    "year_ce": 698,
+    "type": "fetih",
+    "location_id": "kayrevan",
+    "commander_muslim": "Ukbe b. Nâfi' + Hassân b. Nu'mân",
+    "commander_enemy": "Kâhine (Berber), Bizans",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Kuzey Afrika tamamıyla fethedildi",
+    "quran_ref": null,
+    "description": "Ukbe b. Nâfi'nin Kayrevân'ı kurması (670) ve Atlantik kıyısına ulaşması."
+  },
+  {
+    "id": "kuşatma_konstantiniyye_1",
+    "name": {
+      "ar": "حصار القسطنطينية الأول",
+      "tr": "Birinci Konstantiniyye Kuşatması",
+      "en": "First Siege of Constantinople"
+    },
+    "date_hijri": "49-52",
+    "date_ce": "669-672",
+    "year_ce": 669,
+    "type": "fetih",
+    "location_id": "konstantiniyye",
+    "commander_muslim": "Yezîd b. Muâviye + Ebû Eyyûb el-Ensârî",
+    "commander_enemy": "IV. Konstantin",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Kuşatma başarısız, Ebû Eyyûb şehit",
+    "quran_ref": null,
+    "description": "Emevîler'in ilk Konstantiniyye kuşatması. Sahâbî Ebû Eyyûb el-Ensârî surların önünde şehit düşmüştür."
+  },
+  {
+    "id": "fetih_tuster",
+    "name": {
+      "ar": "فتح تستر",
+      "tr": "Tüster Fethi",
+      "en": "Siege of Tustar"
+    },
+    "date_hijri": "20",
+    "date_ce": "641",
+    "year_ce": 641,
+    "type": "fetih",
+    "location_id": "tuster",
+    "commander_muslim": "Ebû Mûsâ el-Eş'arî",
+    "commander_enemy": "Hürmüzân",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Hürmüzân esir alındı",
+    "quran_ref": null,
+    "description": "Uzun kuşatma sonucu Hürmüzân esir alınıp Hz. Ömer'e gönderildi."
+  },
+  {
+    "id": "fetih_hire",
+    "name": {
+      "ar": "فتح الحيرة",
+      "tr": "Hîre Fethi",
+      "en": "Conquest of al-Hira"
+    },
+    "date_hijri": "12",
+    "date_ce": "633",
+    "year_ce": 633,
+    "type": "fetih",
+    "location_id": "hire",
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": "Lahmî beyleri",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Sulh ile teslim",
+    "quran_ref": null,
+    "description": "Lahmîler'in kadim başkenti. Hâlid'in Irak seferinin ilk büyük kazanımı."
+  },
+  {
+    "id": "seriyye_muharrib",
+    "name": {
+      "ar": "سرية المحرب",
+      "tr": "Muharrib Seriyyesi",
+      "en": "Expedition of Muharrib"
+    },
+    "date_hijri": "4",
+    "date_ce": "625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "necid",
+    "commander_muslim": "Hz. Peygamber (bizzat)",
+    "commander_enemy": "Gatafân",
+    "muslim_forces": 450,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "Düşman dağıldı",
+    "quran_ref": null,
+    "description": "Necid'deki Gatafân kabilelerine caydırıcı sefer."
+  },
+  {
+    "id": "fetih_merv",
+    "name": {
+      "ar": "فتح مرو",
+      "tr": "Merv Fethi",
+      "en": "Conquest of Merv"
+    },
+    "date_hijri": "31",
+    "date_ce": "651",
+    "year_ce": 651,
+    "type": "fetih",
+    "location_id": "merv",
+    "commander_muslim": "Ahnef b. Kays",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Fethedildi",
+    "quran_ref": null,
+    "description": "Horasan'ın başşehri Merv'in fethi. III. Yezdicerd burada öldürüldü."
+  },
+  {
+    "id": "fetih_semerkand",
+    "name": {
+      "ar": "فتح سمرقند",
+      "tr": "Semerkand Fethi",
+      "en": "Conquest of Samarkand"
+    },
+    "date_hijri": "93",
+    "date_ce": "712",
+    "year_ce": 712,
+    "type": "fetih",
+    "location_id": "semerkand",
+    "commander_muslim": "Kuteybe b. Müslim",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Fethedildi",
+    "quran_ref": null,
+    "description": "Mâverâünnehir'in en önemli şehirlerinden Semerkand'ın fethi."
+  },
+  {
+    "id": "fetih_buhara",
+    "name": {
+      "ar": "فتح بخارى",
+      "tr": "Buhârâ Fethi",
+      "en": "Conquest of Bukhara"
+    },
+    "date_hijri": "90",
+    "date_ce": "709",
+    "year_ce": 709,
+    "type": "fetih",
+    "location_id": "buhara",
+    "commander_muslim": "Kuteybe b. Müslim",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Fethedildi",
+    "quran_ref": null,
+    "description": "Mâverâünnehir'in ilim merkezi Buhârâ'nın fethi."
+  },
+  {
+    "id": "seriyye_abdullah_uneys",
+    "name": {
+      "ar": "سرية عبد الله بن أنيس",
+      "tr": "Abdullah b. Üneys Seriyyesi",
+      "en": "Expedition of Abdullah ibn Unays"
+    },
+    "date_hijri": "Muharrem H.4",
+    "date_ce": "Haziran 625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "nahle",
+    "commander_muslim": "Abdullah b. Üneys",
+    "commander_enemy": "Hâlid b. Süfyân el-Hüzelî",
+    "muslim_forces": 1,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 1,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "Hz. Peygamber'in gönderdiği suikast seriyyesi. Hüzeyl reisi Hâlid b. Süfyân ortadan kaldırıldı."
+  },
+  {
+    "id": "seriyye_ebu_seleme",
+    "name": {
+      "ar": "سرية أبي سلمة",
+      "tr": "Ebû Seleme Seriyyesi",
+      "en": "Expedition of Abu Salama"
+    },
+    "date_hijri": "Muharrem H.4",
+    "date_ce": "Haziran 625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "nahle",
+    "commander_muslim": "Ebû Seleme b. Abdülesed",
+    "commander_enemy": "Tuleyhâ b. Huveylid (Benî Esed)",
+    "muslim_forces": 150,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": null,
+    "result": "ganimet",
+    "quran_ref": null,
+    "description": "Benî Esed üzerine yapılan baskın seriyyesi. Tuleyhâ kaçtı, ganimetler ele geçirildi."
+  },
+  {
+    "id": "seriyye_münzir_amr",
+    "name": {
+      "ar": "سرية المنذر بن عمرو",
+      "tr": "Münzir b. Amr (Bi'r-i Maûne)",
+      "en": "Expedition of al-Mundhir ibn Amr"
+    },
+    "date_hijri": "Safer H.4",
+    "date_ce": "Temmuz 625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "bir_maune",
+    "commander_muslim": "Münzir b. Amr",
+    "commander_enemy": "Âmir b. Tufeyl / Ri'l-Zekvân",
+    "muslim_forces": 70,
+    "enemy_forces": 300,
+    "muslim_casualties": 69,
+    "enemy_casualties": null,
+    "result": "bozgun",
+    "quran_ref": "Bakara 2:154 (yorumlanır)",
+    "description": "70 kurrâ sahâbîden 69'u şehit edildi. Hz. Peygamber 30 gün boyunca sabah namazlarında kunut okudu."
+  },
+  {
+    "id": "seriyye_halid_nuhle_uzza",
+    "name": {
+      "ar": "سرية خالد بن الوليد لهدم العزّى",
+      "tr": "Hâlid b. Velîd — Uzzâ Yıkımı",
+      "en": "Khalid ibn al-Walid — Destruction of al-Uzza"
+    },
+    "date_hijri": "Ramazan H.8",
+    "date_ce": "Ocak 630",
+    "year_ce": 630,
+    "type": "seriyye",
+    "location_id": "nahle",
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": null,
+    "muslim_forces": 30,
+    "enemy_forces": 0,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "put_yikimi",
+    "quran_ref": "Necm 53:19-20",
+    "description": "Mekke fethinden hemen sonra Hz. Peygamber'in emriyle Uzzâ putunun yıkılması."
+  },
+  {
+    "id": "seriyye_said_lat",
+    "name": {
+      "ar": "سرية سعد بن زيد لهدم اللات",
+      "tr": "Sa'd b. Zeyd — Lât Yıkımı",
+      "en": "Sa'd ibn Zayd — Destruction of al-Lat"
+    },
+    "date_hijri": "Ramazan H.9",
+    "date_ce": "Ocak 631",
+    "year_ce": 631,
+    "type": "seriyye",
+    "location_id": "taif",
+    "commander_muslim": "Mugîre b. Şu'be / Ebû Süfyân b. Harb",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": 0,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "put_yikimi",
+    "quran_ref": "Necm 53:19",
+    "description": "Tâif heyetinin müslüman oluşundan sonra Lât putunun yıkılması."
+  },
+  {
+    "id": "seriyye_amr_suvaa",
+    "name": {
+      "ar": "سرية عمرو بن العاص لهدم سُواع",
+      "tr": "Amr b. Âs — Süvâ' Yıkımı",
+      "en": "Amr ibn al-As — Destruction of Suwa'"
+    },
+    "date_hijri": "Ramazan H.8",
+    "date_ce": "Ocak 630",
+    "year_ce": 630,
+    "type": "seriyye",
+    "location_id": "yenbu",
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": 0,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "put_yikimi",
+    "quran_ref": "Nûh 71:23",
+    "description": "Hüzeyl kabilesinin Süvâ' putunun yıkılması."
+  },
+  {
+    "id": "fetih_kıbrıs",
+    "name": {
+      "ar": "فتح قبرص",
+      "tr": "Kıbrıs Fethi",
+      "en": "Conquest of Cyprus"
+    },
+    "date_hijri": "H.28",
+    "date_ce": "649",
+    "year_ce": 649,
+    "type": "fetih",
+    "location_id": "kibris",
+    "commander_muslim": "Muâviye b. Ebî Süfyân",
+    "commander_enemy": "Bizans",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "İslâm tarihinde ilk deniz seferi. Ümmü Harâm bint Milhân bu seferde vefat etti."
+  },
+  {
+    "id": "fetih_rodos",
+    "name": {
+      "ar": "فتح رودس",
+      "tr": "Rodos Seferi",
+      "en": "Expedition to Rhodes"
+    },
+    "date_hijri": "H.53",
+    "date_ce": "673",
+    "year_ce": 673,
+    "type": "fetih",
+    "location_id": null,
+    "commander_muslim": "Cünâde b. Ebî Ümeyye",
+    "commander_enemy": "Bizans",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "Akdeniz donanma stratejisinin parçası olarak Rodos adası alındı."
+  },
+  {
+    "id": "fetih_sicilya_ilk",
+    "name": {
+      "ar": "أول غزوة صقلية",
+      "tr": "Sicilya İlk Akını",
+      "en": "First Raid on Sicily"
+    },
+    "date_hijri": "H.42",
+    "date_ce": "662",
+    "year_ce": 662,
+    "type": "fetih",
+    "location_id": null,
+    "commander_muslim": "Muâviye b. Hudeyc",
+    "commander_enemy": "Bizans",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "ganimet",
+    "quran_ref": null,
+    "description": "Sicilya'ya düzenlenen ilk İslâm akını. Kalıcı fetih olmadı."
+  },
+  {
+    "id": "fetih_ifrıkiye",
+    "name": {
+      "ar": "فتح إفريقية",
+      "tr": "İfrîkıye Fethi (Tunus)",
+      "en": "Conquest of Ifriqiya"
+    },
+    "date_hijri": "H.27",
+    "date_ce": "647",
+    "year_ce": 647,
+    "type": "fetih",
+    "location_id": "kayrevan",
+    "commander_muslim": "Abdullah b. Sa'd b. Ebî Serh",
+    "commander_enemy": "Gregorius (Bizans)",
+    "muslim_forces": 20000,
+    "enemy_forces": 120000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "Kuzey Afrika'nın büyük ölçekli fethi. Kayrevân'ın kuruluşuna zemin hazırladı."
+  },
+  {
+    "id": "fetih_horasan",
+    "name": {
+      "ar": "فتح خراسان",
+      "tr": "Horasan Fethi",
+      "en": "Conquest of Khurasan"
+    },
+    "date_hijri": "H.22",
+    "date_ce": "643",
+    "year_ce": 643,
+    "type": "fetih",
+    "location_id": "nişabur",
+    "commander_muslim": "Ahnef b. Kays",
+    "commander_enemy": "Sâsânî valileri",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "Nîşâbûr, Merv, Herât ve Belh'in fethi. İslâm'ın Orta Asya'ya açılan kapısı."
+  },
+  {
+    "id": "fetih_azerbaycan",
+    "name": {
+      "ar": "فتح أذربيجان",
+      "tr": "Azerbaycan Fethi",
+      "en": "Conquest of Azerbaijan"
+    },
+    "date_hijri": "H.22",
+    "date_ce": "643",
+    "year_ce": 643,
+    "type": "fetih",
+    "location_id": null,
+    "commander_muslim": "Bükeyr b. Abdullah / Utbe b. Ferkad",
+    "commander_enemy": "İsfendiyâr (Mecûsî)",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "sulh",
+    "quran_ref": null,
+    "description": "Hz. Ömer döneminde sulh yoluyla fetih. Cizye ve haraç karşılığı."
+  },
+  {
+    "id": "fetih_ermenistan",
+    "name": {
+      "ar": "فتح أرمينية",
+      "tr": "Ermenistan Fethi",
+      "en": "Conquest of Armenia"
+    },
+    "date_hijri": "H.24",
+    "date_ce": "645",
+    "year_ce": 645,
+    "type": "fetih",
+    "location_id": null,
+    "commander_muslim": "Habîb b. Mesleme",
+    "commander_enemy": "Bizans / Ermeni beyleri",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "sulh",
+    "quran_ref": null,
+    "description": "Kafkasya'ya yönelik İslâm fetihleri. Stratejik kuzey sınırı."
+  },
+  {
+    "id": "fetih_trablusgarp",
+    "name": {
+      "ar": "فتح طرابلس الغرب",
+      "tr": "Trablusgarp Fethi",
+      "en": "Conquest of Tripoli"
+    },
+    "date_hijri": "H.23",
+    "date_ce": "644",
+    "year_ce": 644,
+    "type": "fetih",
+    "location_id": null,
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": "Bizans",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "zafer",
+    "quran_ref": null,
+    "description": "Libya'nın fethi. Mısır'dan batıya doğru İslâm yayılmasının devamı."
+  },
+  {
+    "id": "fetih_barka",
+    "name": {
+      "ar": "فتح برقة",
+      "tr": "Berka Fethi",
+      "en": "Conquest of Barqa"
+    },
+    "date_hijri": "H.22",
+    "date_ce": "643",
+    "year_ce": 643,
+    "type": "fetih",
+    "location_id": "barka",
+    "commander_muslim": "Amr b. Âs",
+    "commander_enemy": null,
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "sulh",
+    "quran_ref": null,
+    "description": "Mısır fethinden sonra batıya ilerleme. Sulh yoluyla fetih."
+  },
+  {
+    "id": "seriyye_hamza_siful_bahr",
+    "name": {
+      "ar": "سرية حمزة إلى سيف البحر",
+      "tr": "Hamza Seriyyesi (Sîfü'l-Bahr)",
+      "en": "Hamza Expedition (Sif al-Bahr)"
+    },
+    "date_hijri": "Ramazan 1",
+    "date_ce": "Mart 623",
+    "year_ce": 623,
+    "type": "seriyye",
+    "location_id": "medine",
+    "commander_muslim": "Hz. Hamza b. Abdülmuttalib",
+    "commander_enemy": "Ebû Cehil",
+    "muslim_forces": 30,
+    "enemy_forces": 300,
+    "result": "Çatışma olmadı — Mecdî b. Amr arabuluculuğu",
+    "description": "İslâm'ın ilk askerî harekâtı. Kureyş ticaret kervanına yönelik. Çatışma olmadan sona erdi."
+  },
+  {
+    "id": "seriyye_ubeyde_rabiğ",
+    "name": {
+      "ar": "سرية عبيدة بن الحارث",
+      "tr": "Ubeyde b. Hâris Seriyyesi (Râbiğ)",
+      "en": "Ubayda ibn al-Harith Expedition"
+    },
+    "date_hijri": "Şevval 1",
+    "date_ce": "Nisan 623",
+    "year_ce": 623,
+    "type": "seriyye",
+    "location_id": "medine",
+    "commander_muslim": "Ubeyde b. Hâris b. Abdülmuttalib",
+    "commander_enemy": "Ebû Süfyân (veya İkrime)",
+    "muslim_forces": 60,
+    "enemy_forces": 200,
+    "result": "Kısa çatışma — ok atışı",
+    "description": "İslâm'da ilk ok atılan çatışma. Sa'd b. Ebî Vakkâs 'İslâm'da ilk ok atan' olarak bilinir."
+  },
+  {
+    "id": "seriyye_reci",
+    "name": {
+      "ar": "سرية الرجيع",
+      "tr": "Recî' Seriyyesi (Faciası)",
+      "en": "Expedition of al-Raji'"
+    },
+    "date_hijri": "Safer 4",
+    "date_ce": "Temmuz 625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "medine",
+    "commander_muslim": "Âsım b. Sâbit (ve Hubeyb b. Adî)",
+    "commander_enemy": "Benî Lihyân (Hüzeyl)",
+    "muslim_forces": 10,
+    "enemy_forces": 100,
+    "muslim_casualties": 8,
+    "result": "Müslüman kayıp — ihanet ve şehadet",
+    "description": "Kur'ân öğretmek için gönderilen 10 sahâbîye Benî Lihyân'ın ihaneti. 8 şehit. Hubeyb b. Adî esir alınıp Mekke'de şehit edildi."
+  },
+  {
+    "id": "seriyye_bir_maune",
+    "name": {
+      "ar": "سرية بئر معونة",
+      "tr": "Bi'r-i Ma'ûne Faciası",
+      "en": "Bi'r Ma'una Expedition"
+    },
+    "date_hijri": "Safer 4",
+    "date_ce": "Temmuz 625",
+    "year_ce": 625,
+    "type": "seriyye",
+    "location_id": "medine",
+    "commander_muslim": "Münzir b. Amr el-Musânık",
+    "commander_enemy": "Âmir b. Tufeyl (Benî Âmir) + Ri'l, Zekvân, Usayya",
+    "muslim_forces": 70,
+    "enemy_forces": 300,
+    "muslim_casualties": 69,
+    "result": "Ağır kayıp — 70 kurrâ sahâbî şehit",
+    "description": "70 hafız/kurrâ sahâbînin pusuya düşürülüp şehit edilmesi. Hz. Peygamber'in en çok üzüldüğü olaylardan."
+  },
+  {
+    "id": "seriyye_dummetul_cendel",
+    "name": {
+      "ar": "سرية دومة الجندل",
+      "tr": "Dûmetülcendel Gazvesi",
+      "en": "Expedition to Dumat al-Jandal"
+    },
+    "date_hijri": "Rebîülevel 5",
+    "date_ce": "Ağustos 626",
+    "year_ce": 626,
+    "type": "gazve",
+    "location_id": "dumetul_cendel",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "commander_enemy": "Ükeydir b. Abdülmelik (Kinde)",
+    "muslim_forces": 1000,
+    "result": "Düşman çekildi — barış anlaşması",
+    "description": "Suriye sınırındaki Dûmetülcendel'e sefer. Kuzey ticaret yollarının güvenliğini sağlama amaçlı."
+  },
+  {
+    "id": "gazve_beni_lihyan",
+    "name": {
+      "ar": "غزوة بني لحيان",
+      "tr": "Benî Lihyân Gazvesi",
+      "en": "Expedition against Banu Lihyan"
+    },
+    "date_hijri": "Rebîülevel 6",
+    "date_ce": "Ağustos 627",
+    "year_ce": 627,
+    "type": "gazve",
+    "location_id": "medine",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "muslim_forces": 200,
+    "result": "Düşman kaçtı — çatışma olmadı",
+    "description": "Recî' faciasının intikamı için Benî Lihyân üzerine yürüyüş. Kabile dağlara kaçtı."
+  },
+  {
+    "id": "seriyye_zeyd_karada",
+    "name": {
+      "ar": "سرية زيد بن حارثة إلى القردة",
+      "tr": "Zeyd b. Hârise Seriyyesi (Karada)",
+      "en": "Zayd ibn Harithah Expedition (Qaradah)"
+    },
+    "date_hijri": "Cemâziyelâhir 3",
+    "date_ce": "Kasım 624",
+    "year_ce": 624,
+    "type": "seriyye",
+    "location_id": "medine",
+    "commander_muslim": "Zeyd b. Hârise",
+    "muslim_forces": 100,
+    "result": "Başarılı — kervan ele geçirildi",
+    "description": "Kureyş ticaret kervanının ele geçirilmesi. Büyük ganimet elde edildi."
+  },
+  {
+    "id": "gazve_hamra_esed",
+    "name": {
+      "ar": "غزوة حمراء الأسد",
+      "tr": "Hamrâü'l-Esed Gazvesi",
+      "en": "Expedition of Hamra al-Asad"
+    },
+    "date_hijri": "16 Şevval 3",
+    "date_ce": "24 Mart 625",
+    "year_ce": 625,
+    "type": "gazve",
+    "location_id": "medine",
+    "commander_muslim": "Hz. Peygamber (s.a.v.)",
+    "muslim_forces": 630,
+    "result": "Kureyş geri çekildi — psikolojik zafer",
+    "description": "Uhud'dan bir gün sonra Kureyş'i takip. Müslümanların savaş azmini gösterme harekâtı. Kureyş Mekke'ye döndü."
+  },
+  {
+    "id": "gazve_batn_nahle",
+    "name": {
+      "ar": "سرية عبد الله بن جحش (بطن نخلة)",
+      "tr": "Abdullah b. Cahş Seriyyesi (Nahle)",
+      "en": "Abdullah ibn Jahsh Expedition (Nakhla)"
+    },
+    "date_hijri": "Receb 2",
+    "date_ce": "Ocak 624",
+    "year_ce": 624,
+    "type": "seriyye",
+    "location_id": "nahle",
+    "commander_muslim": "Abdullah b. Cahş",
+    "muslim_forces": 12,
+    "result": "Ganimet alındı — haram ay tartışması",
+    "description": "İlk silahlı çatışma. Receb (haram) ayında müşriklerden biri öldürüldü. Bakara 2:217 indi."
+  },
+  {
+    "id": "fetih_taberistan",
+    "name": {
+      "ar": "فتح طبرستان",
+      "tr": "Taberistân Fethi",
+      "en": "Conquest of Tabaristan"
+    },
+    "date_hijri": "30",
+    "date_ce": "651",
+    "year_ce": 651,
+    "type": "fetih",
+    "location_id": "iran",
+    "commander_muslim": "Saîd b. el-Âs",
+    "result": "Kısmî fetih — dağlık bölge direniş",
+    "description": "Hazar Denizi güney kıyısında dağlık Taberistân bölgesinin fethi. Tam hakimiyet zaman aldı."
+  },
+  {
+    "id": "ridde_yemame",
+    "name": {
+      "ar": "معركة اليمامة",
+      "tr": "Yemâme Muharebesi",
+      "en": "Battle of Yamama"
+    },
+    "date_hijri": "11 H",
+    "date_ce": "632",
+    "year_ce": 632,
+    "type": "ridde",
+    "location_id": "yemame",
+    "commander_muslim": "Hâlid b. Velîd",
+    "commander_enemy": "Müseylimetü'l-Kezzâb (Benî Hanîfe)",
+    "muslim_forces": 13000,
+    "enemy_forces": 40000,
+    "muslim_casualties": 1200,
+    "enemy_casualties": 21000,
+    "result": "Ağır kayıplı zafer",
+    "quran_ref": "",
+    "description": "Ridde savaşlarının en kanlı muharebesi. Yalancı peygamber Müseylime öldürüldü. 700+ hâfız şehit oldu, bu durum Kur'ân'ın cem edilmesine vesile oldu."
+  },
+  {
+    "id": "ridde_dibba",
+    "name": {
+      "ar": "معركة دبا",
+      "tr": "Dibbâ Muharebesi",
+      "en": "Battle of Dibba"
+    },
+    "date_hijri": "11 H",
+    "date_ce": "633",
+    "year_ce": 633,
+    "type": "ridde",
+    "location_id": "dibba",
+    "commander_muslim": "Huzeyfe b. Muhsin",
+    "commander_enemy": "Lakit b. Mâlik el-Ezdî",
+    "muslim_forces": null,
+    "enemy_forces": 10000,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Müslüman zaferi",
+    "quran_ref": "",
+    "description": "Umman bölgesindeki irtidat hareketi. Hz. Ebû Bekir'in komutanları bölgeyi yeniden İslâm idaresine aldı."
+  },
+  {
+    "id": "fetih_zat_savari",
+    "name": {
+      "ar": "معركة ذات الصواري",
+      "tr": "Zâtü's-Sevârî (Direk Savaşı)",
+      "en": "Battle of the Masts"
+    },
+    "date_hijri": "34 H",
+    "date_ce": "655",
+    "year_ce": 655,
+    "type": "deniz_savasi",
+    "location_id": "",
+    "commander_muslim": "Abdullah b. Sa'd",
+    "commander_enemy": "Bizans İmparatoru II. Konstans",
+    "muslim_forces": 200,
+    "enemy_forces": 500,
+    "muslim_casualties": null,
+    "enemy_casualties": null,
+    "result": "Müslüman zaferi",
+    "quran_ref": "",
+    "description": "İslâm tarihinin ilk büyük deniz zaferi. Akdeniz'de Bizans donanması yenildi. Hz. Osman dönemi. Deniz gücünün önemi anlaşıldı."
+  },
+  {
+    "id": "gazve_mute",
+    "name": {
+      "ar": "غزوة مؤتة",
+      "tr": "Mûte Muharebesi",
+      "en": "Battle of Mu'tah"
+    },
+    "date_hijri": "8 H Cemâziyelevvel",
+    "date_ce": "629",
+    "year_ce": 629,
+    "type": "gazve",
+    "location_id": "",
+    "commander_muslim": "Zeyd b. Hârise → Ca'fer b. Ebî Tâlib → Abdullah b. Revâha → Hâlid b. Velîd",
+    "commander_enemy": "Bizans + Gassânîler",
+    "muslim_forces": 3000,
+    "enemy_forces": 100000,
+    "muslim_casualties": 12,
+    "enemy_casualties": null,
+    "result": "Taktik geri çekilme",
+    "quran_ref": "",
+    "description": "İslâm ordusunun ilk Bizans karşılaşması. Üç komutan şehit: Zeyd, Ca'fer (iki kollu), İbn Revâha. Hâlid'in dehâsıyla ordu kurtuldu. Hz. Peygamber medine'den haber verdi."
+  },
+  {
+    "id": "gazve_fedek",
+    "name": {
+      "ar": "فتح فدك",
+      "tr": "Fedek Fethi",
+      "en": "Conquest of Fadak"
+    },
+    "date_hijri": "7 H",
+    "date_ce": "628",
+    "year_ce": 628,
+    "type": "fetih",
+    "location_id": "fedek",
+    "commander_muslim": "Hz. Peygamber (sulh)",
+    "commander_enemy": "Fedek Yahudileri",
+    "muslim_forces": null,
+    "enemy_forces": null,
+    "muslim_casualties": 0,
+    "enemy_casualties": 0,
+    "result": "Sulh",
+    "quran_ref": "Haşr 59:6-7",
+    "description": "Hayber sonrası Fedek Yahudilerinin savaşmadan teslim olması. Arazinin yarısı Peygamber'e verildi. Fey' hükmü burada uygulandı."
+  },
+  {
+    "id": "gazve_mureysi",
+    "name": {
+      "ar": "غزوة المريسيع",
+      "tr": "Müreysi' Gazvesi (Benî Mustalık)",
+      "en": "Raid of Banu Mustaliq"
+    },
+    "date_hijri": "5 veya 6 H",
+    "date_ce": "627",
+    "year_ce": 627,
+    "type": "gazve",
+    "location_id": "",
+    "commander_muslim": "Hz. Peygamber",
+    "commander_enemy": "Hâris b. Ebî Dırâr",
+    "muslim_forces": 700,
+    "enemy_forces": null,
+    "muslim_casualties": 1,
+    "enemy_casualties": 10,
+    "result": "Zafer",
+    "quran_ref": "",
+    "description": "Benî Mustalık'ın Medine'ye saldırı hazırlığı üzerine yapılan gazve. Hz. Cüveyriye ile evlilik burada gerçekleşti. İfk hadisesi bu seferin dönüşünde yaşandı."
+  },
+  {
+    "id": "veda_hacci",
+    "name": {
+      "ar": "حجة الوداع",
+      "tr": "Vedâ Haccı",
+      "en": "Farewell Pilgrimage"
+    },
+    "date_hijri": "10 Zilhicce 10",
+    "date_ce": "Mart 632",
+    "year_ce": 632,
+    "type": "olay",
+    "location_id": "mekke",
+    "commander_muslim": "Hz. Muhammed (s.a.v.)",
+    "commander_enemy": "",
+    "muslim_forces": "~100.000",
+    "enemy_forces": "",
+    "muslim_casualties": "",
+    "enemy_casualties": "",
+    "result": "Vedâ Hutbesi",
+    "quran_ref": "Mâide 3",
+    "description": "Hz. Peygamber'in son haccı. Vedâ Hutbesi.",
+    "museum_item_ids": [
+      "geo_sacred_005"
+    ]
+  },
+  {
+    "id": "beyat_ridvan",
+    "name": {
+      "ar": "بيعة الرضوان",
+      "tr": "Bey'atü'r-Rıdvân",
+      "en": "Pledge of Ridwan"
+    },
+    "date_hijri": "Zilkade 6",
+    "date_ce": "Mart 628",
+    "year_ce": 628,
+    "type": "olay",
+    "location_id": "hudeybiye",
+    "commander_muslim": "Hz. Muhammed (s.a.v.)",
+    "commander_enemy": "",
+    "muslim_forces": "~1.400",
+    "enemy_forces": "",
+    "muslim_casualties": "",
+    "enemy_casualties": "",
+    "result": "Biat alındı",
+    "quran_ref": "Fetih 18",
+    "description": "Hudeybiye'de ağaç altında alınan biat."
+  },
+  {
+    "id": "mubahale",
+    "name": {
+      "ar": "المباهلة",
+      "tr": "Mübâhale",
+      "en": "Mubahala"
+    },
+    "date_hijri": "Zilhicce 10 (veya 9)",
+    "date_ce": "631",
+    "year_ce": 631,
+    "type": "olay",
+    "location_id": "medine",
+    "commander_muslim": "Hz. Muhammed (s.a.v.)",
+    "commander_enemy": "Necrân Hristiyan heyeti",
+    "muslim_forces": "",
+    "enemy_forces": "",
+    "muslim_casualties": "",
+    "enemy_casualties": "",
+    "result": "Necrân heyeti mübâhaleden kaçındı",
+    "quran_ref": "Âl-i İmrân 61",
+    "description": "Necrân Hristiyanlarıyla karşılıklı lanetleşme teklifi."
+  }
+]

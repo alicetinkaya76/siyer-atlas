@@ -1,0 +1,1833 @@
+{
+  "version": "0.12.0",
+  "description": "İslâm öncesi Arabistan ve çevre coğrafyalardaki dinler, mezhepler, putlar ve tapınaklar.",
+  "religions": [
+    {
+      "id": "arab_putperestlik",
+      "name": {
+        "ar": "الشرك العربي",
+        "tr": "Arap Putperestliği (Şirk)",
+        "en": "Arabian Polytheism"
+      },
+      "region": "arabistan",
+      "type": "putperestlik",
+      "description": "Câhiliye dönemi Arap toplumunun ana inanç sistemi. Allah'ın varlığını kabul etmekle birlikte putlara aracılık (şefaat) atfederlerdi. Ka'be'de 360 put bulunuyordu.",
+      "center": {
+        "lat": 21.42,
+        "lng": 39.83
+      },
+      "active_period": "MÖ ~3000 – 630",
+      "sacred_sites": [
+        "kabe",
+        "ukaz_panayir"
+      ],
+      "sources": [
+        "Kur'ân-ı Kerîm",
+        "İbn Hişâm",
+        "İbn Kelbî – Kitâbu'l-Esnâm"
+      ]
+    },
+    {
+      "id": "haniflik",
+      "name": {
+        "ar": "الحنيفية",
+        "tr": "Hanîflik",
+        "en": "Hanifiyyah"
+      },
+      "region": "arabistan",
+      "type": "tevhid",
+      "description": "Hz. İbrâhîm'in tebliğ ettiği tevhîd inancını sürdüren bireysel din anlayışı. Putperestliği reddederler. Zeyd b. Amr, Varaka b. Nevfel, Kuss b. Sâide gibi isimler hanîflerdendir.",
+      "center": {
+        "lat": 21.42,
+        "lng": 39.83
+      },
+      "active_period": "MÖ ~2000 – 610",
+      "sacred_sites": [
+        "kabe"
+      ],
+      "notable_figures": [
+        "Zeyd b. Amr b. Nüfeyl",
+        "Varaka b. Nevfel",
+        "Kuss b. Sâide el-İyâdî",
+        "Ümeyye b. Ebi's-Salt"
+      ],
+      "sources": [
+        "İbn Hişâm",
+        "Buhârî"
+      ]
+    },
+    {
+      "id": "arab_yahudiligi",
+      "name": {
+        "ar": "يهود العرب",
+        "tr": "Arap Yahudiliği",
+        "en": "Arabian Judaism"
+      },
+      "region": "arabistan",
+      "type": "semavi",
+      "description": "Yesrib (Medîne), Hayber, Fedek, Vâdilkurâ ve Yemen'de (Himyerîler) yayılmış Yahudilik. Benî Kaynukâ, Benî Nadîr ve Benî Kurayza Medîne'nin üç Yahudi kabilesi.",
+      "center": {
+        "lat": 24.47,
+        "lng": 39.62
+      },
+      "active_period": "MÖ ~600 – devam",
+      "major_communities": [
+        "Benî Kaynukâ",
+        "Benî Nadîr",
+        "Benî Kurayza",
+        "Hayber Yahudileri",
+        "Yemen Yahudileri"
+      ],
+      "sacred_sites": [
+        "medine",
+        "hayber"
+      ],
+      "sources": [
+        "Kur'ân",
+        "İbn Hişâm",
+        "Vâkıdî"
+      ]
+    },
+    {
+      "id": "arab_hristiyanlik",
+      "name": {
+        "ar": "النصرانية العربية",
+        "tr": "Arap Hristiyanlığı",
+        "en": "Arabian Christianity"
+      },
+      "region": "arabistan",
+      "type": "semavi",
+      "description": "Necrân, Hîre (Lahmîler), Gassânîler ve bazı Güney Arabistan bölgelerinde yayılmış. Necrân Hristiyanları Hz. Peygamber'e heyet göndermiştir. Monofizit ve Nasturî mezhepler hâkim.",
+      "center": {
+        "lat": 17.49,
+        "lng": 44.13
+      },
+      "active_period": "MS ~300 – devam",
+      "major_communities": [
+        "Necrân Hristiyanları",
+        "Lahmîler (Hîre)",
+        "Gassânîler",
+        "Tağlib kabilesi"
+      ],
+      "sacred_sites": [
+        "necran",
+        "hire"
+      ],
+      "denominations": [
+        "Monofizitlik (Yakubîlik)",
+        "Nasturîlik",
+        "Melkitlik"
+      ],
+      "sources": [
+        "Kur'ân (Âl-i İmrân 3:61 – Mübâhale)",
+        "İbn Hişâm"
+      ]
+    },
+    {
+      "id": "sabiilik",
+      "name": {
+        "ar": "الصابئة",
+        "tr": "Sâbiîlik",
+        "en": "Sabianism"
+      },
+      "region": "arabistan",
+      "type": "kadim",
+      "description": "Kur'ân'da zikredilen kadim din. Güney Irak (Mandâîler) ve Harrân'da (yıldız tapıcıları) iki farklı gelenek. Yıldızlara, gezegenlere tapınma veya Hz. Yahyâ'ya tâbi olma.",
+      "center": {
+        "lat": 31.0,
+        "lng": 47.0
+      },
+      "active_period": "MÖ ~1000 – devam",
+      "quran_refs": [
+        "Bakara 2:62",
+        "Mâide 5:69",
+        "Hacc 22:17"
+      ],
+      "sources": [
+        "Kur'ân",
+        "İbn Nedîm – el-Fihrist",
+        "Şehristânî – el-Milel"
+      ]
+    },
+    {
+      "id": "mecusilik_arabistan",
+      "name": {
+        "ar": "المجوسية في جزيرة العرب",
+        "tr": "Arabistan Mecûsîliği",
+        "en": "Arabian Zoroastrianism"
+      },
+      "region": "arabistan",
+      "type": "mecusilik",
+      "description": "Bahreyn, Umân ve Doğu Arabistan'da Sâsânî etkisiyle yayılmış ateş tapınağı geleneği. Hz. Peygamber'in 'Mecûsîlere Ehl-i Kitâb muamelesi yapın' hadisi tartışmalıdır.",
+      "center": {
+        "lat": 26.0,
+        "lng": 50.5
+      },
+      "active_period": "MS ~300 – 700",
+      "sources": [
+        "İbn Hişâm",
+        "Buhârî"
+      ]
+    },
+    {
+      "id": "suriye_putperestlik",
+      "name": {
+        "ar": "الوثنية السورية",
+        "tr": "Suriye Putperestliği",
+        "en": "Syrian Paganism"
+      },
+      "region": "suriye",
+      "type": "putperestlik",
+      "description": "Ba'l, Astarte (İştar), Hadad gibi Sâmî tanrılara tapınma. Palmira (Tedmür), Baalbek gibi büyük tapınak merkezleri. Hellenistik dönemde Grek pantheonuyla sentezlendi.",
+      "center": {
+        "lat": 34.55,
+        "lng": 38.27
+      },
+      "active_period": "MÖ ~3000 – MS 400",
+      "major_deities": [
+        "Ba'l/Bel",
+        "Astarte/İştar",
+        "Hadad",
+        "Atargatis",
+        "Allât (Palmira)"
+      ],
+      "sacred_sites_desc": [
+        "Palmira (Bel Tapınağı)",
+        "Baalbek (Jüpiter/Ba'l Tapınağı)",
+        "Emesa (Güneş tapınağı)"
+      ],
+      "sources": [
+        "Lukianos – De Dea Syria",
+        "Arkeolojik veriler"
+      ]
+    },
+    {
+      "id": "suriye_hristiyanlik",
+      "name": {
+        "ar": "المسيحية السريانية",
+        "tr": "Süryânî Hristiyanlığı",
+        "en": "Syriac Christianity"
+      },
+      "region": "suriye",
+      "type": "semavi",
+      "description": "İlk dönem Hristiyanlığın en güçlü kollarından. Antakya patrikhanesi, Süryânî dili ve edebiyatı, manastır geleneği. İslâm fethinden önce bölgenin hâkim dini.",
+      "center": {
+        "lat": 36.2,
+        "lng": 36.16
+      },
+      "active_period": "MS 40 – devam",
+      "denominations": [
+        "Yakubîlik (Monofizit)",
+        "Nasturîlik (Doğu Süryânî)",
+        "Melkitlik (Rum Ortodoks)"
+      ],
+      "sources": [
+        "Kilise Babaları",
+        "Eusebius"
+      ]
+    },
+    {
+      "id": "suriye_yahudilik",
+      "name": {
+        "ar": "يهود الشام",
+        "tr": "Şam Yahudiliği",
+        "en": "Levantine Judaism"
+      },
+      "region": "suriye",
+      "type": "semavi",
+      "description": "Kudüs Tapınağı'nın yıkılmasından sonra Suriye ve Filistin'de yaşayan büyük Yahudi toplulukları. Talmud geleneğinin (Kudüs Talmudu) önemli merkezi.",
+      "center": {
+        "lat": 31.78,
+        "lng": 35.23
+      },
+      "active_period": "MÖ ~1200 – devam",
+      "sources": [
+        "Tevrat",
+        "Talmud",
+        "Josephus"
+      ]
+    },
+    {
+      "id": "zerdüstlük",
+      "name": {
+        "ar": "الزرادشتية",
+        "tr": "Zerdüştîlik (Mecûsîlik)",
+        "en": "Zoroastrianism"
+      },
+      "region": "iran",
+      "type": "mecusilik",
+      "description": "Sâsânî İmparatorluğu'nun resmî dini. Ahura Mazda (iyilik tanrısı) ile Angra Mainyu (kötülük) arasındaki mücadele. Ateş tapınakları, Avesta kutsal kitabı. Kur'ân'da 'Mecûsîler' olarak geçer.",
+      "center": {
+        "lat": 32.65,
+        "lng": 51.68
+      },
+      "active_period": "MÖ ~1500 – devam",
+      "sacred_texts": [
+        "Avesta",
+        "Gatalar"
+      ],
+      "major_deities": [
+        "Ahura Mazda",
+        "Mithra",
+        "Anahita"
+      ],
+      "quran_refs": [
+        "Hacc 22:17"
+      ],
+      "sources": [
+        "Avesta",
+        "Şehristânî",
+        "Taberî"
+      ]
+    },
+    {
+      "id": "maniheizm",
+      "name": {
+        "ar": "المانوية",
+        "tr": "Mânîheizm",
+        "en": "Manichaeism"
+      },
+      "region": "iran",
+      "type": "senkretik",
+      "description": "Mânî (216–274) tarafından kurulan, Zerdüştîlik + Hristiyanlık + Budizm sentezi evrensel din. Işık-karanlık düalizmi. Sâsânîler tarafından zulme uğramış, Orta Asya ve Çin'e yayılmıştır.",
+      "center": {
+        "lat": 33.09,
+        "lng": 44.58
+      },
+      "active_period": "MS 240 – 1400",
+      "founder": "Mânî (216–274/277)",
+      "sacred_texts": [
+        "Şâhburagân",
+        "Canlı İncil",
+        "Pragmateia"
+      ],
+      "sources": [
+        "İbn Nedîm – el-Fihrist",
+        "Augustinus – Confessiones"
+      ]
+    },
+    {
+      "id": "mazdekcilik",
+      "name": {
+        "ar": "المزدكية",
+        "tr": "Mazdekçilik",
+        "en": "Mazdakism"
+      },
+      "region": "iran",
+      "type": "reform",
+      "description": "Mazdek (5. yy) tarafından Zerdüştîlik içinde başlatılan sosyal reform hareketi. Mülk ortaklığı, eşitlik. Sâsânî Anuşirvan tarafından bastırıldı.",
+      "center": {
+        "lat": 32.65,
+        "lng": 51.68
+      },
+      "active_period": "MS 480 – 530",
+      "founder": "Mazdek b. Bâmdâd",
+      "sources": [
+        "Taberî",
+        "Şehristânî"
+      ]
+    },
+    {
+      "id": "iran_yahudilik",
+      "name": {
+        "ar": "يهود فارس",
+        "tr": "İran Yahudiliği",
+        "en": "Persian Judaism"
+      },
+      "region": "iran",
+      "type": "semavi",
+      "description": "Bâbil Sürgünü'nden (MÖ 586) beri İran'da yaşayan köklü Yahudi cemaati. Bâbil Talmudu burada derlenmiştir. Sâsânî döneminde zaman zaman korunmuş, zaman zaman baskı görmüştür.",
+      "center": {
+        "lat": 32.3,
+        "lng": 48.8
+      },
+      "active_period": "MÖ ~586 – devam",
+      "sources": [
+        "Bâbil Talmudu",
+        "Taberî"
+      ]
+    },
+    {
+      "id": "iran_hristiyanlik",
+      "name": {
+        "ar": "المسيحية الفارسية",
+        "tr": "İran Hristiyanlığı (Nasturîlik)",
+        "en": "Persian Christianity (Nestorianism)"
+      },
+      "region": "iran",
+      "type": "semavi",
+      "description": "Sâsânî İmparatorluğu'ndaki Nasturî Hristiyan topluluklar. Ctesifon (Medâin) patrikhanesi. İpek Yolu boyunca Orta Asya ve Çin'e kadar yayılmıştır.",
+      "center": {
+        "lat": 33.09,
+        "lng": 44.58
+      },
+      "active_period": "MS 100 – devam",
+      "denominations": [
+        "Nasturîlik (Doğu Kilisesi)"
+      ],
+      "sources": [
+        "Kilise tarihleri",
+        "Taberî"
+      ]
+    },
+    {
+      "id": "anadolu_putperestlik",
+      "name": {
+        "ar": "الوثنية الأناضولية",
+        "tr": "Anadolu Putperestliği",
+        "en": "Anatolian Paganism"
+      },
+      "region": "anadolu",
+      "type": "putperestlik",
+      "description": "Hitit, Frigya, Lidya ve Likya tanrıları: Kibele (Ana Tanrıça), Attis, Men (Ay tanrısı). Hellenistik dönemde Zeus, Artemis (Efes) tapınağı dünya harikası.",
+      "center": {
+        "lat": 38.4,
+        "lng": 33.0
+      },
+      "active_period": "MÖ ~3000 – MS 400",
+      "major_deities": [
+        "Kibele (Ana Tanrıça)",
+        "Attis",
+        "Men (Ay tanrısı)",
+        "Artemis (Efes)",
+        "Zeus"
+      ],
+      "sacred_sites_desc": [
+        "Efes Artemis Tapınağı",
+        "Pessinus (Kibele merkezi)",
+        "Didyma (Apollo tapınağı)",
+        "Hierapolis"
+      ],
+      "sources": [
+        "Herodotos",
+        "Strabon",
+        "Arkeolojik veriler"
+      ]
+    },
+    {
+      "id": "anadolu_hristiyanlik",
+      "name": {
+        "ar": "المسيحية الأناضولية",
+        "tr": "Anadolu Hristiyanlığı",
+        "en": "Anatolian Christianity"
+      },
+      "region": "anadolu",
+      "type": "semavi",
+      "description": "Pavlus'un misyon seyahatleri ile kurulan ilk Hristiyan toplulukları. Yedi Kilise (Vahiy), Kadıköy Konsili (451), Kapadokya Babaları. İslâm fethinden önce Bizans'ın kalbi.",
+      "center": {
+        "lat": 38.7,
+        "lng": 35.5
+      },
+      "active_period": "MS 50 – devam",
+      "notable_sites": [
+        "Antakya",
+        "Efes",
+        "İznik (Nikaia Konsili 325)",
+        "Kadıköy (Khalkedon 451)",
+        "Kapadokya manastırları"
+      ],
+      "sources": [
+        "Yeni Ahit",
+        "Kilise Babaları",
+        "Eusebius"
+      ]
+    },
+    {
+      "id": "anadolu_yahudilik",
+      "name": {
+        "ar": "يهود الأناضول",
+        "tr": "Anadolu Yahudiliği",
+        "en": "Anatolian Judaism"
+      },
+      "region": "anadolu",
+      "type": "semavi",
+      "description": "Hellenistik dönemden beri Anadolu'da yaşayan Yahudi toplulukları (Romanyot). Sardeis, Milet sinagogları bilinen en eski örneklerden.",
+      "center": {
+        "lat": 38.5,
+        "lng": 28.0
+      },
+      "active_period": "MÖ ~500 – devam",
+      "sources": [
+        "Arkeolojik veriler",
+        "Josephus"
+      ]
+    },
+    {
+      "id": "misir_eski_din",
+      "name": {
+        "ar": "الديانة المصرية القديمة",
+        "tr": "Eski Mısır Dini",
+        "en": "Ancient Egyptian Religion"
+      },
+      "region": "misir",
+      "type": "putperestlik",
+      "description": "Dünyanın en eski organize din sistemlerinden. Osiris-İsis-Horus üçlemesi, Ra (Güneş tanrısı), Anubis (ölüm). Firavun tanrı-kral. Kur'ân'da Mûsâ-Firavun kıssası.",
+      "center": {
+        "lat": 29.98,
+        "lng": 31.13
+      },
+      "active_period": "MÖ ~3000 – MS 400",
+      "major_deities": [
+        "Amon-Ra",
+        "Osiris",
+        "İsis",
+        "Horus",
+        "Anubis",
+        "Thoth",
+        "Seth"
+      ],
+      "quran_refs": [
+        "Bakara 2:49",
+        "A'râf 7:103-137",
+        "Tâhâ 20:9-98",
+        "Şuarâ 26:10-68",
+        "Kasas 28:3-42"
+      ],
+      "sources": [
+        "Kur'ân",
+        "Herodotos",
+        "Arkeolojik veriler"
+      ]
+    },
+    {
+      "id": "misir_hristiyanlik",
+      "name": {
+        "ar": "المسيحية القبطية",
+        "tr": "Kıptî Hristiyanlığı",
+        "en": "Coptic Christianity"
+      },
+      "region": "misir",
+      "type": "semavi",
+      "description": "İskenderiye'de kurulan kadim Hristiyan geleneği. Monofizit (tek tabiat) teolojisi. İslâm fethinden önce Mısır'ın hâkim dini. Amr b. Âs'ın fethinde Kıptîler Bizans'a karşı tarafsız kaldı.",
+      "center": {
+        "lat": 31.2,
+        "lng": 29.92
+      },
+      "active_period": "MS 42 – devam",
+      "denominations": [
+        "Kıptî Ortodoks (Monofizit)"
+      ],
+      "sources": [
+        "Kilise tarihleri",
+        "Taberî",
+        "Makrîzî"
+      ]
+    },
+    {
+      "id": "misir_yahudilik",
+      "name": {
+        "ar": "يهود مصر",
+        "tr": "Mısır Yahudiliği",
+        "en": "Egyptian Judaism"
+      },
+      "region": "misir",
+      "type": "semavi",
+      "description": "Hz. Mûsâ'dan beri Mısır'daki Yahudi varlığı. İskenderiye'de büyük Yahudi cemaati, Septuaginta (Kur'ân'ın bahsettiği Tevrat tercümesi) burada yapıldı.",
+      "center": {
+        "lat": 31.2,
+        "lng": 29.92
+      },
+      "active_period": "MÖ ~1200 – devam",
+      "sources": [
+        "Tevrat",
+        "Josephus",
+        "Philo"
+      ]
+    },
+    {
+      "id": "habes_hristiyanlik",
+      "name": {
+        "ar": "المسيحية الحبشية",
+        "tr": "Habeş Hristiyanlığı",
+        "en": "Ethiopian Christianity"
+      },
+      "region": "afrika",
+      "type": "semavi",
+      "description": "Aksûm Krallığı'nda 4. yüzyıldan beri resmî din. Monofizit gelenek. Hz. Peygamber sahâbîleri Necâşî Ashama'ya sığınmak üzere göndermiştir. 'Habeşistan hicretleri.'",
+      "center": {
+        "lat": 14.13,
+        "lng": 38.72
+      },
+      "active_period": "MS 330 – devam",
+      "denominations": [
+        "Habeş Ortodoks (Tewahedo)"
+      ],
+      "islamic_connection": "İlk hicret yurdu, Necâşî Ashama müslüman olarak vefat etti (rivayete göre).",
+      "sources": [
+        "İbn Hişâm",
+        "Taberî",
+        "Habeş kaynakları"
+      ]
+    },
+    {
+      "id": "habes_yahudilik",
+      "name": {
+        "ar": "يهود الحبشة",
+        "tr": "Habeş Yahudiliği (Beta İsrail)",
+        "en": "Ethiopian Judaism (Beta Israel)"
+      },
+      "region": "afrika",
+      "type": "semavi",
+      "description": "Habeşistan'daki kadim Yahudi topluluğu (Felâşâ). Kral Süleyman ile Saba Melikesi (Belkıs) soyundan geldiklerine inanırlar.",
+      "center": {
+        "lat": 12.6,
+        "lng": 37.47
+      },
+      "active_period": "MÖ ~1000 – devam",
+      "sources": [
+        "Habeş geleneği",
+        "İsrail kaynakları"
+      ]
+    },
+    {
+      "id": "afrika_animizm",
+      "name": {
+        "ar": "الأرواحية الأفريقية",
+        "tr": "Afrika Animizmi",
+        "en": "African Animism"
+      },
+      "region": "afrika",
+      "type": "animizm",
+      "description": "Sahra altı Afrika'da yaygın ruhani inanç sistemleri. Ata ruhları, doğa ruhları, büyü/sihir. İslâm'ın Doğu ve Batı Afrika'ya yayılmasıyla karşılaşılan yerel inançlar.",
+      "center": {
+        "lat": 8.0,
+        "lng": 20.0
+      },
+      "active_period": "Prehistorik – devam",
+      "sources": [
+        "Antropolojik çalışmalar"
+      ]
+    },
+    {
+      "id": "berber_inanclar",
+      "name": {
+        "ar": "المعتقدات الأمازيغية",
+        "tr": "Berberî İnançları",
+        "en": "Berber Beliefs"
+      },
+      "region": "afrika",
+      "type": "putperestlik",
+      "description": "Kuzey Afrika'nın yerli Berberî halklarının inanç sistemi. Doğa tapınımı, kutsal kayalar ve ağaçlar. İslâm fetihlerinin karşılaştığı direniş (Kâhine/Dihye).",
+      "center": {
+        "lat": 34.0,
+        "lng": 3.0
+      },
+      "active_period": "Prehistorik – MS 700",
+      "sources": [
+        "İbn Haldûn",
+        "Arkeolojik veriler"
+      ]
+    },
+    {
+      "id": "hinduizm",
+      "name": {
+        "ar": "الهندوسية",
+        "tr": "Hinduizm",
+        "en": "Hinduism"
+      },
+      "region": "hint",
+      "type": "politeizm",
+      "description": "Hint alt-kıtasının kadim dini. Brahma, Vişnu, Şiva üçlemesi. Kast sistemi. Muhammed b. Kâsım'ın Sind fethi (712) ile İslâm karşılaşması. Bîrûnî'nin Kitâbu'l-Hind'i en önemli İslâm kaynağı.",
+      "center": {
+        "lat": 28.61,
+        "lng": 77.21
+      },
+      "active_period": "MÖ ~1500 – devam",
+      "sacred_texts": [
+        "Vedalar",
+        "Upanişadlar",
+        "Bhagavad Gita",
+        "Mahâbhârata",
+        "Ramayana"
+      ],
+      "major_deities": [
+        "Brahma",
+        "Vişnu",
+        "Şiva",
+        "Devi",
+        "Ganeş",
+        "Krişna"
+      ],
+      "islamic_sources": [
+        "Bîrûnî – Kitâbu'l-Hind",
+        "Şehristânî – el-Milel"
+      ],
+      "sources": [
+        "Vedalar",
+        "Bîrûnî",
+        "Şehristânî"
+      ]
+    },
+    {
+      "id": "budizm",
+      "name": {
+        "ar": "البوذية",
+        "tr": "Budizm",
+        "en": "Buddhism"
+      },
+      "region": "hint",
+      "type": "felsefe_din",
+      "description": "Gautama Buda (MÖ ~563–483) tarafından kurulan din/felsefe. Hint'ten Orta Asya'ya, İpek Yolu boyunca Çin ve Japonya'ya yayılmıştır. Bâmiyân Budaları Afganistan'da İslâm öncesi varlığın sembolü.",
+      "center": {
+        "lat": 25.0,
+        "lng": 83.0
+      },
+      "active_period": "MÖ ~500 – devam",
+      "denominations": [
+        "Theravada",
+        "Mahayana",
+        "Vajrayana"
+      ],
+      "islamic_encounter": "Belh, Bâmiyân, Sind'de İslâm fetihleri sırasında karşılaşma.",
+      "sources": [
+        "Tripitaka",
+        "Bîrûnî",
+        "Çin seyyahları"
+      ]
+    },
+    {
+      "id": "cayinizm",
+      "name": {
+        "ar": "الجاينية",
+        "tr": "Câinizm",
+        "en": "Jainism"
+      },
+      "region": "hint",
+      "type": "felsefe_din",
+      "description": "Aşırı ahimsa (şiddetsizlik) öğretisi. Mahavira (MÖ 6. yy). Sind fethinde Câin toplulukları da vardı.",
+      "center": {
+        "lat": 23.0,
+        "lng": 72.6
+      },
+      "active_period": "MÖ ~600 – devam",
+      "sources": [
+        "Bîrûnî",
+        "Câin kaynakları"
+      ]
+    },
+    {
+      "id": "konfucyanizm",
+      "name": {
+        "ar": "الكونفوشية",
+        "tr": "Konfüçyüsçülük",
+        "en": "Confucianism"
+      },
+      "region": "cin",
+      "type": "felsefe_din",
+      "description": "Konfüçyüs (MÖ 551–479) tarafından kurulan etik ve siyaset felsefesi. Çin'in resmi ideolojisi. T'ang hanedanı döneminde İslâm ile ilk temas (Talas 751).",
+      "center": {
+        "lat": 35.6,
+        "lng": 116.99
+      },
+      "active_period": "MÖ ~500 – devam",
+      "sources": [
+        "Analektler",
+        "Çin tarih kayıtları"
+      ]
+    },
+    {
+      "id": "taoizm",
+      "name": {
+        "ar": "الطاوية",
+        "tr": "Taoizm (Daoizm)",
+        "en": "Taoism"
+      },
+      "region": "cin",
+      "type": "felsefe_din",
+      "description": "Lao Tzu'nun (MÖ 6. yy) öğretisine dayanan doğa felsefesi ve din. Tao (Yol) kavramı, yin-yang dengesi. İslâm'ın Çin'e girişinde karşılaştığı yerel gelenek.",
+      "center": {
+        "lat": 32.06,
+        "lng": 118.78
+      },
+      "active_period": "MÖ ~500 – devam",
+      "sources": [
+        "Tao Te Ching",
+        "Çin kaynakları"
+      ]
+    },
+    {
+      "id": "cin_budizm",
+      "name": {
+        "ar": "البوذية الصينية",
+        "tr": "Çin Budizmi",
+        "en": "Chinese Buddhism"
+      },
+      "region": "cin",
+      "type": "felsefe_din",
+      "description": "İpek Yolu üzerinden Çin'e ulaşan Mahayana Budizmi. T'ang hanedanı döneminde altın çağını yaşadı. Talas Muharebesi (751) Budist Orta Asya ile İslâm arasında dönüm noktası.",
+      "center": {
+        "lat": 34.26,
+        "lng": 108.94
+      },
+      "active_period": "MS 67 – devam",
+      "sources": [
+        "Çin Budist kaynakları"
+      ]
+    },
+    {
+      "id": "cin_islam",
+      "name": {
+        "ar": "الإسلام في الصين",
+        "tr": "Çin'de İslâm (Erken Dönem)",
+        "en": "Islam in China (Early Period)"
+      },
+      "region": "cin",
+      "type": "semavi",
+      "description": "Rivayete göre sahâbî Sa'd b. Ebî Vakkâs (veya Vakkâs b. Mâlik) 650'lerde Çin'e gelmiştir. Quanzhou (Zeytûn) ve Guangzhou (Kanton) ilk İslâm limanları. Huaisheng Camii (627?) Çin'in en eski camisi.",
+      "center": {
+        "lat": 23.13,
+        "lng": 113.26
+      },
+      "active_period": "MS ~650 – devam",
+      "sources": [
+        "Çin tarih kayıtları",
+        "İslâm kaynakları"
+      ]
+    }
+  ],
+  "idols": [
+    {
+      "id": "lat",
+      "name": {
+        "ar": "اللات",
+        "tr": "Lât",
+        "en": "al-Lat"
+      },
+      "type": "tanrica",
+      "region": "arabistan",
+      "description": "Tâif'te Sakîf kabilesinin büyük putlarından. Beyaz kaya/granit blok. Güneş tanrıçası olarak tapılırdı. Kur'ân: Necm 53:19.",
+      "location": "sakif_taif",
+      "worshippers": [
+        "Sakîf",
+        "Kureyş",
+        "Gatafân"
+      ],
+      "quran_refs": [
+        "Necm 53:19"
+      ],
+      "destroyed_by": "Mugîre b. Şu'be (H. 9 / 630)",
+      "sources": [
+        "İbn Kelbî – Kitâbu'l-Esnâm",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "uzza",
+      "name": {
+        "ar": "العزى",
+        "tr": "Uzzâ",
+        "en": "al-Uzza"
+      },
+      "type": "tanrica",
+      "region": "arabistan",
+      "description": "Kureyş ve Kinâne'nin en büyük putu. Nahle vadisinde üç mukaddes ağaç/kaya. Zühre (Venüs) yıldızıyla ilişkilendirilirdi. Kur'ân: Necm 53:19.",
+      "location": "batn_nahle",
+      "worshippers": [
+        "Kureyş",
+        "Kinâne",
+        "Benû Süleym"
+      ],
+      "quran_refs": [
+        "Necm 53:19"
+      ],
+      "destroyed_by": "Hâlid b. Velîd (H. 8 / 630)",
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "menat",
+      "name": {
+        "ar": "مناة",
+        "tr": "Menât",
+        "en": "Manat"
+      },
+      "type": "tanrica",
+      "region": "arabistan",
+      "description": "Evs ve Hazrec'in büyük putu. Müşellel (Medîne-Mekke arası) veya Kudeyd'de. Kader tanrıçası. Kur'ân: Necm 53:20.",
+      "location_desc": "Kudeyd (Medîne-Mekke arası)",
+      "worshippers": [
+        "Evs",
+        "Hazrec",
+        "Hüzeyl",
+        "Huzâa"
+      ],
+      "quran_refs": [
+        "Necm 53:20"
+      ],
+      "destroyed_by": "Ali b. Ebî Tâlib (veya Sa'd b. Zeyd, H. 8 / 630)",
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "hubel",
+      "name": {
+        "ar": "هبل",
+        "tr": "Hübel",
+        "en": "Hubal"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Ka'be'nin içindeki en büyük put. İnsan biçimli, kırmızı akik taşından. Kırgın sağ eli altınla tamir edilmişti. Fal okları ile kehanet yapılırdı. Amr b. Luhay tarafından Suriye'den getirildiği rivayet edilir.",
+      "location": "kabe",
+      "worshippers": [
+        "Kureyş (Abdüddâr, Mahzûm, Cumah...)"
+      ],
+      "destroyed_by": "Hz. Peygamber (Fetih günü, H. 8 / 630)",
+      "sources": [
+        "İbn Kelbî",
+        "İbn Hişâm",
+        "Ezrakî – Ahbâru Mekke"
+      ]
+    },
+    {
+      "id": "isaf_naile",
+      "name": {
+        "ar": "إساف ونائلة",
+        "tr": "İsâf ve Nâile",
+        "en": "Isaf and Naila"
+      },
+      "type": "put_cifti",
+      "region": "arabistan",
+      "description": "Ka'be'nin yanında (Safâ ve Merve'de) bulunan iki put. Efsaneye göre Ka'be'de zina edip taşlaşan iki Cürhümî sevgili. Kurban sunulan yerlerdi.",
+      "location": "kabe",
+      "worshippers": [
+        "Kureyş",
+        "Hac yapanlar"
+      ],
+      "destroyed_by": "Hz. Peygamber (H. 8 / 630)",
+      "sources": [
+        "İbn Kelbî",
+        "Ezrakî"
+      ]
+    },
+    {
+      "id": "yaghus",
+      "name": {
+        "ar": "يغوث",
+        "tr": "Yağûs",
+        "en": "Yaghuth"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Nûh sûresinde zikredilen kadim putlardan. Mezhic / Cürş kabilelerinin taptığı aslan biçimli put.",
+      "worshippers": [
+        "Mezhic",
+        "Enâî"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "yauk",
+      "name": {
+        "ar": "يعوق",
+        "tr": "Yeûk",
+        "en": "Yaouq"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Nûh sûresinde zikredilen kadim putlardan. Hemedân kabilesinin at biçimli putu.",
+      "worshippers": [
+        "Hemedân"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "nesr",
+      "name": {
+        "ar": "نسر",
+        "tr": "Nesr",
+        "en": "Nasr"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Nûh sûresinde zikredilen kadim putlardan. Himyer kabilesinin kartal (akbaba) biçimli putu.",
+      "worshippers": [
+        "Himyer"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "vedd",
+      "name": {
+        "ar": "ود",
+        "tr": "Vedd",
+        "en": "Wadd"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Nûh sûresinde zikredilen putlardan. Kelb kabilesinin putu, Dûmetülcendel'de. Sevgi/dostluk tanrısı. Erkek heykeli.",
+      "location": "dumetulcendel",
+      "worshippers": [
+        "Kelb"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "suva",
+      "name": {
+        "ar": "سواع",
+        "tr": "Süvâ'",
+        "en": "Suwa"
+      },
+      "type": "tanrica",
+      "region": "arabistan",
+      "description": "Nûh sûresinde zikredilen putlardan. Hüzeyl kabilesinin kadın biçimli putu. Ruhât'ta bulunurdu.",
+      "worshippers": [
+        "Hüzeyl"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "sources": [
+        "İbn Kelbî",
+        "Kur'ân"
+      ]
+    },
+    {
+      "id": "zulhalasa",
+      "name": {
+        "ar": "ذو الخلصة",
+        "tr": "Zülhalasa",
+        "en": "Dhu al-Khalasa"
+      },
+      "type": "tapinak",
+      "region": "arabistan",
+      "description": "'Ka'betü'l-Yemâniyye' (Yemen Ka'besi) olarak bilinen tapınak. Tebâle'de (Tâif güneyinde). Hâs'am, Becîle ve Ezd kabilelerinin taptığı mermer blok.",
+      "worshippers": [
+        "Hâs'am",
+        "Becîle",
+        "Ezd",
+        "Devs"
+      ],
+      "destroyed_by": "Cerîr b. Abdullah (H. 10 / 631)",
+      "sources": [
+        "İbn Kelbî",
+        "Buhârî"
+      ]
+    },
+    {
+      "id": "fils",
+      "name": {
+        "ar": "فلس",
+        "tr": "Fils",
+        "en": "Fils"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Tayy kabilesinin Ecâ dağındaki kırmızı putu. İnsan biçimli. Adiy b. Hâtim'in İslâm'a girişiyle yıkıldı.",
+      "location": "tayy_bolgesi",
+      "worshippers": [
+        "Tayy"
+      ],
+      "destroyed_by": "Ali b. Ebî Tâlib (H. 9 / 630)",
+      "sources": [
+        "İbn Kelbî"
+      ]
+    },
+    {
+      "id": "amm_anes",
+      "name": {
+        "ar": "عمّ أنس",
+        "tr": "Amm-Enes",
+        "en": "Amm Anas"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Hazrecli Benû Hâşim b. Abdüddâr'ın putu. Benû Neccar, Benû Amr b. Avf da tapardı.",
+      "worshippers": [
+        "Hazrec çeşitli kolları"
+      ],
+      "sources": [
+        "İbn Kelbî"
+      ]
+    },
+    {
+      "id": "saad",
+      "name": {
+        "ar": "سعد",
+        "tr": "Sa'd",
+        "en": "Sad"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Kinâne kabilesinin büyük kayası. Bir kişi kurban kestirirken devenin ürkütüp kaçması nedeniyle 'Allah'ım Sa'd'ın Sa'd'ını görmüyoruz!' diyerek terk etmiştir.",
+      "worshippers": [
+        "Kinâne",
+        "Benû Milkân"
+      ],
+      "sources": [
+        "İbn Kelbî"
+      ]
+    },
+    {
+      "id": "manaf",
+      "name": {
+        "ar": "مناف",
+        "tr": "Menâf",
+        "en": "Manaf"
+      },
+      "type": "tanri",
+      "region": "arabistan",
+      "description": "Kureyş'in eski putlarından. 'Abdümenâf' (Menâf'ın kulu) ismi buradan gelir. Hz. Peygamber'in dedesi Hâşim'in babası Abdümenâf.",
+      "worshippers": [
+        "Kureyş"
+      ],
+      "sources": [
+        "İbn Kelbî"
+      ]
+    },
+    {
+      "id": "almakah",
+      "name": {
+        "ar": "المقه",
+        "tr": "Almakâh",
+        "en": "Almaqah"
+      },
+      "type": "tanri",
+      "region": "güney_arabistan",
+      "description": "Sebe' devletinin baş tanrısı. Ay tanrısı olarak tapılırdı. Sebe tapınakları (Merib).",
+      "location": "marib",
+      "worshippers": [
+        "Sebe'",
+        "Himyer"
+      ],
+      "quran_refs": [
+        "Sebe' 34:15-19 (Sebe kavmi)"
+      ],
+      "destroyed_by": null,
+      "sources": [
+        "İbn Hişâm – Sîret",
+        "Epigrafik kaynaklar"
+      ]
+    },
+    {
+      "id": "zulhalasa_detay",
+      "name": {
+        "ar": "ذو الخَلَصة",
+        "tr": "Zülhalasa (Detaylı)",
+        "en": "Dhul-Khalasa (Expanded)"
+      },
+      "type": "tapınak",
+      "region": "arabistan",
+      "description": "Tebâle'de Devs, Has'am ve Becîle kabilelerinin Ka'be benzeri tapınağı. 'el-Ka'betü'l-Yemâniyye' denirdi. İçinde dikili putlar ve fal okları vardı.",
+      "location": "tebale",
+      "worshippers": [
+        "Devs",
+        "Has'am",
+        "Becîle",
+        "Ezd"
+      ],
+      "quran_refs": [],
+      "destroyed_by": "Cerîr b. Abdullah el-Becelî (H.10 / 631)",
+      "sources": [
+        "Buhârî – Megâzî",
+        "İbn Kelbî – Kitâbü'l-Asnâm"
+      ]
+    },
+    {
+      "id": "yağus_detay",
+      "name": {
+        "ar": "يَغوث",
+        "tr": "Yağûs (Detaylı)",
+        "en": "Ya'uq (Expanded)"
+      },
+      "type": "put",
+      "region": "yemen",
+      "description": "Nûh kavminin putlarından. Yemen'de Mezhic kabilesi tapardı. Aslan biçimli put.",
+      "location": null,
+      "worshippers": [
+        "Mezhic",
+        "Murâd"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "destroyed_by": "İslâm fetihleri (H.10)",
+      "sources": [
+        "İbn Kelbî – Kitâbü'l-Asnâm"
+      ]
+    },
+    {
+      "id": "mithra",
+      "name": {
+        "ar": "ميثرا",
+        "tr": "Mithra",
+        "en": "Mithra"
+      },
+      "type": "tanri",
+      "region": "iran",
+      "description": "Eski İran güneş/ahd tanrısı. Mitraizm Roma'ya kadar yayıldı. Sâsânî döneminde Zerdüştîlik'le sentezlendi.",
+      "location": null,
+      "worshippers": [
+        "Sâsânîler",
+        "Roma askerleri"
+      ],
+      "quran_refs": [],
+      "destroyed_by": null,
+      "sources": [
+        "Bundahişn",
+        "Roma epigrafik kaynakları"
+      ]
+    },
+    {
+      "id": "bel_palmira",
+      "name": {
+        "ar": "بعل",
+        "tr": "Bel (Palmira)",
+        "en": "Bel (Palmyra)"
+      },
+      "type": "tapınak",
+      "region": "suriye",
+      "description": "Tedmür'ün (Palmira) baş tanrısı. Dev tapınağı Suriye'nin en büyük antik yapılarındandı. Sâmî bölge tanrısı.",
+      "location": null,
+      "worshippers": [
+        "Tedmürlüler",
+        "Nâbat"
+      ],
+      "quran_refs": [
+        "Sâffât 37:125 (Ba'l — İlyâs kavmi)"
+      ],
+      "destroyed_by": null,
+      "sources": [
+        "Yâkût – Mu'cem"
+      ]
+    },
+    {
+      "id": "yeuk",
+      "name": {
+        "ar": "يعوق",
+        "tr": "Ye'ûk",
+        "en": "Ya'uq"
+      },
+      "type": "put",
+      "region": "yemen",
+      "description": "Hemdân kabilesinin putu. At şeklinde. Kur'ân'da Nûh kavminin putlarından biri.",
+      "location": "yemen",
+      "worshippers": [
+        "Hemdân"
+      ],
+      "quran_refs": [
+        "Nûh 71:23"
+      ],
+      "destruction": ""
+    },
+    {
+      "id": "menaf",
+      "name": {
+        "ar": "مناف",
+        "tr": "Menâf",
+        "en": "Manaf"
+      },
+      "type": "put",
+      "region": "mekke",
+      "description": "Kureyş'in eski putlarından. Abdümenâf (Menâf'ın kulu) ismi bu puttan gelir. Ka'be yakınında tapılırdı.",
+      "location": "mekke",
+      "worshippers": [
+        "Kureyş"
+      ],
+      "quran_refs": [],
+      "destruction": ""
+    },
+    {
+      "id": "duvvar",
+      "name": {
+        "ar": "ذو الشرى",
+        "tr": "Züşşerâ (Dûşerâ)",
+        "en": "Dushara"
+      },
+      "type": "tanrı",
+      "region": "kuzey_arabistan",
+      "description": "Nabat Krallığı'nın baş tanrısı. Petra'da tapınağı vardı. Kara taş (betyl) şeklinde. Hellenistik dönemde Dionysos ile özdeşleştirildi.",
+      "location": "petra",
+      "worshippers": [
+        "Nabatîler"
+      ],
+      "quran_refs": [],
+      "destruction": "Nabat medeniyetinin çöküşüyle terk edildi"
+    },
+    {
+      "id": "allat_palmira",
+      "name": {
+        "ar": "اللات (تدمر)",
+        "tr": "Allât (Palmira)",
+        "en": "Allat (Palmyra)"
+      },
+      "type": "tanrıça",
+      "region": "suriye",
+      "description": "Palmira (Tedmür) versiyonu. Aslan üzerinde oturan tanrıça. Athena ile özdeşleştirildi. Arap putperestliğinin Suriye uzantısı.",
+      "location": "tedmur",
+      "worshippers": [
+        "Palmira Arapları"
+      ],
+      "quran_refs": [],
+      "destruction": "Roma baskısı ve Hristiyanlığın yayılması"
+    }
+  ],
+  "rituals": [
+    {
+      "id": "rit_hac_cahiliye",
+      "name": {
+        "ar": "حج الجاهلية",
+        "tr": "Câhiliye Haccı",
+        "en": "Pre-Islamic Pilgrimage"
+      },
+      "type": "ibadet",
+      "description": "Hz. İbrâhîm'den kalma hac ibâdetinin bozulmuş hâli. Ka'be etrafında çıplak tavaf, ıslık ve alkış ile 'ibadet'. Hums ve Hille ayrımı.",
+      "related_quran": [
+        "Enfâl 8:35 — 'Onların Ka'be yanındaki duaları (salâtları) ıslık çalma ve el çırpmadan başka bir şey değildir.'"
+      ],
+      "related_events": [
+        "gazve_fetih_mekke"
+      ],
+      "related_persons": [
+        "ebubekir"
+      ],
+      "abolished_by": "Vedâ Haccı (H.10 / 632)",
+      "sources": [
+        "İbn Hişâm",
+        "Buhârî"
+      ]
+    },
+    {
+      "id": "rit_istikbal_ezlam",
+      "name": {
+        "ar": "الاستقسام بالأزلام",
+        "tr": "Fal Okları (Ezlâm/İstikbâl)",
+        "en": "Divination Arrows (Azlam)"
+      },
+      "type": "kehanet",
+      "description": "Hübel putunun yanında 7 fal oku ile kader sorma. 'Evet/Hayır/Siz onlardansınız/Siz onlardan değilsiniz/İlhâk/Deniyet/Su' yazılı oklar.",
+      "related_quran": [
+        "Mâide 5:3 — 'Fal oklarıyla kısmet aramanız haramdır.'",
+        "Mâide 5:90 — 'Fal okları şeytanın pisliğidir.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân (Mâide 5:3)",
+      "sources": [
+        "İbn Kelbî – Kitâbü'l-Asnâm",
+        "Buhârî – Tefsîr"
+      ]
+    },
+    {
+      "id": "rit_siba",
+      "name": {
+        "ar": "السائبة والبحيرة والوصيلة والحام",
+        "tr": "Sâibe, Bahîre, Vasîle, Hâm",
+        "en": "Sacred Animals (Bahira, Sa'iba, Wasila, Ham)"
+      },
+      "type": "hurafe",
+      "description": "Belirli şartları taşıyan deve ve koyunların putlara adanması: Bahîre (kulağı kesik), Sâibe (serbest bırakılan), Vasîle (ikiz doğuran), Hâm (nesli korunan erkek deve).",
+      "related_quran": [
+        "Mâide 5:103 — 'Allah bahîre, sâibe, vasîle ve hâm diye bir şey meşru kılmamıştır.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân (Mâide 5:103)",
+      "sources": [
+        "Buhârî – Tefsîr",
+        "Taberî – Câmiu'l-Beyân"
+      ]
+    },
+    {
+      "id": "rit_nesi",
+      "name": {
+        "ar": "النسيء",
+        "tr": "Nesî' (Ay Erteleme)",
+        "en": "Nasi' (Intercalation)"
+      },
+      "type": "takvim",
+      "description": "Haram ayların sırasını değiştirme/erteleme uygulaması. Kinâne kabilesinden 'Kalemmesler' adı verilen kişiler savaş veya ticaret için haram ayları kaydırırdı.",
+      "related_quran": [
+        "Tevbe 9:37 — 'Nesî' ancak küfürde bir artıştır.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Vedâ Hutbesi (H.10 / 632)",
+      "sources": [
+        "İbn Hişâm – Sîret",
+        "Taberî – Tefsîr"
+      ]
+    },
+    {
+      "id": "rit_mead_defn",
+      "name": {
+        "ar": "وأد البنات",
+        "tr": "Kız Çocuğu Gömmek (Ve'd)",
+        "en": "Female Infanticide (Wa'd)"
+      },
+      "type": "adet",
+      "description": "Câhiliye döneminde bazı Arap kabilelerinde kız çocuklarının diri diri gömülmesi. Temîm, Kays Aylân ve bazı Kinde kollarında yaygın.",
+      "related_quran": [
+        "Tekvîr 81:8-9 — 'Diri diri toprağa gömülen kıza sorulduğunda: Hangi günahtan dolayı öldürüldü?'",
+        "En'âm 6:137 — 'Ortakları, müşriklerden çoğuna çocuklarını öldürmeyi güzel gösterdi.'",
+        "İsrâ 17:31 — 'Fakirlik korkusuyla çocuklarınızı öldürmeyin.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân (çok sayıda âyet)",
+      "sources": [
+        "İbn Hişâm",
+        "Câhız – el-Beyân ve't-Tebyîn"
+      ]
+    },
+    {
+      "id": "rit_telbiye_sirk",
+      "name": {
+        "ar": "تلبية الشرك",
+        "tr": "Müşrik Telbiyesi",
+        "en": "Polytheist Talbiyah"
+      },
+      "type": "ibadet",
+      "description": "'Lebbeyk Allahümme lebbeyk, lâ şerîke leke illâ şerîken hüve lek, temlikühü ve mâ melek' — Allah'a ortakları da dâhil eden telbiye.",
+      "related_quran": [],
+      "related_events": [
+        "gazve_fetih_mekke"
+      ],
+      "related_persons": [],
+      "abolished_by": "Tevhid telbiyesi (Hz. Peygamber)",
+      "sources": [
+        "Müslim – Hac"
+      ]
+    },
+    {
+      "id": "rit_hilf",
+      "name": {
+        "ar": "الحِلْف",
+        "tr": "Hilf (Kabile İttifakı / Yemin)",
+        "en": "Hilf (Tribal Alliance / Oath)"
+      },
+      "type": "siyasi",
+      "description": "Kabileler arası saldırmazlık, yardımlaşma ve kan davası antlaşmaları. Hılfü'l-Fudûl en ünlüsü. Hz. Peygamber: 'İslâm'da da çağrılsam katılırım.'",
+      "related_quran": [],
+      "related_events": [],
+      "related_persons": [
+        "ebubekir",
+        "zubeyr_avvam"
+      ],
+      "abolished_by": null,
+      "sources": [
+        "İbn Hişâm",
+        "İbn Sa'd – Tabakât"
+      ]
+    },
+    {
+      "id": "rit_hums_hille",
+      "name": {
+        "ar": "الحُمْس والحِلَّة",
+        "tr": "Hums ve Hille Ayrımı",
+        "en": "Hums and Hilla Distinction"
+      },
+      "type": "sınıf",
+      "description": "Kureyş ve müttefikleri 'Hums' (Ka'be muhafızları) sayılır, diğer kabileler 'Hille' idi. Hums Arafat'a çıkmaz, Harem dışına çıkmazdı. Hille halkı Ka'be'yi Kureyş'in verdiği elbiseyle ya da çıplak tavaf ederdi.",
+      "related_quran": [
+        "A'râf 7:31 — 'Her mescide gidişinizde güzel elbiselerinizi giyin.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Hz. Peygamber (Arafat'ta vakfe — H.10)",
+      "sources": [
+        "İbn Hişâm",
+        "İbn İshâk"
+      ]
+    },
+    {
+      "id": "rit_ihtifar",
+      "name": {
+        "ar": "الطواف عرياناً",
+        "tr": "Çıplak Tavaf",
+        "en": "Naked Circumambulation"
+      },
+      "type": "ibadet",
+      "description": "Hille mensupları Kureyş'ten elbise temin edemezlerse Ka'be'yi çıplak tavaf ederdi. Kadınlar gece, erkekler gündüz.",
+      "related_quran": [
+        "A'râf 7:28 — 'Atalarımızı bu yolda bulduk diyorlar...'",
+        "A'râf 7:31 — 'Ey Âdemoğulları! Her mescide gidişinizde süsünüzü (elbisenizi) alın.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân (A'râf 7:31) + Ebû Bekir'in H.9 Hac ilânı",
+      "sources": [
+        "Buhârî",
+        "Müslim"
+      ]
+    },
+    {
+      "id": "rit_mukatebe",
+      "name": {
+        "ar": "المعاقرة",
+        "tr": "Muâkara (Deve Boğazlama Yarışı)",
+        "en": "Mu'aqara (Camel Slaughter Competition)"
+      },
+      "type": "iftihar",
+      "description": "Kabileler arası gurur gösterisi olarak çok sayıda devenin boğazlanıp halka dağıtılması. İsraf ve kibirle bağlantılı.",
+      "related_quran": [
+        "Tekâsür 102:1-2 — 'Çoğaltma yarışı sizi oyaladı.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân (israf/kibir yasakları)",
+      "sources": [
+        "Câhız",
+        "Mufaddal ed-Dabbî"
+      ]
+    },
+    {
+      "id": "rit_nikah_cahiliye",
+      "name": {
+        "ar": "أنكحة الجاهلية",
+        "tr": "Câhiliye Nikâhları",
+        "en": "Jahiliyyah Marriage Types"
+      },
+      "type": "adet",
+      "description": "Hz. Âişe dört tür nikâh bildirdi: (1) Normal nikâh, (2) İstibdâ' (soy geliştirme), (3) Çok erkekli nikâh (Rahit), (4) Muta nikâhı. İslâm yalnızca ilkini meşru saydı.",
+      "related_quran": [
+        "Nisâ 4:3 — 'Size helâl olan kadınlardan ikişer, üçer, dörder nikâhlayın.'",
+        "Nisâ 4:22-23 — Evlilik yasakları"
+      ],
+      "related_events": [],
+      "related_persons": [
+        "aise"
+      ],
+      "abolished_by": "Kur'ân (Nisâ sûresi ahkâm âyetleri)",
+      "sources": [
+        "Buhârî – Nikâh",
+        "İbn Sa'd – Tabakât"
+      ]
+    },
+    {
+      "id": "rit_zıhar",
+      "name": {
+        "ar": "الظهار",
+        "tr": "Zıhâr (Anneye Benzetme)",
+        "en": "Zihar (Likening wife to mother)"
+      },
+      "type": "adet",
+      "description": "Koca eşine 'Sen bana annemin sırtı gibisin' deyince nikâh düşmez ama kadın askıda kalırdı. Havle bt. Sa'lebe Hz. Peygamber'e şikâyet etti.",
+      "related_quran": [
+        "Mücâdele 58:1-4 — 'Allah kocası hakkında seninle tartışan ve Allah'a şikâyette bulunan kadının sözünü işitmiştir.'"
+      ],
+      "related_events": [],
+      "related_persons": [
+        "havle_salebiye"
+      ],
+      "abolished_by": "Kur'ân (Mücâdele 58:1-4) — keffâret hükmü",
+      "sources": [
+        "Ebû Dâvûd – Talâk",
+        "Vâhidî"
+      ]
+    },
+    {
+      "id": "rit_tebenny",
+      "name": {
+        "ar": "التبني",
+        "tr": "Tebennî (Evlat Edinme)",
+        "en": "Tabanni (Full Adoption)"
+      },
+      "type": "adet",
+      "description": "Câhiliye'de evlat edinilen çocuk öz oğul muamelesi görür, babanın adını taşır, miras alırdı. Zeyd b. Hârise 'Zeyd b. Muhammed' olarak anılırdı. Kur'ân bunu kaldırdı.",
+      "related_quran": [
+        "Ahzâb 33:4-5 — 'Evlatlıklarınızı babaları gibi çağırmayın, onları babalarına nisbet edin.'",
+        "Ahzâb 33:37 — Zeyneb nikâhı"
+      ],
+      "related_events": [],
+      "related_persons": [
+        "zeyd_harise"
+      ],
+      "abolished_by": "Kur'ân (Ahzâb 33:4-5)",
+      "sources": [
+        "Buhârî – Tefsîr",
+        "Taberî"
+      ]
+    },
+    {
+      "id": "rit_ilaf",
+      "name": {
+        "ar": "الإيلاف",
+        "tr": "Îlâf (Kureyş Ticaret Antlaşması)",
+        "en": "Ilaf (Quraysh Trade Agreement)"
+      },
+      "type": "ticaret",
+      "description": "Kureyş'in dört büyük ticaret antlaşması: kış Habeşistan/Yemen, yaz Suriye/Irak. Hâşim, Abdüşems, Muttalib ve Nevfel kardeşler her biri bir yön üstlendi.",
+      "related_quran": [
+        "Kureyş 106:1-4 — 'Kureyş'in kış ve yaz yolculuklarına alıştırılması...'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": null,
+      "sources": [
+        "İbn Hişâm",
+        "Taberî – Târih"
+      ]
+    },
+    {
+      "id": "rit_kisa_intikam",
+      "name": {
+        "ar": "الثأر",
+        "tr": "Se'r / Kan Davası",
+        "en": "Blood Revenge (Tha'r)"
+      },
+      "type": "adet",
+      "description": "Kabileler arası kan davası sistemi. Bir kişinin öldürülmesi bütün kabilenin sorumluluğuydu. Diyyet (kan bedeli) veya kısas uygulanırdı. İslâm bunu düzenledi.",
+      "related_quran": [
+        "Bakara 2:178 — 'Ey iman edenler! Öldürülenler hakkında size kısas farz kılındı.'",
+        "İsrâ 17:33 — 'Haksız yere öldürmeyin. Kim haksız yere öldürülürse onun velisine yetki verdik.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Kur'ân — Kısas/diyyet sistemi düzenlendi (tamamen kaldırılmadı)",
+      "sources": [
+        "İbn Hişâm",
+        "Câhız – el-Beyân"
+      ]
+    },
+    {
+      "id": "rit_istiska_cahiliye",
+      "name": {
+        "ar": "الاستسقاء الجاهلي",
+        "tr": "Câhiliye İstiskâsı (Yağmur Duası)",
+        "en": "Jahiliyyah Rain Ritual (Istisqa)"
+      },
+      "type": "ibadet",
+      "description": "Kuraklıkta sığırlara merh/selâ otu bağlanıp dağ tepesinden ateşe sürülürdü. Hayvanların böğürmesinin yağmur getireceğine inanılırdı. İslâm bunu istiskâ namazıyla değiştirdi.",
+      "related_quran": [],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "İstiskâ namazı (Sünnet)",
+      "sources": [
+        "Câhız",
+        "İbn Kuteybe – el-Meânî"
+      ]
+    },
+    {
+      "id": "rit_siir_yarismasi",
+      "name": {
+        "ar": "مسابقة الشعر في سوق عكاظ",
+        "tr": "Ukâz Şiir Yarışması",
+        "en": "Ukaz Poetry Competition"
+      },
+      "type": "edebiyat",
+      "description": "Ukâz panayırında yıllık şiir yarışması. En iyi kasîde Ka'be duvarına asılırdı (Muallakât). Hakemler: Nâbiga ez-Zübyânî vb. Hz. Peygamber de panayırda davet yapardı.",
+      "related_quran": [
+        "Şuarâ 26:224-226 — 'Şairlere gelince, onlara sapıklar uyar.'"
+      ],
+      "related_events": [],
+      "related_persons": [
+        "hassan_sabit",
+        "lebid_rebia"
+      ],
+      "abolished_by": null,
+      "sources": [
+        "İbn Hişâm",
+        "el-Asmaî – Fuhûlü'ş-Şuarâ"
+      ]
+    },
+    {
+      "id": "rit_civar",
+      "name": {
+        "ar": "الجِوار",
+        "tr": "Civâr (Himaye Sistemi)",
+        "en": "Jiwar (Protection System)"
+      },
+      "type": "siyasi",
+      "description": "Güçlü bir kişi veya kabile dışarıdan birine 'civâr' (himaye) verirdi. Hz. Peygamber Mut'im b. Adiy'in civârıyla Tâif'ten döndü. Ebû Bekir İbn Dağınne'nin civârındaydı.",
+      "related_quran": [],
+      "related_events": [],
+      "related_persons": [
+        "ebubekir"
+      ],
+      "abolished_by": null,
+      "sources": [
+        "İbn Hişâm",
+        "Buhârî – Menâkıb"
+      ]
+    },
+    {
+      "id": "rit_diye_fidye",
+      "name": {
+        "ar": "الدية",
+        "tr": "Diyyet (Kan Bedeli)",
+        "en": "Diyya (Blood Money)"
+      },
+      "type": "hukuk",
+      "description": "Adam öldürme karşılığı 100 deve veya eşdeğeri. Abdülmuttalib'in oğlu Abdullah'ı kurban etme adağı 100 deve ile fidyelenmişti. İslâm bu miktarı sürdürdü.",
+      "related_quran": [
+        "Nisâ 4:92 — 'Kim bir mümini yanlışlıkla öldürürse bir mümin köle azat etsin ve ailesine diyyet ödesin.'"
+      ],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": null,
+      "sources": [
+        "İbn Hişâm – Abdülmuttalib kıssası",
+        "Fıkıh kitapları"
+      ]
+    },
+    {
+      "id": "rit_kufur_yemini",
+      "name": {
+        "ar": "القسم بالأصنام",
+        "tr": "Putlar Üzerine Yemin",
+        "en": "Swearing by Idols"
+      },
+      "type": "ibadet",
+      "description": "Câhiliye Arapları Lât, Uzzâ, Menât ve babaları üzerine yemin ederdi. Hz. Peygamber: 'Kim yemin edecekse Allah'a yemin etsin veya sussun.'",
+      "related_quran": [],
+      "related_events": [],
+      "related_persons": [],
+      "abolished_by": "Hadis (Buhârî – Eymân)",
+      "sources": [
+        "Buhârî – Eymân",
+        "Müslim – Eymân"
+      ]
+    },
+    {
+      "id": "rit_riba",
+      "name": {
+        "ar": "الربا",
+        "tr": "Ribâ (Câhiliye Fâizi)",
+        "en": "Pre-Islamic Usury (Riba)"
+      },
+      "type": "ticaret",
+      "description": "Borcunu ödeyemeyene 'ya öde ya vadeyi uzat, miktar ikiye katlansın' denirdi. Zenginlerin yoksulları sömürme aracı.",
+      "related_quran": [
+        "Bakara 2:275-281 — 'Ribâ yiyenler, şeytanın çarptığı gibi kalkarlar.'",
+        "Âl-i İmrân 3:130 — 'Kat kat ribâ yemeyin.'"
+      ],
+      "related_events": [],
+      "abolished_by": "Kur'ân (aşamalı yasak) ve Vedâ Hutbesi"
+    },
+    {
+      "id": "rit_kumar",
+      "name": {
+        "ar": "الميسر / القمار",
+        "tr": "Meysir (Kumar)",
+        "en": "Maysir (Gambling)"
+      },
+      "type": "eğlence",
+      "description": "Câhiliye'de yaygın kumar. Ok çekme (ezlâm) ile deve eti paylaşımı. Kazanan zenginlere pay, kaybedenler borçlanırdı.",
+      "related_quran": [
+        "Mâide 5:90-91 — 'İçki, kumar, dikili taşlar ve fal okları şeytanın işidir.'",
+        "Bakara 2:219 — 'Sana içki ve kumarı sorarlar...'"
+      ],
+      "related_events": [],
+      "abolished_by": "Kur'ân (kesin yasak, Mâide 5:90)"
+    },
+    {
+      "id": "rit_niyaha",
+      "name": {
+        "ar": "النياحة",
+        "tr": "Niyâha (Câhiliye Ağıdı)",
+        "en": "Niyahah (Mourning Wailing)"
+      },
+      "type": "cenaze",
+      "description": "Ölüm üzerine kadınların yüz tırmalama, saç yolma, yaka yırtma ve yüksek sesle ağıt yakması. Ağıtçı kadınlar (nâiha) tutulurdu.",
+      "related_quran": [],
+      "related_events": [],
+      "abolished_by": "Hz. Peygamber: 'Ölüye ağıtla ağlayan, tövbe etmezse kıyamette...' (Buhârî)"
+    },
+    {
+      "id": "rit_kehanet",
+      "name": {
+        "ar": "الكهانة",
+        "tr": "Kehânet (Falcılık)",
+        "en": "Kahanah (Soothsaying)"
+      },
+      "type": "hurafe",
+      "description": "Câhiliye kâhinleri (kâhin/arrâf) cinlerden haber aldığını iddia ederdi. Önemli kararlar kâhinlere danışılarak alınırdı.",
+      "related_quran": [
+        "Cin 72:8-9 — 'Göğü yokladık, güçlü bekçiler ve alevlerle dolu bulduk.'"
+      ],
+      "related_events": [],
+      "abolished_by": "Kur'ân (gaybı yalnız Allah bilir) ve hadisler"
+    },
+    {
+      "id": "rit_tiyara",
+      "name": {
+        "ar": "الطيرة",
+        "tr": "Tıyere (Kuş Falı)",
+        "en": "Tiyarah (Bird Omen)"
+      },
+      "type": "hurafe",
+      "description": "Kuşun uçuş yönüne bakarak uğursuzluk-uğurluluk çıkarma. Sağa uçarsa hayır, sola uçarsa şer sayılırdı.",
+      "related_quran": [
+        "A'râf 7:131 — 'Onlara iyilik gelince 'bizim hakkımızdır' derler, kötülük gelince Mûsâ ve yanındakilere uğursuzluk atfederler.'"
+      ],
+      "related_events": [],
+      "abolished_by": "Hz. Peygamber: 'Tıyere yoktur' (Buhârî, Müslim)"
+    },
+    {
+      "id": "rit_istikâm",
+      "name": {
+        "ar": "الاستقسام بالأزلام",
+        "tr": "Fal Oklarıyla Karar Verme (İstikâm)",
+        "en": "Casting Divination Arrows"
+      },
+      "type": "hurafe",
+      "description": "Üç ok ile karar verme: 'yap', 'yapma', 'boş'. Ka'be'de Hübel putunun önünde çekilirdi. Önemli kararlar bu yolla alınırdı.",
+      "related_quran": [
+        "Mâide 5:3 — '...ve fal oklarıyla kısmet aramanız da yasaktır.'",
+        "Mâide 5:90"
+      ],
+      "related_events": [],
+      "abolished_by": "Kur'ân (Mâide 5:3, kesin yasak)"
+    },
+    {
+      "id": "rit_muahat_cahiliye",
+      "name": {
+        "ar": "المؤاخاة الجاهلية",
+        "tr": "Câhiliye Kardeşlik Antlaşması",
+        "en": "Pre-Islamic Brotherhood Pact"
+      },
+      "type": "siyasî",
+      "description": "Kan bağı olmayan kişiler arasında karşılıklı miras ve koruma antlaşması. İslâm'daki Medine Muâhâtı'nın câhiliye öncüsü.",
+      "related_quran": [
+        "Enfâl 8:72 — 'İman edip hicret edenler... birbirlerinin velîsidir.'"
+      ],
+      "related_events": [],
+      "abolished_by": "İslâmî miras hukuku (Nisâ 4:11-12) ile miras payı kaldırıldı, uhuvvet devam etti"
+    },
+    {
+      "id": "rit_muarada",
+      "name": {
+        "ar": "المعاقرة",
+        "tr": "Muâkara (İftihar için Deve Boğazlama)",
+        "en": "Mu'aqarah (Boastful Camel Slaughter)"
+      },
+      "type": "âdet",
+      "description": "Kabileler arası gurur yarışması. Rakibi aşağılamak için deve boğazlayıp etini dağıtma. Büyük israf olarak kınandı.",
+      "related_quran": [
+        "Tekâsür 102:1-2 — 'Çoklukla övünme sizi oyaladı...'"
+      ],
+      "related_events": [],
+      "abolished_by": "Kur'ân ve hadis: israf ve gurur yasakları"
+    }
+  ]
+}

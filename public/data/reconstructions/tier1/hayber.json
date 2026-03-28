@@ -1,0 +1,1226 @@
+{
+  "meta": {
+    "id": "reconstruction_hayber",
+    "battle_id": "gazve_hayber",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Hayber Gazvesi — İslâm tarihinin ilk büyük kale kuşatması. Hudeybiye sonrası (7 AH / 628 CE). 7 hisar, 3 bölge (Natat, Şıkk, Ketîbe). Hz. Ali'nin sancak alması, Merhab düellosu, Kamûs fethi, müsâkât antlaşması, Safiyye evliliği, zehirli koyun olayı. Hendek'te koalisyonu organize eden Benû Nadîr'in Hayber'deki varlığının tasfiyesi. 7 faz. Bedir/Uhud/Hendek şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.695,
+        "lng": 39.3
+      },
+      "bbox": {
+        "north": 25.75,
+        "south": 25.64,
+        "east": 39.36,
+        "west": 39.24
+      },
+      "terrain_type": "oasis_fortified",
+      "terrain_desc": {
+        "tr": "Hayber vahası, Medîne'nin ~150 km kuzeyinde volkanik harre arazisi içinde sulak bir vadi. Dağınık hurma bahçeleri arasında üç bölgeye yayılmış yedi hisar: güneyde Natat (Na'im, Sa'b, Zübeyr kaleleri), ortada Şıkk (Übeyy, Nizâr kaleleri), kuzeyde Ketîbe (Kamûs, Vatîh kaleleri). Kaleler bazalt kayadan inşa edilmiş, doğal yükseltiler üzerine kurulu. Vaha su kaynakları kale yakınlarında — kuşatmada kilit faktör. Hurma bahçeleri hem gıda kaynağı hem de hareket alanını kısıtlayan arazi engeli.",
+        "en": "Khaybar oasis, ~150 km north of Medina, a fertile valley within volcanic harra terrain. Seven fortresses spread across three districts among scattered palm groves: Natat to the south (Na'im, Sa'b, Zubayr forts), Shiqq in the middle (Ubayy, Nizar forts), Katiba to the north (Qamus, Watih forts). Fortresses built from basalt rock on natural elevations. Water sources near the forts — key factor in siege. Palm groves served as both food supply and terrain obstacles restricting movement."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_kale_naim",
+        "name": {
+          "ar": "حصن النعيم",
+          "tr": "Na'im Kalesi",
+          "en": "Fort Na'im"
+        },
+        "lat": 25.678,
+        "lng": 39.295,
+        "type": "fortress",
+        "district": "natat",
+        "strategic_role": {
+          "tr": "Natat bölgesinin ilk kalesi. Müslümanların Hayber'e güney yönünden girişinde ilk karşılaşılan hisar. Nispeten zayıf savunma — kısa sürede düştü. Mahmûd b. Mesleme burada zehirli hurma taşıyla şehit düştü.",
+          "en": "First fortress in the Natat district. Encountered first as Muslims entered Khaybar from the south. Relatively weak defense — fell quickly. Mahmud ibn Maslama was martyred here by a poisoned date stone dropped from the walls."
+        }
+      },
+      {
+        "id": "lm_kale_sab",
+        "name": {
+          "ar": "حصن الصعب بن معاذ",
+          "tr": "Sa'b b. Muâz Kalesi",
+          "en": "Fort of Sa'b ibn Mu'adh"
+        },
+        "lat": 25.683,
+        "lng": 39.298,
+        "type": "fortress",
+        "district": "natat",
+        "strategic_role": {
+          "tr": "Natat'ın en güçlü kalesi. İçinde büyük miktarda erzak ve silah deposu bulundu. Fethi Müslümanlara kritik lojistik avantaj sağladı — uzun süredir açlık çeken ordu buradaki erzakla güçlendi. Kuşatma birkaç gün sürdü.",
+          "en": "Strongest fortress in Natat. Contained large stores of food and weapons. Its capture gave Muslims critical logistical advantage — the army, long suffering hunger, was resupplied from stores here. Siege lasted several days."
+        }
+      },
+      {
+        "id": "lm_kale_zubeyr",
+        "name": {
+          "ar": "حصن الزبير",
+          "tr": "Zübeyr Kalesi",
+          "en": "Fort Zubayr"
+        },
+        "lat": 25.686,
+        "lng": 39.302,
+        "type": "fortress",
+        "district": "natat",
+        "strategic_role": {
+          "tr": "Natat'ın son kalesi. Yüksek konumda, su kanalıyla beslenen güçlü müstahkem mevki. Hz. Peygamber su kanalını kestirerek kaleyi susuz bıraktı — teslim olmak zorunda kaldılar.",
+          "en": "Last fort in Natat. Elevated position, supplied by a water channel. The Prophet ordered the water channel cut off — the garrison was forced to surrender."
+        }
+      },
+      {
+        "id": "lm_kale_ubeyy",
+        "name": {
+          "ar": "حصن أُبَيّ",
+          "tr": "Übeyy Kalesi",
+          "en": "Fort Ubayy"
+        },
+        "lat": 25.698,
+        "lng": 39.305,
+        "type": "fortress",
+        "district": "shiqq",
+        "strategic_role": {
+          "tr": "Şıkk bölgesinin ana kalesi. Natat düştükten sonra Şıkk hisarları direniş gösterdi ancak Natat'ın düşmesiyle moral kırıldı. Nispeten kısa sürede teslim oldu.",
+          "en": "Main fort of the Shiqq district. After Natat fell, Shiqq forts resisted but morale was broken by Natat's fall. Surrendered relatively quickly."
+        }
+      },
+      {
+        "id": "lm_kale_nizar",
+        "name": {
+          "ar": "حصن النزار",
+          "tr": "Nizâr Kalesi",
+          "en": "Fort Nizar"
+        },
+        "lat": 25.702,
+        "lng": 39.308,
+        "type": "fortress",
+        "district": "shiqq",
+        "strategic_role": {
+          "tr": "Şıkk'ın ikinci kalesi. Übeyy'in düşmesiyle birlikte savunma çöktü.",
+          "en": "Second fort of Shiqq. Defense collapsed with the fall of Ubayy."
+        }
+      },
+      {
+        "id": "lm_kale_kamus",
+        "name": {
+          "ar": "حصن القموص",
+          "tr": "Kamûs Kalesi",
+          "en": "Fort Qamus"
+        },
+        "lat": 25.71,
+        "lng": 39.312,
+        "type": "fortress",
+        "district": "katiba",
+        "strategic_role": {
+          "tr": "Hayber'in en güçlü ve simgesel kalesi. Ketîbe bölgesinde. Yahudi komutan Merhab b. Hâris burada savunma yaptı. Hz. Ali'nin sancak alarak Merhab'ı düelloda öldürdüğü ve kale kapısını kalkan olarak kullandığı yer. Kinâne b. er-Rebî' (Huyey'in damadı) burada esir düştü. Safiyye bt. Huyey burada bulunuyordu.",
+          "en": "Strongest and most symbolic fortress of Khaybar. In the Katiba district. Jewish commander Marhab ibn al-Harith defended here. This is where Ali received the standard, killed Marhab in single combat, and reportedly used the fortress gate as a shield. Kinana ibn al-Rabi' (Huyayy's son-in-law) was captured here. Safiyyah bint Huyayy was found here."
+        }
+      },
+      {
+        "id": "lm_kale_vatih",
+        "name": {
+          "ar": "حصن الوطيح",
+          "tr": "Vatîh Kalesi",
+          "en": "Fort Watih"
+        },
+        "lat": 25.715,
+        "lng": 39.315,
+        "type": "fortress",
+        "district": "katiba",
+        "strategic_role": {
+          "tr": "Ketîbe'nin son kalesi. Kamûs'un düşmesiyle direniş kırıldı. Antlaşma görüşmelerinin yapıldığı son direniş noktası.",
+          "en": "Last fort of Katiba. Resistance broke with the fall of Qamus. Final point of resistance where treaty negotiations took place."
+        }
+      },
+      {
+        "id": "lm_muslim_karargah_hayber",
+        "name": {
+          "ar": "معسكر المسلمين",
+          "tr": "Müslüman karargâhı",
+          "en": "Muslim camp"
+        },
+        "lat": 25.67,
+        "lng": 39.29,
+        "type": "camp",
+        "strategic_role": {
+          "tr": "Hayber'in güney girişinde, hurma bahçeleri arasında kurulan karargâh. Hz. Peygamber'in çadırı burada. İlk gece yanlışlıkla Yahudi ziraat alanında konaklandı — sabah yer değiştirildi. er-Recî' mevkisi.",
+          "en": "Camp established at the southern entrance of Khaybar, among palm groves. The Prophet's tent was here. The first night they inadvertently camped on Jewish agricultural land — relocated in the morning. The Raji' position."
+        }
+      },
+      {
+        "id": "lm_merhab_duello",
+        "name": {
+          "ar": "موضع مبارزة مرحب",
+          "tr": "Merhab düello noktası",
+          "en": "Marhab duel site"
+        },
+        "lat": 25.708,
+        "lng": 39.31,
+        "type": "event_location",
+        "strategic_role": {
+          "tr": "Kamûs kalesi önünde Hz. Ali ile Yahudi savaşçı Merhab b. Hâris arasındaki düello yeri. Merhab iki kılıçla savaşan, miğferli dev yapılı bir savaşçıydı. Hz. Ali Zülfikâr ile miğferini yararak onu öldürdü.",
+          "en": "Site of the duel between Ali and Jewish warrior Marhab ibn al-Harith before Fort Qamus. Marhab was a giant warrior fighting with two swords and a helmet. Ali split his helmet with Dhul-Fiqar and killed him."
+        }
+      },
+      {
+        "id": "lm_fedek",
+        "name": {
+          "ar": "فدك",
+          "tr": "Fedek",
+          "en": "Fadak"
+        },
+        "lat": 25.4,
+        "lng": 40.5,
+        "type": "settlement",
+        "strategic_role": {
+          "tr": "Hayber'in kuzeydoğusunda Yahudi yerleşimi. Hayber'in düştüğünü duyan Fedek halkı savaşsız teslim oldu. Araziler doğrudan Hz. Peygamber'e ait fey' statüsünde kaldı (Haşr 59:6-7). Hz. Fâtıma miras meselesiyle ünlü.",
+          "en": "Jewish settlement northeast of Khaybar. Upon hearing of Khaybar's fall, Fadak surrendered without fighting. Lands remained as fay' property directly belonging to the Prophet (Hashr 59:6-7). Famous for the Fatima inheritance dispute."
+        }
+      },
+      {
+        "id": "lm_vadilkura_hayber",
+        "name": {
+          "ar": "وادي القرى",
+          "tr": "Vâdilkurâ",
+          "en": "Wadi al-Qura"
+        },
+        "lat": 26.55,
+        "lng": 37.55,
+        "type": "settlement",
+        "strategic_role": {
+          "tr": "Medîne-Şam ticaret yolu üzerinde Yahudi yerleşimi. Hayber dönüşünde Hz. Peygamber burayı da aldı. Kısa bir çatışma yaşandı — birkaç Müslüman şehit oldu. Antlaşmayla teslim.",
+          "en": "Jewish settlement on the Medina-Damascus trade route. Taken by the Prophet on the return from Khaybar. Brief fighting — a few Muslims were martyred. Surrendered by treaty."
+        }
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_hayber",
+        "name": {
+          "tr": "Hz. Peygamber güzergâhı: Medîne → Hayber",
+          "en": "Prophet's route: Medina → Khaybar"
+        },
+        "type": "muslim_march",
+        "waypoints": [
+          {
+            "name": "Medîne",
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "note_tr": "Hareket — Muharrem 7 AH. 1.400-1.600 kişilik ordu."
+          },
+          {
+            "name": "İsre' / Sahbâ",
+            "lat": 24.8,
+            "lng": 39.5,
+            "note_tr": "İlk mola. Gizlilik içinde ilerleme — düşmanın haberi olmasın. Gece yürüyüşü ağırlıklı."
+          },
+          {
+            "name": "es-Sahbâ vadisi",
+            "lat": 25.1,
+            "lng": 39.4,
+            "note_tr": "Orta mola. Yolda münafıkların katılma talebi reddedildi — sadece Hudeybiye'ye katılanlar alındı (Fetih 48:15)."
+          },
+          {
+            "name": "er-Recî'",
+            "lat": 25.65,
+            "lng": 39.29,
+            "note_tr": "Hayber önü — karargâh kuruldu. Sabah namazı burada kılındı. 'Allahü ekber, Hayber harap oldu!' nidası."
+          },
+          {
+            "name": "Hayber vahası",
+            "lat": 25.695,
+            "lng": 39.3,
+            "note_tr": "Güzergâh sonu — güney girişinden vaha'ya ulaşıldı."
+          }
+        ],
+        "distance_km": 150,
+        "duration": "3-4 gün",
+        "note_tr": "Gizlilik esastı. Hz. Peygamber özellikle kuzey yolunu tercih ederek Gatafân müttefiklerinin Hayber'e yardımını engelleyen bir güzergâh seçti. Gece yürüyüşü ağırlıklı."
+      },
+      {
+        "id": "route_hayber_fedek_vadilkura",
+        "name": {
+          "tr": "Fetih sonrası güzergâh: Hayber → Fedek → Vâdilkurâ → Medîne",
+          "en": "Post-conquest route: Khaybar → Fadak → Wadi al-Qura → Medina"
+        },
+        "type": "post_battle_march",
+        "waypoints": [
+          {
+            "name": "Hayber",
+            "lat": 25.695,
+            "lng": 39.3,
+            "note_tr": "Antlaşma sonrası. Müsâkât düzeni kuruldu."
+          },
+          {
+            "name": "Fedek",
+            "lat": 25.4,
+            "lng": 40.5,
+            "note_tr": "Savaşsız teslim — fey' statüsü. Muhayisa b. Mes'ûd elçi olarak gönderildi."
+          },
+          {
+            "name": "Vâdilkurâ",
+            "lat": 26.55,
+            "lng": 37.55,
+            "note_tr": "Kısa çatışma sonrası teslim. Müsâkât antlaşması."
+          },
+          {
+            "name": "Teyma",
+            "lat": 27.62,
+            "lng": 38.48,
+            "note_tr": "Yahudi yerleşimi — savaşsız antlaşma."
+          },
+          {
+            "name": "Medîne",
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "note_tr": "Dönüş."
+          }
+        ],
+        "note_tr": "Hayber'in düşmesi domino etkisi yarattı. Kuzeydeki Yahudi yerleşimlerini peş peşe teslim aldı."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Hudeybiye sonrası, Hayber'in stratejik tehdidi",
+        "en": "Background: Post-Hudaybiyya, Khaybar's strategic threat"
+      },
+      "date_range": "Zilhicce 6 – Muharrem 7 AH (Nisan – Mayıs 628)",
+      "duration": "~1-2 ay hazırlık",
+      "description": {
+        "tr": "Hudeybiye Antlaşması (6 AH) Kureyş ile savaşı dondurmuştu. Hz. Peygamber'in stratejik dikkatini kuzeye çevirme imkânı doğdu. Hayber, Medîne'den sürgün edilen Benû Nadîr'in sığınağıydı — Hendek koalisyonunu organize eden Huyey b. Ahtab, Sellâm b. Ebî'l-Hakîk (daha önce suikastle öldürülmüştü) ve Kinâne b. er-Rebî' buradaydı. Hayber Yahudileri Gatafân ile ittifak kurarak Medîne'ye sürekli tehdit oluşturuyordu. Ekonomik güçleri (hurma ziraati, ticaret) bu ittifakı finanse ediyordu. Hz. Peygamber sadece Hudeybiye'ye katılanları sefere çağırdı — münafıklar ve katılmayanlar dışlandı (Fetih 48:15).",
+        "en": "The Treaty of Hudaybiyya (6 AH) had frozen hostilities with Quraysh, allowing the Prophet to turn strategic attention northward. Khaybar was the refuge of the exiled Banu Nadir — Huyayy ibn Akhtab, Sallam ibn Abi al-Huqayq (previously assassinated), and Kinana ibn al-Rabi' were based here. They had organized the Confederates coalition at the Trench. Khaybar Jews maintained an alliance with Ghatafan, posing a continuous threat to Medina. Their economic strength (date farming, trade) financed this alliance. The Prophet summoned only those who had participated at Hudaybiyya — hypocrites and non-participants were excluded (al-Fath 48:15)."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in seferi sadece Hudeybiye katılımcılarıyla sınırlaması",
+            "en": "Prophet's decision to limit the expedition to Hudaybiyya participants only"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "1.400-1.600 deneyimli, sadık savaşçıdan oluşan seçkin bir kuvvet. Münafıkların sızması engellendi. Bu karar Kur'ân'da teyit edildi (Fetih 48:15).",
+            "en": "An elite force of 1,400-1,600 experienced, loyal fighters. Hypocrite infiltration was prevented. This decision was confirmed in the Quran (al-Fath 48:15)."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Gizlilik içinde hareket ve Gatafân'ın yardımını engelleme stratejisi",
+            "en": "Strategy of secrecy and preventing Ghatafan reinforcement"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Hayber ile Gatafân arasındaki ittifak fiilen etkisiz kılındı. Gatafân ordusunu harekete geçiremeden vaha kuşatıldı. Rivâyete göre Gatafân yola çıktı ancak geride bıraktıkları ailelerinin tehdit altında olduğu şayiasıyla geri döndü.",
+            "en": "The Khaybar-Ghatafan alliance was effectively neutralized. The oasis was besieged before Ghatafan could mobilize. According to some reports, Ghatafan set out but turned back upon hearing rumors that their families left behind were under threat."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_muslim_karargah_hayber"
+        ],
+        "focus": "wide",
+        "note": "Medîne → Hayber stratejik bağlam"
+      }
+    },
+    {
+      "id": "F1_march",
+      "order": 1,
+      "name": {
+        "tr": "Yürüyüş: Medîne → Hayber",
+        "en": "March: Medina → Khaybar"
+      },
+      "date_range": "Muharrem 7 AH (Mayıs 628)",
+      "duration": "3-4 gün",
+      "description": {
+        "tr": "1.400-1.600 kişilik ordu Medîne'den kuzeye doğru hareket etti. 200 süvari (İbn Sa'd) ve 20 kadın (hemşirelik ve su taşıma) eşlik etti. Hz. Peygamber gece yürüyüşü emri verdi — gizlilik esastı. Asıl hedefi gizlemek için farklı yönlere keşif kolları gönderildi. Hayber yakınlarına vardıklarında sabah namazını kıldılar. Sabah erkenden hurma bahçelerine gelen Hayber halkı İslâm ordusunu görünce 'Muhammed! Muhammed ve ordusu!' diye bağırarak kalelere kaçtı. Hz. Peygamber: 'Allahü ekber! Hayber harap oldu. Biz bir kavmin sahasına indiğimizde, uyarılanların sabahı ne kötü olur!' buyurdu (Buhârî). Abbân b. Saîd el-Âs çoban kılığında keşfe gönderilmişti.",
+        "en": "An army of 1,400-1,600 marched north from Medina. 200 cavalry (Ibn Sa'd) and 20 women (nursing and water carrying) accompanied. The Prophet ordered night marches — secrecy was paramount. Reconnaissance parties were sent in different directions to conceal the true target. Near Khaybar, they performed the dawn prayer. At early morning, Khaybar inhabitants coming to their palm groves saw the Islamic army and fled to the forts shouting 'Muhammad! Muhammad and his army!' The Prophet declared: 'Allahu Akbar! Khaybar is ruined. When we descend upon a people's territory, evil is the morning of those who were warned!' (Bukhari). Abban ibn Sa'id al-As had been sent ahead disguised as a shepherd for reconnaissance."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Gece yürüyüşü ve gizlilik stratejisi",
+            "en": "Night march and secrecy strategy"
+          },
+          "maker": "prophet",
+          "participants": [
+            "Abbân b. Saîd (keşif)"
+          ],
+          "impact": {
+            "tr": "Stratejik baskın başarısı. Gatafân yardıma gelemedi. Hayber psikolojik şok yaşadı.",
+            "en": "Strategic surprise achieved. Ghatafan could not provide reinforcement. Khaybar suffered psychological shock."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Karargâh yerinin değiştirilmesi — ilk gece Yahudi ziraat alanında konaklanmıştı",
+            "en": "Relocation of camp — first night inadvertently camped on Jewish agricultural land"
+          },
+          "maker": "prophet",
+          "participants": [
+            "Hubâb b. el-Münzir"
+          ],
+          "impact": {
+            "tr": "Er-Recî' mevkiine taşınarak hem taktik avantaj hem de su kaynağına yakınlık sağlandı.",
+            "en": "Moved to ar-Raji' position, gaining both tactical advantage and proximity to water."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "route_medine_hayber",
+          "lm_muslim_karargah_hayber"
+        ],
+        "focus": "route",
+        "note": "150 km'lik güzergâh — gece yürüyüşü"
+      }
+    },
+    {
+      "id": "F2_natat_siege",
+      "order": 2,
+      "name": {
+        "tr": "Natat bölgesi: Na'im, Sa'b ve Zübeyr kaleleri",
+        "en": "Natat district: Forts Na'im, Sa'b, and Zubayr"
+      },
+      "date_range": "Muharrem 7 AH",
+      "duration": "~7-10 gün",
+      "description": {
+        "tr": "Kuşatma güneydeki Natat bölgesinden başladı. Na'im kalesi ilk hedefti. Mahmûd b. Mesleme kuşatma sırasında kaleden atılan değirmen taşıyla şehit oldu. Na'im kısa sürede düştü. Sa'b b. Muâz kalesi daha güçlüydü — birkaç gün kuşatma ve hücum gerekti. İlk günlerde Hz. Ebû Bekir, ardından Hz. Ömer sancağı alarak hücum etti ancak başarılı olamadı. Bu süreçte Müslümanlar hurma ağaçlarından yediler — sonra Hz. Peygamber bunu yasakladı. Sa'b kalesinin düşmesiyle büyük miktarda erzak (arpa, hurma, yağ, kumaş) ele geçirildi — açlık çeken ordu rahata kavuştu. Zübeyr kalesi su kanalının kesilmesiyle teslim olmak zorunda kaldı.",
+        "en": "The siege began from the Natat district in the south. Fort Na'im was the first target. Mahmud ibn Maslama was martyred by a millstone thrown from the walls. Na'im fell quickly. Fort Sa'b ibn Mu'adh was stronger — requiring several days of siege and assault. Initially Abu Bakr, then Umar, took the standard and led attacks but were unsuccessful. During this period Muslims ate from date palms — the Prophet later prohibited this. The fall of Sa'b yielded large stores of provisions (barley, dates, oil, cloth) — relieving the starving army. Fort Zubayr was forced to surrender when its water channel was cut."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in güney yönünden (Natat) kuşatma başlatması",
+            "en": "Prophet's decision to begin siege from the south (Natat)"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "En zayıf bölgeden başlayarak ardışık zafer psikolojisi yaratıldı. Her düşen kale sonraki kalenin moralini kırdı.",
+            "en": "Starting from the weakest district created a psychology of successive victory. Each fallen fort demoralized the next."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Zübeyr kalesinin su kanalının kesilmesi emri",
+            "en": "Order to cut the water channel to Fort Zubayr"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kan dökülmeden teslim sağlandı. İlk su kesme taktik uygulaması. Sonraki kalelere de psikolojik mesaj.",
+            "en": "Surrender achieved without bloodshed. First tactical water-denial application. Psychological message to subsequent forts."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kale_naim",
+          "lm_kale_sab",
+          "lm_kale_zubeyr",
+          "lm_muslim_karargah_hayber"
+        ],
+        "focus": "natat",
+        "note": "Natat bölgesi — güneydeki 3 kale"
+      }
+    },
+    {
+      "id": "F3_shiqq_siege",
+      "order": 3,
+      "name": {
+        "tr": "Şıkk bölgesi: Übeyy ve Nizâr kaleleri",
+        "en": "Shiqq district: Forts Ubayy and Nizar"
+      },
+      "date_range": "Muharrem 7 AH",
+      "duration": "~3-5 gün",
+      "description": {
+        "tr": "Natat'ın düşmesiyle Şıkk hisarlarının savunma iradesi sarsıldı. Übeyy kalesi sert bir direnişten sonra düştü. Nizâr kalesi Übeyy'in düşmesinin ardından kısa sürede teslim oldu. Şıkk bölgesinde ele geçirilen savaş teçhizatı (kılıç, kalkan, zırh) önemli miktardaydı. Vâkıdî'ye göre Hayber kalelerinde toplam 1.000 kılıç, 500 kalkan bulundu. Bu bölgede Benû Nadîr sürgünlerinin bir kısmı savunmadaydı.",
+        "en": "The fall of Natat shattered the defensive will of Shiqq's fortresses. Fort Ubayy fell after fierce resistance. Fort Nizar surrendered quickly after Ubayy's fall. Significant war equipment (swords, shields, armor) was captured in the Shiqq district. According to Waqidi, Khaybar forts contained a total of 1,000 swords and 500 shields. Some Banu Nadir exiles were involved in the defense of this district."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Ardışık baskı stratejisi — Natat erzaklarıyla güçlenen ordunun hemen Şıkk'a yönelmesi",
+            "en": "Sequential pressure strategy — army reinforced by Natat provisions immediately turned to Shiqq"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Momentum kaybedilmedi. Savunmacılara toparlanma fırsatı verilmedi.",
+            "en": "Momentum was maintained. Defenders were given no opportunity to regroup."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kale_ubeyy",
+          "lm_kale_nizar",
+          "lm_kale_naim",
+          "lm_kale_sab",
+          "lm_kale_zubeyr"
+        ],
+        "focus": "shiqq",
+        "note": "Şıkk bölgesi — ortadaki 2 kale (Natat düşmüş)"
+      }
+    },
+    {
+      "id": "F4_katiba_kamus",
+      "order": 4,
+      "name": {
+        "tr": "Ketîbe bölgesi: Kamûs — Hz. Ali, Merhab düellosu ve kale kapısı",
+        "en": "Katiba district: Qamus — Ali, Marhab duel, and the fortress gate"
+      },
+      "date_range": "Muharrem 7 AH",
+      "duration": "~3-5 gün",
+      "description": {
+        "tr": "Hayber'in en güçlü bölgesi. Kamûs kalesi tüm savunmanın merkeziydi. İlk günlerde Hz. Ebû Bekir ve Hz. Ömer komutasında hücumlar yapıldı ancak başarısız oldu. Bunun üzerine Hz. Peygamber: 'Yarın sancağı öyle birine vereceğim ki Allah onun eliyle fethi nasip edecek. O, Allah'ı ve Rasûlünü sever; Allah ve Rasûlü de onu sever' buyurdu. Sabah Hz. Ali'yi çağırdı — gözlerinden rahatsız olan Ali'nin gözlerine tükürüğünü sürdü, göz ağrısı anında geçti. Sancağı Ali'ye verdi. Hz. Ali Kamûs kalesine yürüdü. Yahudi savaşçıların en güçlüsü Merhab b. Hâris meydan okudu — dev yapılı, iki kılıçlı, çift zırhlı bir savaşçıydı. Recez okuyarak çıktı. Hz. Ali de recezle cevap verip Zülfikâr ile Merhab'ın miğferini yararak onu öldürdü. Ardından kale kapısına yürüdü — rivâyete göre devasa kapıyı kalkan olarak kullandı. Bazı rivâyetler kapıyı yerinden söktüğünü belirtir. Kamûs düştü. Kinâne b. er-Rebî' esir alındı; Huyey b. Ahtab'ın kızı Safiyye bt. Huyey burada bulundu.",
+        "en": "The strongest district of Khaybar. Fort Qamus was the center of all defense. Initial attacks under Abu Bakr and Umar's command were unsuccessful. The Prophet then declared: 'Tomorrow I shall give the standard to one through whose hands Allah will grant victory. He loves Allah and His Messenger, and Allah and His Messenger love him.' The next morning he summoned Ali — Ali's eyes were inflamed, so the Prophet applied his saliva to Ali's eyes, and the pain vanished instantly. He gave the standard to Ali. Ali marched to Fort Qamus. The strongest Jewish warrior, Marhab ibn al-Harith, issued a challenge — a giant warrior with two swords and double armor. He came forward reciting rajaz poetry. Ali responded with rajaz and split Marhab's helmet with Dhul-Fiqar, killing him. Ali then advanced to the fortress gate — reportedly using the massive gate as a shield. Some narrations say he tore the gate from its hinges. Qamus fell. Kinana ibn al-Rabi' was captured; Huyayy ibn Akhtab's daughter Safiyyah bint Huyayy was found here."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in sancağı Hz. Ali'ye vermesi — liyâkat ve ilâhî işaret",
+            "en": "Prophet's decision to give the standard to Ali — merit and divine sign"
+          },
+          "maker": "prophet",
+          "participants": [
+            "ali"
+          ],
+          "impact": {
+            "tr": "Hem askerî dönüm noktası hem de Hz. Ali'nin fazîletinin en büyük göstergelerinden biri. Bu hadis müttefekun aleyh olup sahâbe arasında Ali'nin konumunu tescil etti.",
+            "en": "Both a military turning point and one of the greatest demonstrations of Ali's virtue. This hadith is agreed upon (muttafaq alayh) and established Ali's position among the companions."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Hz. Ali'nin Merhab ile teke tek düelloya çıkması",
+            "en": "Ali's decision to fight Marhab in single combat"
+          },
+          "maker": "ali",
+          "participants": [],
+          "impact": {
+            "tr": "Merhab'ın ölümü Hayber savunmasının psikolojik omurgasını kırdı. En güçlü savaşçının düşmesi kalelerde panik yarattı.",
+            "en": "Marhab's death broke the psychological backbone of Khaybar's defense. The fall of their strongest warrior caused panic in the forts."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kale_kamus",
+          "lm_kale_vatih",
+          "lm_merhab_duello"
+        ],
+        "focus": "katiba",
+        "note": "Ketîbe bölgesi — Kamûs ana sahne"
+      }
+    },
+    {
+      "id": "F5_treaty",
+      "order": 5,
+      "name": {
+        "tr": "Antlaşma: Müsâkât düzeni ve teslimiyet şartları",
+        "en": "Treaty: Musaqat system and surrender terms"
+      },
+      "date_range": "Muharrem – Safer 7 AH",
+      "duration": "~2-3 gün (müzakere)",
+      "description": {
+        "tr": "Son kaleler (Vatîh, Kamûs düşmüştü) teslim oldu. Hayber halkı canlarının bağışlanması karşılığında toprakları ve altınları teslim etmeyi kabul etti. Hz. Peygamber idam cezası uygulamamayı benimsedi — bir şart dışında: silah, mal veya hazineyi saklamamak. Ardından tarihî müsâkât antlaşması yapıldı: Hayber Yahudileri toprakta kalarak ziraat yapacak, mahsulün yarısını Müslümanlara verecekti. Bu, İslâm tarihinde ilk büyük ölçekli yarıcılık (müsâkât) düzenlemesidir. Anlaşma Hz. Peygamber'in iradesiyle devam edecek, istediğinde sonlandırabilecekti. Hz. Ömer döneminde (639-640 civarı) Hayber Yahudileri sürgün edildi.",
+        "en": "The remaining forts (Watih; Qamus had fallen) surrendered. Khaybar's population agreed to hand over their lands and gold in exchange for their lives. The Prophet adopted a no-execution policy — with one condition: not hiding weapons, property, or treasure. Then the historic musaqat (sharecropping) treaty was concluded: Khaybar Jews would remain on the land to farm, giving half the harvest to Muslims. This was the first large-scale sharecropping arrangement in Islamic history. The agreement would continue at the Prophet's discretion, terminable at will. Under Caliph Umar (c. 639-640), Khaybar Jews were eventually expelled."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Müsâkât antlaşması — yarı ürün karşılığı toprakta kalma hakkı",
+            "en": "Musaqat treaty — right to remain on land in exchange for half the harvest"
+          },
+          "maker": "prophet",
+          "participants": [
+            "Hayber Yahudi temsilcileri"
+          ],
+          "impact": {
+            "tr": "İslâm iktisadında temel bir emsal. Fethedilen topraklarda gayrimüslim halkın statüsü için model. Tarım bilgisinin korunması — Müslümanlar hurma ziraatini bilmiyordu.",
+            "en": "A foundational precedent in Islamic economics. Model for the status of non-Muslim populations in conquered territories. Preservation of agricultural expertise — Muslims lacked knowledge of date farming."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Kinâne b. er-Rebî'in hazineyi saklama ihlali nedeniyle cezalandırılması",
+            "en": "Kinana ibn al-Rabi's punishment for violating the treasure concealment clause"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kinâne, Benû Nadîr hazinesini gizlediği için antlaşma şartını ihlal etti. Sorgulandı, hazine bulundu. Kısas uygulandı — Mahmûd b. Mesleme'nin kardeşi Muhammed b. Mesleme isteğiyle. Bu olay antlaşma ihlalinin sonuçlarını gösterdi.",
+            "en": "Kinana violated treaty terms by hiding the Banu Nadir treasure. He was interrogated, the treasure was found. Qisas was applied — at the request of Muhammad ibn Maslama, brother of the martyred Mahmud. This demonstrated the consequences of treaty violation."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kale_kamus",
+          "lm_kale_vatih",
+          "lm_muslim_karargah_hayber"
+        ],
+        "focus": "battlefield",
+        "note": "Antlaşma — tüm kaleler düşmüş"
+      }
+    },
+    {
+      "id": "F6_aftermath",
+      "order": 6,
+      "name": {
+        "tr": "Sonuç: Zehirli koyun, Safiyye evliliği, Fedek, Vâdilkurâ",
+        "en": "Aftermath: Poisoned lamb, Safiyyah marriage, Fadak, Wadi al-Qura"
+      },
+      "date_range": "Safer 7 AH (Haziran – Temmuz 628)",
+      "duration": "~2-4 hafta",
+      "description": {
+        "tr": "Hayber fethinin ardından birden fazla kritik olay yaşandı: (1) Zehirli koyun: Zeyneb bt. Hâris (Merhab'ın yakını) pişirdiği koyunun koluna (Hz. Peygamber'in en sevdiği kısım) zehir sürdü. Hz. Peygamber bir lokma aldıktan sonra etin 'zehirli olduğunu haber verdiğini' söyleyerek tükürdü. Ancak birlikte yiyen Bişr b. Berâ b. Ma'rûr zehirden vefat etti. Zeyneb sorgulandığında 'Eğer peygambersen zehir sana zarar vermez, değilsen insanları senden kurtarmış olurum' dedi. (2) Safiyye bt. Huyey evliliği: Huyey b. Ahtab'ın kızı, Benû Nadîr soylusu. Esir düştükten sonra Hz. Peygamber onu âzâd edip mehr olarak âzâdını kıldı. Siyasi boyutu: düşman liderinin ailesini onurlandırarak barış mesajı. (3) Fedek: Hayber'in düştüğünü duyan Fedek halkı savaşsız teslim oldu — fey' statüsü. (4) Vâdilkurâ: Kısa çatışma sonrası antlaşma. Teyma da savaşsız teslim oldu.",
+        "en": "Multiple critical events followed Khaybar's conquest: (1) Poisoned lamb: Zaynab bint al-Harith (Marhab's relative) poisoned the shoulder of a roasted lamb (the Prophet's preferred cut). The Prophet took one bite then said the meat 'informed him it was poisoned' and spat it out. However, Bishr ibn al-Bara' ibn Ma'rur, who ate with him, died from the poison. When questioned, Zaynab said: 'If you are a prophet, the poison won't harm you; if not, I'll have freed people from you.' (2) Marriage to Safiyyah bint Huyayy: daughter of Huyayy ibn Akhtab, Banu Nadir nobility. After her capture, the Prophet freed her and made her freedom her mahr. Political dimension: honoring the enemy leader's family as a peace message. (3) Fadak: surrendered without fight upon hearing of Khaybar's fall — fay' status. (4) Wadi al-Qura: treaty after brief fighting. Tayma also surrendered without combat."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in Safiyye ile evlenmesi — siyasi ve insani boyut",
+            "en": "Prophet's marriage to Safiyyah — political and humanitarian dimensions"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_safiyye_bt_huyey"
+          ],
+          "impact": {
+            "tr": "Düşman liderinin kızını onurlandırma — esaret yerine eş statüsü. Ümmehâtü'l-mü'minîn'e katılım. Siyasi barış mesajı.",
+            "en": "Honoring the enemy leader's daughter — spousal status instead of captivity. Joined the Mothers of the Believers. Political peace message."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Fedek'in fey' statüsünde tutulması (savaşsız teslim)",
+            "en": "Maintaining Fadak as fay' property (surrendered without fighting)"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Fey' — savaşılmadan elde edilen mal — doğrudan Hz. Peygamber ve ardından devlet hazinesine ait. Haşr 59:6-7 hükmü. Hz. Fâtıma'nın vefat sonrası miras talebi ve Hz. Ebû Bekir'in reddi İslâm tarihinin en tartışmalı meselelerinden.",
+            "en": "Fay' — property obtained without fighting — belonged directly to the Prophet and then to the state treasury. Ruling of Hashr 59:6-7. Fatima's inheritance claim and Abu Bakr's refusal became one of the most debated issues in Islamic history."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_fedek",
+          "lm_vadilkura_hayber",
+          "route_hayber_fedek_vadilkura"
+        ],
+        "focus": "wide",
+        "note": "Fetih sonrası yayılma — Fedek, Vâdilkurâ, Teyma"
+      }
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 1600,
+      "total_range": "1.400-1.600 (İbn Hişâm: 1.400; Vâkıdî: 1.600)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "infantry": {
+          "count_est": "~1.200-1.400",
+          "note_tr": "Ana kuvvet — Hudeybiye katılımcıları"
+        },
+        "cavalry": {
+          "count_est": "~200",
+          "note_tr": "İbn Sa'd'ın rivâyeti. At sayısı sınırlı."
+        },
+        "women": {
+          "count_est": "~20",
+          "note_tr": "Hemşirelik, su taşıma, yaralı bakımı"
+        }
+      },
+      "equipment": {
+        "swords": "evet",
+        "bows": "önemli sayıda",
+        "armor": "sınırlı (sonradan Hayber erzaklarıyla tamamlandı)",
+        "siege_equipment": "yok — klasik kuşatma makinesi bulunmuyordu, doğrudan hücum ve su kesme taktikleri",
+        "note_tr": "Hudeybiye'den savaşmadan dönmüş bir ordu — teçhizat nispeten iyi durumda. Ancak erzak sıkıntısı vardı — Hayber'e vardıklarında hurma yediler."
+      },
+      "formation": {
+        "type": "sequential_siege",
+        "description_tr": "Güney → kuzey yönünde ardışık kale kuşatması. Her bölge düştükten sonra bir sonrakine geçiş. Çevreleme değil, doğrudan hücum ve teslime zorlama.",
+        "flag_bearer_initial": "Ebû Bekir, ardından Ömer (başarısız), sonra Ali (nihai)",
+        "flag_bearer_final": "ali"
+      },
+      "morale": {
+        "level": "high_after_hudaybiyya",
+        "note_tr": "Hudeybiye barışı stratejik fırsat yarattı. İlk günlerde açlık morali düşürdü — Sa'b kalesinin erzakıyla düzeldi. Ali'nin sancak alması orduda coşku yarattı."
+      }
+    },
+    "enemy": {
+      "total": 10000,
+      "total_range": "~10.000 nüfus (savaşçı sayısı tartışmalı: 3.000-6.000)",
+      "commander_name": {
+        "tr": "Toplu liderlik — Kinâne b. er-Rebî', Merhab b. Hâris, Sellâm b. Mişkem",
+        "en": "Collective leadership — Kinana ibn al-Rabi', Marhab ibn al-Harith, Sallam ibn Mishkam"
+      },
+      "composition": {
+        "hayber_jews": {
+          "note_tr": "Yerleşik Hayber Yahudileri — çiftçi ve tüccar ağırlıklı, ancak güçlü savaşçı geleneği"
+        },
+        "banu_nadir_exiles": {
+          "note_tr": "Medîne'den sürgün edilmiş Benû Nadîr artıkları — siyasi liderlik onlardaydı (Huyey b. Ahtab Hendek'te öldürülmüştü, Kinâne kaldı)"
+        },
+        "ghatafan_expected": {
+          "note_tr": "Gatafân müttefik — yardıma gelmesi bekleniyordu ancak Hz. Peygamber'in hızlı harekâtıyla engellendi. Bazı rivâyetlerde Gatafân yola çıktı ama geri döndü."
+        }
+      },
+      "equipment": {
+        "swords": "~1.000 (Vâkıdî)",
+        "shields": "~500",
+        "armor": "bol — ticaretle temin",
+        "fortifications": "7 kale, bazalt duvarlar, mazgallar, burçlar",
+        "note_tr": "Üstün savunma altyapısı ve zengin teçhizat. Ancak kalelerin birbirine uzaklığı koordineli savunmayı zorlaştırdı."
+      },
+      "formation": {
+        "type": "distributed_fortress_defense",
+        "description_tr": "Her kale bağımsız savunma yaptı. Koordineli karşı saldırı organize edilemedi. Merhab'ın düellosu tek birleşik moral eylemiydi.",
+        "key_warriors": [
+          "Merhab b. Hâris (Kamûs)",
+          "Yâsir (kardeşi)",
+          "Kinâne b. er-Rebî' (siyasi lider)"
+        ]
+      },
+      "morale": {
+        "level": "initially_confident_then_crumbling",
+        "note_tr": "Kalelerinin güçlü savunmasına güveniyorlardı. Natat'ın düşmesiyle ardışık çözülme başladı. Merhab'ın ölümü nihai moral çöküşü."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "volumes": "III",
+        "note": "İbn İshâk'ın Sîre'sinin tahzîbi. Hayber için temel anlatım. 1.400 kişilik ordu bilgisi."
+      },
+      {
+        "id": "WQ",
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "volumes": "II",
+        "note": "En detaylı Hayber anlatımı. Kale isimleri, coğrafi bilgi, kuvvet sayıları, antlaşma detayları en zengin burada. 1.600 kişi + 200 süvari."
+      },
+      {
+        "id": "TB",
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusül ve'l-Mülûk",
+        "volumes": "III",
+        "note": "Çoklu isnâd zincirleriyle paralel rivâyetler. Kronoloji detayları."
+      },
+      {
+        "id": "BM",
+        "author": "Buhârî + Müslim",
+        "work": "el-Câmiu's-Sahîh / el-Müsnedü's-Sahîh",
+        "note": "Ali'nin sancak alması hadisi (müttefekun aleyh), Safiyye evliliği, zehirli koyun, 'Hayber harap oldu' hadisi."
+      },
+      {
+        "id": "IS",
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-Kübrâ",
+        "volumes": "II",
+        "note": "200 süvari bilgisi. Ganimet dağılımı detayları. Sahâbî biyografileri bağlamında Hayber rivâyetleri."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_hayber_fethi",
+        "ref": "Buhârî, Megâzî 38",
+        "topic_tr": "Hayber'in fethi ve Ali'ye sancak verilmesi"
+      },
+      {
+        "id": "hds_ali_fazileti",
+        "ref": "Tirmizî, Menâkıb 20",
+        "topic_tr": "Hz. Ali'nin fazîleti — Hayber'de"
+      },
+      {
+        "id": "hds_safiyye_hayber",
+        "ref": "Buhârî, Megâzî 38; Müslim, Nikâh 84",
+        "topic_tr": "Hz. Safiyye ile evlilik — Hayber sonrası"
+      },
+      {
+        "id": "hds_hayber_ali_sancak",
+        "ref": "Müslim, Fezâilü's-Sahâbe 34",
+        "topic_tr": "Hayber'in fethi ve Ali — sancak hadisi tamamlayıcı"
+      },
+      {
+        "id": "hds_hayber_harap",
+        "ref": "Buhârî, Megâzî 38; Müslim, Cihâd",
+        "topic_tr": "'Allahü ekber! Hayber harap oldu' — sabah nidası"
+      },
+      {
+        "id": "hds_hayber_zehirli_koyun",
+        "ref": "Buhârî, Megâzî 38; Ebû Dâvûd, Diyât",
+        "topic_tr": "Zeyneb bt. Hâris'in zehirli koyun suikastı"
+      },
+      {
+        "id": "hds_hayber_kapi",
+        "ref": "Ahmed b. Hanbel, Müsned; Hâkim, el-Müstedrek",
+        "topic_tr": "Hz. Ali'nin Kamûs kale kapısını kalkan olarak kullanması"
+      }
+    ],
+    "modern_studies": [
+      {
+        "id": "barakat",
+        "author": "Ahmad Barakat",
+        "work": "Ghazwat Khaybar: Dirasa Askariyya",
+        "note": "Modern askerî analiz açısından Hayber."
+      },
+      {
+        "id": "hamidullah",
+        "author": "Muhammed Hamîdullah",
+        "work": "İslâm Peygamberi",
+        "note": "Hayber coğrafyası ve savaş taktikleri detaylı analizi."
+      },
+      {
+        "id": "watt",
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note": "Batılı akademik perspektiften Hayber'in siyasi analizi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Müslüman ordu sayısı",
+        "versions": {
+          "IH": {
+            "value": 1400,
+            "ref": "III/349"
+          },
+          "WQ": {
+            "value": 1600,
+            "ref": "II/634"
+          },
+          "IS": {
+            "value": "1.400 + 200 süvari",
+            "ref": "II/106"
+          }
+        },
+        "consensus": "1.400-1.600",
+        "confidence": "medium",
+        "note_tr": "Süvari ayrı sayılıp sayılmadığı belirsiz. 1.400 alt sınır (Hudeybiye katılımcıları) makul."
+      },
+      {
+        "topic": "Kuşatma toplam süresi",
+        "versions": {
+          "IH": {
+            "value": "birkaç hafta",
+            "ref": "III"
+          },
+          "WQ": {
+            "value": "~20 gün",
+            "ref": "II/650"
+          },
+          "TB": {
+            "value": "bir ay veya daha fazla",
+            "ref": "III"
+          }
+        },
+        "consensus": "20-30 gün",
+        "confidence": "medium",
+        "note_tr": "Bölge bölge düşen kalelerin ayrı ayrı kuşatma süreleri toplamı tartışmalı."
+      },
+      {
+        "topic": "Kale sayısı ve isimleri",
+        "versions": {
+          "IH": {
+            "value": "5 ana kale",
+            "ref": "III/349-351"
+          },
+          "WQ": {
+            "value": "7-8 kale (3 bölge)",
+            "ref": "II/634-643"
+          },
+          "TB": {
+            "value": "7 kale",
+            "ref": "III"
+          }
+        },
+        "consensus": "7 ana kale, 3 bölge",
+        "confidence": "medium",
+        "note_tr": "Vâkıdî en detaylı listeyi verir. İbn Hişâm bazı küçük kaleleri atlamış olabilir. Kale isimlerinde küçük farklılıklar var."
+      },
+      {
+        "topic": "Merhab düellosu detayları",
+        "versions": {
+          "IH": {
+            "value": "Ali, Merhab'ı miğferinden yararak öldürdü",
+            "ref": "III/349"
+          },
+          "WQ": {
+            "value": "Ali, Merhab'ı ve kardeşi Yâsir'i öldürdü",
+            "ref": "II/655"
+          },
+          "BM": {
+            "value": "Sancak hadisi (düello detayı yok)",
+            "ref": "Megâzî 38"
+          }
+        },
+        "consensus": "Ali, Merhab'ı düelloda öldürdü",
+        "confidence": "high",
+        "note_tr": "Düellonun gerçekleştiği kesin. Detaylar (miğfer yarma, kardeş Yâsir) kaynaklara göre değişiyor."
+      },
+      {
+        "topic": "Kale kapısı rivâyeti",
+        "versions": {
+          "IH": {
+            "value": "bahsedilmiyor",
+            "ref": "—"
+          },
+          "WQ": {
+            "value": "Ali kapıyı kalkan olarak kullandı",
+            "ref": "II/655"
+          },
+          "late_sources": {
+            "value": "Ali kapıyı yerinden söktü, 40 kişi kaldıramadı",
+            "ref": "Geç dönem rivâyetler"
+          }
+        },
+        "consensus": "Ali kapıyı kalkan olarak kullandı (muhtemel); sökmesi mübalağalı",
+        "confidence": "low",
+        "note_tr": "Erken kaynaklar kapı sökme rivâyetini desteklemiyor. Vâkıdî'deki 'kalkan olarak kullanma' daha güvenilir. Geç dönem abartıları efsanevî karakter taşır."
+      },
+      {
+        "topic": "Zehirli koyun sonucu — Zeyneb'e ceza uygulandı mı?",
+        "versions": {
+          "IH": {
+            "value": "Bağışlandı",
+            "ref": "III/352"
+          },
+          "WQ": {
+            "value": "Bişr'in ölümü üzerine kısas uygulandı",
+            "ref": "II/678"
+          },
+          "BM": {
+            "value": "Farklı rivâyetler (af / kısas)",
+            "ref": "Megâzî 38"
+          }
+        },
+        "consensus": "Tartışmalı — önce af, Bişr'in vefatı sonrası kısas rivâyeti daha güçlü",
+        "confidence": "low",
+        "note_tr": "İki farklı rivâyet: (1) Hz. Peygamber affetti, (2) Bişr ölünce kısas uygulandı. Her iki rivâyet de güçlü isnâdlara sahip. Kronolojik uzlaşma: önce affedildi, Bişr ölünce kısas uygulandı."
+      },
+      {
+        "topic": "Safiyye evliliğinin zamanlaması",
+        "versions": {
+          "IH": {
+            "value": "Hayber'de",
+            "ref": "III/352"
+          },
+          "BM": {
+            "value": "Hayber ile Medîne arasında (es-Sahbâ mevkii)",
+            "ref": "Buhârî, Megâzî 38"
+          }
+        },
+        "consensus": "Dönüş yolunda, es-Sahbâ mevkiinde (Buhârî tercihi)",
+        "confidence": "high",
+        "note_tr": "Buhârî rivâyeti daha detaylı — düğün yemeği olarak hays (hurma-yağ karışımı) ikram edildi."
+      },
+      {
+        "topic": "Ganimet dağılım detayları",
+        "versions": {
+          "WQ": {
+            "value": "36 pay — her süvari 3 pay (at 2, süvari 1), piyade 1 pay",
+            "ref": "II/684"
+          },
+          "IS": {
+            "value": "Benzer — 1.800 pay hesabı",
+            "ref": "II/114"
+          }
+        },
+        "consensus": "Hayber ganimetleri bölge bölge taksim edildi — detaylar tartışmalı",
+        "confidence": "medium",
+        "note_tr": "Ganimet dağılımı İslâm hukuku açısından emsal teşkil etti. Natat ganimetleri genel orduya, Şıkk ve Ketîbe Hz. Peygamber'e ayrıldı (farklı rivâyetler var)."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "el-Feth",
+      "ayah_range": "15-21",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Fetih sûresinin 15-21 arası âyetleri Hayber Gazvesi bağlamında tefsir edilmiştir. 15. âyet Hudeybiye'ye katılmayanların Hayber'e katılma taleplerinin reddini; 18-20. âyetler Hudeybiye biati ve ardından vaad edilen ganimetleri (Hayber) konu alır.",
+        "en": "Verses 15-21 of Surah al-Fath have been interpreted in the context of Khaybar. Verse 15 addresses the rejection of those who did not participate at Hudaybiyya seeking to join for Khaybar; verses 18-20 address the Hudaybiyya pledge and the promised spoils (Khaybar)."
+      },
+      "key_verses": [
+        {
+          "ayah": 15,
+          "topic_tr": "Hudeybiye'ye katılmayanların ganimet talebi — 'Siz bizi izleyin' dediler, Allah'ın kelâmını değiştirmek istiyorlar",
+          "phase_id": "F0_background",
+          "esbab_id": "en_feth_48_1_6"
+        },
+        {
+          "ayah": 18,
+          "topic_tr": "Ağaç altında biat edenlere Allah'ın rızâsı — Rıdvân biati",
+          "phase_id": "F0_background",
+          "esbab_id": "en_feth_48_18"
+        },
+        {
+          "ayah": 20,
+          "topic_tr": "'Allah size birçok ganimetler vaad etmiştir' — Hayber ganimetleri",
+          "phase_id": "F5_treaty"
+        },
+        {
+          "ayah": 21,
+          "topic_tr": "Diğer ganimetler ki henüz elde etmediniz — gelecek fetihler",
+          "phase_id": "F6_aftermath"
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surah_name": "el-Haşr",
+      "ayah_range": "6-7",
+      "phase_id": "F6_aftermath",
+      "topic": {
+        "tr": "Haşr 59:6-7 fey' hükmü. Savaşılmadan elde edilen mallar (Fedek gibi) doğrudan Hz. Peygamber'e ve belirlenen kesimlere aittir. Hayber bağlamında Fedek'in statüsünü belirleyen âyet.",
+        "en": "Hashr 59:6-7 fay' ruling. Property obtained without fighting (such as Fadak) belongs directly to the Prophet and designated categories. The verse determining Fadak's status in the Khaybar context."
+      },
+      "key_verses": [
+        {
+          "ayah": 6,
+          "topic_tr": "Fey' — savaşsız ele geçirilen mallar. Fedek bu kapsamda.",
+          "phase_id": "F6_aftermath"
+        },
+        {
+          "ayah": 7,
+          "topic_tr": "Fey'in dağılım hükmü — Allah'a, Peygamber'e, yakınlarına, yetimlere, miskinlere, yolda kalmışlara ait",
+          "phase_id": "F6_aftermath"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hayber_fethi",
+      "topic": "Hayber'in fethi ve Ali'ye sancak verilmesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hayber_ali_sancak",
+      "topic": "Hayber'in fethi ve Ali",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hayber_harap",
+      "topic": "Hayber'e varışta 'Allahü ekber! Hayber harap oldu' nidası",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hayber_zehirli_koyun",
+      "topic": "Zeyneb bt. Hâris'in zehirli koyun suikastı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hayber_kapi",
+      "topic": "Hz. Ali'nin Kamûs kale kapısını sökmesi",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İslâm tarihinde ilk büyük kale kuşatması ve ardışık hisar fethi. Açık savaş yerine kuşatma, su kesme, psikolojik baskı taktikleri. 7 kalenin ardışık düşürülmesi operasyonel sabır ve esnekliğin göstergesi. Hz. Ali'nin taktik dehasının kanıtı. Müslüman kayıpları: ~15-18 şehit. Düşman kayıpları: 93 ölü (Vâkıdî). Asimetrik başarı.",
+      "en": "First major fortress siege and sequential citadel conquest in Islamic history. Siege, water denial, and psychological pressure tactics instead of open battle. Sequential capture of 7 fortresses demonstrates operational patience and flexibility. Proof of Ali's tactical genius. Muslim casualties: ~15-18 martyrs. Enemy casualties: 93 killed (Waqidi). Asymmetric success."
+    },
+    "political": {
+      "tr": "Medîne'nin kuzey güvenlik tehdidi tamamen ortadan kalktı. Hendek koalisyonunu finanse eden Benû Nadîr artıklarının siyasi varlığı sona erdi. Gatafân ittifak yapacak güçlü bir Yahudi merkezi kaybetti. Kureyş'in müttefik ağı daraldı. Hudeybiye'nin stratejik faydası somutlaştı — barış savaş alanını seçme imkânı verdi.",
+      "en": "Northern security threat to Medina was completely eliminated. Political presence of Banu Nadir remnants who financed the Trench coalition ended. Ghatafan lost a strong Jewish center for alliance. Quraysh's alliance network narrowed. Strategic benefit of Hudaybiyya was realized — peace allowed choosing the battlefield."
+    },
+    "social": {
+      "tr": "Hz. Ali'nin sancak alması İslâm toplumunda liyâkat ilkesinin en güçlü ifadesi. Safiyye evliliği düşman ailesini onurlandırma geleneğinin örneği. Müsâkât antlaşması gayrimüslim halkla birlikte yaşama modelinin temeli. Kadınların savaşta lojistik rolü (hemşirelik, su) devam etti.",
+      "en": "Ali receiving the standard became the strongest expression of merit-based leadership in Islamic society. Marriage to Safiyyah exemplified the tradition of honoring the enemy's family. The musaqat treaty became the foundation for coexistence with non-Muslim populations. Women's logistical roles in warfare (nursing, water carrying) continued."
+    },
+    "theological": {
+      "tr": "Fetih 48:15-21 — Kur'ânî teyid. Ali'nin göz mucizesi. Zehirli koyunun 'haber vermesi' mucizesi. Hz. Peygamber'in önceden fethi müjdelemesi. 'Hayber harap oldu' hadisinin gerçekleşmesi.",
+      "en": "Al-Fath 48:15-21 — Quranic confirmation. Ali's eye miracle. Miracle of the poisoned lamb 'informing' the Prophet. Prophet's prior announcement of conquest. Fulfillment of the 'Khaybar is ruined' hadith."
+    },
+    "casualties_detail": {
+      "muslim_martyrs": {
+        "count": "15-18",
+        "notable": [
+          {
+            "name": "Mahmûd b. Mesleme",
+            "how_tr": "Na'im kalesinden atılan değirmen taşı ile şehit"
+          },
+          {
+            "name": "Bişr b. Berâ b. Ma'rûr",
+            "how_tr": "Zehirli koyun — Hayber sonrası vefat (bazı kaynaklara göre kuşatma sırasında)"
+          },
+          {
+            "name": "Âmir b. el-Ekvâ'",
+            "how_tr": "Kendi kılıcının geri sıçramasıyla şehit (tartışmalı)"
+          }
+        ]
+      },
+      "enemy_killed": {
+        "count": 93,
+        "notable": [
+          {
+            "name": "Merhab b. Hâris",
+            "how_tr": "Hz. Ali ile düello — miğferi yarılarak öldürüldü"
+          },
+          {
+            "name": "Yâsir (Merhab'ın kardeşi)",
+            "how_tr": "Hz. Ali veya Zübeyr b. el-Avvâm tarafından öldürüldü (tartışmalı)"
+          },
+          {
+            "name": "Kinâne b. er-Rebî'",
+            "how_tr": "Hazineyi saklama ihlali — kısas"
+          }
+        ]
+      }
+    },
+    "treaties": [
+      {
+        "name_tr": "Hayber Müsâkât Antlaşması",
+        "name_en": "Khaybar Musaqat Treaty",
+        "terms_tr": "Hayber Yahudileri topraklarda kalarak ziraat yapacak, mahsulün yarısını Müslümanlara verecek. Canları ve malları güvende. Hz. Peygamber istediğinde anlaşmayı sonlandırabilecek.",
+        "terms_en": "Khaybar Jews remain on the land to farm, giving half the harvest to Muslims. Lives and property protected. Prophet can terminate the agreement at will.",
+        "significance_tr": "İslâm tarihinde ilk büyük müsâkât (yarıcılık) düzenlemesi. Fethedilen topraklarda gayrimüslim halkla ilişkilerin modeli.",
+        "duration": "~12 yıl (7 AH – Hz. Ömer'in sürgün kararına kadar, ~18-19 AH)"
+      }
+    ],
+    "territorial_change": {
+      "tr": "Hayber vahası tamamen İslâm devletinin kontrolüne geçti. Fedek fey' olarak Hz. Peygamber'e ait. Vâdilkurâ ve Teyma antlaşmayla teslim. Medîne-Şam ticaret yolu güvenliği sağlandı. Kuzey sınır tamamen kontrol altına alındı.",
+      "en": "Khaybar oasis came entirely under Islamic state control. Fadak as fay' belonged to the Prophet. Wadi al-Qura and Tayma surrendered by treaty. Medina-Damascus trade route secured. Northern frontier fully controlled."
+    },
+    "subsequent_events": [
+      {
+        "event_tr": "Fedek'in savaşsız teslimi",
+        "event_en": "Fadak's surrender without fighting",
+        "link": "F6_aftermath"
+      },
+      {
+        "event_tr": "Vâdilkurâ ve Teyma'nın teslimi",
+        "event_en": "Surrender of Wadi al-Qura and Tayma",
+        "link": "F6_aftermath"
+      },
+      {
+        "event_tr": "Umretü'l-Kazâ (Kaza umresi) — Hudeybiye'nin vaadi",
+        "event_en": "Umrat al-Qada — fulfillment of Hudaybiyya's promise"
+      },
+      {
+        "event_tr": "Mûte seferi — kuzeye doğru ilk büyük askerî harekat",
+        "event_en": "Battle of Mu'tah — first major military operation toward the north"
+      },
+      {
+        "event_tr": "Hz. Ömer döneminde Hayber Yahudilerinin sürgünü (~18-19 AH)",
+        "event_en": "Expulsion of Khaybar Jews under Caliph Umar (~18-19 AH)"
+      }
+    ],
+    "ganimet": {
+      "tr": "Hayber ganimetleri İslâm devletinin en büyük ekonomik kazancıydı. Sa'b kalesinden büyük miktarda erzak (arpa, hurma, yağ, kumaş), silah (1.000 kılıç, 500 kalkan — Vâkıdî), savaş teçhizatı ele geçirildi. Müsâkât düzeniyle yıllık hurma geliri sağlandı. Natat ganimetleri genel orduya, Şıkk ve Ketîbe Hz. Peygamber'in hissesine ayrıldı (rivâyet farklılıkları var). Ganimet dağılımı: süvari 3 pay (at 2, süvari 1), piyade 1 pay.",
+      "en": "Khaybar spoils were the Islamic state's largest economic gain. Large provisions (barley, dates, oil, cloth), weapons (1,000 swords, 500 shields — Waqidi), and war equipment captured from Fort Sa'b. Annual date revenue established through the musaqat system. Natat spoils went to the general army; Shiqq and Katiba to the Prophet's share (varying narrations). Distribution: cavalry 3 shares (horse 2, rider 1), infantry 1 share."
+    }
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "fortress_natat": "#8D6E63",
+      "fortress_shiqq": "#6D4C41",
+      "fortress_katiba": "#4E342E",
+      "route_march": "#1565C0",
+      "route_post_battle": "#0D47A1",
+      "landmark": "#6A1B9A",
+      "event": "#FF6F00",
+      "treaty_zone": "#00695C",
+      "ali_highlight": "#FFD600"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_fortresses",
+        "name": "Kaleler (7 hisar)",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks[type=fortress]",
+        "style": {
+          "icon": "castle",
+          "color_by": "district"
+        }
+      },
+      {
+        "id": "layer_districts",
+        "name": "Bölgeler (Natat, Şıkk, Ketîbe)",
+        "type": "polygons",
+        "default_visible": true,
+        "style": {
+          "opacity": 0.2,
+          "color_by": "district"
+        }
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "polyline",
+        "default_visible": true,
+        "data_source": "spatial.routes",
+        "style": {
+          "color": "#1565C0",
+          "weight": 3,
+          "dashArray": "8 4"
+        }
+      },
+      {
+        "id": "layer_events",
+        "name": "Olaylar (düello, zehirli koyun vb.)",
+        "type": "markers",
+        "default_visible": false,
+        "data_source": "spatial.key_landmarks[type=event_location]",
+        "style": {
+          "icon": "star",
+          "color": "#FF6F00"
+        }
+      },
+      {
+        "id": "layer_camps",
+        "name": "Karargâhlar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks[type=camp]",
+        "style": {
+          "icon": "tent",
+          "color": "#2E7D32"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f2ec"/><stop offset="100%" stop-color="#ece5d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="480" fill="url(#bg8)"/>
+  <text x="350" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Tıbb-ı Nebevî / Prophetic Medicine</text>
+  <text x="350" y="44" text-anchor="middle" font-size="10" fill="#7f8c8d">الطبّ النبوي — Şifâ araçları ve bitkiler</text>
+
+  <!-- Grid: 3 columns x 2 rows -->
+
+  <!-- 1. HACAMAT / CUPPING -->
+  <g transform="translate(130,140)">
+    <!-- Cupping cup shape -->
+    <path d="M-18,-25 Q-22,-10 -18,5 Q0,12 18,5 Q22,-10 18,-25 Q0,-30 -18,-25Z" fill="#c0392b" opacity="0.7" stroke="#922b21" stroke-width="1.5"/>
+    <ellipse cy="-25" rx="18" ry="6" fill="#e74c3c" opacity="0.5" stroke="#922b21" stroke-width="1"/>
+    <circle cy="-5" r="4" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g transform="translate(130,180)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#922b21">Hacâmat</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#c0392b">الحِجَامة</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Kan aldırma tedavisi</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">"Şifanız üç şeyde:</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">hacamat, bal, dağlama"</text>
+    <text y="68" text-anchor="middle" font-size="6" fill="#95a5a6">Buhârî, Tıbb 3</text>
+  </g>
+
+  <!-- 2. BAL / HONEY -->
+  <g transform="translate(350,130)">
+    <!-- Honey jar -->
+    <path d="M-15,-20 Q-18,-5 -15,15 Q0,22 15,15 Q18,-5 15,-20 Q0,-25 -15,-20Z" fill="#f39c12" opacity="0.8" stroke="#d4ac0d" stroke-width="1.5"/>
+    <ellipse cy="-20" rx="15" ry="5" fill="#f1c40f" stroke="#d4ac0d" stroke-width="1"/>
+    <!-- Drip -->
+    <path d="M5,15 Q6,22 5,28" fill="none" stroke="#f39c12" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(350,180)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#d4ac0d">Bal / Asel</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#f39c12">العَسَل</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Doğal şifalı gıda</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">"İçinde insanlar için</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">şifa vardır" (Nahl 69)</text>
+    <text y="68" text-anchor="middle" font-size="6" fill="#95a5a6">Karın ağrısına tavsiye</text>
+  </g>
+
+  <!-- 3. ÇÖREK OTU / BLACK SEED -->
+  <g transform="translate(570,135)">
+    <!-- Seeds cluster -->
+    <g fill="#2c3e50" opacity="0.8">
+      <circle cx="-8" cy="-8" r="3"/><circle cx="0" cy="-10" r="3"/><circle cx="8" cy="-7" r="3"/>
+      <circle cx="-10" cy="0" r="3"/><circle cx="0" cy="0" r="4"/><circle cx="10" cy="0" r="3"/>
+      <circle cx="-7" cy="8" r="3"/><circle cx="2" cy="9" r="3"/><circle cx="9" cy="7" r="3"/>
+    </g>
+  </g>
+  <g transform="translate(570,180)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#2c3e50">Çörek Otu</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#4a4a4a">الحبّة السوداء</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Habbetü's-sevdâ</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">"Ölüm hariç her</text>
+    <text y="56" text-anchor="middle" font-size="7" fill="#7f8c8d">derde devadır"</text>
+    <text y="68" text-anchor="middle" font-size="6" fill="#95a5a6">Buhârî, Tıbb 7</text>
+  </g>
+
+  <!-- 4. KINA / HENNA -->
+  <g transform="translate(130,360)">
+    <rect x="-45" y="-22" width="90" height="44" rx="5" fill="#1e8449" opacity="0.15" stroke="#1e8449" stroke-width="1.5"/>
+    <!-- Leaf shapes -->
+    <path d="M-10,-10 Q0,-18 10,-10 Q0,-2 -10,-10Z" fill="#27ae60" opacity="0.6"/>
+    <path d="M-15,5 Q-5,-3 5,5 Q-5,13 -15,5Z" fill="#27ae60" opacity="0.5"/>
+  </g>
+  <g transform="translate(130,395)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#1e8449">Kına / Hınnâ</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#27ae60">الحِنَّاء</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Yara tedavisi + boyama</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Baş ağrısına kompres</text>
+  </g>
+
+  <!-- 5. SENNA / SENÂ -->
+  <g transform="translate(350,355)">
+    <rect x="-45" y="-22" width="90" height="44" rx="5" fill="#7D6608" opacity="0.15" stroke="#7D6608" stroke-width="1.5"/>
+    <path d="M-5,-12 Q0,-18 5,-12 L3,0 Q0,4 -3,0Z" fill="#7D6608" opacity="0.4"/>
+    <path d="M8,-8 Q13,-14 18,-8 L16,4 Q13,8 10,4Z" fill="#7D6608" opacity="0.3"/>
+  </g>
+  <g transform="translate(350,395)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#7D6608">Sinameki / Senâ</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#8b6914">السَّنا والسَّنوت</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Müshil + mide ilacı</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">"Ölüm hariç her derde"</text>
+  </g>
+
+  <!-- 6. ZEMZEM -->
+  <g transform="translate(570,355)">
+    <rect x="-45" y="-22" width="90" height="44" rx="5" fill="#2980b9" opacity="0.15" stroke="#2980b9" stroke-width="1.5"/>
+    <path d="M-5,5 Q0,-10 5,5" fill="none" stroke="#2980b9" stroke-width="2" opacity="0.5"/>
+    <circle cy="-5" r="6" fill="#d4e6f1" stroke="#2980b9" stroke-width="1"/>
+  </g>
+  <g transform="translate(570,395)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#2980b9">Zemzem Suyu</text>
+    <text y="14" text-anchor="middle" font-size="9" fill="#3498db">ماء زمزم</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Şifalı kutsal su</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">"Ne niyetle içilirse"</text>
+  </g>
+
+  <text x="350" y="472" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #27</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 650" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5e6c8"/><stop offset="100%" stop-color="#e8d5a3"/>
+    </linearGradient>
+    <marker id="ma1" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#27ae60"/></marker>
+    <marker id="ma2" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#2980b9"/></marker>
+    <marker id="ma3" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#8e44ad"/></marker>
+    <marker id="ma4" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#d35400"/></marker>
+  </defs>
+  <rect width="700" height="650" fill="url(#bg2)"/>
+
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">Mekke'nin Fethi / Conquest of Mecca</text>
+  <text x="350" y="48" text-anchor="middle" font-size="11" fill="#7f8c8d">20 Ramazan 8 H. / 11 Ocak 630 CE — 10,000 kişi</text>
+
+  <!-- Mountains ring around Mecca -->
+  <ellipse cx="350" cy="350" rx="200" ry="180" fill="none" stroke="#a0896a" stroke-width="3" stroke-dasharray="8,4" opacity="0.4"/>
+  <text x="350" y="160" text-anchor="middle" font-size="8" fill="#a0896a">Mekke Vadisi Dağları</text>
+
+  <!-- MEKKE (center) -->
+  <ellipse cx="350" cy="350" rx="80" ry="65" fill="#f9e4b7" stroke="#d4ac0d" stroke-width="2"/>
+  <rect x="335" y="335" width="30" height="30" fill="#2c3e50" stroke="#d4ac0d" stroke-width="1.5" transform="rotate(45,350,350)"/>
+  <text x="350" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">MEKKE</text>
+  <text x="350" y="395" text-anchor="middle" font-size="10" fill="#8b6914">مكّة المكرّمة</text>
+  <text x="350" y="352" text-anchor="middle" font-size="8" fill="#d4ac0d" font-weight="bold">Kâbe</text>
+
+  <!-- COLUMN 1: Hz. Peygamber — Main body, from North (Merru'z-Zahrân) -->
+  <path d="M350,60 Q350,100 350,140 Q350,200 350,260" fill="none" stroke="#27ae60" stroke-width="3.5" marker-end="url(#ma1)"/>
+  <g transform="translate(350,55)">
+    <rect x="-90" y="-22" width="180" height="44" rx="6" fill="#27ae60" opacity="0.9" stroke="#1e8449"/>
+    <text y="-4" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">KOL 1: Hz. Muhammed ﷺ</text>
+    <text y="10" text-anchor="middle" font-size="8" fill="#d5f5e3">Kuzeyden — Ezâhir Yolu</text>
+    <text y="22" text-anchor="middle" font-size="7" fill="#d5f5e3">Ana kuvvet</text>
+  </g>
+
+  <!-- COLUMN 2: Hâlid b. Velîd — South, Lît Yolu -->
+  <path d="M350,595 Q350,550 350,510 Q350,470 350,440" fill="none" stroke="#2980b9" stroke-width="3" marker-end="url(#ma2)"/>
+  <g transform="translate(350,610)">
+    <rect x="-90" y="-18" width="180" height="36" rx="6" fill="#2980b9" opacity="0.9" stroke="#1a5276"/>
+    <text y="-2" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">KOL 2: Hâlid b. Velîd</text>
+    <text y="12" text-anchor="middle" font-size="8" fill="#d4e6f1">Güneyden — el-Lît Yolu</text>
+  </g>
+
+  <!-- COLUMN 3: Zübeyr b. Avvâm — East, Kedâ -->
+  <path d="M620,350 Q580,350 540,350 Q500,350 460,350" fill="none" stroke="#8e44ad" stroke-width="3" marker-end="url(#ma3)"/>
+  <g transform="translate(640,350)">
+    <rect x="-5" y="-18" width="60" height="50" rx="6" fill="#8e44ad" opacity="0.9" stroke="#6c3483"/>
+    <text x="25" y="-2" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">KOL 3</text>
+    <text x="25" y="10" text-anchor="middle" font-size="7" fill="#d7bde2">Zübeyr</text>
+    <text x="25" y="22" text-anchor="middle" font-size="7" fill="#d7bde2">Kedâ</text>
+  </g>
+
+  <!-- COLUMN 4: Sa'd b. Ubâde → Sa'd b. Muâz oğlu — West, Kudâ -->
+  <path d="M80,350 Q120,350 160,350 Q200,350 240,350" fill="none" stroke="#d35400" stroke-width="3" marker-end="url(#ma4)"/>
+  <g transform="translate(55,350)">
+    <rect x="-50" y="-18" width="60" height="50" rx="6" fill="#d35400" opacity="0.9" stroke="#a04000"/>
+    <text x="-20" y="-2" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">KOL 4</text>
+    <text x="-20" y="10" text-anchor="middle" font-size="7" fill="#fdebd0">Ebû Ubey.</text>
+    <text x="-20" y="22" text-anchor="middle" font-size="7" fill="#fdebd0">Kudâ</text>
+  </g>
+
+  <!-- Merru'z-Zahrân (camp) -->
+  <g transform="translate(180,85)">
+    <rect x="-60" y="-12" width="120" height="24" rx="4" fill="#f39c12" opacity="0.7"/>
+    <text y="4" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">Merru'z-Zahrân (Konaklama)</text>
+  </g>
+
+  <!-- Skirmish marker -->
+  <g transform="translate(350,480)">
+    <circle r="8" fill="#e74c3c" opacity="0.6"/><text y="4" text-anchor="middle" font-size="8" fill="#fff">⚔</text>
+    <text x="50" y="4" font-size="8" fill="#c0392b" font-weight="bold">Handeme çatışması</text>
+    <text x="50" y="16" font-size="7" fill="#7f8c8d">(tek direniş noktası)</text>
+  </g>
+
+  <!-- Key info -->
+  <g transform="translate(20,480)">
+    <rect x="-10" y="-15" width="175" height="115" rx="5" fill="#fff" opacity="0.85" stroke="#bdc3c7"/>
+    <text font-size="9" font-weight="bold" fill="#2c3e50">Temel Bilgiler:</text>
+    <text y="16" font-size="8" fill="#27ae60">• 10,000 Müslüman asker</text>
+    <text y="30" font-size="8" fill="#2c3e50">• Neredeyse kansız fetih</text>
+    <text y="44" font-size="8" fill="#2c3e50">• Ebû Süfyân teslim oldu</text>
+    <text y="58" font-size="8" fill="#2c3e50">• Genel af ilân edildi</text>
+    <text y="72" font-size="8" fill="#2c3e50">• 360 put kırıldı</text>
+    <text y="86" font-size="8" fill="#c0392b">• Kureyş kaybı: 12–28</text>
+    <text y="100" font-size="8" fill="#27ae60">• Müslüman kaybı: 2–3 şehit</text>
+  </g>
+
+  <!-- Ebû Süfyân meeting -->
+  <g transform="translate(250,130)">
+    <circle r="5" fill="#f39c12" stroke="#fff" stroke-width="1.5"/>
+    <text x="10" y="4" font-size="8" fill="#d4ac0d" font-weight="bold">Ebû Süfyân'ın teslimi</text>
+  </g>
+
+  <g transform="translate(660,70)"><text font-size="10" font-weight="bold" fill="#c0392b">N ↑</text></g>
+  <text x="350" y="642" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #21</text>
+</svg>

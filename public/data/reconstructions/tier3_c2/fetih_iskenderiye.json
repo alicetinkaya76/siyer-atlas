@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "recon_fetih_iskenderiye",
+    "battle_id": "fetih_iskenderiye",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.2,
+        "lng": 29.92
+      },
+      "name": "İskenderiye'nin Fethi",
+      "modern_location": "İskenderiye / Alexandria, Mısır"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma",
+      "date_range": "21",
+      "duration": "",
+      "description": "İskenderiye kuşatıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Anlaşma",
+      "date_range": "21",
+      "duration": "",
+      "description": "Barış anlaşmasıyla teslim oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. Âs",
+      "estimated_troops": 15000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/100",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 220",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "İbn Abdülhakem, Fütûhu Mısr",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_misir_kibt",
+      "topic": "Mısır halkına iyi davranma emri",
+      "relevance": "contextual",
+      "source": "Müslim"
+    }
+  ],
+  "impact": {
+    "result": "İskenderiye barışla teslim oldu",
+    "significance": "Antik dünyanın en büyük şehirlerinden birinin fethi. Akdeniz kontrolü.",
+    "cross_references": [
+      "fetih_misir",
+      "fetih_babilon"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

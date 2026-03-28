@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "id": "reconstruction_hamraulesed",
+    "battle_id": "gazve_hamraulesed",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Hamrâü'l-Esed — Uhud'un ertesi günü (Şevval 3 AH / Mart 625 CE). Hz. Peygamber, Uhud'a katılmış yaralı sahâbîlerle Mekke ordusunu takip etti. Kureyş'i caydırarak psikolojik üstünlük sağladı. Medîne'den 8 mil mesafede."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.56,
+        "lng": 39.55
+      },
+      "bbox": {
+        "north": 24.58,
+        "south": 24.54,
+        "east": 39.58,
+        "west": 39.52
+      },
+      "terrain_type": "rocky_plain",
+      "terrain_desc": {
+        "tr": "Hamrâü'l-Esed, Medîne'nin güneyinde yaklaşık 8 mil (13 km) mesafede, Mekke yolu üzerinde kayalık bir düzlük. Adını kızıl (hamrâ) toprak renginden alır. Kureyş'in Medîne'ye dönüş yolunu gözetlemeye elverişli stratejik konum.",
+        "en": "Ḥamrāʾ al-Asad is a rocky plain approximately 8 miles (13 km) south of Medina on the Meccan road. Named for its reddish (ḥamrāʾ) soil. Strategically positioned to monitor Quraysh's potential return route."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_hamra_mevzi",
+        "name": {
+          "tr": "Hamrâ Konaklama Mevzisi",
+          "en": "Ḥamrāʾ Encampment Position"
+        },
+        "lat": 24.56,
+        "lng": 39.55,
+        "type": "camp",
+        "note_tr": "Müslümanların üç gece kaldığı ve ateşler yaktığı mevzi."
+      },
+      {
+        "id": "lm_uhud_sahra",
+        "name": {
+          "tr": "Uhud Savaş Alanı",
+          "en": "Uḥud Battlefield"
+        },
+        "lat": 24.5075,
+        "lng": 39.6139,
+        "type": "reference",
+        "note_tr": "Bir gün önce savaşın yapıldığı yer; çıkış noktası."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_hamra",
+        "name": {
+          "tr": "Medîne → Hamrâü'l-Esed yürüyüşü",
+          "en": "Medina → Ḥamrāʾ al-Asad march"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 24.5075,
+            "lng": 39.6139,
+            "label": "Uhud geçişi"
+          },
+          {
+            "lat": 24.56,
+            "lng": 39.55,
+            "label": "Hamrâü'l-Esed"
+          }
+        ]
+      },
+      {
+        "id": "route_kureys_mekke",
+        "name": {
+          "tr": "Kureyş geri dönüş yolu",
+          "en": "Quraysh retreat route to Mecca"
+        },
+        "type": "retreat",
+        "waypoints": [
+          {
+            "lat": 24.48,
+            "lng": 39.55,
+            "label": "Revhâ civarı (Kureyş kampı)"
+          },
+          {
+            "lat": 23.5,
+            "lng": 39.2,
+            "label": "Mekke yönü"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Uhud sonrası durum",
+        "en": "Background: Post-Uḥud situation"
+      },
+      "date_range": {
+        "start": "7 Şevval 3 AH",
+        "end": "8 Şevval 3 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Uhud Savaşı'nda müslümanlar ağır kayıplar vermişti (70 şehit). Kureyş ordusu geri çekilirken Ebû Süfyân 'Gelecek yıl Bedir'de buluşalım' demişti. Ancak Kureyş komutanları arasında 'Medîne'ye geri dönüp işi bitirelim' fikri tartışılıyordu. Revhâ'da konaklayan Kureyş ordusunda bu tereddüt devam ediyordu. Hz. Peygamber bunu haber aldı.",
+        "en": "Muslims had suffered heavy losses at Uḥud (70 martyrs). While retreating, Abū Sufyān had challenged them for next year at Badr. However, some Quraysh commanders debated returning to finish off Medina. Encamped at Rawḥāʾ, Quraysh remained undecided. The Prophet received intelligence about this."
+      },
+      "events": [
+        {
+          "id": "E0_1_kureys_tereddut",
+          "name_tr": "Kureyş'in Medîne'ye tekrar saldırma tartışması",
+          "description_tr": "Safvân b. Ümeyye ve bazı komutanlar geri dönüp saldırmayı teklif etti."
+        },
+        {
+          "id": "E0_2_istihbarat",
+          "name_tr": "Hz. Peygamber'in istihbarat alması",
+          "description_tr": "Kureyş'in geri dönme niyetini haber alınca harekete geçme kararı."
+        }
+      ]
+    },
+    {
+      "id": "F1_seferberlik",
+      "order": 1,
+      "name": {
+        "tr": "Hz. Peygamber'in sadece Uhud gazilerini çağırması",
+        "en": "The Prophet summons only Uḥud veterans"
+      },
+      "date_range": {
+        "start": "8 Şevval 3 AH (sabah)",
+        "end": "8 Şevval 3 AH"
+      },
+      "duration": "Yarım gün",
+      "description": {
+        "tr": "Hz. Peygamber, Uhud'un ertesi sabahı Bilâl'e ezan okutup sadece dünkü savaşa katılanları çağırdı. Yaralı, bitkin ama kararlı sahâbîler toplandı. Bazıları yaralarından dolayı yürüyemiyordu; birbirlerini taşıdılar. Bu çağrının hikmeti: Uhud'da moral kırılan topluluğu hemen toparlamak ve 'biz hâlâ güçlüyüz' mesajı vermek. Münafıklar ve Uhud'a katılmayanlar kasıtlı olarak dışlandı.",
+        "en": "The morning after Uḥud, the Prophet had Bilāl make the call, summoning only those who had fought the previous day. Wounded but resolute companions gathered. Some could not walk and were carried by others. The wisdom: immediately rally the demoralized force and project strength. Hypocrites and non-participants were deliberately excluded."
+      },
+      "events": [
+        {
+          "id": "E1_1_bilal_nida",
+          "name_tr": "Bilâl'in nidâsı: 'Sadece dünkü gaziler!'",
+          "description_tr": "Hz. Peygamber'in emriyle özel çağrı."
+        },
+        {
+          "id": "E1_2_yarali_toplanma",
+          "name_tr": "Yaralı sahâbîlerin toplanması",
+          "description_tr": "Câbir b. Abdullah gibi sahâbîler özellikle katılmak istedi. Sa'd b. Muâz ve diğerleri yaralarına rağmen geldiler."
+        }
+      ]
+    },
+    {
+      "id": "F2_yuruyus",
+      "order": 2,
+      "name": {
+        "tr": "Hamrâü'l-Esed'e yürüyüş ve ateşler",
+        "en": "March to Ḥamrāʾ al-Asad and campfires"
+      },
+      "date_range": {
+        "start": "8 Şevval 3 AH",
+        "end": "8 Şevval 3 AH (akşam)"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Hz. Peygamber, yaklaşık 630 kişilik yaralı kuvvetiyle Hamrâü'l-Esed'e ulaştı. Emriyle 500 ayrı noktada ateş yakıldı — geceleyin çevredeki tepelerden bakıldığında büyük bir ordu izlenimi veriyordu. Bu klasik bir psikolojik harp taktiğiydi. Ma'bed el-Huzâî (henüz müslüman olmamış ama dost bir kabile reisi) oradan geçerken bu manzarayı gördü.",
+        "en": "The Prophet reached Ḥamrāʾ al-Asad with approximately 630 wounded fighters. He ordered fires lit at 500 separate points — from surrounding hills at night, this created the impression of a massive army. This was a classic psychological warfare tactic. Maʿbad al-Khuzāʿī (not yet Muslim but a friendly tribal chief) passed by and witnessed this display."
+      },
+      "events": [
+        {
+          "id": "E2_1_yuruyus",
+          "name_tr": "8 mil güneye yürüyüş",
+          "description_tr": "Yaralı ordu düzenli bir şekilde güneye ilerledi."
+        },
+        {
+          "id": "E2_2_atesler",
+          "name_tr": "500 noktada ateş yakılması",
+          "description_tr": "Psikolojik harp taktiği: büyük ordu izlenimi."
+        },
+        {
+          "id": "E2_3_mabed",
+          "name_tr": "Ma'bed el-Huzâî'nin ateşleri görmesi",
+          "description_tr": "Huzâa kabile reisi müslüman ordusunun gücüne tanık oldu."
+        }
+      ]
+    },
+    {
+      "id": "F3_mabed_diplomasi",
+      "order": 3,
+      "name": {
+        "tr": "Ma'bed el-Huzâî'nin Kureyş'i caydırması",
+        "en": "Maʿbad al-Khuzāʿī's dissuasion of Quraysh"
+      },
+      "date_range": {
+        "start": "9 Şevval 3 AH",
+        "end": "10 Şevval 3 AH"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Ma'bed el-Huzâî, Kureyş ordusunun kampına giderek Ebû Süfyân ile görüştü. 'Muhammed, daha önce görmediğim bir orduyla arkanızdan geliyor. Uhud'a katılmayanlar da pişman olup hepsi katılmış. Gözleri ateş saçıyor, intikam dolu!' dedi. Bu abartılı anlatım, Kureyş'i dehşete düşürdü. Zaten tereddütte olan Ebû Süfyân, 'hemen Mekke'ye dönelim' dedi. Böylece Kureyş geri çekildi. Hz. Peygamber hiç savaşmadan stratejik zafer kazandı.",
+        "en": "Maʿbad al-Khuzāʿī went to the Quraysh camp and met with Abū Sufyān. He exaggerated: 'Muḥammad is pursuing you with an army like I've never seen. Even those who missed Uḥud have joined — their eyes burn with vengeance!' This terrified the already-hesitant Quraysh. Abū Sufyān ordered an immediate retreat to Mecca. The Prophet achieved a strategic victory without fighting."
+      },
+      "events": [
+        {
+          "id": "E3_1_mabed_ebusufyan",
+          "name_tr": "Ma'bed'in Ebû Süfyân'la görüşmesi",
+          "description_tr": "Stratejik dezenformasyon: müslüman ordusunun gücünü abartması."
+        },
+        {
+          "id": "E3_2_kureys_geri_cekilme",
+          "name_tr": "Kureyş'in Mekke'ye geri çekilmesi",
+          "description_tr": "Ebû Süfyân geri dönüş emri verdi; Medîne'ye ikinci saldırı planı çöktü."
+        }
+      ]
+    },
+    {
+      "id": "F4_donus",
+      "order": 4,
+      "name": {
+        "tr": "Üç gün bekleme ve muzaffer dönüş",
+        "en": "Three-day vigil and triumphant return"
+      },
+      "date_range": {
+        "start": "8-11 Şevval 3 AH",
+        "end": "11 Şevval 3 AH"
+      },
+      "duration": "3 gün",
+      "description": {
+        "tr": "Hz. Peygamber Hamrâü'l-Esed'de üç gece kaldı. Bu süre zarfında Kureyş'in kesin olarak geri döndüğünü teyit etti. Müslümanlar moral ve özgüven kazanarak Medîne'ye döndü. Bu sefer, Uhud'un yaralarını psikolojik olarak sardı. Münafıkların 'yenildik, bitti' propagandası boşa çıktı. Âl-i İmrân 172-174 âyetleri bu olayı över.",
+        "en": "The Prophet stayed at Ḥamrāʾ al-Asad for three nights, confirming Quraysh's definitive retreat. Muslims returned to Medina with restored morale and confidence. This expedition psychologically healed the wounds of Uḥud. The munāfiqūn's 'we are finished' propaganda was neutralized. Āl ʿImrān 172-174 praises this event."
+      },
+      "events": [
+        {
+          "id": "E4_1_uc_gece",
+          "name_tr": "Üç gece bekleme ve keşif",
+          "description_tr": "Kureyş'in geri dönmediğini teyit."
+        },
+        {
+          "id": "E4_2_donus",
+          "name_tr": "Medîne'ye muzaffer dönüş",
+          "description_tr": "Sahâbîler güçlenmiş moralle geri döndü."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~630 (sadece Uhud katılımcıları)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Uhud'a katılmış muhâcirler; çoğu yaralı"
+        },
+        "ansar": {
+          "note_tr": "Uhud'a katılmış ensâr; bazıları ağır yaralı"
+        }
+      },
+      "equipment": {
+        "note_tr": "Uhud'dan gelen silahlar; yaralılar rağmen tam donanım."
+      },
+      "banner_bearer": {
+        "tr": "Ali b. Ebî Tâlib",
+        "en": "ʿAlī b. Abī Ṭālib"
+      },
+      "special_note": {
+        "tr": "Sadece Uhud'a katılanlar çağrıldı — bu bilinçli bir seçim. Münafıklar ve katılmayanlar dışlandı.",
+        "en": "Only Uḥud participants were summoned — a deliberate choice. Hypocrites and absentees were excluded."
+      }
+    },
+    "enemy": {
+      "total": "~3.000 (Uhud'dan dönen Kureyş ordusu)",
+      "commander_name": {
+        "tr": "Ebû Süfyân b. Harb",
+        "en": "Abū Sufyān b. Ḥarb"
+      },
+      "composition": {
+        "kureys": {
+          "note_tr": "Uhud'dan dönen ana Kureyş kuvveti"
+        },
+        "allies": {
+          "note_tr": "Kinâne ve diğer müttefikler"
+        }
+      },
+      "status": {
+        "tr": "Revhâ'da konaklamış, Medîne'ye geri dönme tartışması yapıyordu. Ma'bed'in haberiyle panikleyerek Mekke'ye döndü.",
+        "en": "Encamped at Rawḥāʾ, debating whether to return to Medina. Panicked by Maʿbad's report and retreated to Mecca."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Hamrâi'l-Esed",
+        "note_tr": "En detaylı anlatım; Ma'bed rivâyeti ve ateş taktiği."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Hamrâi'l-Esed",
+        "note_tr": "Asker sayısı (630), konaklama süresi ve Kureyş'in geri dönüşü."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusul ve'l-Mülûk",
+        "section": "3 AH olayları",
+        "note_tr": "Kronolojik bağlam ve Âl-i İmrân 172-174 bağlantısı."
+      },
+      {
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-Kübrâ",
+        "section": "Megāzî",
+        "note_tr": "Kısa özet; sadece Uhud gazilerinin çağrılması detayı."
+      }
+    ],
+    "hadith": [
+      "hds_hamra_bilal_nida",
+      "hds_hamra_atesler",
+      "hds_hamra_mabed"
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Hamrâü'l-Esed'in psikolojik savaş olarak analizi."
+      },
+      {
+        "author": "M. Hamidullah",
+        "work": "İslam Peygamberi",
+        "note_tr": "Stratejik değerlendirme ve ateş taktiğinin askeri boyutu."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Asker sayısı",
+        "detail_tr": "İbn Hişâm 630 derken, bazı rivâyetlerde 500-700 arasında değişir.",
+        "resolution_tr": "630 rakamı Vâkıdî'nin verisiyle uyumludur, tercih edildi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "172-174",
+      "phase_id": "F4_donus",
+      "topic": {
+        "tr": "Yaralıyken Allah ve Resûl çağrısına uyanlar övülür",
+        "en": "Those who responded to Allah and the Messenger after being wounded are praised"
+      },
+      "key_verses": [
+        {
+          "ayah": 172,
+          "topic_tr": "Yara aldıktan sonra Allah ve Resûl'ün davetine uyanlar: ihsan ve takva sahipleri",
+          "phase_id": "F1_seferberlik",
+          "esbab_id": "en_aliimran_3_172"
+        },
+        {
+          "ayah": 173,
+          "topic_tr": "'İnsanlar size karşı toplandı' denince imanları arttı, 'Hasbünallah' dediler",
+          "phase_id": "F2_yuruyus",
+          "esbab_id": "en_aliimran_3_173"
+        },
+        {
+          "ayah": 174,
+          "topic_tr": "Allah'ın lütuf ve keremiyle hiçbir kötülük dokunmadan döndüler",
+          "phase_id": "F4_donus",
+          "esbab_id": "en_aliimran_3_174"
+        }
+      ],
+      "nuzul_context_tr": "Uhud sonrası yaralı sahâbîlerin Hz. Peygamber'in çağrısına uyarak Hamrâü'l-Esed'e çıkması üzerine nâzil oldu."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hamra_bilal_nida",
+      "topic": "Hz. Peygamber'in sadece Uhud gazilerini çağırması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hamra_atesler",
+      "topic": "500 noktada ateş yakılması emri",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hamra_mabed",
+      "topic": "Ma'bed el-Huzâî'nin Kureyş'i caydırması",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Savaş olmadı ama stratejik zafer. Kureyş'in Medîne'ye ikinci saldırı planı caydırıldı. Hz. Peygamber'in psikolojik harp ustalığı ortaya çıktı.",
+      "en": "No battle occurred but a strategic victory. Quraysh's plan for a second attack on Medina was deterred. The Prophet's mastery of psychological warfare was demonstrated."
+    },
+    "political": {
+      "tr": "Müslümanların Uhud'dan sonra hâlâ güçlü olduğu mesajı Arap kabilelerine ulaştı. Münafıkların 'yenildik' propagandası boşa çıktı. Huzâa kabilesiyle ilişkiler güçlendi.",
+      "en": "The message that Muslims were still strong after Uḥud reached Arab tribes. Munāfiqūn propaganda was neutralized. Relations with the Khuzāʿa tribe strengthened."
+    },
+    "social": {
+      "tr": "Yaralı sahâbîlerin birbirlerini taşıyarak sefere çıkması, İslam kardeşliğinin en güçlü örneklerinden biri oldu. Toplumsal dayanışma pekişti.",
+      "en": "Wounded companions carrying each other to march became one of the strongest examples of Islamic brotherhood. Social solidarity was reinforced."
+    },
+    "theological": {
+      "tr": "Âl-i İmrân 172-174, bu sefere katılanları özel olarak övdü: 'Yara aldıktan sonra Allah ve Resûlü'nün davetine icabet edenler.' Tevekkül ve sebat kavramları somutlaştı.",
+      "en": "Āl ʿImrān 172-174 specifically praised participants: 'Those who responded to Allāh and the Messenger after being wounded.' Concepts of tawakkul and perseverance were concretized."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 0,
+        "wounded": "Uhud'dan gelen yaralar (yeni kayıp yok)"
+      },
+      "enemy": {
+        "killed": 0,
+        "wounded": "Yok (savaş olmadı)"
+      },
+      "note_tr": "Savaş olmadı; tek kayıp, müslümanlar tarafından yakalanan Kureyş casusu Ebû Azze el-Cumahî'nin idam edilmesidir."
+    },
+    "treaties": [],
+    "territorial_change": {
+      "tr": "Toprak değişikliği yok, ancak Medîne çevresinde müslüman hâkimiyeti psikolojik olarak pekişti.",
+      "en": "No territorial change, but Muslim dominance around Medina was psychologically reinforced."
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_bedir_mevid",
+        "name_tr": "Bedir-i Mev'id randevusu (4 AH)",
+        "description_tr": "Hamrâ'daki başarı, Bedir randevusuna çıkma cesaretini artırdı."
+      },
+      {
+        "id": "evt_huzaa_yakinlasma",
+        "name_tr": "Huzâa kabilesiyle yakınlaşma",
+        "description_tr": "Ma'bed'in rolü, Huzâa-müslüman ittifakının tohumlarını attı."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_retreat": "#FF8F00",
+      "campfire": "#FF6F00",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Yürüyüş güzergâhları",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_campfires",
+        "name": "Ateş noktaları",
+        "type": "marker_cluster",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "timeline",
+        "default_visible": false
+      }
+    ]
+  }
+}

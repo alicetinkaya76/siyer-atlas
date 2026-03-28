@@ -1,0 +1,1346 @@
+{
+  "meta": {
+    "id": "reconstruction_hendek",
+    "battle_id": "gazve_hendek",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Hendek (Ahzâb) — İslâm tarihinin ilk kuşatma savaşı. Selmân-ı Fârisî'nin hendek önerisi, 10.000 kişilik koalisyon, Benû Kurayza ihaneti, Nuaym b. Mes'ûd casusluğu, ilâhî fırtına. 9 faz. Bedir/Uhud şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.478,
+        "lng": 39.61
+      },
+      "bbox": {
+        "north": 24.5,
+        "south": 24.41,
+        "east": 39.64,
+        "west": 39.58
+      },
+      "terrain_type": "urban_fortified",
+      "terrain_desc": {
+        "tr": "Medîne'nin kuzey açığı: doğuda ve batıda lâv akıntıları (harre), güneyde yoğun hurma bahçeleri ve binalar doğal engel oluşturur. Tek savunmasız hat kuzeydedir — burada hendek kazıldı. Sel' dağı hendek hattının arkasında (güney) Müslüman karargâhına sırt verdi. Güneydoğuda Benû Kurayza kalesi müttefik konumdaydı — kuşatma sırasında ihanet ederek arka cephe tehdidi yarattı.",
+        "en": "Northern exposure of Medina: lava flows (harra) to east and west, dense palm groves and buildings to the south form natural barriers. The only vulnerable approach is from the north — where the trench was dug. Mount Sal' behind the trench line (south) provided the Muslim camp with rear cover. Banu Qurayza's fortress to the southeast was allied — their betrayal during the siege created a rear-flank threat."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_hendek_hatti",
+        "name": {
+          "ar": "الخندق",
+          "tr": "Hendek hattı",
+          "en": "Trench line"
+        },
+        "lat": 24.485,
+        "lng": 39.61,
+        "type": "fortification",
+        "geometry": "line",
+        "line_coords": [
+          {
+            "lat": 24.4855,
+            "lng": 39.59,
+            "note": "Batı ucu — Harretü'l-Vebere yakını"
+          },
+          {
+            "lat": 24.486,
+            "lng": 39.598,
+            "note": "Batı-orta"
+          },
+          {
+            "lat": 24.4855,
+            "lng": 39.61,
+            "note": "Merkez — Sel' dağı hizası"
+          },
+          {
+            "lat": 24.485,
+            "lng": 39.62,
+            "note": "Doğu-orta"
+          },
+          {
+            "lat": 24.484,
+            "lng": 39.628,
+            "note": "Doğu ucu — Harretü'l-Vâkım yakını"
+          }
+        ],
+        "strategic_role": {
+          "tr": "~5,5 km uzunluğunda, ~5 m genişliğinde, ~5 m derinliğinde hendek. Medîne'nin tek savunmasız kuzey cephesini kapattı. Süvari geçişini tamamen engelledi. Selmân-ı Fârisî'nin Pers savunma geleneğinden aktardığı yenilik. 6 günde 3.000 kişi tarafından kazıldı. Hz. Peygamber bizzat çalıştı.",
+          "en": "~5.5 km long trench, ~5 m wide, ~5 m deep. Sealed Medina's only undefended northern approach. Completely blocked cavalry crossing. An innovation from Persian defensive tradition introduced by Salman al-Farisi. Dug by 3,000 men in 6 days. The Prophet personally participated."
+        },
+        "dimensions": {
+          "length_km": 5.5,
+          "width_m": 5,
+          "depth_m": 5,
+          "confidence": "estimated"
+        },
+        "confidence": "verified_approximate",
+        "coord_source": "historical_reconstruction + waqidi + modern_surveys"
+      },
+      {
+        "id": "lm_sel_dagi",
+        "name": {
+          "ar": "جبل سلع",
+          "tr": "Sel' Dağı",
+          "en": "Mount Sal'"
+        },
+        "lat": 24.4755,
+        "lng": 39.6085,
+        "type": "terrain_feature",
+        "strategic_role": {
+          "tr": "Hz. Peygamber'in karargâhı bu dağın kuzey yamacında, hendek hattının hemen arkasındaydı. Yükseklik gözetleme ve emir-komuta avantajı sağladı. Kadınlar ve çocuklar güneydeki kalelere yerleştirildi.",
+          "en": "The Prophet's command post was at the northern slope of this mountain, directly behind the trench line. Elevation provided observation and command advantage. Women and children were placed in fortresses to the south."
+        },
+        "elevation_m": 80,
+        "confidence": "verified",
+        "coord_source": "google_maps_verified"
+      },
+      {
+        "id": "lm_muslim_karargah",
+        "name": {
+          "ar": "معسكر المسلمين",
+          "tr": "Müslüman karargâhı",
+          "en": "Muslim camp"
+        },
+        "lat": 24.4775,
+        "lng": 39.6095,
+        "type": "camp",
+        "strategic_role": {
+          "tr": "Sel' dağının kuzey eteğinde, hendek hattına yakın. Hz. Peygamber'in çadırı burada. Savaş boyunca karargâh olarak kullanıldı. Nöbet ve devriye sistemi buradan yönetildi.",
+          "en": "At the northern foot of Mount Sal', close to the trench. The Prophet's tent was here. Used as headquarters throughout the siege. Patrol and guard rotation managed from here."
+        },
+        "confidence": "estimated",
+        "coord_source": "ibn_ishaq + waqidi"
+      },
+      {
+        "id": "lm_kureys_kamp",
+        "name": {
+          "ar": "معسكر قريش",
+          "tr": "Kureyş kampı (Rûme kuyusu civarı)",
+          "en": "Quraysh camp (near Ruma well)"
+        },
+        "lat": 24.498,
+        "lng": 39.592,
+        "type": "enemy_camp",
+        "strategic_role": {
+          "tr": "Ebû Süfyân komutasındaki Kureyş ana kuvveti hendeğin kuzeybatısında konuşlandı. Rûme kuyusu su kaynağı olarak kullanıldı. ~4.000 Kureyşli + Kinâne + Tihâme müttefikleri.",
+          "en": "Main Quraysh force under Abu Sufyan positioned northwest of the trench. Ruma well served as water source. ~4,000 Quraysh + Kinana + Tihama allies."
+        },
+        "confidence": "estimated",
+        "coord_source": "ibn_ishaq + tabari"
+      },
+      {
+        "id": "lm_gatafan_kamp",
+        "name": {
+          "ar": "معسكر غطفان",
+          "tr": "Gatafân kampı (Uhud tarafı)",
+          "en": "Ghatafan camp (Uhud side)"
+        },
+        "lat": 24.497,
+        "lng": 39.628,
+        "type": "enemy_camp",
+        "strategic_role": {
+          "tr": "Uyeyne b. Hısn komutasındaki Gatafân ve Necid kabileleri hendeğin kuzeydoğusunda mevzilendi. Benû Fazâra, Benû Mürre, Eşca' dahil. ~6.000 kişi. Medîne hurmalıklarının yarısını talep ettiler (reddedildi).",
+          "en": "Ghatafan and Najd tribes under Uyayna ibn Hisn positioned northeast of the trench. Including Banu Fazara, Banu Murra, Ashja'. ~6,000 men. They demanded half of Medina's date harvest (rejected)."
+        },
+        "confidence": "estimated",
+        "coord_source": "ibn_ishaq + waqidi"
+      },
+      {
+        "id": "lm_amr_gecis",
+        "name": {
+          "ar": "نقطة عبور عمرو",
+          "tr": "Amr b. Abdivüdd'ün hendeği geçtiği nokta",
+          "en": "Amr ibn Abd Wudd's crossing point"
+        },
+        "lat": 24.4853,
+        "lng": 39.605,
+        "type": "event_location",
+        "strategic_role": {
+          "tr": "Hendeğin dar bir noktasından atla geçmeyi başaran Amr b. Abdivüdd ve birkaç süvari burada karşı tarafa geçti. Hz. Ali ile düello bu noktanın güneyinde gerçekleşti. Hendeğin bu kesiminin dar olduğu ya da tam bitmediği rivayet edilir.",
+          "en": "Amr ibn Abd Wudd and a few horsemen managed to cross at a narrow point of the trench. His duel with Ali took place south of this crossing. The trench at this section is reported to have been narrow or incomplete."
+        },
+        "confidence": "estimated",
+        "coord_source": "waqidi + ibn_ishaq"
+      },
+      {
+        "id": "lm_kurayza_kalesi",
+        "name": {
+          "ar": "حصون بني قريظة",
+          "tr": "Benû Kurayza kalesi",
+          "en": "Banu Qurayza fortress"
+        },
+        "lat": 24.42,
+        "lng": 39.62,
+        "type": "fortress",
+        "strategic_role": {
+          "tr": "Medîne'nin güneydoğusunda müstahkem Yahudi yerleşimi. Müslümanlarla antlaşma halindeydi. Huyey b. Ahtab'ın iknasiyla antlaşmayı bozarak arka cephe tehdidi oluşturdu. Kadınların ve çocukların sığındığı kalelere yakınlık büyük endişe kaynağıydı.",
+          "en": "Fortified Jewish settlement southeast of Medina. Had a treaty with the Muslims. Broke the treaty under Huyayy ibn Akhtab's persuasion, creating a rear-flank threat. Proximity to fortresses sheltering women and children caused great alarm."
+        },
+        "confidence": "verified",
+        "coord_source": "locations_v120"
+      },
+      {
+        "id": "lm_kadin_kaleleri",
+        "name": {
+          "ar": "حصون النساء والأطفال",
+          "tr": "Kadın-çocuk kaleleri (Benû Hârise/Fâri')",
+          "en": "Women and children fortresses"
+        },
+        "lat": 24.455,
+        "lng": 39.615,
+        "type": "fortress",
+        "strategic_role": {
+          "tr": "Medîne merkezindeki müstahkem evler ve kuleler. Kadınlar, çocuklar ve yaşlılar burada korundu. Benû Kurayza ihaneti bu kalelere doğrudan tehdit oluşturdu. Safiyye bt. Abdülmuttalib burada bir casusu öldürdü.",
+          "en": "Fortified houses and towers in central Medina. Women, children, and elderly sheltered here. Banu Qurayza's betrayal directly threatened these fortresses. Safiyya bint Abd al-Muttalib killed a spy here."
+        },
+        "confidence": "estimated",
+        "coord_source": "ibn_ishaq"
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_mekke_medine_kuzey",
+        "name": {
+          "tr": "Kureyş güzergâhı: Mekke → Medîne kuzeyi",
+          "en": "Quraysh route: Mecca → North of Medina"
+        },
+        "type": "enemy_march",
+        "waypoints": [
+          {
+            "name": "Mekke",
+            "lat": 21.4225,
+            "lng": 39.8262
+          },
+          {
+            "name": "Merru'z-Zahrân",
+            "lat": 21.65,
+            "lng": 39.85,
+            "note_tr": "Koalisyon buluşma noktası"
+          },
+          {
+            "name": "Medîne kuzeybatı — Kureyş kampı",
+            "lat": 24.498,
+            "lng": 39.592,
+            "note_tr": "Hendek hattının karşısına yerleşim"
+          }
+        ]
+      },
+      {
+        "id": "route_necid_medine",
+        "name": {
+          "tr": "Gatafân güzergâhı: Necid → Medîne kuzeydoğu",
+          "en": "Ghatafan route: Najd → Northeast Medina"
+        },
+        "type": "enemy_march",
+        "waypoints": [
+          {
+            "name": "Necid (Gatafân yurdu)",
+            "lat": 26.0,
+            "lng": 42.0,
+            "note_tr": "Uyeyne b. Hısn ve Gatafân kabileleri"
+          },
+          {
+            "name": "Uhud civarı — Gatafân kampı",
+            "lat": 24.497,
+            "lng": 39.628,
+            "note_tr": "Hendeğin kuzeydoğusuna yerleşim"
+          }
+        ]
+      },
+      {
+        "id": "route_huyey_kurayza",
+        "name": {
+          "tr": "Huyey b. Ahtab'ın Benû Kurayza'ya gizli güzergâhı",
+          "en": "Huyayy ibn Akhtab's secret route to Banu Qurayza"
+        },
+        "type": "covert_movement",
+        "waypoints": [
+          {
+            "name": "Koalisyon kampı",
+            "lat": 24.498,
+            "lng": 39.6,
+            "note_tr": "Huyey Ahzâb ordusundan ayrıldı"
+          },
+          {
+            "name": "Doğu dolaşma",
+            "lat": 24.475,
+            "lng": 39.64,
+            "note_tr": "Harre-i Şarkiyye'den güneye dolaştı",
+            "confidence": "estimated"
+          },
+          {
+            "name": "Benû Kurayza kalesi",
+            "lat": 24.42,
+            "lng": 39.62,
+            "note_tr": "Ka'b b. Esed'i antlaşmayı bozmaya ikna etti"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Koalisyon oluşumu ve Yahudi kışkırtması",
+        "en": "Background: Coalition formation and Jewish instigation"
+      },
+      "date_range": "Şa'bân – Şevvâl 5 AH (Ocak – Mart 627)",
+      "duration": "~2-3 ay hazırlık",
+      "description": {
+        "tr": "Uhud'dan sonra sürgün edilen Benû Nadîr'in ileri gelenleri (Huyey b. Ahtab, Sellâm b. Ebî'l-Hakîk, Kinâne b. er-Rebî') Mekke'ye gidip Kureyş'i Medîne'ye karşı birleşik saldırıya ikna etti. Ardından Necid'e gidip Gatafân, Fazâra, Mürre, Eşca' kabilelerini de koalisyona kattılar. Gatafân'a Hayber hurmalıklarının bir yıllık mahsulü vaad edildi. Tarihte 'Ahzâb' (müttefik gruplar) olarak bilinen bu koalisyon, Arap yarımadasının o güne dek gördüğü en büyük birleşik kuvvetti.",
+        "en": "After their exile, Banu Nadir leaders (Huyayy ibn Akhtab, Sallam ibn Abi al-Huqayq, Kinana ibn al-Rabi') traveled to Mecca and persuaded Quraysh to launch a united assault on Medina. They then went to Najd and recruited Ghatafan, Fazara, Murra, and Ashja' tribes. Ghatafan were promised one year's date harvest from Khaybar. Known as 'al-Ahzab' (the confederates), this was the largest coalition the Arabian peninsula had ever assembled."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Benû Nadîr sürgünleri Kureyş'e elçi göndererek 'Sizin dininiz onun dininden hayırlıdır' diyerek ikna etti",
+            "en": "Banu Nadir exiles sent envoys to Quraysh, persuading them by saying 'Your religion is better than his'"
+          },
+          "maker": "Huyey b. Ahtab (Benû Nadîr)",
+          "participants": [
+            "Ebû Süfyân",
+            "Gatafân reisleri"
+          ],
+          "impact": {
+            "tr": "10.000 kişilik birleşik ordunun temeli atıldı. İslâm devletinin kuruluşundan bu yana en büyük varoluşsal tehdit.",
+            "en": "Foundation laid for 10,000-strong coalition army. Largest existential threat since the founding of the Islamic state."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kureys_kamp",
+          "lm_gatafan_kamp"
+        ],
+        "zoom": 7,
+        "focus": "regional_coalition"
+      }
+    },
+    {
+      "id": "F1_consultation",
+      "order": 1,
+      "name": {
+        "tr": "İstişâre: Selmân-ı Fârisî'nin hendek önerisi",
+        "en": "Consultation: Salman al-Farisi's trench proposal"
+      },
+      "date_range": "Şevvâl 5 AH (Mart 627) — koalisyon haberi ulaştığında",
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Koalisyon haberi Medîne'ye ulaştığında Hz. Peygamber istişâre meclisi topladı. Uhud tecrübesinden sonra şehir dışında açık savaş yerine savunma stratejisi tercih edildi. Selmân-ı Fârisî, Pers savaş geleneğinden bildiği hendek (handak) fikrini önerdi: 'Biz İran'da düşman süvarisi geldiğinde şehrin etrafına hendek kazardık.' Bu öneri Arap savaş geleneğinde olmayan bir yenilikti. Hz. Peygamber kabul etti. Medîne'nin doğal savunmaları (harre lâv akıntıları ve hurmalıklar) incelendi — sadece kuzey cephesinin açık olduğu tespit edildi.",
+        "en": "When news of the coalition reached Medina, the Prophet convened a consultation council. After the Uhud experience, a defensive strategy inside the city was preferred over open battle. Salman al-Farisi proposed the trench (khandaq) idea from Persian military tradition: 'In Persia, when enemy cavalry came, we would dig a trench around the city.' This was an innovation unknown in Arab warfare. The Prophet accepted. Medina's natural defenses (harra lava flows and palm groves) were surveyed — only the northern front was found to be exposed."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Selmân'ın hendek önerisinin kabul edilmesi — Arap olmayan bir askerî geleneğin benimsenmesi",
+            "en": "Acceptance of Salman's trench proposal — adopting a non-Arab military tradition"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_selman_farisi",
+            "comp_sad_b_ubade",
+            "comp_sad_b_muaz"
+          ],
+          "impact": {
+            "tr": "İslâm askerî stratejisinde çığır açan karar. 'Hikmet mü'minin yitiğidir' prensibinin somut uygulaması. Farklı kültürlerden faydalanma. Selmân tartışmasını doğurdu: 'Selmân bizdendir (Ehl-i Beyt'tendir)' veya 'Selmân-ı Fârisî Ensâr'dandır, Muhâcirîn'dendir' rivâyetleri.",
+            "en": "Groundbreaking decision in Islamic military strategy. Practical application of 'wisdom is the lost property of the believer' principle. Drawing from different cultures. Sparked the 'Salman is one of us' debate between Muhajirun and Ansar."
+          }
+        }
+      ],
+      "companion_cross_ref": [
+        "comp_selman_farisi"
+      ],
+      "map_state": {
+        "show": [
+          "lm_sel_dagi",
+          "lm_muslim_karargah"
+        ],
+        "zoom": 13,
+        "focus": "medina_north"
+      }
+    },
+    {
+      "id": "F2_trench_digging",
+      "order": 2,
+      "name": {
+        "tr": "Hendek kazımı: 6 gün, 3.000 kişi, mucize rivâyetleri",
+        "en": "Trench digging: 6 days, 3,000 men, miracle accounts"
+      },
+      "date_range": "Şevvâl 5 AH — koalisyon gelmeden ~1 hafta önce",
+      "duration": "~6 gün",
+      "description": {
+        "tr": "Hz. Peygamber şahsen katılarak 3.000 Müslüman ile hendek kazımına başladı. Hendek hattı Harretü'l-Vebere'den (batı lâv akıntısı) Harretü'l-Vâkım'a (doğu lâv akıntısı) uzatıldı. Her 10 kişiye ~40 arşınlık (18-20 m) bölüm paylaştırıldı. Soğuk hava, kıtlık ve toprak sertliği zorladı. Büyük kaya mucizesi: Hiçbir kazma kıramadığı bir kayayı Hz. Peygamber üç darbede kırdı — her darbede 'Allahu Ekber' diyerek İran, Bizans ve Yemen'in fethini müjdeledi. Muhâcirîn ve Ensâr 'Selmân bizden' tartışması bu sırada yaşandı.",
+        "en": "The Prophet personally participated with 3,000 Muslims to begin digging. The trench line stretched from Harrat al-Wabara (western lava flow) to Harrat al-Waqim (eastern lava flow). Each group of 10 was assigned ~40 cubits (~18-20 m). Cold weather, food scarcity, and hard soil made the work difficult. The great rock miracle: A boulder no pick could break was shattered by the Prophet in three strikes — with each 'Allahu Akbar' he prophesied the conquest of Persia, Byzantium, and Yemen. The Muhajirun-Ansar dispute over 'Salman is ours' occurred during this period."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Her 10 kişiye 40 arşınlık bölüm — organize iş bölümü",
+            "en": "40 cubits per 10 men — organized division of labor"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_selman_farisi"
+          ],
+          "impact": {
+            "tr": "6 günde 5,5 km hendek tamamlandı. Koalisyon gelmeden savunma hattı kuruldu.",
+            "en": "5.5 km trench completed in 6 days. Defense line established before coalition arrival."
+          }
+        }
+      ],
+      "hadith_cross_ref": [
+        "hds_hendek_kazisi",
+        "hds_hendek_kaya",
+        "hds_megazi_hendek_kazisi"
+      ],
+      "map_state": {
+        "show": [
+          "lm_hendek_hatti",
+          "lm_sel_dagi",
+          "lm_muslim_karargah"
+        ],
+        "zoom": 13,
+        "focus": "trench_construction",
+        "animation": "trench_progress"
+      }
+    },
+    {
+      "id": "F3_positioning",
+      "order": 3,
+      "name": {
+        "tr": "Mevzilenme: Hendek hattı, Sel' dağı, kadınlar kalelere",
+        "en": "Positioning: Trench line, Mount Sal', women to fortresses"
+      },
+      "date_range": "Şevvâl 5 AH — koalisyon ulaştığı gün",
+      "duration": "1 gün",
+      "description": {
+        "tr": "Koalisyon ordusunun yaklaştığı haberi geldiğinde Müslümanlar son mevzilenmelerini yaptı. Hz. Peygamber karargâhını Sel' dağının kuzey eteğine, hendek hattının hemen arkasına kurdu. 3.000 Müslüman hendek boyunca nöbet sistemine geçti. Kadınlar, çocuklar ve yaşlılar Medîne merkezindeki müstahkem evlere ve kulelere yerleştirildi (özellikle Benû Hârise kaleleri). Benû Kurayza ile mevcut antlaşma teyit edildi — güneydoğu cephesi güvende sayıldı. Münafıklar çeşitli bahanelerle katılmaktan kaçındı (Ahzâb 33:13).",
+        "en": "When the approaching coalition was reported, Muslims made final deployments. The Prophet set up headquarters at the northern foot of Mount Sal', directly behind the trench line. 3,000 Muslims established guard rotation along the trench. Women, children, and elderly were placed in fortified houses and towers in central Medina (especially Banu Haritha fortresses). The existing treaty with Banu Qurayza was confirmed — the southeastern flank was considered secure. Hypocrites avoided participation with various excuses (al-Ahzab 33:13)."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Sırt Sel' dağına verilerek karargâh kurulması",
+            "en": "Setting headquarters with Mount Sal' as rear guard"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Uhud'daki gibi arkadan kuşatma riski bertaraf edildi. Doğal ve kazılmış savunma hattı bütünleştirildi.",
+            "en": "Eliminated the risk of rear flanking as at Uhud. Natural and dug defenses were integrated."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_hendek_hatti",
+          "lm_sel_dagi",
+          "lm_muslim_karargah",
+          "lm_kureys_kamp",
+          "lm_gatafan_kamp",
+          "lm_kadin_kaleleri",
+          "lm_kurayza_kalesi"
+        ],
+        "zoom": 13,
+        "focus": "full_deployment"
+      }
+    },
+    {
+      "id": "F4_siege",
+      "order": 4,
+      "name": {
+        "tr": "Kuşatma: Ok atışları, soğuk, açlık ve Amr b. Abdivüdd düellosu",
+        "en": "Siege: Arrow exchanges, cold, hunger, and Amr ibn Abd Wudd's duel"
+      },
+      "date_range": "Şevvâl – Zilkade 5 AH",
+      "duration": "~15-27 gün",
+      "description": {
+        "tr": "Koalisyon ordusu hendeği görünce şaşkınlık yaşadı — böyle bir savunma Arap savaş geleneğinde görülmemişti. Hendek süvari geçişini tamamen engelledi. Günlerce karşılıklı ok atışı ve mancınık denemeleri yapıldı. Müslümanlar kıtlık çekti — taş bağlayarak açlığı bastırdılar. Soğuk hava ve bekleme morali düşürdü. En dramatik an: Amr b. Abdivüdd el-Âmirî (Kureyş'in en güçlü savaşçılarından) birkaç süvariyle hendeğin dar bir noktasından geçmeyi başardı. Meydan okudu. Hz. Ali düelloya çıkarak onu öldürdü. Diğer geçenler geri kaçtı. Bu olay kuşatmanın dönüm noktalarından biri oldu.",
+        "en": "The coalition army was shocked by the trench — such a defense was unprecedented in Arab warfare. The trench completely blocked cavalry crossing. Days of arrow exchanges and catapult attempts ensued. Muslims suffered food scarcity — they tied stones to their stomachs to suppress hunger. Cold weather and waiting lowered morale. The most dramatic moment: Amr ibn Abd Wudd al-Amiri (one of Quraysh's strongest warriors) managed to cross at a narrow point with a few horsemen. He issued a challenge. Ali came forward and killed him. The others who crossed fled back. This was one of the siege's turning points."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Ali'nin Amr b. Abdivüdd'e karşı düelloya çıkması",
+            "en": "Ali stepping forward for duel against Amr ibn Abd Wudd"
+          },
+          "maker": "ali",
+          "participants": [
+            "prophet"
+          ],
+          "impact": {
+            "tr": "Hz. Peygamber: 'Ali'nin Hendek günündeki vuruşu, ümmetimin kıyamete dek ibadetinden hayırlıdır' (rivâyet). Koalisyonun morali kırıldı. Hendeği geçme girişimleri azaldı.",
+            "en": "The Prophet reportedly said Ali's strike that day was worth the worship of his entire nation until Judgement Day. Coalition morale was broken. Attempts to cross the trench diminished."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Gatafân'a hurma mahsulünün 1/3'ünü teklif etme — sonra geri çekilme",
+            "en": "Offering 1/3 of date harvest to Ghatafan — then withdrawing the offer"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_sad_b_muaz",
+            "comp_sad_b_ubade"
+          ],
+          "impact": {
+            "tr": "Sa'd b. Muâz ve Sa'd b. Ubâde: 'Biz câhiliyyede bile onlara haraç vermedik, İslâm'da mı vereceğiz?' Teklif geri çekildi — Ensâr'ın onur ve özgüven göstergesi.",
+            "en": "Sa'd ibn Mu'adh and Sa'd ibn Ubada: 'We did not pay them tribute even in jahiliyya, shall we do so in Islam?' The offer was withdrawn — a display of Ansar pride and confidence."
+          }
+        }
+      ],
+      "companion_cross_ref": [
+        "ali",
+        "comp_sad_b_muaz",
+        "comp_sad_b_ubade"
+      ],
+      "map_state": {
+        "show": [
+          "lm_hendek_hatti",
+          "lm_amr_gecis",
+          "lm_kureys_kamp",
+          "lm_gatafan_kamp",
+          "lm_sel_dagi"
+        ],
+        "zoom": 14,
+        "focus": "siege_action"
+      }
+    },
+    {
+      "id": "F5_qurayza_crisis",
+      "order": 5,
+      "name": {
+        "tr": "Benû Kurayza krizi: Huyey b. Ahtab'ın iknasiyla ihanet",
+        "en": "Banu Qurayza crisis: Betrayal through Huyayy ibn Akhtab's persuasion"
+      },
+      "date_range": "Kuşatmanın ~10. günü civarı",
+      "duration": "2-3 gün (kriz süreci)",
+      "description": {
+        "tr": "Kuşatmanın en kritik dönüm noktası: Benû Nadîr sürgünlerinden Huyey b. Ahtab gizlice Benû Kurayza kalesine giderek reis Ka'b b. Esed'i antlaşmayı bozmaya ikna etti. Ka'b önce reddetti: 'Muhammed bize hep dürüst davrandı.' Huyey ısrar etti ve tüm Arabistan'ın birleştiğini, İslâm'ın bu seferde biteceğini söyledi. Ka'b nihayetinde kabul etti. Bu ihanet arka cephenin açılması demekti — kadınların ve çocukların bulunduğu kaleler artık güvende değildi. Hz. Peygamber durumu doğrulamak için Zübeyr b. el-Avvâm'ı, ardından Sa'd b. Muâz ve Sa'd b. Ubâde başkanlığında bir heyet gönderdi. Heyet haberi doğruladı. Müslümanlar iki cepheli savaşa girdi. Kur'ân bu anı tasvir eder: 'Gözler yıldı, yürekler gırtlağa dayandı' (Ahzâb 33:10).",
+        "en": "The most critical turning point: Huyayy ibn Akhtab from the exiled Banu Nadir secretly went to the Banu Qurayza fortress and persuaded chief Ka'b ibn Asad to break the treaty. Ka'b initially refused: 'Muhammad has always dealt honestly with us.' Huyayy insisted that all Arabia had united and Islam would end this time. Ka'b eventually agreed. This betrayal meant the rear was exposed — fortresses sheltering women and children were no longer safe. The Prophet sent al-Zubayr ibn al-Awwam to verify, then a delegation led by Sa'd ibn Mu'adh and Sa'd ibn Ubada. The delegation confirmed the news. Muslims were now fighting on two fronts. The Quran describes this moment: 'Eyes grew wild and hearts reached the throats' (al-Ahzab 33:10)."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Doğrulama heyeti gönderilmesi — istihbarat kontrolü",
+            "en": "Sending verification delegation — intelligence verification"
+          },
+          "maker": "prophet",
+          "participants": [
+            "zubeyr",
+            "comp_sad_b_muaz",
+            "comp_sad_b_ubade"
+          ],
+          "impact": {
+            "tr": "İhanet doğrulandı. Hz. Peygamber hendek savunmasını sürdürürken arka cepheye 200-500 kişilik koruma birliği gönderdi. Gece tekbirleri ile caydırma.",
+            "en": "Betrayal confirmed. The Prophet maintained trench defense while sending 200-500 guard detachment to the rear. Deterrence through nightly takbir calls."
+          }
+        }
+      ],
+      "companion_cross_ref": [
+        "zubeyr",
+        "comp_sad_b_muaz",
+        "comp_sad_b_ubade",
+        "comp_safiyye_bt_abdilmuttalib"
+      ],
+      "map_state": {
+        "show": [
+          "lm_kurayza_kalesi",
+          "lm_kadin_kaleleri",
+          "lm_hendek_hatti"
+        ],
+        "zoom": 12,
+        "focus": "rear_threat"
+      }
+    },
+    {
+      "id": "F6_nuaym_operation",
+      "order": 6,
+      "name": {
+        "tr": "Nuaym b. Mes'ûd operasyonu: Çift taraflı casusluk",
+        "en": "Nu'aym ibn Mas'ud operation: Double espionage"
+      },
+      "date_range": "Kuşatmanın son haftası",
+      "duration": "2-3 gün",
+      "description": {
+        "tr": "İslâm tarihinin en erken ve en etkili istihbarat operasyonlarından biri. Gatafân kabilesinden Nuaym b. Mes'ûd gizlice Müslüman oldu ve durumunu sadece Hz. Peygamber biliyordu. Hz. Peygamber'e gelerek 'Ne yapmamı emredersin?' dedi. Hz. Peygamber: 'Savaş hiledir — onların arasına fitne düşür.' Nuaym üç aşamalı bir plan uyguladı: (1) Benû Kurayza'ya giderek 'Koalisyon yenilirse sizi yalnız bırakır, Kureyş'ten rehin isteyin' dedi. (2) Kureyş'e giderek 'Kurayza pişman oldu, Muhammed'e sizden rehin teslim edecek' dedi. (3) Gatafân'a aynı şüpheyi aktardı. Cumartesi günü Kureyş rehine isteyince ve Kurayza da 'Cumartesi savaşmayız' deyince karşılıklı güvensizlik doruğa çıktı.",
+        "en": "One of the earliest and most effective intelligence operations in Islamic history. Nu'aym ibn Mas'ud of Ghatafan had secretly converted and only the Prophet knew. He came to the Prophet asking 'What do you order me to do?' The Prophet said: 'War is deception — sow discord among them.' Nu'aym executed a three-stage plan: (1) He told Banu Qurayza 'If the coalition loses they will abandon you — demand hostages from Quraysh.' (2) He told Quraysh 'Qurayza regrets their betrayal and will hand over hostages from you to Muhammad.' (3) He relayed the same suspicion to Ghatafan. When Quraysh demanded action on Saturday and Qurayza said 'We don't fight on Saturday,' mutual distrust peaked."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in Nuaym'ı çift taraflı casus olarak görevlendirmesi",
+            "en": "The Prophet commissioning Nu'aym as a double agent"
+          },
+          "maker": "prophet",
+          "participants": [
+            "nuaym_mesud"
+          ],
+          "impact": {
+            "tr": "Koalisyonun iç güveni çöktü. Kureyş–Kurayza ittifakı fiilen bozuldu. Fırtına ile birleşince koalisyon tamamen dağıldı. Savaş tarihinde erken dönem psikolojik harp ve karşı-istihbarat örneği.",
+            "en": "Coalition's internal trust collapsed. Quraysh-Qurayza alliance was effectively broken. Combined with the storm, the coalition completely disintegrated. An early example of psychological warfare and counter-intelligence in military history."
+          }
+        }
+      ],
+      "companion_cross_ref": [
+        "nuaym_mesud"
+      ],
+      "map_state": {
+        "show": [
+          "lm_kureys_kamp",
+          "lm_gatafan_kamp",
+          "lm_kurayza_kalesi"
+        ],
+        "zoom": 12,
+        "focus": "espionage_routes"
+      }
+    },
+    {
+      "id": "F7_storm_withdrawal",
+      "order": 7,
+      "name": {
+        "tr": "Fırtına ve çekilme: Allah'ın gönderdiği rüzgâr",
+        "en": "Storm and withdrawal: The God-sent wind"
+      },
+      "date_range": "Zilkade 5 AH — kuşatmanın son gecesi",
+      "duration": "1 gece + sabah",
+      "description": {
+        "tr": "Kuşatmanın en karanlık gecesinde şiddetli bir kış fırtınası koptu. Soğuk rüzgâr koalisyon çadırlarını söktü, ateşleri söndürdü, kazanları devirdi. Kur'ân bunu açıkça zikreder: 'Ey iman edenler! Allah'ın üzerinizdeki nimetini hatırlayın; hani size ordular gelmişti de biz onların üzerine bir rüzgâr ve sizin görmediğiniz ordular gönderdik' (Ahzâb 33:9). Nuaym'ın oluşturduğu güvensizlik zaten koalisyonu germiş, fırtına son darbeyi indirdi. Ebû Süfyân: 'Ateşler sönüyor, hayvanlar ölüyor, Kurayza sözünden döndü — çekilelim!' diye bağırdı. Sabaha karşı tüm koalisyon dağıldı. Hz. Peygamber Huzeyfe b. Yemân'ı keşif için düşman kampına gönderdi — Huzeyfe kampın bomboş olduğunu doğruladı.",
+        "en": "On the darkest night of the siege, a fierce winter storm struck. Cold wind tore coalition tents, extinguished fires, overturned pots. The Quran explicitly mentions this: 'O you who believe! Remember the favor of Allah upon you when hosts came against you, and We sent against them a wind and forces you did not see' (al-Ahzab 33:9). Nu'aym's discord had already strained the coalition; the storm dealt the final blow. Abu Sufyan cried: 'Fires go out, animals die, Qurayza broke their word — let us retreat!' By dawn the entire coalition had dispersed. The Prophet sent Hudhayfa ibn al-Yaman on reconnaissance to the enemy camp — Hudhayfa confirmed it was deserted."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in Huzeyfe'yi tek başına keşfe göndermesi",
+            "en": "The Prophet sending Hudhayfa alone on reconnaissance"
+          },
+          "maker": "prophet",
+          "participants": [
+            "Huzeyfe b. Yemân"
+          ],
+          "impact": {
+            "tr": "Çekilmenin doğrulanması. Hz. Peygamber: 'Artık biz onlara gideriz, onlar bize gelmez' buyurdu. Stratejik inisiyatif Müslümanlara geçti.",
+            "en": "Withdrawal confirmed. The Prophet declared: 'From now on we march to them, they do not march to us.' Strategic initiative shifted to the Muslims."
+          }
+        }
+      ],
+      "map_state": {
+        "show": [
+          "lm_kureys_kamp",
+          "lm_gatafan_kamp",
+          "lm_hendek_hatti"
+        ],
+        "zoom": 13,
+        "focus": "withdrawal",
+        "animation": "storm_effect"
+      }
+    },
+    {
+      "id": "F8_aftermath",
+      "order": 8,
+      "name": {
+        "tr": "Sonuç: Benû Kurayza muhasarası, Ahzâb sûresi ve stratejik dönüm",
+        "en": "Aftermath: Banu Qurayza siege, Surah al-Ahzab, and strategic turning point"
+      },
+      "date_range": "Zilkade – Zilhicce 5 AH (Nisan – Mayıs 627)",
+      "duration": "~25 gün muhasara + sonuç",
+      "description": {
+        "tr": "Koalisyon çekilir çekilmez Hz. Peygamber emretti: 'Kimse ikindi namazını Benû Kurayza'dan başka yerde kılmasın!' Antlaşmayı bozan Benû Kurayza ~25 gün muhasara edildi. Teslim oldular ve hakem olarak kendi eski müttefikleri Sa'd b. Muâz'ı seçtiler. Sa'd, Tevrat hükmüne göre karar verdi: Savaşan erkekler idam, kadın ve çocuklar esir. Hüküm uygulandı. Sa'd b. Muâz kısa süre sonra Hendek'te aldığı ok yarasından şehit oldu. Hendek Gazvesi, Medîne İslâm devletinin varoluşsal sınavını geçtiği, stratejik inisiyatifin tamamen Müslümanlara geçtiği dönüm noktasıdır. Hz. Peygamber: 'Artık biz onlara gideriz, onlar bize gelmez.'",
+        "en": "As soon as the coalition withdrew, the Prophet ordered: 'No one shall pray Asr except at Banu Qurayza!' The treaty-breaking Banu Qurayza were besieged for ~25 days. They surrendered and chose their former ally Sa'd ibn Mu'adh as arbiter. Sa'd judged according to Torah law: fighting men to be executed, women and children taken captive. The sentence was carried out. Sa'd ibn Mu'adh soon died of an arrow wound received at the Trench. The Battle of the Trench was the turning point where the Medinan Islamic state passed its existential test and strategic initiative shifted entirely to the Muslims. The Prophet: 'From now on we march to them, they do not march to us.'"
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Benû Kurayza'nın hakem olarak Sa'd b. Muâz'ı seçmesi",
+            "en": "Banu Qurayza choosing Sa'd ibn Mu'adh as arbiter"
+          },
+          "maker": "Benû Kurayza (Ka'b b. Esed)",
+          "participants": [
+            "comp_sad_b_muaz",
+            "prophet"
+          ],
+          "impact": {
+            "tr": "Sa'd Tevrat'ın savaş hükmünü (Tesniye 20:10-14) uyguladı. Kendi eski müttefiklerinin hükmü olması meşruiyet kaygısını giderdi.",
+            "en": "Sa'd applied the Torah's law of war (Deuteronomy 20:10-14). That the judgment came from their own former ally addressed legitimacy concerns."
+          }
+        }
+      ],
+      "companion_cross_ref": [
+        "comp_sad_b_muaz"
+      ],
+      "hadith_cross_ref": [
+        "hds_beni_kurayza"
+      ],
+      "map_state": {
+        "show": [
+          "lm_kurayza_kalesi"
+        ],
+        "zoom": 13,
+        "focus": "qurayza_siege"
+      }
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 3000,
+      "total_range": "3.000 (İbn Hişâm + çoğunluk)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "count_est": "~700-800",
+          "note_tr": "Kesin ayrım tartışmalı"
+        },
+        "ansar": {
+          "count_est": "~2.200",
+          "note_tr": "Evs ve Hazrec kabileleri — hendek kazımının ana gücü"
+        }
+      },
+      "equipment": {
+        "swords": "çoğunlukta",
+        "bows": "önemli sayıda (hendek gerisinden ok atışı)",
+        "armor": "sınırlı",
+        "horses": "çok az (savunma savaşı)",
+        "tools": "Kazma, kürek, sepet (hendek kazımı için)",
+        "note_tr": "Teçhizat önceliği savaş aletleri değil, kazı aletleriydi. Açlık ve kıtlık içinde — taş bağlayarak açlık bastırıldı."
+      },
+      "formation": {
+        "type": "static_defense_with_trench",
+        "description_tr": "Hendek hattı boyunca nöbetleşe savunma. Sırt Sel' dağına. Kadınlar ve çocuklar güneydeki kalelerde. Gece nöbet rotasyonu. 200-500 kişilik müfreze Benû Kurayza tarafına gönderildi.",
+        "trench_guard": "3.000 kişi nöbetleşe",
+        "rear_guard": "200-500 kişi (Kurayza ihaneti sonrası)",
+        "flag_bearer": "Zeyd b. Hârise (Muhâcirîn), Sa'd b. Ubâde (Ensâr)"
+      },
+      "morale": {
+        "level": "fluctuating_under_pressure",
+        "note_tr": "Başlangıçta hendek projesiyle yüksek, kuşatma uzadıkça düştü, Kurayza ihaneti ile dip yaptı ('gözler yıldı, yürekler gırtlağa dayandı' 33:10), Nuaym operasyonu ve fırtına ile toparlandı."
+      },
+      "logistics": {
+        "supply": "Ciddi kıtlık — kuşatma altında erzak daraldı",
+        "water": "Medîne kuyularından",
+        "food_crisis": "Taş bağlayarak açlık bastırıldı. Hz. Peygamber bizzat karnına taş bağladı.",
+        "note_tr": "Câbir b. Abdullah'ın küçük keçisi ve bir ölçek arpa mucizesi: Birkaç kişiye yetecek yemek tüm hendek kazıcılarını doyurdu (Buhârî)."
+      },
+      "key_figures": [
+        {
+          "companion_id": "comp_selman_farisi",
+          "role": "Hendek fikrini öneren — Pers savunma geleneği",
+          "note": "'Selmân bizdendir' tartışması"
+        },
+        {
+          "companion_id": "ali",
+          "role": "Amr b. Abdivüdd'ü düelloda öldürdü"
+        },
+        {
+          "companion_id": "comp_sad_b_muaz",
+          "role": "Ensâr lideri. Gatafân teklifini reddetti. Benû Kurayza hakemi. Hendek'te ok yarası aldı, kısa süre sonra şehit oldu."
+        },
+        {
+          "companion_id": "comp_sad_b_ubade",
+          "role": "Hazrec reisi. Ensâr bayrağı. Gatafân teklifini reddetti."
+        },
+        {
+          "companion_id": "zubeyr",
+          "role": "Keşif görevlisi — Kurayza ihanetiini doğruladı"
+        },
+        {
+          "companion_id": "nuaym_mesud",
+          "role": "Gizli Müslüman. Çift taraflı casusluk operasyonu yürüttü."
+        },
+        {
+          "companion_id": "comp_safiyye_bt_abdilmuttalib",
+          "role": "Kadınlar kalesinde bir casusu (veya keşifçiyi) öldürdü"
+        }
+      ]
+    },
+    "enemy": {
+      "total": 10000,
+      "total_range": "10.000 (IH, çoğunluk) – 12.000+ (bazı rivâyetler)",
+      "commander": "Ebû Süfyân b. Harb (genel komuta)",
+      "sub_commanders": [
+        {
+          "name": "Uyeyne b. Hısn el-Fezârî",
+          "role": "Gatafân komutanı",
+          "tribe": "Benû Fazâra / Gatafân",
+          "note": "Necid kabilelerinin lideri, hurma mahsulü karşılığında katıldı"
+        },
+        {
+          "name": "Hâris b. Avf el-Mürrî",
+          "role": "Benû Mürre komutanı",
+          "tribe": "Benû Mürre",
+          "note": "Nuaym b. Mes'ûd'un kabilesi"
+        },
+        {
+          "name": "Mis'ar b. Ruhayye",
+          "role": "Eşca' komutanı",
+          "tribe": "Eşca'"
+        },
+        {
+          "name": "Amr b. Abdivüdd el-Âmirî",
+          "role": "Kureyş'in efsanevi savaşçısı",
+          "note": "Hendek savaşında hendeği geçip Hz. Ali tarafından öldürüldü. Bedir'de 1.000 atlıya denk tutulurdu."
+        },
+        {
+          "name": "Huyey b. Ahtab",
+          "role": "Benû Nadîr lideri — koalisyonun mimarı ve Kurayza ihanetinin organizatörü",
+          "tribe": "Benû Nadîr",
+          "note": "Koalisyonu bir araya getiren ana figür. Sonradan Benû Kurayza ile birlikte idam edildi."
+        },
+        {
+          "name": "İkrime b. Ebî Cehil",
+          "role": "Kureyş süvari birliği",
+          "note": "Hendeği geçme girişimlerinin komutanlarından"
+        }
+      ],
+      "equipment": {
+        "cavalry": "600-700 atlı (büyük bölümü Gatafân)",
+        "camels": "binlerce",
+        "infantry": "~9.000+",
+        "armor": "Ağır zırhlı seçkin birlikler (özellikle Amr b. Abdivüdd grubu)",
+        "note_tr": "Koalisyon tarihinin en büyük ordusuydu ama lojistik koordinasyon zayıftı. Farklı kabilelerin ayrı kampları, ayrı komutaları vardı."
+      },
+      "formation": {
+        "type": "siege_encampment",
+        "description_tr": "Hendek hattının karşısında iki ana kamp: Kureyş kuzeybatıda, Gatafân kuzeydoğuda. Hendek geçilemediği için klasik saf düzeni kurulamadı. Kuşatma savaşına dönüştü.",
+        "quraysh_camp": "Kuzeybatı — Rûme kuyusu civarı",
+        "ghatafan_camp": "Kuzeydoğu — Uhud tarafı"
+      },
+      "morale": {
+        "level": "initially_confident_then_deteriorating",
+        "note_tr": "Sayısal üstünlük başlangıçta güven verdi, ama hendek geçilemeyince hızla düştü. Nuaym operasyonu iç güveni çökertti. Fırtına son darbeyi indirdi."
+      },
+      "key_figures": [
+        {
+          "name": "Ebû Süfyân b. Harb",
+          "role": "Koalisyon genel komutanı",
+          "is_muslim_later": true,
+          "note": "Mekke fethi (8 AH) ile Müslüman olacak"
+        },
+        {
+          "name": "Amr b. Abdivüdd",
+          "role": "Efsanevi savaşçı — Hz. Ali tarafından öldürüldü",
+          "is_muslim_later": false
+        },
+        {
+          "name": "Huyey b. Ahtab",
+          "role": "Koalisyonun mimarı",
+          "is_muslim_later": false,
+          "note": "Benû Kurayza ile birlikte idam edildi"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "volumes": "III-IV",
+        "note": "İbn İshâk'ın Sîre'sinin tahzîbi. Hendek için ana kaynak."
+      },
+      {
+        "id": "WQ",
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "volumes": "II",
+        "note": "En detaylı Hendek anlatımı. Koordinat ve taktik bilgiler en zengin burada."
+      },
+      {
+        "id": "TB",
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusül ve'l-Mülûk",
+        "volumes": "III",
+        "note": "Çoklu isnâd zincirleriyle paralel rivâyetler. Kronoloji en detaylı."
+      },
+      {
+        "id": "BM",
+        "author": "Buhârî + Müslim",
+        "work": "el-Câmiu's-Sahîh / el-Müsnedü's-Sahîh",
+        "note": "Hendek kazısı, kaya mucizesi, Câbir'in yemeği, Huzeyfe keşif hadisleri."
+      },
+      {
+        "id": "BH",
+        "author": "Beyhakî",
+        "work": "Delâilü'n-Nübüvve",
+        "note": "Hendek mucize rivâyetlerinin derlemesi."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_hendek_kazisi",
+        "ref": "Buhârî, Megāzî 29",
+        "topic_tr": "Hendek kazısında taş kırma mucizesi"
+      },
+      {
+        "id": "hds_hendek_kaya",
+        "ref": "Buhârî, Megāzî 29 + Ahmed b. Hanbel",
+        "topic_tr": "Büyük kayadan üç kıvılcım — İran, Bizans, Yemen fetih müjdesi"
+      },
+      {
+        "id": "hds_megazi_hendek_kazisi",
+        "ref": "Müslim, Cihâd + Buhârî, Megāzî",
+        "topic_tr": "Hendek kazımı ve Câbir'in yemek mucizesi"
+      },
+      {
+        "id": "hds_beni_kurayza",
+        "ref": "Buhârî, Megāzî 30",
+        "topic_tr": "İkindi namazını Benû Kurayza'da kılın emri"
+      },
+      {
+        "ref": "Buhârî, Megāzî 29",
+        "topic_tr": "'Harp hiledir' (el-harbü hud'atün) hadisi — Nuaym operasyonu bağlamı"
+      },
+      {
+        "ref": "Müslim, Fedâil + Buhârî, Menâkıb",
+        "topic_tr": "Huzeyfe b. Yemân'ın keşif görevi ve düşman kampının boş olduğunu doğrulaması"
+      },
+      {
+        "ref": "Ahmed b. Hanbel, Müsned",
+        "topic_tr": "Hz. Peygamber'in karnına taş bağlaması — açlık rivâyeti"
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "W. M. Watt",
+        "work": "Muhammad at Medina",
+        "year": 1956,
+        "note": "Hendek'in stratejik analizi ve koalisyon yapısı"
+      },
+      {
+        "author": "M. Hamidullah",
+        "work": "Hz. Peygamberin Savaşları / Battlefields of the Prophet",
+        "year": 1981,
+        "note": "Hendek hattının arkeolojik ve topografik rekonstruksiyonu — en detaylı modern çalışma"
+      },
+      {
+        "author": "Afzalur Rahman",
+        "work": "Muhammad: Encyclopaedia of Seerah",
+        "year": 1981,
+        "note": "Hendek taktik değerlendirmesi"
+      },
+      {
+        "author": "M. A. Shaban",
+        "work": "Islamic History: A New Interpretation",
+        "year": 1971,
+        "note": "Koalisyon siyaseti ve kabile dinamikleri"
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Koalisyon toplam sayısı",
+        "versions": {
+          "IH": {
+            "value": 10000,
+            "ref": "III/224"
+          },
+          "WQ": {
+            "value": 10000,
+            "ref": "II/445"
+          },
+          "TB": {
+            "value": "10.000+",
+            "ref": "III/36"
+          },
+          "other": {
+            "value": "12.000-24.000",
+            "ref": "Bazı geç dönem rivâyetler"
+          }
+        },
+        "consensus": 10000,
+        "confidence": "high",
+        "note_tr": "Erken kaynaklar 10.000'de hemfikir. Geç dönem abartıları güvenilir değil."
+      },
+      {
+        "topic": "Müslüman sayısı",
+        "versions": {
+          "IH": {
+            "value": 3000,
+            "ref": "III/225"
+          },
+          "WQ": {
+            "value": 3000,
+            "ref": "II/445"
+          }
+        },
+        "consensus": 3000,
+        "confidence": "high",
+        "note_tr": "Kaynaklar hemfikir."
+      },
+      {
+        "topic": "Kuşatma süresi",
+        "versions": {
+          "IH": {
+            "value": "15 gün",
+            "ref": "III/233"
+          },
+          "WQ": {
+            "value": "20-25 gün",
+            "ref": "II/490"
+          },
+          "TB": {
+            "value": "yaklaşık 1 ay",
+            "ref": "III/46"
+          }
+        },
+        "consensus": "15-27 gün arası",
+        "confidence": "medium",
+        "note_tr": "15 gün minimum (İbn Hişâm), 1 ay maksimum (Taberî). 20 gün civarı en olası. Hendek kazımı dahil mi tartışmalı."
+      },
+      {
+        "topic": "Hendek uzunluğu",
+        "versions": {
+          "Hamidullah": {
+            "value": "5.544 m",
+            "ref": "Battlefields, p.76"
+          },
+          "WQ": {
+            "value": "5.000 arşın (~2.5-3 km)",
+            "ref": "yaklaşık"
+          },
+          "modern": {
+            "value": "~5.5 km",
+            "ref": "Topografik analiz"
+          }
+        },
+        "consensus": "~5.5 km",
+        "confidence": "medium",
+        "note_tr": "Hamidullah'ın saha çalışmasına dayalı 5.544 m yaygın kabul görür. İki harre arasındaki mesafe ile uyumlu."
+      },
+      {
+        "topic": "Amr b. Abdivüdd düellosu detayları",
+        "versions": {
+          "IH": {
+            "value": "Hz. Ali tek darbede öldürdü",
+            "ref": "III/235"
+          },
+          "WQ": {
+            "value": "Uzun bir düello — birkaç hamle sonra Ali galip",
+            "ref": "II/470"
+          },
+          "shiite": {
+            "value": "Detaylı diyalog — Ali'nin iman daveti dahil",
+            "ref": "Çeşitli Şiî kaynaklar"
+          }
+        },
+        "consensus": "Ali galip geldi — detaylarda farklılık var",
+        "confidence": "medium",
+        "note_tr": "Ali'nin galip geldiği ihtilafsız. Düellonun süresi ve diyaloglar tartışmalı."
+      },
+      {
+        "topic": "Benû Kurayza karar süreci (Sa'd b. Muâz hükmü)",
+        "versions": {
+          "IH": {
+            "value": "Sa'd Tevrat hükmünü uyguladı",
+            "ref": "III/252"
+          },
+          "WQ": {
+            "value": "Detaylı müzakere — 600-900 erkek",
+            "ref": "II/510-520"
+          },
+          "modern_critical": {
+            "value": "Sayılar abartılı olabilir",
+            "ref": "Watt, Shaban"
+          }
+        },
+        "consensus": "Sa'd hüküm verdi — sayılar tartışmalı (400-900 arası)",
+        "confidence": "medium",
+        "note_tr": "İdam edilen erkek sayısı en çok tartışılan konu. 400 (bazı rivâyetler) ile 900 (Vâkıdî) arası."
+      },
+      {
+        "topic": "Fırtına tarihi",
+        "versions": {
+          "IH": {
+            "value": "Kuşatmanın son gecesi",
+            "ref": "III/240"
+          },
+          "WQ": {
+            "value": "Zilkade 5 AH",
+            "ref": "II/488"
+          },
+          "TB": {
+            "value": "Şevvâl sonu",
+            "ref": "III/43"
+          }
+        },
+        "consensus": "Kuşatmanın son gecesi (kesin tarih belirsiz)",
+        "confidence": "low",
+        "note_tr": "Fırtınanın gerçekleştiği kesin — Kur'ân da zikreder (33:9). Ama takvim tarihi tartışmalı."
+      },
+      {
+        "topic": "Müslüman kayıpları",
+        "versions": {
+          "IH": {
+            "value": 6,
+            "ref": "III/243"
+          },
+          "WQ": {
+            "value": "5-8",
+            "ref": "II/495"
+          },
+          "TB": {
+            "value": 6,
+            "ref": "III/46"
+          }
+        },
+        "consensus": 6,
+        "confidence": "high",
+        "note_tr": "Kaynaklar büyük ölçüde hemfikir. Düşük kayıp hendek savunmasının etkinliğini gösterir. Sa'd b. Muâz ok yarasından sonra şehit oldu (Kurayza sonrası)."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 33,
+      "surah_name": "el-Ahzâb",
+      "ayah_range": "9-27",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Ahzâb sûresinin 9-27 arası âyetleri doğrudan Hendek Gazvesi'ni konu alır",
+        "en": "Verses 9-27 of Surah al-Ahzab directly address the Battle of the Trench"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "Rüzgâr ve görünmeyen ordular — fırtına",
+          "phase": "F7_storm_withdrawal"
+        },
+        {
+          "ayah": 10,
+          "topic_tr": "'Gözler yıldı, yürekler gırtlağa dayandı' — Kurayza ihaneti sonrası panik",
+          "phase": "F5_qurayza_crisis"
+        },
+        {
+          "ayah": "11-12",
+          "topic_tr": "Müminlerin imtihanı — 'İşte o zaman müminler denenmiş ve şiddetle sarsılmışlardı'",
+          "phase": "F4_siege"
+        },
+        {
+          "ayah": 13,
+          "topic_tr": "Münafıkların bahaneleri — 'Evlerimiz açık' diyerek savaştan kaçmaları",
+          "phase": "F3_positioning"
+        },
+        {
+          "ayah": 22,
+          "topic_tr": "'Bu Allah'ın ve Rasûlünün vaad ettiğidir' — müminlerin sağlam duruşu",
+          "phase": "F4_siege"
+        },
+        {
+          "ayah": 23,
+          "topic_tr": "Ahdine sâdık kalanlar — 'Kimisi adağını ödedi, kimisi bekliyor'",
+          "phase": "F4_siege"
+        },
+        {
+          "ayah": "25-27",
+          "topic_tr": "Koalisyonun hüsranı ve Kurayza'nın sonu",
+          "phase": "F8_aftermath"
+        }
+      ],
+      "esbab_cross_ref": [
+        "en_ahzab_33_9_27",
+        "en_ahzab_33_9",
+        "en_ahzab_33_23"
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hendek_kazisi",
+      "topic": "Hendek kazısında taş kırma mucizesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_kaya",
+      "topic": "Hendek'te kaya kırılması ve fetih müjdesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_harp_hile",
+      "topic": "'Harp hiledir' — Nuaym operasyonu",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_huzeyfe_kesif",
+      "topic": "Huzeyfe b. Yemân'ın keşif görevi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_aclik_tas",
+      "topic": "Hz. Peygamber ve ashâbın karnına taş bağlaması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_sad_ars",
+      "topic": "Sa'd b. Muâz vefat ettiğinde Arş titredi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hendek_artik_biz",
+      "topic": "'Artık biz onlara gideriz, onlar bize gelmez'",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_megazi_hendek_kazisi",
+      "topic": "Hendek kazımı ve mucize",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İslâm tarihinde ilk kuşatma savaşı ve savunma zaferi. Hendek taktik yeniliği Arap savaş geleneğini dönüştürdü. 10.000 kişilik koalisyona karşı 6 şehit — asimetrik savunmanın etkinliği. Stratejik inisiyatif Müslümanlara geçti: 'Artık biz onlara gideriz.' Psikolojik harp ve karşı-istihbarat (Nuaym operasyonu) İslâm askerî tarihinin erken örnekleri.",
+      "en": "First siege warfare and defensive victory in Islamic history. Trench tactical innovation transformed Arab warfare tradition. 6 martyrs against 10,000-strong coalition — effectiveness of asymmetric defense. Strategic initiative shifted to Muslims: 'From now on we march to them.' Psychological warfare and counter-intelligence (Nu'aym operation) are early examples in Islamic military history."
+    },
+    "political": {
+      "tr": "Medîne İslâm devletinin varoluşsal sınavı geçildi. Kureyş'in Medîne'ye saldırabilme kapasitesi fiilen sona erdi. Benû Kurayza'nın ortadan kalkmasıyla Medîne'deki son Yahudi siyasi varlığı bitti. Münafıkların koalisyon dönemindeki tutumu belgelendi (Ahzâb sûresi). Koalisyon parçalandıkça Kureyş'in müttefik toplama gücü zayıfladı.",
+      "en": "The Medinan Islamic state passed its existential test. Quraysh's capacity to attack Medina effectively ended. With the elimination of Banu Qurayza, the last Jewish political entity in Medina disappeared. Hypocrites' behavior during the coalition was documented (Surah al-Ahzab). As the coalition fragmented, Quraysh's ability to rally allies weakened."
+    },
+    "social": {
+      "tr": "Selmân-ı Fârisî'nin katkısı İslâm'ın evrensel karakterini somutlaştırdı — Fars kökenli bir sahâbînin önerisi devleti kurtardı. Hendek kazımında Hz. Peygamber'in bizzat çalışması liderlik modeli. Kadınların kale savunmasındaki rolü (Safiyye bt. Abdülmuttalib). Açlık ve fedakârlık toplumsal dayanışmayı güçlendirdi.",
+      "en": "Salman al-Farisi's contribution embodied Islam's universal character — a Persian companion's suggestion saved the state. The Prophet's personal labor during trench digging as a leadership model. Women's role in fortress defense (Safiyya bint Abd al-Muttalib). Hunger and sacrifice strengthened social solidarity."
+    },
+    "theological": {
+      "tr": "Ahzâb sûresi (33:9-27) doğrudan bu gazveyi işler: (1) İlâhî yardım — görünmeyen ordular ve rüzgâr (33:9). (2) İmtihan — 'O zaman müminler denenmiş ve şiddetle sarsılmışlardı' (33:11). (3) Münafıklık — imtihan ile gerçek inancın ayrılması (33:12-13). (4) Ahde vefâ — 'Kimisi adağını ödedi, kimisi bekliyor, hiç değiştirmediler' (33:23). (5) Tevekkül — zorlukta Allah'a güven. (6) 'Harp hiledir' prensibinin meşruiyeti.",
+      "en": "Surah al-Ahzab (33:9-27) directly addresses this battle: (1) Divine aid — unseen forces and wind (33:9). (2) Trial — believers were tested and severely shaken (33:11). (3) Hypocrisy — true faith separated through testing (33:12-13). (4) Covenant faithfulness — some fulfilled their pledge, some await (33:23). (5) Trust in God under adversity. (6) Legitimacy of 'war is deception' principle."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 6,
+        "killed_range": "5-8",
+        "notable_killed": [
+          "Sa'd b. Muâz (ok yarası → sonradan şehit)",
+          "Enes b. Evs",
+          "Abdullah b. Sehl",
+          "Tufeyl b. Nu'mân",
+          "Sa'lebe b. Ganame",
+          "Ka'b b. Zeyd"
+        ],
+        "wounded": "birkaç (Sa'd b. Muâz dahil)"
+      },
+      "enemy": {
+        "killed": "3-4 (düşük — kuşatma savaşı)",
+        "notable_killed": [
+          "Amr b. Abdivüdd (Hz. Ali tarafından)",
+          "Nevfel b. Abdullah (hendeğe düştü)"
+        ],
+        "note_tr": "Koalisyon kayıpları çok düşük çünkü doğrudan muharebe sınırlıydı. Asıl kayıp siyasî ve moral: koalisyon dağıldı."
+      }
+    },
+    "treaties": {
+      "tr": "Benû Kurayza antlaşması ihlal edildi → muhasara ve hüküm. Bu olay Medîne'deki tüm Yahudi kabileleriyle siyasi ilişkilerin fiilen sona erdiği son halka.",
+      "en": "Banu Qurayza treaty was violated → siege and judgment. This was the final chapter that effectively ended political relations with all Jewish tribes in Medina."
+    },
+    "territorial_change": {
+      "tr": "Benû Kurayza toprakları ve mal varlığı Müslümanların eline geçti. Medîne artık tek otorite altında birleşik bir şehir-devlet. Kuzey cephesi güvenli.",
+      "en": "Banu Qurayza lands and assets passed to the Muslims. Medina now a unified city-state under a single authority. Northern front secured."
+    },
+    "subsequent_events": [
+      {
+        "event": "Benû Kurayza muhasarası ve sonuçları",
+        "date": "Zilkade-Zilhicce 5 AH",
+        "note_tr": "Hendek'in doğrudan devamı — F8'de detaylı"
+      },
+      {
+        "event": "Benû Mustalik Gazvesi",
+        "date": "6 AH",
+        "note_tr": "Hendek sonrası stratejik inisiyatif kullanımı"
+      },
+      {
+        "event": "Hudeybiye Antlaşması",
+        "date": "Zilkade 6 AH",
+        "note_tr": "Hendek'in Kureyş'i barış masasına zorlamasının sonucu"
+      },
+      {
+        "event": "Hayber Fethi",
+        "date": "Muharrem 7 AH",
+        "note_tr": "Koalisyonu organize eden Benû Nadîr'in Hayber'deki varlığının tasfiyesi"
+      }
+    ],
+    "ganimet": {
+      "tr": "Koalisyon geri çekilirken bıraktığı malzeme. Ayrıca Benû Kurayza malları ve toprakları. Hayber seferine kadar önemli bir gelir kaynağı oldu.",
+      "en": "Equipment left behind by the retreating coalition. Additionally, Banu Qurayza properties and lands. Served as an important revenue source until the Khaybar campaign."
+    }
+  },
+  "visualization": {
+    "default_zoom": 13,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy_quraysh": "#C62828",
+      "enemy_ghatafan": "#D84315",
+      "neutral": "#5D4037",
+      "trench_line": "#1565C0",
+      "route_enemy": "#B71C1C",
+      "route_covert": "#6A1B9A",
+      "landmark": "#6A1B9A",
+      "fortress": "#4E342E",
+      "crisis_zone": "#D32F2F",
+      "storm": "#0D47A1"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_trench",
+        "name": "Hendek hattı",
+        "type": "polyline",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks[0].line_coords",
+        "style": {
+          "color": "#1565C0",
+          "weight": 4,
+          "dashArray": "10 5"
+        }
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks"
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "polyline",
+        "default_visible": true,
+        "data_source": "spatial.routes"
+      },
+      {
+        "id": "layer_phases",
+        "name": "Savaş fazları (animasyonlu)",
+        "type": "animated_phases",
+        "default_visible": false,
+        "data_source": "phases"
+      },
+      {
+        "id": "layer_camps",
+        "name": "Kamp konumları",
+        "type": "area",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "filter": "type=camp|enemy_camp"
+      },
+      {
+        "id": "layer_fortresses",
+        "name": "Kaleler",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "filter": "type=fortress"
+      }
+    ]
+  }
+}

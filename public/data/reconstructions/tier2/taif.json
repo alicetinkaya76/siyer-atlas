@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "id": "reconstruction_taif",
+    "battle_id": "gazve_taif",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Tâif Kuşatması (Şevval 8 AH / Şubat 630 CE). Huneyn zaferinden sonra Hevâzin'in bir kolu Sakîf kabilesi Tâif kalesine sığındı. Hz. Peygamber ~12.000 kişiyle kuşatma başlattı. 15-20 gün süren kuşatma sonunda Sakîf teslim olmadı; Hz. Peygamber kuşatmayı kaldırdı. Mancınık (arrâde) ilk kez kullanıldı. Tâif ertesi yıl kendi iradesiyle İslam'a girdi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.2701,
+        "lng": 40.4158
+      },
+      "bbox": {
+        "north": 21.31,
+        "south": 21.23,
+        "east": 40.46,
+        "west": 40.37
+      },
+      "terrain_type": "mountain_fortress",
+      "terrain_desc": {
+        "tr": "Tâif, Hicaz Dağları'nda ~1.800 m yükseklikte müstahkem bir şehir. Verimli tarım arazileri (üzüm bağları) çevrili. Yüksek surlarla korunan kale; çevresi vadiler ve dik yamaçlar. Mekke'nin güneydoğusunda, ~75 km mesafede.",
+        "en": "Ṭāʾif is a fortified city at ~1,800 m altitude in the Ḥijāz Mountains. Surrounded by fertile agricultural land (vineyards). Protected by high walls; surrounded by valleys and steep slopes. Southeast of Mecca, ~75 km away."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_taif_kalesi",
+        "name": {
+          "tr": "Tâif Kalesi / Surları",
+          "en": "Ṭāʾif Fortress / Walls"
+        },
+        "lat": 21.2701,
+        "lng": 40.4158,
+        "type": "fortress",
+        "note_tr": "Sakîf'in sığındığı yüksek surlarla çevrili kale."
+      },
+      {
+        "id": "lm_liyye",
+        "name": {
+          "tr": "Liyye Mevkii",
+          "en": "Liyya Position"
+        },
+        "lat": 21.3,
+        "lng": 40.42,
+        "type": "campsite",
+        "note_tr": "Hz. Peygamber'in karargâh kurduğu ve mancınık yerleştirdiği yer."
+      },
+      {
+        "id": "lm_cirane",
+        "name": {
+          "tr": "Ci'râne",
+          "en": "Jiʿrāna"
+        },
+        "lat": 21.475,
+        "lng": 39.85,
+        "type": "settlement",
+        "note_tr": "Kuşatma sonrası ganimetlerin dağıtıldığı ve Hz. Peygamber'in umre yaptığı yer."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_huneyn_taif",
+        "name": {
+          "tr": "Huneyn → Tâif",
+          "en": "Ḥunayn → Ṭāʾif"
+        },
+        "type": "pursuit",
+        "waypoints": [
+          {
+            "lat": 21.43,
+            "lng": 40.1,
+            "label": "Huneyn vadisi"
+          },
+          {
+            "lat": 21.38,
+            "lng": 40.25,
+            "label": "Evtâs"
+          },
+          {
+            "lat": 21.3,
+            "lng": 40.42,
+            "label": "Liyye"
+          },
+          {
+            "lat": 21.2701,
+            "lng": 40.4158,
+            "label": "Tâif"
+          }
+        ]
+      },
+      {
+        "id": "route_taif_cirane",
+        "name": {
+          "tr": "Tâif → Ci'râne (dönüş)",
+          "en": "Ṭāʾif → Jiʿrāna (return)"
+        },
+        "type": "return",
+        "waypoints": [
+          {
+            "lat": 21.2701,
+            "lng": 40.4158,
+            "label": "Tâif"
+          },
+          {
+            "lat": 21.475,
+            "lng": 39.85,
+            "label": "Ci'râne"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Huneyn sonrası takip",
+        "en": "Background: Post-Ḥunayn pursuit"
+      },
+      "date_range": {
+        "start": "Şevval 8 AH (başı)",
+        "end": "Şevval 8 AH (ortası)"
+      },
+      "duration": "~5 gün",
+      "description": {
+        "tr": "Huneyn zaferinden sonra Hevâzin kabilesinin bir kolu olan Sakîf, Tâif kalesine sığındı. Müslüman ordusu Evtâs'ta kalan Hevâzin kalıntılarını dağıttıktan sonra Hz. Peygamber ordusunu Tâif'e yönlendirdi. Sakîf'in reisi Mâlik b. Avf en-Nasrî de Tâif'e sığınmıştı.",
+        "en": "After the victory at Ḥunayn, the Thaqīf—a branch of Hawāzin—took refuge in the fortress of Ṭāʾif. After the Muslim army dispersed remaining Hawāzin at Awṭās, the Prophet directed his forces toward Ṭāʾif. Thaqīf's chief Mālik b. ʿAwf al-Naṣrī had also taken refuge there."
+      },
+      "events": [
+        {
+          "id": "E0_1_evtas",
+          "type": "combat",
+          "description_tr": "Evtâs'ta kalan Hevâzin kalıntıları dağıtıldı.",
+          "description_en": "Remaining Hawāzin at Awṭās were dispersed."
+        },
+        {
+          "id": "E0_2_sakif_siginma",
+          "type": "withdrawal",
+          "description_tr": "Sakîf kaliteli surlu Tâif kalesine sığındı; kapıları kapattı.",
+          "description_en": "Thaqīf took refuge in the well-walled fortress of Ṭāʾif and shut the gates."
+        }
+      ]
+    },
+    {
+      "id": "F1_kusatma_baslangic",
+      "order": 1,
+      "name": {
+        "tr": "Kuşatmanın başlaması ve mancınık",
+        "en": "Beginning of siege and catapult"
+      },
+      "date_range": {
+        "start": "Şevval 8 AH (~12.)",
+        "end": "Şevval 8 AH (~18.)"
+      },
+      "duration": "~5-7 gün",
+      "description": {
+        "tr": "Hz. Peygamber Liyye mevkiinde karargâh kurdu. Kuşatma başladı. Selmân-ı Fârisî'nin tavsiyesiyle mancınık (arrâde) ve debbâbe (testudo/seyyar kalkan) kullanıldı — bu, müslümanların ilk sistematik kuşatma savaşı tecrübesiydi. Surlardan ok ve kızgın demir atıldı; debbâbe kullanılamaz hale geldi. Müslümanlardan 12 şehit düştü.",
+        "en": "The Prophet set up headquarters at Liyya. The siege began. On Salmān al-Fārisī's advice, catapults (ʿarrāda) and a testudo/mobile shield (dabbāba) were employed — this was the Muslims' first systematic siege warfare experience. Arrows and red-hot iron were thrown from the walls; the mobile shield was rendered unusable. 12 Muslims were martyred."
+      },
+      "events": [
+        {
+          "id": "E1_1_karagah",
+          "type": "encampment",
+          "description_tr": "Liyye mevkiinde karargâh; mancınık mevzileri hazırlandı.",
+          "description_en": "Headquarters at Liyya; catapult positions prepared."
+        },
+        {
+          "id": "E1_2_mancinik",
+          "type": "siege_warfare",
+          "description_tr": "Mancınık (arrâde) ve debbâbe ile ilk sistematik kuşatma teknikleri uygulandı.",
+          "description_en": "Catapult (ʿarrāda) and testudo (dabbāba) — first systematic siege techniques applied."
+        },
+        {
+          "id": "E1_3_kayiplar",
+          "type": "casualties",
+          "description_tr": "Sur üstünden ok ve kızgın demir; 12 müslüman şehit.",
+          "description_en": "Arrows and red-hot iron from the walls; 12 Muslims martyred."
+        }
+      ]
+    },
+    {
+      "id": "F2_uzatilmis_kusatma",
+      "order": 2,
+      "name": {
+        "tr": "Uzatılmış kuşatma ve taktikler",
+        "en": "Extended siege and tactics"
+      },
+      "date_range": {
+        "start": "Şevval 8 AH (~18.)",
+        "end": "Şevval 8 AH (~28.)"
+      },
+      "duration": "~10 gün",
+      "description": {
+        "tr": "Kuşatma uzadıkça Hz. Peygamber alternatif taktikler denedi: Sakîf'in şehir dışındaki üzüm bağlarının kesilmesi/yakılması emri verdi (psikolojik baskı). 'Tâif'ten çıkıp gelen köleler hürdür' ilan etti — yaklaşık 20 köle sur dışına çıktı. Selmân'ın mancınığı surları zayıflattı ama Sakîf teslim olmadı. Nevfel b. Muâviye'ye danışan Hz. Peygamber, 'Tilki ininden çıkmaz; bekle veya bırak' tavsiyesi aldı.",
+        "en": "As the siege continued, the Prophet tried alternative tactics: ordered cutting/burning Thaqīf's vineyards outside the city (psychological pressure). Declared 'Any slave coming out of Ṭāʾif is free' — about 20 slaves escaped. Salmān's catapult weakened the walls but Thaqīf did not surrender. The Prophet consulted Nawfal b. Muʿāwiya, who advised: 'A fox won't come out of its den; wait or leave.'"
+      },
+      "events": [
+        {
+          "id": "E2_1_baglar",
+          "type": "economic_warfare",
+          "description_tr": "Sakîf'in üzüm bağlarının kesilmesi/yakılması — psikolojik baskı.",
+          "description_en": "Cutting/burning Thaqīf's vineyards — psychological pressure."
+        },
+        {
+          "id": "E2_2_kole_ilani",
+          "type": "psychological_warfare",
+          "description_tr": "'Tâif'ten çıkıp gelen köleler hürdür' — ~20 köle kaçtı.",
+          "description_en": "'Slaves escaping Ṭāʾif are free' — ~20 slaves escaped."
+        },
+        {
+          "id": "E2_3_nevfel_tavsiye",
+          "type": "consultation",
+          "description_tr": "Nevfel b. Muâviye: 'Tilki ininden çıkmaz; bekle veya bırak.'",
+          "description_en": "Nawfal b. Muʿāwiya: 'A fox won't leave its den; wait or leave.'"
+        }
+      ]
+    },
+    {
+      "id": "F3_kusatma_kaldirma",
+      "order": 3,
+      "name": {
+        "tr": "Kuşatmanın kaldırılması",
+        "en": "Lifting the siege"
+      },
+      "date_range": {
+        "start": "Zilkade 8 AH (başı)",
+        "end": "Zilkade 8 AH (başı)"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "15-20 gün (bazı rivâyetlere göre 40 gün) süren kuşatmadan sonra Hz. Peygamber geri çekilme kararı aldı. Sahâbîler üzüntü duydu; Hz. Peygamber 'Sakîf için dua edin, onlar da gelecektir' dedi. Ordu Ci'râne'ye çekildi. Hz. Peygamber'in Tâifliler için beddua yerine hidâyet duası yapması dikkat çekicidir.",
+        "en": "After 15-20 days (some reports say 40), the Prophet decided to withdraw. The companions were saddened; the Prophet said 'Pray for Thaqīf; they too will come.' The army withdrew to Jiʿrāna. Notably, the Prophet prayed for Ṭāʾif's guidance rather than cursing them."
+      },
+      "events": [
+        {
+          "id": "E3_1_karar",
+          "type": "strategic_decision",
+          "description_tr": "Hz. Peygamber kuşatmayı kaldırdı; 'Sakîf de gelecektir' dedi.",
+          "description_en": "The Prophet lifted the siege; said 'Thaqīf will also come.'"
+        },
+        {
+          "id": "E3_2_hidayet_duasi",
+          "type": "prayer",
+          "description_tr": "Beddua yerine 'Allah'ım Sakîf'e hidâyet ver' duası.",
+          "description_en": "Instead of cursing, he prayed: 'O Allah, guide Thaqīf.'"
+        },
+        {
+          "id": "E3_3_cirane",
+          "type": "withdrawal",
+          "description_tr": "Ordu Ci'râne'ye çekildi; ganimet dağıtımı burada yapıldı.",
+          "description_en": "Army withdrew to Jiʿrāna; spoils distributed there."
+        }
+      ]
+    },
+    {
+      "id": "F4_sonuc",
+      "order": 4,
+      "name": {
+        "tr": "Sonuç: Sakîf'in İslam'a girişi (9 AH)",
+        "en": "Outcome: Thaqīf's conversion (9 AH)"
+      },
+      "date_range": {
+        "start": "Ramazan 9 AH",
+        "end": "Ramazan 9 AH"
+      },
+      "duration": "~Bir yıl sonra",
+      "description": {
+        "tr": "Kuşatmadan yaklaşık bir yıl sonra Sakîf kabilesi, Medîne'ye bir heyet gönderip İslam'a girdiklerini bildirdi. Urve b. Mes'ûd daha önce bireysel olarak müslüman olmuş ancak kavmi tarafından şehit edilmişti. Sonunda kabile topluca İslam'ı kabul etti. Hz. Peygamber'in sabrı ve duası gerçekleşti.",
+        "en": "About a year after the siege, Thaqīf sent a delegation to Medina announcing their conversion to Islam. ʿUrwa b. Masʿūd had individually converted earlier but was killed by his own tribe. Eventually the entire tribe accepted Islam. The Prophet's patience and prayer were fulfilled."
+      },
+      "events": [
+        {
+          "id": "E4_1_urve",
+          "type": "individual_conversion",
+          "description_tr": "Urve b. Mes'ûd bireysel müslüman oldu; kavmi tarafından şehit edildi.",
+          "description_en": "ʿUrwa b. Masʿūd individually converted; killed by his tribe."
+        },
+        {
+          "id": "E4_2_heyet",
+          "type": "delegation",
+          "description_tr": "Sakîf heyeti Medîne'ye gelip topluca İslam'ı kabul etti.",
+          "description_en": "Thaqīf delegation came to Medina and accepted Islam collectively."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~12.000 (Huneyn ordusunun devamı)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcirlerden önemli komutanlar."
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan büyük katılım."
+        },
+        "muellefe_kulub": {
+          "note_tr": "Yeni müslüman olan Mekke eşrâfı (müellefe-i kulûb) da orduda."
+        }
+      },
+      "equipment": {
+        "note_tr": "Mancınık (arrâde), debbâbe (testudo), ok, mızrak, kılıç. Selmân'ın kuşatma tecrübesi."
+      }
+    },
+    "enemy": {
+      "total": "Sakîf kabilesi + Tâif garnizonu",
+      "commander_name": {
+        "tr": "Sakîf reisleri (kalede)",
+        "en": "Thaqīf chiefs (in fortress)"
+      },
+      "composition": {
+        "sakif": {
+          "note_tr": "Sakîf kabilesi savaşçıları + Hevâzin kaçakları; kale müdafaasında tecrübeli."
+        }
+      },
+      "note_tr": "Yüksek surlar, bol erzak ve su ile uzun süre dayanabilecek konumdaydılar."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü't-Tâif / Hisâru't-Tâif",
+        "note_tr": "Kuşatma süreci, mancınık ve bağ kesme ayrıntıları."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü't-Tâif",
+        "note_tr": "En ayrıntılı anlatım; asker sayıları, kuşatma günleri, kayıplar."
+      },
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Megâzî, Bâbu hisâri't-Tâif",
+        "note_tr": "Hz. Peygamber'in Sakîf için hidâyet duası."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-kübrâ",
+        "note_tr": "Sakîf heyetinin Medîne'ye gelişi ve İslam'a giriş süreci."
+      },
+      {
+        "author": "Belâzürî",
+        "work": "Fütûhu'l-büldân",
+        "note_tr": "Tâif'in siyasi ve ekonomik önemi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 9,
+      "surah_name": "Tevbe",
+      "ayah_range": "25-27",
+      "phase_id": "F0_background",
+      "topic": {
+        "tr": "Huneyn ve sonrasında Allah'ın yardımı; yeryüzü geniş olmasına rağmen darlık hissedilmesi",
+        "en": "God's help at Ḥunayn and after; feeling constricted despite the vastness of the earth"
+      },
+      "key_verses": [
+        {
+          "ayah": 25,
+          "topic_tr": "Huneyn gününde: çokluğunuz sizi böbürlendirdi ama bir faydası olmadı",
+          "phase_id": "F0_background"
+        },
+        {
+          "ayah": 27,
+          "topic_tr": "Sonra Allah dilediğinin tevbesini kabul eder — Sakîf'in sonradan İslam'a girişine işaret",
+          "phase_id": "F4_sonuc"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_taif_kusatma_hidayet",
+      "topic": "Hz. Peygamber'in Tâif kuşatması sonrası Sakîf için beddua yerine hidâyet duası yapması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_taif_mancinik",
+      "topic": "Tâif kuşatmasında Selmân-ı Fârisî'nin tavsiyesiyle mancınık (arrâde) ve debbâbe kullanılması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_taif_kole_hurriyet",
+      "topic": "Tâif'ten kaçan kölelere hürriyet ilan edilmesi — psikolojik savaş",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Müslümanların ilk sistematik kuşatma savaşı tecrübesi. Mancınık ve debbâbe teknolojisi edinildi. Kale savaşının zorluğu öğrenildi.",
+      "en": "Muslims' first systematic siege warfare experience. Catapult and testudo technology acquired. Difficulties of fortress warfare learned."
+    },
+    "political": {
+      "tr": "Tâif kuşatılabilir olduğunu gördü; psikolojik üstünlük müslümanlara geçti. Bir yıl sonra gönüllü teslimiyet geldi. Arap Yarımadası'nın son büyük direniş noktası İslam'a katıldı.",
+      "en": "Ṭāʾif saw it could be besieged; psychological superiority passed to Muslims. Voluntary surrender came a year later. The last major resistance point in the Arabian Peninsula joined Islam."
+    },
+    "social": {
+      "tr": "Kölelere hürriyet ilanı, İslam'ın sosyal adalet mesajını güçlendirdi. Sakîf'in üzüm bağları (şarap üretimi) sonradan İslam'la birlikte dönüştü.",
+      "en": "Freedom declaration for slaves reinforced Islam's social justice message. Thaqīf's vineyards (wine production) were later transformed with Islam."
+    },
+    "religious": {
+      "tr": "Hz. Peygamber'in düşmana beddua yerine hidâyet duası yapması, İslam'ın merhamet vurgusunun en güçlü örneklerinden biri olarak siyer literatüründe yer aldı.",
+      "en": "The Prophet's prayer for guidance rather than cursing the enemy is cited in sīra literature as one of the strongest examples of Islam's emphasis on mercy."
+    }
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_pursuit": "#FF6F00",
+      "route_return": "#6A1B9A",
+      "siege": "#E65100",
+      "landmark": "#FF8F00"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_siege",
+        "name": "Kuşatma",
+        "type": "siege",
+        "default_visible": true
+      }
+    ]
+  }
+}

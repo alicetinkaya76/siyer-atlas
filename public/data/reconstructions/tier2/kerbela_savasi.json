@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "id": "reconstruction_kerbela_savasi",
+    "battle_id": "kerbela_savasi",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Kerbelâ Vak'ası (10 Muharrem 61 AH / 10 Ekim 680 CE). Hz. Hüseyin b. Ali'nin 72 kişilik kafilesiyle Yezîd b. Muâviye kuvvetleri tarafından şehit edilmesi. İslâm tarihinin en trajik olayı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.616,
+        "lng": 44.023
+      },
+      "bbox": {
+        "north": 32.65,
+        "south": 32.58,
+        "east": 44.06,
+        "west": 43.98
+      },
+      "terrain_type": "desert_plain",
+      "terrain_desc": {
+        "tr": "Kerbelâ, Kûfe'nin kuzeybatısında çöl ovası. Fırat'a yakın ancak suya erişim engellenmiş. Sıcak ve kurak. Bugün Hz. Hüseyin Türbesi burada.",
+        "en": "Karbalāʾ lies on the desert plain northwest of Kūfa. Near the Euphrates but water access was blocked. Hot and arid. Today the Shrine of Ḥusayn stands here."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_huseyin_camp",
+        "name": {
+          "tr": "Hz. Hüseyin'in kampı",
+          "en": "Ḥusayn's camp"
+        },
+        "lat": 32.616,
+        "lng": 44.023,
+        "type": "camp",
+        "note_tr": "72 kişilik kafilenin son mevzii."
+      },
+      {
+        "id": "lm_firat_engel",
+        "name": {
+          "tr": "Fırat suyu engeli",
+          "en": "Euphrates water blockade"
+        },
+        "lat": 32.63,
+        "lng": 44.0,
+        "type": "water_source",
+        "note_tr": "Ömer b. Sa'd'ın emriyle su yolu kesildi."
+      },
+      {
+        "id": "lm_huseyin_turbe",
+        "name": {
+          "tr": "Hz. Hüseyin Türbesi (bugünkü)",
+          "en": "Shrine of Ḥusayn (present-day)"
+        },
+        "lat": 32.6169,
+        "lng": 44.0234,
+        "type": "shrine",
+        "note_tr": "Hz. Hüseyin'in defnedildiği yer; İslâm'ın en mukaddes ziyaret yerlerinden."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_mekke_kufe",
+        "name": {
+          "tr": "Mekke → Kûfe (Hz. Hüseyin)",
+          "en": "Mecca → Kūfa (Ḥusayn)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 21.42,
+            "lng": 39.83,
+            "label": "Mekke"
+          },
+          {
+            "lat": 26.0,
+            "lng": 42.0,
+            "label": "Çöl güzergâhı"
+          },
+          {
+            "lat": 30.0,
+            "lng": 43.5,
+            "label": "Zübâle"
+          },
+          {
+            "lat": 32.616,
+            "lng": 44.023,
+            "label": "Kerbelâ (Hür tarafından durduruldu)"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_davet",
+      "order": 0,
+      "name": {
+        "tr": "Kûfe'den davet mektupları",
+        "en": "Invitation letters from Kūfa"
+      },
+      "date_range": {
+        "start": "Receb 60 AH",
+        "end": "Zilhicce 60 AH"
+      },
+      "duration": "~5 ay",
+      "description": {
+        "tr": "Yezîd b. Muâviye halife olunca Kûfe halkı Hz. Hüseyin'e 12.000'den fazla davet mektubu gönderdi. Hz. Hüseyin amcaoğlu Müslim b. Akîl'i keşif için gönderdi. Müslim Kûfe'de 18.000 kişiden biat aldı; ancak Yezîd'in yeni valisi Ubeydullah b. Ziyâd Kûfe'yi kontrol altına alıp Müslim'i idam etti.",
+        "en": "When Yazīd b. Muʿāwiya became caliph, the people of Kūfa sent over 12,000 invitation letters to Ḥusayn. Ḥusayn sent his cousin Muslim b. ʿAqīl to scout. Muslim received allegiance from 18,000 in Kūfa; but Yazīd's new governor ʿUbaydullāh b. Ziyād took control of Kūfa and executed Muslim."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Müslim b. Akîl'in şehadeti",
+          "description_tr": "Kûfe'de yakalanıp idam edildi; Hz. Hüseyin haberi yolda aldı."
+        }
+      ]
+    },
+    {
+      "id": "F1_yolculuk",
+      "order": 1,
+      "name": {
+        "tr": "Mekke'den yola çıkış",
+        "en": "Departure from Mecca"
+      },
+      "date_range": {
+        "start": "8 Zilhicce 60 AH",
+        "end": "2 Muharrem 61 AH"
+      },
+      "duration": "~25 gün",
+      "description": {
+        "tr": "Hz. Hüseyin hac yapmadan Mekke'den ayrıldı (suikast tehlikesi). 72 kişilik kafile (kadın ve çocuklar dahil). Yolda Müslim'in şehadet haberini aldı; yine de devam etti. İbn Abbâs ve diğerleri vazgeçirmek istedi.",
+        "en": "Ḥusayn left Mecca without completing ḥajj (assassination threat). A caravan of 72 people (including women and children). On the way, he received news of Muslim's martyrdom; yet continued. Ibn ʿAbbās and others tried to dissuade him."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Müslim haberinin ulaşması",
+          "description_tr": "Hz. Hüseyin'e Kûfe'nin düştüğü haberi geldi; devam kararı."
+        }
+      ]
+    },
+    {
+      "id": "F2_kuşatma",
+      "order": 2,
+      "name": {
+        "tr": "Kerbelâ'da kuşatma ve su kesintisi",
+        "en": "Siege at Karbalāʾ and water blockade"
+      },
+      "date_range": {
+        "start": "2 Muharrem 61 AH",
+        "end": "9 Muharrem 61 AH"
+      },
+      "duration": "7 gün",
+      "description": {
+        "tr": "Hür b. Yezîd kafileyi Kerbelâ'da durdurdu. Ömer b. Sa'd 4.000 kişilik kuvvetle geldi. Su yolu kesildi — çocuklar ve kadınlar susuzluktan kıvranıyordu. Hz. Hüseyin üç teklif sundu: Mekke'ye dönme, Yezîd'le görüşme veya sınır bölgesine gitme. İbn Ziyâd kayıtsız şartsız teslim istedi.",
+        "en": "Ḥurr b. Yazīd stopped the caravan at Karbalāʾ. ʿUmar b. Saʿd arrived with 4,000 troops. Water was cut off — children and women suffered from thirst. Ḥusayn offered three proposals: return to Mecca, meet Yazīd, or go to a border zone. Ibn Ziyād demanded unconditional surrender."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Su kesintisi",
+          "description_tr": "7 gün boyunca 72 kişilik kafile susuz bırakıldı."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Hz. Hüseyin'in teklifleri",
+          "description_tr": "Üç alternatif teklif reddedildi."
+        }
+      ]
+    },
+    {
+      "id": "F3_asura",
+      "order": 3,
+      "name": {
+        "tr": "10 Muharrem — Âşûrâ Günü",
+        "en": "10 Muḥarram — Day of ʿĀshūrāʾ"
+      },
+      "date_range": {
+        "start": "10 Muharrem 61 AH",
+        "end": "10 Muharrem 61 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Sabah namazından sonra savaş başladı. Hz. Hüseyin'in adamları birer birer şehit düştü. Hür b. Yezîd son anda Hz. Hüseyin'e katıldı ve şehit oldu. Hz. Hüseyin'in 6 aylık oğlu Ali Asgar (Abdullâh) susuzluktan ok atılarak şehit edildi. Hz. Hüseyin en son tek başına savaştı ve Şimr b. Zilcevşen tarafından başı kesildi.",
+        "en": "Battle began after morning prayer. Ḥusayn's men fell one by one. Ḥurr b. Yazīd defected to Ḥusayn at the last moment and was martyred. Ḥusayn's 6-month-old son ʿAlī al-Aṣghar (ʿAbdullāh) was killed by an arrow while thirsty. Ḥusayn fought alone last and was beheaded by Shimr b. Dhī al-Jawshan."
+      },
+      "events": [
+        {
+          "id": "E3_1",
+          "name_tr": "Hür b. Yezîd'in taraf değiştirmesi",
+          "description_tr": "Son anda vicdanını dinleyerek Hz. Hüseyin'e katıldı."
+        },
+        {
+          "id": "E3_2",
+          "name_tr": "Ali Asgar'ın şehadeti",
+          "description_tr": "6 aylık bebek; su isterken ok ile vuruldu."
+        },
+        {
+          "id": "E3_3",
+          "name_tr": "Hz. Hüseyin'in şehadeti",
+          "description_tr": "Hz. Peygamber'in torunu şehit edildi; başı kesildi."
+        },
+        {
+          "id": "E3_4",
+          "name_tr": "Çadırların yakılması",
+          "description_tr": "Kadın ve çocukların çadırları ateşe verildi."
+        }
+      ]
+    },
+    {
+      "id": "F4_sonrasi",
+      "order": 4,
+      "name": {
+        "tr": "Sonrası: Başların Dımaşk'a gönderilmesi",
+        "en": "Aftermath: Heads sent to Damascus"
+      },
+      "date_range": {
+        "start": "11 Muharrem 61 AH",
+        "end": "~Safer 61 AH"
+      },
+      "duration": "birkaç hafta",
+      "description": {
+        "tr": "Hz. Hüseyin ve diğer şehitlerin başları İbn Ziyâd'a, oradan Yezîd'e gönderildi. Esir kadınlar (Zeyneb bint Ali, Ümmü Gülsüm) ve çocuklar Kûfe → Dımaşk'a götürüldü. Hz. Zeyneb'in İbn Ziyâd ve Yezîd huzurundaki cesur konuşmaları tarihî kayıtlara geçti.",
+        "en": "The heads of Ḥusayn and other martyrs were sent to Ibn Ziyād, then to Yazīd. Captive women (Zaynab bt. ʿAlī, Umm Kulthūm) and children were taken Kūfa → Damascus. Zaynab's brave speeches before Ibn Ziyād and Yazīd were recorded in history."
+      },
+      "events": [
+        {
+          "id": "E4_1",
+          "name_tr": "Hz. Zeyneb'in hutbesi",
+          "description_tr": "Yezîd'in sarayında cesurca konuşma; Kerbelâ'nın sesini dünyaya duyurdu."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "72 (kadın ve çocuklar hariç savaşan)",
+      "commander": "huseyin_b_ali",
+      "commander_name": {
+        "tr": "Hz. Hüseyin b. Ali",
+        "en": "Al-Ḥusayn b. ʿAlī"
+      },
+      "composition": {
+        "ehl_beyt": {
+          "note_tr": "Hâşimoğulları'ndan 17 kişi (Hz. Ali'nin evlatları ve torunları)"
+        },
+        "ashabı": {
+          "note_tr": "Hz. Hüseyin'in sadık arkadaşları — ~55 kişi"
+        }
+      },
+      "equipment": {
+        "note_tr": "Sınırlı silah; kılıç ve mızrak. Su yok."
+      }
+    },
+    "enemy": {
+      "total": "~4.000-30.000",
+      "commander_name": {
+        "tr": "Ömer b. Sa'd b. Ebî Vakkâs",
+        "en": "ʿUmar b. Saʿd b. Abī Waqqāṣ"
+      },
+      "composition": {
+        "kufe": {
+          "note_tr": "Kûfe kuvvetleri — İbn Ziyâd tarafından gönderilen"
+        },
+        "suvari": {
+          "note_tr": "Şimr b. Zilcevşen komutasında öncü birlik"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "V/386-470",
+        "note_tr": "En kapsamlı ve en erken kaynakların derlemesi."
+      },
+      {
+        "author": "İbnü'l-Esîr",
+        "work": "el-Kâmil",
+        "section": "IV/17-87",
+        "note_tr": "Dengeli anlatım."
+      },
+      {
+        "author": "Ebü'l-Ferec el-İsfahânî",
+        "work": "Mekâtilü't-Tâlibiyyîn",
+        "section": "",
+        "note_tr": "Tâlibî şehitlerinin detaylı kaydı."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Madelung",
+        "work": "The Succession to Muhammad",
+        "note_tr": "Kerbelâ'nın siyasi bağlamı."
+      },
+      {
+        "author": "H. Gökalp",
+        "work": "Hz. Hüseyin ve Kerbelâ",
+        "note_tr": "Ehl-i Sünnet perspektifinden Kerbelâ."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "169-171",
+      "topic": {
+        "tr": "Allah yolunda öldürülenleri ölü sanmayın; onlar Rableri katında diridirler",
+        "en": "Do not think of those killed in God's way as dead; they are alive with their Lord"
+      },
+      "key_verses": [
+        {
+          "ayah": 169,
+          "topic_tr": "Şehitlik mertebesi — Kerbelâ şehitleri için en sık zikredilen âyet",
+          "phase_id": "F3_asura"
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surah_name": "Şûrâ",
+      "ayah_range": "23",
+      "topic": {
+        "tr": "De ki: Bunun karşılığında sizden yakınlara sevgi dışında bir ücret istemiyorum (meveddet fi'l-kurbâ)",
+        "en": "Say: I ask no reward of you except love of near kin"
+      },
+      "key_verses": [
+        {
+          "ayah": 23,
+          "topic_tr": "Ehl-i Beyt sevgisi — Kerbelâ bağlamında temel referans",
+          "phase_id": "F3_asura"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hasan_huseyin_cennet",
+      "topic": "Hz. Peygamber: 'Hasan ve Hüseyin cennet gençlerinin efendileridir'",
+      "relevance": "direct",
+      "source": "Tirmizî, Menâkıb"
+    },
+    {
+      "hadith_id": "hds_huseyin_sevgi",
+      "topic": "Hz. Peygamber: 'Hüseyin bendendir, ben Hüseyin'denim. Allah Hüseyin'i seveni sevsin'",
+      "relevance": "direct",
+      "source": "Tirmizî; İbn Mâce"
+    },
+    {
+      "hadith_id": "hds_kerbela_toprak",
+      "topic": "Hz. Peygamber'in Cebrâîl'den Kerbelâ toprağı aldığı ve ağladığı rivayeti",
+      "relevance": "direct",
+      "source": "Ahmed b. Hanbel, Müsned; Hâkim, Müstedrek"
+    },
+    {
+      "hadith_id": "hds_ehl_beyt",
+      "topic": "Hz. Peygamber: 'Size iki ağır emanet bırakıyorum: Allah'ın Kitabı ve Ehl-i Beytim' (Hadîsü's-Sekaleyn)",
+      "relevance": "contextual",
+      "source": "Müslim, Fazâilü's-Sahâbe; Tirmizî"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Askeri olarak küçük çaplı (72 vs binlerce); ancak etkisi muazzam.",
+      "en": "Militarily small-scale (72 vs thousands); but its impact was immense."
+    },
+    "political": {
+      "tr": "Emevî yönetiminin meşruiyet krizi derinleşti. Tevvâbîn hareketi, Muhtâr isyanı, Abdullah b. Zübeyr'in hilafet ilanı tetiklendi.",
+      "en": "The Umayyad legitimacy crisis deepened. The Tawwābūn movement, al-Mukhtār's revolt, and ʿAbdullāh b. al-Zubayr's caliphate claim were triggered."
+    },
+    "theological": {
+      "tr": "Ehl-i Sünnet: Hz. Hüseyin mazlum şehit; Yezîd'in emri tartışmalı. Kerbelâ acısı evrensel. Şîa: Kerbelâ İslâm tarihinin merkezi; Âşûrâ yas günü. Her iki mezhepte de Ehl-i Beyt sevgisi esastır.",
+      "en": "Ahl al-Sunna: Ḥusayn was an oppressed martyr; Yazīd's role is debated. Karbalāʾ grief is universal. Shīʿa: Karbalāʾ is central to Islamic history; ʿĀshūrāʾ is a day of mourning. Love for Ahl al-Bayt is fundamental in both traditions."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "72 şehit (Hz. Hüseyin dahil)",
+        "note_tr": "Neredeyse tamamı öldürüldü; sadece Hz. Hüseyin'in hasta oğlu Ali Zeynelâbidîn hayatta kaldı."
+      },
+      "enemy": {
+        "killed": "az sayıda",
+        "note_tr": "Dengesiz güç."
+      }
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_tevvabin",
+        "name_tr": "Tevvâbîn Hareketi (65 AH)",
+        "description_tr": "Kerbelâ'ya katılmayanların pişmanlıkla başlattığı isyan."
+      },
+      {
+        "id": "evt_muhtar",
+        "name_tr": "Muhtâr b. Ebî Ubeyd İsyanı (66 AH)",
+        "description_tr": "Kerbelâ'nın intikamını almak amacıyla."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 13,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "sacred": "#FFD600"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_fetih_buhara",
+    "battle_id": "fetih_buhara",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 39.77,
+        "lng": 64.42
+      },
+      "name": "Buhârâ Fethi",
+      "modern_location": "Buhara, Özbekistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "90",
+      "duration": "",
+      "description": "Kuteybe Horasan'dan doğuya ilerledi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "90",
+      "duration": "",
+      "description": "Buhârâ ele geçirildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Kuteybe b. Müslim",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, VI/480",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 418",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_dogu_fetih",
+      "topic": "Hz. Peygamber: Doğu yönünden fetih ve fitne müjdesi",
+      "relevance": "contextual",
+      "source": "Buhârî, Fiten, 16"
+    }
+  ],
+  "impact": {
+    "result": "Fethedildi",
+    "significance": "İslâm'ın Mâverâünnehir'deki en önemli merkezi. İlim ve kültür şehri olacak.",
+    "cross_references": [
+      "fetih_semerkand"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

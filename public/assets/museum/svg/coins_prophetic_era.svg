@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF6E3"/>
+      <stop offset="100%" stop-color="#F5E6C8"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+    <radialGradient id="silver" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#909090"/>
+    </radialGradient>
+    <radialGradient id="bronze" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#D4956A"/>
+      <stop offset="50%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#8B5A2B"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="440" fill="url(#bg4)" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#3D2B1F">Asr-ı Saâdet'te Tedâvüldeki Sikkeler — العملات في العهد النبوي</text>
+  <text x="400" y="48" text-anchor="middle" font-size="12" fill="#6B4F12">Coins in Circulation during the Prophetic Era</text>
+
+  <!-- 1. Byzantine Dinar (Gold) -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="200" height="230" fill="#FFF8DC" stroke="#DAA520" rx="6" stroke-width="1.5"/>
+    <text x="100" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#8B6914">Bizans Dînârı (Solidus)</text>
+    <text x="100" y="40" text-anchor="middle" font-size="10" fill="#6B4F12">الدينار البيزنطي</text>
+    <!-- Coin -->
+    <circle cx="100" cy="100" r="50" fill="url(#gold)" stroke="#8B6914" stroke-width="2"/>
+    <circle cx="100" cy="100" r="44" fill="none" stroke="#B8860B" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <!-- Bust simplified -->
+    <circle cx="100" cy="88" r="10" fill="none" stroke="#8B6914" stroke-width="1.2"/>
+    <line x1="90" y1="98" x2="88" y2="115" stroke="#8B6914" stroke-width="1.2"/>
+    <line x1="110" y1="98" x2="112" y2="115" stroke="#8B6914" stroke-width="1.2"/>
+    <text x="100" y="130" text-anchor="middle" font-size="7" fill="#8B6914">☧</text>
+    <!-- Details -->
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#3D2B1F" font-weight="bold">Altın — ~4.25 g</text>
+    <text x="100" y="185" text-anchor="middle" font-size="9" fill="#6B4F12">= 1 miskâl (مثقال)</text>
+    <text x="100" y="200" text-anchor="middle" font-size="9" fill="#6B4F12">Herakleios dönemi</text>
+    <text x="100" y="215" text-anchor="middle" font-size="9" fill="#C44D3E">Zekât nisabı: 20 dinar</text>
+  </g>
+
+  <!-- 2. Sasanian Dirham (Silver) -->
+  <g transform="translate(300, 70)">
+    <rect x="0" y="0" width="200" height="230" fill="#FFF8DC" stroke="#909090" rx="6" stroke-width="1.5"/>
+    <text x="100" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Sâsânî Dirhemi</text>
+    <text x="100" y="40" text-anchor="middle" font-size="10" fill="#6B4F12">الدرهم الساساني</text>
+    <!-- Coin (larger, thinner) -->
+    <circle cx="100" cy="100" r="52" fill="url(#silver)" stroke="#777" stroke-width="2"/>
+    <circle cx="100" cy="100" r="46" fill="none" stroke="#999" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <!-- Simplified Sasanian crown profile -->
+    <circle cx="100" cy="88" r="10" fill="none" stroke="#666" stroke-width="1.2"/>
+    <path d="M90,80 Q100,68 110,80" fill="none" stroke="#666" stroke-width="1"/>
+    <line x1="100" y1="68" x2="100" y2="64" stroke="#666" stroke-width="1"/>
+    <circle cx="100" cy="62" r="2" fill="none" stroke="#666" stroke-width="0.8"/>
+    <!-- Fire altar on reverse hint -->
+    <text x="100" y="128" text-anchor="middle" font-size="7" fill="#666">☽</text>
+    <!-- Details -->
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#3D2B1F" font-weight="bold">Gümüş — ~2.975 g</text>
+    <text x="100" y="185" text-anchor="middle" font-size="9" fill="#6B4F12">Hüsrev II (Kisrâ) dönemi</text>
+    <text x="100" y="200" text-anchor="middle" font-size="9" fill="#6B4F12">Geniş, ince sikke</text>
+    <text x="100" y="215" text-anchor="middle" font-size="9" fill="#C44D3E">Zekât nisabı: 200 dirhem</text>
+  </g>
+
+  <!-- 3. Himyari Coin (Silver/Bronze) -->
+  <g transform="translate(520, 70)">
+    <rect x="0" y="0" width="200" height="230" fill="#FFF8DC" stroke="#B87333" rx="6" stroke-width="1.5"/>
+    <text x="100" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#8B5A2B">Himyerî Sikkesi</text>
+    <text x="100" y="40" text-anchor="middle" font-size="10" fill="#6B4F12">العملة الحميرية</text>
+    <!-- Coin (smaller) -->
+    <circle cx="100" cy="100" r="40" fill="url(#bronze)" stroke="#8B5A2B" stroke-width="2"/>
+    <circle cx="100" cy="100" r="34" fill="none" stroke="#A0724A" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <!-- Stylized South Arabian motif -->
+    <text x="100" y="95" text-anchor="middle" font-size="14" fill="#5A3E0E">𐩣</text>
+    <text x="100" y="115" text-anchor="middle" font-size="7" fill="#5A3E0E">ḥmyr</text>
+    <!-- Details -->
+    <text x="100" y="162" text-anchor="middle" font-size="10" fill="#3D2B1F" font-weight="bold">Gümüş/Bronz — değişken</text>
+    <text x="100" y="177" text-anchor="middle" font-size="9" fill="#6B4F12">Güney Arabistan menşeli</text>
+    <text x="100" y="192" text-anchor="middle" font-size="9" fill="#6B4F12">Atina taklidi drakhma</text>
+    <text x="100" y="207" text-anchor="middle" font-size="9" fill="#6B4F12">Hicaz'da tedavülde</text>
+    <text x="100" y="222" text-anchor="middle" font-size="9" fill="#4A7C59">Kur'ân: "dirhem" (12:20)</text>
+  </g>
+
+  <!-- Exchange context box -->
+  <rect x="80" y="315" width="640" height="55" fill="#E8F0E8" stroke="#4A7C59" rx="5"/>
+  <text x="400" y="335" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A7C59">Döviz Kuru (yaklaşık)</text>
+  <text x="400" y="352" text-anchor="middle" font-size="10" fill="#3D2B1F">1 Dinar (altın) ≈ 10 Dirhem (gümüş) — Hz. Ömer döneminde sabitlenmiştir</text>
+  <text x="400" y="366" text-anchor="middle" font-size="9" fill="#6B4F12">"Peygamber zamanında dinar-dirhem oranı değişkendi; Hz. Ömer 1:10 standardını koydu." (Mâverdî)</text>
+
+  <!-- Quranic ref box -->
+  <rect x="80" y="380" width="640" height="40" fill="#FFF8DC" stroke="#D4A574" rx="5"/>
+  <text x="400" y="397" text-anchor="middle" font-size="10" font-weight="bold" fill="#C44D3E">وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ (Yûsuf 12:20)</text>
+  <text x="400" y="412" text-anchor="middle" font-size="9" fill="#6B4F12">"Onu birkaç dirheme sattılar" — Kur'ân'da geçen ilk sikke referansı</text>
+
+  <text x="790" y="435" text-anchor="end" font-size="8" fill="#999">Dijital Siyer Müzesi v0.6.1 | Kaynak: Heck, Coinage of Early Islam; Foss, Arab-Byzantine Coins</text>
+</svg>

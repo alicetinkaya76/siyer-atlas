@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "recon_seriyye_necid",
+    "battle_id": "seriyye_necid",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.5,
+        "lng": 45.0
+      },
+      "name": "Necid bölgesi",
+      "modern_location": "Necid platosunun batısı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "Rebîülevvel 3",
+      "duration": "",
+      "description": "Gatafân'ın Medine'ye saldırı hazırlığı haberi üzerine çıkıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Rebîülevvel 3",
+      "duration": "",
+      "description": "Düşman dağlara çekildi, çatışma olmadı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Muhammed (s.a.v.)",
+      "estimated_troops": 450,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/193-195",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Caydırıcı etki, çatışma olmadı",
+    "significance": "Medine'nin kuzey ve doğu güvenliğinin sağlanması.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

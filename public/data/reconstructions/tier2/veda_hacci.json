@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "id": "reconstruction_veda_hacci",
+    "battle_id": "veda_hacci",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Vedâ Haccı (Haccetü'l-Vedâ, Zilhicce 10 AH / Mart 632 CE). Hz. Peygamber'in ilk ve son haccı. 100.000'den fazla sahâbîyle birlikte eda edildi. Vedâ Hutbesi İslam tarihinin en önemli konuşmalarından biri; insan hakları, eşitlik, kadın hakları, kan davası yasağı vb. temel ilkeler ilan edildi. Mâide 5:3 ('Bugün dininizi tamamladım') burada nâzil oldu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.4225,
+        "lng": 39.8262
+      },
+      "bbox": {
+        "north": 21.46,
+        "south": 21.35,
+        "east": 39.98,
+        "west": 39.75
+      },
+      "terrain_type": "harem_zone",
+      "terrain_desc": {
+        "tr": "Mekke ve çevresi: Kâbe (tavaf), Safâ-Merve (sa'y), Minâ (şeytan taşlama, kurban), Arafat (vakfe), Müzdelife (geceleme). Hac menâsikinin tamamı bu kutsal alan içinde eda edildi. Zilhicce ayında sıcak çöl iklimi; kalabalık yönetimi en büyük lojistik sorun.",
+        "en": "Mecca and surroundings: Ka'ba (tawaf), Safa-Marwa (sa'y), Mina (stoning, sacrifice), Arafat (standing), Muzdalifa (overnight). All hajj rites performed within this sacred zone. Hot desert climate in Dhul-Hijjah; crowd management the greatest logistical challenge."
+      }
+    },
+    "route": {
+      "origin": {
+        "name": "Medîne",
+        "lat": 24.4672,
+        "lng": 39.6112
+      },
+      "destination": {
+        "name": "Mekke / Arafat",
+        "lat": 21.3549,
+        "lng": 39.9842
+      },
+      "distance_km": "~450",
+      "duration": "~10 gün",
+      "waypoints": [
+        {
+          "name": "Zülhuleyfe (Mîkāt)",
+          "lat": 24.4147,
+          "lng": 39.5433,
+          "note_tr": "İhram bağlama noktası; Hz. Peygamber burada niyetini açıkladı."
+        },
+        {
+          "name": "Serf (Tenim yakını)",
+          "lat": 22.95,
+          "lng": 39.62,
+          "note_tr": "Güzergâh üzerinde mola noktası."
+        }
+      ]
+    },
+    "key_locations": [
+      {
+        "id": "loc_kabe",
+        "name_tr": "Kâbe-i Muazzama",
+        "lat": 21.4225,
+        "lng": 39.8262,
+        "type": "sacred",
+        "role_tr": "Kudüm tavafı ve vedâ tavafı burada yapıldı."
+      },
+      {
+        "id": "loc_safa_merve",
+        "name_tr": "Safâ - Merve",
+        "lat": 21.4234,
+        "lng": 39.8264,
+        "type": "sacred",
+        "role_tr": "Sa'y ibadeti; yedi defa gidip gelme."
+      },
+      {
+        "id": "loc_arafat",
+        "name_tr": "Arafat Dağı (Cebelü'r-Rahme)",
+        "lat": 21.3549,
+        "lng": 39.9842,
+        "type": "sacred",
+        "role_tr": "Vakfe yeri; Vedâ Hutbesi burada irad edildi. Haccın rüknü."
+      },
+      {
+        "id": "loc_muzdelife",
+        "name_tr": "Müzdelife",
+        "lat": 21.3814,
+        "lng": 39.9333,
+        "type": "sacred",
+        "role_tr": "Arafat'tan sonra geceleme yeri; Meş'ar-i Harâm."
+      },
+      {
+        "id": "loc_mina",
+        "name_tr": "Minâ",
+        "lat": 21.4133,
+        "lng": 39.8931,
+        "type": "sacred",
+        "role_tr": "Şeytan taşlama (cemerat), kurban kesimi, saç tıraşı."
+      },
+      {
+        "id": "loc_zulhuleyfe",
+        "name_tr": "Zülhuleyfe (Âbâr-ı Ali)",
+        "lat": 24.4147,
+        "lng": 39.5433,
+        "type": "mikat",
+        "role_tr": "Medîne halkının mîkāt noktası; Hz. Peygamber burada ihrama girdi."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Hac emri ve hazırlık",
+        "en": "Background: Hajj obligation and preparation"
+      },
+      "date_range": {
+        "hijri": "Zilkade 10 AH",
+        "ce": "Şubat 632"
+      },
+      "duration": "~10 gün hazırlık",
+      "description": {
+        "tr": "Hz. Peygamber haccı ilan etti; Medîne çevresinden ve tüm Arap Yarımadası'ndan kabileler toplandı. Yüz binden fazla kişi Medîne'ye akın etti. Hz. Peygamber, hac menâsikini bizzat öğreteceğini duyurdu; bu ilk ve tek haccıydı (umre dışında).",
+        "en": "The Prophet announced the Hajj pilgrimage; tribes from all over the Arabian Peninsula gathered. Over 100,000 people converged on Medina. The Prophet declared he would personally teach the Hajj rites; this was his first and only Hajj."
+      },
+      "events": [
+        {
+          "id": "E0_1_hac_ilani",
+          "name_tr": "Hac niyetinin ilanı",
+          "description_tr": "Hz. Peygamber Zilkade ayında hac yapacağını duyurdu. Tüm Müslümanlara çağrı gönderildi."
+        },
+        {
+          "id": "E0_2_kabileler_toplanma",
+          "name_tr": "Kabilelerin Medîne'de toplanması",
+          "description_tr": "Yemen, Necid, Bahreyn, Umman ve tüm Hicaz'dan Müslümanlar Medîne'ye geldi. Toplam 100.000'den fazla kişi."
+        }
+      ]
+    },
+    {
+      "id": "F1_ihram_yolculuk",
+      "order": 1,
+      "name": {
+        "tr": "İhram ve Mekke'ye yolculuk",
+        "en": "Ihram and journey to Mecca"
+      },
+      "date_range": {
+        "hijri": "25 Zilkade 10 AH (Cumartesi)",
+        "ce": "Şubat 632"
+      },
+      "duration": "~10 gün",
+      "description": {
+        "tr": "Hz. Peygamber öğle namazını kıldıktan sonra Medîne'den çıktı. Yanında hanımları (9 eş) ve kurbanlık develeri (100 deve) vardı. Zülhuleyfe'de (Âbâr-ı Ali / bugünkü Ebyâr Ali Mescidi) ihrama girdi. 'Lebbeyk Allāhümme lebbeyk' telbiyesini okudu. Kırân haccı niyeti yaptı (hac ve umre birlikte).",
+        "en": "The Prophet departed Medina after noon prayer. He had his wives (9) and sacrificial camels (100) with him. He entered ihram at Dhul-Hulayfah. He recited the talbiyah. He intended Qiran Hajj (Hajj and Umrah combined)."
+      },
+      "events": [
+        {
+          "id": "E1_1_medine_cikis",
+          "name_tr": "Medîne'den çıkış",
+          "description_tr": "Hz. Peygamber öğle namazından sonra Medîne'den yola çıktı. Ezvâc-ı tâhirât hevdeclerle taşındı."
+        },
+        {
+          "id": "E1_2_ihram",
+          "name_tr": "Zülhuleyfe'de ihram",
+          "description_tr": "Mîkāt noktasında gusül aldı, iki parça beyaz kumaş giydi, kırân haccına niyet etti. Telbiye başladı."
+        },
+        {
+          "id": "E1_3_kurbanlik_isaret",
+          "name_tr": "Kurbanlık develerin işaretlenmesi",
+          "description_tr": "100 kurbanlık deve kılâde (tasma) takılarak işaretlendi; Hz. Ali'nin Yemen'den getirdiği develer de dahil."
+        }
+      ]
+    },
+    {
+      "id": "F2_mekke_umre",
+      "order": 2,
+      "name": {
+        "tr": "Mekke'ye varış: Tavaf ve sa'y",
+        "en": "Arrival in Mecca: Tawaf and Sa'y"
+      },
+      "date_range": {
+        "hijri": "4 Zilhicce 10 AH (Pazar)",
+        "ce": "Mart 632"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Hz. Peygamber Mekke'ye sabah namazından sonra varıp Mescid-i Harâm'a girdi. Hacer-i Esved'i istilâm ederek tavafa başladı (kudüm tavafı). İlk 3 şavtta remel yaptı (hızlı yürüyüş). Sonra Safâ-Merve arasında sa'y yaptı. İhramdan çıkmadı (kırân haccı olduğu için). Sahâbîlere temettu' haccı yapanlara ihramdan çıkmalarını emretti.",
+        "en": "The Prophet arrived in Mecca after dawn prayer and entered Masjid al-Haram. He began tawaf by touching the Black Stone (tawaf al-qudum). He performed ramal in the first 3 circuits. Then sa'y between Safa and Marwa. He did not exit ihram (Qiran). He ordered those doing Tamattu' to exit ihram."
+      },
+      "events": [
+        {
+          "id": "E2_1_tavaf",
+          "name_tr": "Kudüm tavafı",
+          "description_tr": "7 şavt; ilk 3'te remel. Hacer-i Esved'i her şavtta istilâm."
+        },
+        {
+          "id": "E2_2_say",
+          "name_tr": "Safâ-Merve arasında sa'y",
+          "description_tr": "Hz. Peygamber Safâ tepesinden başlayarak 7 şavt sa'y yaptı."
+        },
+        {
+          "id": "E2_3_temettu_emri",
+          "name_tr": "Temettu' yapanlara ihramdan çıkma emri",
+          "description_tr": "Hz. Peygamber: 'İşimi bitirsem, kurbanlık getirmeseydim, ben de ihramdan çıkardım' buyurdu."
+        }
+      ]
+    },
+    {
+      "id": "F3_arafat_hutbe",
+      "order": 3,
+      "name": {
+        "tr": "Arafat vakfesi ve Vedâ Hutbesi",
+        "en": "Standing at Arafat and the Farewell Sermon"
+      },
+      "date_range": {
+        "hijri": "9 Zilhicce 10 AH (Cuma)",
+        "ce": "Mart 632"
+      },
+      "duration": "1 gün (öğleden güneş batımına)",
+      "description": {
+        "tr": "Haccın en büyük rüknü. Hz. Peygamber sabah Minâ'dan Arafat'a hareket etti. Nemire'de bir çadır kuruldu. Öğle vakti devesi Kasvâ üzerinde Uranet Vadisi'nde durarak tarihi Vedâ Hutbesi'ni irad etti. Hutbede: câhiliye âdetlerinin kaldırıldığı, kan davasının yasaklandığı, fâizin haram kılındığı, kadın haklarının teyit edildiği, ırk ayrımcılığının reddedildiği, can-mal-ırz dokunulmazlığının ilan edildiği mesajlar verildi. Rabîa b. Ümeyye hutbeyi cümle cümle tekrarlayarak kalabalığa ulaştırdı. Mâide 5:3 ('Bugün dininizi sizin için tamamladım...') burada nâzil oldu.",
+        "en": "The greatest pillar of Hajj. The Prophet moved from Mina to Arafat. A tent was pitched at Namirah. At noon, on his camel Qaswa, he delivered the historic Farewell Sermon in the Valley of Uranah. Key themes: abolition of pre-Islamic customs, prohibition of blood vengeance, ban on usury, women's rights, rejection of racial discrimination, sanctity of life, property, and honor. Rabi'a ibn Umayya repeated the sermon sentence by sentence for the crowd. Quran 5:3 ('Today I have perfected your religion') was revealed here."
+      },
+      "events": [
+        {
+          "id": "E3_1_arafat_varis",
+          "name_tr": "Arafat'a varış",
+          "description_tr": "Sabah namazını Minâ'da kıldıktan sonra Arafat'a hareket. Nemire'de çadır kuruldu."
+        },
+        {
+          "id": "E3_2_veda_hutbesi",
+          "name_tr": "Vedâ Hutbesi",
+          "description_tr": "Öğle vakti Uranet Vadisi'nde Kasvâ üzerinde hutbe. İslam tarihinin en kapsamlı insan hakları beyanı: 'İnsanlar! Arabın Acem'e, Acem'in Arap'a üstünlüğü yoktur; üstünlük ancak takvâ iledir.' Rabîa b. Ümeyye cümleleri tekrarladı."
+        },
+        {
+          "id": "E3_3_maide_3",
+          "name_tr": "Mâide 5:3 nüzûlü",
+          "description_tr": "'Bugün sizin için dininizi kemâle erdirdim, üzerinizdeki nimetimi tamamladım ve din olarak İslâm'ı seçtim.' Bu âyet nâzil olduğunda Hz. Ömer ağladı."
+        },
+        {
+          "id": "E3_4_vakfe",
+          "name_tr": "Arafat vakfesi",
+          "description_tr": "Öğleden güneş batımına kadar dua ve zikir ile vakfe. 'Hac Arafat'tır' hadisinin tecellisi."
+        }
+      ]
+    },
+    {
+      "id": "F4_muzdelife_mina",
+      "order": 4,
+      "name": {
+        "tr": "Müzdelife, Minâ ve menâsik tamamlama",
+        "en": "Muzdalifah, Mina and completing the rites"
+      },
+      "date_range": {
+        "hijri": "10-13 Zilhicce 10 AH",
+        "ce": "Mart 632"
+      },
+      "duration": "4 gün",
+      "description": {
+        "tr": "Güneş battıktan sonra Arafat'tan Müzdelife'ye hareket; akşam ve yatsı namazları cem-i tehîr ile kılındı. Sabah Meş'ar-i Harâm'da dua. Sonra Minâ'ya geçildi. 10 Zilhicce (Bayram günü): Akabe Cemresi taşlama → kurban (Hz. Peygamber kendi eliyle 63 deve kesti, geri kalanı Hz. Ali tamamladı) → saç tıraşı (halâk) → tavâf-ı ifâza. Teşrik günlerinde (11-13 Zilhicce) üç cemreye taşlama. Hz. Peygamber her aşamada 'Menâsikinizi benden alın; belki bu yıldan sonra sizi göremem' buyurdu.",
+        "en": "After sunset moved from Arafat to Muzdalifah; Maghrib and Isha prayed combined. Morning du'a at Mash'ar al-Haram. Then to Mina. 10 Dhul-Hijjah (Eid): Stoning Jamrat al-Aqabah → sacrifice (Prophet sacrificed 63 camels himself, Ali completed the rest) → head shaving → Tawaf al-Ifadah. During Tashriq days (11-13): stoning three Jamarat. The Prophet said at each step: 'Learn your rites from me; perhaps I will not see you after this year.'"
+      },
+      "events": [
+        {
+          "id": "E4_1_muzdelife",
+          "name_tr": "Müzdelife gecelemesi",
+          "description_tr": "Akşam ve yatsı cem edildi. Sabaha kadar istirahat; Meş'ar-i Harâm'da dua."
+        },
+        {
+          "id": "E4_2_cemre",
+          "name_tr": "Akabe Cemresi taşlama ve kurban",
+          "description_tr": "10 Zilhicce: 7 taş ile Akabe Cemresi; 100 deve kurban (63'ünü Hz. Peygamber, 37'sini Hz. Ali kesti). Hz. Peygamber saçını tıraş ettirdi."
+        },
+        {
+          "id": "E4_3_tavaf_ifaza",
+          "name_tr": "Tavâf-ı ifâza",
+          "description_tr": "Kâbe'de 7 şavt farz tavaf. Zemzem içildi. Hac rükünleri tamamlandı."
+        },
+        {
+          "id": "E4_4_tesrik",
+          "name_tr": "Teşrik günleri taşlama",
+          "description_tr": "11-13 Zilhicce: Küçük, orta ve büyük cemrelere günlük 7'şer taş atıldı."
+        }
+      ]
+    },
+    {
+      "id": "F5_donus_miras",
+      "order": 5,
+      "name": {
+        "tr": "Medîne'ye dönüş ve mirasın kalıcılığı",
+        "en": "Return to Medina and lasting legacy"
+      },
+      "date_range": {
+        "hijri": "14+ Zilhicce 10 AH",
+        "ce": "Mart 632"
+      },
+      "duration": "~10 gün",
+      "description": {
+        "tr": "Hz. Peygamber vedâ tavafını yaptıktan sonra Medîne'ye döndü. Mekke'de Attâb b. Esîd'i vali olarak bıraktı. Bu hac Hz. Peygamber'in son büyük kamusal eylemi oldu; ~3 ay sonra (Rebîülevvel 11 AH) vefat etti. Vedâ Hutbesi İslam medeniyetinin temel referans metni haline geldi; insan hakları, ekonomi, sosyal adalet ilkeleri kurumsallaştı.",
+        "en": "The Prophet performed the farewell tawaf and returned to Medina. He left Attab ibn Asid as governor in Mecca. This was the Prophet's last major public act; he passed away ~3 months later (Rabi' al-Awwal 11 AH). The Farewell Sermon became a foundational reference text for Islamic civilization, institutionalizing principles of human rights, economics, and social justice."
+      },
+      "events": [
+        {
+          "id": "E5_1_veda_tavafi",
+          "name_tr": "Vedâ tavafı",
+          "description_tr": "Hz. Peygamber son tavafını yaparak Mekke'ye vedâ etti. Kâbe'ye bakarak: 'Vallahi, sen Allah'ın en sevdiği yerisin; çıkarılmasaydım çıkmazdım' buyurdu."
+        },
+        {
+          "id": "E5_2_donus",
+          "name_tr": "Medîne'ye dönüş",
+          "description_tr": "Büyük sahâbî kitlesiyle Medîne'ye dönüldü. Hz. Peygamber yol boyunca hac menâsikini öğretmeye devam etti."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "100.000+ (bazı rivâyetler 124.000)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "İlk Müslümanlar; Medîne'nin çekirdek topluluğu."
+        },
+        "ansar": {
+          "note_tr": "Evs ve Hazrec; tam katılım."
+        },
+        "general": {
+          "note_tr": "Tüm Arap Yarımadası'ndan yeni Müslüman kabileler; Yemen, Bahreyn, Umman, Necid heyet ve grupları. Mekke'nin fethinden sonra Müslüman olan kitleler dahil."
+        }
+      },
+      "logistics": {
+        "note_tr": "100 kurbanlık deve Hz. Peygamber'in; ayrıca her aile kendi kurbanını getirdi. Yol boyunca su ve erzak istasyonları. Ezvâc-ı tâhirât hevdeclerle."
+      }
+    },
+    "enemy": {
+      "total": "—",
+      "description": {
+        "tr": "Vedâ Haccı bir askerî harekât değildir; düşman unsur yoktur. Tüm Arabistan 10 AH itibarıyla büyük ölçüde Müslüman olmuştur.",
+        "en": "The Farewell Pilgrimage was not a military operation; no enemy forces. By 10 AH, Arabia had largely embraced Islam."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Haccetü'l-Vedâ",
+        "note_tr": "Haccın genel seyri ve Vedâ Hutbesi'nin rivâyeti."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Haccetü'l-Vedâ",
+        "note_tr": "Hac lojistiği ve sahâbe anlatıları."
+      },
+      {
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-Kübrâ",
+        "section": "Haccetü'l-Vedâ",
+        "note_tr": "Katılımcı sayıları ve menâsik detayları."
+      },
+      {
+        "author": "Müslim",
+        "work": "Sahîh",
+        "section": "Kitâbü'l-Hac, Câbir hadisi",
+        "note_tr": "Câbir b. Abdullah'ın uzun hac hadisi — menâsiklerin en detaylı rivâyeti."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Kayyim el-Cevziyye",
+        "work": "Zâdü'l-Meâd",
+        "note_tr": "Hac menâsikinin fıkhî tahlili ve seyir kronolojisi."
+      },
+      {
+        "author": "Hamîdullah, Muhammed",
+        "work": "İslâm Peygamberi",
+        "note_tr": "Vedâ Hutbesi'nin modern analizi ve insan hakları bağlamı."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 5,
+      "surah_name": "Mâide",
+      "ayah_range": "3",
+      "phase_id": "F3_arafat_hutbe",
+      "topic": {
+        "tr": "Dinin tamamlanması: 'Bugün sizin için dininizi kemâle erdirdim, üzerinizdeki nimetimi tamamladım ve din olarak İslâm'ı seçtim.'",
+        "en": "Perfection of religion: 'Today I have perfected your religion for you, completed My favor upon you, and chosen Islam as your religion.'"
+      },
+      "key_verses": [
+        {
+          "ayah": 3,
+          "topic_tr": "İkmal-i din; Arafat'ta Cuma günü nâzil oldu",
+          "phase_id": "F3_arafat_hutbe"
+        }
+      ]
+    },
+    {
+      "surah": 110,
+      "surah_name": "Nasr",
+      "ayah_range": "1-3",
+      "phase_id": "F5_donus_miras",
+      "topic": {
+        "tr": "Allah'ın yardımı ve fetih geldiğinde, insanların akın akın İslâm'a girdiğini gördüğünde — Vedâ Haccı bu âyetin somut tecellisi",
+        "en": "When the help of Allah and the conquest come, and you see people entering Allah's religion in multitudes — the Farewell Hajj as the concrete manifestation of this verse"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Nasr ve fetih: kitlesel İslâm'a giriş",
+          "phase_id": "F5_donus_miras"
+        },
+        {
+          "ayah": 2,
+          "topic_tr": "İnsanların dalga dalga (efvâcen) İslâm'a girmesi — Vedâ Haccı'ndaki 100.000+ kişi",
+          "phase_id": "F5_donus_miras"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_veda_cabir_menasik",
+      "topic": "Câbir b. Abdullah'ın Hz. Peygamber'in hac menâsikini adım adım anlatan uzun rivâyeti — ihram, tavaf, sa'y, vakfe, taşlama",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_veda_hutbe_haklar",
+      "topic": "Vedâ Hutbesi: Kanlarınız, mallarınız, ırzlarınız birbirinize haramdır — ırk eşitliği, kadın hakları, fâiz yasağı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_veda_menasik_alin",
+      "topic": "Hz. Peygamber'in 'Menâsikinizi benden alın; belki bu yıldan sonra benimle hac yapamazsınız' buyruğu",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "religious": {
+      "tr": "Hac menâsikinin Hz. Peygamber tarafından bizzat öğretildiği tek hac. İslam fıkhında hac hükümlerinin temel kaynağı. Mâide 5:3 ile dinin tamamlandığı ilan edildi. Kırân, temettu' ve ifrâd hac türlerinin uygulama örneği.",
+      "en": "The only Hajj personally taught by the Prophet. Primary source for Hajj rulings in Islamic jurisprudence. Quran 5:3 declared the completion of religion. Practical demonstration of Qiran, Tamattu', and Ifrad Hajj types."
+    },
+    "political": {
+      "tr": "Arabistan'ın siyasî birliğinin en büyük göstergesi: 100.000+ Müslüman tek lider altında, barış içinde hac eda etti. Kabile çatışmalarının sona erdiğinin somut kanıtı. Câhiliye düzeninin resmen bitmesi.",
+      "en": "Greatest demonstration of Arabian political unity: 100,000+ Muslims performing Hajj under one leader, in peace. Concrete proof of the end of tribal conflicts. Official termination of the pre-Islamic order."
+    },
+    "social": {
+      "tr": "Vedâ Hutbesi evrensel insan hakları beyannamesi niteliğinde: ırk eşitliği ('Arabın Acem'e üstünlüğü yoktur'), kadın hakları ('Kadınlar hakkında Allah'tan korkun'), can-mal-ırz dokunulmazlığı, fâiz yasağı, kan davası kaldırımı. İslam medeniyetinin sosyal sözleşme metni.",
+      "en": "The Farewell Sermon constituted a universal declaration of human rights: racial equality, women's rights, sanctity of life/property/honor, prohibition of usury, abolition of blood vengeance. The social contract text of Islamic civilization."
+    },
+    "legacy": {
+      "tr": "Hz. Peygamber'in ~3 ay sonra vefat etmesiyle Vedâ Haccı vasiyet-nâme niteliği kazandı. Hutbe İslam dünyasında her yıl hatırlanır ve tekrar edilir. Modern insan hakları söylemiyle sıkça karşılaştırılır.",
+      "en": "With the Prophet's death ~3 months later, the Farewell Hajj acquired the character of a testament. The sermon is annually commemorated across the Muslim world. Frequently compared with modern human rights discourse."
+    }
+  },
+  "visualization": {
+    "default_zoom": 10,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "sacred": "#6A1B9A",
+      "route_march": "#1565C0",
+      "landmark": "#FF8F00",
+      "hutbe": "#C62828"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_sacred_sites",
+        "name": "Kutsal mekânlar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_route",
+        "name": "Hac güzergâhı (Medîne → Mekke → Arafat → Müzdelife → Minâ)",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Menâsik fazları",
+        "type": "overlay",
+        "default_visible": false
+      }
+    ]
+  }
+}

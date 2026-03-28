@@ -1,0 +1,1680 @@
+{
+  "meta": {
+    "id": "reconstruction_tebuk",
+    "battle_id": "gazve_tebuk",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Tebük Seferi — Hz. Peygamber'in son büyük gazvesi (Receb 9 AH / Ekim 630). 'Gazvetü'l-Usre' (Zorluk Seferi): şiddetli sıcak, kıtlık, hurma mevsimi, ~700 km mesafe. İslâm tarihinin en büyük ordusu: 30.000 kişi. Bizans karşılaşmadan çekildi — savaş olmadı. Münâfıkların en büyük imtihanı, Mescid-i Dırâr'ın yıkılması, üç sahâbînin 50 gün boykotu. Tevbe sûresinin büyük bölümü Tebük hakkında. Diplomatik zaferler: Eyle, Cerba, Ezruh, Dûmetü'l-Cendel anlaşmaları. Bedir/Uhud/Hendek/Hayber/Mekke Fethi/Huneyn/Mûte şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 28.3835,
+        "lng": 36.5662
+      },
+      "bbox": {
+        "north": 30.0,
+        "south": 24.0,
+        "east": 40.0,
+        "west": 34.5
+      },
+      "terrain_type": "desert_oasis",
+      "terrain_desc": {
+        "tr": "Tebük, bugünkü Suudi Arabistan'ın kuzeybatısında, Hicaz ile Şam arasındaki ticaret yolu üzerinde stratejik bir vaha şehridir. Medîne'den kuzeye ~700 km mesafededir. Bölge kurak çöl iklimindedir; yazın sıcaklık 45°C'yi aşar. Sefer Receb ayında (Ekim 630) yapılmış olup şiddetli sıcak ve kuraklık koşullarında gerçekleşmiştir. Tebük vahası su kaynakları bakımından önemli bir konaklama noktasıydı. Güzergâh boyunca Hicr/Medâin-i Sâlih (Semûd kalıntıları) gibi tarihî bölgelerden geçilmiştir. Bizans sınırına yakınlığı nedeniyle askerî açıdan hassas bir bölgedir.",
+        "en": "Tabuk is a strategic oasis city in northwest modern Saudi Arabia, on the trade route between Hejaz and Damascus, approximately 700 km north of Medina. The region has an arid desert climate; summer temperatures exceed 45°C. The expedition took place in Rajab (October 630) under extreme heat and drought conditions. The Tabuk oasis was an important stopover point for its water sources. The route passed through historic areas like Hijr/Mada'in Salih (Thamud ruins). Its proximity to the Byzantine frontier made it a militarily sensitive zone."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_tebuk_01",
+        "name": {
+          "tr": "Tebük Vahası — Karargâh",
+          "en": "Tabuk Oasis — Main Camp"
+        },
+        "lat": 28.3835,
+        "lng": 36.5662,
+        "type": "camp",
+        "note_tr": "Hz. Peygamber'in ordusuyla 20 gün konakladığı ana karargâh. Tebük pınarı başlangıçta az su veriyordu; Hz. Peygamber'in duasıyla bereketlendi. Burada diplomatik müzakereler yürütüldü.",
+        "note_en": "Main camp where the Prophet stationed his army for 20 days. The Tabuk spring initially gave little water; it became abundant after the Prophet's supplication. Diplomatic negotiations were conducted here."
+      },
+      {
+        "id": "lm_tebuk_02",
+        "name": {
+          "tr": "Medîne — Seferin Başlangıcı",
+          "en": "Medina — Expedition's Start"
+        },
+        "lat": 24.4672,
+        "lng": 39.6112,
+        "type": "departure",
+        "note_tr": "Ordunun toplanma ve hareket noktası. Hz. Ali burada 'halîfe' olarak bırakıldı. Münâfıkların geri kaldığı şehir. Ka'b b. Mâlik burada oyalanarak sefere katılamadı.",
+        "note_en": "Assembly and departure point. Ali was left behind as 'deputy'. The city where hypocrites stayed behind. Ka'b ibn Malik procrastinated here and missed the expedition."
+      },
+      {
+        "id": "lm_tebuk_03",
+        "name": {
+          "tr": "Hicr / Medâin-i Sâlih — Semûd Harabeleri",
+          "en": "Hijr / Mada'in Salih — Thamud Ruins"
+        },
+        "lat": 26.78,
+        "lng": 37.95,
+        "type": "waypoint",
+        "note_tr": "Semûd kavminin helâk edildiği yer (Kur'ân: A'râf 7:73-79, Hicr 15:80-84). Hz. Peygamber burada durdu, askerlere Semûd'un kuyularından su içmemelerini, hamur yoğurmuşlarsa hayvanlarına yedirmelerini emretti. 'Ağlayarak geçin veya hiç geçmeyin' dedi. İbretlik bir mola.",
+        "note_en": "Site where the Thamud people were destroyed (Quran: A'raf 7:73-79, Hijr 15:80-84). The Prophet stopped here and ordered soldiers not to drink from Thamud's wells. He said 'Pass through weeping or do not pass at all.' A sobering lesson."
+      },
+      {
+        "id": "lm_tebuk_04",
+        "name": {
+          "tr": "Eyle (Aylah) — Yuhanna b. Ru'be'nin Şehri",
+          "en": "Ayla (Aqaba) — City of Yuhanna ibn Ru'ba"
+        },
+        "lat": 29.52,
+        "lng": 35.0,
+        "type": "diplomacy",
+        "note_tr": "Kızıldeniz'in kuzeydoğu ucunda liman şehri (bugünkü Akabe, Ürdün). Hristiyan hükümdarı Yuhanna b. Ru'be, Hz. Peygamber'e gelip cizye ve barış antlaşması yaptı. Ticaret serbestisi ve can-mal güvencesi verildi. İlk deniz bağlantılı diplomatik anlaşma.",
+        "note_en": "Port city at the northeast tip of the Red Sea (modern Aqaba, Jordan). Christian ruler Yuhanna ibn Ru'ba came to the Prophet and agreed to pay jizya and signed a peace treaty. Trade freedom and protection of life and property were granted. First maritime-connected diplomatic agreement."
+      },
+      {
+        "id": "lm_tebuk_05",
+        "name": {
+          "tr": "Dûmetü'l-Cendel — Hâlid b. Velîd'in Seferi",
+          "en": "Dumat al-Jandal — Khalid ibn al-Walid's Expedition"
+        },
+        "lat": 29.8119,
+        "lng": 39.8714,
+        "type": "diplomacy",
+        "note_tr": "Kuzey Arabistan'ın önemli ticaret merkezi (bugünkü el-Cevf). Hz. Peygamber Hâlid b. Velîd'i 420 süvari ile buraya gönderdi. Hristiyan hükümdarı Ükeydir b. Abdülmelik el-Kindî yakalanıp Tebük'e getirildi; barış antlaşması imzalandı. 2.000 deve, 800 esir, 400 zırh ganimet alındı.",
+        "note_en": "Important trading center in northern Arabia (modern al-Jawf). The Prophet sent Khalid ibn al-Walid with 420 cavalry. Christian ruler Ukaydir ibn Abd al-Malik al-Kindi was captured and brought to Tabuk; a peace treaty was signed. 2,000 camels, 800 captives, 400 coats of mail were taken as spoils."
+      },
+      {
+        "id": "lm_tebuk_06",
+        "name": {
+          "tr": "Cerba ve Ezruh",
+          "en": "Jarba and Adhruh"
+        },
+        "lat": 29.85,
+        "lng": 35.45,
+        "type": "diplomacy",
+        "note_tr": "Şam-Filistin arasında iki küçük yerleşim. Halkları Hz. Peygamber'e gelip cizye ödemeyi ve barış antlaşması yapmayı kabul etti. Bizans nüfuz alanındaki toplulukların İslâm devletiyle doğrudan anlaşma yapması stratejik önem taşıyordu.",
+        "note_en": "Two small settlements between Damascus and Palestine. Their people came to the Prophet agreeing to pay jizya and sign peace treaties. Communities in the Byzantine sphere of influence making direct agreements with the Islamic state was strategically significant."
+      },
+      {
+        "id": "lm_tebuk_07",
+        "name": {
+          "tr": "Mescid-i Dırâr — Münâfıkların Mescidi",
+          "en": "Masjid al-Dirar — Mosque of the Hypocrites"
+        },
+        "lat": 24.4397,
+        "lng": 39.6164,
+        "type": "event",
+        "note_tr": "Münâfıklar, Hz. Peygamber seferdeyken Kubâ Mescidi'ne rakip bir mescid inşa ettiler. Ebû Âmir er-Râhib ile irtibatlıydılar. Hz. Peygamber Tebük'ten dönerken vahiy geldi (Tevbe 9:107-110); mescidi yıktırdı. İslâm tarihinin en meşhur 'fitne mescidi' olayı.",
+        "note_en": "Hypocrites built a rival mosque to Quba Mosque while the Prophet was on expedition. They were in contact with Abu Amir the Monk. Revelation came as the Prophet returned from Tabuk (Tawba 9:107-110); he had the mosque demolished. The most famous 'mosque of dissension' incident in Islamic history."
+      },
+      {
+        "id": "lm_tebuk_08",
+        "name": {
+          "tr": "Seniyyetü'l-Vedâ — Karşılama Noktası",
+          "en": "Thaniyyat al-Wada — Welcome Point"
+        },
+        "lat": 24.48,
+        "lng": 39.61,
+        "type": "event",
+        "note_tr": "Medîne'nin kuzey girişindeki geçit. Ordunun hem gidiş hem dönüşte geçtiği sembolik nokta. Medîne halkının sefere çıkanları uğurladığı ve dönüşte karşıladığı yer.",
+        "note_en": "Pass at the northern entrance of Medina. Symbolic point the army passed through on both departure and return. Where the Medinan people saw off the departing army and welcomed them back."
+      },
+      {
+        "id": "lm_tebuk_09",
+        "name": {
+          "tr": "Tebük Mescidi",
+          "en": "Tabuk Mosque"
+        },
+        "lat": 28.385,
+        "lng": 36.568,
+        "type": "landmark",
+        "note_tr": "Hz. Peygamber'in Tebük'te 20 gün boyunca namaz kıldığı yer. Bugün 'Mescid-i Tevbe' olarak da anılır. Osmanlı döneminde yeniden inşa edilmiştir.",
+        "note_en": "Site where the Prophet prayed during 20 days at Tabuk. Today also known as 'Masjid al-Tawba'. Rebuilt during the Ottoman period."
+      },
+      {
+        "id": "lm_tebuk_10",
+        "name": {
+          "tr": "Tebük Pınarı",
+          "en": "Tabuk Spring"
+        },
+        "lat": 28.384,
+        "lng": 36.567,
+        "type": "landmark",
+        "note_tr": "Ordunun ulaştığında çok az su veren pınar. Hz. Peygamber elini suya koyup dua etti; bolluca su akmaya başladı. Mucizevî bereket rivâyeti kaynaklarda geniş yer tutar (Müslim, Fedâil).",
+        "note_en": "Spring that yielded very little water when the army arrived. The Prophet placed his hand in the water and prayed; water began flowing abundantly. The miraculous blessing narrative is prominent in sources (Muslim, Fada'il)."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_tebuk",
+        "name": {
+          "tr": "Medîne → Hicr → Tebük Sefer Güzergâhı",
+          "en": "Medina → Hijr → Tabuk Expedition Route"
+        },
+        "type": "march",
+        "distance_km": 700,
+        "note_tr": "30.000 kişilik ordunun Medîne'den Tebük'e ~700 km'lik yürüyüşü. Hicaz-Şam ticaret yolu boyunca kuzeye ilerleme. Hicr/Medâin-i Sâlih'te mola ve ibret dersi. Şiddetli sıcak, su kıtlığı ve erzak yetersizliği nedeniyle 'Usre' (zorluk) seferi. Yaklaşık 15-20 günlük yürüyüş.",
+        "note_en": "~700 km march of the 30,000-strong army from Medina to Tabuk. Northward advance along the Hejaz-Damascus trade route. Stop at Hijr/Mada'in Salih for reflection and moral lesson. Called the 'Hardship' expedition due to extreme heat, water scarcity, and insufficient provisions. Approximately 15-20 day march.",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "name": "Medîne"
+          },
+          {
+            "lat": 25.2,
+            "lng": 39.3,
+            "name": "Zü'l-Merve"
+          },
+          {
+            "lat": 25.8,
+            "lng": 38.8,
+            "name": "el-Ulâ civarı"
+          },
+          {
+            "lat": 26.78,
+            "lng": 37.95,
+            "name": "Hicr / Medâin-i Sâlih"
+          },
+          {
+            "lat": 27.5,
+            "lng": 37.3,
+            "name": "Vâdi'l-Kurâ civarı"
+          },
+          {
+            "lat": 28.3835,
+            "lng": 36.5662,
+            "name": "Tebük"
+          }
+        ]
+      },
+      {
+        "id": "route_tebuk_medine_return",
+        "name": {
+          "tr": "Tebük → Medîne Dönüş Güzergâhı",
+          "en": "Tabuk → Medina Return Route"
+        },
+        "type": "return",
+        "distance_km": 700,
+        "note_tr": "Aynı güzergâhtan dönüş. Dönüşte Mescid-i Dırâr'ın yıkılması emri geldi. Münâfıkların Akabe suikast teşebbüsü rivâyeti var (Tebük dönüşü Akabe geçidinde). Medîne'ye yaklaşırken 'Uhud bizi sever, biz de onu severiz' hadisi.",
+        "note_en": "Return via the same route. On the way back, the order came to demolish Masjid al-Dirar. There is a narration about the hypocrites' assassination attempt at the Aqaba pass on the return. As they approached Medina: 'Uhud loves us and we love it' hadith.",
+        "waypoints": [
+          {
+            "lat": 28.3835,
+            "lng": 36.5662,
+            "name": "Tebük"
+          },
+          {
+            "lat": 26.78,
+            "lng": 37.95,
+            "name": "Hicr"
+          },
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "name": "Medîne"
+          }
+        ]
+      },
+      {
+        "id": "route_halid_dumetulcendel",
+        "name": {
+          "tr": "Tebük → Dûmetü'l-Cendel (Hâlid b. Velîd Müfrezesi)",
+          "en": "Tabuk → Dumat al-Jandal (Khalid ibn al-Walid Detachment)"
+        },
+        "type": "detachment",
+        "distance_km": 350,
+        "note_tr": "Hz. Peygamber'in Hâlid b. Velîd'i 420 süvari ile Dûmetü'l-Cendel'e göndermesi. Hristiyan hükümdarı Ükeydir'in yakalanması. ~350 km mesafe. Hâlid'in sürat ve baskın yeteneği bir kez daha ortaya çıktı.",
+        "note_en": "The Prophet sending Khalid ibn al-Walid with 420 cavalry to Dumat al-Jandal. Capture of Christian ruler Ukaydir. ~350 km distance. Khalid's speed and raiding ability demonstrated once again.",
+        "waypoints": [
+          {
+            "lat": 28.3835,
+            "lng": 36.5662,
+            "name": "Tebük"
+          },
+          {
+            "lat": 29.0,
+            "lng": 38.0,
+            "name": "Ara konak"
+          },
+          {
+            "lat": 29.8119,
+            "lng": 39.8714,
+            "name": "Dûmetü'l-Cendel"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Bizans tehdidi, Mûte'nin etkisi, Herakleios'un hazırlıkları",
+        "en": "Background: Byzantine threat, aftermath of Mu'tah, Heraclius's preparations"
+      },
+      "date_range": "Receb 9 AH öncesi (630 CE başı)",
+      "duration": "~birkaç ay (haberlerin birikmesi)",
+      "description": {
+        "tr": "Mûte Savaşı'ndan (8 AH) sonra Bizans, Müslümanları ciddiye almaya başlamıştı. Hâlid b. Velîd'in Mûte'den orduyu kurtararak dönmesi, Bizans cephesinde şok etkisi yaratmıştı. Mekke'nin fethi (Ramazan 8 AH) ve Huneyn zaferi (Şevval 8 AH) ile İslâm devleti Arap Yarımadası'nın tartışmasız gücü haline gelmişti.\n\nBizans İmparatoru Herakleios'un (610-641), Müslümanlara karşı büyük bir ordu hazırladığı haberleri Medîne'ye ulaştı. Gassânî ve diğer Hristiyan Arap kabilelerinin Bizans ordusuna katıldığı söyleniyordu. Nabatlı tüccarlar ve Şam'dan gelen haberler bu bilgiyi doğruluyordu. Bu, İslâm devletinin kuzeyde ciddi bir tehdit altında olduğu anlamına geliyordu.\n\nHz. Peygamber, tehdidin ciddiyetini görerek tarihte ilk kez hedefi açıkça ilan etti — normalde seferlerde hedefi gizli tutardı. Bunun sebebi mesafenin uzunluğu ve hazırlığın büyüklüğüydü; herkesin tam donanımlı gelmesi gerekiyordu.",
+        "en": "After the Battle of Mu'tah (8 AH), Byzantium had begun taking the Muslims seriously. Khalid ibn al-Walid's rescue of the army from Mu'tah had created a shock on the Byzantine front. With the Conquest of Mecca (Ramadan 8 AH) and the victory at Hunayn (Shawwal 8 AH), the Islamic state had become the undisputed power of the Arabian Peninsula.\n\nReports reached Medina that Byzantine Emperor Heraclius (610-641) was preparing a large army against the Muslims. Ghassanid and other Christian Arab tribes were reportedly joining the Byzantine forces. Nabataean merchants and news from Damascus confirmed this intelligence. This meant the Islamic state faced a serious threat from the north.\n\nThe Prophet, seeing the gravity of the threat, announced the target openly for the first time in history — he normally kept expedition destinations secret. This was because of the great distance and the massive scale of preparation needed; everyone had to come fully equipped."
+      },
+      "key_events": [
+        {
+          "id": "F0_E1",
+          "event": {
+            "tr": "Mûte Savaşı'ndan sonra Bizans cephesinde tansiyon artması (8 AH sonrası)",
+            "en": "Rising tensions on the Byzantine front after the Battle of Mu'tah (post-8 AH)"
+          }
+        },
+        {
+          "id": "F0_E2",
+          "event": {
+            "tr": "Herakleios'un Müslümanlara karşı büyük bir ordu hazırladığı haberi Medîne'ye ulaşması",
+            "en": "News reaching Medina that Heraclius was preparing a large army against the Muslims"
+          }
+        },
+        {
+          "id": "F0_E3",
+          "event": {
+            "tr": "Gassânî ve Hristiyan Arap kabilelerin Bizans ordusuna katılma haberleri",
+            "en": "Reports of Ghassanid and Christian Arab tribes joining the Byzantine army"
+          }
+        },
+        {
+          "id": "F0_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in hedefi açıkça ilan etmesi — tarihte ilk kez",
+            "en": "The Prophet openly declaring the target — for the first time in history"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Başkomutan — hedefi ilan eden",
+            "en": "Supreme Commander — declaring the target"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F0_1",
+          "topic": {
+            "tr": "Bizans ordusunun gerçekliği",
+            "en": "Reality of the Byzantine army"
+          },
+          "detail": {
+            "tr": "Bizans'ın gerçekten büyük bir ordu hazırlayıp hazırlamadığı tartışmalıdır. İbn Hişâm ve Vâkıdî, haberlerin Nabatlı tüccarlar üzerinden geldiğini aktarır. Modern araştırmacıların bir kısmı (Watt, Donner) Bizans'ın o dönemde Sâsânîlerle savaşın bitiminde olduğunu ve büyük bir güney seferi düzenleme kapasitesinin sınırlı olabileceğini ileri sürer. Diğerleri (Nöldeke, Caetani) haberin abartılmış olabileceğini düşünür. Ancak Hz. Peygamber'in tehdidi ciddiye aldığı ve 30.000 kişilik ordu topladığı kesindir.",
+            "en": "Whether Byzantium was actually preparing a large army is debated. Ibn Hisham and Waqidi report that intelligence came via Nabataean merchants. Some modern scholars (Watt, Donner) suggest that Byzantium, at the end of its war with the Sasanians, may have had limited capacity for a major southern expedition. Others (Nöldeke, Caetani) think the reports may have been exaggerated. However, it is certain that the Prophet took the threat seriously and assembled a 30,000-strong army."
+          },
+          "sources_a": [
+            "İbn Hişâm, Vâkıdî — Bizans hazırlığı gerçek"
+          ],
+          "sources_b": [
+            "Modern araştırmacılar (Watt, Donner, Caetani) — abartılmış olabilir"
+          ],
+          "assessment": {
+            "tr": "Kesin hüküm vermek zor. Hz. Peygamber'in 30.000 kişiyle hareket etmesi, istihbaratı ciddiye aldığını gösterir. Ancak Bizans'ın Herakleios döneminde Sâsânî savaşıyla meşgul olduğu da tarihî bir gerçektir.",
+            "en": "Difficult to give a definitive judgment. The Prophet's mobilization of 30,000 men shows he took the intelligence seriously. However, Byzantium's preoccupation with the Sasanian war under Heraclius is also a historical fact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F1_preparation",
+      "order": 1,
+      "name": {
+        "tr": "Hazırlık: Ceyşü'l-Usre — Zorluk Ordusu",
+        "en": "Preparation: Jaysh al-Usra — Army of Hardship"
+      },
+      "date_range": "Receb 9 AH başı (Ekim 630)",
+      "duration": "~2-3 hafta (hazırlık)",
+      "description": {
+        "tr": "Hz. Peygamber, tarihte benzersiz bir seferberlik başlattı. Koşullar son derece zordu: 1) Mevsim en sıcak dönemdi, 2) Hurma hasadı yaklaşıyordu — çiftçiler tarlalarını bırakmak istemiyordu, 3) Mesafe çok uzundu (~700 km), 4) Düşman dünyanın en güçlü ordusuydu (Bizans), 5) Kıtlık dönemiydi.\n\nBu zorluklara rağmen Hz. Peygamber tüm Müslümanları sefere çağırdı. Bu çağrıya cevap, kişinin imanının mihenk taşı oldu:\n\n• Hz. Osman, 300 deve + 1.000 dinar + 50 at bağışladı (bir rivâyete göre ordunun üçte birini techiz etti). Hz. Peygamber: 'Bugünden sonra Osman'a hiçbir şey zarar vermez.'\n• Hz. Ebû Bekir, tüm malını getirdi. 'Ailesine ne bıraktın?' sorusuna 'Allah ve Rasûlü'nü' dedi.\n• Hz. Ömer, malının yarısını getirdi.\n• Abdurrahmân b. Avf, 200 ukiyye (yaklaşık 8 kg) gümüş bağışladı.\n• Fakir sahâbîler ağlayarak geldi — binek bulamıyorlardı (Tevbe 9:92 — 'Bekkâûn/Ağlayanlar' âyeti).\n\nMünâfıklar ise çeşitli mazeretler öne sürerek seferden geri kaldı: 'Sıcak çok şiddetli', 'Rum kadınlarının fitnesi', 'Çiftliklerimizi terk edemeyiz.' Tevbe sûresinin önemli bölümü bu mazeretleri ve cevaplarını konu alır.",
+        "en": "The Prophet initiated an unprecedented mobilization. Conditions were extremely difficult: 1) The season was at its hottest, 2) The date harvest was approaching — farmers didn't want to leave their fields, 3) The distance was very long (~700 km), 4) The enemy was the world's most powerful army (Byzantium), 5) It was a time of scarcity.\n\nDespite these difficulties, the Prophet called all Muslims to the expedition. Response to this call became the touchstone of one's faith:\n\n• Uthman donated 300 camels + 1,000 dinars + 50 horses (reportedly equipping one-third of the army). The Prophet said: 'Nothing will harm Uthman after today.'\n• Abu Bakr brought all his wealth. When asked 'What did you leave for your family?' he said 'Allah and His Messenger.'\n• Umar brought half his wealth.\n• Abd al-Rahman ibn Awf donated 200 uqiyya (approximately 8 kg) of silver.\n• Poor companions came weeping — they couldn't find mounts (Tawba 9:92 — the 'Bakka'un/Weepers' verse).\n\nHypocrites stayed behind with various excuses: 'The heat is too intense,' 'The temptation of Roman women,' 'We can't leave our farms.' A significant portion of Surat al-Tawba addresses these excuses and their responses."
+      },
+      "key_events": [
+        {
+          "id": "F1_E1",
+          "event": {
+            "tr": "Hz. Peygamber'in genel seferberlik ilan etmesi — 'Kim cihâda çıkacak?'",
+            "en": "The Prophet declaring general mobilization — 'Who will go forth for jihad?'"
+          }
+        },
+        {
+          "id": "F1_E2",
+          "event": {
+            "tr": "Hz. Osman'ın devasa bağışı — 300 deve, 1.000 dinar, 50 at. 'Bugünden sonra Osman'a hiçbir şey zarar vermez'",
+            "en": "Uthman's massive donation — 300 camels, 1,000 dinars, 50 horses. 'Nothing will harm Uthman after today'"
+          }
+        },
+        {
+          "id": "F1_E3",
+          "event": {
+            "tr": "Hz. Ebû Bekir'in tüm malını getirmesi — 'Allah ve Rasûlü'nü bıraktım'",
+            "en": "Abu Bakr bringing all his wealth — 'I left Allah and His Messenger'"
+          }
+        },
+        {
+          "id": "F1_E4",
+          "event": {
+            "tr": "Hz. Ömer'in malının yarısını getirmesi",
+            "en": "Umar bringing half his wealth"
+          }
+        },
+        {
+          "id": "F1_E5",
+          "event": {
+            "tr": "Fakir sahâbîlerin ağlaması — binek bulamıyorlar (Bekkâûn — Tevbe 9:92)",
+            "en": "Poor companions weeping — unable to find mounts (Bakka'un — Tawba 9:92)"
+          }
+        },
+        {
+          "id": "F1_E6",
+          "event": {
+            "tr": "Münâfıkların mazeretler öne sürmesi — sıcak, hurma mevsimi, Rum kadınları",
+            "en": "Hypocrites making excuses — heat, date season, Roman women"
+          }
+        },
+        {
+          "id": "F1_E7",
+          "event": {
+            "tr": "Hz. Ali'nin Medîne'de bırakılması — 'Sen bana Hârûn'un Mûsâ'ya olan konumundasın' hadisi",
+            "en": "Ali being left behind in Medina — 'You are to me as Aaron was to Moses' hadith"
+          }
+        },
+        {
+          "id": "F1_E8",
+          "event": {
+            "tr": "Ka'b b. Mâlik'in 'yarın katılırım' diyerek ertelemesi — sefere katılamaması",
+            "en": "Ka'b ibn Malik postponing with 'I'll join tomorrow' — missing the expedition"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Başkomutan — seferberlik ilan eden",
+            "en": "Supreme Commander — declaring mobilization"
+          }
+        },
+        {
+          "id": "osman",
+          "role": {
+            "tr": "En büyük bağışçı — ordunun üçte birini techiz etti",
+            "en": "Greatest donor — equipped one-third of the army"
+          }
+        },
+        {
+          "id": "ebubekir",
+          "role": {
+            "tr": "Tüm malını bağışlayan — eşsiz fedakârlık",
+            "en": "Donated all his wealth — unmatched sacrifice"
+          }
+        },
+        {
+          "id": "omer",
+          "role": {
+            "tr": "Malının yarısını bağışlayan",
+            "en": "Donated half his wealth"
+          }
+        },
+        {
+          "id": "ali",
+          "role": {
+            "tr": "Medîne'de halîfe (vekil) bırakılan — Hârûn hadisi",
+            "en": "Left as deputy in Medina — Aaron hadith"
+          }
+        },
+        {
+          "id": "kab_malik",
+          "role": {
+            "tr": "Sefere katılmayan üç sahâbîden biri — 50 gün boykot edilecek",
+            "en": "One of three companions who missed the expedition — to be boycotted for 50 days"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F1_1",
+          "topic": {
+            "tr": "Hz. Osman'ın bağış miktarı",
+            "en": "The amount of Uthman's donation"
+          },
+          "detail": {
+            "tr": "Osman'ın bağışı konusunda rivâyetler farklılık gösterir. Vâkıdî: 300 deve + 1.000 dinar. İbn Sa'd benzer rakam verir. Tirmizî: 'ordunun üçte birini techiz etti.' Bazı rivâyetlerde 900 deve + 100 at rakamları geçer. Miktarın tam olarak ne olduğu tartışmalı olmakla birlikte, bağışın olağanüstü büyüklükte olduğu tüm kaynaklarda ortaktır.",
+            "en": "Narrations differ regarding Uthman's donation. Waqidi: 300 camels + 1,000 dinars. Ibn Sa'd gives similar figures. Tirmidhi: 'equipped one-third of the army.' Some narrations mention 900 camels + 100 horses. While the exact amount is debated, all sources agree the donation was extraordinarily large."
+          },
+          "sources_a": [
+            "Vâkıdî, İbn Sa'd — 300 deve + 1.000 dinar"
+          ],
+          "sources_b": [
+            "Tirmizî ve diğerleri — 900 deve + 100 at"
+          ],
+          "assessment": {
+            "tr": "Rakamsal farklılık var ancak Osman'ın en büyük bağışçı olduğu ve ordunun önemli bir kısmını techiz ettiği kesindir.",
+            "en": "Numerical differences exist but it is certain that Uthman was the greatest donor and equipped a significant portion of the army."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F2_march",
+      "order": 2,
+      "name": {
+        "tr": "Yürüyüş: Medîne → Hicr → Tebük (~700 km)",
+        "en": "March: Medina → Hijr → Tabuk (~700 km)"
+      },
+      "date_range": "Receb 9 AH ortası",
+      "duration": "~15-20 gün (yürüyüş)",
+      "description": {
+        "tr": "30.000 kişilik ordu Medîne'den kuzeye hareket etti. Bu, İslâm tarihinin o güne kadarki en büyük ordusuydu. Yürüyüş son derece zordu: sıcaklık dayanılmaz seviyedeydi, su kaynakları yetersizdi, erzak kıttı. Askerlerin ikişer-üçer kişi bir deveyi paylaştığı, hurma çekirdeklerini kemirdikleri rivâyet edilir.\n\nYol üzerinde önemli bir durak Hicr/Medâin-i Sâlih'ti — Kur'ân'da anlatılan Semûd kavminin helâk edildiği yer. Hz. Peygamber burada ordusuna uyarılarda bulundu: Semûd'un kuyularından su içmemelerini, o su ile hamur yoğurmuşlarsa develere yedirmelerini emretti. 'Buradan ağlayarak geçin veya hiç geçmeyin — onlara gelenlerin size de gelmesinden korkuyorum' dedi. Bu, ordunun moralini yüksek tutarken tarihî bir ibret dersi verme anıydı.\n\nYürüyüş sırasında münâfıklar arasında fitne söylemleri devam etti. Bazıları gizlice geri döndü, bazıları ordunun içinde moral bozucu konuşmalar yaptı.",
+        "en": "The 30,000-strong army marched north from Medina. This was the largest army in Islamic history to that date. The march was extremely difficult: heat was unbearable, water sources were insufficient, provisions were scarce. Soldiers reportedly shared one camel between two or three men and gnawed on date pits.\n\nAn important stop along the way was Hijr/Mada'in Salih — the site where the Thamud people described in the Quran were destroyed. The Prophet warned his army here: not to drink from Thamud's wells, and if they had kneaded dough with that water, to feed it to the camels. He said: 'Pass through here weeping or do not pass at all — I fear what came upon them may come upon you.' This was a moment of historical moral lesson while keeping army morale high.\n\nDuring the march, seditious talk continued among the hypocrites. Some secretly turned back, some made demoralizing speeches within the army."
+      },
+      "key_events": [
+        {
+          "id": "F2_E1",
+          "event": {
+            "tr": "30.000 kişilik ordunun Medîne'den hareket etmesi",
+            "en": "Departure of the 30,000-strong army from Medina"
+          }
+        },
+        {
+          "id": "F2_E2",
+          "event": {
+            "tr": "Yolda yaşanan zorluklar: sıcak, susuzluk, erzak kıtlığı. Deve paylaşımı.",
+            "en": "Hardships on the road: heat, thirst, supply scarcity. Sharing camels."
+          }
+        },
+        {
+          "id": "F2_E3",
+          "event": {
+            "tr": "Hicr/Medâin-i Sâlih'te mola — Hz. Peygamber'in Semûd uyarısı: 'Ağlayarak geçin veya hiç geçmeyin'",
+            "en": "Stop at Hijr/Mada'in Salih — Prophet's Thamud warning: 'Pass through weeping or do not pass'"
+          }
+        },
+        {
+          "id": "F2_E4",
+          "event": {
+            "tr": "Münâfıkların yolda fitne çıkarması ve bazılarının gizlice geri dönmesi",
+            "en": "Hypocrites spreading discord on the road and some secretly turning back"
+          }
+        },
+        {
+          "id": "F2_E5",
+          "event": {
+            "tr": "Ebû Zer el-Gıfârî'nin yolda geri kalması — devesi çökmüştü, yaya yetişti",
+            "en": "Abu Dharr al-Ghifari falling behind on the road — his camel collapsed, he caught up on foot"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Başkomutan — orduyu Tebük'e sevk eden",
+            "en": "Supreme Commander — leading the army to Tabuk"
+          }
+        },
+        {
+          "id": "comp_ebu_zerr",
+          "role": {
+            "tr": "Geri kalan ve yaya yetişen sadık sahâbî",
+            "en": "Loyal companion who fell behind and caught up on foot"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F2_1",
+          "topic": {
+            "tr": "Ordu mevcudu",
+            "en": "Army strength"
+          },
+          "detail": {
+            "tr": "Ordunun büyüklüğü konusunda 30.000 rakamı en yaygın rivâyettir (İbn Hişâm, Vâkıdî). Bazı kaynaklar 40.000 der (İbn Sa'd'ın bazı rivâyetleri). Taberî farklı isnâdlarla her iki rakamı da verir. Modern tarihçiler genellikle 30.000 rakamını kabul eder.",
+            "en": "30,000 is the most common narration for army size (Ibn Hisham, Waqidi). Some sources say 40,000 (some narrations in Ibn Sa'd). Tabari gives both figures through different chains. Modern historians generally accept 30,000."
+          },
+          "sources_a": [
+            "İbn Hişâm, Vâkıdî — 30.000"
+          ],
+          "sources_b": [
+            "İbn Sa'd (bazı rivâyetler) — 40.000"
+          ],
+          "assessment": {
+            "tr": "30.000 daha yaygın kabul görmüş rakam. Her iki halde de İslâm tarihinin o güne kadarki en büyük ordusu.",
+            "en": "30,000 is the more widely accepted figure. In either case, the largest army in Islamic history to that date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F3_tabuk_camp",
+      "order": 3,
+      "name": {
+        "tr": "Tebük'te: Bizans'ın gelmemesi ve 20 gün bekleme",
+        "en": "At Tabuk: Byzantium's non-appearance and 20-day wait"
+      },
+      "date_range": "Receb 9 AH sonu",
+      "duration": "~20 gün",
+      "description": {
+        "tr": "Ordu Tebük'e ulaştığında Bizans kuvvetlerinin bölgede olmadığı anlaşıldı. Herakleios'un ordusu ya geri çekilmişti ya da hiç gelmemişti — bu konu tartışmalıdır. Hz. Peygamber ordusunu burada ~20 gün konuşlandırdı.\n\nTebük pınarına ulaşıldığında su çok azdı. Hz. Peygamber elini suya koyup dua etti ve bolluca su akmaya başladı. Bu, kaynaklarda geniş yer tutan mucizevî bir olaydır (Müslim, Fedâil).\n\nHz. Peygamber Tebük'te iken önemli kararlar aldı: 1) Diplomatik elçiler göndererek bölge hükümdarlara barış/cizye teklifinde bulundu, 2) Hâlid b. Velîd'i Dûmetü'l-Cendel'e gönderdi, 3) Bölgenin stratejik haritasını çıkardı. Savaş olmasa da bu sefer, İslâm devletinin kuzeyde Bizans sınırına kadar nüfuz alanını genişlettiği stratejik bir zaferdir.\n\nHz. Peygamber Tebük'te iken bir hutbe verdi: Kur'ân'ı, salih ameli ve doğru yolu öven, münâfıkları kınayan bir konuşma.",
+        "en": "When the army reached Tabuk, it became clear that Byzantine forces were not in the area. Heraclius's army had either retreated or never came — this is debated. The Prophet stationed his army here for approximately 20 days.\n\nWhen they reached Tabuk's spring, water was very scarce. The Prophet placed his hand in the water and prayed, and water began flowing abundantly. This is a miraculous event that features prominently in sources (Muslim, Fada'il).\n\nWhile at Tabuk, the Prophet made important decisions: 1) Sent diplomatic envoys offering peace/jizya to regional rulers, 2) Dispatched Khalid ibn al-Walid to Dumat al-Jandal, 3) Mapped the strategic landscape of the region. Though no battle occurred, this expedition was a strategic victory that extended the Islamic state's sphere of influence northward to the Byzantine border.\n\nThe Prophet delivered a sermon at Tabuk: praising the Quran, righteous deeds, and the straight path; condemning the hypocrites."
+      },
+      "key_events": [
+        {
+          "id": "F3_E1",
+          "event": {
+            "tr": "Tebük'e varış — Bizans ordusunun yokluğunun anlaşılması",
+            "en": "Arrival at Tabuk — realization of Byzantine army's absence"
+          }
+        },
+        {
+          "id": "F3_E2",
+          "event": {
+            "tr": "Tebük pınarı mucizesi — Hz. Peygamber'in duasıyla suyun bereketlenmesi",
+            "en": "Miracle of Tabuk spring — water becoming abundant through the Prophet's supplication"
+          }
+        },
+        {
+          "id": "F3_E3",
+          "event": {
+            "tr": "Hz. Peygamber'in Tebük hutbesi",
+            "en": "The Prophet's sermon at Tabuk"
+          }
+        },
+        {
+          "id": "F3_E4",
+          "event": {
+            "tr": "20 gün boyunca ordunun konuşlanması ve keşif faaliyetleri",
+            "en": "Army encampment for 20 days and reconnaissance activities"
+          }
+        },
+        {
+          "id": "F3_E5",
+          "event": {
+            "tr": "Hâlid b. Velîd'in 420 süvari ile Dûmetü'l-Cendel'e gönderilmesi",
+            "en": "Khalid ibn al-Walid dispatched with 420 cavalry to Dumat al-Jandal"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Başkomutan — stratejik karar alıcı, diplomatik lider",
+            "en": "Supreme Commander — strategic decision-maker, diplomatic leader"
+          }
+        },
+        {
+          "id": "comp_halid_velid",
+          "role": {
+            "tr": "Dûmetü'l-Cendel müfrezesi komutanı — 420 süvari",
+            "en": "Commander of Dumat al-Jandal detachment — 420 cavalry"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F3_1",
+          "topic": {
+            "tr": "Bizans ordusunun neden gelmediği",
+            "en": "Why the Byzantine army did not come"
+          },
+          "detail": {
+            "tr": "Bizans ordusunun neden gelmediği konusunda birkaç görüş var: 1) İbn Hişâm ve Vâkıdî: Herakleios'un ordusunu hazırladığını ancak Müslüman ordusunun büyüklüğünden çekindiğini belirtir. 2) Taberî: Bizans'ın kuzey sınırlarındaki sorunlar (Sâsânî tehlikesi) nedeniyle güneye kuvvet ayıramadığını ima eder. 3) Modern araştırmacılar (Donner): Bizans'ın ciddi bir güney seferi planlamadığını, istihbaratın abartılmış olabileceğini öne sürer. 4) İslâmî gelenek: Müslüman ordusunun heybetinin caydırıcı etki yaptığını vurgular.",
+            "en": "Several views exist on why the Byzantine army did not come: 1) Ibn Hisham and Waqidi: Heraclius prepared his army but was deterred by the size of the Muslim force. 2) Tabari: Byzantium couldn't spare forces southward due to northern border issues (Sasanian threat). 3) Modern scholars (Donner): Byzantium didn't plan a serious southern expedition; intelligence may have been exaggerated. 4) Islamic tradition: emphasizes the deterrent effect of the Muslim army's might."
+          },
+          "sources_a": [
+            "İbn Hişâm, Vâkıdî — Bizans caydırıldı"
+          ],
+          "sources_b": [
+            "Modern araştırmacılar — Bizans zaten gelmeyecekti"
+          ],
+          "assessment": {
+            "tr": "Her iki senaryoda da sonuç aynı: İslâm devleti Bizans sınırına nüfuz alanını genişletti. Savaş olmaması, seferin stratejik başarısını azaltmaz.",
+            "en": "In both scenarios the result is the same: the Islamic state extended its sphere of influence to the Byzantine border. The absence of battle does not diminish the expedition's strategic success."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F4_diplomacy",
+      "order": 4,
+      "name": {
+        "tr": "Diplomatik zaferler: Eyle, Cerba, Ezruh, Dûmetü'l-Cendel",
+        "en": "Diplomatic victories: Ayla, Jarba, Adhruh, Dumat al-Jandal"
+      },
+      "date_range": "Receb-Şaban 9 AH",
+      "duration": "~2-3 hafta (Tebük konaklaması içinde)",
+      "description": {
+        "tr": "Tebük'te savaş olmadı, ancak diplomatik kazanımlar olağanüstüydü. Hz. Peygamber'in bölge hükümdarlarla yaptığı anlaşmalar, İslâm devletinin kuzey sınırlarını güvence altına aldı:\n\n1) **Eyle (Aylah)**: Kızıldeniz kıyısındaki liman şehri (bugünkü Akabe). Hristiyan hükümdarı Yuhanna b. Ru'be bizzat Tebük'e gelip Hz. Peygamber'le antlaşma yaptı. Yıllık cizye karşılığında can-mal güvencesi, deniz ticareti serbestisi ve din özgürlüğü verildi. Bu, İslâm tarihinin en detaylı zimmî antlaşmalarından biridir.\n\n2) **Cerba ve Ezruh**: Şam-Filistin arasındaki küçük topluluklar. Cizye ödemeyi kabul ettiler.\n\n3) **Dûmetü'l-Cendel**: En önemli diplomatik zafer. Hâlid b. Velîd 420 süvari ile gönderildi. Hristiyan hükümdarı Ükeydir b. Abdülmelik el-Kindî, gece av partisindeyken yakalandı (kardeşi Hassân öldürüldü). Ükeydir Tebük'e getirildi; Hz. Peygamber'le barış antlaşması yaptı. 2.000 deve, 800 esir, 400 zırh ganimet alındı. Dûmetü'l-Cendel'in kontrolü İslâm devletine geçti.\n\nBu anlaşmalar, Bizans'ın güney tampon bölgesindeki vasallarının İslâm devleti ile doğrudan ilişki kurmasını sağladı — Bizans'ın bölgedeki nüfuzu ciddi darbe aldı.",
+        "en": "No battle took place at Tabuk, but the diplomatic gains were extraordinary. The Prophet's treaties with regional rulers secured the Islamic state's northern borders:\n\n1) **Ayla (Aylah)**: Port city on the Red Sea coast (modern Aqaba). Christian ruler Yuhanna ibn Ru'ba personally came to Tabuk and made a treaty with the Prophet. In exchange for annual jizya, protection of life and property, freedom of sea trade, and religious freedom were granted. This is one of the most detailed dhimmi agreements in Islamic history.\n\n2) **Jarba and Adhruh**: Small communities between Damascus and Palestine. They agreed to pay jizya.\n\n3) **Dumat al-Jandal**: The most important diplomatic victory. Khalid ibn al-Walid was sent with 420 cavalry. Christian ruler Ukaydir ibn Abd al-Malik al-Kindi was captured during a night hunting party (his brother Hassan was killed). Ukaydir was brought to Tabuk; he made a peace treaty with the Prophet. 2,000 camels, 800 captives, 400 coats of mail were taken as spoils. Control of Dumat al-Jandal passed to the Islamic state.\n\nThese agreements enabled Byzantine southern buffer zone vassals to establish direct relations with the Islamic state — Byzantium's regional influence was seriously damaged."
+      },
+      "key_events": [
+        {
+          "id": "F4_E1",
+          "event": {
+            "tr": "Yuhanna b. Ru'be'nin Eyle'den gelip barış antlaşması yapması — yıllık cizye, can-mal güvencesi",
+            "en": "Yuhanna ibn Ru'ba coming from Ayla to make a peace treaty — annual jizya, life-property protection"
+          }
+        },
+        {
+          "id": "F4_E2",
+          "event": {
+            "tr": "Cerba ve Ezruh halklarının cizye ödemeyi kabul etmesi",
+            "en": "People of Jarba and Adhruh accepting to pay jizya"
+          }
+        },
+        {
+          "id": "F4_E3",
+          "event": {
+            "tr": "Hâlid b. Velîd'in Dûmetü'l-Cendel'e baskını — Ükeydir'in yakalanması",
+            "en": "Khalid ibn al-Walid's raid on Dumat al-Jandal — capture of Ukaydir"
+          }
+        },
+        {
+          "id": "F4_E4",
+          "event": {
+            "tr": "Ükeydir'in Tebük'e getirilmesi ve Hz. Peygamber'le antlaşma yapması",
+            "en": "Ukaydir brought to Tabuk and making a treaty with the Prophet"
+          }
+        },
+        {
+          "id": "F4_E5",
+          "event": {
+            "tr": "Ganimet dağıtımı: 2.000 deve, 800 esir, 400 zırh",
+            "en": "Distribution of spoils: 2,000 camels, 800 captives, 400 coats of mail"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Diplomasi yürütücü — antlaşma imzalayan",
+            "en": "Chief diplomat — treaty signatory"
+          }
+        },
+        {
+          "id": "comp_halid_velid",
+          "role": {
+            "tr": "Dûmetü'l-Cendel baskın komutanı — Ükeydir'i yakalayan",
+            "en": "Dumat al-Jandal raid commander — captured Ukaydir"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F4_1",
+          "topic": {
+            "tr": "Ükeydir'in akıbeti",
+            "en": "Ukaydir's fate"
+          },
+          "detail": {
+            "tr": "Ükeydir'in Tebük'ten sonraki akıbeti tartışmalıdır. Vâkıdî: Hz. Peygamber onu serbest bırakıp topraklarına gönderdi, cizye ödemeye devam etti. İbn Sa'd: barış antlaşması yaptı. Bazı kaynaklara göre daha sonra antlaşmayı bozdu ve Hz. Ebû Bekir döneminde Hâlid b. Velîd tarafından tekrar mağlup edildi. Belâzürî bu ikinci çatışmayı detaylandırır.",
+            "en": "Ukaydir's fate after Tabuk is debated. Waqidi: The Prophet released him and sent him back to his lands; he continued paying jizya. Ibn Sa'd: he made a peace treaty. According to some sources he later broke the treaty and was defeated again by Khalid ibn al-Walid during Abu Bakr's caliphate. Baladhuri details this second conflict."
+          },
+          "sources_a": [
+            "Vâkıdî, İbn Sa'd — barış ve cizye"
+          ],
+          "sources_b": [
+            "Belâzürî — sonradan isyan ve tekrar mağlubiyet"
+          ],
+          "assessment": {
+            "tr": "Tebük seferinde yapılan antlaşma kesindir. Sonraki isyan ayrı bir olay olarak değerlendirilmelidir.",
+            "en": "The treaty made during the Tabuk expedition is certain. Any later rebellion should be evaluated as a separate event."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F5_return",
+      "order": 5,
+      "name": {
+        "tr": "Dönüş: Mescid-i Dırâr'ın yıkılması ve münâfıkların ifşâsı",
+        "en": "Return: Demolition of Masjid al-Dirar and exposure of hypocrites"
+      },
+      "date_range": "Ramazan 9 AH başı",
+      "duration": "~15-20 gün (dönüş yürüyüşü)",
+      "description": {
+        "tr": "Hz. Peygamber 20 gün sonra Tebük'ten dönüş emri verdi. Dönüş yolculuğu da aynı güzergâhtan yapıldı.\n\nDönüşte kritik olaylar yaşandı:\n\n1) **Münâfıkların suikast teşebbüsü (Akabe olayı)**: Bazı rivâyetlere göre münâfıklar, dönüş yolunda dar bir geçitte Hz. Peygamber'in devesini ürküterek onu uçurumdan yuvarlamaya teşebbüs ettiler. Huzeyfe b. Yemân bu olayın tanığıydı ve münâfıkların isimlerini biliyordu. Hz. Peygamber Huzeyfe'ye 'Münâfıkların Sırdaşı' olarak bu bilgiyi emanet etti.\n\n2) **Mescid-i Dırâr'ın yıkılması**: Hz. Peygamber Medîne'ye yaklaşırken Tevbe 9:107-110 âyetleri indi. Münâfıklar, Hz. Peygamber seferdeyken Kubâ Mescidi'ne rakip bir mescid yapmışlardı. Amaçları birlik bozmak ve Bizans'a sığınan Ebû Âmir er-Râhib ile irtibat kurmaktı. Hz. Peygamber, sefere çıkmadan önce onlara 'Dönünce bakarız' demişti. Şimdi vahiy gelmişti — mescidi yıktırdı.\n\n3) **Geri kalanların hesap vermesi**: Hz. Peygamber Medîne'ye girince münâfıklar mazeretlerini anlatmaya koştular. Hz. Peygamber onların mazeretlerini kabul eder göründü ve işlerini Allah'a havale etti. Ancak üç samimi Müslüman — Ka'b b. Mâlik, Mürâre b. Rebî', Hilâl b. Ümeyye — yalan söylemedi ve doğruyu anlattı.",
+        "en": "The Prophet ordered the return from Tabuk after 20 days. The return journey took the same route.\n\nCritical events occurred on the return:\n\n1) **Hypocrites' assassination attempt (Aqaba incident)**: According to some narrations, hypocrites attempted to startle the Prophet's camel at a narrow pass on the return road to push him off a cliff. Hudhayfa ibn al-Yaman was a witness and knew the hypocrites' names. The Prophet entrusted Hudhayfa with this information as 'the Confidant of the Hypocrites.'\n\n2) **Demolition of Masjid al-Dirar**: As the Prophet approached Medina, Tawba 9:107-110 was revealed. Hypocrites had built a rival mosque to Quba Mosque while the Prophet was on expedition. Their aim was to sow discord and maintain contact with Abu Amir the Monk who had fled to Byzantium. The Prophet had told them before departure 'We'll see when I return.' Now revelation had come — he had the mosque demolished.\n\n3) **Accountability of those who stayed behind**: When the Prophet entered Medina, hypocrites rushed to offer their excuses. The Prophet appeared to accept their excuses and referred their matters to Allah. But three sincere Muslims — Ka'b ibn Malik, Murara ibn al-Rabi', Hilal ibn Umayya — did not lie and told the truth."
+      },
+      "key_events": [
+        {
+          "id": "F5_E1",
+          "event": {
+            "tr": "Tebük'ten dönüş emri verilmesi",
+            "en": "Order given to return from Tabuk"
+          }
+        },
+        {
+          "id": "F5_E2",
+          "event": {
+            "tr": "Münâfıkların Akabe geçidinde suikast teşebbüsü (rivâyet tartışmalı)",
+            "en": "Hypocrites' assassination attempt at Aqaba pass (narration debated)"
+          }
+        },
+        {
+          "id": "F5_E3",
+          "event": {
+            "tr": "Tevbe 9:107-110'un nüzûlü — Mescid-i Dırâr'ın yıkılması emri",
+            "en": "Revelation of Tawba 9:107-110 — order to demolish Masjid al-Dirar"
+          }
+        },
+        {
+          "id": "F5_E4",
+          "event": {
+            "tr": "Mescid-i Dırâr'ın yıkılması/yakılması",
+            "en": "Demolition/burning of Masjid al-Dirar"
+          }
+        },
+        {
+          "id": "F5_E5",
+          "event": {
+            "tr": "Münâfıkların Hz. Peygamber'e mazeretlerini sunması — kabul eder görünmesi",
+            "en": "Hypocrites presenting excuses to the Prophet — appearing to accept them"
+          }
+        },
+        {
+          "id": "F5_E6",
+          "event": {
+            "tr": "Ka'b b. Mâlik, Mürâre ve Hilâl'in doğruyu söylemesi — boykotun başlaması",
+            "en": "Ka'b ibn Malik, Murara and Hilal telling the truth — beginning of boycott"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Hâkim — Mescid-i Dırâr'ı yıktıran, münâfıkları ifşâ eden",
+            "en": "Judge — ordering demolition of Masjid al-Dirar, exposing hypocrites"
+          }
+        },
+        {
+          "id": "comp_huzeyfe_yeman",
+          "role": {
+            "tr": "Münâfıkların Sırdaşı — suikast tanığı",
+            "en": "Confidant of the Hypocrites — assassination witness"
+          }
+        },
+        {
+          "id": "kab_malik",
+          "role": {
+            "tr": "Doğruyu söyleyen üç sahâbîden biri",
+            "en": "One of three companions who told the truth"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F5_1",
+          "topic": {
+            "tr": "Münâfıkların suikast teşebbüsü (Akabe olayı)",
+            "en": "Hypocrites' assassination attempt (Aqaba incident)"
+          },
+          "detail": {
+            "tr": "Akabe suikast teşebbüsü rivâyetinin tarihîliği tartışmalıdır. Vâkıdî ve bazı kaynaklar ayrıntılı anlatır; 12-15 münâfığın maskeli olarak Hz. Peygamber'in devesini ürküttüğünü söyler. Buhârî bu olayı Huzeyfe rivâyetinde kısaca aktarır. Bazı modern araştırmacılar olayın tarihîliğini sorgulamıştır. Ancak Huzeyfe'nin 'münâfıkların sırdaşı' lakabı oldukça güvenilir kaynaklarda yer alır.",
+            "en": "The historicity of the Aqaba assassination attempt is debated. Waqidi and some sources provide detailed accounts; 12-15 masked hypocrites reportedly startled the Prophet's camel. Bukhari briefly mentions this in Hudhayfa's narration. Some modern scholars have questioned the historicity. However, Hudhayfa's title 'confidant of the hypocrites' appears in quite reliable sources."
+          },
+          "sources_a": [
+            "Vâkıdî, Ahmed b. Hanbel — olay gerçek"
+          ],
+          "sources_b": [
+            "Bazı modern araştırmacılar — tarihîlik tartışmalı"
+          ],
+          "assessment": {
+            "tr": "Olayın çekirdeğinin tarihî olması muhtemeldir, ancak detaylar tartışmaya açıktır. Huzeyfe'nin özel konumu güvenilir kaynaklarca teyit edilir.",
+            "en": "The core event is likely historical, but details are open to discussion. Hudhayfa's special position is confirmed by reliable sources."
+          }
+        },
+        {
+          "id": "SC_F5_2",
+          "topic": {
+            "tr": "Mescid-i Dırâr'ın yıkılması mı yakılması mı?",
+            "en": "Was Masjid al-Dirar demolished or burned?"
+          },
+          "detail": {
+            "tr": "Vâkıdî: yıkılıp yakıldı. İbn Hişâm: yıkıldı. Taberî: bazı rivâyetlerde önce yakılıp sonra yıkıldı. Kur'ân (Tevbe 9:108) yıkılma emrini ima eder ama yakılmayı açıkça belirtmez. Modern tarihçiler genellikle yıkım (demolition) ifadesini tercih eder.",
+            "en": "Waqidi: demolished and burned. Ibn Hisham: demolished. Tabari: some narrations say first burned then demolished. Quran (Tawba 9:108) implies demolition but doesn't explicitly mention burning. Modern historians generally prefer 'demolished.'"
+          },
+          "sources_a": [
+            "Vâkıdî — yıkılıp yakıldı"
+          ],
+          "sources_b": [
+            "İbn Hişâm — yıkıldı"
+          ],
+          "assessment": {
+            "tr": "Her iki halde de mescid ortadan kaldırılmıştır. Yıkım kesin, yakılma ek rivâyettir.",
+            "en": "In either case the mosque was removed. Demolition is certain; burning is an additional narration."
+          }
+        }
+      ]
+    },
+    {
+      "id": "F6_aftermath",
+      "order": 6,
+      "name": {
+        "tr": "Sonuç: Üç sahâbînin 50 gün boykotu ve tevbeleri",
+        "en": "Aftermath: 50-day boycott of three companions and their repentance"
+      },
+      "date_range": "Ramazan-Zilkade 9 AH",
+      "duration": "~50 gün (boykot süresi)",
+      "description": {
+        "tr": "Tebük seferinin en duygusal bölümü, üç samimi Müslümanın hikâyesidir. Ka'b b. Mâlik, Mürâre b. Rebî' ve Hilâl b. Ümeyye, Tebük'e katılmamışlardı — münâfıklar gibi mazeret uydurmayıp doğruyu söylediler. Hz. Peygamber onlarla konuşulmamasını emretti.\n\n50 gün boyunca toplumdan tamamen dışlandılar: kimse selâm vermiyordu, aileleri bile uzaklaşmıştı, dünya onlara dar gelmişti. Ka'b b. Mâlik'in anlatımı (Buhârî, Megâzî 79) İslâm edebiyatının en uzun ve en etkileyici hadislerinden biridir. Ka'b şöyle anlatır:\n\n'Yer bana bütün genişliğine rağmen dar geldi. Kendi nefsim bile bana dar geldi.' Gassânî hükümdarından bir mektup geldi — onu İslâm'dan dönmeye davet ediyordu. Ka'b mektubu ateşe attı.\n\n40. gün Hz. Peygamber, hanımlarından da ayrılmalarını emretti. 50. gün Ka'b, Selâma Dağı'nda abdest alırken bir ses duydu: 'Müjde yâ Ka'b!' Tevbe 9:118 inmişti: '...yeryüzü bütün genişliğine rağmen onlara dar geldi, nefisleri de kendilerine dar geldi ve Allah'tan başka sığınak olmadığını anladılar. Sonra Allah onların tevbesini kabul etti...'\n\nKa'b: 'Annem beni doğurduğundan beri o kadar sevinmemiştim.' Hz. Peygamber'in yüzü 'ay parçası gibi parlıyordu.' Bu olay, samimiyetin ödüllendirilmesi ve yalanın vs. doğrunun ayrıştırılması açısından İslâm tarihinin en önemli derslerinden biridir.",
+        "en": "The most emotional chapter of the Tabuk expedition is the story of three sincere Muslims. Ka'b ibn Malik, Murara ibn al-Rabi', and Hilal ibn Umayya had not joined Tabuk — unlike the hypocrites, they did not fabricate excuses but told the truth. The Prophet ordered that no one speak with them.\n\nFor 50 days they were completely ostracized from the community: no one greeted them, even their families distanced themselves, the world felt constricted. Ka'b ibn Malik's account (Bukhari, Maghazi 79) is one of the longest and most moving hadiths in Islamic literature. Ka'b narrates:\n\n'The earth, despite all its vastness, felt narrow to me. My own self felt narrow to me.' A letter came from the Ghassanid ruler — inviting him to leave Islam. Ka'b threw the letter into the fire.\n\nOn the 40th day, the Prophet ordered them to separate from their wives. On the 50th day, Ka'b was performing ablution on Mount Sal' when he heard a voice: 'Good tidings, O Ka'b!' Tawba 9:118 had been revealed: '...the earth, despite its vastness, became narrow for them, and their own souls became constricted, and they realized there was no refuge from Allah except to Him. Then Allah accepted their repentance...'\n\nKa'b: 'I had never been so happy since my mother gave birth to me.' The Prophet's face was 'shining like a piece of the moon.' This event is one of the most important lessons in Islamic history regarding the reward of sincerity and the distinction between lying and truthfulness."
+      },
+      "key_events": [
+        {
+          "id": "F6_E1",
+          "event": {
+            "tr": "Hz. Peygamber'in üç sahâbî ile konuşulmamasını emretmesi",
+            "en": "The Prophet ordering that no one speak with the three companions"
+          }
+        },
+        {
+          "id": "F6_E2",
+          "event": {
+            "tr": "50 gün boyunca toplumsal boykot — selâm verilmemesi, ailelerin uzaklaşması",
+            "en": "50-day social boycott — no greetings, families distancing"
+          }
+        },
+        {
+          "id": "F6_E3",
+          "event": {
+            "tr": "Gassânî hükümdarının Ka'b'a mektup göndermesi — İslâm'dan dönme daveti",
+            "en": "Ghassanid ruler's letter to Ka'b — invitation to leave Islam"
+          }
+        },
+        {
+          "id": "F6_E4",
+          "event": {
+            "tr": "Ka'b'ın Gassânî mektubunu ateşe atması",
+            "en": "Ka'b throwing the Ghassanid letter into the fire"
+          }
+        },
+        {
+          "id": "F6_E5",
+          "event": {
+            "tr": "40. gün: hanımlarından da ayrılma emri",
+            "en": "Day 40: order to separate from their wives"
+          }
+        },
+        {
+          "id": "F6_E6",
+          "event": {
+            "tr": "50. gün: Tevbe 9:118'in nüzûlü — tevbelerin kabulü",
+            "en": "Day 50: revelation of Tawba 9:118 — acceptance of repentance"
+          }
+        },
+        {
+          "id": "F6_E7",
+          "event": {
+            "tr": "Ka'b b. Mâlik'in sevinci — 'Annem beni doğurduğundan beri bu kadar sevinmemiştim'",
+            "en": "Ka'b ibn Malik's joy — 'I had never been so happy since my mother gave birth to me'"
+          }
+        },
+        {
+          "id": "F6_E8",
+          "event": {
+            "tr": "Ka'b'ın Hz. Peygamber'e tüm malını bağışlamak istemesi — Hz. Peygamber'in 'bir kısmını tut' demesi",
+            "en": "Ka'b wanting to donate all his wealth to the Prophet — the Prophet saying 'keep some of it'"
+          }
+        }
+      ],
+      "key_figures": [
+        {
+          "id": "prophet",
+          "role": {
+            "tr": "Toplumsal boykotu emreden ve tevbeyi müjdeleyen",
+            "en": "Ordering the social boycott and announcing the acceptance of repentance"
+          }
+        },
+        {
+          "id": "kab_malik",
+          "role": {
+            "tr": "Üç sahâbînin en meşhuru — uzun hadis rivâyetçisi",
+            "en": "Most famous of the three companions — narrator of the lengthy hadith"
+          }
+        }
+      ],
+      "source_conflicts": [
+        {
+          "id": "SC_F6_1",
+          "topic": {
+            "tr": "Boykot süresinin kesinliği",
+            "en": "Exactness of boycott duration"
+          },
+          "detail": {
+            "tr": "50 gün rakamı Ka'b b. Mâlik'in kendi rivâyetine dayanır (Buhârî, Megâzî 79; Müslim, Tevbe 53). Bu, müttefekun aleyh (Buhârî ve Müslim'de ortak) bir hadistir ve güvenilirliği en yüksek derecedir. Süre konusunda kaynaklarda ciddi bir ihtilaf yoktur.",
+            "en": "The 50-day figure is based on Ka'b ibn Malik's own narration (Bukhari, Maghazi 79; Muslim, Tawba 53). This is a muttafaq alayh (shared by Bukhari and Muslim) hadith of the highest reliability. There is no serious disagreement about the duration in sources."
+          },
+          "sources_a": [
+            "Buhârî, Müslim — 50 gün (müttefekun aleyh)"
+          ],
+          "sources_b": [],
+          "assessment": {
+            "tr": "50 gün konusunda icmâ vardır. En güvenilir kaynaklarca teyit edilir.",
+            "en": "There is consensus on 50 days. Confirmed by the most reliable sources."
+          }
+        },
+        {
+          "id": "SC_F6_2",
+          "topic": {
+            "tr": "Mürâre ve Hilâl'in akıbeti",
+            "en": "Fate of Murara and Hilal"
+          },
+          "detail": {
+            "tr": "Ka'b b. Mâlik'in hadisi çok detaylıdır ve İslâm edebiyatının şaheserlerinden biridir. Ancak Mürâre b. Rebî' ve Hilâl b. Ümeyye hakkında bireysel detaylar çok daha azdır. Her ikisinin de boykot sürecini Ka'b gibi yaşadığı ve tevbelerinin aynı anda kabul edildiği bilinir. Hilâl'in çok yaşlı ve hasta olduğu, evinden çıkamadığı bazı rivâyetlerde geçer.",
+            "en": "Ka'b ibn Malik's hadith is very detailed and is one of the masterpieces of Islamic literature. However, individual details about Murara ibn al-Rabi' and Hilal ibn Umayya are much fewer. Both are known to have undergone the same boycott as Ka'b and had their repentance accepted simultaneously. Some narrations mention that Hilal was very old and ill, unable to leave his home."
+          },
+          "sources_a": [
+            "Buhârî, Müslim — üçü birlikte zikredilir"
+          ],
+          "sources_b": [
+            "Vâkıdî — Hilâl'in yaşlılığı detayı"
+          ],
+          "assessment": {
+            "tr": "Üç sahâbînin birlikte boykot edildiği ve tevbelerinin aynı anda kabul edildiği kesindir. Bireysel detaylar Ka'b haricinde sınırlıdır.",
+            "en": "The three companions' joint boycott and simultaneous acceptance of repentance is certain. Individual details beyond Ka'b are limited."
+          }
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 30000,
+      "total_range": "30.000 (İbn Hişâm, Vâkıdî); bazı rivâyetlerde 40.000 (İbn Sa'd)",
+      "commander": "Hz. Peygamber (s.a.v.)",
+      "commander_name": {
+        "tr": "Hz. Muhammed (s.a.v.) — bizzat komuta",
+        "en": "Prophet Muhammad (pbuh) — personal command"
+      },
+      "composition": {
+        "muhajirin": {
+          "count_est": "büyük bir kısmı — tüm önde gelen sahâbîler",
+          "note_tr": "Muhâcirlerden tamamına yakını katıldı. Hz. Ebû Bekir, Hz. Ömer, Hz. Osman, Abdurrahmân b. Avf ve diğer önde gelenler mevcut."
+        },
+        "ansar": {
+          "count_est": "çoğunluğu — hurma mevsimi zorluğuna rağmen",
+          "note_tr": "Ensâr'ın büyük çoğunluğu katıldı. Hurma mevsimini bırakarak sefere çıkmaları büyük fedakârlık. Bazı Ensâr geri kaldı — Ka'b b. Mâlik bunlardan."
+        },
+        "cavalry": {
+          "count_est": "10.000 süvari (tahmini)",
+          "note_tr": "Büyük orduya rağmen deve ve at sayısı yetersizdi. 2-3 kişi bir deveyi paylaştı. Hâlid b. Velîd'in müfrezesi 420 süvari — seçkin birlik."
+        },
+        "bedevi_mutefikler": {
+          "count_est": "çevre kabilelerden katılım",
+          "note_tr": "Mekke fethinden sonra İslâm'a giren kabilelerden de kuvvetler katıldı. 'Senetü'l-Vüfûd' (Heyetler Yılı, 9 AH) bağlamında birçok kabile temsilci göndermişti."
+        }
+      },
+      "key_commanders": [
+        {
+          "id": "prophet",
+          "role": "Başkomutan — bizzat ordunun başında",
+          "note_tr": "Hz. Peygamber'in son büyük seferi. En uzak noktaya bizzat komuta etti."
+        },
+        {
+          "id": "ebubekir",
+          "role": "Sancaktar / baş danışman",
+          "note_tr": "Ordunun sancağını taşıdı (bazı rivâyetler). Tüm malını bağışlayan en yakın yoldaş."
+        },
+        {
+          "id": "omer",
+          "role": "Üst düzey komutan",
+          "note_tr": "Hz. Peygamber'in en yakın danışmanlarından. Malının yarısını bağışladı."
+        },
+        {
+          "id": "osman",
+          "role": "Ana lojistik destekçi — Ceyşü'l-Usre'nin financörü",
+          "note_tr": "Ordunun üçte birini techiz etti. 300 deve, 1.000 dinar, 50 at bağışladı."
+        },
+        {
+          "id": "comp_halid_velid",
+          "role": "Dûmetü'l-Cendel müfrezesi komutanı — 420 süvari",
+          "note_tr": "Mûte kahramanı. Dûmetü'l-Cendel'e baskın yaparak Ükeydir'i yakaladı."
+        }
+      ]
+    },
+    "enemy": {
+      "total": 0,
+      "total_range": "Bizans ordusu karşılaşmadan geri çekildi veya hiç gelmedi",
+      "commander": "Herakleios (dolaylı)",
+      "commander_name": {
+        "tr": "Herakleios / Gassânî müttefikleri (dolaylı — karşılaşma olmadı)",
+        "en": "Heraclius / Ghassanid allies (indirect — no encounter)"
+      },
+      "composition": {
+        "byzantine": {
+          "count_est": "rivâyetlerde 40.000 (İbn Hişâm) — gerçekleşmedi",
+          "note_tr": "Nabatlı tüccarlardan gelen istihbarata göre Bizans, Gassânî ve diğer Hristiyan Arap kabilelerle birlikte büyük bir ordu hazırlıyordu. Ancak bu ordu Tebük'e gelmedi."
+        },
+        "ghassanid": {
+          "count_est": "belirsiz",
+          "note_tr": "Gassânîler Bizans'ın güney tampon devletiydi. Mûte'de aktif olmuşlardı. Tebük'te karşılaşma olmadı."
+        }
+      },
+      "key_commanders": [
+        {
+          "id": "herakleios",
+          "role": "Bizans İmparatoru (610-641) — dolaylı",
+          "note_tr": "Sâsânî savaşının galibi. Müslümanları ciddiye almaya başlamıştı ama güney cephesine büyük kuvvet ayıramadığı düşünülüyor."
+        }
+      ],
+      "note": {
+        "tr": "Tebük'ün benzersiz özelliği savaşın olmamasıdır. Düşman ordusu karşılaşmadan çekildi — bu, caydırıcılık yoluyla zaferdir. Diplomatik sonuçlar askerî zafer kadar önemliydi.",
+        "en": "Tabuk's unique feature is the absence of battle. The enemy army withdrew without engagement — this is victory through deterrence. Diplomatic results were as important as military victory."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": "İbn Hişâm, es-Sîretü'n-Nebeviyye",
+        "ref": "IV/159-186",
+        "note_tr": "Ana anlatım. Seferberlik, münâfıkların mazeretleri, yürüyüş, diplomatik anlaşmalar, Mescid-i Dırâr. Bizans ordusunu 40.000 olarak verir."
+      },
+      {
+        "id": "WQ",
+        "name": "Vâkıdî, Kitâbü'l-Megâzî",
+        "ref": "III/989-1077",
+        "note_tr": "En detaylı kaynak. Osman'ın bağışları, Eyle antlaşmasının tam metni, Ükeydir'in yakalanması, Mescid-i Dırâr detayları. İsim listeleri ve tarihler en zengin burada."
+      },
+      {
+        "id": "IS",
+        "name": "İbn Sa'd, et-Tabakâtü'l-Kübrâ",
+        "ref": "II/165-179",
+        "note_tr": "Biyografik perspektif — sahâbîlerin Tebük'teki rolleri. Ka'b b. Mâlik biyografisi detaylı. Bazı rivâyetlerde 40.000 kişi."
+      },
+      {
+        "id": "TAB",
+        "name": "Taberî, Târîhu'r-Rusül ve'l-Mülûk",
+        "ref": "III/100-142",
+        "note_tr": "Kronolojik düzen. Farklı isnâd zincirleri ile paralel rivâyetler. Bizans'ın durumu hakkında ek bilgiler. Akabe suikast teşebbüsü rivâyeti."
+      },
+      {
+        "id": "BLZ",
+        "name": "Belâzürî, Fütûhu'l-Büldân",
+        "ref": "I/64-67",
+        "note_tr": "Fetih perspektifinden kısa ama önemli anlatım. Eyle, Cerba, Ezruh ve Dûmetü'l-Cendel antlaşma metinleri. Ükeydir'in sonraki akıbeti."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_tebuk_kab",
+        "ref": "Buhârî, Megâzî 79; Müslim, Tevbe 53",
+        "topic_tr": "Ka'b b. Mâlik'in Tebük'ten geri kalışı — 50 gün boykot ve tevbe. İslâm edebiyatının en uzun hadislerinden biri. Müttefekun aleyh."
+      },
+      {
+        "id": "hds_tebuk_ali_harun",
+        "ref": "Buhârî, Megâzî 78; Müslim, Fedâilü's-Sahâbe 31",
+        "topic_tr": "Hz. Ali'nin Medîne'de bırakılması: 'Sen bana Hârûn'un Mûsâ'ya olan konumundasın; ancak benden sonra peygamber yoktur.' Müttefekun aleyh."
+      },
+      {
+        "id": "hds_tebuk_osman",
+        "ref": "Tirmizî, Menâkıb 18; Ahmed, Müsned V/63",
+        "topic_tr": "Hz. Osman'ın Tebük'te ordunun büyük bölümünü techiz etmesi: 'Bugünden sonra Osman'a hiçbir şey zarar vermez.'"
+      },
+      {
+        "id": "hds_tebuk_ebubekir",
+        "ref": "Ebû Dâvûd, Zekât 40; Tirmizî, Menâkıb 16",
+        "topic_tr": "Hz. Ebû Bekir'in tüm malını getirmesi. 'Ailene ne bıraktın?' — 'Allah ve Rasûlü'nü.'"
+      },
+      {
+        "id": "hds_tebuk_bekkain",
+        "ref": "İbn Hişâm, Sîre IV; İbn Sa'd II/168",
+        "topic_tr": "Fakir sahâbîlerin (Bekkâûn) binek bulamayıp ağlayarak geri dönmesi. Tevbe 9:92 ile doğrudan bağlantılı."
+      },
+      {
+        "id": "hds_tebuk_pinar",
+        "ref": "Müslim, Fedâil 10; Ahmed, Müsned",
+        "topic_tr": "Tebük pınarı mucizesi — Hz. Peygamber'in duasıyla suyun bereketlenmesi."
+      },
+      {
+        "id": "hds_tebuk_hicr",
+        "ref": "Buhârî, Enbiyâ 17; Müslim, Zühd 39",
+        "topic_tr": "Hicr/Medâin-i Sâlih'te Hz. Peygamber'in Semûd uyarısı: 'Ağlayarak geçin veya hiç geçmeyin.'"
+      }
+    ],
+    "secondary": [
+      {
+        "id": "WATT",
+        "name": "W. Montgomery Watt, Muhammad at Medina",
+        "ref": "pp. 113-117",
+        "note_tr": "Tebük'ün siyasi ve stratejik analizini yapar. Bizans ordusunun gerçekliğini sorgular."
+      },
+      {
+        "id": "LINGS",
+        "name": "Martin Lings, Muhammad: His Life Based on the Earliest Sources",
+        "ref": "pp. 316-332",
+        "note_tr": "Anlatısal yaklaşım. Ka'b b. Mâlik hadisini ayrıntılı işler."
+      },
+      {
+        "id": "HAMIDULLAH",
+        "name": "Muhammed Hamidullah, İslâm Peygamberi",
+        "ref": "II/291-310",
+        "note_tr": "Diplomatik antlaşmaların hukuki analizini yapar. Eyle antlaşması metnini verir."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "38-42",
+      "phase_id": "F1_preparation",
+      "topic": {
+        "tr": "Sefere çıkma emri ve geri kalanların kınanması: 'Size ne oluyor ki Allah yolunda savaşa çıkın denildiğinde yere çakılıp kalıyorsunuz? Âhiret yerine dünya hayatına mı razı oldunuz?' (9:38). Bu âyetler Tebük seferi bağlamında inen en temel çağrıdır. Münâfıkların ve tereddüt edenlerin kınanması. 'Hafif ve ağır olarak sefere çıkın' (9:41) emri.",
+        "en": "Command to march and condemnation of those who stayed behind: 'What is the matter with you that when you are told to march forth in the cause of Allah, you cling heavily to the earth? Are you content with the life of this world over the Hereafter?' (9:38). These are the most fundamental verses revealed in the Tabuk context. Condemnation of hypocrites and hesitators. 'March forth whether light or heavy' (9:41)."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 38,
+          "text_tr": "Size ne oluyor ki 'Allah yolunda savaşa çıkın!' denildiğinde yere çakılıp kalıyorsunuz?"
+        },
+        {
+          "surah": 9,
+          "ayah": 39,
+          "text_tr": "Eğer sefere çıkmazsanız sizi acı bir azapla cezalandırır..."
+        },
+        {
+          "surah": 9,
+          "ayah": 41,
+          "text_tr": "Hafif ve ağır olarak sefere çıkın, mallarınızla ve canlarınızla Allah yolunda cihad edin."
+        },
+        {
+          "surah": 9,
+          "ayah": 42,
+          "text_tr": "Yakın bir dünya malı ve kolay bir yolculuk olsaydı mutlaka sana uyarlardı..."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "43-45",
+      "phase_id": "F1_preparation",
+      "topic": {
+        "tr": "Hz. Peygamber'in münâfıklara izin vermesi konusu: 'Allah seni affetsin! Doğru söyleyenler sana belli oluncaya ve yalancıları tanıyıncaya kadar niçin onlara izin verdin?' (9:43). Münâfıkların sahte mazeretleri ve geri kalışları.",
+        "en": "The issue of the Prophet giving permission to hypocrites: 'May Allah pardon you! Why did you give them permission before it became clear to you which of them were truthful and which were liars?' (9:43). Hypocrites' false excuses and staying behind."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 43,
+          "text_tr": "Allah seni affetsin! Doğru söyleyenler sana belli oluncaya kadar niçin onlara izin verdin?"
+        },
+        {
+          "surah": 9,
+          "ayah": 44,
+          "text_tr": "Allah'a ve âhiret gününe inananlar, mallarıyla ve canlarıyla cihad etmekten geri kalmak için senden izin istemezler."
+        },
+        {
+          "surah": 9,
+          "ayah": 45,
+          "text_tr": "Senden ancak Allah'a ve âhiret gününe inanmayanlar izin ister..."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "73-74",
+      "phase_id": "F2_march",
+      "topic": {
+        "tr": "Münâfıklara sert tutum ve yolda alay edenlerin ifşâsı: 'Kâfir ve münâfıklara karşı cihad et, onlara sert davran.' (9:73). Bazı münâfıklar yürüyüş sırasında Hz. Peygamber hakkında alay edici sözler söylemişlerdi; yakalanınca 'şakalaşıyorduk' dediler.",
+        "en": "Firm stance against hypocrites and exposure of mockers on the road: 'Strive against the disbelievers and hypocrites and be harsh with them.' (9:73). Some hypocrites made mocking remarks about the Prophet during the march; when caught they said 'we were only joking.'"
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 73,
+          "text_tr": "Kâfir ve münâfıklara karşı cihad et, onlara sert davran."
+        },
+        {
+          "surah": 9,
+          "ayah": 74,
+          "text_tr": "...İnandıktan sonra inkâr ettiler; başaramadıkları bir şeye giriştiler..."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "81-83",
+      "phase_id": "F1_preparation,F6_aftermath",
+      "topic": {
+        "tr": "Geri kalanların kınanması: 'Sıcağa rağmen oturarak kaldılar: Sıcakta sefere çıkmayın dediler. De ki: Cehennem ateşi daha sıcaktır, keşke bilselerdi.' (9:81). Tebük'ün en meşhur âyetlerinden biri — sıcak mazereti ile cehennem ateşinin mukayesesi.",
+        "en": "Condemnation of those who stayed behind: 'They sat back saying: Do not go forth in the heat. Say: The fire of Hell is hotter, if only they understood.' (9:81). One of the most famous Tabuk verses — comparing the excuse of heat with the fire of Hell."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 81,
+          "text_tr": "...Sıcakta sefere çıkmayın dediler. De ki: Cehennem ateşi daha sıcaktır, keşke bilselerdi."
+        },
+        {
+          "surah": 9,
+          "ayah": 82,
+          "text_tr": "Az gülsünler, çok ağlasınlar — kazandıklarının cezası olarak."
+        },
+        {
+          "surah": 9,
+          "ayah": 83,
+          "text_tr": "...Onlardan birinin cenaze namazını asla kılma, kabri başında da durma."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "91-92",
+      "phase_id": "F1_preparation",
+      "topic": {
+        "tr": "Zayıflara ve fakirlere muafiyet — Bekkâûn (Ağlayanlar) âyeti: 'Allah ve Rasûlü için nasihatte bulundukları sürece zayıflara, hastalara ve harcayacak bir şey bulamayanlara günah yoktur.' (9:91). 'Sana gelip de Sen onlara binek sağla deyince, size binek bulamıyorum dediğinde, harcayacak bir şey bulamadıkları için üzüntüden gözleri yaşla dolarak döndüler.' (9:92).",
+        "en": "Exemption for the weak and poor — Bakka'un (Weepers) verse: 'There is no blame on the weak, the sick, or those who find nothing to spend, as long as they are sincere to Allah and His Messenger.' (9:91). 'Those who came to you asking you to provide them mounts, and when you said I cannot find mounts for you, they turned back with their eyes overflowing with tears of grief that they had nothing to spend.' (9:92)."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 91,
+          "text_tr": "...Zayıflara, hastalara ve harcayacak bir şey bulamayanlara günah yoktur..."
+        },
+        {
+          "surah": 9,
+          "ayah": 92,
+          "text_tr": "...Gözleri yaşla dolarak döndüler — harcayacak bir şey bulamadıkları için."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "107-110",
+      "phase_id": "F5_return",
+      "topic": {
+        "tr": "Mescid-i Dırâr: 'Zarar vermek, küfür, müminler arasına ayrılık sokmak ve daha önce Allah ve Rasûlü'ne karşı savaşmış olan kimseyi beklemek amacıyla bir mescid edinenler...' (9:107). Hz. Peygamber Tebük dönüşünde bu mescidi yıktırdı. 'İlk günden takvâ üzerine kurulan mescid (Kubâ), içinde namaz kılman daha lâyıktır.' (9:108).",
+        "en": "Masjid al-Dirar: 'Those who have taken a mosque for causing harm and disbelief and division among the believers and as a station for whoever had warred against Allah and His Messenger before...' (9:107). The Prophet had this mosque demolished upon return from Tabuk. 'A mosque founded on piety from the first day (Quba) is more worthy for you to pray in.' (9:108)."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 107,
+          "text_tr": "Zarar vermek, küfür, müminler arasına ayrılık sokmak... amacıyla bir mescid edinenler..."
+        },
+        {
+          "surah": 9,
+          "ayah": 108,
+          "text_tr": "...İlk günden takvâ üzerine kurulan mescid, içinde namaz kılman daha lâyıktır."
+        },
+        {
+          "surah": 9,
+          "ayah": 110,
+          "text_tr": "Yaptıkları bina, kalplerinde bir kuşku olarak kalacaktır..."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "117-118",
+      "phase_id": "F6_aftermath",
+      "topic": {
+        "tr": "Üç sahâbînin tevbesinin kabulü: 'Allah, Peygamber'i, zorluk zamanında ona tâbi olan muhâcirleri ve ensârı affetti — onlardan bir grubun kalpleri kaymaya yüz tutmuşken... Geri kalan üç kişiyi de — yeryüzü bütün genişliğine rağmen onlara dar geldi, nefisleri de kendilerine dar geldi, Allah'tan başka sığınak olmadığını anladılar. Sonra Allah, tevbe etsinler diye onların tevbesini kabul etti.' (9:117-118). Tebük seferinin en duygusal Kur'ânî anlatısı.",
+        "en": "Acceptance of the three companions' repentance: 'Allah turned in mercy to the Prophet, the Muhajirun, and the Ansar who followed him in the hour of hardship — after the hearts of a group of them had nearly deviated... And the three who were left behind — the earth, despite its vastness, became narrow for them, and their own souls became constricted, and they realized there was no refuge from Allah except to Him. Then He turned to them so they could repent.' (9:117-118). The most emotional Quranic narrative of the Tabuk expedition."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 117,
+          "text_tr": "Allah, Peygamber'i, zorluk zamanında ona tâbi olan muhâcirleri ve ensârı affetti..."
+        },
+        {
+          "surah": 9,
+          "ayah": 118,
+          "text_tr": "...Yeryüzü bütün genişliğine rağmen onlara dar geldi... Sonra Allah onların tevbesini kabul etti."
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "120-121",
+      "phase_id": "F2_march,F3_tabuk_camp",
+      "topic": {
+        "tr": "Tebük mücâhidlerinin ecri: 'Medîne halkının ve çevredeki bedevîlerin Rasûlullah'tan geri kalmaları ve onun canından önce kendi canlarını düşünmeleri uygun değildir. Çünkü onlar Allah yolunda bir susuzluk, bir yorgunluk, bir açlık çekmedikçe... mutlaka bunlara karşılık salih bir amel yazılır.' (9:120). Zorluk seferinin mükâfatı.",
+        "en": "Reward of Tabuk fighters: 'It was not proper for the people of Medina and the surrounding Bedouins to stay behind the Messenger of Allah or to prefer their own lives to his. For no thirst, fatigue, or hunger afflicts them in the cause of Allah... except that a righteous deed is recorded for them.' (9:120). The reward of the expedition of hardship."
+      },
+      "key_verses": [
+        {
+          "surah": 9,
+          "ayah": 120,
+          "text_tr": "...Bir susuzluk, bir yorgunluk, bir açlık çekmedikçe... mutlaka salih bir amel yazılır."
+        },
+        {
+          "surah": 9,
+          "ayah": 121,
+          "text_tr": "Küçük büyük hiçbir harcama yapmazlar... mutlaka yaptıklarının en güzeliyle mükâfatlandırılırlar."
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_tebuk_ali_harun",
+      "topic": "Hz. Ali'nin Medîne'de bırakılması — Hârûn hadisi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_tebuk_osman",
+      "topic": "Hz. Osman'ın Tebük'e büyük bağışı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_tebuk_ebubekir",
+      "topic": "Hz. Ebû Bekir'in tüm malını getirmesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_tebuk_bekkain",
+      "topic": "Bekkâûn — ağlayarak dönen fakir sahâbîler",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_tebuk_pinar",
+      "topic": "Tebük pınarı mucizesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_tebuk_hicr",
+      "topic": "Hicr / Semûd harabelerinde uyarı",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Tebük, savaş olmadan kazanılan stratejik bir zaferdir. 30.000 kişilik ordunun Bizans sınırına kadar ilerlemesi, İslâm devletinin askerî kapasitesini tüm bölgeye gösterdi. Bu 'kuvvet gösterisi' (show of force), Mûte'de yaralanan Müslüman prestijini tam olarak restore etti. Artık İslâm devleti Arap Yarımadası'nın tek gücü değil, bölgesel bir güçtür. Tebük'ün askerî dersleri: 1) Caydırıcılık (deterrence), doğrudan savaş kadar etkili olabilir. 2) Lojistik kapasite: 30.000 kişiyi 700 km taşıyabilmek muazzam bir organizasyon başarısıdır. 3) Diplomatik anlaşmalar, savaşmadan toprak kazandırabilir. 4) İstihbaratın doğruluğu (veya yanlışlığı) stratejik kararları belirler. Tebük, Hz. Peygamber'den sonra başlayacak büyük fetihlerin (Yermük 636, Kādisiyye 636-637, Mısır 639-642) stratejik zeminini hazırladı.",
+      "en": "Tabuk was a strategic victory won without battle. The advance of 30,000 troops to the Byzantine border demonstrated the Islamic state's military capacity to the entire region. This show of force fully restored Muslim prestige wounded at Mu'tah. The Islamic state was now not just the sole power in the Arabian Peninsula, but a regional power. Military lessons: 1) Deterrence can be as effective as direct combat. 2) Logistics: transporting 30,000 people 700 km was a tremendous organizational achievement. 3) Diplomatic agreements can gain territory without fighting. 4) Intelligence accuracy determines strategic decisions. Tabuk laid the strategic groundwork for the great conquests after the Prophet (Yarmouk 636, Qadisiyya 636-637, Egypt 639-642)."
+    },
+    "political": {
+      "tr": "Tebük, İslâm devletinin uluslararası politikada ciddi bir aktör olduğunu tescil etti. Eyle, Cerba, Ezruh ve Dûmetü'l-Cendel antlaşmaları, Bizans'ın güney tampon bölgesindeki vasallarının doğrudan İslâm devleti ile anlaşma yapmasını sağladı — bu, Bizans'ın bölgesel nüfuzuna ağır darbe vurdu. İslâm'ın zimmî (dhimmi) sistemi bu antlaşmalarla somutlaştı: cizye karşılığında can-mal-din güvencesi. Tebük aynı zamanda İslâm toplumu içindeki münâfık meselesini de kesin olarak çözdü — Mescid-i Dırâr'ın yıkılması ve münâfıkların ifşâsı ile artık gizli muhalefet de ortadan kalktı. 9 AH'nin 'Berâet' (İlişki Kesme) ilânı ile birlikte Arap Yarımadası'nda İslâm dışı güçlerin varlığı sona erdi.",
+      "en": "Tabuk established the Islamic state as a serious actor in international politics. The treaties of Ayla, Jarba, Adhruh, and Dumat al-Jandal enabled Byzantine southern buffer zone vassals to deal directly with the Islamic state — a heavy blow to Byzantine regional influence. Islam's dhimmi system was concretized through these agreements: protection of life, property, and religion in exchange for jizya. Tabuk also definitively resolved the internal hypocrite issue — the demolition of Masjid al-Dirar and exposure of hypocrites ended even covert opposition. Together with the 'Bara'ah' (disavowal) proclamation of 9 AH, non-Islamic powers' presence in the Arabian Peninsula came to an end."
+    },
+    "social": {
+      "tr": "Tebük, İslâm toplumunun toplumsal dayanışmasının en büyük sınavıydı. Hz. Osman ve Hz. Ebû Bekir'in bağışları, zenginlerin toplumsal sorumluluğunun (infâk) zirvesidir. Fakir sahâbîlerin (Bekkâûn) gözyaşları, samimiyetin maddi imkânsızlığı bile aştığını gösterir. Ka'b b. Mâlik'in 50 gün boykotu ve tevbesi, İslâm toplumundaki hesap verebilirlik mekanizmasının ne kadar güçlü olduğunu gösterir. Doğruyu söylemenin bedeli ağırdı ama ödülü daha büyüktü; yalan söyleyen münâfıklar ise ilâhî ifşâya maruz kaldı. Tebük, İslâm toplumsal ahlâkının en temel derslerini içerir: samimiyet, fedakârlık, hesap verebilirlik, toplumsal dayanışma.",
+      "en": "Tabuk was the greatest test of Islamic society's communal solidarity. The donations of Uthman and Abu Bakr represent the zenith of the wealthy's social responsibility (infaq). The tears of poor companions (Bakka'un) show that sincerity transcends even material impossibility. Ka'b ibn Malik's 50-day boycott and repentance demonstrate how powerful the accountability mechanism in Islamic society was. The price of telling the truth was heavy but the reward was greater; hypocrites who lied were exposed by divine revelation. Tabuk contains the most fundamental lessons of Islamic social ethics: sincerity, sacrifice, accountability, communal solidarity."
+    },
+    "religious": {
+      "tr": "Tebük, Kur'ân'da en çok referans verilen seferdir — Tevbe sûresinin önemli bölümü doğrudan Tebük bağlamında inmiştir. Samimiyet (sadâkat) vs. münâfıklık (nifâk) ayrımının kesin çizgilerle belirlenmesi. Kur'ân'ın toplumsal olayları anlık yorum ve yönlendirmesiyle vahiy-tarih ilişkisinin en canlı örneği. Ka'b b. Mâlik hadisi, tevbe (tawba) kavramının İslâm ahlâk sistemindeki merkezi konumunu gösterir. Mescid-i Dırâr olayı, ibadetin niyete bağlılığını ve 'dini siyasi araç olarak kullanma'nın en erken örneklerinden birini teşkil eder.",
+      "en": "Tabuk is the most referenced expedition in the Quran — a significant portion of Surat al-Tawba was revealed directly in the Tabuk context. Definitive delineation of sincerity (sidq) vs. hypocrisy (nifaq). The most vivid example of the revelation-history relationship through the Quran's real-time commentary and guidance on social events. Ka'b ibn Malik's hadith demonstrates the central position of repentance (tawba) in the Islamic ethical system. The Masjid al-Dirar incident constitutes one of the earliest examples of worship's dependence on intention and 'using religion as a political tool.'"
+    }
+  },
+  "visualization": {
+    "default_zoom": 6,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "diplomacy": "#1565C0",
+      "route_march": "#FF6F00",
+      "route_return": "#0D47A1",
+      "route_detachment": "#6A1B9A",
+      "landmark": "#6A1B9A",
+      "camp": "#00838F",
+      "demolition": "#D32F2F",
+      "boycott": "#E65100",
+      "geographic_ref": "#546E7A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli Noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "style": {
+          "icon": "landmark",
+          "color": "#6A1B9A"
+        }
+      },
+      {
+        "id": "layer_march_route",
+        "name": "Medîne → Tebük Yürüyüşü",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[0]",
+        "style": {
+          "color": "#FF6F00",
+          "weight": 3,
+          "dashArray": "8,4"
+        }
+      },
+      {
+        "id": "layer_return_route",
+        "name": "Tebük → Medîne Dönüş",
+        "type": "route",
+        "default_visible": false,
+        "data_source": "spatial.routes[1]",
+        "style": {
+          "color": "#0D47A1",
+          "weight": 2,
+          "dashArray": "4,8"
+        }
+      },
+      {
+        "id": "layer_halid_route",
+        "name": "Hâlid → Dûmetü'l-Cendel Müfrezesi",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[2]",
+        "style": {
+          "color": "#6A1B9A",
+          "weight": 2,
+          "dashArray": "6,3"
+        }
+      },
+      {
+        "id": "layer_muslim_forces",
+        "name": "Müslüman Kuvvetleri",
+        "type": "force_positions",
+        "default_visible": true,
+        "style": {
+          "color": "#2E7D32",
+          "icon": "army"
+        }
+      },
+      {
+        "id": "layer_diplomacy_points",
+        "name": "Diplomatik Anlaşma Noktaları",
+        "type": "special_markers",
+        "default_visible": true,
+        "style": {
+          "color": "#1565C0",
+          "icon": "handshake"
+        }
+      },
+      {
+        "id": "layer_phases",
+        "name": "Faz Animasyonu",
+        "type": "phase_overlay",
+        "default_visible": false,
+        "data_source": "phases"
+      }
+    ]
+  },
+  "cross_references": {
+    "prophet_battles": {
+      "id": "pb_tebuk",
+      "status": "valid"
+    },
+    "companions": [
+      {
+        "id": "ebubekir",
+        "role": "tüm malını bağışlayan — sancaktar",
+        "status": "valid"
+      },
+      {
+        "id": "omer",
+        "role": "malının yarısını bağışlayan — üst düzey komutan",
+        "status": "valid"
+      },
+      {
+        "id": "osman",
+        "role": "ordunun üçte birini techiz eden — en büyük bağışçı",
+        "status": "valid"
+      },
+      {
+        "id": "ali",
+        "role": "Medîne'de halîfe (vekil) — Hârûn hadisi",
+        "status": "valid"
+      },
+      {
+        "id": "comp_halid_velid",
+        "role": "Dûmetü'l-Cendel müfrezesi komutanı — 420 süvari",
+        "status": "valid"
+      },
+      {
+        "id": "kab_malik",
+        "role": "geri kalan üç sahâbîden biri — 50 gün boykot — ana rivâyetçi",
+        "status": "valid"
+      }
+    ],
+    "locations": [
+      {
+        "id": "medine",
+        "status": "valid"
+      },
+      {
+        "id": "tebuk",
+        "status": "valid"
+      },
+      {
+        "id": "eyle",
+        "status": "valid"
+      },
+      {
+        "id": "dumetulcendel",
+        "status": "valid"
+      },
+      {
+        "id": "mada_in_salih",
+        "status": "valid"
+      },
+      {
+        "id": "kuba",
+        "status": "valid"
+      }
+    ],
+    "tribes": [
+      {
+        "id": "gassaniler",
+        "role": "Bizans vasalı — düşman cephesi",
+        "status": "valid"
+      },
+      {
+        "id": "gassan",
+        "role": "Gassân kabilesi — Ka'b'a mektup gönderen",
+        "status": "valid"
+      }
+    ],
+    "hadith_db": [
+      {
+        "id": "hds_tebuk_kab",
+        "status": "exists"
+      }
+    ],
+    "hadith_new_needed": [
+      {
+        "id": "hds_tebuk_ali_harun",
+        "ref": "Buhârî, Megâzî 78; Müslim, Fedâilü's-Sahâbe 31",
+        "topic_tr": "Hz. Ali'nin Medîne'de bırakılması — Hârûn hadisi"
+      },
+      {
+        "id": "hds_tebuk_osman",
+        "ref": "Tirmizî, Menâkıb 18; Ahmed, Müsned V/63",
+        "topic_tr": "Hz. Osman'ın devasa bağışı — 'Osman'a hiçbir şey zarar vermez'"
+      },
+      {
+        "id": "hds_tebuk_ebubekir",
+        "ref": "Ebû Dâvûd, Zekât 40; Tirmizî, Menâkıb 16",
+        "topic_tr": "Hz. Ebû Bekir'in tüm malını getirmesi — 'Allah ve Rasûlü'nü bıraktım'"
+      },
+      {
+        "id": "hds_tebuk_bekkain",
+        "ref": "İbn Hişâm, Sîre IV; İbn Sa'd II/168",
+        "topic_tr": "Bekkâûn (Ağlayanlar) — binek bulamayan fakir sahâbîler"
+      },
+      {
+        "id": "hds_tebuk_pinar",
+        "ref": "Müslim, Fedâil 10; Ahmed, Müsned",
+        "topic_tr": "Tebük pınarı mucizesi — suyun bereketlenmesi"
+      },
+      {
+        "id": "hds_tebuk_hicr",
+        "ref": "Buhârî, Enbiyâ 17; Müslim, Zühd 39",
+        "topic_tr": "Hicr/Semûd harabelerinde uyarı — 'Ağlayarak geçin'"
+      }
+    ],
+    "esbab_nuzul": [
+      {
+        "id": "en_tevbe_9_43",
+        "status": "valid"
+      },
+      {
+        "id": "en_tevbe_9_73",
+        "status": "valid"
+      },
+      {
+        "id": "en_tevbe_9_108",
+        "status": "valid"
+      },
+      {
+        "id": "en_tevbe_9_118",
+        "status": "valid"
+      }
+    ],
+    "related_battles": [
+      {
+        "id": "reconstruction_mute",
+        "relation": "Mûte'nin intikamı ve devamı — Bizans cephesinin ikinci perdesi"
+      },
+      {
+        "id": "reconstruction_mekke_fethi",
+        "relation": "Mekke fethinden bir yıl sonra — Yarımada hakimiyetinin pekiştirilmesi"
+      },
+      {
+        "id": "reconstruction_huneyn",
+        "relation": "Huneyn'den sonra — aynı yıl (8-9 AH) — ordunun tecrübesi artmış"
+      },
+      {
+        "id": "reconstruction_hendek",
+        "relation": "Hendek'ten Tebük'e evrim: savunmadan saldırıya geçiş"
+      },
+      {
+        "id": "reconstruction_bedir",
+        "relation": "313 kişilik Bedir'den 30.000 kişilik Tebük'e — 7 yılda muazzam büyüme"
+      }
+    ]
+  }
+}

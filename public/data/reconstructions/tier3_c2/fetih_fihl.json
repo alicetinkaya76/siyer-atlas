@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "recon_fetih_fihl",
+    "battle_id": "fetih_fihl",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.45,
+        "lng": 35.62
+      },
+      "name": "Fihl Muharebesi",
+      "modern_location": "Tabakat Fahil, Ürdün"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Muharebe",
+      "date_range": "Zilkade 13",
+      "duration": "",
+      "description": "Fihl'de Bizans ordusuyla karşılaşma.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Zilkade 13",
+      "duration": "",
+      "description": "Ürdün bölgesi güvence altına alındı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ebû Ubeyde / Şurahbîl b. Hasene",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Saklar (Bizans)",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/437",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 116",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_suriye_fethi",
+      "topic": "Suriye fethi müjdesi",
+      "relevance": "contextual",
+      "source": "Müslim"
+    }
+  ],
+  "impact": {
+    "result": "Fihl fethi, Ürdün güvenliği sağlandı",
+    "significance": "Ürdün vadisinin kontrolünü sağladı. Bizans'ın bölgedeki son ciddi direniş girişimi kırıldı.",
+    "cross_references": [
+      "fetih_dimask",
+      "yermuk"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

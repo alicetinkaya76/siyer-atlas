@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "id": "reconstruction_siffin_savasi",
+    "battle_id": "siffin_savasi",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Sıffîn Muharebesi (Safer 37 AH / Temmuz 657 CE). Hz. Ali ile Muâviye arasında Fırat kıyısında. Leyletü'l-Herîr + Mushaf kaldırma + Tahkîm. İslâm tarihinin dönüm noktası."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 35.75,
+        "lng": 39.0
+      },
+      "bbox": {
+        "north": 35.82,
+        "south": 35.68,
+        "east": 39.08,
+        "west": 38.92
+      },
+      "terrain_type": "river_plain",
+      "terrain_desc": {
+        "tr": "Sıffîn, Fırat Nehri kıyısında Rakka yakınlarında düz ova. Su kaynağına erişim stratejik önemde. Muâviye önce suyu kontrol etti; Hz. Ali geri aldı.",
+        "en": "Ṣiffīn lies on the Euphrates riverbank near Raqqa, on a flat plain. Access to water was strategically crucial. Muʿāwiya first controlled the water; ʿAlī recaptured it."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_firat_su",
+        "name": {
+          "tr": "Fırat su noktası",
+          "en": "Euphrates water access"
+        },
+        "lat": 35.76,
+        "lng": 38.98,
+        "type": "water_source",
+        "note_tr": "Stratejik su kaynağı; Muâviye önce ele geçirdi, Hz. Ali geri aldı ama herkese açtı."
+      },
+      {
+        "id": "lm_siffin_meydan",
+        "name": {
+          "tr": "Sıffîn muharebe meydanı",
+          "en": "Ṣiffīn battlefield"
+        },
+        "lat": 35.75,
+        "lng": 39.0,
+        "type": "battlefield",
+        "note_tr": "Ana çarpışma alanı; Leyletü'l-Herîr burada yaşandı."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_kufe_siffin",
+        "name": {
+          "tr": "Kûfe → Sıffîn (Hz. Ali)",
+          "en": "Kūfa → Ṣiffīn (ʿAlī)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 32.05,
+            "lng": 44.35,
+            "label": "Kûfe"
+          },
+          {
+            "lat": 34.0,
+            "lng": 41.5,
+            "label": "Hît"
+          },
+          {
+            "lat": 35.75,
+            "lng": 39.0,
+            "label": "Sıffîn"
+          }
+        ]
+      },
+      {
+        "id": "route_dimask_siffin",
+        "name": {
+          "tr": "Dımaşk → Sıffîn (Muâviye)",
+          "en": "Damascus → Ṣiffīn (Muʿāwiya)"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 33.51,
+            "lng": 36.29,
+            "label": "Dımaşk"
+          },
+          {
+            "lat": 34.5,
+            "lng": 37.5,
+            "label": "Humus"
+          },
+          {
+            "lat": 35.75,
+            "lng": 39.0,
+            "label": "Sıffîn"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_su_krizi",
+      "order": 0,
+      "name": {
+        "tr": "Su krizi ve geri alınması",
+        "en": "Water crisis and recovery"
+      },
+      "date_range": {
+        "start": "Zilhicce 36 AH",
+        "end": "Zilhicce 36 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Muâviye'nin kuvvetleri Fırat'a erişimi engelledi. Hz. Ali görüşme denedi; reddedilince kısa bir çarpışmayla su kaynağını geri aldı. Ama Muâviye'ye su yasağı koymadı — 'Biz onlar gibi yapmayız.'",
+        "en": "Muʿāwiya's forces blocked access to the Euphrates. ʿAlī tried negotiation; when refused, recaptured the water source with a brief skirmish. But he did not deny water to Muʿāwiya — 'We do not act as they do.'"
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Su kaynağının geri alınması",
+          "description_tr": "Hz. Ali'nin adaleti: düşmana bile su hakkı."
+        }
+      ]
+    },
+    {
+      "id": "F1_muzakere",
+      "order": 1,
+      "name": {
+        "tr": "Uzun müzakere dönemi",
+        "en": "Extended negotiation period"
+      },
+      "date_range": {
+        "start": "Muharrem 37 AH",
+        "end": "Safer 37 AH"
+      },
+      "duration": "~1 ay",
+      "description": {
+        "tr": "Muharrem ayı boyunca savaş yapılmadı (haram ay). Elçiler gidip geldi. Hz. Ali kısas ve biat istedi; Muâviye Suriye valiliğinin tanınmasını talep etti. Anlaşma sağlanamadı.",
+        "en": "No fighting during Muḥarram (sacred month). Envoys went back and forth. ʿAlī demanded retribution and allegiance; Muʿāwiya demanded recognition of his Syrian governorship. No agreement was reached."
+      },
+      "events": []
+    },
+    {
+      "id": "F2_catismalar",
+      "order": 2,
+      "name": {
+        "tr": "Aralıklı çatışmalar",
+        "en": "Intermittent skirmishes"
+      },
+      "date_range": {
+        "start": "1 Safer 37 AH",
+        "end": "~7 Safer 37 AH"
+      },
+      "duration": "~1 hafta",
+      "description": {
+        "tr": "Günlük teke tek düellolar ve birlik çatışmaları. Ammâr b. Yâsir (90 yaşında) Hz. Ali safında savaşıyordu. Hz. Peygamber'in hadisi: 'Ammâr'ı bâğî (isyankâr) bir topluluk öldürecek' — her iki taraf bu hadisin muhatabını tartışıyordu.",
+        "en": "Daily individual duels and unit clashes. ʿAmmār b. Yāsir (aged 90) fought on ʿAlī's side. The Prophet's ḥadīth: 'ʿAmmār will be killed by a rebellious group' — both sides debated who the ḥadīth referred to."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Ammâr b. Yâsir'in şehadeti",
+          "description_tr": "90 yaşında Hz. Ali safında şehit düştü. Hz. Peygamber'in hadisi gerçekleşti."
+        }
+      ]
+    },
+    {
+      "id": "F3_leylatul_herir",
+      "order": 3,
+      "name": {
+        "tr": "Leyletü'l-Herîr (Uğultu Gecesi)",
+        "en": "Night of Clamor (Laylat al-Harīr)"
+      },
+      "date_range": {
+        "start": "~8 Safer 37 AH",
+        "end": "~9 Safer 37 AH"
+      },
+      "duration": "1 gece + sabah",
+      "description": {
+        "tr": "Gece boyu süren şiddetli savaş. Her iki taraftan binlerce kişi öldü. Sabaha doğru Hz. Ali'nin zaferi kesinleşiyordu — Eşter en-Nehaî Muâviye'nin karargâhına yaklaşıyordu.",
+        "en": "Night-long fierce battle. Thousands killed on both sides. Toward dawn, ʿAlī's victory was becoming certain — al-Ashtar al-Nakhaʿī was approaching Muʿāwiya's headquarters."
+      },
+      "events": [
+        {
+          "id": "E3_1",
+          "name_tr": "Eşter'in ilerleyişi",
+          "description_tr": "Muâviye'nin karargâhına son adım; zafer an meselesiydi."
+        }
+      ]
+    },
+    {
+      "id": "F4_mushaf",
+      "order": 4,
+      "name": {
+        "tr": "Mushaf kaldırma — savaşın durdurulması",
+        "en": "Raising the Muṣḥaf — cessation of hostilities"
+      },
+      "date_range": {
+        "start": "~9 Safer 37 AH",
+        "end": "~9 Safer 37 AH"
+      },
+      "duration": "sabah",
+      "description": {
+        "tr": "Amr b. Âs'ın önerisiyle Muâviye tarafı mushafları mızraklara taktı: 'Aramızda Allah'ın Kitabı hakem olsun!' Hz. Ali bunun bir hile olduğunu söyledi; ancak ordusundaki Kur'ân okuyucuları (kurrâ) savaşı durdurmak istedi. Eşter geri çağrıldı.",
+        "en": "On Amr b. al-ʿĀṣ's suggestion, Muʿāwiya's side raised muṣḥafs on spears: 'Let the Book of God judge between us!' ʿAlī said it was a ruse; but the Qurʾān reciters (qurrāʾ) in his army wanted to stop fighting. Al-Ashtar was recalled."
+      },
+      "events": [
+        {
+          "id": "E4_1",
+          "name_tr": "Mushafların mızraklara takılması",
+          "description_tr": "İslâm tarihinin en tartışmalı anlarından biri."
+        },
+        {
+          "id": "E4_2",
+          "name_tr": "Eşter'in geri çağrılması",
+          "description_tr": "Zafer an meselesiyken geri çağrıldı."
+        }
+      ]
+    },
+    {
+      "id": "F5_tahkim",
+      "order": 5,
+      "name": {
+        "tr": "Tahkîm (Hakeme Başvurma)",
+        "en": "Arbitration (Taḥkīm)"
+      },
+      "date_range": {
+        "start": "Şaban 37 AH",
+        "end": "Ramazan 37 AH"
+      },
+      "duration": "birkaç ay",
+      "description": {
+        "tr": "Ebû Mûsâ el-Eş'arî (Hz. Ali tarafı) ve Amr b. Âs (Muâviye tarafı) hakem seçildi. Dûmetülcendel'de buluştular. Amr, Ebû Mûsâ'yı her iki tarafı da azletmeye ikna etti; ancak kendisi sadece Hz. Ali'yi azletti, Muâviye'yi onayladı. Tartışmalı ve sonuçsuz kaldı.",
+        "en": "Abū Mūsā al-Ashʿarī (ʿAlī's side) and ʿAmr b. al-ʿĀṣ (Muʿāwiya's side) were chosen as arbitrators. They met at Dūmat al-Jandal. ʿAmr persuaded Abū Mūsā to depose both sides; but he only deposed ʿAlī and confirmed Muʿāwiya. Controversial and inconclusive."
+      },
+      "events": [
+        {
+          "id": "E5_1",
+          "name_tr": "Ebû Mûsâ-Amr görüşmesi",
+          "description_tr": "Tartışmalı tahkîm sonucu."
+        },
+        {
+          "id": "E5_2",
+          "name_tr": "Hâricîlerin ortaya çıkışı",
+          "description_tr": "Tahkîm'e karşı çıkanlar Hz. Ali'den ayrıldı: 'Hüküm ancak Allah'ındır' (Lâ hükme illâ lillâh)."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~80.000-90.000",
+      "commander": "ali_b_ebi_talib",
+      "commander_name": {
+        "tr": "Hz. Ali b. Ebî Tâlib (Halîfe)",
+        "en": "ʿAlī b. Abī Ṭālib (Caliph)"
+      },
+      "composition": {
+        "kufe": {
+          "note_tr": "Kûfe halkı — ana kuvvet"
+        },
+        "basra": {
+          "note_tr": "Cemel sonrası katılanlar"
+        },
+        "sahabi": {
+          "note_tr": "Ammâr b. Yâsir, Eşter en-Nehaî, Hucr b. Adî gibi önemli sahâbîler"
+        }
+      }
+    },
+    "enemy": {
+      "total": "~100.000-120.000",
+      "commander_name": {
+        "tr": "Muâviye b. Ebî Süfyân (Suriye Valisi)",
+        "en": "Muʿāwiya b. Abī Sufyān (Governor of Syria)"
+      },
+      "composition": {
+        "suriye": {
+          "note_tr": "Suriye ordusu — disiplinli ve düzenli"
+        },
+        "danismanlar": {
+          "note_tr": "Amr b. Âs — stratejik danışman"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "IV/560-600",
+        "note_tr": "En kapsamlı anlatım."
+      },
+      {
+        "author": "Nasr b. Müzâhim",
+        "work": "Vak'atü Sıffîn",
+        "section": "",
+        "note_tr": "Sıffîn'e özel eser; detaylı ancak Şiî eğilimli."
+      },
+      {
+        "author": "İbnü'l-Esîr",
+        "work": "el-Kâmil",
+        "section": "III/270-310",
+        "note_tr": "Dengeli anlatım."
+      },
+      {
+        "author": "İbn Miskeveyh",
+        "work": "Tecâribü'l-Ümem",
+        "section": "",
+        "note_tr": "Felsefî perspektif."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Madelung",
+        "work": "The Succession to Muhammad",
+        "note_tr": "Fitne döneminin kapsamlı analizi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 49,
+      "surah_name": "Hucurât",
+      "ayah_range": "9",
+      "topic": {
+        "tr": "İki mü'min topluluk savaşırsa aralarını bulun",
+        "en": "If two groups of believers fight, reconcile them"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "Mü'minler arası sulh emri",
+          "phase_id": "F1_muzakere"
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surah_name": "En'âm",
+      "ayah_range": "57",
+      "topic": {
+        "tr": "'Hüküm ancak Allah'ındır' (İni'l-hükmü illâ lillâh) — Hâricîlerin sloganı",
+        "en": "'Judgment belongs only to God' — the Khārijite slogan"
+      },
+      "key_verses": [
+        {
+          "ayah": 57,
+          "topic_tr": "Hâricîlerin tahkîm karşıtı kullandığı âyet",
+          "phase_id": "F5_tahkim"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_ammar_bagi",
+      "topic": "Hz. Peygamber: 'Ammâr'ı bâğî (isyankâr) bir topluluk öldürecek' — Ammâr Sıffîn'de Hz. Ali safında şehit düştü",
+      "relevance": "direct",
+      "source": "Buhârî, Salât; Müslim, Fiten"
+    },
+    {
+      "hadith_id": "hds_ali_hak",
+      "topic": "Hz. Peygamber: 'Ali hak iledir, hak Ali iledir'",
+      "relevance": "contextual",
+      "source": "Tirmizî; Hâkim"
+    },
+    {
+      "hadith_id": "hds_hariciler",
+      "topic": "Hz. Peygamber'in Hâricîler hakkında 'Dinin içinden ok gibi çıkarlar' hadisi",
+      "relevance": "contextual",
+      "source": "Buhârî, İstitâbetü'l-Mürteddîn"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "~70.000 kayıp (iki taraf toplam). Kesin sonuç alınamadı; Tahkîm süreci başladı.",
+      "en": "~70,000 casualties (both sides combined). No decisive result; arbitration process began."
+    },
+    "political": {
+      "tr": "İslâm dünyası kalıcı olarak bölündü: Ali taraftarları (Şîa), Muâviye taraftarları, Hâricîler. Emevî Devleti'nin temelleri atıldı.",
+      "en": "The Islamic world was permanently divided: ʿAlī supporters (Shīʿa), Muʿāwiya supporters, Khārijites. Foundations of the Umayyad state were laid."
+    },
+    "theological": {
+      "tr": "Mushaf kaldırma olayı ve Tahkîm, İslâm siyaset felsefesinin en tartışmalı konuları oldu. Hâricîlik ve Şîîlik bu olaylarla şekillendi.",
+      "en": "The raising of muṣḥafs and arbitration became the most debated topics of Islamic political philosophy. Khārijism and Shīʿism were shaped by these events."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "~25.000",
+        "note_tr": "Ammâr b. Yâsir dahil."
+      },
+      "enemy": {
+        "killed": "~45.000",
+        "note_tr": "Suriye ordusundan ağır kayıplar."
+      }
+    },
+    "subsequent_events": [
+      {
+        "id": "nehrevan",
+        "name_tr": "Nehrevân (38 AH)",
+        "description_tr": "Hz. Ali Hâricîlerle savaştı."
+      },
+      {
+        "id": "kerbela_savasi",
+        "name_tr": "Kerbelâ (61 AH)",
+        "description_tr": "Sıffîn'in uzun vadeli sonucu."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 11,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#FF9800",
+      "neutral": "#5D4037"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

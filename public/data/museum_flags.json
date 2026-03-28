@@ -1,0 +1,585 @@
+{
+  "category": "flags_banners",
+  "version": "v1.0.0",
+  "total_items": 13,
+  "subcategories": {
+    "rayah": "Sancaklar (Râye)",
+    "liwaa": "Bayraklar (Livâ)",
+    "tribal_banner": "Kabile sancakları"
+  },
+  "items": [
+    {
+      "id": "flag_ukab",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Ukâb (Kartal) — Siyah Sancak",
+        "en": "Al-Uqab (The Eagle) — Black Banner",
+        "ar": "العُقاب — الراية السوداء"
+      },
+      "type": {
+        "tr": "Askerî sancak (Râye)",
+        "en": "Military banner (Rayah)",
+        "ar": "راية عسكرية"
+      },
+      "material": {
+        "tr": "Siyah yün kumaş, mızrak direği",
+        "en": "Black wool fabric, spear pole",
+        "ar": "قماش صوف أسود، رمح"
+      },
+      "period": "622-632 M",
+      "description": {
+        "tr": "Hz. Peygamber'in siyah savaş sancağı. Sancaktar (sahibü'r-râye) genellikle Hz. Ali idi. Bedir'den Mekke'nin fethine kadar tüm büyük savaşlarda taşınmıştır. 'Kartal' anlamına gelen Ukâb ismiyle bilinir.",
+        "en": "The Prophet's black war banner. The standard-bearer was usually Ali. Carried in all major battles from Badr to the conquest of Mecca. Known as 'The Eagle'.",
+        "ar": "راية النبي ﷺ السوداء. كان حاملها عادةً عليّ بن أبي طالب. حُملت في جميع الغزوات الكبرى."
+      },
+      "hadith_refs": [
+        "Tirmizî, Cihâd 18",
+        "İbn Mâce, Cihâd 20"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_bedir"
+          },
+          {
+            "atlas_battle_id": "gazve_uhud"
+          },
+          {
+            "atlas_battle_id": "gazve_hendek"
+          },
+          {
+            "atlas_battle_id": "gazve_hayber"
+          },
+          {
+            "atlas_battle_id": "gazve_fetih_mekke"
+          }
+        ],
+        "locations": []
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_liva_beyaz",
+      "subcategory": "liwaa",
+      "name": {
+        "tr": "Livâ — Beyaz Bayrak",
+        "en": "Al-Liwa — White Flag",
+        "ar": "اللِّواء — الراية البيضاء"
+      },
+      "type": {
+        "tr": "Komutanlık bayrağı (Livâ)",
+        "en": "Commander's flag (Liwa)",
+        "ar": "لواء القيادة"
+      },
+      "material": {
+        "tr": "Beyaz kumaş",
+        "en": "White fabric",
+        "ar": "قماش أبيض"
+      },
+      "period": "622-632 M",
+      "description": {
+        "tr": "Hz. Peygamber'in beyaz komutanlık bayrağı. Livâ, ordunun komuta karargâhının simgesiydi; râye ise ön saftaki savaş sancağı. Genellikle Mus'ab b. Umeyr taşımıştır. Uhud'da Mus'ab şehit düşünce yere düşmüş, Hz. Ali'ye verilmiştir.",
+        "en": "The Prophet's white commander's flag. The liwa symbolized the command headquarters. Usually carried by Mus'ab ibn Umayr. When Mus'ab was martyred at Uhud, it was given to Ali.",
+        "ar": "لواء النبي ﷺ الأبيض. رمز مقر القيادة. كان يحمله عادةً مصعب بن عمير."
+      },
+      "hadith_refs": [
+        "İbn Hişâm, Sîret III/68",
+        "İbn Sa'd, Tabakât III/83"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_mus_ab"
+          },
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_bedir"
+          },
+          {
+            "atlas_battle_id": "gazve_uhud"
+          }
+        ],
+        "locations": []
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_rayah_hayber",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Hayber Sancağı",
+        "en": "Banner of Khaybar",
+        "ar": "راية خيبر"
+      },
+      "type": {
+        "tr": "Savaş sancağı",
+        "en": "War banner",
+        "ar": "راية حرب"
+      },
+      "material": {
+        "tr": "Kumaş sancak",
+        "en": "Cloth banner",
+        "ar": "راية قماش"
+      },
+      "period": "628 M (7 H)",
+      "description": {
+        "tr": "Hz. Peygamber Hayber kuşatmasında: 'Yarın sancağı, Allah'ın ve Resûlü'nün sevdiği ve onların da onu sevdiği birine vereceğim' buyurmuş ve Hz. Ali'ye vermiştir. Bu hadis Hz. Ali'nin en büyük fazilet rivayetlerinden biridir.",
+        "en": "At Khaybar's siege, the Prophet said he would give the banner to one loved by Allah and His Messenger, and gave it to Ali. One of the greatest virtue narrations about Ali.",
+        "ar": "قال النبي ﷺ في خيبر: لأعطين الراية رجلاً يحب الله ورسوله ويحبه الله ورسوله. فأعطاها عليًّا."
+      },
+      "hadith_refs": [
+        "Buhârî, Megâzî 38",
+        "Müslim, Fedâilü's-Sahâbe 34"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_hayber"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "hayber"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_sancak_halid",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Hâlid b. Velîd'in Sancağı",
+        "en": "Khalid ibn al-Walid's Banner",
+        "ar": "راية خالد بن الوليد"
+      },
+      "type": {
+        "tr": "Komutan sancağı",
+        "en": "Commander's banner",
+        "ar": "راية القائد"
+      },
+      "material": {
+        "tr": "Kumaş",
+        "en": "Cloth",
+        "ar": "قماش"
+      },
+      "period": "629-632 M",
+      "description": {
+        "tr": "Mûte Savaşı'nda (629) üç komutan şehit düştükten sonra Hâlid b. Velîd sancağı alarak orduyu kurtarmıştır. Hz. Peygamber onu 'Seyfullah' (Allah'ın Kılıcı) unvanıyla onurlandırmıştır. Mekke'nin fethinde sağ kanat komutanı olarak bayrak taşımıştır.",
+        "en": "At Mu'ta (629), Khalid took the banner after three commanders were martyred and saved the army. The Prophet honored him as 'Sword of Allah'. Carried the banner as right-wing commander at Mecca's conquest.",
+        "ar": "في مؤتة أخذ خالد الراية بعد استشهاد ثلاثة قادة. لقّبه النبي ﷺ بـ'سيف الله'."
+      },
+      "hadith_refs": [
+        "Buhârî, Megâzî 44",
+        "İbn Hişâm, Sîret IV/15"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_halid_velid"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "seriyye_mute"
+          },
+          {
+            "atlas_battle_id": "gazve_fetih_mekke"
+          }
+        ],
+        "locations": []
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_sancak_sad",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Sa'd b. Ubâde'nin Ensâr Sancağı",
+        "en": "Sa'd ibn Ubada's Ansar Banner",
+        "ar": "راية الأنصار — سعد بن عبادة"
+      },
+      "type": {
+        "tr": "Ensâr sancağı",
+        "en": "Ansar banner",
+        "ar": "راية الأنصار"
+      },
+      "material": {
+        "tr": "Kumaş",
+        "en": "Cloth",
+        "ar": "قماش"
+      },
+      "period": "622-632 M",
+      "description": {
+        "tr": "Ensâr'ın (Medineli Müslümanlar) sancağı genellikle Hazrec kabilesi reisi Sa'd b. Ubâde tarafından taşınırdı. Mekke'nin fethi günü Sa'd sancakla geçerken 'Bugün savaş günüdür' demesi üzerine Hz. Peygamber sancağı oğlu Kays'a vermiştir.",
+        "en": "The Ansar banner was usually carried by Sa'd ibn Ubada, chief of the Khazraj. On the day of Mecca's conquest, when Sa'd said provocative words, the Prophet transferred the banner to his son Qays.",
+        "ar": "كان يحمل راية الأنصار عادةً سعد بن عبادة سيد الخزرج."
+      },
+      "hadith_refs": [
+        "İbn Hişâm, Sîret IV/42",
+        "Vâkıdî, Megâzî III/822"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_sad_b_ubade"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_fetih_mekke"
+          },
+          {
+            "atlas_battle_id": "gazve_bedir"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_sancak_muhacirun",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Muhâcirûn Sancağı",
+        "en": "Muhajirun Banner",
+        "ar": "راية المهاجرين"
+      },
+      "type": {
+        "tr": "Muhâcirûn grubu sancağı",
+        "en": "Emigrant group banner",
+        "ar": "راية المهاجرين"
+      },
+      "material": {
+        "tr": "Kumaş",
+        "en": "Cloth",
+        "ar": "قماش"
+      },
+      "period": "622-632 M",
+      "description": {
+        "tr": "Mekkeli muhâcirûn grubunun ayrı bir sancağı vardı ve genellikle Hz. Ali veya Mus'ab b. Umeyr taşırdı. Bedir'de Mus'ab, Uhud'da yine Mus'ab (şehit düşünceye kadar), Hendek'te Hz. Ali taşımıştır.",
+        "en": "The Meccan emigrants had a separate banner, usually carried by Ali or Mus'ab ibn Umayr. At Badr and Uhud by Mus'ab, at Khandaq by Ali.",
+        "ar": "كان للمهاجرين راية خاصة يحملها عادةً عليّ أو مصعب بن عمير."
+      },
+      "hadith_refs": [
+        "İbn Hişâm, Sîret III/67",
+        "Vâkıdî, Megâzî I/152"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ali"
+          },
+          {
+            "atlas_companion_id": "comp_mus_ab"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_bedir"
+          },
+          {
+            "atlas_battle_id": "gazve_uhud"
+          },
+          {
+            "atlas_battle_id": "gazve_hendek"
+          }
+        ],
+        "locations": []
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_sancak_usame",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Üsâme Ordusu Sancağı",
+        "en": "Usama's Army Banner",
+        "ar": "راية جيش أسامة"
+      },
+      "type": {
+        "tr": "Sefer sancağı",
+        "en": "Expedition banner",
+        "ar": "راية سرية"
+      },
+      "material": {
+        "tr": "Kumaş",
+        "en": "Cloth",
+        "ar": "قماش"
+      },
+      "period": "632 M (11 H)",
+      "description": {
+        "tr": "Hz. Peygamber'in vefatından kısa süre önce hazırlattığı son ordu. 18 yaşındaki Üsâme b. Zeyd komutan tayin edilmiştir. Sancak Hz. Peygamber'in bizzat bağladığı son sancaktır. Hz. Ebû Bekir halife olunca orduyu göndermiştir.",
+        "en": "The last army prepared by the Prophet before his death. 18-year-old Usama ibn Zayd was appointed commander. Abu Bakr sent the army after becoming caliph.",
+        "ar": "آخر جيش جهّزه النبي ﷺ. عُيّن أسامة بن زيد قائداً وهو ابن 18 سنة."
+      },
+      "hadith_refs": [
+        "Buhârî, Megâzî 77",
+        "İbn Sa'd, Tabakât IV/66"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_usame_zeyd"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "seriyye_usame"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_rayah_mute",
+      "subcategory": "rayah",
+      "name": {
+        "tr": "Mûte Sancağı",
+        "en": "Banner of Mu'ta",
+        "ar": "راية مؤتة"
+      },
+      "type": {
+        "tr": "Savaş sancağı",
+        "en": "War banner",
+        "ar": "راية حرب"
+      },
+      "material": {
+        "tr": "Beyaz kumaş",
+        "en": "White cloth",
+        "ar": "قماش أبيض"
+      },
+      "period": "629 M (8 H)",
+      "description": {
+        "tr": "Mûte Savaşı'nda (629) Hz. Peygamber sancağı sırasıyla Zeyd b. Hârise, Ca'fer b. Ebî Tâlib ve Abdullah b. Revâha'ya vermiştir. Üçü de şehit düşmüş, sancağı Sâbit b. Akrem almış, ardından Hâlid b. Velîd'e teslim etmiştir.",
+        "en": "At Mu'ta, the Prophet assigned the banner successively to Zayd, Ja'far, and Abdullah ibn Rawaha. All three were martyred before Khalid took command.",
+        "ar": "أعطى النبي ﷺ الراية في مؤتة لزيد ثم جعفر ثم عبد الله بن رواحة. استُشهدوا جميعاً."
+      },
+      "hadith_refs": [
+        "Buhârî, Megâzî 44",
+        "Müslim, Fedâilü's-Sahâbe 52"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_zeyd_harise"
+          },
+          {
+            "atlas_companion_id": "comp_cafer_tayyar"
+          },
+          {
+            "atlas_companion_id": "comp_halid_velid"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "seriyye_mute"
+          }
+        ],
+        "locations": []
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "flag_sancak_evs",
+      "name": {
+        "tr": "Evs Kabilesi Sancağı",
+        "en": "Banner of the Aws Tribe",
+        "ar": "راية الأوس"
+      },
+      "category": "flags",
+      "subcategory": "kabile_sancagi",
+      "period": "medine",
+      "description": {
+        "tr": "Medine'nin iki büyük Ensâr kabilesinden Evs'in savaş sancağı. Useyd b. Hudayr veya Sa'd b. Muâz tarafından taşınmıştır.",
+        "en": "War banner of the Aws, one of Medina's two major Anṣār tribes. Carried by Usayd ibn Ḥuḍayr or Saʿd ibn Muʿādh."
+      },
+      "sources": [
+        "İbn Hişâm, Sîre III/68",
+        "Vâkıdî, Megâzî I/67"
+      ],
+      "companion_ids": [
+        "useyd_hudayr",
+        "comp_sad_b_muaz"
+      ],
+      "battle_ids": [
+        "bedir",
+        "uhud"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "sancak",
+        "Evs",
+        "Ensâr",
+        "kabile"
+      ]
+    },
+    {
+      "id": "flag_sancak_hazrec",
+      "name": {
+        "tr": "Hazrec Kabilesi Sancağı",
+        "en": "Banner of the Khazraj Tribe",
+        "ar": "راية الخزرج"
+      },
+      "category": "flags",
+      "subcategory": "kabile_sancagi",
+      "period": "medine",
+      "description": {
+        "tr": "Medine'nin diğer büyük Ensâr kabilesi Hazrec'in savaş sancağı. Sa'd b. Ubâde veya Hubâb b. Münzir tarafından taşınmıştır.",
+        "en": "War banner of the Khazraj tribe. Carried by Saʿd ibn ʿUbāda or Ḥubāb ibn al-Mundhir."
+      },
+      "sources": [
+        "İbn Hişâm, Sîre III/68",
+        "Vâkıdî, Megâzî I/67"
+      ],
+      "companion_ids": [
+        "comp_sad_b_ubade"
+      ],
+      "battle_ids": [
+        "bedir",
+        "uhud"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "sancak",
+        "Hazrec",
+        "Ensâr",
+        "kabile"
+      ]
+    },
+    {
+      "id": "flag_rayah_tebuk",
+      "name": {
+        "tr": "Tebük Seferi Sancağı",
+        "en": "Banner of the Tabūk Expedition",
+        "ar": "راية تبوك"
+      },
+      "category": "flags",
+      "subcategory": "sefer_sancagi",
+      "period": "medine",
+      "date_hijri": "9",
+      "description": {
+        "tr": "H.9 yılında Bizans tehditine karşı düzenlenen Tebük seferinin ana sancağı. 30.000 kişilik ordunun en büyük seferidir. Ceyşü'l-Usra (Zorluk Ordusu) olarak anılır.",
+        "en": "Main banner of the Tabūk expedition (9 AH) against Byzantine threat. The largest Muslim army at 30,000 troops, known as the 'Army of Hardship'."
+      },
+      "sources": [
+        "Buhârî, Megâzî 79",
+        "Taberî, Târîh II/610"
+      ],
+      "companion_ids": [
+        "ali",
+        "comp_ebu_ubeyde"
+      ],
+      "battle_ids": [
+        "tebuk"
+      ],
+      "location_ids": [
+        "medine",
+        "tebuk"
+      ],
+      "tags": [
+        "sancak",
+        "Tebük",
+        "Bizans",
+        "sefer"
+      ]
+    },
+    {
+      "id": "flag_rayah_hendek",
+      "name": {
+        "tr": "Hendek Savaşı Sancağı",
+        "en": "Banner of the Battle of the Trench",
+        "ar": "راية الخندق"
+      },
+      "category": "flags",
+      "subcategory": "sefer_sancagi",
+      "period": "medine",
+      "date_hijri": "5",
+      "description": {
+        "tr": "H.5 Şevvâl'de Ahzâb (Hendek) savaşında kullanılan sancak. Medine'nin hendekle savunulduğu, 10.000 kişilik koalisyona karşı direnilen muhasara.",
+        "en": "Banner used during the Battle of the Trench (Khandaq, 5 AH). Medina defended by a trench against a 10,000-strong coalition siege."
+      },
+      "sources": [
+        "İbn Hişâm, Sîre III/231",
+        "Vâkıdî, Megâzî II/440"
+      ],
+      "companion_ids": [
+        "ali",
+        "zubeyr"
+      ],
+      "battle_ids": [
+        "hendek"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "sancak",
+        "Hendek",
+        "Ahzâb",
+        "muhasara"
+      ]
+    },
+    {
+      "id": "flag_rayah_beni_kaynuka",
+      "name": {
+        "tr": "Benî Kaynukâ Seferi Sancağı",
+        "en": "Banner of the Banū Qaynuqāʿ Expedition",
+        "ar": "راية بني قينقاع"
+      },
+      "category": "flags",
+      "subcategory": "sefer_sancagi",
+      "period": "medine",
+      "date_hijri": "2",
+      "description": {
+        "tr": "H.2 yılında Bedir sonrası Medine'deki Benî Kaynukâ Yahudi kabilesine karşı düzenlenen seferin sancağı. Hamza b. Abdülmuttalib sancağı taşımıştır.",
+        "en": "Banner of the expedition against the Jewish Banū Qaynuqāʿ tribe after Badr (2 AH). Ḥamza ibn ʿAbd al-Muṭṭalib carried the banner."
+      },
+      "sources": [
+        "İbn Hişâm, Sîre III/51",
+        "Vâkıdî, Megâzî I/176"
+      ],
+      "companion_ids": [
+        "hamza"
+      ],
+      "battle_ids": [
+        "beni_kaynuka"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "sancak",
+        "Benî Kaynukâ",
+        "Yahudi kabilesi"
+      ]
+    }
+  ]
+}

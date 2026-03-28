@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "id": "reconstruction_usame",
+    "battle_id": "seriyye_usame",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Üsâme b. Zeyd Seriyyesi (Safer-Rebîülevvel 11 AH / Mayıs-Haziran 632 CE). Hz. Peygamber'in vefatından hemen önceki son askerî emri. 18 yaşındaki Üsâme b. Zeyd kumandan tayin edildi; hedef Suriye sınırı (Übnâ / Belkā bölgesi). Hz. Peygamber'in vefatıyla ertelendi; Hz. Ebû Bekir halife olunca derhal uygulamaya koydu. Ridde savaşları sırasında caydırıcı etki yarattı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.7,
+        "lng": 35.85
+      },
+      "bbox": {
+        "north": 32.0,
+        "south": 31.4,
+        "east": 36.2,
+        "west": 35.5
+      },
+      "terrain_type": "levant_frontier",
+      "terrain_desc": {
+        "tr": "Belkā bölgesi (bugünkü Ürdün), Suriye-Filistin sınır hattı. Übnâ (bugünkü Yubna/Yibneh yakınları tartışmalı; daha yaygın görüş Belkā'daki Übnâ) — Mûte Savaşı'nda Zeyd b. Hârise'nin şehit edildiği bölge. Çöl-step geçiş kuşağı; Bizans nüfuz alanının güney sınırı.",
+        "en": "Balqa region (modern Jordan), Syria-Palestine border zone. Ubna (near modern Yubna/Yibneh, disputed; more common view: Ubna in Balqa) — the area where Zayd ibn Harithah was martyred at the Battle of Mu'tah. Desert-steppe transition zone; southern boundary of Byzantine influence."
+      }
+    },
+    "route": {
+      "origin": {
+        "name": "Medîne",
+        "lat": 24.4672,
+        "lng": 39.6112
+      },
+      "destination": {
+        "name": "Übnâ (Belkā bölgesi)",
+        "lat": 31.7,
+        "lng": 35.85
+      },
+      "distance_km": "~1.200",
+      "duration": "~20 gün (tek yön)",
+      "waypoints": [
+        {
+          "name": "Cürf (karargâh)",
+          "lat": 24.55,
+          "lng": 39.6,
+          "note_tr": "Medîne dışında ordunun toplandığı ilk karargâh noktası."
+        }
+      ]
+    },
+    "key_locations": [
+      {
+        "id": "loc_curf",
+        "name_tr": "Cürf",
+        "lat": 24.55,
+        "lng": 39.6,
+        "type": "camp",
+        "role_tr": "Ordunun ilk toplanma ve bekleme noktası. Hz. Peygamber'in hastalığı sırasında burada beklendi."
+      },
+      {
+        "id": "loc_ubna",
+        "name_tr": "Übnâ",
+        "lat": 31.7,
+        "lng": 35.85,
+        "type": "target",
+        "role_tr": "Hedef bölge; Zeyd b. Hârise'nin Mûte'de şehit düştüğü yer. İntikam ve güç gösterisi."
+      },
+      {
+        "id": "loc_mute",
+        "name_tr": "Mûte",
+        "lat": 31.05,
+        "lng": 35.7,
+        "type": "reference",
+        "role_tr": "2 yıl önce Zeyd b. Hârise'nin şehadet yeri; Üsâme seferinin psikolojik arka planı."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Mûte intikamı ve kuzey stratejisi",
+        "en": "Background: Mu'tah revenge and northern strategy"
+      },
+      "date_range": {
+        "hijri": "Safer 11 AH",
+        "ce": "Mayıs 632"
+      },
+      "duration": "—",
+      "description": {
+        "tr": "Mûte Savaşı'nda (8 AH) Zeyd b. Hârise, Ca'fer b. Ebî Tâlib ve Abdullah b. Revâha şehit düşmüştü. Hz. Peygamber Zeyd'in oğlu Üsâme'yi (18 yaş) kumandan tayin ederek Mûte bölgesine (Übnâ) sefer emri verdi. Bu tayin hem Zeyd'in hâtırasını yüceltme hem de genç nesle liderlik tecrübesi kazandırma amacı taşıyordu.",
+        "en": "At the Battle of Mu'tah (8 AH), Zayd ibn Harithah, Ja'far ibn Abi Talib, and Abdullah ibn Rawahah were martyred. The Prophet appointed Zayd's son Usama (age 18) as commander for an expedition to the Mu'tah region (Ubna). This appointment served to honor Zayd's memory and give leadership experience to the younger generation."
+      },
+      "events": [
+        {
+          "id": "E0_1_tayin",
+          "name_tr": "Üsâme'nin kumandan tayini",
+          "description_tr": "Hz. Peygamber 18 yaşındaki Üsâme b. Zeyd'i 3.000 kişilik ordunun başına kumandan tayin etti."
+        },
+        {
+          "id": "E0_2_itiraz",
+          "name_tr": "Bazı sahâbîlerin itirazı",
+          "description_tr": "Bazı yaşlı sahâbîler gençliği sebebiyle Üsâme'nin kumandanlığına itiraz etti. Hz. Peygamber: 'Babasının kumandanlığına da itiraz etmiştiniz; o bu göreve lâyıktı, oğlu da lâyıktır' buyurdu."
+        }
+      ]
+    },
+    {
+      "id": "F1_hazirlik",
+      "order": 1,
+      "name": {
+        "tr": "Ordu hazırlığı ve Cürf karargâhı",
+        "en": "Army preparation and Jurf camp"
+      },
+      "date_range": {
+        "hijri": "26 Safer 11 AH",
+        "ce": "Mayıs 632"
+      },
+      "duration": "~3 gün",
+      "description": {
+        "tr": "Hz. Peygamber bizzat sancağı bağlayıp Üsâme'ye verdi. Orduda Hz. Ebû Bekir, Hz. Ömer gibi önde gelen sahâbîler de asker olarak yer aldı. Ordu Medîne dışındaki Cürf mevkiinde karargâh kurdu. Bu sırada Hz. Peygamber'in hastalığı ağırlaştı.",
+        "en": "The Prophet personally tied the banner and gave it to Usama. The army included senior companions like Abu Bakr and Umar as soldiers. The army camped at Jurf outside Medina. During this time the Prophet's illness worsened."
+      },
+      "events": [
+        {
+          "id": "E1_1_sancak",
+          "name_tr": "Sancağın bağlanması",
+          "description_tr": "Hz. Peygamber beyaz sancağı kendi elleriyle bağladı ve Üsâme'ye teslim etti."
+        },
+        {
+          "id": "E1_2_curf_kamp",
+          "name_tr": "Cürf'te karargâh",
+          "description_tr": "3.000 kişilik ordu Medîne dışında Cürf'te toplandı. Hz. Peygamber'in hastalığı sebebiyle hareket ertelendi."
+        }
+      ]
+    },
+    {
+      "id": "F2_vefat_erteleme",
+      "order": 2,
+      "name": {
+        "tr": "Hz. Peygamber'in vefatı ve ordunun beklemesi",
+        "en": "The Prophet's passing and the army's delay"
+      },
+      "date_range": {
+        "hijri": "12 Rebîülevvel 11 AH",
+        "ce": "8 Haziran 632"
+      },
+      "duration": "~2 hafta",
+      "description": {
+        "tr": "Hz. Peygamber 12 Rebîülevvel 11 AH'de (8 Haziran 632) vefat etti. Ordu Cürf'te bekliyordu. Üsâme sancağı katladı. Sahâbîler büyük üzüntü içinde; ridde (irtidat) haberleri gelmeye başladı. Hz. Ebû Bekir halife seçildi.",
+        "en": "The Prophet passed away on 12 Rabi' al-Awwal 11 AH (June 8, 632). The army was waiting at Jurf. Usama folded the banner. Companions were in deep grief; reports of apostasy (ridda) began arriving. Abu Bakr was elected caliph."
+      },
+      "events": [
+        {
+          "id": "E2_1_vefat",
+          "name_tr": "Hz. Peygamber'in vefatı",
+          "description_tr": "12 Rebîülevvel Pazartesi günü Hz. Peygamber Hz. Âişe'nin odasında vefat etti. Ordu Cürf'te dağılmadı."
+        },
+        {
+          "id": "E2_2_ridde_haberleri",
+          "name_tr": "Ridde haberlerinin gelmesi",
+          "description_tr": "Arabistan'ın çeşitli bölgelerinden irtidat, zekât reddi ve yalancı peygamber haberleri gelmeye başladı."
+        }
+      ]
+    },
+    {
+      "id": "F3_ebubekir_karar",
+      "order": 3,
+      "name": {
+        "tr": "Hz. Ebû Bekir'in kararlılığı: 'Seferi göndereceğim'",
+        "en": "Abu Bakr's resolve: 'I will dispatch the expedition'"
+      },
+      "date_range": {
+        "hijri": "Rebîülevvel 11 AH",
+        "ce": "Haziran 632"
+      },
+      "duration": "Birkaç gün",
+      "description": {
+        "tr": "Sahâbîlerin çoğunluğu ridde tehdidi sebebiyle ordunun Medîne'de tutulmasını istedi. Hz. Ömer bile Üsâme ordusunun ertelenmesini önerdi. Hz. Ebû Bekir kararlı bir şekilde reddetti: 'Vallahi, Hz. Peygamber'in bağladığı sancağı ben çözmem! Kurtlar beni kapsa da Üsâme'nin ordusunu göndereceğim!' Üsâme'den yalnızca Hz. Ömer'i Medîne'de bırakmasını istedi.",
+        "en": "Most companions urged keeping the army in Medina due to the ridda threat. Even Umar suggested delaying Usama's expedition. Abu Bakr firmly refused: 'By Allah, I will not untie a banner that the Prophet tied! Even if wolves were to snatch me, I would dispatch Usama's army!' He only asked Usama to leave Umar behind in Medina."
+      },
+      "events": [
+        {
+          "id": "E3_1_istisare",
+          "name_tr": "İstişare toplantısı",
+          "description_tr": "Sahâbîler ridde sebebiyle seferin ertelenmesini istedi. Hz. Ebû Bekir tek başına karşı çıktı."
+        },
+        {
+          "id": "E3_2_kararlılık",
+          "name_tr": "Hz. Ebû Bekir'in tarihi konuşması",
+          "description_tr": "'Peygamber'in bağladığı sancağı çözmem!' Hz. Ebû Bekir Üsâme'yi yaya uğurlarken Üsâme devesine binmesini teklif etti; Hz. Ebû Bekir 'Sen bin, ben yürüyeyim' dedi."
+        }
+      ]
+    },
+    {
+      "id": "F4_sefer_donus",
+      "order": 4,
+      "name": {
+        "tr": "Seferin icrası ve dönüş",
+        "en": "Execution of the expedition and return"
+      },
+      "date_range": {
+        "hijri": "Rebîülâhir 11 AH",
+        "ce": "Temmuz 632"
+      },
+      "duration": "~40 gün (gidiş-dönüş)",
+      "description": {
+        "tr": "Üsâme ordusu ~40 gün içinde seferi tamamladı. Belkā / Übnâ bölgesine ulaşıldı. Bölgedeki düşman unsurları dağıtıldı; ganîmet elde edildi. Kayıp verilmeden dönüldü. Seferin stratejik etkisi çok büyüktü: (1) Hz. Peygamber'in emrine sadakat gösterildi, (2) Bizans'a 'İslam devleti sarsılmadı' mesajı verildi, (3) Ridde kabilelerine 'Medîne hâlâ güçlü' sinyali gönderildi.",
+        "en": "Usama's army completed the expedition in ~40 days. Reached the Balqa/Ubna region. Scattered enemy elements; gained spoils. Returned without losses. Strategic impact was immense: (1) demonstrated loyalty to the Prophet's command, (2) signaled to Byzantium that the Islamic state was unshaken, (3) sent a 'Medina is still strong' signal to apostate tribes."
+      },
+      "events": [
+        {
+          "id": "E4_1_harekat",
+          "name_tr": "Übnâ bölgesine ulaşılması",
+          "description_tr": "Ordu hedef bölgeye ulaştı; düşman unsurları dağıtıldı, ganîmet toplandı."
+        },
+        {
+          "id": "E4_2_donus",
+          "name_tr": "Medîne'ye zaferle dönüş",
+          "description_tr": "Kayıp verilmeden dönüldü. Hz. Ebû Bekir orduyu karşıladı. Ridde savaşlarına katılacak askerler serbest kaldı."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~3.000",
+      "commander": "usame_b_zeyd",
+      "commander_name": {
+        "tr": "Üsâme b. Zeyd (r.a.) — 18 yaşında",
+        "en": "Usama ibn Zayd (ra) — 18 years old"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Hz. Ebû Bekir ve Hz. Ömer dahil seçkin muhâcirler (Hz. Ebû Bekir halife olunca geri kaldı; Hz. Ömer Medîne'de bırakıldı)."
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan güçlü katılım."
+        }
+      },
+      "equipment": {
+        "note_tr": "Tam savaş teçhizatı; süvari ve piyade karışık. Uzun mesafe (1.200 km) lojistiği."
+      }
+    },
+    "enemy": {
+      "total": "Belirsiz",
+      "description": {
+        "tr": "Belkā bölgesindeki Bizans müttefiki Arap kabileleri ve yerel garnizon unsurları. Büyük çaplı Bizans ordusu ile karşılaşma olmadı.",
+        "en": "Arab tribes allied with Byzantium in the Balqa region and local garrison elements. No encounter with a major Byzantine force."
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Ba'sü Üsâme b. Zeyd",
+        "note_tr": "Seferin emredilmesi ve kumandan tayini."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusül ve'l-Mülûk",
+        "section": "11 AH olayları",
+        "note_tr": "Hz. Ebû Bekir'in kararlılığı ve seferin icrası."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'r-Ridde",
+        "section": "Üsâme Seriyyesi",
+        "note_tr": "Ridde bağlamında seferin stratejik etkisi."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "Hamîdullah, Muhammed",
+        "work": "İslâm Peygamberi",
+        "note_tr": "Üsâme seferinin askerî ve siyasî analizi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 33,
+      "surah_name": "Ahzâb",
+      "ayah_range": "36",
+      "phase_id": "F3_ebubekir_karar",
+      "topic": {
+        "tr": "Allah ve Rasûlü bir iş hakkında hüküm verdiğinde, mü'min erkek ve kadınların kendi işlerinde seçim hakkı yoktur — Hz. Peygamber'in son emrine itaat",
+        "en": "When Allah and His Messenger decree a matter, believing men and women have no choice in their affair — obedience to the Prophet's final command"
+      },
+      "key_verses": [
+        {
+          "ayah": 36,
+          "topic_tr": "Rasûl'ün emrine kayıtsız itaat; Üsâme seferinin meşruiyet temeli",
+          "phase_id": "F3_ebubekir_karar"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_usame_zeyd_layik",
+      "topic": "Hz. Peygamber: Zeyd'in kumandanlığına itiraz ettiniz; oğlu da lâyıktır — genç Üsâme'nin tayin savunması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_usame_ebubekir_sancak",
+      "topic": "Hz. Ebû Bekir: Peygamber'in bağladığı sancağı çözmem! Kurtlar kapsa da Üsâme'yi göndereceğim",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_usame_ebubekir_yaya",
+      "topic": "Hz. Ebû Bekir orduyu yaya uğurladı; Üsâme binmesini istedi; 'Allah yolunda ayaklarım tozlansın' dedi",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "1.200 km'lik sefer başarıyla tamamlandı; İslam devletinin liderlik boşluğunda bile askerî kapasitesinin sürdüğü kanıtlandı. Bizans'a güçlü bir 'caydırıcılık' mesajı verildi.",
+      "en": "The 1,200 km expedition was completed successfully; proved the Islamic state maintained military capacity even during a leadership vacuum. Sent a strong deterrence message to Byzantium."
+    },
+    "political": {
+      "tr": "Hz. Ebû Bekir'in ilk ve en kritik siyasî kararı. Peygamber'in emrine sadakat, hilâfet otoritesini meşrulaştırdı. Ridde kabilelerine 'Medîne yıkılmadı' mesajı ulaştı.",
+      "en": "Abu Bakr's first and most critical political decision. Loyalty to the Prophet's command legitimized the caliphate's authority. The message 'Medina has not fallen' reached the apostate tribes."
+    },
+    "social": {
+      "tr": "18 yaşında bir kumandan tayini, İslam'da liyakatin yaşa değil kabiliyet ve emanete dayandığının somut göstergesi. Üsâme b. Zeyd 'el-Hibb' (sevgili) lakabıyla anıldı.",
+      "en": "The appointment of an 18-year-old commander was concrete evidence that in Islam, leadership is based on merit and trust, not age. Usama ibn Zayd was known by the epithet 'al-Hibb' (the beloved)."
+    }
+  },
+  "visualization": {
+    "default_zoom": 6,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "camp": "#FF8F00",
+      "byzantine": "#4A148C"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_route",
+        "name": "Medîne → Cürf → Übnâ güzergâhı",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Sefer fazları",
+        "type": "overlay",
+        "default_visible": false
+      }
+    ]
+  }
+}

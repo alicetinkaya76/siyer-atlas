@@ -1,0 +1,1305 @@
+{
+  "version": "0.15.0",
+  "description": "Câhiliye ve İslâm dönemi Arap edebiyatı: şairler, kasîdeler, muallakāt, edebî türler, şiir müsabakaları",
+  "poets": [
+    {
+      "id": "poet_imruulkays",
+      "name": {
+        "ar": "امرؤ القيس",
+        "tr": "İmruülkays b. Hucr",
+        "en": "Imru' al-Qays"
+      },
+      "period": "câhiliye",
+      "death_approx": "~540 MS",
+      "tribe": "kinde",
+      "title": "Şiirin Kralı (Melikü'ş-Şuarâ)",
+      "description": "Muallakāt'ın en meşhur şairi. Kinde kralı Hucr'un oğlu. Babasının öldürülmesinden sonra intikam peşinde dolaştı. Muallakası 'Kıfâ nebki' (Durun ağlayalım) ile başlar; atlı aşk kasîdelerinin öncüsü.",
+      "muallaka": true,
+      "famous_lines": [
+        "Kıfâ nebki min zikrâ habîbin ve menzili — بِسِقطِ اللِّوى بَينَ الدَّخولِ فَحَومَلِ"
+      ],
+      "themes": [
+        "aşk (nesîb/gazal)",
+        "at tasviri",
+        "tabiat",
+        "yolculuk"
+      ],
+      "lat": 18.0,
+      "lng": 45.0
+    },
+    {
+      "id": "poet_tarafa",
+      "name": {
+        "ar": "طرفة بن العبد",
+        "tr": "Tarafe b. el-Abd",
+        "en": "Tarafa ibn al-Abd"
+      },
+      "period": "câhiliye",
+      "death_approx": "~564 MS (26 yaşında)",
+      "tribe": "bekr_b_vail",
+      "title": "En genç Muallaka şairi",
+      "description": "Bahreyn bölgesinden. Çok genç yaşta öldürüldü (Hîre kralı Amr b. Hind tarafından). Muallakası deve tasviri ve hayatın kısalığı üzerine. Arap edebiyatının en dokunaklı şairlerinden.",
+      "muallaka": true,
+      "famous_lines": [
+        "Li-havleti etrâbin tekâda'a ba'dehâ — وسُحَّ الرَّوايا بالبَريدِ المُنَعَّمِ"
+      ],
+      "themes": [
+        "deve tasviri",
+        "hayatın kısalığı",
+        "şarap",
+        "gençlik"
+      ],
+      "lat": 26.1,
+      "lng": 50.5
+    },
+    {
+      "id": "poet_zuhayr",
+      "name": {
+        "ar": "زهير بن أبي سلمى",
+        "tr": "Züheyr b. Ebî Sülmâ",
+        "en": "Zuhayr ibn Abi Sulma"
+      },
+      "period": "câhiliye",
+      "death_approx": "~609 MS",
+      "tribe": "muzayne",
+      "title": "Hikmet şairi",
+      "description": "Necid bölgesinden Müzeyne kabilesinin şairi. Muallakası Dâhis-Gabrâ savaşı sonrası barışı öven bir kasîde. Hikmetli beyitleri (hikemiyyât) meşhur. Oğlu Ka'b da ünlü şair.",
+      "muallaka": true,
+      "famous_lines": [
+        "Se'imtü tekâlîfe'l-hayâti ve men ya'iş — ثَمانينَ حَولاً لا أَبا لَكَ يَسأَمِ"
+      ],
+      "themes": [
+        "barış",
+        "hikmet",
+        "ahlâk",
+        "savaşın kötülüğü"
+      ],
+      "lat": 24.3,
+      "lng": 39.1
+    },
+    {
+      "id": "poet_labid",
+      "name": {
+        "ar": "لبيد بن ربيعة",
+        "tr": "Lebîd b. Rebîa",
+        "en": "Labid ibn Rabi'a"
+      },
+      "period": "muhadram",
+      "death_approx": "~661 MS (Kûfe'de)",
+      "tribe": "amir_b_sasaa",
+      "title": "Müslüman olan tek Muallaka şairi",
+      "description": "Sahâbî-şair. İslâm'ı kabul ettikten sonra şiir yazmayı bıraktığı rivayet edilir: 'Allah bana Bakara ve Âl-i İmrân verdi, artık şiire ihtiyacım yok.' Muallakası çöl ve atlı hayat tasviri.",
+      "muallaka": true,
+      "famous_lines": [
+        "Afet'r-rusûmu mahalluhâ ve mukâmuhâ — بِمِنًى تَأَبَّدَ غَولُها فَرِجامُها"
+      ],
+      "themes": [
+        "çöl",
+        "kabile hayatı",
+        "zühd (İslâm sonrası)",
+        "tabiat"
+      ],
+      "lat": 30.5,
+      "lng": 47.8
+    },
+    {
+      "id": "poet_antara",
+      "name": {
+        "ar": "عنترة بن شداد",
+        "tr": "Antere b. Şeddâd",
+        "en": "Antara ibn Shaddad"
+      },
+      "period": "câhiliye",
+      "death_approx": "~608 MS",
+      "tribe": "abs",
+      "title": "Şövalye-şair (Fâris-şâir)",
+      "description": "Habeşli bir cariyenin oğlu. Savaşta gösterdiği cesaretle babasının kabul etmesini sağladı. Abla bint Mâlik'e aşkı meşhur. Muallakası kahramanlık ve aşk.",
+      "muallaka": true,
+      "famous_lines": [
+        "Hel gâdere'd-dâru bi'l-'azzâ'i tekellümî — أَم هَل عَرَفتَ الدارَ بَعدَ تَوَهُّمِ"
+      ],
+      "themes": [
+        "kahramanlık",
+        "aşk",
+        "savaş",
+        "kimlik mücadelesi"
+      ],
+      "lat": 25.5,
+      "lng": 42.0
+    },
+    {
+      "id": "poet_amr_b_kulsum",
+      "name": {
+        "ar": "عمرو بن كلثوم",
+        "tr": "Amr b. Külsûm",
+        "en": "Amr ibn Kulthum"
+      },
+      "period": "câhiliye",
+      "death_approx": "~584 MS",
+      "tribe": "taglib",
+      "title": "Tağlib kabilesinin iftihar şairi",
+      "description": "Hîre kralı Amr b. Hind'i öldürdü. Muallakası kabile gururunun en güçlü ifadesi. Tağlib kabilesi bu kasîdeyi 40 yıl boyunca ezberledi.",
+      "muallaka": true,
+      "famous_lines": [
+        "Elâ hubbî subâhakum — فَإِنَّ صَبوحَكُم خَمرٌ وَبِيرٌ"
+      ],
+      "themes": [
+        "kabile gururu",
+        "şarap",
+        "meydan okuma",
+        "savaş"
+      ],
+      "lat": 36.0,
+      "lng": 43.0
+    },
+    {
+      "id": "poet_haris_b_hilliza",
+      "name": {
+        "ar": "الحارث بن حلزة",
+        "tr": "Hâris b. Hillize",
+        "en": "al-Harith ibn Hilliza"
+      },
+      "period": "câhiliye",
+      "death_approx": "~570 MS",
+      "tribe": "bekr_b_vail",
+      "title": "Bekr kabilesinin savunucu şairi",
+      "description": "Muallakasını Hîre kralı Amr b. Hind'in huzurunda, Tağlib'in suçlamalarına karşı Bekr kabilesini savunmak için söyledi. Doğaçlama kasîde söyleme ustası.",
+      "muallaka": true,
+      "famous_lines": [
+        "Âzenetnâ bi-nâzihâ Ümmü Evfâ — فَقَلبُكَ صادٍ وَعَينُكَ ذارِفَه"
+      ],
+      "themes": [
+        "kabile savunması",
+        "siyaset",
+        "tarih"
+      ],
+      "lat": 26.0,
+      "lng": 50.0
+    },
+    {
+      "id": "poet_nabiga",
+      "name": {
+        "ar": "النابغة الذبياني",
+        "tr": "Nâbiga ez-Zübyânî",
+        "en": "an-Nabighah adh-Dhubyani"
+      },
+      "period": "câhiliye",
+      "death_approx": "~604 MS",
+      "tribe": "zubyan",
+      "title": "Ukâz'ın baş hakemi",
+      "description": "Ukâz panayırında şiir yarışmalarının baş hakemi. Gassân ve Hîre saraylarında yaşadı. Mersiye (ağıt) ve medih (övgü) ustası. Nu'mân b. Münzir'in saray şairi.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "medih",
+        "i'tizâr (özür)",
+        "saray şiiri"
+      ],
+      "lat": 24.5,
+      "lng": 40.0
+    },
+    {
+      "id": "poet_asha",
+      "name": {
+        "ar": "الأعشى",
+        "tr": "A'şâ Meymûn",
+        "en": "al-A'sha"
+      },
+      "period": "câhiliye-muhadram",
+      "death_approx": "~629 MS",
+      "tribe": "bekr_b_vail",
+      "title": "Arap'ın davulcusu (Sannâcetü'l-Arab)",
+      "description": "Gözleri zayıf olmasına rağmen Arabistan'ın en çok gezen şairlerinden. Hz. Peygamber'e gelip Müslüman olmak istedi ama Kureyş onu caydırdı; yolda öldü. Hamriyyât (şarap şiiri) ustası.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "şarap (hamriyyât)",
+        "seyahat",
+        "medih"
+      ],
+      "lat": 25.0,
+      "lng": 49.0
+    },
+    {
+      "id": "poet_shanfara",
+      "name": {
+        "ar": "الشنفرى",
+        "tr": "Şenferâ",
+        "en": "ash-Shanfara"
+      },
+      "period": "câhiliye",
+      "death_approx": "~525 MS",
+      "tribe": "ezd",
+      "title": "Eşkıya-şair (Su'lûk)",
+      "description": "Kabilesinden kovulan 'su'lûk' (avare) şairlerinin en meşhuru. Lâmiyyetü'l-Arab (Arapların Lâm kasîdesi) ona atfedilir. Çölde yalnız yaşamayı, insanlardan kaçmayı anlatır.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "isyan",
+        "çöl",
+        "yalnızlık",
+        "su'lûk hayatı"
+      ],
+      "lat": 18.5,
+      "lng": 42.5
+    },
+    {
+      "id": "poet_taabbata",
+      "name": {
+        "ar": "تأبط شرا",
+        "tr": "Teebbet Şerran",
+        "en": "Ta'abbata Sharran"
+      },
+      "period": "câhiliye",
+      "death_approx": "~530 MS",
+      "tribe": "fehm",
+      "title": "Eşkıya-şair (Su'lûk)",
+      "description": "Lakabı 'Koltuk altına şer alan' anlamında. Şenferâ'nın arkadaşı. Sürat ve cesaretiyle tanınır. Eşkıya şairlerinin (su'lûk) ikinci büyük ismi.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "macera",
+        "cesaret",
+        "su'lûk hayatı"
+      ],
+      "lat": 20.0,
+      "lng": 41.0
+    },
+    {
+      "id": "poet_hansa",
+      "name": {
+        "ar": "الخنساء",
+        "tr": "Hansâ (Tumâdır bint Amr)",
+        "en": "al-Khansa"
+      },
+      "period": "muhadram",
+      "death_approx": "~645 MS",
+      "tribe": "beni_sulaym",
+      "title": "Arap'ın en büyük kadın şairi",
+      "description": "Kardeşleri Sahr ve Muâviye için söylediği mersiyelerle tanınır. Hz. Peygamber onun şiirini övdü. Kadisiye Savaşı'nda dört oğlu şehid düştü: 'Onları kaybetmekle şeref duyarım.'",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "mersiye (ağıt)",
+        "kardeş sevgisi",
+        "sabır",
+        "kahramanlık"
+      ],
+      "lat": 24.0,
+      "lng": 40.5
+    },
+    {
+      "id": "poet_samaw'al",
+      "name": {
+        "ar": "السموأل بن عادياء",
+        "tr": "Semev'el b. Âdiyâ",
+        "en": "as-Samaw'al"
+      },
+      "period": "câhiliye",
+      "death_approx": "~560 MS",
+      "tribe": "none",
+      "title": "Vefânın sembolü",
+      "description": "Yahudi Arap şair. Teymâ'daki el-Ablak kalesi sahibi. İmruülkays'ın emânetlerini korumak için oğlunun öldürülmesine razı oldu. 'Semev'el'in vefası' darbımesel oldu.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "vefâ",
+        "sadakat",
+        "namus"
+      ],
+      "lat": 27.62,
+      "lng": 38.48
+    },
+    {
+      "id": "poet_hassan",
+      "name": {
+        "ar": "حسان بن ثابت",
+        "tr": "Hassân b. Sâbit",
+        "en": "Hassan ibn Thabit"
+      },
+      "period": "sahâbî",
+      "death_approx": "~674 MS",
+      "tribe": "hazrec",
+      "title": "Peygamber Şairi (Şâirü'n-Nebî)",
+      "description": "Hz. Peygamber'in şairi. Müşrik şairlere karşı İslâm'ı savundu. Mescid-i Nebevî'de minber üzerine çıkıp şiir söylerdi. Hz. Peygamber: 'Rûhu'l-Kudüs (Cebrâil) seninle beraberdir.'",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "medih-i nebevî",
+        "hiciv",
+        "İslâm savunması",
+        "mersiye"
+      ],
+      "lat": 24.47,
+      "lng": 39.61
+    },
+    {
+      "id": "poet_kab_b_zuhayr",
+      "name": {
+        "ar": "كعب بن زهير",
+        "tr": "Ka'b b. Züheyr",
+        "en": "Ka'b ibn Zuhayr"
+      },
+      "period": "muhadram-sahâbî",
+      "death_approx": "~662 MS",
+      "tribe": "muzayne",
+      "title": "Bânet Su'âd şairi",
+      "description": "Züheyr b. Ebî Sülmâ'nın oğlu. İslâm'a geç girdi; Hz. Peygamber'i hicvettiği için kanı helâl kılındı. Sonra gelip meşhur 'Bânet Su'âd' kasîdesini söyledi. Hz. Peygamber hırkasını (bürde) ona hediye etti.",
+      "muallaka": false,
+      "famous_lines": [
+        "Bânet Su'âdu fe-kalbî el-yevme metbûlü — مُتَيَّمٌ إثرَها لم يُفدَ مَكبولُ"
+      ],
+      "themes": [
+        "medih-i nebevî",
+        "tevbe",
+        "aşk"
+      ],
+      "lat": 24.47,
+      "lng": 39.61
+    },
+    {
+      "id": "poet_abdullah_rawaha",
+      "name": {
+        "ar": "عبد الله بن رواحة",
+        "tr": "Abdullah b. Revâha",
+        "en": "Abdullah ibn Rawahah"
+      },
+      "period": "sahâbî",
+      "death_approx": "629 MS (Mûte)",
+      "tribe": "hazrec",
+      "title": "Şehid şair",
+      "description": "Hz. Peygamber'in üç şairinden biri (Hassân, Ka'b ile birlikte). Mûte Savaşı'nda üçüncü komutan; şiir söyleyerek savaşa girdi ve şehid düştü. Recez şiirlerinde savaş motivasyonu.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "cihad",
+        "recez",
+        "şehâdet",
+        "zühd"
+      ],
+      "lat": 24.47,
+      "lng": 39.61
+    },
+    {
+      "id": "poet_hutaya",
+      "name": {
+        "ar": "الحطيئة",
+        "tr": "Hutay'e",
+        "en": "al-Hutay'a"
+      },
+      "period": "muhadram",
+      "death_approx": "~678 MS",
+      "tribe": "abs",
+      "title": "Hiciv ustası",
+      "description": "Hicivleriyle meşhur. Hz. Ömer onu hiciv yüzünden hapsetti. Zübeyr b. Bevvâb'ı metheden kasîdesi meşhur. Kendini bile hicvetti. İslâm döneminin en tartışmalı şairi.",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "hiciv",
+        "medih",
+        "kabile şiiri"
+      ],
+      "lat": 25.5,
+      "lng": 42.0
+    },
+    {
+      "id": "poet_umayya_b_abis_salt",
+      "name": {
+        "ar": "أمية بن أبي الصلت",
+        "tr": "Ümeyye b. Ebi's-Salt",
+        "en": "Umayya ibn Abi al-Salt"
+      },
+      "period": "câhiliye-muhadram",
+      "death_approx": "~630 MS",
+      "tribe": "sakif",
+      "title": "Hanîf şair",
+      "description": "Tâif'li Hanîf şair. Tevhid, ahiret, cennet-cehennem gibi konuları işledi. Peygamberlik bekliyordu ama Hz. Muhammed'e iman etmedi. Hz. Peygamber şiirini takdir etti: 'Şiiri iman etmiş ama kalbi iman etmemiş.'",
+      "muallaka": false,
+      "famous_lines": [],
+      "themes": [
+        "tevhid",
+        "ahiret",
+        "hanîflik",
+        "cennet-cehennem"
+      ],
+      "lat": 21.27,
+      "lng": 40.42
+    },
+    {
+      "id": "poet_omer_rebia",
+      "name": {
+        "ar": "عمر بن أبي ربيعة",
+        "tr": "Ömer b. Ebî Rebîa",
+        "en": "Umar ibn Abi Rabi'ah"
+      },
+      "period": "emevî",
+      "death_approx": "~719 MS",
+      "tribe": "kureys",
+      "title": "Gazel Sultanı",
+      "description": "Emevî döneminin en ünlü gazel şairi. Hicaz gazel ekolünün kurucusu. Açık aşk şiiri (gazel-i sarîh). Mekke ve Medine sosyal hayatını yansıtır.",
+      "specialty": "gazel",
+      "related_companions": []
+    },
+    {
+      "id": "poet_ferezdak",
+      "name": {
+        "ar": "الفرزدق",
+        "tr": "Ferezdak",
+        "en": "Al-Farazdaq"
+      },
+      "period": "emevî",
+      "death_approx": "~730 MS",
+      "tribe": "temîm",
+      "title": "Hiciv Ustası",
+      "description": "Cerîr ile ünlü hiciv düellosunun (nekāiz) taraflarından. Emevî sarayında nüfuz sahibi. Zengin dil hazinesi.",
+      "specialty": "hiciv/nekāiz",
+      "related_companions": []
+    },
+    {
+      "id": "poet_cerir",
+      "name": {
+        "ar": "جرير",
+        "tr": "Cerîr b. Atıyye",
+        "en": "Jarir ibn Atiyyah"
+      },
+      "period": "emevî",
+      "death_approx": "~728 MS",
+      "tribe": "temîm",
+      "title": "Hiciv ve Medih Ustası",
+      "description": "Ferezdak'ın ezeli rakibi. 40 yıllık nekāiz (karşılıklı hiciv). Emevî halifelerine medihler. Dili akıcı ve etkili.",
+      "specialty": "hiciv/nekāiz",
+      "related_companions": []
+    },
+    {
+      "id": "poet_ahtal",
+      "name": {
+        "ar": "الأخطل",
+        "tr": "Ahtal",
+        "en": "Al-Akhtal"
+      },
+      "period": "emevî",
+      "death_approx": "~710 MS",
+      "tribe": "taglip",
+      "title": "Emevîlerin Hristiyan Şairi",
+      "description": "Hristiyan Arap şair. Emevî sarayının resmî şairi. Hamriyyât (şarap şiiri) ve medih. Cerîr-Ferezdak nekāizine katıldı.",
+      "specialty": "medih/hamriyyât",
+      "related_companions": []
+    },
+    {
+      "id": "poet_nabiga_cadf",
+      "name": {
+        "ar": "النابغة الجعدي",
+        "tr": "Nâbiga el-Ca'dî",
+        "en": "Al-Nabighah al-Ja'di"
+      },
+      "period": "muhadram",
+      "death_approx": "~690 MS",
+      "tribe": "amir",
+      "title": "Muhadram Şair",
+      "description": "Hem Câhiliye hem İslâm dönemini yaşayan (muhadram) şair. Hz. Peygamber'in huzurunda şiir okudu ve 'ağzın güzel söylesin' duasını aldı.",
+      "specialty": "medih",
+      "related_companions": []
+    },
+    {
+      "id": "poet_abid",
+      "name": {
+        "ar": "عبيد بن الأبرص",
+        "tr": "Abîd b. el-Ebras",
+        "en": "Abid ibn al-Abras"
+      },
+      "period": "câhiliye",
+      "death_approx": "~554 MS",
+      "tribe": "esed",
+      "title": "Muallakāt Şairi (10'lu versiyon)",
+      "description": "Bazı rivayetlerde Muallakāt'ın 10'lu versiyonuna dahil edilen şair. Lahm kralı Münzir tarafından öldürüldü.",
+      "specialty": "kasîde",
+      "related_companions": []
+    },
+    {
+      "id": "poet_zuheyr_b_cenab",
+      "name": {
+        "ar": "زهير بن جناب",
+        "tr": "Züheyr b. Cenâb",
+        "en": "Zuhayr ibn Janab"
+      },
+      "period": "câhiliye",
+      "death_approx": "~550 MS",
+      "tribe": "kelb",
+      "title": "Kelb Kabilesi Şairi",
+      "description": "Kelb kabilesinin reisi ve şairi. Uzun ömür yaşadı. Hikmet (bilgelik) şiirleriyle tanınır.",
+      "specialty": "hikmet",
+      "related_companions": []
+    },
+    {
+      "id": "poet_tumader",
+      "name": {
+        "ar": "تُماضر بنت عمرو",
+        "tr": "Tümâdır bt. Amr (Hansâ)",
+        "en": "Tumadir bint Amr (al-Khansa)"
+      },
+      "period": "muhadram",
+      "death_approx": "~645 MS",
+      "tribe": "süleym",
+      "title": "Mersiye Kraliçesi",
+      "description": "NOT: Bu kayıt mevcut poet_hansa ile aynı kişidir, detay güncellemesi. Kardeşleri Sahr ve Muâviye için mersiye söyledi. Hz. Peygamber şiirini beğendi. Kadisiye'de dört oğlunu şehit verdi.",
+      "specialty": "mersiye",
+      "related_companions": []
+    },
+    {
+      "id": "poet_leyla_ahyaliyye",
+      "name": {
+        "ar": "ليلى الأخيلية",
+        "tr": "Leylâ el-Ahyeliyye",
+        "en": "Layla al-Akhyaliyyah"
+      },
+      "period": "emevî",
+      "death_approx": "~700 MS",
+      "tribe": "amir",
+      "title": "Emevî Kadın Şair",
+      "description": "Emevî döneminin önde gelen kadın şairlerinden. Sevgilisi Tevbe b. Humeyyir için mersiyeler yazdı. Abdülmelik b. Mervân'ın sarayında şiir okudu.",
+      "specialty": "mersiye/gazel",
+      "related_companions": []
+    },
+    {
+      "id": "poet_urve_verd",
+      "name": {
+        "ar": "عروة بن الورد",
+        "tr": "Urve b. el-Verd",
+        "en": "Urwa ibn al-Ward"
+      },
+      "period": "câhiliye",
+      "death_approx": "~615 MS",
+      "tribe": "abs",
+      "title": "Su'lûkların Efendisi",
+      "description": "Su'lûk şairlerin en soylusu. Kabilesi tarafından dışlanmadı ama yoksullara yardım için eşkıyalık yaptı. 'Fakirlerin Robin Hood'u' denebilir.",
+      "specialty": "su'lûkiyyât",
+      "related_companions": []
+    },
+    {
+      "id": "poet_zuhayrbsulma",
+      "name": {
+        "ar": "زهير بن أبي سلمى",
+        "tr": "Züheyr b. Ebî Sülmâ (detay)",
+        "en": "Zuhayr ibn Abi Sulma (detail)"
+      },
+      "period": "câhiliye",
+      "death_approx": "~609 MS",
+      "tribe": "müzeyne",
+      "title": "Hikmet Şairi",
+      "description": "Muallakāt şairlerinden. Dâhis-Gabrâ savaşını sona erdiren barış için muallakasını yazdı. Şiirlerini yıllarca işleyerek mükemmelleştirirdi (havliyyât).",
+      "specialty": "hikmet/medih",
+      "related_companions": []
+    },
+    {
+      "id": "poet_kab_malik",
+      "name": {
+        "ar": "كعب بن مالك",
+        "tr": "Ka'b b. Mâlik",
+        "en": "Ka'b ibn Malik"
+      },
+      "period": "islâmî",
+      "death_approx": "~670 MS",
+      "tribe": "hazrec",
+      "title": "Peygamber'in Şair Sahâbîsi",
+      "description": "Hz. Peygamber'in üç şairinden biri (Hassân, Ka'b, İbn Revâha). Tebük'ten geri kalıp tevbesi kabul edilen üç kişiden biri. Uhud ve Hendek'te şiirle moral verdi.",
+      "specialty": "medih/hiciv",
+      "related_companions": [
+        "comp_kab_malik"
+      ]
+    },
+    {
+      "id": "poet_meymun_asha",
+      "name": {
+        "ar": "الأعشى ميمون",
+        "tr": "A'şâ Meymûn (detay)",
+        "en": "Al-A'sha Maymun (detail)"
+      },
+      "period": "muhadram",
+      "death_approx": "~629 MS",
+      "tribe": "bakr",
+      "title": "Tanbûra Şairi",
+      "description": "Bazı rivayetlerde 10'lu Muallakāt'a dahil. Hz. Peygamber'e gidip müslüman olacakken Kureyş onu engelledi ve yolda öldü. Şiirlerini tanbûra ile söylerdi.",
+      "specialty": "medih/hamriyyât",
+      "related_companions": []
+    },
+    {
+      "id": "poet_labid_detail",
+      "name": {
+        "ar": "لبيد بن ربيعة",
+        "tr": "Lebîd b. Rebîa (detay)",
+        "en": "Labid ibn Rabi'ah (detail)"
+      },
+      "period": "muhadram",
+      "death_approx": "~661 MS",
+      "tribe": "amir",
+      "title": "Son Muallaka Sahibi Müslüman Şair",
+      "description": "Muallakāt şairlerinden, müslüman oldu. İslâm'dan sonra şiir yazmayı bıraktı: 'Allah bana Bakara ve Âl-i İmrân verdi, bundan sonra şiir mi yazayım?' Kufe'de vefat etti.",
+      "specialty": "kasîde/hikmet",
+      "related_companions": []
+    },
+    {
+      "id": "poet_kuthayyir",
+      "name": {
+        "ar": "كثيّر عزة",
+        "tr": "Küseyyir Azze",
+        "en": "Kuthayyir Azza"
+      },
+      "period": "emevî",
+      "death_approx": "~723 MS",
+      "tribe": "huzâa",
+      "title": "Uzrî Gazel Şairi",
+      "description": "Platonik (uzrî) gazel ekolünün temsilcisi. Sevgilisi Azze için ömür boyu şiir söyledi. Cemîl Büseyne ile birlikte uzrî geleneğin sembol ismi.",
+      "specialty": "gazel-i uzrî",
+      "related_companions": []
+    },
+    {
+      "id": "poet_cemil",
+      "name": {
+        "ar": "جميل بثينة",
+        "tr": "Cemîl Büseyne",
+        "en": "Jamil Buthaynah"
+      },
+      "period": "emevî",
+      "death_approx": "~701 MS",
+      "tribe": "uzra",
+      "title": "Uzrî Aşk Sembolü",
+      "description": "Platonik aşk şiirinin en meşhur temsilcisi. Büseyne'ye kavuşamadan öldü. Uzra kabilesinin 'aşktan ölenler' geleneğinin simgesi.",
+      "specialty": "gazel-i uzrî",
+      "related_companions": []
+    },
+    {
+      "id": "poet_kays_mecnun",
+      "name": {
+        "ar": "مجنون ليلى",
+        "tr": "Kays (Mecnûn-ı Leylâ)",
+        "en": "Qays (Majnun Layla)"
+      },
+      "period": "emevî",
+      "death_approx": "~688 MS",
+      "tribe": "amir",
+      "title": "Mecnûn — Aşktan Deliren",
+      "description": "Tarihselliği tartışmalı. Leylâ'ya olan karşılıksız aşkıyla aklını yitirdi. İslâm edebiyatının en etkili aşk hikâyesi. Nizâmî, Fuzûlî tarafından yeniden yazıldı.",
+      "specialty": "gazel-i uzrî",
+      "related_companions": []
+    },
+    {
+      "id": "poet_tirimmah",
+      "name": {
+        "ar": "الطرماح",
+        "tr": "Tırımmâh b. Hakîm",
+        "en": "Al-Tirimmah ibn Hakim"
+      },
+      "period": "emevî",
+      "death_approx": "~743 MS",
+      "tribe": "tayy",
+      "title": "Emevî Tasvir Şairi",
+      "description": "Doğa ve çöl tasvirleri ile tanınan Emevî dönemi şairi. Hâricî sempatizanı. Vasf (tasvir) türünde usta.",
+      "specialty": "vasf",
+      "related_companions": []
+    },
+    {
+      "id": "poet_dhu_rumma",
+      "name": {
+        "ar": "ذو الرمة",
+        "tr": "Zü'r-Rumme",
+        "en": "Dhu al-Rummah"
+      },
+      "period": "emevî",
+      "death_approx": "~735 MS",
+      "tribe": "temîm",
+      "title": "Son Büyük Bedevî Şair",
+      "description": "Emevî döneminin son büyük çöl şairi. Sevgilisi Meyye için gazel, çöl tasvirleri ile kasîde geleneğini sürdüren son isim.",
+      "specialty": "kasîde/gazel",
+      "related_companions": []
+    },
+    {
+      "id": "poet_adi_zeyd",
+      "name": {
+        "ar": "عدي بن زيد",
+        "tr": "Adî b. Zeyd",
+        "en": "Adi ibn Zayd"
+      },
+      "period": "câhiliye",
+      "death_approx": "~600 MS",
+      "tribe": "tamim/ibad",
+      "title": "Hîre Saray Şairi",
+      "description": "Lahm/Hîre sarayında yetişen Hristiyan Arap şair. Farsça ve Arapça bilir. Zühd (dünyadan uzaklaşma) şiirleri yazdı. Hapiste öldürüldü.",
+      "specialty": "zühd/hamriyyât",
+      "related_companions": []
+    },
+    {
+      "id": "poet_hatim_tai",
+      "name": {
+        "ar": "حاتم الطائي",
+        "tr": "Hâtim et-Tâî",
+        "en": "Hatim al-Ta'i"
+      },
+      "period": "câhiliye",
+      "death_approx": "~578 MS",
+      "tribe": "tayy",
+      "title": "Cömertlik Sembolü",
+      "description": "Arap cömertliğinin simgesi. Şair olmaktan çok cömertliğiyle ünlü ama şiirleri de vardır. Oğlu Adî b. Hâtim müslüman oldu.",
+      "specialty": "fahr/kerem",
+      "related_companions": []
+    }
+  ],
+  "literary_forms": [
+    {
+      "id": "form_kasida",
+      "name": {
+        "ar": "القصيدة",
+        "tr": "Kasîde",
+        "en": "Qasidah"
+      },
+      "description": "Arap şiirinin ana formu. Genellikle 30-120 beyit. Üç bölümlü yapı: nesîb (aşk girişi / atlâl), rahîl (yolculuk tasviri), garaz (asıl konu: medih, hiciv, mersiye vb.).",
+      "structure": {
+        "nesib": "Terk edilmiş konak yeri (atlâl) önünde durup sevgiliyi anma",
+        "rahil": "Deve/at sırtında çöl yolculuğu",
+        "garaz": "Asıl maksat — övgü, yergi, ağıt, hikmet vb."
+      },
+      "meter": "15 vezinden biri (aruz kalıpları)"
+    },
+    {
+      "id": "form_muallaka",
+      "name": {
+        "ar": "المعلقة",
+        "tr": "Muallaka",
+        "en": "Mu'allaqa"
+      },
+      "description": "Câhiliye döneminin en seçkin 7 (veya 10) kasîdesi. Rivayete göre Kâbe duvarına altın yazıyla asılmıştır. Ukâz panayırında seçilirdi. Arap edebiyatının zirvesi sayılır.",
+      "count": "7 (veya 10 — Nâbiga ve A'şâ'yı da ekleyenler var)",
+      "compiler": "Hammâd er-Râviye (8. yy)"
+    },
+    {
+      "id": "form_recez",
+      "name": {
+        "ar": "الرجز",
+        "tr": "Recez",
+        "en": "Rajaz"
+      },
+      "description": "Kısa, ritmik, savaş veya çalışma anında doğaçlama söylenen şiir. Kasîdeden daha serbest. Develerin yürüyüş ritmine uyar. Hz. Peygamber Hendek kazarken sahâbîlerle recez söyledi.",
+      "meter": "Müstef'ilün müstef'ilün müstef'ilün"
+    },
+    {
+      "id": "form_mersiye",
+      "name": {
+        "ar": "المرثية",
+        "tr": "Mersiye (Ağıt)",
+        "en": "Marthiya"
+      },
+      "description": "Ölünün ardından söylenen ağıt şiiri. Câhiliye'de çok yaygın. Hansâ kardeşi Sahr için söylediği mersiyelerle meşhur. İslâm sonrası aşırı ağıt yasaklandı (niyâha) ama mersiye devam etti.",
+      "major_poets": [
+        "poet_hansa",
+        "poet_hassan"
+      ]
+    },
+    {
+      "id": "form_hiciv",
+      "name": {
+        "ar": "الهجاء",
+        "tr": "Hiciv (Yergi)",
+        "en": "Hija'"
+      },
+      "description": "Düşman kişi veya kabileyi aşağılayan şiir. Câhiliye'de kabileler arası savaşlarda silah gibi kullanılırdı. Hz. Peygamber Hassân'a müşrikleri hicvetmesini emretti.",
+      "major_poets": [
+        "poet_hassan",
+        "poet_hutaya"
+      ]
+    },
+    {
+      "id": "form_medih",
+      "name": {
+        "ar": "المديح",
+        "tr": "Medih (Övgü)",
+        "en": "Madih"
+      },
+      "description": "Kabile reisini, hükümdarı veya kahramanı öven şiir. Câhiliye'de en yaygın garaz türü. İslâm'da Hz. Peygamber'i öven kasîdeler (medih-i nebevî) geleneği başladı.",
+      "major_poets": [
+        "poet_hassan",
+        "poet_kab_b_zuhayr",
+        "poet_nabiga"
+      ]
+    },
+    {
+      "id": "form_gazal",
+      "name": {
+        "ar": "الغزل",
+        "tr": "Gazel (Aşk şiiri)",
+        "en": "Ghazal"
+      },
+      "description": "Aşk ve sevgili tasviri. Kasîdenin nesîb bölümünden bağımsızlaşarak ayrı bir tür oldu. Câhiliye'de daha açık (gazal-ı sarîh), Emevî döneminde iffetli gazel (gazal-ı uzrî) yaygınlaştı.",
+      "subtypes": {
+        "sarih": "Açık/bedensel aşk (Ömer b. Ebî Rebîa)",
+        "uzri": "Platonik/iffetli aşk (Mecnûn Leylâ, Cemîl Büseyne)"
+      }
+    },
+    {
+      "id": "form_hamriyyat",
+      "name": {
+        "ar": "الخمريات",
+        "tr": "Hamriyyât (Şarap şiiri)",
+        "en": "Khamriyyat"
+      },
+      "description": "Şarap, içki meclisi ve sarhoşluk tasviri. Câhiliye'de kasîdenin bir parçası; A'şâ meşhur. İslâm sonrası yasaklanmasına rağmen Emevî-Abbâsî döneminde Ebû Nuvâs ile zirveye ulaştı.",
+      "major_poets": [
+        "poet_asha",
+        "poet_tarafa"
+      ]
+    },
+    {
+      "id": "form_fakhr",
+      "name": {
+        "ar": "الفخر",
+        "tr": "Fahr (İftihar)",
+        "en": "Fakhr"
+      },
+      "description": "Kabile veya kişinin kendini övmesi. Câhiliye asabiyyetinin şiirdeki yansıması. Amr b. Külsûm'un muallakası en güçlü fahr örneği.",
+      "major_poets": [
+        "poet_amr_b_kulsum"
+      ]
+    },
+    {
+      "id": "form_wasf",
+      "name": {
+        "ar": "الوصف",
+        "tr": "Vasf (Tasvir)",
+        "en": "Wasf"
+      },
+      "description": "Tabiat, hayvan (deve, at), çöl, yağmur, avlanma tasviri. Kasîdenin ayrılmaz parçası. İmruülkays'ın at tasviri, Tarafe'nin deve tasviri klasik örnekler.",
+      "major_poets": [
+        "poet_imruulkays",
+        "poet_tarafa"
+      ]
+    },
+    {
+      "id": "form_nekaiz",
+      "name": {
+        "ar": "النقائض",
+        "tr": "Nekāiz",
+        "en": "Naqa'id (Flytings)"
+      },
+      "description": "İki şairin birbirini hicvettiği karşılıklı şiir düellosu. Aynı vezin ve kafiyeyle cevap verilir. Cerîr-Ferezdak nekāizi en meşhuru. Emevî döneminin simgesi."
+    },
+    {
+      "id": "form_naat",
+      "name": {
+        "ar": "النعت",
+        "tr": "Na't",
+        "en": "Na't (Prophetic Eulogy)"
+      },
+      "description": "Hz. Peygamber'i öven şiir geleneği. Ka'b b. Züheyr'in Bânet Su'âd kasîdesi ilk örnek. İslâm edebiyatının en yaygın türlerinden biri haline geldi."
+    },
+    {
+      "id": "form_sulukiyyat",
+      "name": {
+        "ar": "الصعلكيات",
+        "tr": "Su'lûkiyyât",
+        "en": "Brigand Poetry"
+      },
+      "description": "Toplumdan dışlanan, çöle sığınan su'lûk (haydut/serseri) şairlerinin şiirleri. Şenferâ, Teebbet Şerran, Urve b. el-Verd. Özgürlük ve isyan temaları."
+    },
+    {
+      "id": "form_hikma",
+      "name": {
+        "ar": "الحكمة",
+        "tr": "Hikmet Şiiri",
+        "en": "Wisdom Poetry (Hikmah)"
+      },
+      "description": "Hayat tecrübesi ve ahlâki öğütler içeren şiir. Züheyr b. Ebî Sülmâ'nın muallakasındaki hikmet beyitleri en bilinen örnektir."
+    },
+    {
+      "id": "form_risa",
+      "name": {
+        "ar": "الرثاء",
+        "tr": "Risâ / Mersiye",
+        "en": "Ritha (Elegy) — Detail"
+      },
+      "description": "Ölüm üzerine söylenen ağıt şiiri. Hansâ'nın kardeşi Sahr için mersiyesi zirve. Kadın şairlerin en çok öne çıktığı tür."
+    },
+    {
+      "id": "form_muwashshah",
+      "name": {
+        "ar": "الرجز المزدوج",
+        "tr": "Müzdevic Recez",
+        "en": "Muzdawij Rajaz"
+      },
+      "description": "Her beytin kendi içinde kafiyeli recez formu. Savaş meydanında ve iş yaparken söylenir. Hendek kazısında sahâbîlerin okuduğu tarz."
+    },
+    {
+      "id": "form_hutbe",
+      "name": {
+        "ar": "الخطبة",
+        "tr": "Hutbe (Nesir Edebiyatı)",
+        "en": "Khutbah (Oratory)"
+      },
+      "description": "Arap nesir edebiyatının ana formu. Kuss b. Sâide'nin Ukâz hutbesi meşhur. Hz. Peygamber'in Vedâ Hutbesi zirve noktası."
+    },
+    {
+      "id": "form_zuhdiyyat",
+      "name": {
+        "ar": "الزهديات",
+        "tr": "Zühdiyyât",
+        "en": "Zuhdiyyat (Ascetic Poetry)"
+      },
+      "description": "Dünyadan uzaklaşma ve ahiret bilinci şiirleri. İslâm'ın etkisiyle güçlendi. Câhiliye'de Adî b. Zeyd, İslâmî dönemde Hasan Basrî ve Ebü'l-Atâhiye ile zirveye ulaştı."
+    },
+    {
+      "id": "form_cihadiyyat",
+      "name": {
+        "ar": "الجهاديات",
+        "tr": "Cihâdiyyât",
+        "en": "Jihadiyyat (Martial Poetry)"
+      },
+      "description": "Savaş ve kahramanlık şiirleri. Abdullah b. Revâha, Ka'b b. Mâlik gibi şair sahâbîlerin Bedir, Uhud, Hendek'te söylediği şiirler. Savaş motivasyonu."
+    },
+    {
+      "id": "form_mufadhdaliyyat",
+      "name": {
+        "ar": "المفضليات",
+        "tr": "Mufaddaliyyât",
+        "en": "Al-Mufaddaliyyat"
+      },
+      "description": "Mufaddal ed-Dabbî'nin derlediği 126 kasîde antolojisi. Câhiliye ve İslâm dönemi şiirlerinin en önemli derlemelerinden. Muallakāt'tan sonra ikinci kaynak."
+    },
+    {
+      "id": "form_wasiyya",
+      "name": {
+        "ar": "الوصية",
+        "tr": "Vasiyyet (Nesir)",
+        "en": "Wasiyyah (Testament)"
+      },
+      "description": "Ölüm döşeğinde veya yolculuk öncesi verilen ahlâkî ve pratik öğütler. Arap nesir edebiyatının önemli türü. Aktam b. Sayfî'nin vasiyyeti meşhur."
+    },
+    {
+      "id": "form_muamma",
+      "name": {
+        "ar": "الأحاجي",
+        "tr": "Muammâ / Lügaz",
+        "en": "Riddle Poetry (Lughz)"
+      },
+      "description": "Bilmece şiirleri. Arap edebiyatında bilgi ve zekâ gösterisi olarak kullanılan tür. Ukâz panayırında yarışmalarda sorulurdu."
+    }
+  ],
+  "poetry_events": [
+    {
+      "id": "evt_ukaz_musabaka",
+      "name": {
+        "ar": "مسابقة عكاظ الشعرية",
+        "tr": "Ukâz Şiir Yarışması",
+        "en": "Ukaz Poetry Contest"
+      },
+      "location": "eco_ukaz",
+      "description": "Zilkade ayında Ukâz panayırında düzenlenen yıllık şiir müsabakası. Nâbiga ez-Zübyânî başhakemdi. Kabileler en iyi şairlerini gönderirdi. Muallakāt burada seçildi rivayeti var.",
+      "period": "Câhiliye",
+      "related_persons": [
+        "poet_nabiga",
+        "poet_hansa",
+        "poet_hassan"
+      ]
+    },
+    {
+      "id": "evt_banet_suad",
+      "name": {
+        "ar": "قصيدة البردة",
+        "tr": "Bânet Su'âd / Kasîdetü'l-Bürde",
+        "en": "Banat Su'ad / Poem of the Cloak"
+      },
+      "location": "loc_medine",
+      "description": "Ka'b b. Züheyr'in Hz. Peygamber'in huzurunda affedilmek için söylediği kasîde. Hz. Peygamber hırkasını (bürde) ona hediye etti. İslâm edebiyatının en önemli medih-i nebevî kasîdesi.",
+      "date_hijri": "8/630",
+      "related_persons": [
+        "poet_kab_b_zuhayr"
+      ]
+    },
+    {
+      "id": "evt_hendek_recez",
+      "name": {
+        "ar": "رجز حفر الخندق",
+        "tr": "Hendek Kazı Recezleri",
+        "en": "Trench Digging Rajaz"
+      },
+      "location": "loc_medine",
+      "description": "Hendek Gazvesi hazırlığında Hz. Peygamber ve sahâbîlerin hendek kazarken söyledikleri recez şiirleri. 'Allahümme lâ hayra illâ hayru'l-âhira / fe'nsuru'l-ensâra ve'l-muhâcira' dizesi meşhur.",
+      "date_hijri": "5/627",
+      "related_persons": [
+        "poet_abdullah_rawaha"
+      ]
+    },
+    {
+      "id": "evt_ifk_siiri",
+      "name": {
+        "ar": "شعر حادثة الإفك",
+        "tr": "İfk Hadisesi Şiirleri",
+        "en": "Poetry of the Ifk Incident"
+      },
+      "location": "loc_medine",
+      "description": "Hz. Âişe'ye atılan iftira (ifk hadisesi) sırasında Hassân b. Sâbit'in de söyledikleri tartışma konusu oldu. Hassân sonradan Hz. Âişe'yi öven kasîdeler söyledi.",
+      "date_hijri": "5-6/627",
+      "related_persons": [
+        "poet_hassan"
+      ]
+    },
+    {
+      "id": "evt_dahis_gabra",
+      "name": {
+        "ar": "حرب داحس والغبراء",
+        "tr": "Dâhis-Gabrâ Savaşı",
+        "en": "War of Dahis and Ghabra"
+      },
+      "location": "loc_necid",
+      "description": "Abs ve Zübyân kabileleri arasında bir at yarışı yüzünden çıkan 40 yıllık savaş (~550-590 MS). Züheyr b. Ebî Sülmâ'nın muallakası bu savaşın sonundaki barışı anlatır.",
+      "period": "~550-590 MS",
+      "related_persons": [
+        "poet_zuhayr",
+        "poet_antara"
+      ]
+    },
+    {
+      "id": "evt_kuss_hutbe",
+      "name": {
+        "ar": "خطبة قس بن ساعدة",
+        "tr": "Kuss b. Sâide'nin Ukâz Hutbesi",
+        "en": "Quss ibn Sa'idah's Sermon at Ukaz"
+      },
+      "location": "eco_ukaz",
+      "description": "Câhiliye döneminin en meşhur hatibi. Tevhid ve ahiret inancını dile getiren hutbesi. Hz. Peygamber onu hatırlayıp övdü. 'Ey insanlar! Gelin, dinleyin, ibret alın…'",
+      "period": "Câhiliye",
+      "related_persons": []
+    },
+    {
+      "id": "evt_buerda_olay",
+      "name": {
+        "ar": "حادثة البردة",
+        "tr": "Bürde/Hırka Olayı — Ka'b b. Züheyr",
+        "en": "Burdah Incident — Ka'b ibn Zuhayr"
+      },
+      "location": "loc_medine",
+      "description": "Ka'b b. Züheyr'in kanı heder ilan edildikten sonra Hz. Peygamber'e gelip Bânet Su'âd kasîdesini okuması, Peygamber'in hırkasını ona vermesi.",
+      "period": "İslâmî (630)",
+      "related_persons": [
+        "poet_kab_zuheyr"
+      ]
+    },
+    {
+      "id": "evt_cerir_ferezdak",
+      "name": {
+        "ar": "نقائض جرير والفرزدق",
+        "tr": "Cerîr-Ferezdak Nekāiz Düellosu",
+        "en": "Jarir-Farazdaq Flyting"
+      },
+      "location": "",
+      "description": "Emevî döneminde yaklaşık 40 yıl süren edebi düello. Arap edebiyatının en büyük hiciv rekabeti. Her iki şair de Temîm kabilesinden.",
+      "period": "Emevî (660-730)",
+      "related_persons": [
+        "poet_ferezdak",
+        "poet_cerir"
+      ]
+    },
+    {
+      "id": "evt_siir_ve_islam",
+      "name": {
+        "ar": "الشعر والإسلام",
+        "tr": "İslâm'ın Şiire Etkisi",
+        "en": "Islam's Impact on Poetry"
+      },
+      "location": "",
+      "description": "İslâm'ın gelişiyle şiirin içeriği değişti: put övgüsü kalktı, hamriyyât kısıtlandı, medih Allah ve Rasûlüne yöneldi, yeni türler (na't, zühdiyyât, cihâdiyyât) doğdu.",
+      "period": "İslâmî",
+      "related_persons": [
+        "poet_hassan"
+      ]
+    },
+    {
+      "id": "evt_veda_hutbesi_edebi",
+      "name": {
+        "ar": "خطبة الوداع",
+        "tr": "Vedâ Hutbesi — Edebî Yönü",
+        "en": "Farewell Sermon — Literary Aspect"
+      },
+      "location": "loc_arafe",
+      "description": "Hz. Peygamber'in Vedâ Hutbesi, Arap nesir edebiyatının zirvesi sayılır. Kısa cümleler, sec'î, tekrar, hitap sanatı. 'Tebliğ ettim mi?' tekrarı.",
+      "period": "632 MS",
+      "related_persons": []
+    },
+    {
+      "id": "evt_muallakat_asma",
+      "name": {
+        "ar": "تعليق المعلقات",
+        "tr": "Muallakāt'ın Ka'be'ye Asılması",
+        "en": "Hanging of the Mu'allaqat on the Kaaba"
+      },
+      "location": "loc_mekke",
+      "description": "Rivayete göre en iyi yedi (veya on) kasîdenin Ka'be duvarına altın harflerle yazılıp asılması. Modern araştırmacılar bu rivayetin doğruluğunu tartışır ama Muallakāt'ın seçkin konumu tartışmasızdır.",
+      "period": "Câhiliye",
+      "related_persons": []
+    },
+    {
+      "id": "evt_dahis_gabra",
+      "name": {
+        "ar": "حرب داحس والغبراء",
+        "tr": "Dâhis ve Gabrâ Savaşı (Edebî Yönü)",
+        "en": "War of Dahis and Ghabra — Literary Impact"
+      },
+      "location": "",
+      "description": "Abs ve Zübyân kabileleri arasında at yarışı yüzünden çıkan 40 yıllık savaş. Züheyr b. Ebî Sülmâ'nın muallakası bu savaşın barışı için yazıldı. Antere de bu savaşın kahramanı.",
+      "period": "~570-600 MS",
+      "related_persons": [
+        "poet_zuhayrbsulma"
+      ]
+    },
+    {
+      "id": "evt_arap_hitabet",
+      "name": {
+        "ar": "الخطابة العربية",
+        "tr": "Arap Hitabet Geleneği",
+        "en": "Arab Oratory Tradition"
+      },
+      "location": "",
+      "description": "Ukâz, Mecenne gibi panayırlarda şiirle birlikte hitabet de yarışma konusuydu. Kuss b. Sâide, Aktam b. Sayfî, Hâşim b. Abdümenâf gibi hatipler. Hz. Peygamber Arap hitabetinin zirvesi sayılır.",
+      "period": "Câhiliye-İslâmî",
+      "related_persons": []
+    },
+    {
+      "id": "evt_muhadram_gecis",
+      "name": {
+        "ar": "الشعراء المخضرمون",
+        "tr": "Muhadram Şairler — Geçiş Dönemi",
+        "en": "Mukhadram Poets — Transitional Period"
+      },
+      "location": "",
+      "description": "Hem Câhiliye hem İslâm dönemini yaşayan şairler (Lebîd, Hassân, Hansâ, Ka'b, Nâbiga el-Ca'dî). İslâm'ın şiir içeriğini ve ahlâkî çerçevesini nasıl dönüştürdüğünün canlı tanıkları.",
+      "period": "600-660 MS",
+      "related_persons": [
+        "poet_labid_detail",
+        "poet_hassan",
+        "poet_kab_malik"
+      ]
+    },
+    {
+      "id": "evt_uzri_gelenek",
+      "name": {
+        "ar": "الغزل العذري",
+        "tr": "Uzrî Gazel Geleneği",
+        "en": "Udhri Love Poetry Tradition"
+      },
+      "location": "",
+      "description": "Platonik (bedensel değil ruhsal) aşk şiiri geleneği. Uzra kabilesinden çıkan şairlerle (Cemîl, Kays/Mecnûn, Küseyyir) özdeşleşti. 'Biz öyle bir kavimiz ki aşıkları ölürse ölür.'",
+      "period": "Emevî",
+      "related_persons": [
+        "poet_cemil",
+        "poet_kays_mecnun",
+        "poet_kuthayyir"
+      ]
+    }
+  ],
+  "quran_and_poetry": [
+    {
+      "id": "quran_shuara",
+      "surah": 26,
+      "surah_name": {
+        "ar": "الشعراء",
+        "tr": "Şuarâ",
+        "en": "Ash-Shu'ara"
+      },
+      "ayah_start": 224,
+      "ayah_end": 227,
+      "description": "Şairleri eleştiren âyetler: 'Şairlere gelince, onlara sapkınlar uyar. Onlar her vadide dolaşırlar. Yapmadıklarını söylerler. Ancak iman edenler, sâlih amel işleyenler... müstesna.' İstisna kısmı Hassân, Ka'b ve Abdullah b. Revâha için yorumlandı."
+    },
+    {
+      "id": "quran_yasin_69",
+      "surah": 36,
+      "surah_name": {
+        "ar": "يس",
+        "tr": "Yâsîn",
+        "en": "Ya-Sin"
+      },
+      "ayah_start": 69,
+      "ayah_end": 69,
+      "description": "'Biz ona şiir öğretmedik; bu ona yakışmaz da. O ancak bir öğüt ve açık bir Kur'ân'dır.' Hz. Peygamber'in şair olmadığının beyanı."
+    },
+    {
+      "id": "quran_anbiya_5",
+      "surah": 21,
+      "surah_name": {
+        "ar": "الأنبياء",
+        "tr": "Enbiyâ",
+        "en": "Al-Anbiya"
+      },
+      "ayah_start": 5,
+      "ayah_end": 5,
+      "description": "Müşriklerin 'Bu karışık rüyalardır, onu uydurdu, o bir şairdir' demesi. Kur'ân'ın şiir olmadığı vurgusu. Kur'ân'ın i'câzı şiirden farklı bir düzlemde."
+    },
+    {
+      "id": "quran_saffat_36",
+      "surah": 37,
+      "surah_name": {
+        "ar": "الصافات",
+        "tr": "Sâffât",
+        "en": "As-Saffat"
+      },
+      "ayah_start": 36,
+      "ayah_end": 36,
+      "description": "'Biz bir mecnun şair için ilâhlarımızı mı terk edeceğiz?' Müşriklerin Hz. Peygamber'i şairlikle itham etmeleri ve Kur'ân'ın cevabı."
+    },
+    {
+      "id": "quran_haqqa_41",
+      "surah": 69,
+      "surah_name": {
+        "ar": "الحاقة",
+        "tr": "Hâkka",
+        "en": "Al-Haqqah"
+      },
+      "ayah_start": 41,
+      "ayah_end": 42,
+      "description": "'O bir şairin sözü değildir — ne de az inanırsınız! Bir kâhinin sözü de değildir.' Kur'ân'ın hem şiirden hem kehânetten ayrı tutulması."
+    },
+    {
+      "id": "quran_tur_30",
+      "surah": 52,
+      "surah_name": {
+        "ar": "الطور",
+        "tr": "Tûr",
+        "en": "At-Tur"
+      },
+      "ayah_start": 30,
+      "ayah_end": 30,
+      "description": "'Yoksa onu şair mi sanıyorlar, zamanın felaketlerini mi bekliyorlar?' Kur'ân'ın şiir olmadığının tekrarlanan vurgusu."
+    },
+    {
+      "id": "quran_waqia_79",
+      "surah": 56,
+      "surah_name": {
+        "ar": "الواقعة",
+        "tr": "Vâkıa",
+        "en": "Al-Waqi'ah"
+      },
+      "ayah_start": 77,
+      "ayah_end": 80,
+      "description": "'Bu elbette değerli bir Kur'ân'dır, korunmuş bir kitaptadır. Ona ancak tertemiz olanlar dokunabilir.' Kur'ân'ın edebî ve manevî üstünlüğü vurgusu."
+    },
+    {
+      "id": "quran_isra_88",
+      "surah": 17,
+      "surah_name": {
+        "ar": "الإسراء",
+        "tr": "İsrâ",
+        "en": "Al-Isra"
+      },
+      "ayah_start": 88,
+      "ayah_end": 88,
+      "description": "'De ki: İnsanlar ve cinler bu Kur'ân'ın benzerini getirmek için bir araya gelseler, birbirlerine destek de olsalar yine benzerini getiremezler.' Kur'ân'ın edebî i'câzının en açık ifadesi."
+    },
+    {
+      "id": "quran_bakara_23",
+      "surah": 2,
+      "surah_name": {
+        "ar": "البقرة",
+        "tr": "Bakara",
+        "en": "Al-Baqarah"
+      },
+      "ayah_start": 23,
+      "ayah_end": 24,
+      "description": "'Kulumuza indirdiğimizden şüphe ediyorsanız, onun benzeri bir sûre getirin. Allah'tan başka şahitlerinizi de çağırın.' Tehaddî (meydan okuma) — Kur'ân'ın eşsiz edebî üstünlüğünün delili."
+    }
+  ]
+}

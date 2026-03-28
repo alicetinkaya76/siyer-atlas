@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "recon_nehrevan",
+    "battle_id": "nehrevan",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 33.35,
+        "lng": 44.75
+      },
+      "name": "Nehrevân Muharebesi",
+      "modern_location": "Bağdat doğusu, Irak"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Ayrılık",
+      "date_range": "Safer 38",
+      "duration": "",
+      "description": "Tahkîm'e itiraz eden grup ordudan ayrıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Nehrevân'da Karşılaşma",
+      "date_range": "Safer 38",
+      "duration": "",
+      "description": "Hz. Ali barışa davet etti; çoğu döndü, ~4.000 kişi kaldı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Muharebe",
+      "date_range": "9 Safer 38",
+      "duration": "",
+      "description": "Kısa ama şiddetli çarpışma; Hâricîler hemen hemen tamamen yok edildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Ali",
+      "estimated_troops": 14000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Hâricîler (Abdullah b. Vehb er-Râsibî)",
+      "estimated_troops": 4000,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, V/72-82",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/330",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 6,
+      "surah_name": "En'âm",
+      "ayah_range": "57",
+      "topic": {
+        "tr": "'Hüküm ancak Allah'ındır' — Hâricîlerin sloganı (bağlamından koparılmış kullanım)",
+        "en": "'Judgment belongs to God alone' — Khārijite slogan (used out of context)"
+      },
+      "key_verses": [
+        {
+          "ayah": 57,
+          "topic_tr": "Hz. Ali: 'Hak söz, bâtıl mana' dedi bu slogan için",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hariciler_marik",
+      "topic": "Hz. Peygamber: 'Dinin içinden ok yaydan çıkar gibi çıkan bir topluluk olacak' — Hâricîler",
+      "relevance": "direct",
+      "source": "Buhârî, İstitâbetü'l-Mürteddîn; Müslim, Zekât"
+    },
+    {
+      "hadith_id": "hds_zulhuveysıra",
+      "topic": "Hz. Peygamber döneminde ilk Hâricî eğilimi gösteren Zü'l-Huveysıra olayı",
+      "relevance": "contextual",
+      "source": "Buhârî, Menâkıb"
+    }
+  ],
+  "impact": {
+    "result": "Hâricîler bozguna uğradı",
+    "significance": "Tahkîm'e karşı çıkan Hâricî grubun ilk silahlı isyanı ve bastırılması. Ancak Hâricî hareketi devam etti.",
+    "cross_references": [
+      "siffin_savasi"
+    ]
+  },
+  "visualization": {
+    "icon": "fitne",
+    "color": "#9C27B0",
+    "priority": "medium"
+  }
+}

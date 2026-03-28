@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "id": "recon_fetih_ecnadeyn",
+    "battle_id": "fetih_ecnadeyn",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.69,
+        "lng": 34.93
+      },
+      "name": "Ecnâdeyn Muharebesi",
+      "modern_location": "Beyt Cibrin yakını, Filistin"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Toplanma",
+      "date_range": "Cemâziyelevvel 13",
+      "duration": "",
+      "description": "Dört İslâm ordusu Ecnâdeyn'de birleşti.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Muharebe",
+      "date_range": "28 Cemâziyelevvel 13",
+      "duration": "",
+      "description": "Büyük meydan muharebesi; Bizans ağır kayıp verdi.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "Cemâziyelevvel 13",
+      "duration": "",
+      "description": "Bizans geri çekildi; Filistin kapıları açıldı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâlid b. Velîd (veya Amr b. Âs)",
+      "estimated_troops": 33000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Artabanus / Vardanes (Bizans)",
+      "estimated_troops": 90000,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/390",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 116",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "Vâkıdî, Fütûhu'ş-Şâm",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_suriye_fethi",
+      "topic": "Suriye fethi müjdesi",
+      "relevance": "contextual",
+      "source": "Müslim"
+    }
+  ],
+  "impact": {
+    "result": "Kesin Müslüman zaferi",
+    "significance": "Suriye-Filistin cephesindeki ilk büyük meydan muharebesi. Bizans'ın savunma hattı kırıldı.",
+    "cross_references": [
+      "fetih_dimask",
+      "yermuk"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "medium"
+  }
+}

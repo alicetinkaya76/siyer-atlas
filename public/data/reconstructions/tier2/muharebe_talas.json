@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "id": "reconstruction_muharebe_talas",
+    "battle_id": "muharebe_talas",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Talas Muharebesi (Zilkade 133 AH / Temmuz 751 CE). Abbâsî ordusunun Tang Çin'e karşı zaferi. İslâm'ın Orta Asya'daki kalıcı varlığını pekiştirdi. Kâğıt üretim teknolojisinin İslâm dünyasına geçişi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 42.52,
+        "lng": 72.24
+      },
+      "bbox": {
+        "north": 42.6,
+        "south": 42.44,
+        "east": 72.35,
+        "west": 72.13
+      },
+      "terrain_type": "river_valley",
+      "terrain_desc": {
+        "tr": "Talas Nehri (bugünkü Taraz yakını, Kazakistan) vadisi. Step ile dağlık bölge geçişinde. Bozkır süvarileri için ideal arazi.",
+        "en": "Talas River valley (near modern Taraz, Kazakhstan). Transition between steppe and mountainous terrain. Ideal ground for steppe cavalry."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_talas_nehri",
+        "name": {
+          "tr": "Talas Nehri",
+          "en": "Talas River"
+        },
+        "lat": 42.52,
+        "lng": 72.24,
+        "type": "river",
+        "note_tr": "Savaşın yaşandığı nehir vadisi."
+      },
+      {
+        "id": "lm_taraz",
+        "name": {
+          "tr": "Taraz (Talas şehri)",
+          "en": "Taraz (Talas city)"
+        },
+        "lat": 42.53,
+        "lng": 71.37,
+        "type": "city",
+        "note_tr": "Bölgenin merkezi; ticaret yolu üzerinde."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_horasan_talas",
+        "name": {
+          "tr": "Semerkand → Talas",
+          "en": "Samarkand → Talas"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 39.65,
+            "lng": 66.96,
+            "label": "Semerkand"
+          },
+          {
+            "lat": 41.3,
+            "lng": 69.28,
+            "label": "Taşkent"
+          },
+          {
+            "lat": 42.52,
+            "lng": 72.24,
+            "label": "Talas"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_arka_plan",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: İslâm-Çin rekabeti",
+        "en": "Background: Islamic-Chinese rivalry"
+      },
+      "date_range": {
+        "start": "~130 AH",
+        "end": "133 AH"
+      },
+      "duration": "~3 yıl",
+      "description": {
+        "tr": "Tang Hanedanlığı ve Abbâsî Hilâfeti Orta Asya'da nüfuz alanları için rekabet ediyordu. Taşkent (Çaç/Şâş) hanının Tang'a başvurması krizi tetikledi. Abbâsî valisi Ebû Müslim'in komutanı Ziyâd b. Sâlih Tang ordusunu karşılamak üzere yola çıktı.",
+        "en": "The Tang Dynasty and Abbasid Caliphate competed for spheres of influence in Central Asia. The Khan of Tashkent's appeal to the Tang triggered the crisis. Abbasid governor Abū Muslim's commander Ziyād b. Ṣāliḥ set out to meet the Tang army."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Taşkent hanının Tang'a başvurusu",
+          "description_tr": "Bölgesel güç dengesi bozuldu."
+        }
+      ]
+    },
+    {
+      "id": "F1_muharebe",
+      "order": 1,
+      "name": {
+        "tr": "Talas Muharebesi",
+        "en": "Battle of Talas"
+      },
+      "date_range": {
+        "start": "Temmuz 751",
+        "end": "Temmuz 751"
+      },
+      "duration": "~5 gün",
+      "description": {
+        "tr": "Ziyâd b. Sâlih komutasındaki Abbâsî-Türk müttefik ordusu ile Gao Xianzhi komutasındaki Tang ordusu karşılaştı. 5 gün süren çarpışma sırasında Karluk Türkleri taraf değiştirerek Abbâsîlere katıldı. Tang ordusu bozguna uğradı. Gao Xianzhi kaçtı.",
+        "en": "The Abbasid-Turkic allied army under Ziyād b. Ṣāliḥ faced the Tang army under Gao Xianzhi. During 5 days of fighting, the Qarluq Turks switched sides and joined the Abbasids. The Tang army was routed. Gao Xianzhi fled."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Karluk Türklerinin taraf değiştirmesi",
+          "description_tr": "Dönüm noktası; Tang ordusunun sağ kanadı çöktü."
+        },
+        {
+          "id": "E1_2",
+          "name_tr": "Tang bozgunu",
+          "description_tr": "Gao Xianzhi az sayıda askerle kaçtı."
+        }
+      ]
+    },
+    {
+      "id": "F2_sonuc",
+      "order": 2,
+      "name": {
+        "tr": "Sonuçlar ve kâğıt teknolojisi",
+        "en": "Aftermath and paper technology"
+      },
+      "date_range": {
+        "start": "751 sonrası",
+        "end": "~760"
+      },
+      "duration": "~10 yıl",
+      "description": {
+        "tr": "Çinli esirler arasında kâğıt ustaları vardı. Semerkand'da ilk kâğıt imalathanesi kuruldu. Bu teknoloji İslâm dünyasına, oradan Avrupa'ya yayıldı. Orta Asya kalıcı olarak İslâm kültür alanına girdi.",
+        "en": "Among Chinese prisoners were paper craftsmen. The first paper mill was established in Samarkand. This technology spread to the Islamic world, then to Europe. Central Asia permanently entered the Islamic cultural sphere."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Semerkand kâğıt imalathanesi",
+          "description_tr": "Çinli esir ustalar kâğıt yapımını öğretti."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~30.000 (Abbâsî + Türk müttefikler)",
+      "commander_name": {
+        "tr": "Ziyâd b. Sâlih el-Hârisî",
+        "en": "Ziyād b. Ṣāliḥ al-Ḥārithī"
+      },
+      "composition": {
+        "abbasi": {
+          "note_tr": "Horasan Abbâsî ordusu"
+        },
+        "turk": {
+          "note_tr": "Karluk ve diğer Türk boyları — müttefik"
+        }
+      }
+    },
+    "enemy": {
+      "total": "~30.000",
+      "commander_name": {
+        "tr": "Gao Xianzhi (Kao Hsien-chih)",
+        "en": "Gao Xianzhi"
+      },
+      "composition": {
+        "tang": {
+          "note_tr": "Tang düzenli ordusu"
+        },
+        "karluk_oncesi": {
+          "note_tr": "Karluklar başlangıçta Tang safında (sonra taraf değiştirdi)"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "",
+        "note_tr": "Kısa atıf."
+      },
+      {
+        "author": "İbnü'l-Esîr",
+        "work": "el-Kâmil",
+        "section": "V/449",
+        "note_tr": "Ana Arapça kaynak."
+      },
+      {
+        "author": "Çin Kaynakları",
+        "work": "Tang Hanedanı Tarihleri",
+        "section": "",
+        "note_tr": "Gao Xianzhi perspektifi."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "H. A. R. Gibb",
+        "work": "The Arab Conquests in Central Asia",
+        "note_tr": "Klasik İngilizce çalışma."
+      }
+    ]
+  },
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_doguya_ilim",
+      "topic": "Hz. Peygamber: 'İlim Çin'de de olsa arayınız' — zayıf hadis ancak kültürel bağlam açısından anlamlı",
+      "relevance": "contextual",
+      "source": "Beyhakî, Şuabü'l-Îmân (zayıf)"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Tang Hanedanı bir daha Orta Asya'ya seferî güç göndermedi. İslâm'ın doğu sınırı kesinleşti.",
+      "en": "The Tang Dynasty never again sent expeditionary forces to Central Asia. Islam's eastern frontier was finalized."
+    },
+    "political": {
+      "tr": "Orta Asya'nın İslâmlaşması hızlandı. Türk boylarının müslüman oluşu başladı — Karahanlılar (10. yy).",
+      "en": "Islamization of Central Asia accelerated. Turkic tribes began converting — Karakhanids (10th c.)."
+    },
+    "theological": {
+      "tr": "Kâğıt teknolojisi İslâm ilim geleneğini dönüştürdü — hadis, fıkıh ve tarih eserlerinin çoğalması hızlandı.",
+      "en": "Paper technology transformed the Islamic scholarly tradition — proliferation of ḥadīth, fiqh, and history works accelerated."
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_semerkand_kagit",
+        "name_tr": "Semerkand Kâğıt İmalathanesi",
+        "description_tr": "İslâm dünyasının ilk kâğıt üretimi."
+      },
+      {
+        "id": "evt_karahanli",
+        "name_tr": "Karahanlılar İslâm'a girişi (~960)",
+        "description_tr": "İlk müslüman Türk devleti."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 8,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#E65100"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      }
+    ]
+  }
+}

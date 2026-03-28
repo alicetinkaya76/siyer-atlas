@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_halid_nuhle_uzza",
+    "battle_id": "seriyye_halid_nuhle_uzza",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.55,
+        "lng": 40.05
+      },
+      "name": "Nahle (Uzzâ tapınağı)",
+      "modern_location": "Nahle vadisi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görev",
+      "date_range": "Ramazan 8",
+      "duration": "",
+      "description": "Hz. Peygamber Mekke Fethi sonrası Uzzâ tapınağının yıkılmasını emretti.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Yıkım",
+      "date_range": "Ramazan 8",
+      "duration": "",
+      "description": "Hâlid 30 kişiyle Nahle'ye gidip tapınağı yıktı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Dönüş",
+      "date_range": "Ramazan 8",
+      "duration": "",
+      "description": "Hz. Peygamber'e rapor: Uzzâ tamamen yok edildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâlid b. Velîd",
+      "estimated_troops": 30,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, II/873",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, IV/100",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Tapınak yıkıldı",
+    "significance": "Hicaz'daki putperest tapınakların tasfiyesi. Uzzâ, Lat ve Menât üçlüsünün ortadan kaldırılması.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

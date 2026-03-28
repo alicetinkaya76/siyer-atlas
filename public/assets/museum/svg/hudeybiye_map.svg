@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 500" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0e6d2"/><stop offset="100%" stop-color="#ddd0b4"/>
+    </linearGradient>
+    <marker id="mH" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#27ae60"/></marker>
+  </defs>
+  <rect width="650" height="500" fill="url(#bgH)"/>
+  <text x="325" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Hudeybiye Antlaşması / Treaty of Hudaybiyya</text>
+  <text x="325" y="44" text-anchor="middle" font-size="10" fill="#7f8c8d">Zilkade 6 H. / Mart 628 CE — صلح الحديبية</text>
+
+  <!-- MEKKE (right side) -->
+  <g transform="translate(500,250)">
+    <ellipse rx="70" ry="60" fill="#f9e4b7" stroke="#d4ac0d" stroke-width="2"/>
+    <rect x="-10" y="-10" width="20" height="20" fill="#2c3e50" stroke="#d4ac0d" stroke-width="1.5" transform="rotate(45,0,0)"/>
+    <text y="-30" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">MEKKE</text>
+    <text y="45" text-anchor="middle" font-size="8" fill="#8b6914">مكّة المكرّمة</text>
+  </g>
+
+  <!-- Harem boundary -->
+  <ellipse cx="500" cy="250" rx="100" ry="85" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.4"/>
+  <text x="500" y="155" text-anchor="middle" font-size="7" fill="#c0392b">Harem Sınırı</text>
+
+  <!-- HUDEYBİYE (west of Mecca, outside Harem) -->
+  <g transform="translate(300,270)">
+    <circle r="14" fill="#f39c12" stroke="#fff" stroke-width="2"/>
+    <text y="4" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">⛺</text>
+  </g>
+  <text x="300" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#d4ac0d">HUDEYBİYE</text>
+  <text x="300" y="314" text-anchor="middle" font-size="8" fill="#8b6914">الحديبية</text>
+  <text x="300" y="328" text-anchor="middle" font-size="7" fill="#7f8c8d">Müslüman konaklama alanı</text>
+
+  <!-- Rıdvân Ağacı -->
+  <g transform="translate(260,230)">
+    <circle r="10" fill="#27ae60" opacity="0.4" stroke="#1e8449" stroke-width="1.5"/>
+    <text y="3" text-anchor="middle" font-size="6" fill="#1e8449" font-weight="bold">🌳</text>
+  </g>
+  <text x="260" y="210" text-anchor="middle" font-size="8" fill="#1e8449" font-weight="bold">Rıdvân Ağacı</text>
+  <text x="260" y="220" text-anchor="middle" font-size="6" fill="#27ae60">بيعة الرِّضوان</text>
+
+  <!-- Medine (far left, just indicated) -->
+  <g transform="translate(60,180)">
+    <circle r="8" fill="#27ae60" stroke="#fff" stroke-width="1.5"/>
+    <text x="14" y="4" font-size="9" fill="#1e8449" font-weight="bold">Medîne ←</text>
+    <text x="14" y="16" font-size="7" fill="#27ae60">~420 km</text>
+  </g>
+
+  <!-- Route: Medine → Hudeybiye -->
+  <path d="M75,185 Q150,220 200,250 Q250,265 285,268" fill="none" stroke="#27ae60" stroke-width="2.5" marker-end="url(#mH)"/>
+
+  <!-- Kureyş negotiators path -->
+  <path d="M435,240 Q380,250 315,265" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="375" y="235" font-size="7" fill="#c0392b">Kureyş heyetleri →</text>
+
+  <!-- Negotiation phases -->
+  <g transform="translate(50,340)">
+    <rect x="-10" y="-15" width="250" height="120" rx="5" fill="#fff" opacity="0.85" stroke="#bdc3c7"/>
+    <text font-size="10" font-weight="bold" fill="#2c3e50">Müzakere Süreci:</text>
+    <text y="18" font-size="8" fill="#c0392b">① Kureyş yolu kapattı — at süvarisi gönderdi</text>
+    <text y="33" font-size="8" fill="#27ae60">② Hz. Peygamber barış mesajı gönderdi</text>
+    <text y="48" font-size="8" fill="#8e44ad">③ Hz. Osman elçi olarak Mekke'ye gitti</text>
+    <text y="63" font-size="8" fill="#1e8449">④ Rıdvân Bey'atı — 1400 sahâbî</text>
+    <text y="78" font-size="8" fill="#f39c12">⑤ Süheyl b. Amr müzakereye geldi</text>
+    <text y="93" font-size="8" fill="#2c3e50">⑥ 10 yıllık barış antlaşması imzalandı</text>
+  </g>
+
+  <!-- Treaty terms -->
+  <g transform="translate(370,370)">
+    <rect x="-10" y="-15" width="260" height="100" rx="5" fill="#fff" opacity="0.85" stroke="#d4ac0d"/>
+    <text font-size="10" font-weight="bold" fill="#d4ac0d">Antlaşma Maddeleri:</text>
+    <text y="16" font-size="8" fill="#5D4E37">• 10 yıl savaşsızlık</text>
+    <text y="30" font-size="8" fill="#5D4E37">• Bu yıl umre yok, gelecek yıl 3 gün</text>
+    <text y="44" font-size="8" fill="#5D4E37">• Mekke'den kaçan Müslüman iade edilecek</text>
+    <text y="58" font-size="8" fill="#5D4E37">• Kabileler taraf seçmekte serbest</text>
+    <text y="75" font-size="7" fill="#1e8449" font-weight="bold">Kur'ân: "Gerçekten sana apaçık bir fetih verdik" (48:1)</text>
+  </g>
+
+  <!-- Forces -->
+  <g transform="translate(150,145)">
+    <rect x="-10" y="-12" width="130" height="30" rx="4" fill="#27ae60" opacity="0.15" stroke="#27ae60"/>
+    <text y="2" text-anchor="middle" font-size="8" fill="#1e8449" font-weight="bold" x="55">Müslümanlar: ~1,400 kişi</text>
+    <text y="14" text-anchor="middle" font-size="7" fill="#27ae60" x="55">İhramlı — silahsız (umre niyetli)</text>
+  </g>
+
+  <text x="325" y="492" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #29</text>
+</svg>

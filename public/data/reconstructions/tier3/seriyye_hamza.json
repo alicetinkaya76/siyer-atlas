@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_hamza",
+    "battle_id": "seriyye_hamza",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 23.0833,
+        "lng": 39.0833
+      },
+      "name": "Sîfü'l-Bahr (Ebvâ civarı)",
+      "modern_location": "Al-Abwa, Suudi Arabistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görevlendirme",
+      "date_range": "1 Ramazan 1",
+      "duration": "",
+      "description": "Hz. Peygamber, Hamza'ya beyaz sancak verdi. 30 muhâcirle Sîfü'l-Bahr'e gönderildi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Karşılaşma",
+      "date_range": "1 Ramazan 1",
+      "duration": "",
+      "description": "Ebû Cehil komutasında 300 kişilik kervan ile karşılaştılar.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Arabuluculuk",
+      "date_range": "1 Ramazan 1",
+      "duration": "",
+      "description": "Mecdi b. Amr el-Cühenî iki taraf arasında arabuluculuk yaptı, çatışma önlendi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hamza b. Abdülmuttalib",
+      "estimated_troops": 30,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, II/245",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Vâkıdî, el-Megâzî, I/9",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Çatışmasız dönüş",
+    "significance": "İslam tarihinde ilk askerî girişim. Kureyş kervan yollarının kontrol altına alınması stratejisinin başlangıcı.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

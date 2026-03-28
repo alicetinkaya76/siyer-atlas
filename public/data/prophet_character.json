@@ -1,0 +1,610 @@
+{
+  "version": "0.18.0",
+  "description": "Hz. Peygamber'in (s.a.v.) ahlâkî özellikleri — hadis ve âyet referanslarıyla",
+  "total_entries": 20,
+  "entries": [
+    {
+      "id": "chr_merhamet",
+      "trait": {
+        "tr": "Merhamet / Rahmet",
+        "en": "Mercy / Compassion"
+      },
+      "description": {
+        "tr": "Hz. Peygamber âlemlere rahmet olarak gönderilmiştir. Çocuklara, hayvanlara, düşmanlara bile merhamet gösterirdi.",
+        "en": "Prophet was sent as mercy to all worlds. Showed compassion to children, animals, even enemies."
+      },
+      "quran_refs": [
+        {
+          "surah": 21,
+          "ayah": 107,
+          "text_tr": "Biz seni ancak âlemlere rahmet olarak gönderdik."
+        },
+        {
+          "surah": 9,
+          "ayah": 128,
+          "text_tr": "Andolsun size kendi içinizden bir peygamber geldi; sıkıntıya düşmeniz ona ağır gelir, size düşkündür, müminlere şefkatli ve merhametlidir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_cocuklara_sefkat",
+        "hds_hayvan_haklari"
+      ],
+      "examples": [
+        {
+          "tr": "Mekke fethinde genel af ilân etti.",
+          "en": "Declared general amnesty at Conquest of Mecca."
+        },
+        {
+          "tr": "Tâif'te taşlanmasına rağmen beddua etmedi.",
+          "en": "Despite being stoned at Ta'if, refused to curse them."
+        }
+      ]
+    },
+    {
+      "id": "chr_dogruluk",
+      "trait": {
+        "tr": "Doğruluk / Sıdk",
+        "en": "Truthfulness / Sidq"
+      },
+      "description": {
+        "tr": "el-Emîn (güvenilir) ve es-Sâdık (doğru sözlü) lakaplarıyla tanınırdı. Peygamberlikten önce bile yalan söylemedi.",
+        "en": "Known as al-Amin (trustworthy) and al-Sadiq (truthful) even before prophethood."
+      },
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 21,
+          "text_tr": "Andolsun ki Resûlüllah'ta sizin için güzel bir örnek vardır."
+        }
+      ],
+      "hadith_refs": [
+        "hds_ameller_niyete"
+      ],
+      "examples": [
+        {
+          "tr": "Safâ tepesinde 'Size şu dağın arkasından düşman geliyor desem inanır mısınız?' diye sordu, 'Evet, senden yalan duymadık' dediler.",
+          "en": "At Safa: 'If I said an army was behind this hill, would you believe?' 'Yes, we never heard you lie.'"
+        }
+      ]
+    },
+    {
+      "id": "chr_tevazu",
+      "trait": {
+        "tr": "Tevâzu / Alçakgönüllülük",
+        "en": "Humility"
+      },
+      "description": {
+        "tr": "Kendini diğer insanlardan üstün görmez, hizmetçisiyle birlikte yemek yer, deve süterdi.",
+        "en": "Never considered himself above others, ate with servants, milked his own goats."
+      },
+      "quran_refs": [
+        {
+          "surah": 15,
+          "ayah": 88,
+          "text_tr": "Mü'minlere kanadını indir (onlara karşı tevâzulu ol)."
+        },
+        {
+          "surah": 26,
+          "ayah": 215,
+          "text_tr": "Sana uyan mü'minlere kanadını indir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_peygamber_ailede_hizmet"
+      ],
+      "examples": [
+        {
+          "tr": "Yoksul sahâbîlerle yerde oturur, sofra kurardı.",
+          "en": "Sat on the ground with poor companions, sharing meals."
+        },
+        {
+          "tr": "Elbisesini yamar, ayakkabısını onarırdı.",
+          "en": "Mended his own clothes and repaired his shoes."
+        }
+      ]
+    },
+    {
+      "id": "chr_adalet",
+      "trait": {
+        "tr": "Adâlet / Hakkāniyet",
+        "en": "Justice / Fairness"
+      },
+      "description": {
+        "tr": "Zengin-fakir, köle-efendi, Arap-Acem ayrımı yapmadan herkese eşit davranırdı.",
+        "en": "Treated everyone equally regardless of wealth, status, or ethnicity."
+      },
+      "quran_refs": [
+        {
+          "surah": 5,
+          "ayah": 8,
+          "text_tr": "Bir kavme olan kininiz sizi adaletsizliğe sevk etmesin. Adil olun, bu takvâya daha yakındır."
+        },
+        {
+          "surah": 4,
+          "ayah": 135,
+          "text_tr": "Kendiniz, ana-babanız ve yakınlarınız aleyhine bile olsa Allah için şâhitlik yaparak adaleti ayakta tutun."
+        }
+      ],
+      "hadith_refs": [
+        "hds_veda_hutbesi_hadis"
+      ],
+      "examples": [
+        {
+          "tr": "Mahzûm kabilesinden hırsızlık yapan kadın için 'Kızım Fâtıma bile olsa elini keserdim' buyurdu.",
+          "en": "Said 'Even if Fatima my daughter stole, I would cut her hand.'"
+        }
+      ]
+    },
+    {
+      "id": "chr_sabir",
+      "trait": {
+        "tr": "Sabır / Tahammül",
+        "en": "Patience / Endurance"
+      },
+      "description": {
+        "tr": "On üç yıl Mekke'de işkence, hakaret ve boykot; Uhud'da yaralanma; çocuklarının vefatı — hepsine sabırla katlandı.",
+        "en": "Thirteen years of persecution in Mecca, wounded at Uhud, loss of children — endured all with patience."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 200,
+          "text_tr": "Ey iman edenler! Sabredin, sabırda yarışın ve nöbet tutun."
+        },
+        {
+          "surah": 16,
+          "ayah": 127,
+          "text_tr": "Sabret! Senin sabrın ancak Allah'ın yardımıyladır."
+        }
+      ],
+      "hadith_refs": [
+        "hds_sabir_ilk_darbe"
+      ],
+      "examples": [
+        {
+          "tr": "Oğlu İbrâhîm vefat ettiğinde gözleri yaşardı ama 'Kalp mahzun, göz yaşlı, ama Rabbimizin razı olmayacağı bir şey söylemeyiz' buyurdu.",
+          "en": "When son Ibrahim died, tears flowed but said 'Heart grieves, eyes weep, but we say nothing to displease our Lord.'"
+        }
+      ]
+    },
+    {
+      "id": "chr_cesaret",
+      "trait": {
+        "tr": "Cesâret / Şecâat",
+        "en": "Courage / Bravery"
+      },
+      "description": {
+        "tr": "Bedir'de 313 kişiyle 1000 kişiye karşı savaştı. Uhud ve Huneyn'de herkes dağılırken yerinden ayrılmadı.",
+        "en": "Fought 1000 with 313 at Badr. Stood firm when all fled at Uhud and Hunayn."
+      },
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 39,
+          "text_tr": "Onlar Allah'ın emirlerini tebliğ eden, O'ndan korkan ve Allah'tan başka kimseden korkmayan kimselerdir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_huneyn_sebat",
+        "hds_uhud_peygamber_yarali"
+      ],
+      "examples": [
+        {
+          "tr": "Medine'de bir gürültü duyulunca ilk atına binen o oldu.",
+          "en": "When a noise was heard in Medina, he was the first to mount his horse."
+        }
+      ]
+    },
+    {
+      "id": "chr_cömertlik",
+      "trait": {
+        "tr": "Cömertlik / Sehâvet",
+        "en": "Generosity"
+      },
+      "description": {
+        "tr": "Ramazan'da rüzgârdan daha cömert olurdu. Kendinden bir şey istendiğinde asla 'hayır' demezdi.",
+        "en": "More generous than the wind in Ramadan. Never said 'no' to anyone who asked."
+      },
+      "quran_refs": [
+        {
+          "surah": 93,
+          "ayah": 10,
+          "text_tr": "İsteyeni azarlama."
+        }
+      ],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Huneyn ganimetinden dağlar dolusu koyun vererek müellefe-i kulûbu kazandı.",
+          "en": "Gave mountains of sheep from Hunayn spoils to win over new converts."
+        },
+        {
+          "tr": "Kendisi açken komşusuna yemek gönderirdi.",
+          "en": "Sent food to neighbors while himself hungry."
+        }
+      ]
+    },
+    {
+      "id": "chr_güler_yüz",
+      "trait": {
+        "tr": "Güler Yüzlülük / Beşâşet",
+        "en": "Cheerfulness / Pleasant Countenance"
+      },
+      "description": {
+        "tr": "Sahâbîler 'Ondan güler yüzlü birini görmedik' derdi. Karşılaştığı herkese tebessüm ederdi.",
+        "en": "Companions said 'We never saw anyone more cheerful than him.' Smiled at everyone he met."
+      },
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_tebessum_sadaka"
+      ],
+      "examples": [
+        {
+          "tr": "Cerîr b. Abdullah: 'Müslüman olduğumdan beri beni gördüğünde mutlaka tebessüm etti.'",
+          "en": "Jarir: 'Since I became Muslim, he always smiled when he saw me.'"
+        }
+      ]
+    },
+    {
+      "id": "chr_affedicilik",
+      "trait": {
+        "tr": "Affedicilik / Af",
+        "en": "Forgiveness / Pardon"
+      },
+      "description": {
+        "tr": "Şahsına yapılan kötülüklerden intikam almaz, Allah için kızardı.",
+        "en": "Never took personal revenge, only became angry for Allah's sake."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 134,
+          "text_tr": "Öfkelerini yutanlar ve insanları affedenler — Allah muhsinleri sever."
+        },
+        {
+          "surah": 42,
+          "ayah": 40,
+          "text_tr": "Kim affeder ve ıslah ederse mükâfatı Allah'a aittir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_mekke_fethi_af"
+      ],
+      "examples": [
+        {
+          "tr": "Mekke fethinde kendisine en çok kötülük yapanlara 'Gidiniz, serbestsiniz' dedi.",
+          "en": "At Mecca conquest: 'Go, you are free' — even to worst persecutors."
+        },
+        {
+          "tr": "Tâif'te taşlanınca melek 'Şu iki dağı üzerlerine yıkayım mı?' dedi; o affetti.",
+          "en": "Angel offered to crush Ta'if between mountains; he chose forgiveness."
+        }
+      ]
+    },
+    {
+      "id": "chr_hayâ",
+      "trait": {
+        "tr": "Hayâ / Utangaçlık",
+        "en": "Modesty / Shyness"
+      },
+      "description": {
+        "tr": "Sahâbîler onu 'perdesinin arkasındaki bakire kız'a benzetirdi. Hoşlanmadığı şeyleri yüze söylemez, yüzünden anlaşılırdı.",
+        "en": "Companions compared him to 'a maiden behind her curtain.' Displeasure showed on his face, not words."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Birinin hatasını yüzüne söylemez, 'Bazı insanlara ne oluyor ki şöyle yapıyorlar' derdi.",
+          "en": "Never named someone's fault directly; said 'What is wrong with some people who do X?'"
+        }
+      ]
+    },
+    {
+      "id": "chr_ilim_sevgisi",
+      "trait": {
+        "tr": "İlim Sevgisi",
+        "en": "Love of Knowledge"
+      },
+      "description": {
+        "tr": "İlk emri 'Oku!' olan peygamber. Bedir esirlerinin fidyesi olarak okuma-yazma öğretmelerini istedi.",
+        "en": "Prophet whose first command was 'Read!' Asked Badr prisoners to teach literacy as ransom."
+      },
+      "quran_refs": [
+        {
+          "surah": 96,
+          "ayah": 1,
+          "text_tr": "Oku! Yaratan Rabbinin adıyla oku."
+        },
+        {
+          "surah": 20,
+          "ayah": 114,
+          "text_tr": "Rabbim, ilmimi artır! de."
+        }
+      ],
+      "hadith_refs": [
+        "hds_ilim_yolu_cennet",
+        "hds_ulemanin_varisleri"
+      ],
+      "examples": [
+        {
+          "tr": "Bedir esirleri on çocuğa okuma yazma öğretme karşılığı serbest bırakıldı.",
+          "en": "Badr prisoners freed in exchange for teaching ten children to read."
+        }
+      ]
+    },
+    {
+      "id": "chr_vefa",
+      "trait": {
+        "tr": "Vefâ / Sözünde Durma",
+        "en": "Loyalty / Keeping Promises"
+      },
+      "description": {
+        "tr": "Hatîce'ye vefatından sonra bile vefa gösterir, onun arkadaşlarına ikramda bulunurdu. Hudeybiye antlaşmasına sıkı sıkı bağlı kaldı.",
+        "en": "Remained loyal to Khadija after her death, honoring her friends. Strictly adhered to Hudaybiyya treaty."
+      },
+      "quran_refs": [
+        {
+          "surah": 17,
+          "ayah": 34,
+          "text_tr": "Ahde vefa gösterin. Çünkü ahidten sorulacaktır."
+        }
+      ],
+      "hadith_refs": [
+        "hds_hatice_selam"
+      ],
+      "examples": [
+        {
+          "tr": "Hudeybiye'de Ebû Cendel geri verilince sahâbîler itiraz etti ama Peygamber sözünde durdu.",
+          "en": "Returned Abu Jandal despite protest, keeping the Hudaybiyya terms."
+        }
+      ]
+    },
+    {
+      "id": "chr_sabr_cemil",
+      "trait": {
+        "tr": "Sabr-ı Cemîl",
+        "en": "Beautiful Patience"
+      },
+      "description": {
+        "tr": "Amcasının, eşinin ve evlatlarının vefâtlarında bile metânetini korudu. Tâif'te taşlanırken bile beddua etmedi.",
+        "en": "Maintained composure even losing uncle, wife, children. Did not curse when stoned at Ta'if."
+      },
+      "quran_refs": [
+        {
+          "surah": 12,
+          "ayah": 18,
+          "text_tr": "Sabr-ı cemîl! Allah'tan yardım istenir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_taif_duasi"
+      ],
+      "examples": [
+        {
+          "tr": "Tâif'te taşlandığında helâk meleğine 'Hayır, belki nesillerinden mümin çıkar' dedi.",
+          "en": "When stoned at Ta'if, told angel of destruction: 'Perhaps their descendants will believe.'"
+        }
+      ],
+      "links": {
+        "persons": [],
+        "events": [
+          "taif_ziyareti"
+        ],
+        "locations": [
+          "taif"
+        ]
+      }
+    },
+    {
+      "id": "chr_sukur",
+      "trait": {
+        "tr": "Şükür",
+        "en": "Gratitude"
+      },
+      "description": {
+        "tr": "Nimetlere karşı sürekli hamd ederdi. Gece ayakları şişene kadar namaz kılardı; 'Şükreden bir kul olmayayım mı?' derdi.",
+        "en": "Constantly praised Allah. Prayed at night until feet swelled: 'Should I not be a grateful servant?'"
+      },
+      "quran_refs": [
+        {
+          "surah": 14,
+          "ayah": 7,
+          "text_tr": "Şükrederseniz artırırım."
+        }
+      ],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Gece namazında ayakları şişerdi; Âişe 'Allah geçmiş-gelecek günahlarını bağışladı' deyince yukarıdaki cevabı verdi.",
+          "en": "Aisha reminded him of his forgiven status; he replied with the above."
+        }
+      ],
+      "links": {
+        "persons": [
+          "aise"
+        ],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "chr_tevekkul",
+      "trait": {
+        "tr": "Tevekkül",
+        "en": "Reliance on Allah"
+      },
+      "description": {
+        "tr": "Sebeplere sarılmakla birlikte sonucu Allah'a bırakırdı. Hicret'te 'Üzülme, Allah bizimle' dedi.",
+        "en": "Took precautions but entrusted outcomes to Allah. Said 'Do not grieve, Allah is with us' during Hijra."
+      },
+      "quran_refs": [
+        {
+          "surah": 9,
+          "ayah": 40,
+          "text_tr": "Üzülme, Allah bizimle beraber."
+        }
+      ],
+      "hadith_refs": [
+        "hds_hicret_sevr"
+      ],
+      "examples": [
+        {
+          "tr": "Hicret'te hem rehber tuttu hem mağaraya saklandı (sebep); hem de Allah'a sığındı (tevekkül).",
+          "en": "Hired a guide and hid in cave (means) while trusting Allah (reliance)."
+        }
+      ],
+      "links": {
+        "persons": [
+          "ebubekir"
+        ],
+        "events": [
+          "hicret_medine"
+        ],
+        "locations": [
+          "mekke"
+        ]
+      }
+    },
+    {
+      "id": "chr_istisare",
+      "trait": {
+        "tr": "İstişâre / Danışma",
+        "en": "Consultation"
+      },
+      "description": {
+        "tr": "Önemli kararlarında ashâbıyla istişâre ederdi. Bedir, Uhud ve Hendek'te sahâbîlerin görüşünü aldı.",
+        "en": "Consulted companions on major decisions at Badr, Uhud, and Trench."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 159,
+          "text_tr": "Onlarla iş hakkında istişâre et."
+        }
+      ],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Hendek savaşı fikri Selmân-ı Fârisî'den geldi; Hz. Peygamber kabul etti.",
+          "en": "Trench idea came from Salman al-Farisi; Prophet accepted it."
+        }
+      ],
+      "links": {
+        "persons": [
+          "comp_selman_farisi"
+        ],
+        "events": [],
+        "locations": [],
+        "battles": [
+          "hendek"
+        ]
+      }
+    },
+    {
+      "id": "chr_hicab",
+      "trait": {
+        "tr": "Hicâb / Utanma Duygusu",
+        "en": "Modesty / Shyness"
+      },
+      "description": {
+        "tr": "Bakire kızdan daha utangaçtı (Buhârî). Hoşlanmadığı bir şey olunca yüzünden belli olurdu.",
+        "en": "More modest than a virgin in seclusion. Displeasure showed on his face rather than words."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Birinin yüzüne karşı kötü söz söylemez, hoşlanmadığında yüzünden anlaşılırdı.",
+          "en": "Never criticized someone face-to-face; showed displeasure through facial expression."
+        }
+      ],
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "chr_sefkat_cocuk",
+      "trait": {
+        "tr": "Çocuklara Şefkat",
+        "en": "Compassion for Children"
+      },
+      "description": {
+        "tr": "Torunları Hasan ve Hüseyin'i omzunda taşır, namazda sırtına binseler uzatırdı. Çocukları öpmeyene 'Merhamet etmeyene merhamet edilmez' buyurdu.",
+        "en": "Carried grandchildren on shoulders, extended prostration when they climbed on him."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Namaz kılarken Hasan sırtına bindi; secdeyi o inene kadar uzattı.",
+          "en": "Hasan climbed on his back during prayer; he prolonged prostration until Hasan came down."
+        }
+      ],
+      "links": {
+        "persons": [
+          "hasan",
+          "huseyin"
+        ],
+        "events": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "chr_sadelik",
+      "trait": {
+        "tr": "Sâdelik / Mütevâzilik",
+        "en": "Simplicity of Living"
+      },
+      "description": {
+        "tr": "Evinde aylarca ocak yanmaz, hurma-su ile geçinirdi. Hasır üzerinde uyur, izi vücudunda kalırdı.",
+        "en": "Months without fire at home; lived on dates and water. Slept on a mat that left marks on his body."
+      },
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_dunyanin_degeri"
+      ],
+      "examples": [
+        {
+          "tr": "Hz. Ömer evine girince hasır izlerini görerek ağladı; Hz. Peygamber 'Onlar dünyayı, biz âhireti seçtik' buyurdu.",
+          "en": "Umar wept seeing mat marks; Prophet said 'They chose this world, we chose the hereafter.'"
+        }
+      ],
+      "links": {
+        "persons": [
+          "omer"
+        ],
+        "events": [],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "chr_mizah",
+      "trait": {
+        "tr": "Zarif Mizah",
+        "en": "Gentle Humor"
+      },
+      "description": {
+        "tr": "Ashâbıyla şakalaşırdı ama daima doğru söylerdi. Yaşlı kadına 'Yaşlılar cennete girmeyecek (genç olarak girecek)' dedi.",
+        "en": "Joked with companions but always truthful. Told elderly woman: 'Old women won't enter Paradise (they'll enter young).'"
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "examples": [
+        {
+          "tr": "Deve isteyen adama 'Sana devenin yavrusunu verelim' dedi; adam itiraz edince 'Her deve bir devenin yavrusudur' buyurdu.",
+          "en": "Told man wanting camel: 'I'll give you a camel's child'; then 'Every camel is a camel's child.'"
+        }
+      ],
+      "links": {
+        "persons": [],
+        "events": [],
+        "locations": []
+      }
+    }
+  ]
+}

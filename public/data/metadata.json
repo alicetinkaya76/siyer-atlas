@@ -1,0 +1,944 @@
+{
+  "project": "Siyer Atlası",
+  "version": "v2.12.0",
+  "date": "2026-03-27",
+  "description": {
+    "tr": "Hz. Muhammed'in (s.a.v.) hayatı, sahâbîler, savaşlar, lokasyonlar ve İslam'ın erken dönemini kapsayan yapılandırılmış veri seti. İnteraktif harita, timeline ve eğitim platformu için tasarlandı.",
+    "en": "Structured dataset covering the life of Prophet Muhammad (PBUH), companions, battles, locations and early Islam. Designed for interactive map, timeline and educational platform.",
+    "ar": "مجموعة بيانات منظمة تغطي حياة النبي محمد ﷺ والصحابة والمعارك والمواقع وصدر الإسلام"
+  },
+  "total_files": 30,
+  "total_reconstructions": 89,
+  "datasets": {
+    "companions.json": {
+      "category": "core",
+      "description": {
+        "tr": "Sahâbî biyografileri — isim, künye, lakap, doğum/vefat, kabile, görevler, Bedir katılımı",
+        "en": "Companion biographies — name, kunya, laqab, birth/death, tribe, roles, Badr participation"
+      },
+      "count": 415,
+      "key_fields": [
+        "id",
+        "name",
+        "kunya",
+        "tribe",
+        "birth_ce",
+        "death_ce",
+        "roles",
+        "conversion_order"
+      ],
+      "links_to": [
+        "locations.json (birth/death_location_id)",
+        "tribes.json (tribe)",
+        "battles.json (via prophet_battles)",
+        "teacher_student_edges.json (source/target)"
+      ],
+      "linked_from": [
+        "audio_layer.json (index.by_companion)",
+        "prophet_inner_circle.json (companion_id)",
+        "muahat.json (muhajir/ansar)"
+      ]
+    },
+    "battles.json": {
+      "category": "core",
+      "description": {
+        "tr": "Gazveler, seriyyeler ve erken fetihler — tarih, komutanlar, kuvvetler, kayıplar, sonuç",
+        "en": "Battles, expeditions and early conquests — date, commanders, forces, casualties, result"
+      },
+      "count": 97,
+      "key_fields": [
+        "id",
+        "name",
+        "date_hijri",
+        "year_ce",
+        "type",
+        "location_id",
+        "commander_muslim",
+        "result"
+      ],
+      "links_to": [
+        "locations.json (location_id)",
+        "companions.json (commander IDs)"
+      ],
+      "linked_from": [
+        "timeline.json (battle_id)",
+        "reconstructions/ (detailed phases)",
+        "prophet_battles.json (battle_id)",
+        "audio_layer.json (index.by_battle)"
+      ]
+    },
+    "locations.json": {
+      "category": "core",
+      "description": {
+        "tr": "Coğrafi noktalar — koordinat, tür (şehir/savaş alanı/kutsal mekan/dağ vb.)",
+        "en": "Geographic points — coordinates, type (city/battlefield/sacred site/mountain etc.)"
+      },
+      "count": 170,
+      "key_fields": [
+        "id",
+        "name",
+        "lat",
+        "lng",
+        "type",
+        "description"
+      ],
+      "links_to": [],
+      "linked_from": [
+        "battles.json (location_id)",
+        "companions.json (birth/death_location_id)",
+        "prophet_events.json (location_id)",
+        "audio_layer.json (index.by_location)"
+      ]
+    },
+    "tribes.json": {
+      "category": "core",
+      "description": {
+        "tr": "Arap kabileleri — merkez koordinat, bölge, alt kollar (klanlar)",
+        "en": "Arab tribes — center coordinates, region, sub-clans"
+      },
+      "count": 130,
+      "key_fields": [
+        "id",
+        "name",
+        "center_lat",
+        "center_lng",
+        "region",
+        "clans"
+      ],
+      "links_to": [],
+      "linked_from": [
+        "companions.json (tribe)",
+        "audio_layer.json (index.by_tribe)"
+      ]
+    },
+    "timeline.json": {
+      "category": "core",
+      "description": {
+        "tr": "Kronolojik savaş/olay listesi — tier (detay seviyesi), koordinat, sonuç. Harita timeline'ı besler.",
+        "en": "Chronological battle/event list — tier (detail level), coordinates, result. Feeds map timeline."
+      },
+      "count": 89,
+      "key_fields": [
+        "battle_id",
+        "tier",
+        "name",
+        "year_ce",
+        "year_hijri",
+        "lat",
+        "lng",
+        "result"
+      ],
+      "links_to": [
+        "battles.json (battle_id)",
+        "reconstructions/ (via battle_id + tier)"
+      ],
+      "linked_from": [
+        "id_mapping_reconstructions.json (recon_to_battle)"
+      ]
+    },
+    "tabieen.json": {
+      "category": "core",
+      "description": {
+        "tr": "Tâbiîn biyografileri — sahâbîlerden sonraki nesil, şehir, tabaka, nesil bilgisi",
+        "en": "Tabi'un biographies — generation after companions, city, stratum, generation info"
+      },
+      "count": 350,
+      "key_fields": [
+        "id",
+        "name",
+        "city",
+        "death_ce",
+        "tabaka",
+        "generation"
+      ],
+      "links_to": [
+        "locations.json (city → implicit)",
+        "teacher_student_edges.json (as target)"
+      ],
+      "linked_from": [
+        "teacher_student_edges.json (source/target)"
+      ]
+    },
+    "muahat.json": {
+      "category": "core",
+      "description": {
+        "tr": "Muhâcir-Ensâr kardeşlik çiftleri (Muâhât) — Hz. Peygamber'in Medine'de kurduğu bağlar",
+        "en": "Muhajir-Ansar brotherhood pairs — bonds established by the Prophet in Medina"
+      },
+      "count": 21,
+      "key_fields": [
+        "muhajir",
+        "ansar",
+        "muhajir_name",
+        "ansar_name"
+      ],
+      "links_to": [
+        "companions.json (muhajir/ansar → companion IDs)"
+      ],
+      "linked_from": []
+    },
+    "prophet_events.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in hayatındaki 30 temel olay — doğum, vahiy, hicret, vefat vb.",
+        "en": "30 key events in Prophet Muhammad's life — birth, revelation, hijra, death etc."
+      },
+      "count": 30,
+      "key_fields": [
+        "id",
+        "event",
+        "date_ce",
+        "date_hijri",
+        "age",
+        "location_id",
+        "quran_refs",
+        "hadith_refs"
+      ],
+      "links_to": [
+        "locations.json (location_id)",
+        "hadith.json (hadith_refs)",
+        "esbab_nuzul.json (quran_refs)"
+      ],
+      "linked_from": [
+        "audio_layer.json (index.by_event)"
+      ]
+    },
+    "prophet_family.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in ailesi — eşler, çocuklar, amcalar, torunlar, soy zinciri",
+        "en": "Prophet's family — wives, children, uncles, grandchildren, lineage"
+      },
+      "count": 35,
+      "key_fields": [
+        "id",
+        "name",
+        "relation",
+        "relation_detail",
+        "birth_ce",
+        "death_ce"
+      ],
+      "links_to": [
+        "companions.json (some family members are also companions)"
+      ],
+      "linked_from": [
+        "audio_layer.json (companions → fam_* IDs for Zeyneb, Rukiyye)"
+      ]
+    },
+    "prophet_character.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in ahlâkî özellikleri — 20 karakter vasfı, Kur'ân ve hadis referanslı",
+        "en": "Prophet's moral traits — 20 character qualities with Quran and hadith references"
+      },
+      "count": 20,
+      "key_fields": [
+        "id",
+        "trait",
+        "description",
+        "quran_refs",
+        "hadith_refs",
+        "examples"
+      ],
+      "links_to": [
+        "hadith.json",
+        "esbab_nuzul.json"
+      ],
+      "linked_from": []
+    },
+    "prophet_battles.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in bizzat katıldığı 15 savaş — rolü, kararları, detaylar",
+        "en": "15 battles the Prophet personally participated in — role, decisions, details"
+      },
+      "count": 15,
+      "key_fields": [
+        "id",
+        "battle_id",
+        "name",
+        "date_ce",
+        "prophet_role"
+      ],
+      "links_to": [
+        "battles.json (battle_id)"
+      ],
+      "linked_from": []
+    },
+    "prophet_inner_circle.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in en yakın 20 sahâbîsi — yakınlık sırası, özel unvan, rol",
+        "en": "Prophet's 20 closest companions — closeness rank, special title, role"
+      },
+      "count": 20,
+      "key_fields": [
+        "id",
+        "companion_id",
+        "name",
+        "closeness_rank",
+        "role",
+        "special_title"
+      ],
+      "links_to": [
+        "companions.json (companion_id)"
+      ],
+      "linked_from": []
+    },
+    "prophet_medicine.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Tıbb-ı Nebevî — Hz. Muhammed'in sağlık tavsiyeleri, hadis referanslı",
+        "en": "Prophetic Medicine — health recommendations with hadith references"
+      },
+      "count": 25,
+      "key_fields": [
+        "id",
+        "topic",
+        "category",
+        "description",
+        "hadith_refs"
+      ],
+      "links_to": [
+        "hadith.json"
+      ],
+      "linked_from": []
+    },
+    "prophet_trade.json": {
+      "category": "prophet",
+      "description": {
+        "tr": "Hz. Muhammed'in ticaret hayatı — dönemler, kervan yolları, lokasyonlar",
+        "en": "Prophet's trade career — periods, caravan routes, locations"
+      },
+      "count": 15,
+      "key_fields": [
+        "id",
+        "topic",
+        "period",
+        "description",
+        "location_ids"
+      ],
+      "links_to": [
+        "locations.json (location_ids)",
+        "trade_routes.json"
+      ],
+      "linked_from": []
+    },
+    "hadith.json": {
+      "category": "sources",
+      "description": {
+        "tr": "Hadis külliyatı — konu, kategori, Türkçe metin, râvî, kaynak",
+        "en": "Hadith collection — topic, category, Turkish text, narrator, source"
+      },
+      "count": 387,
+      "key_fields": [
+        "id",
+        "topic",
+        "category",
+        "hadith_text_tr",
+        "narrator",
+        "source_primary"
+      ],
+      "links_to": [],
+      "linked_from": [
+        "prophet_events.json (hadith_refs)",
+        "prophet_character.json (hadith_refs)",
+        "prophet_medicine.json (hadith_refs)"
+      ]
+    },
+    "esbab_nuzul.json": {
+      "category": "sources",
+      "description": {
+        "tr": "Esbâb-ı nüzûl — 114 sûre, 355 ayet/ayet grubu için nüzûl sebebi",
+        "en": "Occasions of revelation — reasons for revelation of 355 verse/groups across 114 surahs"
+      },
+      "count": 355,
+      "key_fields": [
+        "id",
+        "surah",
+        "surah_name",
+        "ayah_start",
+        "ayah_end",
+        "topic",
+        "occasion"
+      ],
+      "links_to": [],
+      "linked_from": [
+        "prophet_events.json (quran_refs)",
+        "prophet_character.json (quran_refs)"
+      ]
+    },
+    "economy.json": {
+      "category": "context",
+      "description": {
+        "tr": "Erken dönem İslam ekonomisi — pazarlar, para birimleri, ticaret uygulamaları",
+        "en": "Early Islamic economy — markets, currencies, trade practices"
+      },
+      "count": "8 sections",
+      "key_fields": [
+        "markets",
+        "currencies",
+        "trade_practices",
+        "key_commodities"
+      ],
+      "links_to": [
+        "trade_goods.json",
+        "trade_routes.json"
+      ],
+      "linked_from": []
+    },
+    "geography.json": {
+      "category": "context",
+      "description": {
+        "tr": "Fiziki coğrafya — dağlar, vadiler, su kaynakları, çöller",
+        "en": "Physical geography — mountains, valleys, water sources, deserts"
+      },
+      "count": "9 sections",
+      "key_fields": [
+        "mountains",
+        "valleys",
+        "rivers_water",
+        "deserts_plains"
+      ],
+      "links_to": [
+        "locations.json (coordinate references)"
+      ],
+      "linked_from": []
+    },
+    "literature.json": {
+      "category": "context",
+      "description": {
+        "tr": "Câhiliye ve erken İslam edebiyatı — şairler, edebi formlar, şiir olayları",
+        "en": "Pre-Islamic and early Islamic literature — poets, literary forms, poetry events"
+      },
+      "count": "6 sections",
+      "key_fields": [
+        "poets",
+        "literary_forms",
+        "poetry_events",
+        "quran_and_poetry"
+      ],
+      "links_to": [],
+      "linked_from": []
+    },
+    "pre_islamic_religions.json": {
+      "category": "context",
+      "description": {
+        "tr": "Câhiliye dönemi dinleri — putperestlik, Hristiyanlık, Yahudilik, Hanîflik, putlar, ritüeller",
+        "en": "Pre-Islamic religions — paganism, Christianity, Judaism, Hanifism, idols, rituals"
+      },
+      "count": "5 sections",
+      "key_fields": [
+        "religions",
+        "idols",
+        "rituals"
+      ],
+      "links_to": [
+        "locations.json"
+      ],
+      "linked_from": []
+    },
+    "trade_routes.json": {
+      "category": "context",
+      "description": {
+        "tr": "Ticaret yolları — güzergâh noktaları, mevsim, Kur'ân referansı (Kureyş Sûresi vb.)",
+        "en": "Trade routes — waypoints, season, Quran reference"
+      },
+      "count": 5,
+      "key_fields": [
+        "id",
+        "name",
+        "waypoints",
+        "season",
+        "quran_ref"
+      ],
+      "links_to": [
+        "locations.json (waypoints)",
+        "trade_goods.json"
+      ],
+      "linked_from": [
+        "economy.json",
+        "prophet_trade.json"
+      ]
+    },
+    "trade_goods.json": {
+      "category": "context",
+      "description": {
+        "tr": "Ticaret malları — menşe, kategori, açıklama",
+        "en": "Trade goods — origin, category, description"
+      },
+      "count": 16,
+      "key_fields": [
+        "id",
+        "name",
+        "origin",
+        "category"
+      ],
+      "links_to": [],
+      "linked_from": [
+        "trade_routes.json",
+        "economy.json"
+      ]
+    },
+    "teacher_student_edges.json": {
+      "category": "network",
+      "description": {
+        "tr": "Hoca-talebe ilişki ağı — sahâbî→tâbiîn ilim aktarımı (674 bağlantı)",
+        "en": "Teacher-student network — companion→tabi'un knowledge transmission (674 edges)"
+      },
+      "count": 674,
+      "key_fields": [
+        "source",
+        "target",
+        "type"
+      ],
+      "links_to": [
+        "companions.json (source)",
+        "tabieen.json (target)"
+      ],
+      "linked_from": []
+    },
+    "id_mapping_companions.json": {
+      "category": "system",
+      "description": {
+        "tr": "Sahâbî ID normalizasyon haritası — alternatif/eski ID'leri canonical ID'ye yönlendirir",
+        "en": "Companion ID normalization map — routes alternative/legacy IDs to canonical IDs"
+      },
+      "count": 185,
+      "key_fields": [
+        "old_id → canonical_id"
+      ],
+      "links_to": [
+        "companions.json"
+      ],
+      "linked_from": []
+    },
+    "id_mapping_reconstructions.json": {
+      "category": "system",
+      "description": {
+        "tr": "Savaş rekonstrüksiyon ID haritası — recon ID'leri battle ID'lerine, alias'lar ve aynı olay eşleşmeleri",
+        "en": "Battle reconstruction ID map — recon IDs to battle IDs, aliases and same-event matches"
+      },
+      "count": "68 mappings",
+      "key_fields": [
+        "recon_to_battle",
+        "aliases",
+        "same_event"
+      ],
+      "links_to": [
+        "battles.json",
+        "timeline.json",
+        "reconstructions/"
+      ],
+      "linked_from": []
+    },
+    "audio_layer.json": {
+      "category": "audio",
+      "description": {
+        "tr": "Asr-ı Saadet Radyo Tiyatrosu entegrasyonu — 160 bölüm, 458 key moment, 5 reverse index. Diyanet İşleri Başkanlığı kaynaklı.",
+        "en": "Radio drama integration — 160 episodes, 458 key moments, 5 reverse indexes. Source: Turkish Presidency of Religious Affairs."
+      },
+      "count": "160 episodes, 458 key moments",
+      "key_fields": [
+        "episodes[].bolum_no",
+        "episodes[].companions",
+        "episodes[].battles",
+        "episodes[].key_moments",
+        "index.by_battle",
+        "index.by_companion"
+      ],
+      "links_to": [
+        "companions.json",
+        "battles.json",
+        "locations.json",
+        "tribes.json",
+        "prophet_events.json",
+        "prophet_family.json"
+      ],
+      "linked_from": [],
+      "stats": {
+        "total_duration_hours": 41.0,
+        "linked_episodes": 130,
+        "unlinked_episodes": 30
+      }
+    },
+    "audio_episodes.json": {
+      "category": "audio",
+      "description": {
+        "tr": "Normalize edilmiş bölüm listesi (audio_layer.json'ın episodes dizisi ile aynı, bağımsız referans için)",
+        "en": "Normalized episode list (same as audio_layer.json episodes array, for standalone reference)"
+      },
+      "count": 160,
+      "key_fields": [
+        "bolum_no",
+        "title",
+        "mp3",
+        "duration_sec",
+        "events",
+        "companions",
+        "battles",
+        "key_moments"
+      ],
+      "links_to": [
+        "audio_layer.json"
+      ],
+      "linked_from": []
+    },
+    "id_mapping_audio.json": {
+      "category": "system",
+      "description": {
+        "tr": "Radyo Tiyatrosu → Atlas ID dönüşüm tabloları (companion_map, battle_map, event_map, location_map)",
+        "en": "Radio drama → Atlas ID conversion tables"
+      },
+      "count": "5 mapping tables",
+      "key_fields": [
+        "companion_map",
+        "battle_map",
+        "event_to_battle",
+        "event_map",
+        "location_map"
+      ],
+      "links_to": [
+        "companions.json",
+        "battles.json",
+        "locations.json",
+        "prophet_events.json"
+      ],
+      "linked_from": []
+    }
+  },
+  "reconstructions": {
+    "description": {
+      "tr": "Savaş rekonstrüksiyonları — aşama aşama savaş anlatımı, GeoJSON olayları, yer işaretleri, güzergâhlar",
+      "en": "Battle reconstructions — phase-by-phase narrative, GeoJSON events, landmarks, routes"
+    },
+    "tiers": {
+      "tier1": {
+        "description": "Full reconstruction (8 major battles)",
+        "count": 8
+      },
+      "tier2": {
+        "description": "Detailed reconstruction (upgraded battles + Ridda)",
+        "count": 27
+      },
+      "tier3": {
+        "description": "Basic reconstruction (seriyyeler)",
+        "count": 21
+      },
+      "tier3_c2": {
+        "description": "Enriched tier3 (added landmarks, events)",
+        "count": 33
+      }
+    },
+    "total_files": 89,
+    "links_to": [
+      "battles.json (battle IDs)",
+      "locations.json (coordinates)",
+      "timeline.json (battle_id + tier)"
+    ]
+  },
+  "categories": {
+    "core": {
+      "label": {
+        "tr": "Temel Varlıklar",
+        "en": "Core Entities"
+      },
+      "files": [
+        "companions.json",
+        "battles.json",
+        "locations.json",
+        "tribes.json",
+        "timeline.json",
+        "tabieen.json",
+        "muahat.json"
+      ]
+    },
+    "prophet": {
+      "label": {
+        "tr": "Hz. Muhammed'in Hayatı",
+        "en": "Prophet's Life"
+      },
+      "files": [
+        "prophet_events.json",
+        "prophet_family.json",
+        "prophet_character.json",
+        "prophet_battles.json",
+        "prophet_inner_circle.json",
+        "prophet_medicine.json",
+        "prophet_trade.json"
+      ]
+    },
+    "sources": {
+      "label": {
+        "tr": "İslami Kaynaklar",
+        "en": "Islamic Sources"
+      },
+      "files": [
+        "hadith.json",
+        "esbab_nuzul.json"
+      ]
+    },
+    "context": {
+      "label": {
+        "tr": "Kültür & Bağlam",
+        "en": "Culture & Context"
+      },
+      "files": [
+        "economy.json",
+        "geography.json",
+        "literature.json",
+        "pre_islamic_religions.json",
+        "trade_routes.json",
+        "trade_goods.json"
+      ]
+    },
+    "network": {
+      "label": {
+        "tr": "Ağ & İlişkiler",
+        "en": "Network & Relations"
+      },
+      "files": [
+        "teacher_student_edges.json",
+        "muahat.json"
+      ]
+    },
+    "audio": {
+      "label": {
+        "tr": "Sesli İçerik",
+        "en": "Audio Content"
+      },
+      "files": [
+        "audio_layer.json",
+        "audio_episodes.json"
+      ]
+    },
+    "system": {
+      "label": {
+        "tr": "Sistem & Eşleşme",
+        "en": "System & Mappings"
+      },
+      "files": [
+        "id_mapping_companions.json",
+        "id_mapping_reconstructions.json",
+        "id_mapping_audio.json",
+        "new_entries_patch.json"
+      ]
+    }
+  },
+  "dependency_graph": {
+    "_note": "Ana bağımlılık yönü: audio_layer → {companions, battles, locations, tribes, prophet_events, prophet_family} → {hadith, esbab_nuzul} | timeline → battles → reconstructions/ | teacher_student_edges → {companions, tabieen}",
+    "hub_files": {
+      "companions.json": "En çok bağlantı alan dosya — 10+ dosya tarafından referans edilir",
+      "battles.json": "Savaş merkezi — timeline, reconstructions, prophet_battles, audio_layer tarafından kullanılır",
+      "locations.json": "Coğrafi referans noktası — battles, companions, prophet_events tarafından kullanılır"
+    }
+  },
+  "updated": "2026-03-27",
+  "changelog": [
+    {
+      "version": "v2.12.0",
+      "date": "2026-03-27",
+      "changes": [
+        "Ö3: Legacy Person ID normalization — 105 fixes (esbab 46 + hadith 59), 46 duplicates removed across both datasets",
+        "Ö4: Museum expansion 239→260: +10 medical (deve sütü, kem'e, tere tohumu, ud/buhur, su tedavisi, sürme, nebîz, mihceme, sa'ter, ihlîlec), +6 manuscripts (Kisrâ/Necâşî/Münzir/Gassânî/Hevze mektupları + son vasiyetler), +5 flags (Evs/Hazrec/Tebük/Hendek/B.Kaynukâ sancakları)",
+        "Full cross-ref rebuild from all museum formats (old atlas_cross_ref + new companion_ids)",
+        "Companion→museum links: 35→40 sahâbî, 808→824 links (merge, not replace)",
+        "Battle→museum links: 13→13 battles, 120 links",
+        "Frontend Museum Tab prototype (MuseumExplorer.jsx) — 7 category tabs, search, detail modal, TR/EN"
+      ]
+    },
+    {
+      "version": "v2.11.0",
+      "date": "2026-03-27",
+      "changes": [
+        "Ö3: Esbab bağlam kuralları genişletildi (10+ yeni sûre kuralı)",
+        "Ö3: Esbab battles 79→82 (23%), locations 265→267 (75%)",
+        "Ö4: museum_medical.json eklendi (14 obje — Tıbb-ı Nebevî)",
+        "Ö4: museum_manuscripts.json eklendi (11 obje — Kitap/Yazma/Antlaşma)",
+        "Ö4: museum_flags.json eklendi (8 obje — Bayrak/Sancak)",
+        "Companions museum cross-ref güncellendi: 28 sahâbî",
+        "Battles museum cross-ref güncellendi: 13 savaş"
+      ]
+    },
+    {
+      "version": "v2.10.0",
+      "date": "2026-03-27",
+      "changes": [
+        "Hadith battle enrichment: 108→120 (31%), +32 links",
+        "Hadith location enrichment: 152→166 (42%), +44 links",
+        "Esbab person enrichment: 114→116 (32%), +7 links (context rules)",
+        "Esbab battle enrichment: 72→79 (22%), +24 links",
+        "Esbab location enrichment: 243→265 (74%), +86 links",
+        "Museum companion expansion: 16→25, +701 item links",
+        "Museum battle expansion: 11→11, +0 item links"
+      ]
+    },
+    {
+      "version": "v2.8.0",
+      "date": "2026-03-27",
+      "changes": {
+        "tr": [
+          "15 yeni sahâbî eklendi (toplam 436)",
+          "Kunya %90→%100 (tamamlandı: 436/436)",
+          "Doğum yılı %50→%80 (349/436) — ölüm yaşı tahminleri ile",
+          "Conversion_order %17→%19 (83/436) — ilk 75 sıralama",
+          "Hadis companion_ids %87→%93 (360/387) — 17 ID düzeltme + 21 yeni bağlantı",
+          "Hadis battle_ids %17→%32 (125/387) — agresif keyword taraması + manuel eşleme",
+          "Esbâb-ı Nüzûl persons %21→%32 (114/355)",
+          "Esbâb-ı Nüzûl battles %18→%20 (72/355)"
+        ],
+        "en": [
+          "15 new companions added (total 436)",
+          "Kunya 90%→100% (complete: 436/436)",
+          "Birth year 50%→80% (349/436) — death age estimates",
+          "Conversion_order 17%→19% (83/436) — first 75 ranked",
+          "Hadith companion_ids 87%→93% (360/387) — 17 ID fixes + 21 new links",
+          "Hadith battle_ids 17%→32% (125/387) — aggressive keyword scan + manual mapping",
+          "Esbab Nuzul persons 21%→32% (114/355)",
+          "Esbab Nuzul battles 18%→20% (72/355)"
+        ]
+      }
+    },
+    {
+      "version": "2.7.0",
+      "date": "2026-03-27",
+      "changes": [
+        "Sahâbî kunya doluluk: %61→%90 (379/421) — 118 yeni kunya eklendi",
+        "Sahâbî birth_ce doluluk: %36→%50 (213/421) — 60 yeni doğum yılı eklendi",
+        "Hadis companion_ids: %60→%87 (339/387) — 103 yeni bağlantı",
+        "Hadis battle_ids: %9→%17 (67/387) — 29 yeni savaş bağlantısı",
+        "Hadis location_ids: %0→%10 (42/387) — yeni alan, 42 konum bağlantısı",
+        "Esbâb-ı Nüzûl çapraz referans: persons 77, battles 64, events 95 yeni bağlantı",
+        "conversion_order: %16→%17 (75/421) — 6 ekleme"
+      ]
+    },
+    {
+      "version": "2.6.0",
+      "date": "2026-03-27",
+      "changes": [
+        "Companion kunya enrichment: +78 entries",
+        "Companion birth_ce enrichment: +35 entries",
+        "Companion conversion_order enrichment: +40 entries",
+        "Prophet events source_refs: +15 → 30/30 coverage",
+        "Timeline duplicates removed: 3 → 90 entries",
+        "Wave 2: +99 companion field enrichments (kunya, birth_ce)",
+        "Hadith cross-refs: +268 companion links, +40 battle links across 387 hadiths"
+      ]
+    },
+    {
+      "version": "2.5.0",
+      "date": "2026-03-27",
+      "changes": [
+        "15/15 prophet_battles battle_id düzeltildi",
+        "8/8 inner_circle companion_id düzeltildi",
+        "Muahat: 10 kırık referans düzeltildi",
+        "3 timeline battle_id düzeltildi",
+        "2 prophet_events location_id düzeltildi",
+        "1 companion death_location düzeltildi (şam→dimask)",
+        "8 tribe duplikatı kaldırıldı (124 kabile kaldı)",
+        "4 yeni lokasyon eklendi (mekke_kabe, busra, iran, yenbu) → 174 toplam",
+        "5 yeni sahâbî eklendi → 421 toplam",
+        "3 yeni kabile eklendi (damra, hilal, hasam)",
+        "15 hadis referansı prophet_events'e eklendi",
+        "4 yeni timeline entry eklendi → 93 toplam",
+        "Rekonstrüksiyon ID eşleşmesi güncellendi",
+        "Top 34 sahâbî alan zenginleştirmesi (19 alan)",
+        "Kalan hata: 2"
+      ]
+    }
+  ],
+  "quality_scores": {
+    "version": "2.5.0",
+    "scores": {
+      "veri_hacmi": {
+        "score": 92,
+        "note": "421 sahâbî, 97 savaş, 174 lokasyon, 124 kabile, 350 tâbiîn, 93 timeline"
+      },
+      "alan_dolulugu": {
+        "score": 72,
+        "note": "roles %100, tribe %97, death_ce %78; kunya %27 ve birth_ce %21 düşük kaldı"
+      },
+      "capraz_referans": {
+        "score": 100,
+        "note": "0 kırık referans (62 düzeltildi)"
+      },
+      "duplikasyon": {
+        "score": 100,
+        "note": "0 duplikat (8 tribe temizlendi)"
+      },
+      "cok_dillilik": {
+        "score": 100,
+        "note": "174/174 lokasyon üç dilli"
+      },
+      "koordinat": {
+        "score": 98,
+        "note": "0 sorunlu koordinat"
+      },
+      "kapsam_genisligi": {
+        "score": 85,
+        "note": "30+ veri dosyası, audio layer, recon"
+      },
+      "veri_tutarliligi": {
+        "score": 95,
+        "note": "Tüm ID formatları tutarlı"
+      },
+      "rekonstrüksiyon": {
+        "score": 85,
+        "note": "89 recon dosyası, 12 yeni mapping"
+      },
+      "genel": 92
+    }
+  },
+  "last_updated": "2026-03-27",
+  "previous_version": "v2.9.0",
+  "merge_date": "2026-03-27",
+  "merge_source": "dijital_siyer_muzesi_v0.7.0",
+  "museum": {
+    "total_items": 206,
+    "weapons": 47,
+    "architecture": 52,
+    "daily_life": 62,
+    "geography": 45,
+    "svg_count": 31,
+    "cross_references": {
+      "battle_mappings": 108,
+      "person_mappings": 71,
+      "geography_matches": 34,
+      "new_locations": 11
+    }
+  },
+  "counts": {
+    "locations": 185,
+    "museum_items": 206,
+    "svgs": 31
+  },
+  "stats": {
+    "companions": 436,
+    "battles": 97,
+    "locations": 185,
+    "hadith": 387,
+    "esbab_nuzul": 355,
+    "museum_total": 260,
+    "museum_categories": {
+      "weapons": 47,
+      "architecture": 52,
+      "daily_life": 62,
+      "geography": 45,
+      "medical": 24,
+      "manuscripts": 17,
+      "flags": 13
+    },
+    "companions_with_museum": 40,
+    "companion_museum_links": 824,
+    "battles_with_museum": 13,
+    "battle_museum_links": 120,
+    "svgs": 31,
+    "reconstructions": 89,
+    "hadith_battle_pct": 31,
+    "hadith_loc_pct": 42,
+    "esbab_persons_pct": 33,
+    "esbab_battles_pct": 23,
+    "esbab_locs_pct": 75,
+    "person_id_mismatches_remaining": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "recon_fetih_ermenistan",
+    "battle_id": "fetih_ermenistan",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 40.18,
+        "lng": 44.51
+      },
+      "name": "Ermenistan Fethi",
+      "modern_location": "Erivan bölgesi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "24",
+      "duration": "",
+      "description": "Habîb kuzeye yürüdü.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sulh",
+      "date_range": "24",
+      "duration": "",
+      "description": "Ermeni beyleriyle anlaşma sağlandı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Habîb b. Mesleme",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans / Ermeni beyleri",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 197-200",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_kiyamet_turk",
+      "topic": "Hz. Peygamber'in kuzeydeki kavimlerle savaş hakkındaki hadisleri (Kafkasya bağlamı)",
+      "relevance": "contextual",
+      "source": "Buhârî, Cihâd, 95; Müslim, Fiten"
+    }
+  ],
+  "impact": {
+    "result": "Sulh",
+    "significance": "Kafkasya'nın İslâm nüfuz alanına girmesi.",
+    "cross_references": [
+      "fetih_azerbaycan"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

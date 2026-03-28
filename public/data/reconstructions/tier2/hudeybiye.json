@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "id": "reconstruction_hudeybiye",
+    "battle_id": "gazve_hudeybiye",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Hudeybiye Antlaşması (Zilkade 6 AH / Mart 628 CE). Hz. Peygamber 1.400-1.500 sahâbîyle umre niyetiyle çıktı. Kureyş engelledi. Bey'atü'r-Rıdvân ve antlaşma. Kur'ân'da 'fetih' (Fetih 48:1) olarak nitelendi. İslam tarihinin dönüm noktası."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.44,
+        "lng": 39.65
+      },
+      "bbox": {
+        "north": 21.48,
+        "south": 21.4,
+        "east": 39.7,
+        "west": 39.6
+      },
+      "terrain_type": "valley_well",
+      "terrain_desc": {
+        "tr": "Hudeybiye, Mekke'nin kuzeybatısında, Harem sınırına yakın bir vadi ve kuyu mevkii. Mekke'ye yaklaşık 9 mil (15 km) mesafede. Hac/umre yolu üzerinde, yarı kurak arazi. Adını bölgedeki kuyudan (veya ağaçtan) alır.",
+        "en": "Ḥudaybiya is a valley and well site northwest of Mecca, near the Ḥaram boundary, approximately 9 miles (15 km) from the city. On the pilgrimage route, semi-arid terrain. Named after a well (or tree) in the area."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_hudeybiye_kuyu",
+        "name": {
+          "tr": "Hudeybiye Kuyusu",
+          "en": "Ḥudaybiya Well"
+        },
+        "lat": 21.44,
+        "lng": 39.65,
+        "type": "water_source",
+        "note_tr": "Kuyunun suyu azalmıştı; Hz. Peygamber okunu kuyuya attı ve su fışkırdı (mûcize)."
+      },
+      {
+        "id": "lm_ridvan_agaci",
+        "name": {
+          "tr": "Rıdvân Ağacı (Semüre Ağacı)",
+          "en": "Tree of Riḍwān (Samura Tree)"
+        },
+        "lat": 21.441,
+        "lng": 39.651,
+        "type": "historic_tree",
+        "note_tr": "Bey'atü'r-Rıdvân'ın yapıldığı ağaç. Hz. Ömer zamanında kesildi (fitne korkusuyla)."
+      },
+      {
+        "id": "lm_harem_siniri",
+        "name": {
+          "tr": "Harem Sınırı",
+          "en": "Ḥaram Boundary"
+        },
+        "lat": 21.45,
+        "lng": 39.7,
+        "type": "boundary",
+        "note_tr": "Müslümanların Mekke'ye girmesine izin verilmediği sınır noktası."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_hudeybiye",
+        "name": {
+          "tr": "Medîne → Hudeybiye",
+          "en": "Medina → Ḥudaybiya"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 23.5,
+            "lng": 39.5,
+            "label": "Zülhuleyfe (ihrâm noktası)"
+          },
+          {
+            "lat": 22.5,
+            "lng": 39.4,
+            "label": "Usfân"
+          },
+          {
+            "lat": 21.44,
+            "lng": 39.65,
+            "label": "Hudeybiye"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Umre kararı ve ihram",
+        "en": "Background: Decision for ʿumra and entering iḥrām"
+      },
+      "date_range": {
+        "start": "Zilkade 6 AH (başı)",
+        "end": "Zilkade 6 AH"
+      },
+      "duration": "~1 hafta",
+      "description": {
+        "tr": "Hz. Peygamber, rüyasında Mekke'ye girip tavaf ettiğini gördü. Bu rüya üzerine umre kararı aldı. 1.400-1.500 sahâbîyle, savaş teçhizatı almadan, sadece yolcu kılıcıyla ve ihramlı olarak Medîne'den çıktı. 70 kurbanlık deve götürüldü. Niyetin barışçıl olduğunu tüm Araplara göstermek istiyordu.",
+        "en": "The Prophet dreamed of entering Mecca and performing ṭawāf. Based on this vision, he decided on ʿumra. He departed with 1,400-1,500 companions wearing iḥrām, carrying only traveler's swords, no war equipment. 70 sacrificial camels were brought. The aim was to demonstrate peaceful intent to all Arabs."
+      },
+      "events": [
+        {
+          "id": "E0_1_ruya",
+          "name_tr": "Hz. Peygamber'in Mekke rüyası",
+          "description_tr": "Rüyasında umre yaptığını gördü."
+        },
+        {
+          "id": "E0_2_ihram",
+          "name_tr": "Zülhuleyfe'de ihrâma giriş",
+          "description_tr": "1.400-1.500 kişi ihramlı olarak yola çıktı."
+        }
+      ]
+    },
+    {
+      "id": "F1_kureys_engeli",
+      "order": 1,
+      "name": {
+        "tr": "Kureyş'in yolu kapatması ve diplomatik temaslar",
+        "en": "Quraysh blocking the route and diplomatic contacts"
+      },
+      "date_range": {
+        "start": "Zilkade 6 AH",
+        "end": "Zilkade 6 AH"
+      },
+      "duration": "Birkaç gün",
+      "description": {
+        "tr": "Kureyş, Hâlid b. Velîd komutasında 200 süvari göndererek yolu kapattı. Hz. Peygamber alternatif güzergâhlardan ilerledi ve Hudeybiye'ye ulaştı. Devesi Kasvâ çöktü — Hz. Peygamber 'Fil sahiplerini engelleyen Allah onu durdurdu' dedi. Karşılıklı elçiler gönderildi: Kureyş Urve b. Mes'ûd es-Sekafî'yi gönderdi. Urve, müslümanların Hz. Peygamber'e olan bağlılığını görünce hayret etti ve Kureyş'e 'Kisrâ, Kayser ve Necâşî'nin yanına gittim ama hiçbir kralın uyruklarının Muhammed'in ashâbı kadar bağlı olduğunu görmedim' dedi.",
+        "en": "Quraysh sent 200 cavalry under Khālid b. al-Walīd to block the route. The Prophet took alternative paths and reached Ḥudaybiya. His camel Qaṣwāʾ knelt — the Prophet said: 'The One who stopped the elephant has stopped her.' Envoys were exchanged: Quraysh sent ʿUrwa b. Masʿūd al-Thaqafī. Witnessing the companions' devotion, ʿUrwa reported to Quraysh: 'I have visited Kisrā, Caesar, and the Negus, but no king's subjects are as devoted as Muḥammad's companions.'"
+      },
+      "events": [
+        {
+          "id": "E1_1_halid_engel",
+          "name_tr": "Hâlid b. Velîd'in süvari engeli",
+          "description_tr": "200 süvariyle ana güzergâh kapatıldı."
+        },
+        {
+          "id": "E1_2_kasva",
+          "name_tr": "Kasvâ'nın çökmesi",
+          "description_tr": "Hz. Peygamber: 'Fil sahiplerini engelleyen O engelledi.'"
+        },
+        {
+          "id": "E1_3_urve",
+          "name_tr": "Urve b. Mes'ûd'un elçiliği",
+          "description_tr": "Sahâbîlerin bağlılığına tanık oldu."
+        }
+      ]
+    },
+    {
+      "id": "F2_osman_elciligi",
+      "order": 2,
+      "name": {
+        "tr": "Osman'ın Mekke'ye gönderilmesi ve tutuklanma haberi",
+        "en": "ʿUthmān's mission to Mecca and the arrest rumor"
+      },
+      "date_range": {
+        "start": "Zilkade 6 AH",
+        "end": "Zilkade 6 AH"
+      },
+      "duration": "2-3 gün",
+      "description": {
+        "tr": "Hz. Peygamber, Osman b. Affân'ı elçi olarak Mekke'ye gönderdi. Osman, Kureyş'e 'Biz savaş için değil, umre için geldik' mesajını iletti. Ancak Osman'ın dönüşü gecikti ve 'Osman öldürüldü' haberi yayıldı. Bu haber üzerine Hz. Peygamber Bey'atü'r-Rıdvân'ı başlattı.",
+        "en": "The Prophet sent ʿUthmān b. ʿAffān as envoy to Mecca with the message: 'We have come for ʿumra, not war.' ʿUthmān's return was delayed and a rumor spread that he had been killed. Upon this news, the Prophet initiated the Pledge of Riḍwān."
+      },
+      "events": [
+        {
+          "id": "E2_1_osman_gonderme",
+          "name_tr": "Osman'ın elçi olarak gönderilmesi",
+          "description_tr": "Kureyş'e barış mesajı taşıdı."
+        },
+        {
+          "id": "E2_2_olduruldu_haberi",
+          "name_tr": "'Osman öldürüldü' söylentisi",
+          "description_tr": "Geciken dönüş, şehit edildiği haberi olarak yayıldı."
+        }
+      ]
+    },
+    {
+      "id": "F3_ridvan",
+      "order": 3,
+      "name": {
+        "tr": "Bey'atü'r-Rıdvân (Ağaç altında biat)",
+        "en": "The Pledge of Riḍwān (Bay'at al-Riḍwān)"
+      },
+      "date_range": {
+        "start": "Zilkade 6 AH",
+        "end": "Zilkade 6 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Osman'ın şehit edildiği haberi üzerine Hz. Peygamber, bir semüre ağacının altında sahâbîlerden biat aldı: 'Ölüme kadar savaşacağız, kaçmayacağız!' 1.400-1.500 sahâbî (Cedd b. Kays hariç — münafık) biat etti. Hz. Peygamber bir elini kendi diğer eline koyarak 'Bu Osman'ın biatidir' dedi. Fetih Sûresi 48:18'de Allah bu biattan razı olduğunu bildirdi: 'Andolsun ki, o ağacın altında sana biat ederlerken Allah o müminlerden razı olmuştur.' Bu biat, İslam tarihinin en kutsal anlarından biridir.",
+        "en": "Upon the news of ʿUthmān's martyrdom, the Prophet took a pledge from companions under a samura tree: 'We will fight to the death and never flee!' All 1,400-1,500 companions pledged except Jadd b. Qays (a hypocrite). The Prophet placed one hand upon the other saying: 'This is ʿUthmān's pledge.' In Sūrat al-Fatḥ 48:18, Allah declared His pleasure with this pledge. This is one of the most sacred moments in Islamic history."
+      },
+      "events": [
+        {
+          "id": "E3_1_biat",
+          "name_tr": "Semüre ağacı altında biat",
+          "description_tr": "1.400-1.500 sahâbî ölüme kadar savaş biati verdi."
+        },
+        {
+          "id": "E3_2_osman_biati",
+          "name_tr": "Hz. Peygamber'in Osman adına biat etmesi",
+          "description_tr": "Bir elini diğerine koyarak 'Bu Osman'ın biatidir' dedi."
+        },
+        {
+          "id": "E3_3_osman_donus",
+          "name_tr": "Osman'ın sağ salim dönmesi",
+          "description_tr": "Ölüm haberi yanlıştı; Osman döndü."
+        }
+      ]
+    },
+    {
+      "id": "F4_antlasma",
+      "order": 4,
+      "name": {
+        "tr": "Hudeybiye Antlaşması ve maddeleri",
+        "en": "The Treaty of Ḥudaybiya and its terms"
+      },
+      "date_range": {
+        "start": "Zilkade 6 AH (son)",
+        "end": "Zilkade 6 AH"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Kureyş, müslümanların kararlılığını görünce antlaşma yoluna girdi. Süheyl b. Amr müzakereci olarak geldi. Maddeleri sahâbîleri üzdü: (1) Bu yıl umresiz dönülecek, gelecek yıl 3 gün girilecek. (2) 10 yıl savaşsızlık. (3) Kureyş'ten müslüman olup Medîne'ye kaçan geri verilecek ama Medîne'den Mekke'ye giden geri istenmeyecek (görünüşte eşitsiz). (4) Kabileler istedikleri tarafla ittifak kurabilir. Hz. Ömer başta olmak üzere sahâbîler itiraz etti ama Hz. Peygamber 'Ben Allah'ın elçisiyim, O'na isyan etmem' dedi. Ali, 'Muhammed Resulullah' yazmayı Süheyl reddedince sildi ve 'Muhammed b. Abdullah' yazdı.",
+        "en": "Seeing Muslim determination, Quraysh opted for a treaty. Suhayl b. ʿAmr came as negotiator. The terms upset companions: (1) No ʿumra this year; 3 days next year. (2) 10-year ceasefire. (3) Quraysh Muslims fleeing to Medina would be returned; those going to Mecca would not (seemingly unequal). (4) Tribes free to ally with either side. ʿUmar and others protested, but the Prophet said: 'I am the Messenger of Allah; I will not disobey Him.' When Suhayl refused 'Muḥammad Rasūlullāh,' ʿAlī erased it and wrote 'Muḥammad b. ʿAbdullāh.'"
+      },
+      "events": [
+        {
+          "id": "E4_1_suheyl",
+          "name_tr": "Süheyl b. Amr'ın müzakereci olarak gelmesi",
+          "description_tr": "Kureyş'in resmi temsilcisi."
+        },
+        {
+          "id": "E4_2_maddeler",
+          "name_tr": "Antlaşma maddelerinin belirlenmesi",
+          "description_tr": "Görünüşte eşitsiz maddeler sahâbîleri üzdü."
+        },
+        {
+          "id": "E4_3_ali_silme",
+          "name_tr": "Ali'nin 'Rasûlullāh' ifadesini silmesi",
+          "description_tr": "Süheyl'in itirazı üzerine 'Muhammed b. Abdullah' yazıldı."
+        },
+        {
+          "id": "E4_4_kurban_tiras",
+          "name_tr": "Kurban kesme ve tıraş olma",
+          "description_tr": "Antlaşma sonrası Hz. Peygamber ihramdan çıktı; sahâbîler de takip etti."
+        }
+      ]
+    },
+    {
+      "id": "F5_fetih_suresi",
+      "order": 5,
+      "name": {
+        "tr": "Dönüş yolunda Fetih Sûresi'nin nüzûlü",
+        "en": "Revelation of Sūrat al-Fatḥ on the return journey"
+      },
+      "date_range": {
+        "start": "Zilhicce 6 AH (dönüş)",
+        "end": "Zilhicce 6 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Medîne'ye dönüş yolunda Fetih Sûresi (48. Sûre) nâzil oldu. İlk âyet: 'İnnâ fetahnâ leke fethan mübînâ — Biz sana apaçık bir fetih ihsan ettik.' Hz. Ömer şaşırarak sordu: 'Bu fetih mi?' Hz. Peygamber: 'Evet!' dedi. Gerçekten de antlaşma 2 yıl içinde İslam'ın yayılmasını katladı: barış ortamında kabileler rahatça müslüman oldu, müslüman sayısı kat kat arttı ve 2 yıl sonra Mekke fethedildi.",
+        "en": "On the return to Medina, Sūrat al-Fatḥ (Chapter 48) was revealed. First verse: 'Indeed, We have granted you a clear conquest.' ʿUmar asked in surprise: 'Is this a conquest?' The Prophet said: 'Yes!' Indeed, within 2 years the treaty multiplied Islam's spread: tribes freely converted in peacetime, Muslim numbers multiplied, and 2 years later Mecca was conquered."
+      },
+      "events": [
+        {
+          "id": "E5_1_fetih_nuzul",
+          "name_tr": "Fetih Sûresi'nin nüzûlü",
+          "description_tr": "'İnnâ fetahnâ leke fethan mübînâ' — Apaçık bir fetih."
+        },
+        {
+          "id": "E5_2_omer_soru",
+          "name_tr": "Hz. Ömer'in 'Bu fetih mi?' sorusu",
+          "description_tr": "Hz. Peygamber: 'Evet!' diye teyit etti."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~1.400-1.500 (ihramlı)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcirlerden önemli bir topluluk"
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan geniş katılım"
+        },
+        "kadin_sahabiler": {
+          "note_tr": "Ümmü Seleme başta olmak üzere hanım sahâbîler de katıldı"
+        }
+      },
+      "equipment": {
+        "note_tr": "Savaş teçhizatı yok; sadece yolcu kılıcı. 70 kurbanlık deve."
+      },
+      "banner_bearer": {
+        "tr": "Zübeyr b. Avvâm (muhâcir sancağı)",
+        "en": "Zubayr b. al-ʿAwwām (muhājir banner)"
+      }
+    },
+    "enemy": {
+      "total": "Kureyş — kesin rakam belirsiz",
+      "commander_name": {
+        "tr": "Kureyş müzakerecisi: Süheyl b. Amr",
+        "en": "Quraysh negotiator: Suhayl b. ʿAmr"
+      },
+      "composition": {
+        "kureys_suvarisi": {
+          "note_tr": "Hâlid b. Velîd komutasında 200 süvari (engelleme)"
+        },
+        "kureys_diplomasi": {
+          "note_tr": "Urve b. Mes'ûd, Süheyl b. Amr — müzakereciler"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Şurût, 15; Megâzî, Bâbu Gazvetü'l-Hudeybiye",
+        "note_tr": "En kapsamlı ve sahîh rivâyet; antlaşma metni, Bey'at ve Hz. Ömer'in itirazı."
+      },
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü'l-Hudeybiye",
+        "note_tr": "Diplomatik süreç ve antlaşma maddeleri detaylı."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Hudeybiye",
+        "note_tr": "Asker sayıları, güzergâh ve kronoloji."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusul ve'l-Mülûk",
+        "section": "6 AH olayları",
+        "note_tr": "Kronolojik bağlam ve Fetih Sûresi nüzûl sebebi."
+      }
+    ],
+    "hadith": [
+      "hds_hudeybiye_ridvan",
+      "hds_hudeybiye_antlasma",
+      "hds_hudeybiye_fetih"
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Hamidullah",
+        "work": "İslam Peygamberi",
+        "note_tr": "Hudeybiye'nin diplomatik analizi ve uluslararası hukuk boyutu."
+      },
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Antlaşmanın siyasi sonuçları ve kabile dinamikleri."
+      },
+      {
+        "author": "Martin Lings",
+        "work": "Muhammad: His Life Based on the Earliest Sources",
+        "note_tr": "Bey'atü'r-Rıdvân'ın edebî ve ruhani anlatımı."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Katılımcı sayısı",
+        "detail_tr": "1.300, 1.400, 1.500 ve 1.525 gibi farklı rakamlar verilir.",
+        "resolution_tr": "1.400-1.500 aralığı genel kabul olarak tercih edildi."
+      },
+      {
+        "topic_tr": "Antlaşma metni detayları",
+        "detail_tr": "Bazı maddeler kaynaklarda farklı ifadelerle geçer.",
+        "resolution_tr": "Buhârî rivâyeti esas alındı; diğerleri tamamlayıcı olarak kullanıldı."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "1-29",
+      "phase_id": "F5_fetih_suresi",
+      "topic": {
+        "tr": "Hudeybiye Antlaşması'nın 'apaçık fetih' olarak nitelendirilmesi",
+        "en": "The Treaty of Ḥudaybiya described as a 'clear conquest'"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "İnnâ fetahnâ leke fethan mübînâ — Apaçık bir fetih ihsan ettik",
+          "phase_id": "F5_fetih_suresi",
+          "esbab_id": "en_fetih_48_1"
+        },
+        {
+          "ayah": 10,
+          "topic_tr": "Sana biat edenler aslında Allah'a biat etmektedir",
+          "phase_id": "F3_ridvan",
+          "esbab_id": "en_fetih_48_10"
+        },
+        {
+          "ayah": 18,
+          "topic_tr": "Ağaç altında biat eden müminlerden Allah razı olmuştur",
+          "phase_id": "F3_ridvan",
+          "esbab_id": "en_fetih_48_18"
+        },
+        {
+          "ayah": 27,
+          "topic_tr": "Rüyayı gerçekleştirdi: Mekke'ye gireceksiniz",
+          "phase_id": "F0_background",
+          "esbab_id": "en_fetih_48_27"
+        }
+      ],
+      "nuzul_context_tr": "Tüm Fetih Sûresi Hudeybiye dönüşünde nâzil oldu. Hz. Peygamber: 'Bu gece bana öyle bir sûre indi ki dünya ve içindekilerden bana daha sevgilidir' buyurdu."
+    },
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "24-25",
+      "phase_id": "F4_antlasma",
+      "topic": {
+        "tr": "Mekke vadisinde savaşı engelleyen Allah'ın hikmeti",
+        "en": "Allah's wisdom in preventing fighting in the valley of Mecca"
+      },
+      "key_verses": [
+        {
+          "ayah": 24,
+          "topic_tr": "Mekke'de müminleri zaferden sonra savaştan alıkoyan O'dur",
+          "phase_id": "F4_antlasma"
+        },
+        {
+          "ayah": 25,
+          "topic_tr": "Mekke'deki gizli müslümanlara zarar gelmemesi hikmeti",
+          "phase_id": "F4_antlasma"
+        }
+      ],
+      "nuzul_context_tr": "Savaş olsaydı, henüz İslam'ını gizleyen Mekkelilere zarar gelebilirdi."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hudeybiye_ridvan",
+      "topic": "Bey'atü'r-Rıdvân — sahâbîlerin ağaç altında ölüme kadar savaş biati",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hudeybiye_antlasma",
+      "topic": "Süheyl b. Amr ile antlaşma müzakeresi ve Ali'nin yazması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hudeybiye_fetih",
+      "topic": "Fetih Sûresi'nin nüzûlü ve Hz. Peygamber'in sevinci",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hudaybiye_agac",
+      "topic": "Rıdvân bey'ati — ağaç altındaki bîat",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_megazi_hudeybiye",
+      "topic": "Hudeybiye'de ağaç altı bey'ati",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "10 yıllık ateşkes, müslümanların kuzey ve doğuya yönelmesini sağladı (Hayber, vs.). Savaş olmadan stratejik kazanım elde edildi.",
+      "en": "10-year ceasefire allowed Muslims to focus north and east (Khaybar, etc.). Strategic gain achieved without fighting."
+    },
+    "political": {
+      "tr": "Kureyş, müslümanları ilk kez resmi muhatap olarak tanıdı — devletler arası antlaşma niteliği. Kabilelere ittifak serbestisi verilmesi, Huzâa→müslüman ve Bekr→Kureyş saflaşmasını başlattı.",
+      "en": "Quraysh formally recognized Muslims as an equal party for the first time — an interstate treaty. Tribal alliance freedom led to the Khuzāʿa→Muslim and Bakr→Quraysh alignment."
+    },
+    "social": {
+      "tr": "Barış ortamı, kabileler arası iletişimi artırdı. İslam'ı tanıma fırsatı doğdu. 2 yıl içinde müslüman nüfusu katlandı.",
+      "en": "Peace enabled inter-tribal communication. The opportunity to learn about Islam arose. Within 2 years, the Muslim population multiplied."
+    },
+    "theological": {
+      "tr": "Fetih Sûresi, insanî hesaplarla ilâhî planın farklılığını gösterdi: sahâbîlerin 'yenilgi' sandığı şey, Allah'ın 'apaçık fethi'ydi. Bey'atü'r-Rıdvân, Kur'ân'da övülen en yüce sahâbî erdemlerinden.",
+      "en": "Sūrat al-Fatḥ demonstrated the difference between human calculation and divine plan: what companions perceived as defeat was Allah's 'clear conquest.' The Pledge of Riḍwān is among the highest companion virtues praised in the Qurʾān."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 0,
+        "wounded": 0,
+        "note_tr": "Savaş olmadı"
+      },
+      "enemy": {
+        "killed": 0,
+        "wounded": 0,
+        "note_tr": "Savaş olmadı"
+      }
+    },
+    "treaties": [
+      {
+        "id": "treaty_hudeybiye",
+        "name_tr": "Hudeybiye Sulhu",
+        "terms_tr": [
+          "Bu yıl umresiz dönülecek, gelecek yıl 3 gün girilecek",
+          "10 yıl ateşkes",
+          "Kureyş'ten Medîne'ye kaçan geri verilecek; tersi istenmeyecek",
+          "Kabileler istedikleri tarafla ittifak kurabilir"
+        ],
+        "duration": "10 yıl (2 yılda Kureyş bozdu)"
+      }
+    ],
+    "territorial_change": {
+      "tr": "Doğrudan toprak değişimi yok ama 4. madde, kabile saflaşmasını tetikleyerek Mekke fethinin yolunu açtı.",
+      "en": "No direct territorial change but Article 4 triggered tribal realignment that paved the way for the Conquest of Mecca."
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_hayber",
+        "name_tr": "Hayber Gazvesi (Muharrem 7 AH)",
+        "description_tr": "Hudeybiye ateşkesi, kuzeye yönelmeyi mümkün kıldı."
+      },
+      {
+        "id": "evt_kaza_umresi",
+        "name_tr": "Kazâ Umresi (Zilkade 7 AH)",
+        "description_tr": "Antlaşma gereği ertesi yıl 3 günlük umre yapıldı."
+      },
+      {
+        "id": "evt_mekke_fethi",
+        "name_tr": "Mekke'nin Fethi (Ramazan 8 AH)",
+        "description_tr": "Kureyş'in antlaşmayı bozması üzerine Mekke fethedildi."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 13,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_alternative": "#7B1FA2",
+      "treaty": "#FF8F00",
+      "landmark": "#6A1B9A",
+      "sacred": "#FFD600"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâh",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_ridvan",
+        "name": "Bey'at noktası",
+        "type": "marker",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "timeline",
+        "default_visible": false
+      }
+    ]
+  }
+}

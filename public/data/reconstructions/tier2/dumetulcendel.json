@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "id": "reconstruction_dumetulcendel",
+    "battle_id": "gazve_dumetulcendel",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-26",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Dûmetü'l-Cendel Gazvesi (Rebîülevvel 5 AH / Ağustos 626 CE). Hz. Peygamber'in en uzak mesafe seferi (~500 km). Suriye sınırı yakınında Dûmetü'l-Cendel'e (bugünkü el-Cevf/Sakaka, Suudi Arabistan) kuzey kervan yollarını kontrol eden kabilelere karşı düzenlendi. Çatışma olmadan geri dönüldü; stratejik güç gösterisi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 29.8117,
+        "lng": 39.8675
+      },
+      "bbox": {
+        "north": 29.85,
+        "south": 29.77,
+        "east": 39.92,
+        "west": 39.81
+      },
+      "terrain_type": "northern_desert_oasis",
+      "terrain_desc": {
+        "tr": "Dûmetü'l-Cendel (bugünkü el-Cevf bölgesi), Suriye-Irak-Hicaz arasında stratejik kavşak noktası. Bir vaha yerleşimi; taş yapılarla tahkim edilmiş (Mârid Kalesi). Kuzey ticaret yollarının (Dımaşk, Irak, Hicaz) kesiştiği kilit geçit.",
+        "en": "Dūmat al-Jandal (modern al-Jawf region) is a strategic intersection between Syria, Iraq, and the Ḥijāz. An oasis settlement fortified with stone structures (Mārid Castle). A key passage where northern trade routes (Damascus, Iraq, Ḥijāz) intersect."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_marid_kalesi",
+        "name": {
+          "tr": "Mârid Kalesi",
+          "en": "Mārid Castle"
+        },
+        "lat": 29.8117,
+        "lng": 39.8675,
+        "type": "fortress",
+        "note_tr": "Dûmetü'l-Cendel'in eski kalesi; Ukeydir b. Abdilmelik'in merkezi."
+      },
+      {
+        "id": "lm_cami_omer",
+        "name": {
+          "tr": "Hz. Ömer Camii (Câmiu Ömer)",
+          "en": "Masjid ʿUmar (Mosque of ʿUmar)"
+        },
+        "lat": 29.812,
+        "lng": 39.868,
+        "type": "mosque",
+        "note_tr": "Dûmetü'l-Cendel'deki tarihî cami; erken İslam dönemi yapısı."
+      },
+      {
+        "id": "lm_suriye_yolu",
+        "name": {
+          "tr": "Suriye Kervan Yolu kavşağı",
+          "en": "Syria Trade Route intersection"
+        },
+        "lat": 29.82,
+        "lng": 39.88,
+        "type": "trade_route",
+        "note_tr": "Dımaşk-Medîne ve Irak-Hicaz kervan yollarının buluştuğu nokta."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_dume",
+        "name": {
+          "tr": "Medîne → Dûmetü'l-Cendel",
+          "en": "Medina → Dūmat al-Jandal"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 25.5,
+            "lng": 39.7,
+            "label": "Hayber yakını (ara konak)"
+          },
+          {
+            "lat": 27.0,
+            "lng": 39.8,
+            "label": "Fedek / Vâdilkurâ bölgesi"
+          },
+          {
+            "lat": 28.5,
+            "lng": 39.85,
+            "label": "Kuzey çöl"
+          },
+          {
+            "lat": 29.8117,
+            "lng": 39.8675,
+            "label": "Dûmetü'l-Cendel"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Kuzey ticaret tehdidi",
+        "en": "Background: Northern trade route threat"
+      },
+      "date_range": {
+        "start": "Safer 5 AH",
+        "end": "Rebîülevvel 5 AH (başı)"
+      },
+      "duration": "~2-3 hafta",
+      "description": {
+        "tr": "Dûmetü'l-Cendel'deki kabileler, Medîne'ye giden kuzey ticaret kervanlarını yağmalıyor ve Medîne'ye saldırı planları yapıyordu. Bölge reisi Ukeydir b. Abdilmelik el-Kindî'nin Hristiyan Arap kabileleriyle (Kelb, Gassan) ittifak arayışı haberi geldi. Suriye-Bizans bağlantısı stratejik endişe yarattı.",
+        "en": "Tribes at Dūmat al-Jandal were raiding northern trade caravans heading to Medina and planning attacks. Reports arrived of the local chief Ukaydir b. ʿAbd al-Malik al-Kindī seeking alliance with Christian Arab tribes (Kalb, Ghassān). The Syria-Byzantine connection raised strategic concerns."
+      },
+      "events": [
+        {
+          "id": "E0_1_kervan_baskin",
+          "type": "threat",
+          "description_tr": "Dûme kabileleri kuzey kervan yollarını tehdit ediyor; saldırı planları.",
+          "description_en": "Dūma tribes threatening northern caravan routes; attack plans."
+        },
+        {
+          "id": "E0_2_bizans_baglanti",
+          "type": "intelligence",
+          "description_tr": "Ukeydir'in Gassan ve diğer Hristiyan Arap kabileleriyle ittifak arayışı.",
+          "description_en": "Ukaydir seeking alliance with Ghassān and other Christian Arab tribes."
+        }
+      ]
+    },
+    {
+      "id": "F1_seferberlik",
+      "order": 1,
+      "name": {
+        "tr": "Seferberlik ve uzun yürüyüş",
+        "en": "Mobilization and long march"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 5 AH (başı)",
+        "end": "~Rebîülevvel 5 AH (ortası)"
+      },
+      "duration": "~15 gün (gidiş)",
+      "description": {
+        "tr": "Hz. Peygamber 1.000 kişilik bir kuvvetle yola çıktı — bu, o güne dek Medîne'den yapılan en uzak mesafe seferidir (~500 km). Sibâ' b. Urfuta el-Gifârî'yi Medîne'de vekil bıraktı. Gece yürüyüşleri yapıp gündüz gizlendi — düşmanı hazırlıksız yakalamak için. Nehd adlı bir adam kılavuzluk yaptı.",
+        "en": "The Prophet set out with ~1,000 troops — this was the farthest expedition from Medina to date (~500 km). Sibāʿ b. ʿUrfuṭa al-Ghifārī was left as deputy. They marched by night and hid by day — to catch the enemy off-guard. A man named Nahd served as guide."
+      },
+      "events": [
+        {
+          "id": "E1_1_yola_cikis",
+          "type": "march",
+          "description_tr": "~1.000 kişilik kuvvet, ~500 km'lik en uzak sefere çıktı.",
+          "description_en": "~1,000-strong force departed on the farthest expedition (~500 km)."
+        },
+        {
+          "id": "E1_2_gece_yuruyusu",
+          "type": "tactics",
+          "description_tr": "Gece yürüyüşü, gündüz gizlenme taktiği uygulandı.",
+          "description_en": "Night marching and daytime concealment tactics applied."
+        }
+      ]
+    },
+    {
+      "id": "F2_varis",
+      "order": 2,
+      "name": {
+        "tr": "Dûmetü'l-Cendel'e varış",
+        "en": "Arrival at Dūmat al-Jandal"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 5 AH (ortası)",
+        "end": "Rebîülevvel 5 AH (ortası)"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Müslüman ordusu Dûmetü'l-Cendel yakınına ulaştığında düşman kabileler dağılmıştı. Hayvan sürülerini ve bazı eşyalarını bırakıp kaçtılar. Hz. Peygamber birkaç gün bölgede kaldı; çevre kabilelerle antlaşmalar yaptı. Çatışma olmadı.",
+        "en": "When the Muslim army reached the vicinity of Dūmat al-Jandal, the enemy tribes had scattered. They fled, leaving behind livestock and belongings. The Prophet stayed in the area for several days and made pacts with surrounding tribes. No battle occurred."
+      },
+      "events": [
+        {
+          "id": "E2_1_dusman_dağılma",
+          "type": "enemy_flight",
+          "description_tr": "Düşman kabileler müslüman ordusunun haberini alınca dağıldı.",
+          "description_en": "Enemy tribes scattered upon hearing of the Muslim army's approach."
+        },
+        {
+          "id": "E2_2_antlasmalar",
+          "type": "diplomacy",
+          "description_tr": "Çevre kabilelerle saldırmazlık antlaşmaları yapıldı.",
+          "description_en": "Non-aggression pacts made with surrounding tribes."
+        }
+      ]
+    },
+    {
+      "id": "F3_donus",
+      "order": 3,
+      "name": {
+        "tr": "Dönüş ve stratejik sonuç",
+        "en": "Return and strategic outcome"
+      },
+      "date_range": {
+        "start": "Rebîülâhir 5 AH",
+        "end": "Rebîülâhir 5 AH (ortası)"
+      },
+      "duration": "~15 gün (dönüş)",
+      "description": {
+        "tr": "Hz. Peygamber 20 gece Dûme bölgesinde kaldıktan sonra Medîne'ye döndü. Uyeyne b. Hısn ile bir antlaşma yapıldı. Sefer çatışmasız sonuçlandı ama stratejik mesaj açıktı: müslümanlar Suriye sınırına kadar ulaşabilir ve kuzey ticaret yollarını koruyabilir.",
+        "en": "After staying ~20 nights in the Dūma area, the Prophet returned to Medina. A pact was made with ʿUyayna b. Ḥiṣn. The campaign concluded without fighting, but the strategic message was clear: Muslims could reach the Syrian border and protect northern trade routes."
+      },
+      "events": [
+        {
+          "id": "E3_1_donus",
+          "type": "return",
+          "description_tr": "20 gece sonra Medîne'ye dönüş; sefer ~1 ay sürdü.",
+          "description_en": "Return to Medina after 20 nights; expedition lasted ~1 month."
+        },
+        {
+          "id": "E3_2_stratejik_mesaj",
+          "type": "strategic",
+          "description_tr": "Müslüman güç projeksiyonu Suriye sınırına ulaştı.",
+          "description_en": "Muslim power projection reached the Syrian frontier."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~1.000",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcirlerden seçkin savaşçılar."
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan katılım."
+        }
+      },
+      "equipment": {
+        "note_tr": "Tam savaş teçhizatı; uzun mesafe lojistiği (su, erzak)."
+      }
+    },
+    "enemy": {
+      "total": "Belirsiz (bölgesel kabile kuvvetleri)",
+      "commander_name": {
+        "tr": "Ukeydir b. Abdilmelik el-Kindî (bölge hakimi)",
+        "en": "Ukaydir b. ʿAbd al-Malik al-Kindī (regional ruler)"
+      },
+      "composition": {
+        "dume_kabileleri": {
+          "note_tr": "Kelb, Uzzâ kolu ve diğer kuzey Arap kabileleri."
+        }
+      },
+      "note_tr": "Müslüman ordusunun gelişi karşısında savaş vermeden dağıldılar."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Dûmeti'l-Cendel",
+        "note_tr": "Seferin genel seyri ve diplomatik sonuçları."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Dûmeti'l-Cendel",
+        "note_tr": "Asker sayısı, sefer süresi ve kılavuz bilgisi."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-rusül ve'l-mülûk",
+        "note_tr": "Kronolojik yerleştirme; Dûme'nin Suriye-Irak kervan yollarındaki konumu."
+      },
+      {
+        "author": "Belâzürî",
+        "work": "Fütûhu'l-büldân",
+        "note_tr": "Dûmetü'l-Cendel'in fetih sonrası tarihi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 5,
+      "surah_name": "Mâide",
+      "ayah_range": "2",
+      "phase_id": "F2_varis",
+      "topic": {
+        "tr": "İyilik ve takva üzerine yardımlaşın; günah ve düşmanlık üzerine yardımlaşmayın — kabile ittifakları bağlamında",
+        "en": "Cooperate in righteousness and piety, not in sin and aggression — in context of tribal alliances"
+      },
+      "key_verses": [
+        {
+          "ayah": 2,
+          "topic_tr": "Birr ve takva üzerine yardımlaşın; ism ve udvan üzerine yardımlaşmayın",
+          "phase_id": "F2_varis"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_ref": "İbn Hişâm, es-Sîre (İbn İshâk rivâyeti)",
+      "phase_id": "F1_seferberlik",
+      "topic": {
+        "tr": "Hz. Peygamber'in ~500 km'lik en uzak sefere çıkması ve gece yürüyüşü taktiği",
+        "en": "The Prophet's farthest expedition (~500 km) and night-march tactics"
+      },
+      "hadith_id": "hds_dume_uzak_sefer",
+      "db_status": "new",
+      "db_id": "hds_dume_uzak_sefer"
+    },
+    {
+      "hadith_ref": "Vâkıdî, Megāzî",
+      "phase_id": "F2_varis",
+      "topic": {
+        "tr": "Düşmanın savaşmadan dağılması ve çevre kabilelerle antlaşma",
+        "en": "Enemy scattering without fighting and treaties with surrounding tribes"
+      },
+      "hadith_id": "hds_dume_antlasma",
+      "db_status": "new",
+      "db_id": "hds_dume_antlasma"
+    },
+    {
+      "hadith_ref": "İbn Sa'd, Tabakāt; Taberî, Târîh",
+      "phase_id": "F3_donus",
+      "topic": {
+        "tr": "Dûmetü'l-Cendel seferinin kuzey ticaret yollarını güvenceye alması",
+        "en": "Dūmat al-Jandal expedition securing northern trade routes"
+      },
+      "hadith_id": "hds_dume_ticaret_yolu",
+      "db_status": "new",
+      "db_id": "hds_dume_ticaret_yolu"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Müslümanların uzun mesafe sefer kapasitesi (~500 km, ~1 ay) kanıtlandı. Gece yürüyüşü taktiği başarıyla uygulandı. Kuzey sınır güvenliği sağlandı.",
+      "en": "Muslim long-range expedition capability (~500 km, ~1 month) demonstrated. Night-march tactics successfully applied. Northern border security established."
+    },
+    "political": {
+      "tr": "Suriye-Bizans sınırına yakın güç gösterisi; kuzey Arap kabilelerine 'Medîne devleti Suriye'ye ulaşabilir' mesajı. İleride Mûte ve Tebük seferlerinin habercisi.",
+      "en": "Power demonstration near the Syria-Byzantine border; message to northern Arab tribes that the Medinan state could reach Syria. Precursor to the later Muʾta and Tabūk expeditions."
+    },
+    "economic": {
+      "tr": "Kuzey ticaret yollarının güvenliği sağlandı; Dımaşk-Medîne ve Irak-Hicaz kervan trafiği güvence altına alındı.",
+      "en": "Northern trade route security established; Damascus-Medina and Iraq-Ḥijāz caravan traffic secured."
+    },
+    "strategic": {
+      "tr": "Bu sefer, İslam devletinin güneybatı Arap Yarımadası'ndan kuzeye doğru genişleme stratejisinin ilk somut adımıydı. Mûte (8 AH) ve Tebük (9 AH) bu yolun devamıdır.",
+      "en": "This expedition was the first concrete step in the Islamic state's northward expansion strategy from southwestern Arabia. Muʾta (8 AH) and Tabūk (9 AH) continued this path."
+    }
+  },
+  "visualization": {
+    "default_zoom": 7,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "landmark": "#FF8F00",
+      "trade_route": "#FF9800"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_trade",
+        "name": "Ticaret yolları",
+        "type": "trade",
+        "default_visible": false
+      }
+    ]
+  }
+}

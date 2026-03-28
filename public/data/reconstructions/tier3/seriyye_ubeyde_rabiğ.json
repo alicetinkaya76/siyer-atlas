@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "recon_seriyye_ubeyde_rabiğ",
+    "battle_id": "seriyye_ubeyde_rabiğ",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": "seriyye_ubeyde_haris"
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 22.8,
+        "lng": 39.05
+      },
+      "name": "Râbiğ vadisi",
+      "modern_location": "Rabigh"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Hareket",
+      "date_range": "Şevval 1",
+      "duration": "",
+      "description": "Râbiğ vadisinde Kureyş kervanını bekleme.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Şevval 1",
+      "duration": "",
+      "description": "Kısa ok atışı, iki iltica.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ubeyde b. el-Hâris",
+      "estimated_troops": 60,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, II/245",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Sınırlı çatışma",
+    "significance": "",
+    "cross_references": [
+      "seriyye_ubeyde_haris"
+    ]
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "recon_gazve_batn_nahle",
+    "battle_id": "gazve_batn_nahle",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": "seriyye_abdullah_cahs"
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.55,
+        "lng": 40.05
+      },
+      "name": "Batn-ı Nahle",
+      "modern_location": "Nakhla vadisi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Baskın",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Haram ayda kervan baskını.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Amr b. el-Hadramî öldürüldü, 2 esir.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Cahş",
+      "estimated_troops": 12,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, II/410",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Müslüman zaferi",
+    "significance": "",
+    "cross_references": [
+      "seriyye_abdullah_cahs"
+    ]
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#4CAF50",
+    "priority": "low"
+  }
+}

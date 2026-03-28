@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": "recon_seriyye_batn_nahle",
+    "battle_id": "seriyye_batn_nahle",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.5,
+        "lng": 40.1
+      },
+      "name": "Harrâr (Nahle vadisi)",
+      "modern_location": "Nakhla vadisi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görevlendirme",
+      "date_range": "Zilkade 1",
+      "duration": "",
+      "description": "Hz. Peygamber Sa'd'ı 20 kişiyle gönderdi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Dönüş",
+      "date_range": "Zilkade 1",
+      "duration": "",
+      "description": "Kervan bir gün önce geçmişti, çatışma olmadı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Sa'd b. Ebî Vakkâs",
+      "estimated_troops": 20,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/11-12",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Sa'd, et-Tabakât, II/6",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Karşılaşma olmadı",
+    "significance": "İlk seriyyelerden. Keşif ve istihbarat misyonu.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "id": "reconstruction_beni_kaynuka",
+    "battle_id": "gazve_beni_kaynuka",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Benî Kaynukā — Medîne'den sürgün edilen ilk Yahudi kabilesi. Bedir zaferinden kısa süre sonra ahdi bozdular. 15 günlük kuşatma ile teslim alındılar."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.465,
+        "lng": 39.608
+      },
+      "bbox": {
+        "north": 24.472,
+        "south": 24.458,
+        "east": 39.616,
+        "west": 39.6
+      },
+      "terrain_type": "urban_settlement",
+      "terrain_desc": {
+        "tr": "Benî Kaynukā mahallesi, Medîne'nin güneybatısında, çarşı bölgesine yakın müstahkem bir yerleşim. Taş ve kerpiçten inşa edilmiş birbirine bağlı kaleler (utum/âtâm) ile korunaklı bir yapı. Dar sokaklar, savunma avantajı sağlar. Kuyumcu çarşısı (sûku Kaynukā) mahallenin girişinde.",
+        "en": "The Banū Qaynuqāʿ quarter was a fortified settlement in the southwestern part of Medina, near the market area. It consisted of interconnected stone and mudbrick fortresses (uṭum/āṭām). Narrow alleys provided defensive advantage. The Qaynuqāʿ market (sūq) stood at the entrance to their quarter."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_kaynuka_suk",
+        "name": {
+          "tr": "Sûku Kaynukā (Kaynukā Çarşısı)",
+          "en": "Sūq Qaynuqāʿ (Qaynuqāʿ Market)"
+        },
+        "lat": 24.466,
+        "lng": 39.609,
+        "type": "market",
+        "note_tr": "Kuyumculuk ve silah ticaretinin yapıldığı çarşı. Olayın fitilini ateşleyen hâdise burada yaşandı."
+      },
+      {
+        "id": "lm_kaynuka_hisn",
+        "name": {
+          "tr": "Kaynukā Hisarları",
+          "en": "Qaynuqāʿ Fortresses"
+        },
+        "lat": 24.4645,
+        "lng": 39.6075,
+        "type": "fortress",
+        "note_tr": "Birbirine bağlı kaleleri (utum), 15 günlük kuşatmaya sahne oldu."
+      },
+      {
+        "id": "lm_mescidi_nebevi",
+        "name": {
+          "tr": "Mescid-i Nebevî",
+          "en": "Masjid al-Nabawī"
+        },
+        "lat": 24.4672,
+        "lng": 39.6112,
+        "type": "reference_point",
+        "note_tr": "Hz. Peygamber'in karargâhı ve karar merkezi."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_siege_approach",
+        "name": {
+          "tr": "Kuşatma yürüyüşü",
+          "en": "Siege approach march"
+        },
+        "type": "approach",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Mescid-i Nebevî"
+          },
+          {
+            "lat": 24.466,
+            "lng": 39.609,
+            "label": "Sûku Kaynukā"
+          },
+          {
+            "lat": 24.4645,
+            "lng": 39.6075,
+            "label": "Kaynukā Hisarları"
+          }
+        ]
+      },
+      {
+        "id": "route_exile",
+        "name": {
+          "tr": "Sürgün güzergâhı — Ezriât'a",
+          "en": "Exile route — to Adhriʿāt"
+        },
+        "type": "exile_route",
+        "waypoints": [
+          {
+            "lat": 24.4645,
+            "lng": 39.6075,
+            "label": "Kaynukā Hisarları"
+          },
+          {
+            "lat": 24.52,
+            "lng": 39.62,
+            "label": "Medîne çıkışı (kuzey)"
+          },
+          {
+            "lat": 32.62,
+            "lng": 36.1,
+            "label": "Ezriât (Dera, Suriye)"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Medîne Vesîkası ve Kaynukā",
+        "en": "Background: Constitution of Medina and Qaynuqāʿ"
+      },
+      "date_range": {
+        "start": "1 AH (Hicret sonrası)",
+        "end": "Ramazan 2 AH"
+      },
+      "duration": "~20 ay",
+      "description": {
+        "tr": "Benî Kaynukā, Medîne'nin üç Yahudi kabilesinden biridir. Kuyumculuk, silah imalatı ve ticaretle geçinirler. Hazrec kabilesinin müttefikidir; özellikle Abdullah b. Ubeyy b. Selûl ile yakın ilişki içindedirler. Hicret sonrası Hz. Peygamber'in oluşturduğu Medîne Vesîkası'na (Sahîfe) dahil edilmişler ve karşılıklı güvenlik ile iç işlerinde özerklik garanti altına alınmıştır. Ancak Kaynukā, başından beri müslümanlara karşı en provokatif kabile olarak öne çıkmıştır.",
+        "en": "Banū Qaynuqāʿ was one of the three Jewish tribes of Medina, engaged in goldsmithing, arms manufacturing, and trade. They were allies of the Khazraj tribe, particularly close to ʿAbdullāh b. Ubayy b. Salūl. After the Hijra, they were included in the Constitution of Medina (Ṣaḥīfa), which guaranteed mutual security and internal autonomy. Yet from the outset, Qaynuqāʿ proved the most provocative tribe toward the Muslims."
+      },
+      "events": [
+        {
+          "id": "E0_1_vesika",
+          "name_tr": "Medîne Vesîkası'na dahil olma",
+          "description_tr": "Kaynukā, Vesîka'nın Yahudi maddelerine taraf olarak müslümanlarla saldırmazlık anlaşmasına girdi."
+        },
+        {
+          "id": "E0_2_provokasyon",
+          "name_tr": "Bedir öncesi gerginlik",
+          "description_tr": "Kaynukā, müslümanların askeri gücünü küçümsüyor ve alaylı şekilde Kureyş'e üstünlük iddia ediyorlardı."
+        }
+      ]
+    },
+    {
+      "id": "F1_bedir_sonrasi",
+      "order": 1,
+      "name": {
+        "tr": "Bedir sonrası kışkırtma ve Hz. Peygamber'in uyarısı",
+        "en": "Post-Badr provocation and Prophet's warning"
+      },
+      "date_range": {
+        "start": "Ramazan 2 AH (Bedir sonrası)",
+        "end": "Şevval 2 AH"
+      },
+      "duration": "~2 hafta",
+      "description": {
+        "tr": "Bedir zaferi Medîne'de müslümanların itibarını artırırken, Kaynukā bunu tehdit olarak algıladı. Hz. Peygamber bizzat Kaynukā çarşısına giderek onları topladı ve 'Ey Kaynukā cemaati! Kureyş'in başına gelen sizin de başınıza gelmeden Allah'tan korkun ve müslüman olun' diye uyardı. Onlar ise 'Yâ Muhammed! Kureyş savaş bilmeyen tüccar kavmidir. Bizimle karşılaşırsan bizi tanırsın!' diyerek meydan okudular. Bu küstahça cevap üzerine Âl-i İmrân 3:12-13 nâzil oldu.",
+        "en": "The victory at Badr boosted Muslim prestige in Medina, which Qaynuqāʿ perceived as a threat. The Prophet personally visited the Qaynuqāʿ market and warned them: 'O assembly of Qaynuqāʿ! Fear God before what befell Quraysh befalls you.' They retorted: 'O Muhammad! Quraysh are merchants who know nothing of war. If you fight us, you will know who we are!' This arrogant response prompted the revelation of Āl-i ʿImrān 3:12-13."
+      },
+      "events": [
+        {
+          "id": "E1_1_uyari",
+          "name_tr": "Hz. Peygamber'in Kaynukā çarşısındaki uyarısı",
+          "description_tr": "Bedir sonrası Kaynukā'ya bizzat giderek ahitlerini hatırlatması ve uyarması."
+        },
+        {
+          "id": "E1_2_meydan_okuma",
+          "name_tr": "Kaynukā'nın meydan okuması",
+          "description_tr": "'Bizimle savaşırsan bizi tanırsın' diyerek küstahça cevap verdiler."
+        },
+        {
+          "id": "E1_3_nuzul",
+          "name_tr": "Âl-i İmrân 3:12-13 nüzûlü",
+          "description_tr": "Kaynukā'nın meydan okuması üzerine inen âyetler: 'Yenileceksiniz ve cehenneme sürüleceksiniz.'"
+        }
+      ]
+    },
+    {
+      "id": "F2_fitil",
+      "order": 2,
+      "name": {
+        "tr": "Çarşı hâdisesi — savaşın fitili",
+        "en": "Market incident — the spark"
+      },
+      "date_range": {
+        "start": "Şevval 2 AH (ortası)",
+        "end": "aynı gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Sûku Kaynukā'da bir müslüman kadın kuyumcuya geldi. Kaynukālı bir kuyumcu, kadının farkında olmadan elbisesinin arka etekliğini oturduğu yere iğneledi; kadın kalkınca avret yeri açıldı ve etrafındakiler güldü. Kadın feryat edince orada bulunan bir müslüman kuyumcuyu öldürdü (veya tam tersi — bir müslüman Yahudi kuyumcuyu öldürdü, akabinde Yahudiler o müslümanı öldürdü). Bu olay fiilî ahit ihlali sayıldı ve Hz. Peygamber'e haber verildi.",
+        "en": "At the Qaynuqāʿ market, a Muslim woman visited a goldsmith. A Jewish goldsmith secretly pinned the back of her garment to where she sat; when she stood, her ʿawra was exposed and bystanders laughed. A Muslim present killed the goldsmith, and in retaliation the Jews killed the Muslim. This constituted a de facto breach of the covenant and was reported to the Prophet."
+      },
+      "events": [
+        {
+          "id": "E2_1_hadise",
+          "name_tr": "Müslüman kadının çarşıda tahkir edilmesi",
+          "description_tr": "Kuyumcunun elbiseyi iğnelemesi ve kadının aşağılanması."
+        },
+        {
+          "id": "E2_2_katl",
+          "name_tr": "Karşılıklı öldürme",
+          "description_tr": "Müslüman-Yahudi arasında çıkan kavgada her iki taraftan öldürülenler."
+        },
+        {
+          "id": "E2_3_haber",
+          "name_tr": "Olayın Hz. Peygamber'e bildirilmesi",
+          "description_tr": "Ahdin bozulması Hz. Peygamber'e iletildi ve kuşatma kararı alındı."
+        }
+      ]
+    },
+    {
+      "id": "F3_kusatma",
+      "order": 3,
+      "name": {
+        "tr": "Kuşatma — 15 gün",
+        "en": "Siege — 15 days"
+      },
+      "date_range": {
+        "start": "Şevval 2 AH (ortası)",
+        "end": "Şevval 2 AH (sonları)"
+      },
+      "duration": "15 gün",
+      "description": {
+        "tr": "Hz. Peygamber sancağı Hamza b. Abdilmuttalib'e (veya bazı rivayetlerde Ebû Lübâbe b. Abdilmünzir'e) vererek Kaynukā hisarlarını kuşatma altına aldı. Bu sürede Medîne'de vekil olarak (bir rivayette) Ebû Lübâbe bırakıldı. Kaynukā kalelerinde kapanarak savunma yaptı ancak dışarıdan herhangi bir yardım gelmedi. Kureyş, Bedir yenilgisinden dolayı yardım gönderemedi. Müttefikleri Hazrec kabilesi de açıkça destek vermedi. 15 gün sonra erzak ve moral tükenen Kaynukā, Hz. Peygamber'in hükmüne boyun eğerek kayıtsız şartsız teslim oldu.",
+        "en": "The Prophet handed the banner to Ḥamza b. ʿAbd al-Muṭṭalib (or, in some reports, Abū Lubāba b. ʿAbd al-Mundhir) and laid siege to the Qaynuqāʿ fortresses. During this period, Abū Lubāba was left as deputy in Medina (according to one report). Qaynuqāʿ locked themselves in their forts and mounted a static defense, but no external aid came. Quraysh could not help after their Badr defeat. Their Khazraj allies did not openly intervene. After 15 days, depleted of supplies and morale, Qaynuqāʿ surrendered unconditionally to the Prophet's judgment."
+      },
+      "events": [
+        {
+          "id": "E3_1_sancak",
+          "name_tr": "Sancağın Hamza'ya verilmesi",
+          "description_tr": "Hz. Peygamber beyaz sancağı Hz. Hamza'ya vererek kuşatma emri verdi."
+        },
+        {
+          "id": "E3_2_abluka",
+          "name_tr": "Hisarların ablukaya alınması",
+          "description_tr": "Kaynukā'nın birbirine bağlı kaleleri tamamen çevrildi; ikmal yolları kesildi."
+        },
+        {
+          "id": "E3_3_yardim_yok",
+          "name_tr": "Dışarıdan yardım gelmemesi",
+          "description_tr": "Ne Kureyş ne de Hazrec müttefikleri fiili destek sağlayabildi."
+        },
+        {
+          "id": "E3_4_teslim",
+          "name_tr": "Kayıtsız şartsız teslim",
+          "description_tr": "15 gün sonra Kaynukā, Hz. Peygamber'in hükmüne boyun eğdi."
+        }
+      ]
+    },
+    {
+      "id": "F4_sefaat_surgun",
+      "order": 4,
+      "name": {
+        "tr": "Abdullah b. Ubeyy'in şefaati ve sürgün",
+        "en": "ʿAbdullāh b. Ubayy's intercession and exile"
+      },
+      "date_range": {
+        "start": "Şevval 2 AH (sonları)",
+        "end": "Şevval-Zilkade 2 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Teslim sonrası Hz. Peygamber, Kaynukā erkeklerinin bağlanmasını emretti. Abdullah b. Ubeyy b. Selûl (münafıkların reisi, Hazrec liderliğine aday) Hz. Peygamber'e gelerek zırhının yakasından tutup ısrarla 'Mevâlîlerimi (müttefiklerimi) bana bağışla!' dedi. Hz. Peygamber'in yüzü öfkeden kızardı ancak sonunda sürgün kararı verdi. Kaynukā, silahları ve malları (zırhlar, silahlar, kuyumculuk aletleri) bırakarak Medîne'den çıkarıldı. Önce Vâdi'l-Kurâ'ya, oradan da Şam'ın güneyindeki Ezriât'a (bugünkü Dera) gittiler. Bir daha Medîne'ye dönemediler.",
+        "en": "After surrender, the Prophet ordered the Qaynuqāʿ men to be bound. ʿAbdullāh b. Ubayy b. Salūl (chief of the munāfiqūn, would-be Khazraj leader) came and grabbed the Prophet's armor, insistently pleading: 'Spare my clients (mawālī)!' The Prophet's face turned red with anger, but he ultimately decided on exile. Qaynuqāʿ left Medina, forfeiting their weapons, armor, and goldsmith tools. They first went to Wādī al-Qurā and then on to Adhriʿāt (modern Darʿā) in southern Syria, never to return."
+      },
+      "events": [
+        {
+          "id": "E4_1_sefaat",
+          "name_tr": "Abdullah b. Ubeyy'in ısrarlı şefaati",
+          "description_tr": "Hz. Peygamber'in zırhının yakasını tutarak müttefiklerinin affını istedi."
+        },
+        {
+          "id": "E4_2_surgun_karari",
+          "name_tr": "Sürgün kararı",
+          "description_tr": "İdam yerine sürgün; silahlar ve mallar müsâdere edildi."
+        },
+        {
+          "id": "E4_3_cikis",
+          "name_tr": "Medîne'den çıkış",
+          "description_tr": "Kaynukā, ailelerini de alarak Medîne'yi terk etti; önce Vâdi'l-Kurâ'ya gittiler."
+        },
+        {
+          "id": "E4_4_ezriat",
+          "name_tr": "Ezriât'a yerleşme",
+          "description_tr": "Nihaî varış noktaları Şam'ın güneyindeki Ezriât (Dera) oldu."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~birkaç yüz (kesin rakam verilmez)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Bedir gazilerinin çoğu katıldı"
+        },
+        "ansar": {
+          "note_tr": "Evs ve Hazrec'ten gönüllüler"
+        }
+      },
+      "equipment": {
+        "note_tr": "Bedir'de ele geçirilen ganîmetlerle güçlenmiş donanım"
+      },
+      "banner_bearer": {
+        "tr": "Hamza b. Abdilmuttalib (bir rivayette Ebû Lübâbe)",
+        "en": "Ḥamza b. ʿAbd al-Muṭṭalib (or Abū Lubāba in one report)"
+      },
+      "medina_deputy": {
+        "tr": "Ebû Lübâbe b. Abdilmünzir (bir rivayette)",
+        "en": "Abū Lubāba b. ʿAbd al-Mundhir (in one report)"
+      }
+    },
+    "enemy": {
+      "total": "~700",
+      "tribe": "Benî Kaynukā",
+      "leader": {
+        "tr": "Belirli bir lider ismi kaynaklarda net geçmez",
+        "en": "No specific leader is clearly named in sources"
+      },
+      "composition": {
+        "muharip_erkek": {
+          "count": 700,
+          "note_tr": "Kaynukā'nın savaşçı erkek nüfusu"
+        },
+        "zirhli": {
+          "count": 300,
+          "note_tr": "Kaynaklara göre 300'ü zırhlı (dirʿ)"
+        }
+      },
+      "equipment": {
+        "note_tr": "Silah imalatçıları olarak iyi donanımlı; zırhlar, kılıçlar, mızraklar. Ancak kuşatma savaşı için yetersiz erzak."
+      },
+      "allies": {
+        "tr": "Hazrec kabilesi (özellikle Abdullah b. Ubeyy) — ancak fiili askerî destek sağlanmadı",
+        "en": "Khazraj tribe (especially ʿAbdullāh b. Ubayy) — but no actual military support was provided"
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Benî Kaynukā",
+        "note_tr": "En ayrıntılı anlatım; çarşı hadisesi, kuşatma ve sürgün."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Benî Kaynukā",
+        "note_tr": "15 günlük kuşatma süresi, sancak ve ganîmet detayları."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusul ve'l-Mülûk",
+        "section": "Senetü isneteyn (2 AH olayları)",
+        "note_tr": "Kronolojik bağlam ve Âl-i İmrân 3:12-13 nüzûl sebebi."
+      },
+      {
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-Kübrâ",
+        "section": "Megāzî bölümü",
+        "note_tr": "Kısa ama öz bilgi; Hamza'nın sancak taşıması."
+      }
+    ],
+    "hadith": [
+      "hds_kaynuka_uyari",
+      "hds_kaynuka_sefaat",
+      "hds_kaynuka_surgun"
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Kaynukā'nın ekonomik gücü ve Medîne siyasetindeki rolü."
+      },
+      {
+        "author": "M. J. Kister",
+        "work": "The Market of the Prophet",
+        "note_tr": "Medîne pazar ekonomisi ve Kaynukā çarşısının işlevi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Sancak taşıyıcısı",
+        "positions": [
+          {
+            "view_tr": "Hamza b. Abdilmuttalib",
+            "sources": [
+              "İbn Hişâm",
+              "İbn Sa'd"
+            ]
+          },
+          {
+            "view_tr": "Ebû Lübâbe b. Abdilmünzir",
+            "sources": [
+              "Bazı geç rivayetler"
+            ]
+          }
+        ],
+        "note_tr": "Çoğunluk görüş Hz. Hamza'dır."
+      },
+      {
+        "topic": "Kuşatma süresi",
+        "positions": [
+          {
+            "view_tr": "15 gün (gece)",
+            "sources": [
+              "Vâkıdî",
+              "İbn Hişâm"
+            ]
+          },
+          {
+            "view_tr": "15 gece (tam)",
+            "sources": [
+              "İbn Sa'd"
+            ]
+          }
+        ],
+        "note_tr": "Kaynaklarda esasen mutabakat var; 15 gün/gece arasındaki fark lafzîdir."
+      },
+      {
+        "topic": "Çarşı hâdisesinin ayrıntıları",
+        "positions": [
+          {
+            "view_tr": "Kadının elbisesi kuyumcu tarafından iğnelendi",
+            "sources": [
+              "İbn Hişâm (İbn İshâk yoluyla)"
+            ]
+          },
+          {
+            "view_tr": "Genel bir aşağılama ve kavga çıktı",
+            "sources": [
+              "Bazı geç kaynaklar"
+            ]
+          }
+        ],
+        "note_tr": "Erken kaynaklar iğneleme detayında mutabık; geç kaynaklar bazen sadeleştirir."
+      },
+      {
+        "topic": "Sürgün yeri",
+        "positions": [
+          {
+            "view_tr": "Ezriât (Dera)",
+            "sources": [
+              "İbn Hişâm",
+              "Vâkıdî"
+            ]
+          },
+          {
+            "view_tr": "Şam bölgesi (genel)",
+            "sources": [
+              "Taberî"
+            ]
+          }
+        ],
+        "note_tr": "Ezriât en spesifik ve kabul gören isimdir."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "12-13",
+      "phase_id": "F1_bedir_sonrasi",
+      "topic": {
+        "tr": "Kaynukā'nın meydan okumasına cevap: 'Yakında mağlup edileceksiniz'",
+        "en": "Response to Qaynuqāʿ's defiance: 'You will be overcome'"
+      },
+      "key_verses": [
+        {
+          "ayah": 12,
+          "topic_tr": "Kâfirlere hitap: 'Mağlup olacak ve cehenneme toplanacaksınız'",
+          "phase_id": "F1_bedir_sonrasi",
+          "esbab_id": "en_aliimran_3_12"
+        },
+        {
+          "ayah": 13,
+          "topic_tr": "Bedir'deki iki gruba işaret: Allah yolunda savaşan topluluk ve kâfir topluluk",
+          "phase_id": "F1_bedir_sonrasi",
+          "esbab_id": "en_aliimran_3_13"
+        }
+      ],
+      "nuzul_context_tr": "Bedir zaferinden sonra Hz. Peygamber Kaynukā'yı uyardığında, onlar meydan okuyunca bu âyetler indi."
+    },
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "58",
+      "phase_id": "F2_fitil",
+      "topic": {
+        "tr": "Ahdi bozanlara karşılık verme izni",
+        "en": "Permission to respond to those who breach their covenant"
+      },
+      "key_verses": [
+        {
+          "ayah": 58,
+          "topic_tr": "Bir kavmin hıyânetinden korktuğunda, ahdini eşit biçimde onlara at",
+          "phase_id": "F2_fitil"
+        }
+      ],
+      "nuzul_context_tr": "Bazı müfessirlere göre Kaynukā bağlamında nâzil; diğerleri Nadîr bağlamı der. Genel prensip olarak her iki duruma da uygulanır."
+    },
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "118-120",
+      "phase_id": "F0_background",
+      "topic": {
+        "tr": "Dış düşmanlara karşı uyarı — kendinizden olmayanları sırdaş edinmeyin",
+        "en": "Warning against taking outsiders as intimates"
+      },
+      "key_verses": [
+        {
+          "ayah": 118,
+          "topic_tr": "Kendinizden başkasını sırdaş edinmeyin; onlar size fenalık etmekten geri durmazlar",
+          "phase_id": "F0_background"
+        }
+      ],
+      "nuzul_context_tr": "Bazı müfessirler Kaynukā dönemiyle ilişkilendirir; genel kontekst Medîne'deki Yahudi kabileleriyle ilişkilerdir."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_kaynuka_uyari",
+      "topic": "Hz. Peygamber'in Kaynukā çarşısında uyarması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_kaynuka_sefaat",
+      "topic": "Abdullah b. Ubeyy'in Hz. Peygamber'in zırhını tutarak şefaat etmesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_kaynuka_surgun",
+      "topic": "Benî Kaynukā'nın sürgünü ve mallarının müsâderesi",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Kuşatma savaşı başarıyla tamamlandı; müslümanlar ilk defa müstahkem bir hedefi ele geçirdi. Ele geçirilen silahlar ve zırhlar orduyu güçlendirdi.",
+      "en": "First successful siege operation by Muslims against a fortified target. Captured weapons and armor significantly strengthened Muslim military capacity."
+    },
+    "political": {
+      "tr": "Medîne Vesîkası'nın yaptırım gücü kanıtlandı: ahdi bozan taraf cezalandırıldı. Abdullah b. Ubeyy'in etkisinin sınırları ortaya çıktı — şefaati ancak sürgünü sağlayabildi, cezayı tamamen kaldıramadı.",
+      "en": "The enforceability of the Medina Constitution was demonstrated. ʿAbdullāh b. Ubayy's influence was shown to have limits — his intercession could soften the punishment to exile but not prevent it entirely."
+    },
+    "social": {
+      "tr": "Kuyumculuk ve silah imalatı sektörü Kaynukā'nın çıkışıyla müslümanlara geçti. Medîne'nin ekonomik yapısı değişti. Kalan iki Yahudi kabilesi (Nadîr, Kurayza) durumu dikkatle izledi.",
+      "en": "The goldsmithing and arms manufacturing sectors passed to Muslim control. Medina's economic structure shifted. The remaining two Jewish tribes (Naḍīr, Qurayẓa) watched developments closely."
+    },
+    "theological": {
+      "tr": "Ahde vefanın ve ihlâlin sonuçlarının Kur'ânî temeli pekişti. Âl-i İmrân 3:12-13'ün tahakkuku olarak değerlendirildi.",
+      "en": "The Quranic framework for covenant fidelity and the consequences of breach was reinforced. The events were seen as the fulfillment of Āl-i ʿImrān 3:12-13."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 0,
+        "note_tr": "Kuşatma sırasında müslüman şehidi kayıtlarda yok (çarşı hâdisesinde 1 müslüman öldürülmüştü)."
+      },
+      "enemy": {
+        "killed": 0,
+        "note_tr": "Teslimle sonuçlandı; toplu katliam yapılmadı. Sürgün cezası uygulandı."
+      }
+    },
+    "treaties": {
+      "tr": "Kaynukā'nın Medîne Vesîkası'ndaki statüsü tamamen sona erdi. Sürgün, ahit ihlali için emsal teşkil etti.",
+      "en": "Qaynuqāʿ's status under the Constitution of Medina was permanently terminated. The exile set a precedent for covenant violations."
+    },
+    "territorial_change": {
+      "tr": "Kaynukā mahallesi, çarşısı ve arazileri müslümanlara geçti. Medîne'nin güneybatısında Yahudi nüfusu kalmadı.",
+      "en": "The Qaynuqāʿ quarter, market, and lands passed to Muslim control. No Jewish population remained in southwestern Medina."
+    },
+    "subsequent_events": [
+      {
+        "event_tr": "Benî Nadîr sürgünü (4 AH) — ikinci emsal",
+        "battle_id": "gazve_beni_nadir"
+      },
+      {
+        "event_tr": "Benî Kurayza muhasarası (5 AH) — üçüncü ve son",
+        "battle_id": "gazve_beni_kurayza"
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 15,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_siege": "#1565C0",
+      "route_exile": "#FF8F00",
+      "landmark": "#6A1B9A",
+      "market": "#FF6F00"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "point",
+        "default_visible": true
+      },
+      {
+        "id": "layer_siege",
+        "name": "Kuşatma hattı",
+        "type": "polygon",
+        "default_visible": true
+      },
+      {
+        "id": "layer_exile_route",
+        "name": "Sürgün güzergâhı",
+        "type": "line",
+        "default_visible": false
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "animation",
+        "default_visible": true
+      }
+    ]
+  }
+}

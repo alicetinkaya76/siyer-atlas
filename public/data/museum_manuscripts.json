@@ -1,0 +1,707 @@
+{
+  "category": "manuscripts_books",
+  "version": "v1.0.0",
+  "total_items": 17,
+  "subcategories": {
+    "mushaf": "Mushaf ve Kur'ân nüshaları",
+    "sahife": "İlk yazılı kayıtlar ve sahîfeler",
+    "hadith_collection": "İlk hadis koleksiyonları",
+    "treaty": "Antlaşma ve mektup metinleri"
+  },
+  "items": [
+    {
+      "id": "ms_mushaf_osman",
+      "subcategory": "mushaf",
+      "name": {
+        "tr": "Hz. Osman Mushafı (İmam Mushaf)",
+        "en": "Uthman's Mushaf (Imam Codex)",
+        "ar": "مُصحف عثمان (المصحف الإمام)"
+      },
+      "type": {
+        "tr": "Kur'ân nüshası — deri üzerine",
+        "en": "Quran manuscript — on parchment",
+        "ar": "مصحف على رقّ"
+      },
+      "material": {
+        "tr": "Deri (rık), mürekkep",
+        "en": "Parchment, ink",
+        "ar": "رقّ، حبر"
+      },
+      "period": "644-656 M (23-35 H)",
+      "description": {
+        "tr": "Hz. Osman döneminde (644-656) istinsah edilen standart Mushaf. Zeyd b. Sâbit başkanlığında komisyon tarafından hazırlanmıştır. Mekke, Medine, Kûfe, Basra ve Şam'a gönderilen 4-7 nüsha. Topkapı ve Taşkent nüshaları günümüze ulaşmıştır.",
+        "en": "Standard Quran codex compiled under Uthman's caliphate. Prepared by a commission led by Zayd ibn Thabit. 4-7 copies sent to major cities. Topkapi and Tashkent copies survive.",
+        "ar": "المصحف المعياري الذي نُسخ في عهد عثمان. أعدته لجنة برئاسة زيد بن ثابت."
+      },
+      "hadith_refs": [
+        "Buhârî, Fedâilü'l-Kur'ân 3"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "osman"
+          },
+          {
+            "atlas_companion_id": "comp_zeyd_sabit"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_mushaf_ebubekir",
+      "subcategory": "mushaf",
+      "name": {
+        "tr": "Hz. Ebû Bekir Mushafı (İlk Cem)",
+        "en": "Abu Bakr's Mushaf (First Compilation)",
+        "ar": "مصحف أبي بكر (الجمع الأول)"
+      },
+      "type": {
+        "tr": "İlk toplanan Kur'ân nüshası",
+        "en": "First compiled Quran copy",
+        "ar": "أول جمع للقرآن"
+      },
+      "material": {
+        "tr": "Hurma dalları, düz taşlar, deri parçaları → tek ciltte birleştirme",
+        "en": "Palm stalks, flat stones, parchment pieces → compiled into single volume",
+        "ar": "عُسب النخل، اللخاف، الرقاع → مصحف واحد"
+      },
+      "period": "632-634 M (11-13 H)",
+      "description": {
+        "tr": "Yemâme Savaşı'nda (632) 70 hâfız sahâbînin şehit düşmesinin ardından Hz. Ömer'in teklifiyle Hz. Ebû Bekir, Zeyd b. Sâbit'i görevlendirerek Kur'ân'ı tek bir mushafta toplamıştır. Suhuf olarak Hz. Hafsa'da muhafaza edilmiştir.",
+        "en": "After 70 Quran memorizers were martyred at Yamama (632), Abu Bakr commissioned Zayd ibn Thabit to compile the Quran into a single codex. Preserved with Hafsa.",
+        "ar": "بعد استشهاد 70 حافظاً في اليمامة، كلّف أبو بكر زيد بن ثابت بجمع القرآن في مصحف واحد."
+      },
+      "hadith_refs": [
+        "Buhârî, Fedâilü'l-Kur'ân 3"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ebubekir"
+          },
+          {
+            "atlas_companion_id": "omer"
+          },
+          {
+            "atlas_companion_id": "comp_zeyd_sabit"
+          },
+          {
+            "atlas_companion_id": "comp_hafsa"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_sahife_sadika",
+      "subcategory": "sahife",
+      "name": {
+        "tr": "Sahîfe-i Sâdıka",
+        "en": "Al-Sahifa al-Sadiqa (The Truthful Script)",
+        "ar": "الصحيفة الصادقة"
+      },
+      "type": {
+        "tr": "Hadis koleksiyonu — yazılı sahîfe",
+        "en": "Hadith collection — written document",
+        "ar": "مجموعة أحاديث — صحيفة مكتوبة"
+      },
+      "material": {
+        "tr": "Deri/papirüs",
+        "en": "Parchment/papyrus",
+        "ar": "رقّ / بردي"
+      },
+      "period": "~7. yüzyıl ortası",
+      "description": {
+        "tr": "Abdullah b. Amr b. el-Âs'ın Hz. Peygamber'den bizzat duyarak yazdığı hadis koleksiyonu. ~1,000 hadis içerdiği rivayet edilir. İlk yazılı hadis kaynağı sayılır. Ahmed b. Hanbel'in Müsned'inde kısmen korunmuştur.",
+        "en": "Hadith collection written by Abdullah ibn Amr directly from the Prophet. Reportedly contained ~1,000 hadiths. Considered the first written hadith source.",
+        "ar": "مجموعة أحاديث كتبها عبد الله بن عمرو بن العاص عن النبي ﷺ مباشرة."
+      },
+      "hadith_refs": [
+        "Ebû Dâvûd, İlim 3",
+        "Dârimî, Mukaddime 43"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_abdullah_b_amr"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_sahife_ali",
+      "subcategory": "sahife",
+      "name": {
+        "tr": "Hz. Ali'nin Sahîfesi",
+        "en": "Ali's Sahifa",
+        "ar": "صحيفة عليّ"
+      },
+      "type": {
+        "tr": "Hukûkî metin — diyetler ve hükümler",
+        "en": "Legal text — blood money and rulings",
+        "ar": "نص قانوني — الديات والأحكام"
+      },
+      "material": {
+        "tr": "Kılıcının kınında muhafaza edilen sahîfe",
+        "en": "Document kept in his sword scabbard",
+        "ar": "صحيفة محفوظة في قراب سيفه"
+      },
+      "period": "~630-660 M",
+      "description": {
+        "tr": "Hz. Ali'nin kılıcının kınında taşıdığı, Hz. Peygamber'den rivayet ettiği hükümler. Medine'nin haremliği, diyetler, zimmî hakları gibi konuları içerir. Buhârî'de birçok yerde atıfta bulunulur.",
+        "en": "Legal rulings Ali carried in his sword scabbard, narrated from the Prophet. Covers Madinah's sanctity, blood money, and dhimmi rights.",
+        "ar": "أحكام كان علي يحملها في قراب سيفه. تتضمن حرمة المدينة والديات وحقوق أهل الذمة."
+      },
+      "hadith_refs": [
+        "Buhârî, İlim 39",
+        "Buhârî, Diyât 24"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_medine_vesikasi",
+      "subcategory": "treaty",
+      "name": {
+        "tr": "Medine Vesîkası (Medine Sözleşmesi)",
+        "en": "Constitution of Medina",
+        "ar": "صحيفة المدينة (دستور المدينة)"
+      },
+      "type": {
+        "tr": "Siyasî-hukukî antlaşma",
+        "en": "Political-legal charter",
+        "ar": "ميثاق سياسي-قانوني"
+      },
+      "material": {
+        "tr": "Deri/papirüs üzerine yazılı",
+        "en": "Written on parchment/papyrus",
+        "ar": "مكتوبة على رقّ"
+      },
+      "period": "622-623 M (1-2 H)",
+      "description": {
+        "tr": "Hz. Peygamber'in Medine'ye hicretinin ardından Muhâcirûn, Ensâr ve Yahudi kabileleri arasında yapılan çok taraflı antlaşma. 47-52 madde. İlk yazılı anayasa metinlerinden kabul edilir. İbn İshâk'ın Sîret'inde tam metni yer alır.",
+        "en": "Multilateral charter between Muhajirun, Ansar, and Jewish tribes after the Prophet's migration. 47-52 articles. Considered one of the first written constitutions.",
+        "ar": "ميثاق متعدد الأطراف بين المهاجرين والأنصار والقبائل اليهودية. يُعدّ من أقدم الدساتير المكتوبة."
+      },
+      "hadith_refs": [
+        "İbn İshâk, Sîret",
+        "İbn Hişâm, II/501-504"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ebubekir"
+          },
+          {
+            "atlas_companion_id": "omer"
+          },
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_hudeybiye_metni",
+      "subcategory": "treaty",
+      "name": {
+        "tr": "Hudeybiye Antlaşması Metni",
+        "en": "Treaty of Hudaybiyyah Text",
+        "ar": "نص صلح الحُديبية"
+      },
+      "type": {
+        "tr": "Barış antlaşması",
+        "en": "Peace treaty",
+        "ar": "معاهدة صلح"
+      },
+      "material": {
+        "tr": "Deri üzerine yazılı",
+        "en": "Written on parchment",
+        "ar": "مكتوبة على رقّ"
+      },
+      "period": "628 M (6 H)",
+      "description": {
+        "tr": "Hz. Peygamber ile Kureyş müşrikleri arasında Hudeybiye'de yapılan 10 yıllık barış antlaşması. Hz. Ali kâtiplik yapmıştır. Kur'ân'da Fetih sûresinde (48:1) 'apaçık fetih' olarak nitelendirilir.",
+        "en": "10-year peace treaty between the Prophet and Quraysh at Hudaybiyyah. Ali served as scribe. Described in the Quran as a 'manifest victory' (48:1).",
+        "ar": "معاهدة صلح لعشر سنوات. كتبها علي بن أبي طالب. وُصفت في القرآن بـ'الفتح المبين'."
+      },
+      "hadith_refs": [
+        "Buhârî, Şurût 15",
+        "Müslim, Cihâd 90"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ali"
+          }
+        ],
+        "battles": [
+          {
+            "atlas_battle_id": "gazve_hudeybiye"
+          }
+        ],
+        "locations": [
+          {
+            "atlas_location_id": "hudeybiye"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_mektup_herakleios",
+      "subcategory": "treaty",
+      "name": {
+        "tr": "Hz. Peygamber'in Herakleios'a Mektubu",
+        "en": "Prophet's Letter to Heraclius",
+        "ar": "كتاب النبي ﷺ إلى هرقل"
+      },
+      "type": {
+        "tr": "Diplomatik mektup",
+        "en": "Diplomatic letter",
+        "ar": "رسالة دبلوماسية"
+      },
+      "material": {
+        "tr": "Deri, mühürlü",
+        "en": "Parchment, sealed",
+        "ar": "رقّ مختوم"
+      },
+      "period": "628-629 M (7 H)",
+      "description": {
+        "tr": "Hz. Peygamber'in Bizans İmparatoru Herakleios'a gönderdiği İslâm'a davet mektubu. Dihye el-Kelbî eliyle ulaştırılmıştır. 'Muhammed'ür-Rasûlüllah' yazılı gümüş mühürle mühürlenmiştir. Buhârî'de Ebû Süfyân'ın Herakleios'la görüşmesi ayrıntılı anlatılır.",
+        "en": "Letter inviting Byzantine Emperor Heraclius to Islam. Delivered by Dihya al-Kalbi. Sealed with the silver seal inscribed 'Muhammad, Messenger of Allah'.",
+        "ar": "رسالة دعوة إلى هرقل إمبراطور بيزنطة. حملها دحية الكلبي. خُتمت بخاتم فضي."
+      },
+      "hadith_refs": [
+        "Buhârî, Bed'ü'l-Vahy 7",
+        "Müslim, Cihâd 74"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "dihye_kelbi"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_mektup_mukavkis",
+      "subcategory": "treaty",
+      "name": {
+        "tr": "Hz. Peygamber'in Mukavkıs'a Mektubu",
+        "en": "Prophet's Letter to Muqawqis",
+        "ar": "كتاب النبي ﷺ إلى المقوقس"
+      },
+      "type": {
+        "tr": "Diplomatik mektup",
+        "en": "Diplomatic letter",
+        "ar": "رسالة دبلوماسية"
+      },
+      "material": {
+        "tr": "Deri, mühürlü",
+        "en": "Parchment, sealed",
+        "ar": "رقّ مختوم"
+      },
+      "period": "628-629 M (7 H)",
+      "description": {
+        "tr": "Mısır ve İskenderiye patriği Mukavkıs'a gönderilen İslâm'a davet mektubu. Hâtıb b. Ebî Beltea eliyle ulaştırılmıştır. Mukavkıs hediyeler göndermiş; Mâriye el-Kıptiyye de bu hediyeler arasındadır.",
+        "en": "Letter to the Patriarch of Egypt inviting him to Islam. Delivered by Hatib ibn Abi Balta'a. Muqawqis sent gifts in response, including Mariya al-Qibtiyya.",
+        "ar": "رسالة إلى المقوقس عظيم مصر. حملها حاطب بن أبي بلتعة."
+      },
+      "hadith_refs": [
+        "İbn Sa'd, Tabakât I/260",
+        "Belâzürî, Fütûh"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "hatib_belta"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_sahife_cabir",
+      "subcategory": "hadith_collection",
+      "name": {
+        "tr": "Câbir b. Abdullah'ın Hadis Sahîfesi",
+        "en": "Jabir ibn Abdullah's Hadith Collection",
+        "ar": "صحيفة جابر بن عبد الله"
+      },
+      "type": {
+        "tr": "Hadis koleksiyonu",
+        "en": "Hadith collection",
+        "ar": "مجموعة أحاديث"
+      },
+      "material": {
+        "tr": "Sahîfe",
+        "en": "Written document",
+        "ar": "صحيفة"
+      },
+      "period": "~660-690 M",
+      "description": {
+        "tr": "Câbir b. Abdullah'ın Hz. Peygamber'den ve sahâbîlerden derlediği hadisler. Hac menâsikiyle ilgili rivayetler özellikle önemlidir. Veda Haccı'nın en detaylı anlatımı Câbir'e aittir.",
+        "en": "Hadiths compiled by Jabir from the Prophet and companions. His narration of the Farewell Pilgrimage is the most detailed account.",
+        "ar": "أحاديث جمعها جابر عن النبي ﷺ والصحابة. روايته لحجة الوداع هي الأكثر تفصيلاً."
+      },
+      "hadith_refs": [
+        "Müslim, Hac 147 (Câbir hadisi)"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_cabir_b_abdallah"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          },
+          {
+            "atlas_location_id": "mekke"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_sahife_hemmam",
+      "subcategory": "hadith_collection",
+      "name": {
+        "tr": "Sahîfe-i Hemmâm b. Münebbih",
+        "en": "Sahifa of Hammam ibn Munabbih",
+        "ar": "صحيفة همّام بن منبّه"
+      },
+      "type": {
+        "tr": "Hadis koleksiyonu — yazılı sahîfe",
+        "en": "Hadith collection — written document",
+        "ar": "مجموعة أحاديث مكتوبة"
+      },
+      "material": {
+        "tr": "Papirüs/deri",
+        "en": "Papyrus/parchment",
+        "ar": "بردي / رقّ"
+      },
+      "period": "~700 M (80 H civarı)",
+      "description": {
+        "tr": "Ebû Hüreyre'den rivayet edilen 138 hadisi içeren koleksiyon. Hemmâm b. Münebbih tarafından derlenmiştir. Berlin Staatsbibliothek'te bir nüshası mevcuttur. Modern dönemde M. Hamidullah tarafından neşredilmiştir.",
+        "en": "Collection of 138 hadiths from Abu Hurayra, compiled by Hammam. A copy exists in the Berlin Staatsbibliothek. Published in modern times by M. Hamidullah.",
+        "ar": "مجموعة 138 حديثاً عن أبي هريرة. جمعها همّام بن منبّه. نسخة في مكتبة برلين."
+      },
+      "hadith_refs": [
+        "Ahmed b. Hanbel, Müsned II/312"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "comp_ebu_hureyre_det"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_muhur",
+      "subcategory": "treaty",
+      "name": {
+        "tr": "Peygamber Mührü",
+        "en": "Prophet's Seal",
+        "ar": "خاتم النبي ﷺ"
+      },
+      "type": {
+        "tr": "Resmi mühür — gümüş yüzük",
+        "en": "Official seal — silver ring",
+        "ar": "ختم رسمي — خاتم فضة"
+      },
+      "material": {
+        "tr": "Gümüş, habeşî akik taşı",
+        "en": "Silver, Abyssinian agate",
+        "ar": "فضة، عقيق حبشي"
+      },
+      "period": "628 M (7 H)",
+      "description": {
+        "tr": "Hz. Peygamber'in resmî mektuplarını mühürlemek için yaptırdığı gümüş yüzük. 'Muhammed Resûlüllah' yazılıdır — üstten alta: Allah / Resûl / Muhammed. Hz. Peygamber, Ebû Bekir ve Ömer döneminde kullanılmış, Hz. Osman zamanında Erîs kuyusuna düşürmüştür.",
+        "en": "Silver ring seal made for official correspondence. Inscribed 'Muhammad Rasul Allah'. Used by the Prophet, Abu Bakr, and Umar. Lost when Uthman dropped it in the Aris well.",
+        "ar": "خاتم فضة للمراسلات الرسمية. نقش عليه 'محمد رسول الله'. فُقد حين سقط في بئر أريس."
+      },
+      "hadith_refs": [
+        "Buhârî, Libâs 50",
+        "Müslim, Libâs 58"
+      ],
+      "atlas_cross_ref": {
+        "persons": [
+          {
+            "atlas_companion_id": "ebubekir"
+          },
+          {
+            "atlas_companion_id": "omer"
+          },
+          {
+            "atlas_companion_id": "osman"
+          }
+        ],
+        "battles": [],
+        "locations": [
+          {
+            "atlas_location_id": "medine"
+          }
+        ]
+      },
+      "enrichment_status": "verified"
+    },
+    {
+      "id": "ms_mektup_kisra",
+      "name": {
+        "tr": "Hz. Peygamber'in Kisrâ'ya Mektubu",
+        "en": "Prophet's Letter to Khosrau (Kisrā)",
+        "ar": "كتاب النبي إلى كسرى"
+      },
+      "category": "manuscripts",
+      "subcategory": "mektup",
+      "period": "medine",
+      "date_hijri": "6-7",
+      "description": {
+        "tr": "Hz. Peygamber (s.a.v.) İslâm'a davet mektubu gönderdiği Sâsânî hükümdarı II. Hüsrev (Kisrâ Pervîz). Kisrâ mektubu yırtmış, Hz. Peygamber 'Allah da onun mülkünü parçalasın' diye dua etmiştir.",
+        "en": "The Prophet (pbuh) sent an invitation to Islam to the Sasanian emperor Khosrau II (Perviz). Khosrau tore the letter; the Prophet prayed that God tear his kingdom apart."
+      },
+      "sources": [
+        "Buhârî, Megâzî 82",
+        "Taberî, Târîh II/654"
+      ],
+      "companion_ids": [
+        "comp_abdullah_huzafe"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "mektup",
+        "diplomasi",
+        "İran",
+        "Sâsânîler"
+      ]
+    },
+    {
+      "id": "ms_mektup_necasi",
+      "name": {
+        "tr": "Hz. Peygamber'in Necâşî'ye Mektubu",
+        "en": "Prophet's Letter to the Negus (Najāshī)",
+        "ar": "كتاب النبي إلى النجاشي"
+      },
+      "category": "manuscripts",
+      "subcategory": "mektup",
+      "period": "medine",
+      "date_hijri": "6-7",
+      "description": {
+        "tr": "Habeşistan kralı Ashame en-Necâşî'ye gönderilen İslâm'a davet mektubu. Necâşî mektubu kabul edip Müslüman olmuştur. Ayrıca Ümmü Habîbe'nin nikâhını kıymıştır.",
+        "en": "Letter of Islamic invitation sent to Ashama, the Negus of Abyssinia. The Negus accepted Islam and also officiated the marriage of Umm Ḥabība on the Prophet's behalf."
+      },
+      "sources": [
+        "İbn Hişâm, Sîre IV/254",
+        "Ebû Dâvûd, Nikâh 27"
+      ],
+      "companion_ids": [
+        "comp_ummu_habibe"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "mektup",
+        "diplomasi",
+        "Habeşistan",
+        "hicret"
+      ]
+    },
+    {
+      "id": "ms_mektup_munzir",
+      "name": {
+        "tr": "Hz. Peygamber'in Münzir b. Sâvâ'ya Mektubu",
+        "en": "Prophet's Letter to al-Mundhir ibn Sāwā",
+        "ar": "كتاب النبي إلى المنذر بن ساوى"
+      },
+      "category": "manuscripts",
+      "subcategory": "mektup",
+      "period": "medine",
+      "date_hijri": "8",
+      "description": {
+        "tr": "Bahreyn valisi Münzir b. Sâvâ'ya gönderilen İslâm'a davet mektubu. Münzir Müslüman olmuş ve bölgedeki Mecûsîler ile Yahudilere cizyeyi kabul ettirmiştir.",
+        "en": "Letter to al-Mundhir ibn Sāwā, ruler of Bahrain. Al-Mundhir accepted Islam and implemented jizya for the region's Zoroastrians and Jews."
+      },
+      "sources": [
+        "İbn Sa'd, Tabakât I/263",
+        "Belâzürî, Fütûh 79"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "mektup",
+        "diplomasi",
+        "Bahreyn",
+        "cizye"
+      ]
+    },
+    {
+      "id": "ms_mektup_haris_gassani",
+      "name": {
+        "tr": "Hz. Peygamber'in Hâris el-Gassânî'ye Mektubu",
+        "en": "Prophet's Letter to al-Ḥārith al-Ghassānī",
+        "ar": "كتاب النبي إلى الحارث الغساني"
+      },
+      "category": "manuscripts",
+      "subcategory": "mektup",
+      "period": "medine",
+      "date_hijri": "6-7",
+      "description": {
+        "tr": "Gassânî kralı Hâris b. Ebî Şemir'e gönderilen davet mektubu. Hâris mektubu reddetmiş ve elçi Şücâ' b. Vehb'i tehdit etmiştir. Bu gerginlik Mûte Savaşı'na zemin hazırlamıştır.",
+        "en": "Letter to the Ghassanid king al-Ḥārith ibn Abī Shamir. He rejected the letter and threatened envoy Shujāʿ ibn Wahb, contributing to tensions leading to the Battle of Muʾta."
+      },
+      "sources": [
+        "Taberî, Târîh II/644",
+        "İbn Hişâm, Sîre IV/254"
+      ],
+      "companion_ids": [],
+      "battle_ids": [
+        "mute"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "mektup",
+        "diplomasi",
+        "Gassânîler",
+        "Mûte"
+      ]
+    },
+    {
+      "id": "ms_mektup_hawze",
+      "name": {
+        "tr": "Hz. Peygamber'in Hevze b. Ali'ye Mektubu",
+        "en": "Prophet's Letter to Hawdha ibn ʿAlī",
+        "ar": "كتاب النبي إلى هوذة بن علي"
+      },
+      "category": "manuscripts",
+      "subcategory": "mektup",
+      "period": "medine",
+      "date_hijri": "6-7",
+      "description": {
+        "tr": "Yemâme hâkimi Hevze b. Ali el-Hanefî'ye gönderilen davet mektubu. Hevze ortaklık şartı koşmuş, Hz. Peygamber reddetmiştir. Hevze kısa süre sonra vefat etmiştir.",
+        "en": "Letter to Hawdha ibn ʿAlī of Yamāma. Hawdha demanded a share of power; the Prophet refused. Hawdha died shortly thereafter."
+      },
+      "sources": [
+        "İbn Sa'd, Tabakât I/261",
+        "Taberî, Târîh II/648"
+      ],
+      "companion_ids": [],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "mektup",
+        "diplomasi",
+        "Yemâme",
+        "Hanefî"
+      ]
+    },
+    {
+      "id": "ms_vasiyetname",
+      "name": {
+        "tr": "Hz. Peygamber'in Son Vasiyetleri",
+        "en": "The Prophet's Final Testaments",
+        "ar": "وصايا النبي الأخيرة"
+      },
+      "category": "manuscripts",
+      "subcategory": "vesika",
+      "period": "medine",
+      "date_hijri": "11",
+      "description": {
+        "tr": "Hz. Peygamber'in (s.a.v.) vefatından önce son vasiyetleri: namazı koruyun, kölelere iyi davranın, Üsâme ordusunu gönderin. 'Allah'ım, Refîk-i A'lâ'yı tercih ediyorum' buyurmuştur.",
+        "en": "The Prophet's final words before death: guard the prayer, treat the enslaved well, dispatch Usāma's army. He chose 'the Highest Companion' (al-Rafīq al-Aʿlā)."
+      },
+      "sources": [
+        "Buhârî, Megâzî 83",
+        "Müslim, Fedâil 87"
+      ],
+      "companion_ids": [
+        "aise",
+        "comp_usame_zeyd"
+      ],
+      "battle_ids": [],
+      "location_ids": [
+        "medine"
+      ],
+      "tags": [
+        "vasiyet",
+        "vefat",
+        "son günler"
+      ]
+    }
+  ]
+}

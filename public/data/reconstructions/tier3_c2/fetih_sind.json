@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "recon_fetih_sind",
+    "battle_id": "fetih_sind",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 26.0,
+        "lng": 68.5
+      },
+      "name": "Sind Fethi",
+      "modern_location": "Sind bölgesi, Pakistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Deniz + Kara",
+      "date_range": "93",
+      "duration": "",
+      "description": "17 yaşındaki Muhammed b. Kâsım Sind'e ilerledi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Deybül",
+      "date_range": "93",
+      "duration": "",
+      "description": "Deybül limanı fethedildi.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sind Muharebesi",
+      "date_range": "93",
+      "duration": "",
+      "description": "Racâ Dâhir yenildi ve öldürüldü.",
+      "events": []
+    },
+    {
+      "id": "phase_4",
+      "order": 4,
+      "name": "Kuzeye İlerleme",
+      "date_range": "93-96",
+      "duration": "",
+      "description": "Mültan'a kadar ilerlendi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Muhammed b. Kâsım es-Sekafî",
+      "estimated_troops": 6000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Racâ Dâhir",
+      "estimated_troops": 20000,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 436-444",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Çeçnemê (Farsça kaynak)",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "20-21",
+      "topic": {
+        "tr": "Fetih vaadi — elde edeceğiniz ganîmetler ve Allah'ın size açacağı zaferler",
+        "en": "Promise of future victories and gains"
+      },
+      "key_verses": [
+        {
+          "ayah": 21,
+          "topic_tr": "Henüz elde edemediğiniz başka ganîmetler — uzak fetihler bağlamı",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hind_gazve",
+      "topic": "Hz. Peygamber: 'Ümmetimden bir ordu Hind'e gazve edecektir' — Sind fethi bağlamı",
+      "relevance": "direct",
+      "source": "Nesâî, Cihâd, 41; Ahmed b. Hanbel"
+    }
+  ],
+  "impact": {
+    "result": "Sind fethedildi",
+    "significance": "İslâm'ın Hint Yarımadası'na ilk kalıcı girişi. Emevî İmparatorluğu'nun en doğu sınırı.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

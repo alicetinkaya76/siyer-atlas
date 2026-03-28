@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "id": "reconstruction_bedir_mevid",
+    "battle_id": "gazve_bedir_mevid",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Bedir-i Mev'id (Bedir-i Suğrâ / Bedir-i Âhire) — Uhud sonunda Ebû Süfyân'ın 'Gelecek yıl Bedir'de buluşalım' meydan okumasına karşılık, Hz. Peygamber'in 1.500 kişiyle Bedir'e gidip 8 gün beklemesi. Kureyş gelmedi. Psikolojik zafer. Zilkade 4 AH."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 23.7833,
+        "lng": 38.7833
+      },
+      "bbox": {
+        "north": 23.81,
+        "south": 23.75,
+        "east": 38.82,
+        "west": 38.74
+      },
+      "terrain_type": "valley_plain",
+      "terrain_desc": {
+        "tr": "Bedir vadisi — ilk Bedir Savaşı'nın yapıldığı yer. Ticaret yolu üzerinde, Medîne-Mekke arasındaki stratejik kavşak. Bu sefer savaş alanı olarak değil, randevu noktası ve panayır (sûk) alanı olarak kullanıldı.",
+        "en": "The Badr valley — site of the original Battle of Badr. On the trade route between Medina and Mecca. This time it served not as a battlefield but as a rendezvous point and fair (sūq) grounds."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_bedir_suk",
+        "name": {
+          "tr": "Bedir Panayırı (Sûku Bedir)",
+          "en": "Badr Fair (Sūq Badr)"
+        },
+        "lat": 23.785,
+        "lng": 38.785,
+        "type": "market",
+        "note_tr": "Yıllık panayır alanı; müslümanlar burada ticaret de yaptılar."
+      },
+      {
+        "id": "lm_bedir_kuyular",
+        "name": {
+          "tr": "Bedir Kuyuları",
+          "en": "Badr Wells"
+        },
+        "lat": 23.783,
+        "lng": 38.783,
+        "type": "water_source",
+        "note_tr": "İlk Bedir'deki stratejik kuyular; şimdi konaklama noktası."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_bedir",
+        "name": {
+          "tr": "Medîne → Bedir yürüyüşü",
+          "en": "Medina → Badr march"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 24.1,
+            "lng": 39.3,
+            "label": "Ara konak"
+          },
+          {
+            "lat": 23.7833,
+            "lng": 38.7833,
+            "label": "Bedir"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Uhud sonunda Ebû Süfyân'ın meydan okuması",
+        "en": "Background: Abū Sufyān's challenge at the end of Uḥud"
+      },
+      "date_range": {
+        "start": "Şevval 3 AH (Uhud sonu)",
+        "end": "Zilkade 4 AH"
+      },
+      "duration": "~13 ay",
+      "description": {
+        "tr": "Uhud Savaşı sonunda Ebû Süfyân, 'Gelecek yıl Bedir'de buluşalım!' diye seslendi. Hz. Peygamber, Ömer b. Hattâb'a 'Evet, orası aramızdaki buluşma yeridir' diye cevap vermesini emretti. Bu bir nevi düello randevusuydu. Bir yıl boyunca her iki taraf bu randevuya hazırlandı. Ancak Kureyş cephesinde kıtlık (kuraklık) ve moral düşüklüğü hâkimdi.",
+        "en": "At the end of the Battle of Uḥud, Abū Sufyān called out: 'Let us meet at Badr next year!' The Prophet ordered ʿUmar b. al-Khaṭṭāb to reply: 'Yes, that shall be our meeting place.' This was a duel-appointment. Both sides prepared for a year. However, Quraysh suffered drought and low morale."
+      },
+      "events": [
+        {
+          "id": "E0_1_meydan_okuma",
+          "name_tr": "Ebû Süfyân'ın 'Bedir'de buluşalım' çağrısı",
+          "description_tr": "Uhud meydanında yapılan açık randevu teklifi."
+        },
+        {
+          "id": "E0_2_kabul",
+          "name_tr": "Hz. Peygamber'in kabul etmesi",
+          "description_tr": "Ömer'e 'Evet, orada buluşacağız' demesini emretti."
+        }
+      ]
+    },
+    {
+      "id": "F1_hazirlik",
+      "order": 1,
+      "name": {
+        "tr": "Hazırlık ve münafıkların caydırma girişimi",
+        "en": "Preparations and the munāfiqūn's attempts to dissuade"
+      },
+      "date_range": {
+        "start": "Şevval 4 AH",
+        "end": "Zilkade 4 AH (başı)"
+      },
+      "duration": "~1 ay",
+      "description": {
+        "tr": "Hz. Peygamber Bedir'e çıkmak için hazırlık emri verdi. Münafıklar ve bazı korkak kimseler caydırmaya çalıştı: 'Kureyş büyük orduyla gelecek, tehlikeye girmeyin.' Nu'aym b. Mes'ûd el-Gatafânî (henüz müslüman olmamış) Ebû Süfyân'ın ajanı olarak Medîne'ye geldi ve 'Kureyş çok büyük ordu topladı, karşılarına çıkmayın' diye propaganda yaptı. Bunun üzerine Âl-i İmrân 3:173-174 nâzil oldu: 'İnsanlar size karşı ordu topladılar, onlardan korkun dediler; bu onların imanını artırdı ve hasbünallahu ve ni'mel-vekîl dediler.'",
+        "en": "The Prophet ordered preparations for Badr. The munāfiqūn and fearful individuals tried to dissuade: 'Quraysh will bring a massive army; do not risk it.' Nuʿaym b. Masʿūd al-Ghaṭafānī (not yet Muslim) came to Medina as Abū Sufyān's agent, spreading propaganda: 'Quraysh has assembled a huge army — do not go out.' Thereupon Āl-i ʿImrān 3:173-174 was revealed: 'Those to whom people said: The people have gathered against you, so fear them — it increased them in faith and they said: God is sufficient for us.'"
+      },
+      "events": [
+        {
+          "id": "E1_1_hazirlik",
+          "name_tr": "Hz. Peygamber'in çıkış emri",
+          "description_tr": "Randevuya sadık kalmak için kesin çıkış kararı."
+        },
+        {
+          "id": "E1_2_nuaym",
+          "name_tr": "Nu'aym b. Mes'ûd'un caydırma propagandası",
+          "description_tr": "Ebû Süfyân'ın ajanı müslümanları korkutmaya çalıştı."
+        },
+        {
+          "id": "E1_3_nuzul",
+          "name_tr": "Âl-i İmrân 3:173-174 nüzûlü",
+          "description_tr": "'Hasbünallahu ve ni'mel-vekîl' — korkutma karşısında iman artışı."
+        }
+      ]
+    },
+    {
+      "id": "F2_yuruyus",
+      "order": 2,
+      "name": {
+        "tr": "Bedir'e yürüyüş ve konaklama",
+        "en": "March to Badr and encampment"
+      },
+      "date_range": {
+        "start": "Zilkade 4 AH (ortası)",
+        "end": "8 gün"
+      },
+      "duration": "~3 gün yürüyüş + 8 gün bekleme",
+      "description": {
+        "tr": "Hz. Peygamber 1.500 kişilik bir kuvvetle Medîne'den çıktı. Bedir'e ulaştıklarında Bedir panayırı kurulmuştu. Müslümanlar hem askeri güç gösterisi yaptılar hem de panayırda ticaret yaparak kâr elde ettiler. 8 gün boyunca Kureyş'i beklediler. Hz. Peygamber 'Vallahi hiç kimse gelmese de ben tek başıma gidecektim' buyurdu.",
+        "en": "The Prophet set out from Medina with 1,500 troops. Upon arrival at Badr, the annual fair was in session. Muslims both displayed military strength and traded at the fair, earning profit. They waited 8 days for Quraysh. The Prophet declared: 'By God, even if no one had come, I would have gone alone.'"
+      },
+      "events": [
+        {
+          "id": "E2_1_cikis",
+          "name_tr": "1.500 kişiyle Medîne'den çıkış",
+          "description_tr": "Uhud'dan daha büyük ve moralli bir kuvvet."
+        },
+        {
+          "id": "E2_2_panayir",
+          "name_tr": "Bedir panayırında ticaret",
+          "description_tr": "Askeri bekleme süresinde ticaret yaparak sermayelerini ikiye katladılar."
+        },
+        {
+          "id": "E2_3_bekleme",
+          "name_tr": "8 gün bekleme",
+          "description_tr": "Randevu noktasında Kureyş'in gelmesini beklediler."
+        }
+      ]
+    },
+    {
+      "id": "F3_kureys_geri_donus",
+      "order": 3,
+      "name": {
+        "tr": "Kureyş'in geri dönmesi ve psikolojik zafer",
+        "en": "Quraysh's withdrawal and psychological victory"
+      },
+      "date_range": {
+        "start": "Zilkade 4 AH",
+        "end": "aynı hafta"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Ebû Süfyân 2.000 kişilik bir kuvvetle Mekke'den çıkmıştı ancak Merrü'z-Zahrân veya Usfân civarında geri döndü. Bahane olarak kuraklık ve kıtlığı gösterdi: 'Bu yıl kuraklık var, çimenlerin yeşerdiği bir yıl olsun.' Mekkeliler ona 'Ceysü's-sevîk' (kavut ordusu) lakabını taktılar — sadece azık alıp geri döndüğü için. Hz. Peygamber ve müslümanlar 8 gün bekledikten sonra zaferle Medîne'ye döndüler. Kureyş'in randevuya gelmemesi, Uhud'daki yaralarını telafi eden büyük bir psikolojik kazanımdı.",
+        "en": "Abū Sufyān had set out from Mecca with 2,000 men but turned back near Marr al-Ẓahrān or ʿUsfān. He cited the drought: 'This is a year of drought; let us go in a year when the pastures are green.' Meccans gave him the mocking nickname 'Jaysh al-Sawīq' (the porridge army) — for merely taking provisions and returning. The Prophet and Muslims returned to Medina after 8 days, victorious. Quraysh's no-show was a major psychological recovery from Uḥud."
+      },
+      "events": [
+        {
+          "id": "E3_1_ebu_sufyan_cikis",
+          "name_tr": "Ebû Süfyân'ın 2.000 kişiyle çıkışı",
+          "description_tr": "Mekke'den çıktı ancak yarı yolda geri döndü."
+        },
+        {
+          "id": "E3_2_geri_donus",
+          "name_tr": "Kureyş'in geri dönmesi",
+          "description_tr": "Kuraklık bahanesiyle randevuyu iptal etti."
+        },
+        {
+          "id": "E3_3_ceysu_sevik",
+          "name_tr": "'Ceysü's-sevîk' lakabı",
+          "description_tr": "Mekkelilerin Ebû Süfyân'la alay etmesi."
+        },
+        {
+          "id": "E3_4_donus",
+          "name_tr": "Müslümanların zaferle dönüşü",
+          "description_tr": "8 gün sonra moralli ve kârlı bir şekilde Medîne'ye döndüler."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 1500,
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "note_tr": "Uhud'dan sonra büyüyen ordu; 1.500 kişi ile Uhud'daki 700'den iki kat fazla."
+      },
+      "equipment": {
+        "horses": 10,
+        "camels": "çok sayıda",
+        "note_tr": "Ticaret malları da taşındı."
+      }
+    },
+    "enemy": {
+      "total": "2.000 (yola çıktı, Bedir'e ulaşmadı)",
+      "commander": {
+        "tr": "Ebû Süfyân b. Harb",
+        "en": "Abū Sufyān b. Ḥarb"
+      },
+      "note_tr": "Merrü'z-Zahrân / Usfân civarında geri döndü. Bedir'e hiç ulaşmadı."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Bedri'l-Mev'id",
+        "note_tr": "Randevu bağlamı, 1.500 kişilik kuvvet, 8 gün bekleme."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Bedri'l-Mev'id",
+        "note_tr": "Panayır ticareti, sermayenin ikiye katlanması detayı."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusul ve'l-Mülûk",
+        "section": "4 AH",
+        "note_tr": "Kronolojik çerçeve ve Âl-i İmrân bağlantısı."
+      }
+    ],
+    "hadith": [
+      "hds_bedir_mevid_hasbunallah",
+      "hds_bedir_mevid_ticaret"
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Bedir Mev'idi'nin stratejik ve psikolojik analizi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Kureyş'in geri dönüş yeri",
+        "positions": [
+          {
+            "view_tr": "Merrü'z-Zahrân",
+            "sources": [
+              "İbn Hişâm"
+            ]
+          },
+          {
+            "view_tr": "Usfân",
+            "sources": [
+              "Vâkıdî"
+            ]
+          }
+        ],
+        "note_tr": "Her iki yer de Mekke-Medîne yolu üzerinde; esasta mutabakat var."
+      },
+      {
+        "topic": "Bekleme süresi",
+        "positions": [
+          {
+            "view_tr": "8 gün",
+            "sources": [
+              "İbn Hişâm",
+              "Vâkıdî"
+            ]
+          },
+          {
+            "view_tr": "Panayır süresi kadar",
+            "sources": [
+              "Genel ifadeler"
+            ]
+          }
+        ],
+        "note_tr": "8 gün yaygın kabul görür."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "173-175",
+      "phase_id": "F1_hazirlik",
+      "topic": {
+        "tr": "'Hasbünallahu ve ni'mel-vekîl' — düşman korkutmasına karşı iman artışı",
+        "en": "'God is sufficient for us' — faith increasing in face of enemy intimidation"
+      },
+      "key_verses": [
+        {
+          "ayah": 173,
+          "topic_tr": "İnsanlar 'Düşmanlar size karşı toplandı' dediler; bu onların imanını artırdı",
+          "phase_id": "F1_hazirlik",
+          "esbab_id": "en_aliimran_3_173"
+        },
+        {
+          "ayah": 174,
+          "topic_tr": "Kendilerine hiçbir kötülük dokunmadan Allah'ın nimeti ve fazlıyla döndüler",
+          "phase_id": "F3_kureys_geri_donus",
+          "esbab_id": "en_aliimran_3_174"
+        },
+        {
+          "ayah": 175,
+          "topic_tr": "Şeytan sizi dostlarıyla korkutur — onlardan korkmayın, Ben'den korkun",
+          "phase_id": "F1_hazirlik"
+        }
+      ],
+      "nuzul_context_tr": "Müfessirlerin çoğunluğuna göre bu âyetler Bedir-i Mev'id bağlamında nâzil olmuştur. Nu'aym'ın korkutma propagandası üzerine inmiştir."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_bedir_mevid_hasbunallah",
+      "topic": "Sahâbîlerin 'Hasbünallah ve ni'mel-vekîl' demesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bedir_mevid_ticaret",
+      "topic": "Müslümanların Bedir panayırında ticaret yapması",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Savaş yaşanmadı ancak 1.500 kişilik gücün sergilenmesi, müslümanların artan askeri kapasitesini tüm Arabistan'a gösterdi.",
+      "en": "No battle occurred, but the display of 1,500 troops demonstrated the Muslims' growing military capacity to all of Arabia."
+    },
+    "political": {
+      "tr": "Uhud'un psikolojik yarası tamamen kapandı. Kureyş'in randevuya gelmemesi, Arap kabileleri nezdinde prestij kaybına yol açtı. 'Ceysü's-sevîk' lakabı Ebû Süfyân'ı aşağıladı.",
+      "en": "The psychological wound of Uḥud was fully healed. Quraysh's no-show caused prestige loss among Arab tribes. The 'Porridge Army' nickname humiliated Abū Sufyān."
+    },
+    "social": {
+      "tr": "Müslümanlar hem askeri güç gösterdi hem ticaret yaparak ekonomik kazanç elde etti. Moral doruk noktasındaydı.",
+      "en": "Muslims displayed military strength while simultaneously profiting from trade. Morale was at its peak."
+    },
+    "theological": {
+      "tr": "Âl-i İmrân 3:173-174'ün doğrudan tahakkuku: korkutmaya rağmen imanla çıktılar ve 'hiçbir kötülük dokunmadan' döndüler.",
+      "en": "Direct fulfillment of Āl-i ʿImrān 3:173-174: they went out in faith despite intimidation and returned 'without any harm touching them.'"
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 0,
+        "note_tr": "Savaş yaşanmadı."
+      },
+      "enemy": {
+        "killed": 0,
+        "note_tr": "Kureyş Bedir'e ulaşmadı."
+      }
+    },
+    "treaties": {
+      "tr": "Dolaylı sonuç: Kureyş'in geri çekilmesi, Arap kabilelerinin müslümanlarla ittifak arayışını hızlandırdı.",
+      "en": "Indirect effect: Quraysh's withdrawal accelerated Arab tribes' interest in alliances with the Muslims."
+    },
+    "territorial_change": {
+      "tr": "Doğrudan toprak değişikliği yok; ancak Medîne-Bedir güzergâhı üzerindeki müslüman kontrolü pekişti.",
+      "en": "No direct territorial change, but Muslim control over the Medina-Badr route was consolidated."
+    },
+    "subsequent_events": [
+      {
+        "event_tr": "Hendek Savaşı (5 AH) — Kureyş'in son büyük saldırı girişimi",
+        "battle_id": "gazve_hendek"
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 13,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "market": "#FF6F00",
+      "enemy_retreat": "#EF5350"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "point",
+        "default_visible": true
+      },
+      {
+        "id": "layer_march",
+        "name": "Yürüyüş güzergâhı",
+        "type": "line",
+        "default_visible": true
+      },
+      {
+        "id": "layer_enemy_retreat",
+        "name": "Kureyş geri dönüşü",
+        "type": "line",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "animation",
+        "default_visible": true
+      }
+    ]
+  }
+}

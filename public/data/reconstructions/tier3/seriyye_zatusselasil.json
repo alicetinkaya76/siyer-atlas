@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_zatusselasil",
+    "battle_id": "seriyye_zatusselasil",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 29.5,
+        "lng": 36.5
+      },
+      "name": "Zâtüsselâsil (Cüzâm/Kudâa bölgesi)",
+      "modern_location": "Güney Ürdün / Vâdi'l-Kura"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "İlk kuvvet",
+      "date_range": "Cemâziyelâhir 8",
+      "duration": "",
+      "description": "Amr b. el-Âs 300 kişiyle gönderildi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Takviye",
+      "date_range": "Cemâziyelâhir 8",
+      "duration": "",
+      "description": "Yetersiz kalınca Ebû Ubeyde b. el-Cerrâh 200 kişilik takviye getirdi (Ebû Bekir, Ömer dahil).",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Operasyon",
+      "date_range": "Cemâziyelâhir 8",
+      "duration": "",
+      "description": "Düşman dağıtıldı, bölge kontrol altına alındı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. el-Âs",
+      "estimated_troops": 500,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, II/769-774",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, IV/272",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Düşman dağıtıldı",
+    "significance": "Kuzey sınır güvenliği. Amr b. el-Âs'ın komutanlık yeteneğinin ispatı. Mekke Fethi hazırlığının parçası.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "id": "recon_fetih_ifrıkiye",
+    "battle_id": "fetih_ifrıkiye",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 35.6781,
+        "lng": 10.0963
+      },
+      "name": "İfrîkıye Fethi (Sübeytıla)",
+      "modern_location": "Tunus bölgesi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "27",
+      "duration": "",
+      "description": "Mısır'dan batıya büyük ordu sevk edildi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sübeytıla Muharebesi",
+      "date_range": "27",
+      "duration": "",
+      "description": "Gregorius ile büyük meydan muharebesi.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "27",
+      "duration": "",
+      "description": "Gregorius öldürüldü; büyük ganimet elde edildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Sa'd b. Ebî Serh",
+      "estimated_troops": 20000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Gregorius (Bizans)",
+      "estimated_troops": 120000,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/248",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/94",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_magrib_fethi",
+      "topic": "Kuzey Afrika fethi bağlamı",
+      "relevance": "contextual",
+      "source": "Genel hadis literatürü"
+    }
+  ],
+  "impact": {
+    "result": "Zafer — Gregorius öldürüldü",
+    "significance": "Hz. Osman döneminde Kuzey Afrika'ya ilk büyük sefer. Sübeytıla Savaşı.",
+    "cross_references": [
+      "fetih_kayrevan"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "medium"
+  }
+}

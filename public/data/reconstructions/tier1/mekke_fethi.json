@@ -1,0 +1,1493 @@
+{
+  "meta": {
+    "id": "reconstruction_mekke_fethi",
+    "battle_id": "gazve_mekke_fethi",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Mekke'nin Fethi — İslâm tarihinin en büyük askerî harekatı ve neredeyse kansız fetih. Ramazan 8 AH / Ocak 630 CE. 10.000 kişilik ordu, dört koldan giriş, Ebû Süfyân'ın Müslüman oluşu, Ka'be'nin 360 puttan arındırılması, genel af. Hudeybiye Antlaşması'nın stratejik meyvesi. Bedir/Uhud/Hendek/Hayber şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.4225,
+        "lng": 39.8262
+      },
+      "bbox": {
+        "north": 21.5,
+        "south": 21.35,
+        "east": 39.9,
+        "west": 39.75
+      },
+      "terrain_type": "urban_valley",
+      "terrain_desc": {
+        "tr": "Mekke, dağlarla çevrili dar bir vadi içinde kurulmuş şehir. Ka'be merkezde, etrafında yoğun yerleşim. Şehre giriş dağ geçitleri ve vadiler üzerinden sağlanır. Güneyde Lît yolu (bugünkü Mekke-Tâif yolu), kuzeyde Medîne yolu, batıda Cidde yolu, doğuda Hevâzin/Tâif yolu. Handeme tepesi güneydoğu girişini kontrol eder. Şehrin doğal savunması dağ geçitlerinin dar olmasına dayanır ancak dört yönden eşzamanlı giriş bu avantajı ortadan kaldırır.",
+        "en": "Mecca is a city built within a narrow valley surrounded by mountains. The Ka'ba sits at the center, surrounded by dense settlement. Entry is through mountain passes and wadis. Southern Lit road (modern Mecca-Taif), northern Medina road, western Jeddah road, eastern Hawazin/Taif road. Handama hill controls the southeastern entry. The city's natural defense relies on narrow mountain passes, but simultaneous four-column entry neutralizes this advantage."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_kabe",
+        "name": {
+          "tr": "Ka'be-i Muazzama",
+          "en": "The Ka'ba"
+        },
+        "lat": 21.4225,
+        "lng": 39.8262,
+        "type": "sacred_site",
+        "phase_ids": [
+          "F5_kabe_purification",
+          "F6_amnesty"
+        ],
+        "desc_tr": "Hz. İbrâhîm'in inşâ ettiği tevhîd mâbedi. Fetih gününde 360 put barındırıyordu. Hz. Peygamber putları kırdırarak Ka'be'yi aslî fonksiyonuna kavuşturdu.",
+        "desc_en": "Monotheistic sanctuary built by Prophet Ibrahim. Housed 360 idols on the day of conquest. Prophet Muhammad ordered idols destroyed, restoring Ka'ba to its original function."
+      },
+      {
+        "id": "lm_merr_zahran",
+        "name": {
+          "tr": "Merru'z-Zahrân (Merrü'z-Zahrân)",
+          "en": "Marr az-Zahran"
+        },
+        "lat": 21.6,
+        "lng": 39.68,
+        "type": "camp",
+        "phase_ids": [
+          "F2_merr_zahran"
+        ],
+        "desc_tr": "Mekke'nin yaklaşık 20 km kuzeybatısında vadi. Hz. Peygamber'in ordusunun son konaklaması. Ebû Süfyân'ın burada Abbâs tarafından getirilip Müslüman olduğu yer. 10.000 ateş yakılarak gövde gösterisi yapıldı.",
+        "desc_en": "Valley about 20 km northwest of Mecca. Prophet's army's final encampment. Where Abu Sufyan was brought by Abbas and converted to Islam. 10,000 fires lit as show of force."
+      },
+      {
+        "id": "lm_handeme",
+        "name": {
+          "tr": "Handeme Tepesi / el-Handeme",
+          "en": "Khandama Hill"
+        },
+        "lat": 21.4,
+        "lng": 39.84,
+        "type": "battle_site",
+        "phase_ids": [
+          "F4_entry_skirmish"
+        ],
+        "desc_tr": "Mekke'nin güneydoğu girişindeki tepe. Hâlid b. Velîd kolunun girişi sırasında İkrime b. Ebî Cehil ve Safvân b. Ümeyye liderliğindeki Kureyş müfrezesiyle kısa çatışma yaşanan yer. Fethin tek silahlı çatışması burada gerçekleşti.",
+        "desc_en": "Hill at the southeastern entrance of Mecca. Site of the only armed clash during the conquest, where Khalid ibn al-Walid's column encountered resistance from Ikrimah ibn Abi Jahl and Safwan ibn Umayya's detachment."
+      },
+      {
+        "id": "lm_safa",
+        "name": {
+          "tr": "Safâ Tepesi",
+          "en": "Mount Safa"
+        },
+        "lat": 21.4234,
+        "lng": 39.8268,
+        "type": "landmark",
+        "phase_ids": [
+          "F6_amnesty"
+        ],
+        "desc_tr": "Hz. Peygamber'in Mekke fethinde hutbe okuduğu ve genel af ilân ettiği tepe.",
+        "desc_en": "Hill where the Prophet delivered the sermon and declared general amnesty on the day of conquest."
+      },
+      {
+        "id": "lm_ebtah",
+        "name": {
+          "tr": "Ebtah / el-Hacûn (Hz. Peygamber karargâhı)",
+          "en": "Al-Abtah / Al-Hajun (Prophet's camp)"
+        },
+        "lat": 21.435,
+        "lng": 39.835,
+        "type": "camp",
+        "phase_ids": [
+          "F4_entry_skirmish",
+          "F5_kabe_purification"
+        ],
+        "desc_tr": "Mekke'nin kuzeyindeki açıklık. Hz. Peygamber'in çadırının kurulduğu ve fetih sonrası karargâh olarak kullandığı yer. Hacûn mevkii.",
+        "desc_en": "Open area north of Mecca. Where the Prophet's tent was pitched and used as headquarters after the conquest. Al-Hajun area."
+      },
+      {
+        "id": "lm_zi_tuva",
+        "name": {
+          "tr": "Zî Tuvâ",
+          "en": "Dhi Tuwa"
+        },
+        "lat": 21.45,
+        "lng": 39.82,
+        "type": "staging_area",
+        "phase_ids": [
+          "F3_four_columns"
+        ],
+        "desc_tr": "Mekke yakınında vadi. Hz. Peygamber'in dört kol planını açıkladığı ve komutanları görevlendirdiği son toplanma noktası.",
+        "desc_en": "Valley near Mecca. Final assembly point where the Prophet announced the four-column plan and assigned commanders."
+      },
+      {
+        "id": "lm_kuda",
+        "name": {
+          "tr": "Küdâ (Kedâ) Geçidi",
+          "en": "Kuda (Kada) Pass"
+        },
+        "lat": 21.44,
+        "lng": 39.84,
+        "type": "entry_point",
+        "phase_ids": [
+          "F3_four_columns",
+          "F4_entry_skirmish"
+        ],
+        "desc_tr": "Mekke'nin kuzey girişi. Hz. Peygamber'in ve Zübeyr kolunun Mekke'ye giriş noktası. Yukarı Mekke'ye (Yüksek Mekke / Seniyyetü'l-Ulyâ) açılır.",
+        "desc_en": "Northern entrance of Mecca. Entry point for the Prophet's and Zubayr's columns. Opens to Upper Mecca (al-Thaniyyat al-Ulya)."
+      },
+      {
+        "id": "lm_lit",
+        "name": {
+          "tr": "Lît Geçidi / Seniyyetü's-Süflâ",
+          "en": "Lit Pass / Al-Thaniyyat al-Sufla"
+        },
+        "lat": 21.4,
+        "lng": 39.85,
+        "type": "entry_point",
+        "phase_ids": [
+          "F3_four_columns",
+          "F4_entry_skirmish"
+        ],
+        "desc_tr": "Mekke'nin güneydoğu girişi. Hâlid b. Velîd kolunun giriş noktası. Aşağı Mekke'ye (es-Seniyyetü's-Süflâ) açılır. Handeme çatışması bu güzergâhta yaşandı.",
+        "desc_en": "Southeastern entrance of Mecca. Entry point for Khalid ibn al-Walid's column. Opens to Lower Mecca. Handama skirmish occurred on this route."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_mekke",
+        "name": {
+          "tr": "Hz. Peygamber güzergâhı: Medîne → Mekke",
+          "en": "Prophet's route: Medina → Mecca"
+        },
+        "type": "march",
+        "distance_km": 420,
+        "duration": "~8-10 gün",
+        "waypoints": [
+          {
+            "name": "Medîne",
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "order": 1,
+            "note_tr": "10 Ramazan 8 AH — yola çıkış. 10.000 kişi."
+          },
+          {
+            "name": "Bedir kavşağı",
+            "lat": 23.7333,
+            "lng": 38.8667,
+            "order": 2,
+            "note_tr": "Yol üzeri geçiş. Güneybatıya yönelme."
+          },
+          {
+            "name": "Kudeyd",
+            "lat": 22.25,
+            "lng": 39.35,
+            "order": 3,
+            "note_tr": "Kadîd mevkii — Abbâs'ın Hz. Peygamber'e katıldığı yer (bazı rivâyetlere göre). Cühfe civarı."
+          },
+          {
+            "name": "Merru'z-Zahrân",
+            "lat": 21.6,
+            "lng": 39.68,
+            "order": 4,
+            "note_tr": "Son konaklama. 10.000 ateş. Ebû Süfyân karşılaşması."
+          },
+          {
+            "name": "Zî Tuvâ",
+            "lat": 21.45,
+            "lng": 39.82,
+            "order": 5,
+            "note_tr": "Dört kol planının açıklandığı son toplanma noktası."
+          },
+          {
+            "name": "Mekke (Ka'be)",
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "order": 6,
+            "note_tr": "20 Ramazan 8 AH — fetih."
+          }
+        ]
+      },
+      {
+        "id": "route_halid_guneyden",
+        "name": {
+          "tr": "Hâlid b. Velîd kolu: Aşağı Mekke (Güney/Güneydoğu) girişi",
+          "en": "Khalid ibn al-Walid column: Lower Mecca (South/SE) entry"
+        },
+        "type": "battle_maneuver",
+        "distance_km": 5,
+        "duration": "~2 saat",
+        "waypoints": [
+          {
+            "name": "Zî Tuvâ (ayrılma noktası)",
+            "lat": 21.45,
+            "lng": 39.82,
+            "order": 1,
+            "note_tr": "Dört kol ayrılma noktası"
+          },
+          {
+            "name": "Lît Geçidi (es-Seniyyetü's-Süflâ)",
+            "lat": 21.4,
+            "lng": 39.85,
+            "order": 2,
+            "note_tr": "Güneydoğu girişi"
+          },
+          {
+            "name": "Handeme çatışma noktası",
+            "lat": 21.4,
+            "lng": 39.84,
+            "order": 3,
+            "note_tr": "İkrime ve Safvân kuvvetleriyle kısa çatışma. 12-13 düşman, 2 şehit."
+          },
+          {
+            "name": "Mekke merkez buluşma",
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "order": 4,
+            "note_tr": "Diğer kollarla buluşma."
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Hudeybiye'nin bozulması — Benû Bekir-Huzâa olayı",
+        "en": "Background: Breaking of Hudaybiyya — Banu Bakr–Khuza'a incident"
+      },
+      "date_range": "Şâban 8 AH (Aralık 629)",
+      "duration": "~1-2 ay (hazırlık dahil)",
+      "description": {
+        "tr": "Hudeybiye Antlaşması (6 AH) Kureyş ile 10 yıllık barışı öngörüyordu. Antlaşmanın kilit maddelerinden biri tarafların müttefiklerine saldırmama garantisiydi. Benû Bekir (Kureyş müttefiki) Huzâa'ya (Müslüman müttefik) gece baskını düzenledi ve yaklaşık 20 kişiyi öldürdü. Bazı Kureyşliler silah ve lojistik yardım sağladı — hatta İkrime b. Ebî Cehil ve Safvân b. Ümeyye'nin bizzat katıldığı rivâyet edilir. Bu açıkça antlaşma ihlaliydi. Huzâa reisi Amr b. Sâlim el-Huzâî Medîne'ye gelerek Hz. Peygamber'den yardım istedi. Hz. Peygamber 'Sana yardım edilecek, ey Amr b. Sâlim!' dedi. Kureyş paniğe kapıldı; Ebû Süfyân antlaşmayı yenilemek için Medîne'ye geldi ama Hz. Peygamber, Ebû Bekir, Ömer ve Ali dahil kimse kabul etmedi. Ebû Süfyân eli boş döndü. Hz. Peygamber gizlice sefer hazırlığına başladı.",
+        "en": "The Treaty of Hudaybiyya (6 AH) established a 10-year truce with Quraysh. A key clause guaranteed non-aggression toward allies. Banu Bakr (Quraysh allies) launched a night raid on Khuza'a (Muslim allies), killing ~20 people. Some Qurayshis provided weapons and logistical support — Ikrimah ibn Abi Jahl and Safwan ibn Umayya reportedly participated personally. This was a clear treaty violation. Khuza'a chief Amr ibn Salim al-Khuza'i came to Medina requesting help. The Prophet declared 'You shall be aided, O Amr ibn Salim!' Quraysh panicked; Abu Sufyan traveled to Medina to renew the treaty but was refused by the Prophet, Abu Bakr, Umar, and Ali. He returned empty-handed. The Prophet secretly began preparations for the campaign."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in Kureyş'in antlaşma ihlalini casus belli olarak değerlendirmesi",
+            "en": "Prophet's decision to treat Quraysh's treaty violation as casus belli"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Hudeybiye Antlaşması fiilen sona erdi. Kureyş diplomasi yoluyla çözüm bulamadı. Sefer hazırlığı başladı.",
+            "en": "Treaty of Hudaybiyya effectively ended. Quraysh failed to find diplomatic resolution. Campaign preparations began."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Seferin gizli tutulması — hedefin açıklanmaması",
+            "en": "Keeping the campaign secret — not revealing the target"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kureyş hazırlıksız yakalandı. Stratejik sürpriz tam olarak sağlandı.",
+            "en": "Quraysh was caught unprepared. Strategic surprise was fully achieved."
+          }
+        }
+      ],
+      "troop_positions": [],
+      "events": [
+        {
+          "id": "evt_huzaa_baskini",
+          "name": {
+            "tr": "Benû Bekir'in Huzâa'ya baskını",
+            "en": "Banu Bakr's raid on Khuza'a"
+          },
+          "lat": 21.42,
+          "lng": 39.83,
+          "timestamp_relative": "Şâban 8 AH",
+          "significance": "Hudeybiye Antlaşması'nın bozulmasının sebebi. Fethin doğrudan tetikleyicisi."
+        },
+        {
+          "id": "evt_ebu_sufyan_medine",
+          "name": {
+            "tr": "Ebû Süfyân'ın Medîne'ye gelip antlaşmayı yenileme girişimi",
+            "en": "Abu Sufyan's failed attempt to renew treaty in Medina"
+          },
+          "lat": 24.4672,
+          "lng": 39.6112,
+          "timestamp_relative": "Şâban 8 AH (Ebû Süfyân dönüşü)",
+          "significance": "Kureyş'in diplomatik çaresizliğinin göstergesi. Güç dengesinin tamamen değiştiğinin kanıtı."
+        }
+      ]
+    },
+    {
+      "id": "F1_preparation_march",
+      "order": 1,
+      "name": {
+        "tr": "Hazırlık ve yürüyüş: Medîne → Mekke (10.000 kişi)",
+        "en": "Preparation and march: Medina → Mecca (10,000 troops)"
+      },
+      "date_range": "10 Ramazan 8 AH (1 Ocak 630) — 17 Ramazan 8 AH",
+      "duration": "~8-10 gün yürüyüş",
+      "description": {
+        "tr": "Hz. Peygamber 10 Ramazan 8 AH'de Medîne'den yola çıktı. Ordu 10.000 kişiydi — bu güne kadarki en büyük Müslüman kuvveti. Medîne muhâcirleri ve ensârın yanı sıra çevre kabilelerden (Eslem, Gifâr, Müzeyne, Cüheyne, Süleym, Eşca') katılımcılar vardı. Hz. Peygamber seferin hedefini gizli tuttu; yol üzerinde Mekke yönüne saparak hedefi ilk kez belli etti. Ramazan ayında sefere çıkıldı; Hz. Peygamber başlangıçta oruçluydu, Kudeyd'de (veya Kedîd'de) orucu bozdu ve askerlere de bozma izni verdi — bu, savaşta oruç kolaylığının fıkhî delillerinden biri oldu. Hâtıb b. Ebî Beltea, Mekke'deki yakınlarını korumak için Kureyş'e gizlice haber göndermeye çalıştı; Hz. Peygamber vahiyle haberdar oldu ve mektubu taşıyan kadın (Sâre) yakalandı. Hz. Ömer Hâtıb'ın idamını talep etti ancak Hz. Peygamber onun Bedir ehli olduğunu hatırlatarak affetti. Mümtehine sûresinin ilk âyetleri bu olay üzerine nâzil oldu.",
+        "en": "The Prophet departed Medina on 10 Ramadan 8 AH. The army numbered 10,000 — the largest Muslim force to date. It included Medinan Muhajirin and Ansar, plus allied tribes (Aslam, Ghifar, Muzayna, Juhayna, Sulaym, Ashja'). The Prophet kept the target secret; only by turning toward Mecca en route did the destination become clear. The campaign was during Ramadan; the Prophet initially fasted but broke his fast at Kudayd, permitting soldiers to do likewise — this became a key jurisprudential precedent for breaking fast during military campaigns. Hatib ibn Abi Balta'a tried to secretly warn Quraysh to protect his relatives in Mecca; the Prophet was informed by revelation and the woman courier (Sara) was intercepted. Umar demanded Hatib's execution but the Prophet pardoned him as a Badr veteran. The opening verses of Surah al-Mumtahina were revealed regarding this incident."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hz. Peygamber'in çevre kabilelerden takviye alarak 10.000 kişilik ordu oluşturması",
+            "en": "Prophet's mobilization of allied tribes to form 10,000-strong army"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Ezici sayısal üstünlük sağlandı. Kureyş'in direniş umudunu kırdı.",
+            "en": "Overwhelming numerical superiority achieved. Broke Quraysh's hope of resistance."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Hâtıb b. Ebî Beltea'nın affedilmesi",
+            "en": "Pardon of Hatib ibn Abi Balta'a"
+          },
+          "maker": "prophet",
+          "participants": [
+            "hatib_belta"
+          ],
+          "impact": {
+            "tr": "Bedir ehlinin ayrıcalıklı statüsünü teyit etti. Hâtıb'ın niyetinin hıyânet değil, ailevi koruma olduğu kabul edildi.",
+            "en": "Confirmed the privileged status of Badr veterans. Hatib's intent was recognized as family protection, not treason."
+          }
+        }
+      ],
+      "troop_positions": [
+        {
+          "force": "muslim",
+          "unit": "Ana ordu",
+          "lat": 24.4672,
+          "lng": 39.6112,
+          "commander": "prophet",
+          "strength": 10000,
+          "note_tr": "Medîne'den hareket. 10.000 kişi — Müslüman tarihinin en büyük kuvveti."
+        }
+      ],
+      "events": [
+        {
+          "id": "evt_hatib_mektup",
+          "name": {
+            "tr": "Hâtıb'ın gizli mektubu ve yakalanması",
+            "en": "Hatib's secret letter and interception"
+          },
+          "lat": 23.5,
+          "lng": 39.2,
+          "timestamp_relative": "Yürüyüş sırasında (tahminen 12-13 Ramazan)",
+          "significance": "Mümtehine 60:1 nüzûl sebebi. Stratejik sürprizin korunması."
+        },
+        {
+          "id": "evt_oruc_bozma",
+          "name": {
+            "tr": "Hz. Peygamber'in Kudeyd'de orucu bozması",
+            "en": "Prophet breaking fast at Kudayd"
+          },
+          "lat": 22.25,
+          "lng": 39.35,
+          "timestamp_relative": "~14-15 Ramazan",
+          "significance": "Seferde oruç kolaylığının fıkhî delili."
+        }
+      ]
+    },
+    {
+      "id": "F2_merr_zahran",
+      "order": 2,
+      "name": {
+        "tr": "Merru'z-Zahrân: Ebû Süfyân'ın gelişi ve İslâm'a girişi",
+        "en": "Marr az-Zahran: Abu Sufyan's arrival and conversion to Islam"
+      },
+      "date_range": "~18-19 Ramazan 8 AH (8-9 Ocak 630)",
+      "duration": "1 gece",
+      "description": {
+        "tr": "Müslüman ordu Merru'z-Zahrân'da (Mekke'nin ~20 km kuzeybatısı) konakladı. Hz. Peygamber 10.000 ateş yakılmasını emretti — her aile/grup bir ateş yaktı. Bu muazzam ateş gösterisi Mekkelileri psikolojik olarak ezdi. Hz. Abbâs (Hz. Peygamber'in amcası, kısa süre önce Müslüman olmuştu veya gizli Müslümandı) Mekke'nin kansız teslimini sağlamak için Ebû Süfyân'ı bulmaya çıktı. Abbâs, Hz. Peygamber'in katırına binmiş halde keşfe çıkan Ebû Süfyân'la karşılaştı. Onu ikna ederek Hz. Peygamber'in huzuruna getirdi. Hz. Peygamber 'Ey Ebû Süfyân! Henüz lâ ilâhe illâllâh demenin zamanı gelmedi mi?' dedi. Ebû Süfyân tereddüt etti; Abbâs ısrar etti. Sonunda kelime-i şehâdet getirdi. Abbâs, Hz. Peygamber'e 'Ebû Süfyân övünmeyi sever, ona bir ayrıcalık verin' dedi. Hz. Peygamber: 'Ebû Süfyân'ın evine sığınan emniyettedir, kendi evine kapısını kapayan emniyettedir, Mescid-i Harâm'a sığınan emniyettedir' buyurdu. Bu, Mekke'nin kansız tesliminin diplomatik formülüydü.",
+        "en": "The Muslim army camped at Marr az-Zahran (~20 km NW of Mecca). The Prophet ordered 10,000 fires lit — each family/group lit one fire. This massive display of fires psychologically overwhelmed the Meccans. Abbas (the Prophet's uncle, recently converted or secretly Muslim) went to find Abu Sufyan to secure Mecca's bloodless surrender. Abbas encountered Abu Sufyan, who was out scouting on the Prophet's mule. He persuaded him and brought him before the Prophet. The Prophet said 'O Abu Sufyan! Has the time not come for you to say la ilaha illallah?' Abu Sufyan hesitated; Abbas insisted. He finally pronounced the shahada. Abbas told the Prophet 'Abu Sufyan loves honor, give him a distinction.' The Prophet declared: 'Whoever enters Abu Sufyan's house is safe, whoever shuts his door upon himself is safe, whoever takes refuge in the Masjid al-Haram is safe.' This was the diplomatic formula for Mecca's bloodless surrender."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "10.000 ateş yakılarak psikolojik baskı uygulanması",
+            "en": "Psychological pressure through 10,000 fires"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kureyş'in direnme iradesini kırdı. Ebû Süfyân'ın kendi gözleriyle gördüğü ezici güç, teslim kararını hızlandırdı.",
+            "en": "Broke Quraysh's will to resist. The overwhelming force witnessed by Abu Sufyan accelerated the surrender decision."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Ebû Süfyân'a özel ayrıcalık tanınması — 'Ebû Süfyân'ın evine sığınan emniyettedir'",
+            "en": "Special privilege for Abu Sufyan — 'Whoever enters Abu Sufyan's house is safe'"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_ebu_sufyan_det",
+            "abbas"
+          ],
+          "impact": {
+            "tr": "Kureyş liderliğinin onurunu koruyarak kansız teslimi sağladı. Ebû Süfyân'ın Mekke'ye dönerek teslimi ilan etmesi için motivasyon yarattı.",
+            "en": "Preserved Quraysh leadership's honor, enabling bloodless surrender. Motivated Abu Sufyan to return to Mecca and announce submission."
+          }
+        }
+      ],
+      "troop_positions": [
+        {
+          "force": "muslim",
+          "unit": "Ana ordu karargâhı",
+          "lat": 21.6,
+          "lng": 39.68,
+          "commander": "prophet",
+          "strength": 10000,
+          "note_tr": "Merru'z-Zahrân vadisi. 10.000 ateş."
+        }
+      ],
+      "events": [
+        {
+          "id": "evt_abbas_ebu_sufyan",
+          "name": {
+            "tr": "Abbâs'ın Ebû Süfyân'ı bulması ve Hz. Peygamber'in huzuruna getirmesi",
+            "en": "Abbas finding Abu Sufyan and bringing him to the Prophet"
+          },
+          "lat": 21.6,
+          "lng": 39.68,
+          "timestamp_relative": "18-19 Ramazan gecesi",
+          "significance": "Mekke'nin kansız fethinin dönüm noktası."
+        },
+        {
+          "id": "evt_ebu_sufyan_islam",
+          "name": {
+            "tr": "Ebû Süfyân'ın Müslüman oluşu",
+            "en": "Abu Sufyan's conversion to Islam"
+          },
+          "lat": 21.6,
+          "lng": 39.68,
+          "timestamp_relative": "19 Ramazan sabahı",
+          "significance": "Kureyş'in siyasi liderinin İslâm'a girmesi — Mekke direncinin çöküşü."
+        },
+        {
+          "id": "evt_ordu_gecis",
+          "name": {
+            "tr": "Ebû Süfyân'ın Müslüman ordusunu seyretmesi",
+            "en": "Abu Sufyan watching the Muslim army march past"
+          },
+          "lat": 21.58,
+          "lng": 39.69,
+          "timestamp_relative": "19 Ramazan sabahı",
+          "significance": "Abbâs'ın Ebû Süfyân'ı bir tepeye çıkararak ordunun geçişini izletmesi. Her kabile sancağıyla geçti. Ebû Süfyân 'Kardeşinin oğlunun saltanatı büyümüş!' dedi, Abbâs 'Bu saltanat değil, nübüvvettir' diye düzeltti."
+        }
+      ]
+    },
+    {
+      "id": "F3_four_columns",
+      "order": 3,
+      "name": {
+        "tr": "Dört koldan giriş planı — komutan görevlendirmesi",
+        "en": "Four-column entry plan — commander assignments"
+      },
+      "date_range": "19-20 Ramazan 8 AH (9-10 Ocak 630)",
+      "duration": "Birkaç saat (plan + dağılım)",
+      "description": {
+        "tr": "Hz. Peygamber Zî Tuvâ'da (veya Merru'z-Zahrân'dan hareket sırasında) orduyu dört kola ayırdı. Her kol farklı yönden Mekke'ye girecekti. Amaç, Mekke'yi tam kuşatma altına alarak direniş olasılığını ortadan kaldırmaktı. Hz. Peygamber açıkça 'Savaşmayın, size saldırılmadıkça silah kullanmayın' emrini verdi. Sadece isimleri belirlenmiş birkaç kişi hariç (savaş suçluları listesi) herkes emniyette olacaktı.\n\nKollar:\n1) Hâlid b. Velîd — Aşağı Mekke (güney/güneydoğu), Lît (es-Seniyyetü's-Süflâ) geçidinden giriş\n2) Zübeyr b. el-Avvâm — Yukarı Mekke (kuzey/kuzeybatı), Küdâ geçidinden giriş\n3) Ebû Ubeyde b. el-Cerrâh — Batı / merkez hat\n4) Sa'd b. Ubâde — Ensâr birliği (ancak Sa'd'ın 'Bugün savaş günüdür!' demesi üzerine Hz. Peygamber sancağı oğlu Kays'a — veya bazı rivâyetlere göre Zübeyr'e — verdi)\n\nHz. Peygamber bizzat Küdâ (kuzey) yönünden girdi. Miğferini takarak girdi; bazı rivâyetlere göre Fetih sûresini okuyordu.",
+        "en": "The Prophet divided the army into four columns at Dhi Tuwa (or during the march from Marr az-Zahran). Each column would enter Mecca from a different direction. The goal was to completely encircle Mecca, eliminating any possibility of resistance. The Prophet explicitly ordered 'Do not fight unless attacked.' Everyone would be safe except a specified list of individuals (war criminals).\n\nColumns:\n1) Khalid ibn al-Walid — Lower Mecca (south/SE), entering via Lit Pass (al-Thaniyyat al-Sufla)\n2) Zubayr ibn al-Awwam — Upper Mecca (north/NW), entering via Kuda Pass\n3) Abu Ubayda ibn al-Jarrah — Western/central route\n4) Sa'd ibn Ubada — Ansar unit (however, when Sa'd declared 'Today is the day of battle!' the Prophet transferred the standard to his son Qays — or according to some narrations, to Zubayr)\n\nThe Prophet himself entered from the Kuda (northern) direction. He wore his helmet; some narrations say he was reciting Surah al-Fath."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Dört koldan eşzamanlı giriş planı",
+            "en": "Simultaneous four-column entry plan"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_halid_velid",
+            "zubeyr",
+            "comp_ebu_ubeyde",
+            "comp_sad_b_ubade"
+          ],
+          "impact": {
+            "tr": "Mekke'nin dar geçitlerde savunma avantajını tamamen ortadan kaldırdı. Direniş imkânsız hale geldi.",
+            "en": "Completely neutralized Mecca's defensive advantage in narrow passes. Resistance became impossible."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Sa'd b. Ubâde'den sancağın alınması",
+            "en": "Transferring the standard from Sa'd ibn Ubada"
+          },
+          "maker": "prophet",
+          "participants": [
+            "comp_sad_b_ubade"
+          ],
+          "impact": {
+            "tr": "Kansız fetih iradesini teyit etti. Sa'd'ın savaşçı söylemi Hz. Peygamber'in merhamet mesajıyla çelişiyordu.",
+            "en": "Reaffirmed the will for bloodless conquest. Sa'd's bellicose rhetoric contradicted the Prophet's message of mercy."
+          }
+        }
+      ],
+      "troop_positions": [
+        {
+          "force": "muslim",
+          "unit": "Hâlid b. Velîd kolu",
+          "lat": 21.45,
+          "lng": 39.82,
+          "commander": "comp_halid_velid",
+          "strength": "~3.000 (tahmini)",
+          "note_tr": "Güneydoğudan (Lît geçidi) giriş. En tehlikeli güzergâh — muhtemel direniş bölgesi."
+        },
+        {
+          "force": "muslim",
+          "unit": "Zübeyr b. el-Avvâm kolu",
+          "lat": 21.45,
+          "lng": 39.82,
+          "commander": "zubeyr",
+          "strength": "~2.500 (tahmini)",
+          "note_tr": "Kuzeyden (Küdâ geçidi) giriş. Sancağını Hacûn'a dikmesi emredildi."
+        },
+        {
+          "force": "muslim",
+          "unit": "Ebû Ubeyde b. el-Cerrâh kolu",
+          "lat": 21.45,
+          "lng": 39.82,
+          "commander": "comp_ebu_ubeyde",
+          "strength": "~2.000 (tahmini)",
+          "note_tr": "Batıdan / merkez hattan giriş."
+        },
+        {
+          "force": "muslim",
+          "unit": "Hz. Peygamber'in ana kolu",
+          "lat": 21.45,
+          "lng": 39.82,
+          "commander": "prophet",
+          "strength": "~2.500 (tahmini)",
+          "note_tr": "Kuzeyden giriş. Hz. Peygamber miğferli, Fetih sûresini okuyor."
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "F4_entry_skirmish",
+      "order": 4,
+      "name": {
+        "tr": "Giriş ve Handeme çatışması — Hâlid kolundaki kısa direniş",
+        "en": "Entry and Handama skirmish — brief resistance against Khalid's column"
+      },
+      "date_range": "20 Ramazan 8 AH sabahı (10 Ocak 630)",
+      "duration": "~1-2 saat",
+      "description": {
+        "tr": "Dört kol aynı anda Mekke'ye girmeye başladı. Üç kol (Zübeyr, Ebû Ubeyde, Hz. Peygamber) hiçbir direniş görmeden girdi. Ancak Hâlid b. Velîd'in güneydoğudan giren kolu Handeme mevkiinde İkrime b. Ebî Cehil ve Safvân b. Ümeyye liderliğindeki bir Kureyş müfrezesinin ok ve kılıç saldırısına uğradı. Hâlid derhal karşılık verdi; kısa ama şiddetli bir çatışma yaşandı. Kureyş kuvvetleri hızla dağıldı. Müslüman kayıp: 2 şehit (Hubeyş b. Hâlid el-Eşcaî ve Kürz b. Câbir el-Fihrî). Kureyş kayıp: 12-13 ölü (bazı rivâyetlerde 24-28). Bu, Mekke fethinin tek silahlı çatışmasıydı. Hz. Peygamber Hâlid'e savaşmama emri vermiş olmasına rağmen, meşrû müdafaa nedeniyle karşılık verilmesini kabul etti. Diğer kollar sükûnetle Mekke'ye girdi. Hz. Peygamber başını secde halinde eğerek (veya devesinin üzerinde eğilerek) girdi — tevâzunun en büyük gösterisi.",
+        "en": "The four columns began entering Mecca simultaneously. Three columns (Zubayr, Abu Ubayda, Prophet) entered without any resistance. However, Khalid ibn al-Walid's column entering from the southeast was attacked at Handama by a Quraysh detachment led by Ikrimah ibn Abi Jahl and Safwan ibn Umayya with arrows and swords. Khalid immediately responded; a short but fierce clash ensued. Quraysh forces quickly dispersed. Muslim casualties: 2 martyrs (Hubaysh ibn Khalid al-Ashja'i and Kurz ibn Jabir al-Fihri). Quraysh casualties: 12-13 killed (some narrations say 24-28). This was the only armed clash of the Conquest of Mecca. Despite the Prophet's no-fighting order, the self-defense response was accepted. The other columns entered peacefully. The Prophet entered with his head bowed in prostration (or bowing on his camel) — the greatest display of humility."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Hâlid'in meşrû müdafaa olarak karşılık vermesi",
+            "en": "Khalid's response as legitimate self-defense"
+          },
+          "maker": "comp_halid_velid",
+          "participants": [],
+          "impact": {
+            "tr": "Kısa ama kararlı müdahale direniş ceplerini eritti. Hz. Peygamber sonucu kabul etti.",
+            "en": "Short but decisive response dissolved resistance pockets. The Prophet accepted the outcome."
+          }
+        }
+      ],
+      "troop_positions": [
+        {
+          "force": "muslim",
+          "unit": "Hâlid kolu — Handeme çatışması",
+          "lat": 21.4,
+          "lng": 39.84,
+          "commander": "comp_halid_velid",
+          "strength": "~3.000",
+          "note_tr": "Güneydoğudan giriş sırasında dirençle karşılaştı."
+        },
+        {
+          "force": "enemy",
+          "unit": "İkrime-Safvân müfrezesi",
+          "lat": 21.4,
+          "lng": 39.84,
+          "commander": "comp_ikrime_ebu_cehl",
+          "strength": "~100-200 (tahmini)",
+          "note_tr": "Handeme mevkiinde mevzilenmiş, ok ve kılıçla saldırdı. Hızla dağıldı."
+        }
+      ],
+      "events": [
+        {
+          "id": "evt_handeme_catisma",
+          "name": {
+            "tr": "Handeme çatışması",
+            "en": "Handama skirmish"
+          },
+          "lat": 21.4,
+          "lng": 39.84,
+          "timestamp_relative": "20 Ramazan sabahı erken saatler",
+          "significance": "Mekke fethinin tek silahlı çatışması. 2 Müslüman şehit, 12-13 (veya 24-28) Kureyş kaybı."
+        },
+        {
+          "id": "evt_peygamber_giris",
+          "name": {
+            "tr": "Hz. Peygamber'in tevâzu ile Mekke'ye girişi",
+            "en": "Prophet's humble entry into Mecca"
+          },
+          "lat": 21.435,
+          "lng": 39.835,
+          "timestamp_relative": "20 Ramazan kuşluk vakti",
+          "significance": "Başı devesinin boynuna neredeyse değecek kadar eğik — zafer anında tevâzunun sembolü."
+        }
+      ]
+    },
+    {
+      "id": "F5_kabe_purification",
+      "order": 5,
+      "name": {
+        "tr": "Ka'be'nin arındırılması — 360 put, anahtar, Bilâl'in ezanı",
+        "en": "Purification of the Ka'ba — 360 idols, key, Bilal's adhan"
+      },
+      "date_range": "20 Ramazan 8 AH öğle saatleri (10 Ocak 630)",
+      "duration": "Birkaç saat",
+      "description": {
+        "tr": "Hz. Peygamber doğrudan Ka'be'ye yöneldi. Ka'be'yi tavaf etti — elindeki değnekle (veya yayıyla) putlara işaret ederek 'Hak geldi, bâtıl zâil oldu; şüphesiz bâtıl zâil olucudur' (İsrâ 17:81) âyetini okudu. Ka'be'nin içinde ve üzerinde 360 put vardı; hepsi devrildi ve kırıldı. En büyük put Hübel, Ka'be'nin üstündeydi ve aşağı atıldı. Ka'be'nin içinde Hz. İbrâhîm ve İsmâîl'in elinde fal okları tutan resimleri vardı; Hz. Peygamber bunların silinmesini emretti. Ka'be'nin anahtarı, fetihten önce Osmân b. Talha el-Abdüddârî'nin ailesine aitti. Hz. Peygamber anahtarı aldı, Ka'be'ye girdi, namaz kıldı. Sonra anahtarı Osmân b. Talha'ya iade etti: 'Alın, bu emanet sizde ebediyen kalacaktır; onu sizden ancak zâlim biri alır.' Nisâ 4:58 âyeti bu olayla ilişkilendirilir. Hz. Bilâl Ka'be'nin üstüne çıkarak ezan okudu — Mekke'de okunan ilk ezan. Bu, İslâm'ın Mekke'deki zaferin sembolik doruk noktasıydı.",
+        "en": "The Prophet headed directly to the Ka'ba. He performed tawaf — pointing at the idols with his staff (or bow) while reciting 'Truth has come and falsehood has vanished; indeed falsehood is bound to vanish' (al-Isra 17:81). The Ka'ba housed 360 idols inside and on top; all were toppled and destroyed. The largest idol, Hubal, was atop the Ka'ba and was thrown down. Inside the Ka'ba were paintings of Prophets Ibrahim and Ismail holding divination arrows; the Prophet ordered these erased. The Ka'ba key belonged to Uthman ibn Talha al-Abdadari's family before the conquest. The Prophet took the key, entered the Ka'ba, and prayed. He then returned the key to Uthman ibn Talha: 'Take it, this trust will remain with your family forever; only a tyrant would take it from you.' Surah an-Nisa 4:58 is associated with this event. Bilal climbed atop the Ka'ba and called the adhan — the first adhan in Mecca. This was the symbolic culmination of Islam's victory in Mecca."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Ka'be anahtarının Osmân b. Talha'ya iade edilmesi",
+            "en": "Returning the Ka'ba key to Uthman ibn Talha"
+          },
+          "maker": "prophet",
+          "participants": [
+            "osman_talha"
+          ],
+          "impact": {
+            "tr": "Kureyş'in geleneksel görevlerinin (sidâne) tanınması. Mekkelilerin onuruna saygı. Emanet ilkesinin teyidi.",
+            "en": "Recognition of Quraysh's traditional duties (sidana). Respect for Meccan honor. Confirmation of the trust principle."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Bilâl'in Ka'be'nin üstünde ezan okuması",
+            "en": "Bilal calling the adhan atop the Ka'ba"
+          },
+          "maker": "prophet",
+          "participants": [
+            "bilal"
+          ],
+          "impact": {
+            "tr": "İslâm'ın Mekke'deki zaferinin en güçlü sembolü. Eski köle bir Habeşli'nin müşriklerin en kutsal yapısının üstünde ezan okuması, İslâm'ın eşitlik mesajının cisimleşmesi.",
+            "en": "The most powerful symbol of Islam's victory in Mecca. A former Abyssinian slave calling the adhan atop the polytheists' holiest structure — the embodiment of Islam's message of equality."
+          }
+        }
+      ],
+      "troop_positions": [],
+      "events": [
+        {
+          "id": "evt_put_kirma",
+          "name": {
+            "tr": "360 putun kırılması — 'Câe'l-hakku ve zeheka'l-bâtıl'",
+            "en": "Destruction of 360 idols — 'Truth has come and falsehood has vanished'"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "20 Ramazan öğle",
+          "significance": "İbrâhîm'in tevhîd mirâsının ihyâsı. Ka'be'nin aslî fonksiyonuna dönüşü."
+        },
+        {
+          "id": "evt_anahtar_iade",
+          "name": {
+            "tr": "Ka'be anahtarının Osmân b. Talha'ya iadesi",
+            "en": "Return of Ka'ba key to Uthman ibn Talha"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "20 Ramazan öğleden sonra",
+          "significance": "Nisâ 4:58 ile ilişkilendirilen olay. Emanet ilkesi."
+        },
+        {
+          "id": "evt_bilal_ezan",
+          "name": {
+            "tr": "Bilâl'in Ka'be üstünde ezan okuması",
+            "en": "Bilal calling the adhan atop the Ka'ba"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "20 Ramazan öğle namazı",
+          "significance": "Mekke'de okunan ilk ezan. İslâm eşitlik ilkesinin en güçlü gösterimi."
+        }
+      ]
+    },
+    {
+      "id": "F6_amnesty",
+      "order": 6,
+      "name": {
+        "tr": "Genel af ve sonuç — 'el-Yevm yevmü'l-merhame'",
+        "en": "General amnesty and aftermath — 'Today is the day of mercy'"
+      },
+      "date_range": "20 Ramazan 8 AH ve sonrası (Ocak 630 ve devamı)",
+      "duration": "Birkaç gün (ani sonuçlar), uzun vadeli etkiler aylar",
+      "description": {
+        "tr": "Hz. Peygamber Ka'be'nin kapısında (veya Safâ tepesinde) Kureyşlilere seslendi: 'Ey Kureyş! Sizin hakkınızda ne yapacağımı zannediyorsunuz?' Dediler: 'Hayır! Kerem sahibi bir kardeşsin, kerem sahibi bir kardeşin oğlusun.' Hz. Peygamber: 'Ben de size Yûsuf'un kardeşlerine söylediğini söylüyorum: Bugün size kınama yoktur. Gidiniz, hepiniz serbestsiniz (İzhebû fe-entümü't-tulekā)!' buyurdu. Bu genel af (el-amânü'l-âmm) İslâm hukuk tarihinin en önemli emsal kararlarından biridir. Ancak sınırlı bir istisna listesi vardı (~6-10 kişi): İbn Hatal (Ka'be örtüsüne yapışmış halde öldürüldü), Mıkyes b. Subâbe, Habbâr b. el-Esved (sonradan affedildi) ve birkaç kişi daha. Hind bt. Utbe (Hamza'nın ciğerini ısıran kadın) Hz. Peygamber'e gelerek şehâdet getirdi ve affedildi — Hz. Peygamber onu tanıyarak 'Sen Hind'sin' dedi. İkrime b. Ebî Cehil kaçtı ama eşi Hz. Peygamber'den onun için aman diledi; geri dönüp Müslüman oldu. Safvân b. Ümeyye'ye 4 ay mühlet verildi; Huneyn Gazvesi'ndeki cesaretinden sonra Müslüman oldu. Mekke fetih sonrası 'dârü'l-İslâm' ilan edildi ve harem statüsü teyit edildi — 'Mekke'nin dikeni kesilmez, avı kovalanmaz, kaybolan eşyası yalnızca sahibi tarafından alınır.' Hz. Peygamber 'el-Yevm yevmü'l-merhame' (Bugün merhamet günüdür) diyerek Sa'd'ın 'Bugün savaş günüdür!' söylemini düzeltti. Ensâr, Hz. Peygamber'in Mekke'de kalacağından endişe etti; Hz. Peygamber 'Hayatım sizin hayatınız, ölümüm sizin ölümünüzdür' diyerek Medîne'ye dönme sözü verdi.",
+        "en": "The Prophet addressed the Quraysh at the Ka'ba door (or at Safa): 'O Quraysh! What do you think I will do to you?' They said: 'Good! You are a noble brother, son of a noble brother.' The Prophet said: 'I say to you what Yusuf said to his brothers: No blame upon you today. Go, you are all free (Idh'habu fa-antum al-tulaqa)!' This general amnesty (al-aman al-amm) is one of the most important precedents in Islamic legal history. However, a limited exception list existed (~6-10 persons): Ibn Khatal (killed while clinging to the Ka'ba curtain), Miqyas ibn Subaba, Habbar ibn al-Aswad (later pardoned), and a few others. Hind bint Utba (who mutilated Hamza) came to the Prophet and pronounced shahada and was pardoned — the Prophet recognized her: 'You are Hind.' Ikrimah ibn Abi Jahl fled but his wife sought the Prophet's protection for him; he returned and converted. Safwan ibn Umayya was given 4 months; he converted after showing courage at Hunayn. Mecca was declared 'Dar al-Islam' with its haram status confirmed — 'Mecca's thorns shall not be cut, its game shall not be chased, its lost property shall only be taken by its owner.' The Prophet said 'Today is the day of mercy' correcting Sa'd's 'Today is the day of battle!' rhetoric. The Ansar worried the Prophet would stay in Mecca; the Prophet reassured: 'My life is your life, my death is your death' — promising return to Medina."
+      },
+      "key_decisions": [
+        {
+          "decision": {
+            "tr": "Genel af — 'Gidiniz, hepiniz serbestsiniz'",
+            "en": "General amnesty — 'Go, you are all free'"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Kureyş'in toplu olarak İslâm'a girmesini sağladı. İslâm fetih hukukunda emsal karar. İntikam yerine af, İslâm'ın ahlâkî üstünlüğünün göstergesi.",
+            "en": "Enabled mass conversion of Quraysh. Set precedent in Islamic law of conquest. Mercy over revenge demonstrated Islam's moral superiority."
+          }
+        },
+        {
+          "decision": {
+            "tr": "Mekke'nin harem statüsünün teyidi — fetih özel izinle yapıldı",
+            "en": "Confirmation of Mecca's haram status — conquest was by special permission"
+          },
+          "maker": "prophet",
+          "participants": [],
+          "impact": {
+            "tr": "Mekke'nin ebedî dokunulmazlığı teyit edildi. 'Benden önce kimseye helal kılınmadı, benden sonra da kimseye helal kılınmayacak' — bir saatlik özel izin.",
+            "en": "Mecca's eternal inviolability confirmed. 'It was not made lawful for anyone before me, nor will it be for anyone after me' — a one-hour special permission."
+          }
+        }
+      ],
+      "troop_positions": [],
+      "events": [
+        {
+          "id": "evt_genel_af",
+          "name": {
+            "tr": "Genel af ilânı — İzhebû fe-entümü't-tulekā",
+            "en": "Declaration of general amnesty"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "20 Ramazan — Ka'be kapısında hutbe",
+          "significance": "İslâm tarihinin en önemli siyasi kararlarından biri. Adalet ve merhametin zirve noktası."
+        },
+        {
+          "id": "evt_hind_islam",
+          "name": {
+            "tr": "Hind bt. Utbe'nin Müslüman oluşu",
+            "en": "Conversion of Hind bint Utba"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "20 Ramazan — af sonrası",
+          "significance": "Uhud'da Hz. Hamza'yı parçalatan ve ciğerini ısıran kadının affedilmesi — merhametin sınırlarını gösteren sembol olay."
+        },
+        {
+          "id": "evt_ikrime_donus",
+          "name": {
+            "tr": "İkrime b. Ebî Cehil'in dönüşü ve Müslüman oluşu",
+            "en": "Return and conversion of Ikrimah ibn Abi Jahl"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "Fetihten birkaç gün/hafta sonra",
+          "significance": "Babasının İslâm'ın en büyük düşmanı olduğu İkrime'nin İslâm'a girmesi — nesiller arası düşmanlığın sona ermesi."
+        },
+        {
+          "id": "evt_mekke_harem",
+          "name": {
+            "tr": "Mekke'nin harem statüsünün teyidi",
+            "en": "Confirmation of Mecca's haram status"
+          },
+          "lat": 21.4225,
+          "lng": 39.8262,
+          "timestamp_relative": "Fetih günü hutbesinde",
+          "significance": "Mekke fetih hukuku emsal kararı — fetih ile harem arasındaki denge."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 10000,
+      "total_range": "10.000 (İbn Hişâm: 10.000; Vâkıdî: 10.000; bazı rivâyetler 12.000)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirin_ansar": {
+          "count_est": "~3.000-4.000",
+          "note_tr": "Medîne muhâcirleri ve ensâr — çekirdek kuvvet."
+        },
+        "allied_tribes": {
+          "count_est": "~6.000-7.000",
+          "note_tr": "Eslem, Gifâr, Müzeyne, Cüheyne, Süleym, Eşca' ve diğer müttefik kabileler."
+        },
+        "cavalry": {
+          "count_est": "bilinmiyor — sınırlı",
+          "note_tr": "Süvari sayısı açıkça rivâyet edilmemiş."
+        },
+        "women": {
+          "count_est": "var (sayı belirsiz)",
+          "note_tr": "Ümmü Seleme dahil bazı hanımlar sefere katıldı."
+        }
+      },
+      "equipment": {
+        "swords": "evet — tam donanım",
+        "bows": "evet",
+        "armor": "evet — Hz. Peygamber miğfer takarak girdi",
+        "siege_equipment": "gerek kalmadı — şehir savaşla değil teslimle alındı"
+      },
+      "column_commanders": [
+        {
+          "commander_id": "comp_halid_velid",
+          "commander_name": {
+            "tr": "Hâlid b. Velîd",
+            "en": "Khalid ibn al-Walid"
+          },
+          "direction": "south_southeast",
+          "entry_point": "Lît / es-Seniyyetü's-Süflâ",
+          "note_tr": "Aşağı Mekke'den giriş. Tek direniş burada."
+        },
+        {
+          "commander_id": "zubeyr",
+          "commander_name": {
+            "tr": "Zübeyr b. el-Avvâm",
+            "en": "Zubayr ibn al-Awwam"
+          },
+          "direction": "north_northwest",
+          "entry_point": "Küdâ / Seniyyetü'l-Ulyâ",
+          "note_tr": "Yukarı Mekke'den giriş. Sancağı Hacûn'a dikti."
+        },
+        {
+          "commander_id": "comp_ebu_ubeyde",
+          "commander_name": {
+            "tr": "Ebû Ubeyde b. el-Cerrâh",
+            "en": "Abu Ubayda ibn al-Jarrah"
+          },
+          "direction": "west_center",
+          "entry_point": "Batı yolu",
+          "note_tr": "Merkez hattan giriş."
+        },
+        {
+          "commander_id": "comp_sad_b_ubade",
+          "commander_name": {
+            "tr": "Sa'd b. Ubâde (sonra oğlu Kays)",
+            "en": "Sa'd ibn Ubada (then son Qays)"
+          },
+          "direction": "ansar_unit",
+          "entry_point": "belirtilmemiş",
+          "note_tr": "Ensâr birliği. Sa'd'ın sancağı alınıp Kays'a verildi."
+        }
+      ]
+    },
+    "enemy": {
+      "total": "~200-300 (direnen grup)",
+      "total_range": "Çoğunluk teslim oldu. Sadece ~100-200 kişilik İkrime-Safvân grubu direndi.",
+      "commander": "Dağınık — birleşik komuta yok",
+      "commander_name": {
+        "tr": "İkrime b. Ebî Cehil ve Safvân b. Ümeyye (Handeme'de)",
+        "en": "Ikrimah ibn Abi Jahl and Safwan ibn Umayya (at Handama)"
+      },
+      "composition": {
+        "quraysh_hardliners": {
+          "count_est": "~100-200",
+          "note_tr": "Antlaşmayı reddeden ve savaşmak isteyen az sayıda Kureyş savaşçısı."
+        }
+      },
+      "equipment": {
+        "swords": "evet",
+        "bows": "evet",
+        "armor": "sınırlı"
+      },
+      "allies": [],
+      "note_tr": "Ebû Süfyân'ın teslim çağrısıyla Kureyş'in büyük çoğunluğu evlerine çekildi. Organize bir savunma yapılmadı."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": "İbn Hişâm, es-Sîretü'n-Nebeviyye",
+        "ref": "IV/39-71",
+        "note_tr": "En kapsamlı anlatım. Dört kol, Merru'z-Zahrân, af, putların kırılması detaylı."
+      },
+      {
+        "id": "WQ",
+        "name": "Vâkıdî, Kitâbü'l-Megâzî",
+        "ref": "II/780-875",
+        "note_tr": "En detaylı kaynak. Hatıb mektubu, konak yerleri, isim listeleri."
+      },
+      {
+        "id": "IS",
+        "name": "İbn Sa'd, et-Tabakātü'l-Kübrâ",
+        "ref": "II/134-148",
+        "note_tr": "Kol komutanları ve giriş güzergâhları detaylı."
+      },
+      {
+        "id": "TB",
+        "name": "Taberî, Târîhu'r-Rusül ve'l-Mülûk",
+        "ref": "III/54-68",
+        "note_tr": "Kronoloji ve rivâyet zinciri güçlü."
+      },
+      {
+        "id": "BU",
+        "name": "Buhârî, el-Câmiu's-Sahîh, Megâzî",
+        "ref": "Megâzî 47-48",
+        "note_tr": "Sahih hadisler: genel af, Hatıb olayı, putların kırılması."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_mekke_fethi_af",
+        "ref": "Beyhakî, es-Sünenü'l-Kübrâ 9/118; Bezzâr",
+        "topic_tr": "Genel af: 'Gidiniz, hepiniz serbestsiniz'"
+      },
+      {
+        "id": "hds_mekke_fethi",
+        "ref": "Buhârî, Megâzî 48",
+        "topic_tr": "Fetih hadisleri genel"
+      },
+      {
+        "id": "hds_bilal_ezan_kabe",
+        "ref": "Buhârî, Megâzî 48; Ahmed b. Hanbel",
+        "topic_tr": "Bilâl'in Ka'be'nin üstünde ezan okuması",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_hatib_mektup",
+        "ref": "Buhârî, Megâzî 46; Müslim, Fedâilü's-Sahâbe",
+        "topic_tr": "Hâtıb'ın gizli mektubu ve affedilmesi — Mümtehine 60:1 sebebi",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_mekke_put_kirma",
+        "ref": "Buhârî, Megâzî 48; Müslim, Cihâd",
+        "topic_tr": "360 putun kırılması — 'Câe'l-hakku ve zeheka'l-bâtıl' (İsrâ 17:81)",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_mekke_anahtar",
+        "ref": "Taberî Tefsiri, Nisâ 4:58; Tirmizî",
+        "topic_tr": "Ka'be anahtarının Osmân b. Talha'ya iade edilmesi",
+        "status": "new_needed"
+      },
+      {
+        "id": "hds_mekke_harem",
+        "ref": "Buhârî, İlm 39; Megâzî 48",
+        "topic_tr": "Mekke'nin harem statüsü — 'Benden önce kimseye helal kılınmadı'",
+        "status": "new_needed"
+      }
+    ],
+    "modern_studies": [
+      {
+        "id": "hamidullah_battlefields",
+        "name": "Muhammed Hamidullâh, İslâm Peygamberi",
+        "note_tr": "Dört kol güzergâhları ve harita çalışması."
+      },
+      {
+        "id": "watt_medina",
+        "name": "W. Montgomery Watt, Muhammad at Medina",
+        "note_tr": "Siyasi analiz: Hudeybiye'den fethe uzanan stratejik süreç."
+      },
+      {
+        "id": "lings_muhammad",
+        "name": "Martin Lings, Muhammad: His Life Based on the Earliest Sources",
+        "note_tr": "Merru'z-Zahrân sahnesi ve genel af'ın anlatımı."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Müslüman ordu sayısı",
+        "versions": {
+          "IH": {
+            "value": 10000,
+            "ref": "IV/41"
+          },
+          "WQ": {
+            "value": 10000,
+            "ref": "II/784"
+          },
+          "other": {
+            "value": "12.000",
+            "ref": "Bazı geç kaynaklar"
+          }
+        },
+        "consensus": "10.000",
+        "confidence": "high",
+        "note_tr": "10.000 rakamında kaynaklarda geniş mutabakat var. 12.000 rakamı muhtemelen yol üzeri katılımlarla şişirilmiş."
+      },
+      {
+        "topic": "Hâlid kolundaki düşman kayıp sayısı",
+        "versions": {
+          "IH": {
+            "value": "12-13",
+            "ref": "IV/54"
+          },
+          "WQ": {
+            "value": "24-28",
+            "ref": "II/826"
+          },
+          "IS": {
+            "value": "~13",
+            "ref": "II/140"
+          }
+        },
+        "consensus": "12-28 arası",
+        "confidence": "medium",
+        "note_tr": "Vâkıdî yüksek, İbn Hişâm düşük rakam verir. Muhtemelen yaralı/ölü ayrımından kaynaklanır."
+      },
+      {
+        "topic": "Sa'd b. Ubâde'den sancağın kime verildiği",
+        "versions": {
+          "IH": {
+            "value": "Oğlu Kays b. Sa'd",
+            "ref": "IV/48"
+          },
+          "WQ": {
+            "value": "Zübeyr b. el-Avvâm",
+            "ref": "II/819"
+          },
+          "TB": {
+            "value": "Ali b. Ebî Tâlib",
+            "ref": "III/58"
+          }
+        },
+        "consensus": "Kays b. Sa'd (en yaygın rivâyet)",
+        "confidence": "medium",
+        "note_tr": "İbn Hişâm'ın oğul Kays rivâyeti en yaygın kabul gören versiyon. Zübeyr zaten kendi kolunu komuta ettiğinden mantıklı."
+      },
+      {
+        "topic": "Hz. Peygamber'in giriş yönü",
+        "versions": {
+          "IH": {
+            "value": "Küdâ (kuzeyden)",
+            "ref": "IV/49"
+          },
+          "WQ": {
+            "value": "Eztâhir üzerinden",
+            "ref": "II/821"
+          },
+          "IS": {
+            "value": "Seniyyetü'l-Ulyâ (yukarıdan)",
+            "ref": "II/138"
+          }
+        },
+        "consensus": "Kuzeyden / Seniyyetü'l-Ulyâ (Küdâ)",
+        "confidence": "high",
+        "note_tr": "Tüm kaynaklar Hz. Peygamber'in Yukarı Mekke'den girdiğinde mutabık."
+      },
+      {
+        "topic": "İstisna listesindeki kişi sayısı",
+        "versions": {
+          "IH": {
+            "value": "~6",
+            "ref": "IV/51"
+          },
+          "WQ": {
+            "value": "~10-11",
+            "ref": "II/850-853"
+          },
+          "IS": {
+            "value": "~8-9",
+            "ref": "II/143"
+          }
+        },
+        "consensus": "6-11 kişi",
+        "confidence": "low",
+        "note_tr": "Listeler örtüşüyor ama tam aynı değil. İbn Hatal, Mıkyes b. Subâbe herkeste ortak. Bazı isimlerin sonradan affedilmesi listeyi karmaşıklaştırıyor."
+      },
+      {
+        "topic": "İbn Hatal'ın öldürülme koşulları",
+        "versions": {
+          "IH": {
+            "value": "Ka'be örtüsüne yapışmış halde Ebû Berze tarafından",
+            "ref": "IV/52"
+          },
+          "WQ": {
+            "value": "Sa'îd b. Hueys ve Ammâr b. Yâsir tarafından",
+            "ref": "II/855"
+          },
+          "BU": {
+            "value": "Ka'be örtüsüne tutunurken",
+            "ref": "Megâzî 48"
+          }
+        },
+        "consensus": "Ka'be örtüsüne yapışmış halde öldürüldü",
+        "confidence": "high",
+        "note_tr": "Ka'be örtüsüne yapışma detayı tüm kaynaklarda ortak. Kimin öldürdüğü tartışmalı."
+      },
+      {
+        "topic": "Fetih tarihi (kesin gün)",
+        "versions": {
+          "IH": {
+            "value": "20 Ramazan 8 AH",
+            "ref": "IV/49"
+          },
+          "WQ": {
+            "value": "19-20 Ramazan",
+            "ref": "II/815"
+          },
+          "TB": {
+            "value": "20 Ramazan",
+            "ref": "III/56"
+          }
+        },
+        "consensus": "20 Ramazan 8 AH (Ocak 630)",
+        "confidence": "high",
+        "note_tr": "20 Ramazan'da geniş mutabakat. Milâdî karşılık hesaplamaları ~10-11 Ocak 630."
+      },
+      {
+        "topic": "Ebû Süfyân'ın İslâm'a giriş samimiyeti",
+        "versions": {
+          "IH": {
+            "value": "Kelime-i şehâdet getirdi, samimi",
+            "ref": "IV/46"
+          },
+          "WQ": {
+            "value": "Baskı altında, sonra samimileşti",
+            "ref": "II/812"
+          },
+          "modern": {
+            "value": "Siyasi pragmatizm tartışmalı",
+            "ref": "Watt, Medina"
+          }
+        },
+        "consensus": "Tartışmalı — rivâyetlerde samimiyet ve pragmatizm birlikte",
+        "confidence": "low",
+        "note_tr": "Klasik kaynaklar samimiyetini kabul eder. Modern araştırmacılar siyasi baskı faktörünü öne çıkarır. Sonraki yaşamındaki hizmeti samimiyetine delil olarak gösterilir."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 110,
+      "surah_name": "en-Nasr",
+      "ayah_range": "1-3",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Nasr sûresi Mekke fethiyle doğrudan ilişkilidir. 'Allah'ın yardımı ve fetih geldiğinde, insanların grup grup Allah'ın dinine girdiklerini gördüğünde, Rabbini hamd ile tesbîh et ve O'ndan mağfiret dile.' Üç âyet, fethin üç boyutunu özetler: ilâhî yardım, kitlesel İslâm'a giriş, ve tevâzu.",
+        "en": "Surah an-Nasr is directly related to the Conquest of Mecca. 'When Allah's help and the conquest comes, and you see people entering Allah's religion in groups, glorify your Lord with praise and seek His forgiveness.' Three verses summarize three dimensions of the conquest: divine aid, mass conversion, and humility."
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Allah'ın yardımı ve fetih — 'İzâ câe nasrullâhi ve'l-feth'",
+          "phase_id": "F4_entry_skirmish",
+          "esbab_id": "en_nasr_110_1"
+        },
+        {
+          "ayah": 2,
+          "topic_tr": "İnsanların grup grup İslâm'a girmesi — fetih sonrası kitlesel dönüşüm",
+          "phase_id": "F6_amnesty"
+        },
+        {
+          "ayah": 3,
+          "topic_tr": "Rabbini hamd ile tesbîh et — zafer anında tevâzu emri",
+          "phase_id": "F6_amnesty",
+          "esbab_id": "en_nasr_110_detay"
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surah_name": "el-Feth",
+      "ayah_range": "1, 24-27",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Fetih sûresi aslında Hudeybiye Antlaşması üzerine nâzil olmuştur (6 AH) ancak Mekke fethi bu sûredeki 'feth-i mübîn' vaadinin gerçekleşmesidir. 24. âyet Mekke vadisinde (Hudeybiye sonrası) savaşın engellenmesini; 27. âyet 'Mescid-i Harâm'a güvenle gireceksiniz' müjdesini içerir.",
+        "en": "Surah al-Fath was originally revealed regarding the Treaty of Hudaybiyya (6 AH) but the Conquest of Mecca is the fulfillment of the 'manifest victory' promised in this surah. Verse 24 addresses the prevention of fighting in the Mecca valley; verse 27 contains the good tidings 'You will enter the Sacred Mosque in safety.'"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Apaçık fetih — Hudeybiye'nin Mekke fethine giden yol olduğunun teyidi",
+          "phase_id": "F0_background",
+          "esbab_id": "en_feth_48_1_6"
+        },
+        {
+          "ayah": 24,
+          "topic_tr": "Mekke vadisinde savaşın engellenmesi — kansız fethin ilâhî planı",
+          "phase_id": "F4_entry_skirmish",
+          "esbab_id": "en_feth_48_24"
+        },
+        {
+          "ayah": 27,
+          "topic_tr": "'Mescid-i Harâm'a güvenle gireceksiniz, başlarınızı tıraş ederek ve kısaltarak' — fetih müjdesi",
+          "phase_id": "F5_kabe_purification"
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "et-Tevbe",
+      "ayah_range": "28",
+      "phase_id": "F6_amnesty",
+      "topic": {
+        "tr": "Tevbe 9:28 — 'Müşrikler ancak necistir, bu yıldan sonra Mescid-i Harâm'a yaklaşmasınlar.' Bu âyet fetihten sonra nâzil olmuştur ve Mekke'nin yeni dini statüsünü belirler.",
+        "en": "At-Tawbah 9:28 — 'The polytheists are impure, so let them not approach the Sacred Mosque after this year.' This verse was revealed after the conquest and defines Mecca's new religious status."
+      },
+      "key_verses": [
+        {
+          "ayah": 28,
+          "topic_tr": "Müşriklerin Mescid-i Harâm'a giriş yasağı — fetih sonrası yeni düzen",
+          "phase_id": "F6_amnesty",
+          "esbab_id": "en_tevbe_9_28"
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surah_name": "el-Mümtehine",
+      "ayah_range": "1-9",
+      "phase_id": "F1_preparation_march",
+      "topic": {
+        "tr": "Mümtehine sûresinin ilk âyetleri Hâtıb b. Ebî Beltea'nın Kureyş'e gizlice haber gönderme girişimi üzerine nâzil olmuştur. 'Ey iman edenler! Benim düşmanımı ve sizin düşmanınızı dost edinmeyin' (60:1). Hâtıb'ın niyeti hıyânet değil, ailevi koruma idi; Hz. Peygamber onu Bedir ehli olduğu için affetti.",
+        "en": "The opening verses of Surah al-Mumtahina were revealed regarding Hatib ibn Abi Balta'a's attempt to secretly inform Quraysh. 'O you who believe! Do not take My enemies and your enemies as allies' (60:1). Hatib's intent was family protection, not treason; the Prophet pardoned him as a Badr veteran."
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Hâtıb'ın Kureyş'e haber gönderme girişimi — düşmanı dost edinme yasağı",
+          "phase_id": "F1_preparation_march"
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surah_name": "el-İsrâ",
+      "ayah_range": "81",
+      "phase_id": "F5_kabe_purification",
+      "topic": {
+        "tr": "İsrâ 17:81 — 'De ki: Hak geldi, bâtıl zâil oldu. Şüphesiz bâtıl zâil olucudur.' Hz. Peygamber Ka'be'deki putları kırarken bu âyeti okumuştur. Fethin en ikonik anlarından biri.",
+        "en": "Al-Isra 17:81 — 'Say: Truth has come and falsehood has vanished. Indeed, falsehood is bound to vanish.' The Prophet recited this verse while destroying the idols in the Ka'ba. One of the most iconic moments of the conquest."
+      },
+      "key_verses": [
+        {
+          "ayah": 81,
+          "topic_tr": "Hak geldi, bâtıl zâil oldu — putların kırılması esnasında okunan âyet",
+          "phase_id": "F5_kabe_purification"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_mekke_put_kirma",
+      "topic": "Ka'be'deki 360 putun kırılması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mekke_anahtar",
+      "topic": "Ka'be anahtarının Osmân b. Talha'ya iade edilmesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mekke_harem",
+      "topic": "Mekke'nin harem statüsünün teyidi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_bilal_ezan_kabe",
+      "topic": "Hz. Bilâl'in Ka'be üstünde ezan okuması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_hatib_mektup",
+      "topic": "Hâtıb b. Ebî Beltea'nın Kureyş'e gizli mektup göndermesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_megazi_fetih_af",
+      "topic": "Mekke fethinde genel af",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "İslâm tarihinin en büyük askerî harekatı: 10.000 kişilik ordu, dört koldan eşzamanlı giriş. Stratejik sürpriz tam olarak sağlandı. Neredeyse kansız fetih (2 Müslüman şehit, 12-28 düşman kaybı). Psikolojik savaşın (10.000 ateş, dört kol kuşatması) fiziksel savaşın yerine geçtiğinin örneği. Hâlid b. Velîd'in taktik yetkinliği — dirençle karşılaşınca hızlı ve orantılı karşılık. Modern terminolojiyle 'kansız rejim değişikliği' operasyonu.",
+      "en": "Largest military operation in Islamic history: 10,000 troops, simultaneous four-column entry. Complete strategic surprise achieved. Nearly bloodless conquest (2 Muslim martyrs, 12-28 enemy casualties). Example of psychological warfare (10,000 fires, four-column encirclement) replacing physical warfare. Khalid ibn al-Walid's tactical competence — rapid and proportional response when encountering resistance. In modern terminology, a 'bloodless regime change' operation."
+    },
+    "political": {
+      "tr": "Mekke'nin fethi Arap Yarımadası'nın siyasi dengesini kökten değiştirdi. Kureyş'in 20 yıllık İslâm karşıtı direnci sona erdi. Mekke'nin prestiji İslâm lehine dönüştü — Hicaz'ın siyasi merkezi artık Müslüman. Fetih sonrası Arap kabileleri dalga dalga İslâm'a girdi ('insanlar grup grup'). Hudeybiye'nin stratejik dehası somutlaştı: 2 yıl önce 'kayıp' gibi görünen antlaşma, kansız zaferle sonuçlandı. Ebû Süfyân'ın Müslüman olması Emevî soyunun gelecekteki siyasi rolünün başlangıcı.",
+      "en": "The conquest fundamentally shifted the Arabian Peninsula's political balance. Quraysh's 20-year anti-Islamic resistance ended. Mecca's prestige was redirected in Islam's favor — the Hijaz's political center was now Muslim. After the conquest, Arab tribes entered Islam in waves ('people in groups'). The strategic genius of Hudaybiyya was realized: a treaty that seemed like a 'loss' 2 years prior resulted in a bloodless victory. Abu Sufyan's conversion was the beginning of the Umayyad family's future political role."
+    },
+    "social": {
+      "tr": "Genel af İslâm toplumunun sosyal dokusunu kökten değiştirdi. 20 yıllık düşmanlar — Ebû Süfyân, Hind, İkrime — artık Müslüman toplumun üyesiydi. Bilâl'in Ka'be'deki ezanı sosyal eşitliğin en güçlü sembolü oldu. 'Tulekā' (serbest bırakılanlar) sınıfı oluştu — genel afla Müslüman olanlar. Bu sınıf siyasi haklardan yoksun değildi ama moral hiyerarşide muhâcirler ve ensâr'ın altındaydı.",
+      "en": "The general amnesty fundamentally transformed Islamic society's social fabric. 20-year enemies — Abu Sufyan, Hind, Ikrimah — were now members of the Muslim community. Bilal's adhan atop the Ka'ba became the most powerful symbol of social equality. The 'Tulaqa' (freed ones) class emerged — those who became Muslim through the general amnesty. This class was not deprived of political rights but was below Muhajirin and Ansar in moral hierarchy."
+    },
+    "theological": {
+      "tr": "Ka'be'nin Hz. İbrâhîm'in tevhîd mirâsına kavuşturulması — 360 putun kırılması. Fetih, Kur'ân'ın vaadlerinin (Feth 48:27, Nasr 110:1) gerçekleşmesi olarak kabul edilir. İsrâ 17:81 ('Hak geldi, bâtıl zâil oldu') Mekke fethiyle somutlaştı. Genel af, İslâm'ın intikam değil merhamet dini olduğunun en güçlü göstergesi. Mekke'nin harem statüsünün teyidi — İslâm hukukunun temel ilkelerinden. Sûre-i Nasr aynı zamanda Hz. Peygamber'in vefâtına da işaret olarak yorumlanır — zafer ve vedânın iç içeliği.",
+      "en": "Ka'ba's restoration to Prophet Ibrahim's monotheistic legacy — destruction of 360 idols. The conquest is accepted as fulfillment of Quranic promises (al-Fath 48:27, an-Nasr 110:1). Al-Isra 17:81 was embodied at the Conquest of Mecca. General amnesty was the strongest indicator that Islam is a religion of mercy, not revenge. Confirmation of Mecca's haram status — a foundational principle of Islamic law. Surah an-Nasr is also interpreted as pointing to the Prophet's death — victory and farewell intertwined."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "total_killed": "2 (veya 3)",
+        "named": [
+          {
+            "name_tr": "Hubeyş b. Hâlid el-Eşcaî",
+            "note_tr": "Hâlid kolu — Handeme çatışmasında şehit"
+          },
+          {
+            "name_tr": "Kürz b. Câbir el-Fihrî",
+            "note_tr": "Hâlid kolu — Handeme çatışmasında şehit"
+          }
+        ],
+        "wounded": "az sayıda (detay verilmemiş)"
+      },
+      "enemy": {
+        "total_killed": "12-28 (yalnızca Handeme çatışmasında)",
+        "named": [],
+        "note_tr": "İbn Hişâm 12-13, Vâkıdî 24-28. Tüm kayıplar Hâlid kolundaki Handeme çatışmasında. Diğer 3 kol hiçbir kayıp vermedi/almadı."
+      },
+      "note_tr": "İslâm tarihinin en az kayıplı büyük fetihi. 10.000 kişilik seferden sadece 2 şehit — %0.02 kayıp oranı."
+    }
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "column_halid": "#1B5E20",
+      "column_zubeyr": "#2E7D32",
+      "column_ebu_ubeyde": "#43A047",
+      "column_prophet": "#FFD600",
+      "route_march": "#1565C0",
+      "route_entry": "#0D47A1",
+      "landmark": "#6A1B9A",
+      "sacred": "#FF6F00",
+      "event": "#FF8F00",
+      "amnesty_zone": "#00695C",
+      "skirmish": "#D32F2F"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli Noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "style": {
+          "icon": "landmark",
+          "color": "#6A1B9A"
+        }
+      },
+      {
+        "id": "layer_march_route",
+        "name": "Yürüyüş Güzergâhı (Medîne → Mekke)",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[0]",
+        "style": {
+          "color": "#1565C0",
+          "weight": 3,
+          "dash": "solid"
+        }
+      },
+      {
+        "id": "layer_entry_columns",
+        "name": "Dört Kol Giriş Güzergâhları",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[1]",
+        "style": {
+          "color": "#2E7D32",
+          "weight": 2,
+          "dash": "dashed"
+        }
+      },
+      {
+        "id": "layer_skirmish",
+        "name": "Handeme Çatışması",
+        "type": "zone",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks[id=lm_handeme]",
+        "style": {
+          "color": "#D32F2F",
+          "fillOpacity": 0.2
+        }
+      },
+      {
+        "id": "layer_phases",
+        "name": "Fazlar (animasyonlu)",
+        "type": "animation",
+        "default_visible": false,
+        "data_source": "phases"
+      }
+    ]
+  },
+  "cross_references": {
+    "prophet_battles": "pb_mekke_fethi",
+    "companions": [
+      "comp_ebu_sufyan_det",
+      "comp_halid_velid",
+      "zubeyr",
+      "comp_ebu_ubeyde",
+      "abbas",
+      "bilal",
+      "osman_talha",
+      "comp_ikrime_ebu_cehl",
+      "comp_hind_utbe",
+      "hatib_belta",
+      "comp_sad_b_ubade",
+      "safvan_umeyye",
+      "comp_amr_as"
+    ],
+    "locations": [
+      "mekke",
+      "mekke_safa_merve"
+    ],
+    "hadith_db": [
+      "hds_mekke_fethi",
+      "hds_mekke_fethi_af"
+    ],
+    "hadith_new_needed": [
+      "hds_bilal_ezan_kabe",
+      "hds_hatib_mektup",
+      "hds_mekke_put_kirma",
+      "hds_mekke_anahtar",
+      "hds_mekke_harem"
+    ],
+    "esbab_nuzul": [
+      "en_nasr_110_1",
+      "en_nasr_110_detay",
+      "en_tevbe_9_28",
+      "en_feth_48_1_6",
+      "en_feth_48_18",
+      "en_feth_48_24"
+    ],
+    "related_battles": [
+      {
+        "id": "reconstruction_bedir",
+        "relation": "Hâtıb'ın Bedir ehli olması nedeniyle affedilmesi (Bedir → Mekke Fethi)",
+        "type": "causal"
+      },
+      {
+        "id": "reconstruction_uhud",
+        "relation": "Hind bt. Utbe'nin Uhud'da Hamza'yı parçalatması → fetihte affedilmesi",
+        "type": "narrative_arc"
+      },
+      {
+        "id": "reconstruction_hendek",
+        "relation": "Hendek sonrası Hudeybiye → Mekke Fethi stratejik silsilesi",
+        "type": "strategic_sequence"
+      },
+      {
+        "id": "reconstruction_hayber",
+        "relation": "Hayber (7 AH) ile Mekke Fethi (8 AH) arasında 1 yıl — Kureyş'in müttefik ağının daraltılması",
+        "type": "strategic_sequence"
+      }
+    ]
+  }
+}

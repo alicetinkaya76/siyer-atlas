@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_abdullah_uneys",
+    "battle_id": "seriyye_abdullah_uneys",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.55,
+        "lng": 40.05
+      },
+      "name": "Uran (Nahle civarı)",
+      "modern_location": "Nahle vadisi batısı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "İstihbarat",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Hâlid b. Süfyân'ın Medine'ye saldırı hazırlığı haberi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Suikast",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Abdullah b. Üneys tek başına gidip Hâlid'i öldürdü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Dönüş",
+      "date_range": "Muharrem 4",
+      "duration": "",
+      "description": "Başını Hz. Peygamber'e getirdi. Ona asâsını hediye etti.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Üneys",
+      "estimated_troops": 1,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, I/391-393",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, III/233",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Hedef etkisiz hale getirildi",
+    "significance": "Tek kişilik istihbarat operasyonu örneği.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

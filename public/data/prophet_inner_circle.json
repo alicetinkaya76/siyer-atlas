@@ -1,0 +1,595 @@
+{
+  "version": "2.5.0",
+  "description": "Hz. Peygamber'in en yakın arkadaşları ve özel görevlileri",
+  "total_entries": 20,
+  "entries": [
+    {
+      "id": "ic_ebubekir",
+      "companion_id": "ebubekir",
+      "name": {
+        "tr": "Hz. Ebû Bekir es-Sıddîk",
+        "en": "Abu Bakr al-Siddiq"
+      },
+      "closeness_rank": 1,
+      "role": {
+        "tr": "En yakın arkadaş, hicret yoldaşı, ilk halife",
+        "en": "Closest friend, Hijra companion, first caliph"
+      },
+      "special_title": "es-Sıddîk, Yâr-ı Gār",
+      "key_moments": [
+        {
+          "tr": "Hicret'te Sevr mağarasında 'Üzülme, Allah bizimledir'",
+          "en": "In Thawr cave during Hijra: 'Do not grieve, Allah is with us'"
+        },
+        {
+          "tr": "Peygamber'in vefatında 'Kim Muhammed'e tapıyorsa bilsin ki o ölmüştür; kim Allah'a tapıyorsa bilsin ki O ebedîdir'",
+          "en": "At Prophet's death: stabilized the community with famous speech"
+        }
+      ],
+      "quran_ref": {
+        "surah": 9,
+        "ayah": 40,
+        "text_tr": "O ikinin ikincisi, mağarada iken arkadaşına 'Üzülme, Allah bizimledir' diyordu."
+      }
+    },
+    {
+      "id": "ic_omer",
+      "companion_id": "omer",
+      "name": {
+        "tr": "Hz. Ömer b. el-Hattâb",
+        "en": "Umar ibn al-Khattab"
+      },
+      "closeness_rank": 2,
+      "role": {
+        "tr": "İkinci halife, İslâm'ın güçlenmesindeki kilit isim",
+        "en": "Second caliph, key figure in strengthening Islam"
+      },
+      "special_title": "el-Fârûk",
+      "key_moments": [
+        {
+          "tr": "Müslüman olunca Müslümanlar ilk kez açıkça Ka'be'de namaz kıldı",
+          "en": "After his conversion, Muslims openly prayed at Ka'ba for first time"
+        },
+        {
+          "tr": "Kudüs'ü teslim alırken mütevâzı kıyafetiyle geldi",
+          "en": "Arrived in humble clothes to accept surrender of Jerusalem"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_osman",
+      "companion_id": "osman",
+      "name": {
+        "tr": "Hz. Osman b. Affân",
+        "en": "Uthman ibn Affan"
+      },
+      "closeness_rank": 3,
+      "role": {
+        "tr": "Üçüncü halife, iki kez Peygamber'in damadı",
+        "en": "Third caliph, twice son-in-law of Prophet"
+      },
+      "special_title": "Zü'n-Nûreyn",
+      "key_moments": [
+        {
+          "tr": "Tebük seferi için orduyu tek başına donatması",
+          "en": "Single-handedly equipped army for Tabuk expedition"
+        },
+        {
+          "tr": "Kur'ân'ın istinsah edilmesi (çoğaltılması)",
+          "en": "Compilation and distribution of standardized Quran"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_ali",
+      "companion_id": "ali",
+      "name": {
+        "tr": "Hz. Ali b. Ebî Tâlib",
+        "en": "Ali ibn Abi Talib"
+      },
+      "closeness_rank": 4,
+      "role": {
+        "tr": "Dördüncü halife, Peygamber'in damadı ve amca oğlu",
+        "en": "Fourth caliph, Prophet's son-in-law and cousin"
+      },
+      "special_title": "Esedullâh (Allah'ın Aslanı), Bâbü'l-İlm",
+      "key_moments": [
+        {
+          "tr": "Hayber'de tek başına kale kapısını sökmesi",
+          "en": "Tore off Khaybar fortress gate single-handedly"
+        },
+        {
+          "tr": "Hicret gecesi Peygamber'in yatağında yatması",
+          "en": "Sleeping in Prophet's bed on night of Hijra"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_bilal",
+      "companion_id": "bilal",
+      "name": {
+        "tr": "Hz. Bilâl b. Rebâh",
+        "en": "Bilal ibn Rabah"
+      },
+      "closeness_rank": 5,
+      "role": {
+        "tr": "İlk müezzin, Habeşli âzâdlı köle",
+        "en": "First muezzin, Abyssinian freed slave"
+      },
+      "special_title": "Müezzin-i Rasûl",
+      "key_moments": [
+        {
+          "tr": "İşkence altında 'Ehad, Ehad!' (Bir, Bir!) demesi",
+          "en": "Saying 'Ahad! Ahad!' (One! One!) under torture"
+        },
+        {
+          "tr": "Mekke fethinde Ka'be'nin üzerinde ezan okuması",
+          "en": "Called adhan atop Ka'ba at Conquest of Mecca"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_zeyd_b_harise",
+      "companion_id": "comp_zeyd_harise",
+      "name": {
+        "tr": "Zeyd b. Hârise",
+        "en": "Zayd ibn Harithah"
+      },
+      "closeness_rank": 6,
+      "role": {
+        "tr": "Evlatlık, ordu komutanı, 'Peygamber'in sevgilisi'",
+        "en": "Adopted son, army commander, 'Beloved of the Prophet'"
+      },
+      "special_title": "Hibbü Rasûlillâh",
+      "key_moments": [
+        {
+          "tr": "Babası gelip almak istediğinde Peygamber'i tercih etmesi",
+          "en": "Chose Prophet over his own father when given the choice"
+        },
+        {
+          "tr": "Mûte savaşında şehâdeti",
+          "en": "Martyrdom at Battle of Mu'tah"
+        }
+      ],
+      "quran_ref": {
+        "surah": 33,
+        "ayah": 37,
+        "text_tr": "Kur'ân'da ismiyle anılan tek sahâbî"
+      }
+    },
+    {
+      "id": "ic_enes",
+      "companion_id": "enes_malik",
+      "name": {
+        "tr": "Enes b. Mâlik",
+        "en": "Anas ibn Malik"
+      },
+      "closeness_rank": 7,
+      "role": {
+        "tr": "10 yıl hizmetçi, 2.286 hadis rivâyet etti",
+        "en": "Served 10 years, narrated 2,286 hadith"
+      },
+      "special_title": "Hâdim-i Rasûl",
+      "key_moments": [
+        {
+          "tr": "10 yıl hizmet edip bir kez bile azarlanmadı",
+          "en": "Served 10 years, never once scolded"
+        },
+        {
+          "tr": "Peygamber'in günlük hayatının en detaylı kaynağı",
+          "en": "Most detailed source of Prophet's daily life"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_ebu_hureyre",
+      "companion_id": "comp_ebu_hureyre_det",
+      "name": {
+        "tr": "Ebû Hüreyre",
+        "en": "Abu Hurayrah"
+      },
+      "closeness_rank": 8,
+      "role": {
+        "tr": "En çok hadis rivâyet eden sahâbî (5,374 hadis)",
+        "en": "Companion who narrated most hadith (5,374)"
+      },
+      "special_title": "Hâfız-ı Hadîs",
+      "key_moments": [
+        {
+          "tr": "Suffa Ehli'nden, ilim uğruna geçim sıkıntısı çekti",
+          "en": "From People of Suffa, endured poverty for knowledge"
+        },
+        {
+          "tr": "Peygamber'den özel hafıza duası aldı",
+          "en": "Received special prayer for memory from Prophet"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_ebu_ubeyde",
+      "companion_id": "comp_ebu_ubeyde",
+      "name": {
+        "tr": "Ebû Ubeyde b. el-Cerrâh",
+        "en": "Abu Ubayda ibn al-Jarrah"
+      },
+      "closeness_rank": 9,
+      "role": {
+        "tr": "Ümmetin emîni, Şam fetihlerinin komutanı",
+        "en": "Trustee of the Ummah, commander of Syrian conquests"
+      },
+      "special_title": "Emînü'l-Ümme",
+      "key_moments": [
+        {
+          "tr": "Peygamber: 'Her ümmetin bir emîni vardır; bu ümmetin emîni Ebû Ubeyde'dir'",
+          "en": "'Every nation has a trustee; this nation's is Abu Ubayda'"
+        },
+        {
+          "tr": "Uhud'da Peygamber'in yüzündeki miğfer parçalarını dişleriyle çıkardı",
+          "en": "Removed helmet pieces from Prophet's face with his teeth at Uhud"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_abdurrahman_b_avf",
+      "companion_id": "abdurrahman",
+      "name": {
+        "tr": "Abdurrahmân b. Avf",
+        "en": "Abdurrahman ibn Awf"
+      },
+      "closeness_rank": 10,
+      "role": {
+        "tr": "Aşere-i mübeşşere, büyük tüccar, hayırsever",
+        "en": "Ten promised Paradise, great merchant, philanthropist"
+      },
+      "special_title": "",
+      "key_moments": [
+        {
+          "tr": "Medine'ye hicret ettiğinde 'Bana pazarın yolunu göster' dedi, sıfırdan servet kurdu",
+          "en": "Upon emigrating: 'Show me the way to the market' — rebuilt wealth from nothing"
+        },
+        {
+          "tr": "Uhud'da 21 yerinden yaralandı",
+          "en": "Wounded in 21 places at Uhud"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_musab_b_umeyr",
+      "companion_id": "comp_mus_ab",
+      "name": {
+        "tr": "Mus'ab b. Umeyr",
+        "en": "Mus'ab ibn Umayr"
+      },
+      "closeness_rank": 11,
+      "role": {
+        "tr": "İslâm'ın ilk elçisi (Medine'ye gönderilen)",
+        "en": "Islam's first ambassador (sent to Medina)"
+      },
+      "special_title": "Sefiîru'l-İslâm",
+      "key_moments": [
+        {
+          "tr": "Mekke'nin en zengin genciyken her şeyini bıraktı",
+          "en": "Left everything as wealthiest youth of Mecca"
+        },
+        {
+          "tr": "Uhud'da sancağı taşırken iki eli de kesildi, boynuyla tuttu",
+          "en": "At Uhud, both arms cut while carrying banner; held it with neck"
+        }
+      ],
+      "quran_ref": null
+    },
+    {
+      "id": "ic_sad_b_muaz",
+      "companion_id": "comp_sad_b_muaz",
+      "name": {
+        "tr": "Sa'd b. Muâz",
+        "en": "Sa'd ibn Mu'adh"
+      },
+      "closeness_rank": 12,
+      "role": {
+        "tr": "Evs kabilesi reisi, Hendek ve Kurayza hakemi",
+        "en": "Aws tribal chief, Trench and Qurayza arbiter"
+      },
+      "special_title": "Arş'ın titrediği sahâbî",
+      "key_moments": [
+        {
+          "tr": "Benî Kurayza hükmünü verdi",
+          "en": "Pronounced judgment on Banu Qurayza"
+        },
+        {
+          "tr": "Vefâtında arş titredi (hadis)",
+          "en": "Throne trembled at his death (hadith)"
+        }
+      ],
+      "links": {
+        "persons": [
+          "sad_b_muaz"
+        ],
+        "battles": [
+          "hendek"
+        ],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "ic_talha",
+      "companion_id": "talha",
+      "name": {
+        "tr": "Talha b. Ubeydillah",
+        "en": "Talha ibn Ubaydullah"
+      },
+      "closeness_rank": 13,
+      "role": {
+        "tr": "Aşere-i mübeşşereden. Uhud'da Hz. Peygamber'i vücuduyla korudu",
+        "en": "Among ten promised Paradise. Shielded Prophet with body at Uhud"
+      },
+      "special_title": "el-Feyyâd (Cömert), Talhatu'l-Hayr",
+      "key_moments": [
+        {
+          "tr": "Uhud'da 70'ten fazla yara aldı",
+          "en": "Received over 70 wounds at Uhud"
+        },
+        {
+          "tr": "Hz. Peygamber: 'Talha cenneti hak etti' buyurdu",
+          "en": "Prophet said: 'Talha has earned Paradise'"
+        }
+      ],
+      "links": {
+        "persons": [
+          "talha"
+        ],
+        "battles": [
+          "uhud"
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "ic_zubeyr",
+      "companion_id": "zubeyr",
+      "name": {
+        "tr": "Zübeyr b. el-Avvâm",
+        "en": "Zubayr ibn al-Awwam"
+      },
+      "closeness_rank": 14,
+      "role": {
+        "tr": "Hz. Peygamber'in halasının oğlu, İslâm'ın kılıcı, aşere-i mübeşşereden",
+        "en": "Prophet's cousin, sword of Islam, among ten promised Paradise"
+      },
+      "special_title": "Havâriyyü'r-Rasûl (Rasûlün Havarisi)",
+      "key_moments": [
+        {
+          "tr": "İlk kılıç çekenlerden",
+          "en": "Among first to draw sword for Islam"
+        },
+        {
+          "tr": "Hendek'te düşman hatlarına tek başına daldı",
+          "en": "Single-handedly charged enemy lines at Trench"
+        }
+      ],
+      "links": {
+        "persons": [
+          "zubeyr_b_avvam"
+        ],
+        "battles": [
+          "hendek",
+          "bedir"
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "ic_hatice",
+      "companion_id": "hatice",
+      "name": {
+        "tr": "Hz. Hatîce bt. Huveylid",
+        "en": "Khadijah bint Khuwaylid"
+      },
+      "closeness_rank": 2,
+      "role": {
+        "tr": "İlk eş, ilk iman eden, en büyük destekçi",
+        "en": "First wife, first believer, greatest supporter"
+      },
+      "special_title": "Ümmü'l-Mü'minîn el-Kübrâ",
+      "key_moments": [
+        {
+          "tr": "İlk vahiy anında teskin etti ve Varaka'ya götürdü",
+          "en": "Comforted Prophet at first revelation and took him to Waraqa"
+        },
+        {
+          "tr": "Tüm servetini İslâm için harcadı",
+          "en": "Spent entire fortune for Islam"
+        }
+      ],
+      "links": {
+        "persons": [
+          "hatice"
+        ],
+        "battles": [],
+        "locations": [
+          "mekke"
+        ]
+      }
+    },
+    {
+      "id": "ic_selman",
+      "companion_id": "comp_selman_farisi",
+      "name": {
+        "tr": "Selmân el-Fârisî",
+        "en": "Salman al-Farisi"
+      },
+      "closeness_rank": 15,
+      "role": {
+        "tr": "Fars asıllı ilk Müslüman; hendek fikrini öneren",
+        "en": "First Persian Muslim; proposed trench idea"
+      },
+      "special_title": "Selmân-ı Pâk, Ehl-i Beyt'ten sayıldı",
+      "key_moments": [
+        {
+          "tr": "Zerdüştlükten Hıristiyanlığa, oradan İslâm'a uzun arayış",
+          "en": "Long search from Zoroastrianism to Christianity to Islam"
+        },
+        {
+          "tr": "Hz. Peygamber: 'Selmân bizdendir, Ehl-i Beyt'tendir' buyurdu",
+          "en": "Prophet: 'Salman is one of us, from Ahl al-Bayt'"
+        }
+      ],
+      "links": {
+        "persons": [
+          "comp_selman_farisi"
+        ],
+        "battles": [
+          "hendek"
+        ],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "ic_sad_b_vakkas",
+      "companion_id": "comp_sad_vakkas",
+      "name": {
+        "tr": "Sa'd b. Ebî Vakkās",
+        "en": "Sa'd ibn Abi Waqqas"
+      },
+      "closeness_rank": 16,
+      "role": {
+        "tr": "İlk ok atan sahâbî, Kadisiye fâtihi, aşere-i mübeşşereden",
+        "en": "First to shoot arrow, Victor of Qadisiyyah, among ten promised Paradise"
+      },
+      "special_title": "Fârisü'l-İslâm (İslâm'ın Süvârisi)",
+      "key_moments": [
+        {
+          "tr": "Hz. Peygamber: 'At yâ Sa'd! Anam-babam sana fedâ olsun' dedi (Uhud)",
+          "en": "Prophet: 'Shoot, Sa'd! May my parents be your ransom' (Uhud)"
+        },
+        {
+          "tr": "Kadisiye'de Sâsânî ordusunu yendi (636)",
+          "en": "Defeated Sassanid army at Qadisiyyah (636)"
+        }
+      ],
+      "links": {
+        "persons": [
+          "sad_b_ebi_vakkas"
+        ],
+        "battles": [
+          "uhud",
+          "bedir"
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "ic_aise_ilim",
+      "companion_id": "aise",
+      "name": {
+        "tr": "Hz. Âişe bt. Ebî Bekir",
+        "en": "Aisha bint Abu Bakr"
+      },
+      "closeness_rank": 3,
+      "role": {
+        "tr": "En çok hadis rivâyet eden kadın sahâbî, fıkıh otoritesi, ümmü'l-mü'minîn",
+        "en": "Most prolific female hadith narrator, fiqh authority, Mother of Believers"
+      },
+      "special_title": "Ümmü'l-Mü'minîn, el-Hümeyra",
+      "key_moments": [
+        {
+          "tr": "2.210 hadis rivâyet etti — en çok rivâyet eden 4. sahâbî",
+          "en": "Narrated 2,210 hadith — 4th most prolific narrator"
+        },
+        {
+          "tr": "Hz. Peygamber'in vefâtından sonra en büyük fıkıh otoritesiydi",
+          "en": "Greatest fiqh authority after Prophet's death"
+        }
+      ],
+      "links": {
+        "persons": [
+          "aise"
+        ],
+        "battles": [],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "ic_ammar",
+      "companion_id": "ammar_yasir",
+      "name": {
+        "tr": "Ammâr b. Yâsir",
+        "en": "Ammar ibn Yasir"
+      },
+      "closeness_rank": 17,
+      "role": {
+        "tr": "İlk şehitler ailesinin oğlu; Hz. Peygamber'in övgüsüne mazhar",
+        "en": "Son of first martyrs; praised by Prophet"
+      },
+      "special_title": "Tayyib (Tertemiz)",
+      "key_moments": [
+        {
+          "tr": "Annesi Sümeyye İslâm'ın ilk kadın şehidi",
+          "en": "Mother Sumayyah was Islam's first female martyr"
+        },
+        {
+          "tr": "Hz. Peygamber: 'Ammâr'ı bâğî (isyankâr) bir topluluk öldürecek' buyurdu",
+          "en": "Prophet: 'Ammar will be killed by a rebellious group'"
+        }
+      ],
+      "links": {
+        "persons": [
+          "ammar_yasir"
+        ],
+        "battles": [],
+        "locations": [
+          "mekke"
+        ]
+      }
+    },
+    {
+      "id": "ic_halid",
+      "companion_id": "comp_halid_velid",
+      "name": {
+        "tr": "Hâlid b. el-Velîd",
+        "en": "Khalid ibn al-Walid"
+      },
+      "closeness_rank": 18,
+      "role": {
+        "tr": "Uhud'dan sonra Müslüman oldu; yenilmez komutan",
+        "en": "Converted after Uhud; undefeated commander"
+      },
+      "special_title": "Seyfullah (Allah'ın Kılıcı)",
+      "key_moments": [
+        {
+          "tr": "Mûte'de 3 komutan şehit olunca sancağı aldı ve orduyu kurtardı",
+          "en": "Took command at Mu'tah when 3 commanders fell, saved the army"
+        },
+        {
+          "tr": "Hz. Peygamber ona 'Seyfullah' unvanını verdi",
+          "en": "Prophet gave him the title 'Sword of Allah'"
+        }
+      ],
+      "links": {
+        "persons": [
+          "halid_b_velid"
+        ],
+        "battles": [
+          "mute",
+          "huneyn",
+          "mekke_fethi"
+        ],
+        "locations": []
+      }
+    }
+  ]
+}

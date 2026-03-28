@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "id": "recon_gazve_fedek",
+    "battle_id": "gazve_fedek",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 25.45,
+        "lng": 39.58
+      },
+      "name": "Fedek Fethi",
+      "modern_location": "Fadak, Suudi Arabistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sulh Teklifi",
+      "date_range": "Muharrem 7",
+      "duration": "",
+      "description": "Hayber'in düşmesi üzerine Fedek halkına elçi gönderildi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Anlaşma",
+      "date_range": "Muharrem 7",
+      "duration": "",
+      "description": "Fedek halkı arazinin yarısını bırakarak sulh yaptı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Peygamber (sulh yoluyla)",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Fedek Yahudileri",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, IV/337",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Vâkıdî, el-Megâzî, II/706",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "ref": "Haşr 59:6-7",
+      "context": "Fey' hükümleri — savaşsız elde edilen kazanımlar."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_hayber_fethi",
+      "topic": "Hayber'in fethi ve Ali'ye sancak verilmesi",
+      "relevance": "indirect"
+    }
+  ],
+  "impact": {
+    "result": "Sulh ile teslim",
+    "significance": "Hayber sonrası; mahsulün yarısı anlaşması. Fedek gelirleri Hz. Peygamber'in tasarrufunda kaldı.",
+    "cross_references": [
+      "gazve_hayber"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

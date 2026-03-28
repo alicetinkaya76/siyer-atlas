@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "id": "reconstruction_beni_kurayza",
+    "battle_id": "gazve_beni_kurayza",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Benî Kurayza — Hendek Savaşı'nda ahdi bozup Ahzâb ittifakına katılan son Medîne Yahudi kabilesi. 25 günlük kuşatma. Zilkade 5 AH. Hüküm Sa'd b. Muâz'a bırakıldı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.453,
+        "lng": 39.62
+      },
+      "bbox": {
+        "north": 24.46,
+        "south": 24.446,
+        "east": 39.628,
+        "west": 39.612
+      },
+      "terrain_type": "fortified_settlement_oasis",
+      "terrain_desc": {
+        "tr": "Benî Kurayza yerleşkesi, Medîne'nin güneydoğusunda, Nadîr'in eski bölgesinin güneyinde, hurmalıklar içinde müstahkem kalelerden oluşur. Medîne merkezinden yaklaşık 3-4 km uzaklıkta. Birbirine bağlı kaleler (utum) ve tarım arazileri.",
+        "en": "The Banū Qurayẓa settlement lay southeast of Medina, south of the former Naḍīr area, consisting of fortified towers (uṭum) embedded in palm groves. About 3-4 km from the Medina center, with interconnected fortresses and agricultural lands."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_kurayza_utum",
+        "name": {
+          "tr": "Kurayza Kaleleri (Utum)",
+          "en": "Qurayẓa Fortresses"
+        },
+        "lat": 24.453,
+        "lng": 39.62,
+        "type": "fortress",
+        "note_tr": "25 günlük kuşatmanın merkezi."
+      },
+      {
+        "id": "lm_hendek_ref",
+        "name": {
+          "tr": "Hendek hattı (referans)",
+          "en": "Trench line (reference)"
+        },
+        "lat": 24.475,
+        "lng": 39.605,
+        "type": "reference_point",
+        "note_tr": "Hendek Savaşı'nın bittiği hat; Kurayza kuşatması hemen sonra başladı."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_hendek_kurayza",
+        "name": {
+          "tr": "Hendek'ten Kurayza'ya yürüyüş",
+          "en": "March from Trench to Qurayẓa"
+        },
+        "type": "approach",
+        "waypoints": [
+          {
+            "lat": 24.475,
+            "lng": 39.605,
+            "label": "Hendek hattı"
+          },
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Mescid-i Nebevî"
+          },
+          {
+            "lat": 24.453,
+            "lng": 39.62,
+            "label": "Kurayza Kaleleri"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Hendek Savaşı'nda Kurayza'nın ihaneti",
+        "en": "Background: Qurayẓa's treachery during the Battle of the Trench"
+      },
+      "date_range": {
+        "start": "Şevval 5 AH",
+        "end": "Zilkade 5 AH (Hendek sonu)"
+      },
+      "duration": "~1 ay (Hendek dönemi)",
+      "description": {
+        "tr": "Hendek Savaşı sırasında Huyeyy b. Ahtab (sürgün edilen Nadîr lideri, Hayber'den gelen) bizzat Kurayza reisi Ka'b b. Esed'e giderek onu Ahzâb ittifakına katılmaya ikna etti. Ka'b başlangıçta direndi ancak Huyeyy'in ısrarıyla ahdi bozarak Kureyş-Gatafân ittifakına katıldı. Bu, müslümanlar için en kritik andı: Hendek'in kuzeyinden Ahzâb saldırırken, güneydoğudaki Kurayza tehdidi Medîne'yi iki cepheli savaşa sürüklüyordu. Hz. Peygamber durumu kontrol etmek için Zübeyr b. Avvâm'ı, ardından Sa'd b. Muâz ve Sa'd b. Ubâde başkanlığında bir heyeti Kurayza'ya gönderdi; heyet ahdin bozulduğunu teyit etti.",
+        "en": "During the Battle of the Trench, Ḥuyayy b. Akhṭab (the exiled Naḍīr chief, coming from Khaybar) personally visited Qurayẓa chief Kaʿb b. Asad and persuaded him to join the Aḥzāb coalition. Kaʿb initially resisted but yielded to Ḥuyayy's pressure, breaking the covenant and joining the Quraysh-Ghaṭafān alliance. This was the most critical moment for the Muslims: the Aḥzāb pressed from the north while the Qurayẓa threat from the southeast created a two-front war. The Prophet sent Zubayr b. al-ʿAwwām, then a delegation led by Saʿd b. Muʿādh and Saʿd b. ʿUbāda, who confirmed the breach."
+      },
+      "events": [
+        {
+          "id": "E0_1_huyeyy_ikna",
+          "name_tr": "Huyeyy b. Ahtab'ın Ka'b b. Esed'i ikna etmesi",
+          "description_tr": "Nadîr lideri bizzat gelerek Kurayza'yı Ahzâb'a katılmaya ikna etti."
+        },
+        {
+          "id": "E0_2_ahit_bozma",
+          "name_tr": "Kurayza'nın ahdi bozması",
+          "description_tr": "Ka'b b. Esed Medîne Vesîkası'nı tek taraflı olarak feshetti."
+        },
+        {
+          "id": "E0_3_heyet",
+          "name_tr": "Sa'd b. Muâz heyetinin teyidi",
+          "description_tr": "Heyetin ahdin fiilen bozulduğunu doğrulaması."
+        }
+      ]
+    },
+    {
+      "id": "F1_emir",
+      "order": 1,
+      "name": {
+        "tr": "Cebrâîl'in emri ve Kurayza'ya yürüyüş",
+        "en": "Jibrīl's command and march to Qurayẓa"
+      },
+      "date_range": {
+        "start": "Zilkade 5 AH (Hendek bitişi, aynı gün)",
+        "end": "aynı gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Ahzâb çekilip Hendek Savaşı sona erince Hz. Peygamber Medîne'ye döndü. Öğle vakti silahını bırakıp yıkanırken Cebrâîl geldi ve 'Sen silahını bıraktın, ama melekler bırakmadı. Benî Kurayza'ya yürü!' dedi. Hz. Peygamber hemen ilan etti: 'Hiç kimse ikindi namazını Benî Kurayza'dan başka yerde kılmasın!' Sahâbîler yorgun olmalarına rağmen derhal harekete geçtiler.",
+        "en": "When the Aḥzāb withdrew and the Trench battle ended, the Prophet returned to Medina. At midday, while he had laid down his arms and was washing, Jibrīl came and said: 'You have put down your arms, but the angels have not. March against Banū Qurayẓa!' The Prophet immediately proclaimed: 'No one should pray ʿAṣr except at Banū Qurayẓa!' The Companions mobilized immediately despite exhaustion."
+      },
+      "events": [
+        {
+          "id": "E1_1_cebrail",
+          "name_tr": "Cebrâîl'in emri",
+          "description_tr": "'Melekler silahını bırakmadı, Kurayza'ya yürü!'"
+        },
+        {
+          "id": "E1_2_asr",
+          "name_tr": "İkindi namazı emri",
+          "description_tr": "'İkindiyi ancak Kurayza'da kılın!' — aciliyet mesajı."
+        },
+        {
+          "id": "E1_3_yuruyus",
+          "name_tr": "Sahâbîlerin hareketi",
+          "description_tr": "Hendek yorgunluğuna rağmen derhal Kurayza'ya yürüdüler."
+        }
+      ]
+    },
+    {
+      "id": "F2_kusatma",
+      "order": 2,
+      "name": {
+        "tr": "Kuşatma — 25 gün",
+        "en": "Siege — 25 days"
+      },
+      "date_range": {
+        "start": "Zilkade 5 AH",
+        "end": "Zilkade 5 AH (sonları)"
+      },
+      "duration": "25 gün",
+      "description": {
+        "tr": "Hz. Peygamber 3.000 kişilik kuvvetle Kurayza kalelerini kuşattı. Sancak Ali b. Ebî Tâlib'e verildi. Kurayza müstahkem kalelerinde savunma yaptı. Kuşatma boyunca müslümanlar ok ve taş attılar. Kurayza'dan Nebbâş b. Kays çıkarak düello istedi. Kuşatma uzadıkça Kurayza morali çöktü. Kabile içinde üç seçenek tartışıldı: (1) müslüman olmak, (2) kadın ve çocukları öldürüp ölümüne savaşmak, (3) Cumartesi günü baskın yapmak. Hiçbirini kabul edemediler. Sonunda Hz. Peygamber'in hükmüne teslim olmaya karar verdiler — ancak Evs kabilesinin şefaat edeceğini umarak.",
+        "en": "The Prophet besieged the Qurayẓa fortresses with ~3,000 troops. The banner was given to ʿAlī. Qurayẓa defended from their fortifications. Muslims maintained arrow and stone fire throughout the siege. As it dragged on, Qurayẓa morale collapsed. Three options were debated within the tribe: (1) accept Islam, (2) kill their women and children and fight to the death, (3) launch a surprise attack on the Sabbath. Unable to agree on any, they ultimately decided to submit to the Prophet's judgment — hoping their Aws allies would intercede."
+      },
+      "events": [
+        {
+          "id": "E2_1_sancak",
+          "name_tr": "Sancağın Hz. Ali'ye verilmesi",
+          "description_tr": "Hz. Ali kuşatmayı yönetti."
+        },
+        {
+          "id": "E2_2_uzama",
+          "name_tr": "Kuşatmanın uzaması ve moral çöküşü",
+          "description_tr": "25 günlük direniş boyunca erzak ve umut tükendi."
+        },
+        {
+          "id": "E2_3_uc_secenek",
+          "name_tr": "Kurayza'nın iç tartışması — üç seçenek",
+          "description_tr": "Müslüman olma, son savaş veya Cumartesi baskını — hiçbiri kabul edilmedi."
+        },
+        {
+          "id": "E2_4_teslim",
+          "name_tr": "Kayıtsız şartsız teslim",
+          "description_tr": "Hz. Peygamber'in hükmüne boyun eğdiler."
+        }
+      ]
+    },
+    {
+      "id": "F3_hukum",
+      "order": 3,
+      "name": {
+        "tr": "Sa'd b. Muâz'ın hükmü",
+        "en": "Saʿd b. Muʿādh's judgment"
+      },
+      "date_range": {
+        "start": "Zilkade 5 AH (son günler)",
+        "end": "aynı gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Evs kabilesi (Kurayza'nın eski müttefiki) Hz. Peygamber'e şefaat etti: 'Hazrec'in müttefikleri Kaynukā için Abdullah b. Ubeyy'e ne yaptıysan, bizim müttefiklerimize de öyle yap.' Hz. Peygamber 'Sizden birinin hükmüne razı olur musunuz?' dedi. Kurayza bunu kabul etti. Hz. Peygamber Evs lideri Sa'd b. Muâz'ı hakem tayin etti. Sa'd, Hendek'te ağır yaralıydı ve sedyeyle getirildi. Hükmünü verdi: 'Savaşan erkekler öldürülsün, kadın ve çocuklar esir alınsın, mallar paylaşılsın.' Hz. Peygamber 'Sen Allah'ın yedi kat semâ üzerinden verdiği hükümle hükmettin' buyurdu.",
+        "en": "The Aws (Qurayẓa's old allies) interceded with the Prophet: 'Do for our allies what you did for the Khazraj's allies the Qaynuqāʿ through ʿAbdullāh b. Ubayy.' The Prophet asked: 'Would you accept the judgment of one of your own?' Qurayẓa agreed. The Prophet appointed Aws chief Saʿd b. Muʿādh as arbiter. Saʿd, severely wounded during the Trench, was carried on a litter. His verdict: 'The fighting men shall be killed, women and children taken captive, and property divided.' The Prophet said: 'You have judged with God's judgment from above the seven heavens.'"
+      },
+      "events": [
+        {
+          "id": "E3_1_evs_sefaat",
+          "name_tr": "Evs kabilesinin şefaat talebi",
+          "description_tr": "Kaynukā emsal gösterilerek affı istendi."
+        },
+        {
+          "id": "E3_2_hakem",
+          "name_tr": "Sa'd b. Muâz'ın hakem tayin edilmesi",
+          "description_tr": "Her iki tarafın da kabul ettiği hakem."
+        },
+        {
+          "id": "E3_3_hukum",
+          "name_tr": "Sa'd'ın hükmü",
+          "description_tr": "Savaşçı erkeklerin öldürülmesi, kadın-çocukların esir alınması."
+        },
+        {
+          "id": "E3_4_teyid",
+          "name_tr": "Hz. Peygamber'in hükmü onaylaması",
+          "description_tr": "'Allah'ın yedi kat semâ üzerinden verdiği hükümle hükmettin.'"
+        }
+      ]
+    },
+    {
+      "id": "F4_infaz_sonrasi",
+      "order": 4,
+      "name": {
+        "tr": "Hükmün icrası ve sonrası",
+        "en": "Execution of the judgment and aftermath"
+      },
+      "date_range": {
+        "start": "Zilkade 5 AH (sonları)",
+        "end": "Zilhicce 5 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Hüküm uygulandı. Kaynaklara göre 600-900 arasında savaşçı erkek cezalandırıldı (rakam kaynaklara göre değişir). Kadınlar ve çocuklar esir alındı. Mallar ve araziler müslümanlar arasında dağıtıldı. Huyeyy b. Ahtab da cezalandırılanlar arasındaydı. Sa'd b. Muâz, Hendek'teki yarasından kısa süre sonra vefat etti. Bu olay, Medîne'deki son büyük Yahudi kabilesinin tasfiyesiydi.",
+        "en": "The judgment was carried out. According to sources, between 600-900 fighting men were executed (figures vary by source). Women and children were taken captive. Property and lands were distributed among the Muslims. Ḥuyayy b. Akhṭab was among those executed. Saʿd b. Muʿādh died of his Trench wound shortly after. This event marked the end of the last major Jewish tribal presence in Medina."
+      },
+      "events": [
+        {
+          "id": "E4_1_infaz",
+          "name_tr": "Hükmün icrası",
+          "description_tr": "Sa'd'ın hükmü uygulamaya konuldu."
+        },
+        {
+          "id": "E4_2_huyeyy",
+          "name_tr": "Huyeyy b. Ahtab'ın sonu",
+          "description_tr": "Hendek ittifakının mimarı da cezalandırılanlar arasındaydı."
+        },
+        {
+          "id": "E4_3_ganimet",
+          "name_tr": "Ganîmet dağılımı",
+          "description_tr": "Mallar, araziler ve silahlar beşte bir hükmüne göre dağıtıldı."
+        },
+        {
+          "id": "E4_4_sad_vefat",
+          "name_tr": "Sa'd b. Muâz'ın vefatı",
+          "description_tr": "Hendek yarasından kısa süre sonra vefat etti; Arş'ın titrediği rivayet edilir."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~3.000",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "banner_bearer": {
+        "tr": "Ali b. Ebî Tâlib",
+        "en": "ʿAlī b. Abī Ṭālib"
+      },
+      "key_figures": [
+        {
+          "name_tr": "Sa'd b. Muâz",
+          "role_tr": "Evs lideri, hakem"
+        },
+        {
+          "name_tr": "Sa'd b. Ubâde",
+          "role_tr": "Hazrec lideri"
+        },
+        {
+          "name_tr": "Muhammed b. Mesleme",
+          "role_tr": "İnfaz sorumlusu (bazı kaynaklarda)"
+        }
+      ]
+    },
+    "enemy": {
+      "total": "600-900 savaşçı erkek (kaynaklara göre değişir)",
+      "tribe": "Benî Kurayza",
+      "leader": {
+        "tr": "Ka'b b. Esed el-Kurazî (kabile reisi)",
+        "en": "Kaʿb b. Asad al-Quraẓī (tribal chief)"
+      },
+      "other_figures": [
+        "Huyeyy b. Ahtab (Nadîr lideri, Kurayza'ya sığınmıştı)"
+      ],
+      "strategy_tr": "Müstahkem kale savunması; Evs şefaatine güvenerek kayıtsız teslim."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Benî Kurayza",
+        "note_tr": "En kapsamlı anlatım; iç tartışmalar, Sa'd'ın hükmü."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü Benî Kurayza",
+        "note_tr": "25 günlük kuşatma süresi, rakamsal detaylar."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-Rusul ve'l-Mülûk",
+        "section": "5 AH olayları",
+        "note_tr": "Kronolojik çerçeve ve Ahzâb sûresi bağlantısı."
+      }
+    ],
+    "hadith": [
+      "hds_beni_kurayza",
+      "hds_kurayza_sad_hukum",
+      "hds_kurayza_cebrail"
+    ],
+    "modern_studies": [
+      {
+        "author": "W. Montgomery Watt",
+        "work": "Muhammad at Medina",
+        "note_tr": "Kurayza olayının siyasi analizi."
+      },
+      {
+        "author": "Meir J. Kister",
+        "work": "The Massacre of the Banū Qurayẓa",
+        "note_tr": "Olay hakkında modern tartışmalar ve kaynak eleştirisi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic": "Cezalandırılan erkek sayısı",
+        "positions": [
+          {
+            "view_tr": "600-700",
+            "sources": [
+              "İbn İshâk/İbn Hişâm"
+            ]
+          },
+          {
+            "view_tr": "800-900",
+            "sources": [
+              "Vâkıdî"
+            ]
+          }
+        ],
+        "note_tr": "Kesin rakam tartışmalı; modern tarihçiler 400-600 aralığını daha gerçekçi bulur."
+      },
+      {
+        "topic": "Kuşatma süresi",
+        "positions": [
+          {
+            "view_tr": "25 gün/gece",
+            "sources": [
+              "Vâkıdî",
+              "İbn Sa'd"
+            ]
+          },
+          {
+            "view_tr": "15 gece",
+            "sources": [
+              "Bazı rivayetler"
+            ]
+          }
+        ],
+        "note_tr": "25 gün daha yaygın kabul görür."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 33,
+      "surah_name": "Ahzâb",
+      "ayah_range": "26-27",
+      "phase_id": "multiple",
+      "topic": {
+        "tr": "Ehl-i Kitab'dan Ahzâb'a destek verenlerin kalelerinden indirilmesi",
+        "en": "Bringing down those of the People of the Book who supported the Aḥzāb from their fortresses"
+      },
+      "key_verses": [
+        {
+          "ayah": 26,
+          "topic_tr": "Ehl-i Kitab'dan onlara yardım edenleri kalelerinden indirdi, kalplerine korku saldı; bir kısmını öldürüyor, bir kısmını esir alıyordunuz",
+          "phase_id": "F3_hukum",
+          "esbab_id": "en_ahzab_33_26"
+        },
+        {
+          "ayah": 27,
+          "topic_tr": "Onların topraklarına, yurtlarına, mallarına ve ayak basmadığınız bir yere sizi vâris kıldı",
+          "phase_id": "F4_infaz_sonrasi",
+          "esbab_id": "en_ahzab_33_27"
+        }
+      ],
+      "nuzul_context_tr": "Müfessirlerin büyük çoğunluğu bu âyetlerin doğrudan Benî Kurayza olayına işaret ettiğini kabul eder."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_kurayza_cebrail",
+      "topic": "Cebrâîl'in Benî Kurayza üzerine yürüme emri getirmesi",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_kurayza_sad_hukum",
+      "topic": "Sa'd b. Muâz'ın hükmü",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_beni_kurayza",
+      "topic": "Benî Kurayza seferi emri",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Medîne'nin güneydoğusundaki son potansiyel tehdit ortadan kalktı. Müslümanlar artık tek cephede savaşabilecek konuma geldi.",
+      "en": "The last potential threat from Medina's southeast was eliminated. Muslims could now focus on a single front."
+    },
+    "political": {
+      "tr": "Medîne'deki son büyük Yahudi kabilesi tasfiye edildi. Huyeyy b. Ahtab'ın sonu, Hendek ittifakı stratejisinin tam başarısızlığını simgeledi. Münafıkların etkisi ciddi biçimde zayıfladı.",
+      "en": "The last major Jewish tribe in Medina was removed. Ḥuyayy b. Akhṭab's end symbolized the complete failure of the Trench coalition strategy. The munāfiqūn's influence was severely weakened."
+    },
+    "social": {
+      "tr": "Medîne artık etnik ve dini açıdan çok daha homojen bir yapıya kavuştu. Kabile ittifak sistemi yerini İslâmî ümmet yapısına bıraktı.",
+      "en": "Medina became far more homogeneous in ethnic and religious composition. The tribal alliance system gave way to the Islamic umma structure."
+    },
+    "theological": {
+      "tr": "Ahzâb 33:26-27'nin doğrudan bu olaya atıfta bulunması, ilâhî onay olarak yorumlandı. Sa'd b. Muâz'ın hükmünün 'Allah'ın hükmü' olarak teyit edilmesi önemli bir teolojik ilkedir.",
+      "en": "The direct Quranic reference in al-Aḥzāb 33:26-27 was interpreted as divine endorsement. The confirmation of Saʿd's judgment as 'God's judgment' is an important theological principle."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "az sayıda (kesin rakam belirtilmez)",
+        "note_tr": "Kuşatma sırasında birkaç şehit."
+      },
+      "enemy": {
+        "killed": "600-900 (kaynaklara göre değişir)",
+        "note_tr": "Sa'd b. Muâz'ın hükmüyle."
+      }
+    },
+    "treaties": {
+      "tr": "Medîne Vesîkası'ndaki son Yahudi kabile maddesi de böylece fiilen geçersiz hale geldi.",
+      "en": "The last Jewish tribal clause in the Constitution of Medina became effectively void."
+    },
+    "territorial_change": {
+      "tr": "Kurayza toprakları, kaleleri ve tüm mülkleri müslümanlara geçti.",
+      "en": "All Qurayẓa territory, fortresses, and property passed to Muslim control."
+    },
+    "subsequent_events": [
+      {
+        "event_tr": "Sa'd b. Muâz'ın vefatı",
+        "note": "Arş'ın titrediği hadis — hds_hendek_sad_ars"
+      },
+      {
+        "event_tr": "Hayber Fethi (7 AH)",
+        "battle_id": "gazve_hayber"
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 14,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "trench_ref": "#795548",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "point",
+        "default_visible": true
+      },
+      {
+        "id": "layer_siege",
+        "name": "Kuşatma hattı",
+        "type": "polygon",
+        "default_visible": true
+      },
+      {
+        "id": "layer_march",
+        "name": "Yürüyüş güzergâhı",
+        "type": "line",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "animation",
+        "default_visible": true
+      }
+    ]
+  }
+}

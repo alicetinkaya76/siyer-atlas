@@ -1,0 +1,308 @@
+{
+  "version": "1.0.0",
+  "title": {
+    "tr": "Mesa-i Nebevî — Peygamber Sofrası",
+    "en": "Mesa al-Nabawī — The Prophet's Table",
+    "ar": "مائدة نبوية — مائدة النبي ﷺ"
+  },
+  "description": {
+    "tr": "Hz. Peygamber'in (ﷺ) yediği, sevdiği ve tavsiye ettiği yiyecekler — hadis-i şerifler eşliğinde",
+    "en": "Foods that the Prophet (ﷺ) ate, loved, and recommended — with hadith references",
+    "ar": "الأطعمة التي أكلها النبي ﷺ وأحبها وأوصى بها — مع الأحاديث الشريفة"
+  },
+  "video_source": "Habbazzade - Efendimiz Aleyhisselâm'ın Yediği ve Sevdiği Yemekler",
+  "foods": [
+    {
+      "id": "acve_hurmasi",
+      "name": { "tr": "Acve Hurması", "en": "Ajwa Dates", "ar": "تمر العجوة" },
+      "icon": "🌴",
+      "color": "#8B4513",
+      "category": "meyve",
+      "mizac": "sıcak",
+      "image_query": "ajwa dates medina",
+      "description": {
+        "tr": "Medine'nin Âliye (yüksek) bölgesinde yetişen özel bir hurma çeşidi. Hz. Peygamber sabah yedi tane acve hurması yiyen kimseye o gün zehir ve sihrin zarar vermeyeceğini bildirmiştir.",
+        "en": "A special date variety grown in the elevated Aliya district of Medina. The Prophet said whoever eats seven Ajwa dates in the morning will not be harmed by poison or magic that day.",
+        "ar": "نوع خاص من التمر ينمو في منطقة العالية بالمدينة المنورة. قال النبي ﷺ: من تصبّح بسبع تمرات عجوة لم يضره ذلك اليوم سم ولا سحر."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıbb 52; Müslim, Eşribe 155",
+        "\"Her sabah yedi adet Medine acve hurması yiyen kimseye o gün ne zehir ne de sihir zarar verir.\" (Buhârî)"
+      ],
+      "preparation": {
+        "tr": "Sabah aç karnına 7 adet yenir. Çekirdekleri kurutulup toz haline getirilir, şifa amaçlı kullanılır.",
+        "en": "Eaten 7 pieces on an empty stomach in the morning. Seeds are dried and powdered for medicinal use.",
+        "ar": "تؤكل سبع حبات على الريق صباحاً. تُجفف النوى وتُطحن للاستخدام العلاجي."
+      },
+      "location": { "lat": 24.4900, "lng": 39.6200, "label": { "tr": "Mıntıka-i Âliye, Medine", "en": "Aliya District, Medina", "ar": "منطقة العالية، المدينة" } },
+      "benefits": ["Zehre karşı koruma", "Sihre karşı koruma", "Kalp sağlığı"]
+    },
+    {
+      "id": "taze_hurma",
+      "name": { "tr": "Taze Hurma (Rutab)", "en": "Fresh Dates (Rutab)", "ar": "الرُّطَب" },
+      "icon": "🌴",
+      "color": "#D2691E",
+      "category": "meyve",
+      "mizac": "sıcak",
+      "paired_with": "karpuz",
+      "pairing_reason": {
+        "tr": "Taze hurma sıcak, karpuz soğuk mizaçtadır. İkisi birlikte yendiğinde mizaç dengesi sağlanır.",
+        "en": "Fresh dates are hot-tempered, watermelon is cold-tempered. Eating them together achieves temperament balance.",
+        "ar": "الرطب حار المزاج، والبطيخ بارد المزاج. أكلهما معاً يحقق التوازن المزاجي."
+      },
+      "description": {
+        "tr": "Hz. Peygamber taze hurma ile karpuzu birlikte yerdi. 'Şunun hararetini bunun soğukluğu ile gideriyoruz' buyurmuştur.",
+        "en": "The Prophet would eat fresh dates with watermelon. He said: 'We counter the heat of one with the coolness of the other.'",
+        "ar": "كان النبي ﷺ يأكل الرطب مع البطيخ ويقول: نكسر حرّ هذا ببرد هذا."
+      },
+      "hadith_refs": [
+        "Ebû Dâvûd, Et'ime 42; Tirmizî, Et'ime 36",
+        "\"Hz. Peygamber taze hurmayı karpuz ile yerdi.\" (Ebû Dâvûd)"
+      ],
+      "benefits": ["Enerji kaynağı", "Doğumu kolaylaştırır", "Lif kaynağı"]
+    },
+    {
+      "id": "karpuz",
+      "name": { "tr": "Karpuz", "en": "Watermelon", "ar": "البطيخ" },
+      "icon": "🍉",
+      "color": "#2E8B57",
+      "category": "meyve",
+      "mizac": "soğuk",
+      "paired_with": "taze_hurma",
+      "pairing_reason": {
+        "tr": "Karpuzun soğukluğu hurmanın sıcaklığını dengeler — Tıbb-ı Nebevî'de mizaç dengesi prensibi.",
+        "en": "Watermelon's coolness balances the heat of dates — the temperament balance principle in Prophetic Medicine.",
+        "ar": "برودة البطيخ تعادل حرارة التمر — مبدأ التوازن المزاجي في الطب النبوي."
+      },
+      "description": {
+        "tr": "Hz. Peygamber karpuzu taze hurma ile birlikte yerdi. Karpuz mideyi yıkar, hastalığı kökten söker.",
+        "en": "The Prophet ate watermelon with fresh dates. Watermelon cleans the stomach and removes illness from its root.",
+        "ar": "كان النبي ﷺ يأكل البطيخ بالرطب. البطيخ يغسل المعدة ويذهب الداء."
+      },
+      "hadith_refs": [
+        "Ebû Dâvûd, Et'ime 42",
+        "\"Karpuzu hurma ile yiyiniz, zira birinin sıcağını diğerinin soğuğu giderir.\" (Tirmizî)"
+      ],
+      "benefits": ["Mideyi temizler", "Serinletici", "Böbrek sağlığı"]
+    },
+    {
+      "id": "tirit",
+      "name": { "tr": "Tirit (Serîd)", "en": "Tharid (Serīd)", "ar": "الثريد" },
+      "icon": "🍲",
+      "color": "#B8860B",
+      "category": "yemek",
+      "mizac": "dengeli",
+      "description": {
+        "tr": "Et suyu ile ıslatılmış ekmek parçaları üzerine et ve sebze konularak hazırlanır. Hz. Peygamber tiriti çok severdi. Kabak sevgisi de tirit ile birlikte anlatılır — Enes b. Mâlik, Hz. Peygamber'in tabaktan kabak parçalarını aradığını anlatır. Efendimiz etin kürek kemiği (zirâ') kısmını tercih ederdi.",
+        "en": "Bread pieces soaked in meat broth, topped with meat and vegetables. The Prophet loved tharid greatly. His love for squash is also narrated with tharid — Anas ibn Malik reports the Prophet would search for squash pieces in the bowl. He preferred the shoulder meat.",
+        "ar": "قطع الخبز المنقوعة في مرق اللحم مع اللحم والخضار. كان النبي ﷺ يحب الثريد كثيراً ويتتبع الدباء من الصحفة."
+      },
+      "hadith_refs": [
+        "Buhârî, Et'ime 25; Müslim, Eşribe 144",
+        "\"Tiridin diğer yemeklere üstünlüğü, Âişe'nin diğer kadınlara üstünlüğü gibidir.\" (Buhârî)",
+        "\"Enes dedi: Bir terzinin yemeğine çağrıldık. Peygamber tabaktan kabak parçalarını arıyordu.\" (Buhârî, Et'ime 25)"
+      ],
+      "ingredients": ["Ekmek (Fatout)", "Et suyu", "Kabak", "Kürek kemiği eti"],
+      "benefits": ["Besleyici", "Sindirimi kolay", "Hastaları iyileştirir"]
+    },
+    {
+      "id": "kabak",
+      "name": { "tr": "Kabak (Dübbâ)", "en": "Squash/Gourd (Dubbāʾ)", "ar": "الدُّبّاء / القرع" },
+      "icon": "🎃",
+      "color": "#FF8C00",
+      "category": "sebze",
+      "mizac": "soğuk",
+      "description": {
+        "tr": "Hz. Peygamber'in en sevdiği sebze. Tirit ve et yemeğinde tabaktan kabak parçalarını arar, önce onları yerdi. Enes b. Mâlik: 'O günden sonra ben de kabak sevdim.'",
+        "en": "The Prophet's favorite vegetable. In tharid and meat dishes, he would search for squash pieces and eat them first. Anas ibn Malik: 'Since that day, I too loved squash.'",
+        "ar": "أحب الخضروات إلى النبي ﷺ. كان يتتبع الدباء في الثريد. قال أنس: فما زلت أحب الدباء."
+      },
+      "hadith_refs": [
+        "Buhârî, Et'ime 25; Müslim, Eşribe 144",
+        "\"O günden beri hep kabak sevdim.\" (Enes b. Mâlik)"
+      ],
+      "benefits": ["Mideye hafif", "Serinletici", "Vitamin kaynağı"]
+    },
+    {
+      "id": "telbine",
+      "name": { "tr": "Telbîne Çorbası", "en": "Talbīna Soup", "ar": "التلبينة" },
+      "icon": "🥣",
+      "color": "#DAA520",
+      "category": "çorba",
+      "mizac": "dengeli",
+      "description": {
+        "tr": "Arpa unu, süt ve bal ile hazırlanan şifalı bir çorba. Hz. Peygamber: 'Telbîne, hastanın kalbine şifa verir ve hüznün bir kısmını giderir.' Hz. Âişe, evinden cenaze çıktığında kadınlara telbîne ikram ederdi.",
+        "en": "A healing soup made with barley flour, milk, and honey. The Prophet said: 'Talbīna soothes the heart of the sick and removes some grief.' Aisha would serve talbīna to women when there was a bereavement.",
+        "ar": "حساء شافٍ من دقيق الشعير والحليب والعسل. قال النبي ﷺ: التلبينة مجمّة لفؤاد المريض تذهب ببعض الحزن."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıbb 7; Müslim, Selâm 90",
+        "\"Telbîne hastanın kalbine huzur verir, hüznün bir kısmını giderir.\" (Buhârî)"
+      ],
+      "ingredients": ["Arpa unu", "Süt", "Bal"],
+      "benefits": ["Üzüntüyü giderir", "Hastaya şifa", "Kalbi rahatlatır", "Psikolojik iyileşme"],
+      "spiritual_context": {
+        "tr": "Telbîne'nin manevi boyutu özellikle önemlidir. Hz. Peygamber bunu sadece fiziksel değil, ruhsal bir ilaç olarak da tavsiye etmiştir. Yas tutanlara, üzgünlere ve hastalara ikram edilirdi.",
+        "en": "The spiritual dimension of Talbīna is especially important. The Prophet recommended it not just as physical but also spiritual medicine. It was served to mourners, the grieving, and the sick.",
+        "ar": "البعد الروحي للتلبينة مهم بشكل خاص. أوصى بها النبي ﷺ ليس كدواء جسدي فحسب بل روحي أيضاً."
+      }
+    },
+    {
+      "id": "bal",
+      "name": { "tr": "Bal", "en": "Honey", "ar": "العسل" },
+      "icon": "🍯",
+      "color": "#FFD700",
+      "category": "gıda",
+      "mizac": "sıcak",
+      "description": {
+        "tr": "Kur'ân-ı Kerîm'de 'insanlar için şifa' olarak zikredilen bal, Hz. Peygamber'in en sevdiği içeceklerden biriydi. Tatlı ve bal şerbetini çok severdi.",
+        "en": "Mentioned in the Quran as 'a healing for people,' honey was one of the Prophet's favorite drinks. He greatly loved sweets and honey sherbet.",
+        "ar": "ذُكر في القرآن الكريم أن فيه شفاء للناس. كان من أحب الأشربة إلى النبي ﷺ."
+      },
+      "hadith_refs": [
+        "Buhârî, Tıbb 4; Müslim, Eşribe 168",
+        "Kur'ân: Nahl 16:69 — \"Onların karınlarından renkleri çeşitli bir içecek (bal) çıkar ki onda insanlar için şifa vardır.\""
+      ],
+      "quran_refs": ["Nahl 16:69"],
+      "benefits": ["Şifa kaynağı", "Antibakteriyel", "Enerji verici", "Mide rahatsızlıklarına iyi gelir"]
+    },
+    {
+      "id": "zeytinyagi",
+      "name": { "tr": "Zeytinyağı", "en": "Olive Oil", "ar": "زيت الزيتون" },
+      "icon": "🫒",
+      "color": "#556B2F",
+      "category": "gıda",
+      "mizac": "dengeli",
+      "description": {
+        "tr": "Hz. Peygamber: 'Zeytinyağı yiyiniz ve onunla yağlanınız. Çünkü o mübarek bir ağaçtandır.' Kur'ân'da 'mübarek ağaç' olarak geçer.",
+        "en": "The Prophet said: 'Eat olive oil and anoint yourselves with it, for it comes from a blessed tree.' Referred to as 'blessed tree' in the Quran.",
+        "ar": "قال النبي ﷺ: كلوا الزيت وادهنوا به فإنه من شجرة مباركة."
+      },
+      "hadith_refs": [
+        "Tirmizî, Et'ime 43; İbn Mâce, Et'ime 34",
+        "Kur'ân: Nûr 24:35 — \"Mübarek bir ağaçtan, zeytinden (tutuşturulur)\""
+      ],
+      "quran_refs": ["Nûr 24:35", "Tîn 95:1"],
+      "benefits": ["Cilt sağlığı", "Kalp sağlığı", "Antioksidan"]
+    },
+    {
+      "id": "kess",
+      "name": { "tr": "Keş (Madhîr)", "en": "Kesh/Madhīr (Dried Yogurt)", "ar": "المَضيرة / الكِشْك" },
+      "icon": "🥛",
+      "color": "#F5DEB3",
+      "category": "medine_mutfagi",
+      "mizac": "soğuk",
+      "description": {
+        "tr": "Medine'ye özgü bir yoğurt kurusu. Kurutulmuş yoğurt, buğday yarması ve et ile hazırlanır. Medine mutfağının özel bir ürünüdür.",
+        "en": "A dried yogurt specialty of Medina. Prepared with dried yogurt, cracked wheat, and meat. A unique product of Medinan cuisine.",
+        "ar": "لبن مجفف خاص بالمدينة. يُحضر بالزبادي المجفف وجريش القمح واللحم."
+      },
+      "hadith_refs": ["Ebû Dâvûd, Et'ime; Nesâî, es-Sünenü'l-kübrâ"],
+      "benefits": ["Protein kaynağı", "Uzun ömürlü gıda"]
+    },
+    {
+      "id": "kuyruk_yagi",
+      "name": { "tr": "Kuyruk Yağı (Silâ'î)", "en": "Tail Fat (Silāʿī)", "ar": "الإهالة / السِّلائي" },
+      "icon": "🧈",
+      "color": "#FAEBD7",
+      "category": "medine_mutfagi",
+      "mizac": "sıcak",
+      "description": {
+        "tr": "Koyun kuyruk yağı. Medine mutfağında temel pişirme yağı olarak kullanılırdı. Ekmek bu yağ ile yenirdi.",
+        "en": "Sheep tail fat. Used as the primary cooking fat in Medinan cuisine. Bread was eaten with this fat.",
+        "ar": "دهن ألية الغنم. كان يُستخدم كدهن أساسي للطبخ في مطبخ المدينة."
+      },
+      "hadith_refs": ["Buhârî, Et'ime"],
+      "benefits": ["Enerji verici", "Soğuğa dayanıklılık"]
+    },
+    {
+      "id": "fatout_ekmegi",
+      "name": { "tr": "Fatout Ekmeği", "en": "Fatūt Bread", "ar": "الفتوت" },
+      "icon": "🫓",
+      "color": "#DEB887",
+      "category": "medine_mutfagi",
+      "mizac": "dengeli",
+      "description": {
+        "tr": "Medine'ye özgü ince ekmek. Tirit yapımında kullanılan, et suyunda ıslatılan ekmek türü. Arpa veya buğday unundan yapılırdı.",
+        "en": "Thin bread specific to Medina. The type of bread soaked in meat broth for making tharid. Made from barley or wheat flour.",
+        "ar": "خبز رقيق خاص بالمدينة. نوع الخبز المنقوع في المرق لعمل الثريد."
+      },
+      "hadith_refs": ["Buhârî, Et'ime; Müslim, Eşribe"],
+      "benefits": ["Tirit yapımında temel malzeme"]
+    },
+    {
+      "id": "et_kurek",
+      "name": { "tr": "Kürek Kemiği Eti (Zirâ')", "en": "Shoulder Meat (Dhirāʿ)", "ar": "الذراع" },
+      "icon": "🍖",
+      "color": "#A0522D",
+      "category": "yemek",
+      "mizac": "sıcak",
+      "description": {
+        "tr": "Hz. Peygamber etin kürek kemiği kısmını (zirâ') severdi. Çabuk pişer ve lezzetlidir. Hayber'de zehirlenen koyun kürek kemiği olayı da bu kısımla ilgilidir.",
+        "en": "The Prophet preferred the shoulder part (dhirāʿ) of meat. It cooks quickly and is flavorful. The poisoned sheep incident at Khaybar also involved this part.",
+        "ar": "كان النبي ﷺ يحب الذراع من اللحم. يُطبخ سريعاً ولذيذ."
+      },
+      "hadith_refs": [
+        "Buhârî, Et'ime 17; Müslim, Eşribe 148",
+        "\"Hz. Peygamber'e kürek kemiği eti takdim edilirdi, onu severdi.\" (Buhârî)"
+      ],
+      "benefits": ["Yüksek protein", "Çabuk pişer", "Lezzetli"]
+    },
+    {
+      "id": "sirke",
+      "name": { "tr": "Sirke", "en": "Vinegar", "ar": "الخلّ" },
+      "icon": "🫙",
+      "color": "#8B0000",
+      "category": "gıda",
+      "mizac": "soğuk",
+      "description": {
+        "tr": "Hz. Peygamber: 'Sirke ne güzel katıktır!' Zeytinyağı ve ekmekle birlikte sofranın vazgeçilmeziydi.",
+        "en": "The Prophet said: 'What an excellent condiment vinegar is!' It was an essential part of the table along with olive oil and bread.",
+        "ar": "قال النبي ﷺ: نِعمَ الإدامُ الخلّ."
+      },
+      "hadith_refs": [
+        "Müslim, Eşribe 167; Tirmizî, Et'ime 35",
+        "\"Sirke ne güzel katıktır!\" (Müslim)"
+      ],
+      "benefits": ["Sindirim kolaylaştırıcı", "İştah açıcı", "Antibakteriyel"]
+    },
+    {
+      "id": "sut",
+      "name": { "tr": "Süt", "en": "Milk", "ar": "اللبن" },
+      "icon": "🥛",
+      "color": "#FFFAFA",
+      "category": "içecek",
+      "mizac": "dengeli",
+      "description": {
+        "tr": "Hz. Peygamber süt içmeyi severdi. İsrâ gecesinde kendisine süt ve şarap sunulmuş, süt tercih etmiştir. 'Fıtratı seçtiniz' denilmiştir.",
+        "en": "The Prophet loved drinking milk. On the Night of Isra, he was offered milk and wine, and chose milk. He was told: 'You have chosen the fitrah (natural way).'",
+        "ar": "كان النبي ﷺ يحب شرب اللبن. ليلة الإسراء عُرض عليه اللبن والخمر فاختار اللبن."
+      },
+      "hadith_refs": [
+        "Buhârî, Eşribe 12; Müslim, Îmân 259",
+        "\"Fıtratı (doğal olanı) seçtiniz.\" (Buhârî)"
+      ],
+      "benefits": ["Kalsiyum kaynağı", "Fıtrat içeceği", "Besleyici"]
+    }
+  ],
+  "mizac_pairs": [
+    {
+      "hot": "taze_hurma",
+      "cold": "karpuz",
+      "principle": {
+        "tr": "Sıcak-soğuk dengesi: Hurmanın hararetini karpuzun serinliği giderir.",
+        "en": "Hot-cold balance: Watermelon's coolness counters the heat of dates.",
+        "ar": "التوازن الحار-البارد: برودة البطيخ تعادل حرارة الرطب."
+      }
+    }
+  ],
+  "medine_kitchen": {
+    "title": { "tr": "Medine Mutfağı", "en": "Medinan Kitchen", "ar": "مطبخ المدينة" },
+    "items": ["kess", "kuyruk_yagi", "fatout_ekmegi"],
+    "description": {
+      "tr": "Medine'ye özgü hazırlama yöntemleri ve malzemeler. Keş (kurutulmuş yoğurt), silâ'î (kuyruk yağı) ve fatout ekmeği Medine mutfağının temelleriydi.",
+      "en": "Preparation methods and ingredients unique to Medina. Kesh (dried yogurt), tail fat, and fatūt bread were the foundations of Medinan cuisine.",
+      "ar": "طرق التحضير والمكونات الخاصة بالمدينة."
+    }
+  }
+}

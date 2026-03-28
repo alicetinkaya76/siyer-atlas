@@ -1,0 +1,3372 @@
+[
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "mücahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "yezid_ebu_habib",
+    "target": "ibnu_lehia",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "talha",
+    "target": "aise_talha",
+    "type": "teacher_student"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "ebu_cafer_bakir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "mucahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_ebul_esved_ed_düeli",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "veki_cerrah",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "asim_sabit",
+    "target": "ibn_ishak",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ata_b_ebi_rabah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_malik_b_dinar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mamer_rasid",
+    "target": "hasan_kahtan_yemeni",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "mucahid_cebr",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "ebu_idris_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "abdullah_mesud_ogrenci",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_muaviye",
+    "target": "reca_hayve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "hafsa_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_mutarrif_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "muhammed_munkedir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "salim_abdullah",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "sufyan_uyeyne",
+    "target": "imam_ahmed",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "tab_esved_b_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ata_rebah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "masruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "ebu_zübeyr_mekki",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "masruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ata_b_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_ata_b_ebi_rabah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ebu_zinad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "haccac_yusuf",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ebu_miclez",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "rabia_herevi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_abdullah_b_amr_haris",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "muhammed_kab_kurazi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "zührî",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "mucahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "esved_yezid",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "kasim_muhammed",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_meymun_b_mihran",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "halid_madan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "tab_malik_b_enes",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "mesruk_ecdai",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "ibrahim_edhem",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "alkame_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_vakidi",
+    "target": "tab2_ibn_sad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "harice_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "leys_sad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri2",
+    "target": "hasan_kahtan_yemeni",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sirin",
+    "target": "tab2_yunus_ubeyd",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebu_ishak_subay",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ubeydullah_utbe",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "mamer_rasid",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_amir_sarahil_sabi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_b_ali",
+    "target": "ummu_derdâ_sugra_ek",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_hasan_basri2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "abdullah_mesud_ogrenci",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ebu_aliye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "amir_vasile",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_said_b_cubeyr2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_hasan_basri2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "zeyd_eslem",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_mesruk_b_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "tab_ibrahim_b_edhem",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_ebu_seleme_b_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "zuhri",
+    "target": "evzai",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "tab_ata_b_ebi_rabah",
+    "target": "tab_ebu_hanife",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "salim_ebu_nadr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "salim_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "tab_musa_b_ukbe",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "leys_sad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "busr_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "tab_zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "ebu_idris_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_said_b_cubeyr2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_uyeyne",
+    "target": "tab2_said_b_mansur",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "amra_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab2_hani_endulusi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_mekhul_ed_dimeski",
+    "target": "tab_evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tavus_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sabi_hemdan",
+    "target": "hammad_suleyman",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ummu_kulsum_ebubekir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "muhammed_seybani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "alkame_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_nesai",
+    "target": "tab2_buhari_heysem",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "mamer_rasid",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_ebu_ishak_sebii",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "muhammed_seybani",
+    "target": "imam_safii",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hammad_ebi_suleyman",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "tab2_ismail_buhari",
+    "target": "tab2_muslim_naysaburi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab2_muaze_adeviyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "mesruk_ecdai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "zührî",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ata_horasani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_ebu_ishak_sebii",
+    "target": "tab_sufyan_b_uyeyne",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_amir_sarahil_sabi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "dahhak_muzahim",
+    "target": "mukatil_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "alkame_kays",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ummu_atiyye",
+    "target": "tab_hafsa_bt_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "suleyman_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "hasan_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "alkama_nakhai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "yezid_rakkasi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "hasan_basri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "zirr_hubeys",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "zirr_hubeys",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_mesruk_b_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ubeydullah_utbe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ibrahim_nehai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "tab_salim_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_ibn_sirin2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "hasan_basri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "kasim_muhaymire",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_yusuf_yakub",
+    "target": "muhammed_seybani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_sabit_bunani",
+    "target": "tab_hammad_b_seleme",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ebu_hazim_seleme",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "alkama_nakhai",
+    "target": "nehai_ibrahim",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_hasan_b_ali",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "alkame_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_bekir_hazm",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "rabia_adeviyye",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "zubeyr",
+    "target": "tab_urve_b_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "abdurrahman_evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_mücahid_b_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "ubeydullah_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "yezid_ebu_habib",
+    "target": "ibnu_lehia",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_esved_b_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "tab_abdullah_b_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ikrime_mevla",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_muhammed_bakir",
+    "target": "tab2_cafer_sadik",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_hasan_b_ali",
+    "target": "tab_sekine_bt_husayn",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab2_yunus_ubeyd",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "zubeyr",
+    "target": "urve_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ebu_seleme_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "imam_safii",
+    "target": "imam_ahmed",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_aliye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "mesruk_ecdai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ubey_kab",
+    "target": "ebu_aliye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "zührî",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab2_ummu_salih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab2_amra_bt_abdirrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "mesruk_ecdai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "abdurrahman_evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab2_muhammed_vasii",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "suheyl_ebu_salih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "tavus_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "rabia_herevi",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_said_b_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "dahhak_muzahim",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "kasim_muhammed",
+    "target": "ibn_ishak",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "tab2_hani_endulusi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "ebu_yusuf_yakub",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "malik_enes",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_amra_bt_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "ebu_vail_seddad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "muhammed_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mekhul_dimask",
+    "target": "abdurrahman_evzai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ummu_atiyye",
+    "target": "hafsa_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "mekhul_dimask",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ibrahim_en_nehai",
+    "target": "tab_sufyan_es_sevri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "muaza_adeviyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab2_amr_ubeyd",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "muaza_adeviyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "malik_enes",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "huseyin_ali",
+    "target": "zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ata_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hammad_b_ebi_suleyman",
+    "target": "tab_ebu_hanife",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "esved_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "hasan_muhammed_hanefiyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_ebu_ishak_sebii",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ebu_zinad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "yezid_rakkasi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "tab_said_b_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ebu_osman_nehdi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "sabit_bünânî",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "hammad_suleyman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "sube_haccac",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_muhammed_b_hanefiyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ummu_seleme",
+    "target": "suleyman_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "tab_abdullah_b_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "ummu_derda_kubra",
+    "type": "teacher_student"
+  },
+  {
+    "source": "imam_ahmed",
+    "target": "tab2_muslim_naysaburi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "amir_şarâhîl",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "sube_haccac",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ebu_ziyad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "tab_muhammed_b_ishak",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ummu_husayn",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ummu_seleme",
+    "target": "tab2_hafsa_abdurrahman2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "yezid_habib",
+    "target": "leys_sad_misir",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "ebu_bekir_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_katade_b_diame",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ata_rebah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ummu_kulsum_bt_ebubekir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_hemmam_b_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_cubeyr",
+    "target": "suleyman_amesh",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ikrime_abbas",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ibn_kesir_el_mekki",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "ebu_bekir_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab2_hafsa_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_mücahid_b_cebr",
+    "target": "tab_ebu_amr_b_ala",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_said_b_cubeyr2",
+    "target": "tab_ata_b_saib",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_esved_b_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mesruk_ecda",
+    "target": "nehai_ibrahim",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "suheyl_ebu_salih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ibrahim_en_nehai",
+    "target": "tab_hammad_b_ebi_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_ibn_ishak",
+    "target": "tab2_vakidi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_amr",
+    "target": "haris_miskîn",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_zubeyr",
+    "target": "urve_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "amir_sarahsil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "sabit_bünânî",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_cureyc",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_beraa_azib",
+    "target": "ebu_ishak_subay",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_alkame_b_kays",
+    "target": "tab_ibrahim_en_nehai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "harice_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "mücahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "esma_ebubekir",
+    "target": "fatima_munzir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ukbe_amir",
+    "target": "tab_ebu_hayr_mersed",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "evzai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ibn_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "meymun_mehran",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "katade_diame",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "evzai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "yezid_habib",
+    "target": "leys_sad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "abdurrezzak_sanani",
+    "target": "imam_ahmed",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ubeydullah_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "asim_behdele",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_said_hudri",
+    "target": "ata_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "ebu_hanife",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_süleyman_b_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "tab_süleyman_b_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_kilabe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "tab_alkame_b_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "talha",
+    "target": "aise_talha",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ata_b_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "hafsa_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "malik_enes",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_hasan_basri2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_ismail_buhari",
+    "target": "tab2_tirmizi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "zührî",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "amir_şarâhîl",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "nehai_ibrahim",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "hemmam_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "yezid_habib",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_husayn_b_ali",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "salim_ebu_nadr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_amash",
+    "target": "tab_sube_b_haccac",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_mutarrif_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "tab_hammad_b_seleme",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_miclez",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mucahid_cebr",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab2_ummu_kulsum_mh",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "vehb_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_cafer_bakir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_kilabe_cermi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "hammad_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "veki_cerrah",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ebu_seleme_b_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ubeydullah_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_zer",
+    "target": "ebu_idris_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "ebu_hanife",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "mamer_rasid",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_ebu_amr_b_ala",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_abdurrahman_sulemi",
+    "target": "asim_behdele",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "recâ_hayve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_nafi_mevla_omer",
+    "target": "tab_nafi_b_abdurrahman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "esved_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "esved_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_kasim_b_muhammed",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ummu_hani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "zührî",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_zeynelâbidin",
+    "target": "tab_zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_ibn_sirin2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "hasan_basri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "esved_yezid",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "imam_ahmed",
+    "target": "tab2_ismail_buhari",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "yezid_rakkasi",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "ata_horasani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "mesruk_ecdai",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "alkama_nakhai",
+    "target": "nehai_ibrahim",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tavus_keysan",
+    "target": "yezid_habib_ifr",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "ibrahim_edhem",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "ibn_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ubeydullah_utbe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_husayn_b_ali",
+    "target": "tab2_fatima_husayn",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tavus_keysani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_urve_b_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_abdullah_b_amr_haris",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "tab2_ebu_hanife_ogrenci",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sirin",
+    "target": "hasan_basri_ogrenci",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "mujahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "tab_hârice_b_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "tab_abdulmelik_b_umeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "muhammed_munkedir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_mesruk_b_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "amr_dinar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "amir_şarâhîl",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "ebu_hanife",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "amir_vasile",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_zinad",
+    "target": "malik_enes",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_muhammed_b_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_vehb_b_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "mutarrif_sihhir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "mekhul_dimashki",
+    "target": "evzai",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "tab2_ibn_teymiyye",
+    "target": "tab2_ibn_kesir",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ebu_seleme_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab2_aişe_bt_talha",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_muaze_adeviyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "tab_sufyan_b_uyeyne",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_zer",
+    "target": "mutarrif_sihhir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "tab_umm_derda_sugra",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "yezid_ebu_habib",
+    "target": "leys_sad",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "amir_sarahsi",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_tavus_b_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "said_cubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "ebu_abdurrahman_sulemi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_said_b_cübeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_esved_b_yezid",
+    "target": "tab_ibrahim_en_nehai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "muhammed_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "eyyub_sahtiyani",
+    "target": "hammad_zeyd",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_amir_sarahil_sabi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_ismail_buhari",
+    "target": "tab2_nesai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_said_b_cubeyr2",
+    "target": "tab_amash",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "tab2_abd_rabbih",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "hammad_ebi_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_abdullah_b_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "esved_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_zinad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_evzai",
+    "target": "tab2_velid_b_muslim",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "yezid_habib",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "meymun_mehran",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ata_b_ebi_rabah",
+    "target": "tab_mukatil_b_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "said_cubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "katade_diame",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tavus_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_ibn_sirin2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "ata_rebah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_cubeyr",
+    "target": "dahhak_muzahim",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "mekhul_dimask",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "mamer_rasid",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "mesruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "yezid_ebu_habib",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "zirr_hubeys",
+    "target": "asim_behdele",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "sabi_hemdan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "sube_haccac",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "leys_sad_misir",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "dahhak_muzahim",
+    "target": "mukatil_suleyman",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "alkame_kays",
+    "target": "ibrahim_nehai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "mucahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "tavus_keysani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "hasan_basri_ogrenci",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_alkame_b_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "hasan_basri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "tab_katade_b_diame",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ebu_bekir_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "esved_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab2_mubarek_fadala",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "yezid_habib",
+    "target": "leys_sad_misir",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "ebu_vail_seddad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "tab2_sevri_ogrenci",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "suleyman_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ibn_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "salim_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "tab_ebu_muslim_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sirin",
+    "target": "katade_diame",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "veki_cerrah",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "amir_sarahsi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mamer_rasid",
+    "target": "hasan_kahtan_yemeni",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ebu_abdurrahman_sulemi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "tab_ebu_muslim_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "nehai_ibrahim",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "salim_abdullah",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "amr_dinar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_uyeyne",
+    "target": "imam_ahmed",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebu_ishak_subay",
+    "target": "sube_haccac",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "suleyman_amesh",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "muhammed_kab_kurazi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "suleyman_amesh",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "amr_dinar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "amir_şarâhîl",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "abdurrahman_avf_oglu",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "halid_madan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "suheyl_ebu_salih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_said_hudri",
+    "target": "ebu_hazim_seleme",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "imam_safii",
+    "target": "imam_ahmed",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "dahhak_muzahim",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_ibn_sirin2",
+    "target": "katade_diame",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_muaviye_b_yezid",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "tab_said_b_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "ebu_bekir_hazm",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_malik_b_enes",
+    "target": "imam_safii",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "abdurrahman_evzai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_meymun_b_mihran",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "kasim_muhammed",
+    "target": "ibn_ishak",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_alkame_b_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ibn_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "hammad_zeyd",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_aisha_bt_talha",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "yezid_habib",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "leys_sad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "hammad_ebu_suleyman",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "halid_madan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ubeydullah_utbe",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ata_rebah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "harice_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "ibn_ishak",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_ali",
+    "target": "ummu_derdâ_sugra_ek",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_umm_derda_sugra",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ata_b_ebi_rabah",
+    "target": "tab_ata_b_meysere",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_ata_b_ebi_rabah",
+    "target": "tab_ibn_cureyc",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "tab2_ummu_farve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "hasan_basri_ogrenci",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "nehai_ibrahim",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_ata_b_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_cabir_b_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "ummu_derda_kubra",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ukbe_b_nafi",
+    "target": "tab2_ukbe_nafii_torunu",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "sabi_hemdan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_zubeyr_b_adi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "tab_amer_b_serahil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_nafi_mevla_omer",
+    "target": "tab_eyyub_es_sahtiyani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "tab_vasil_b_ata",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "hasan_basri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_ebi_suleyman",
+    "target": "ebu_hanife",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "tab_ibrahim_en_nehai",
+    "target": "tab_mansur_b_mutemer",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "vehb_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "zirr_hubeys",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ibn_sirin2",
+    "target": "hasan_basri_ogrenci",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ebu_ziyad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "tab_eyyub_es_sahtiyani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "kasim_muhaymire",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ebu_vail_seddad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_cabir_b_abdallah",
+    "target": "vehb_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "tab_ebu_muslim_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_abdurrahman_sulemi",
+    "target": "asim_behdele",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "sufyan_uyeyne",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "omer_abdulaziz",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "tab_halid_b_madan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_zeyd_sabit",
+    "target": "ebu_abdurrahman_sulemi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ebu_kilabe_cermi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sabi_hemdan",
+    "target": "hammad_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "muhammed_seybani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_mutarrif_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_abdurrahman_sulemi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "katade_diame",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "mamer_rasid",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_sabit_bunani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ubeydullah_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "ebu_osman_nehdi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "mesruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "ebu_kilabe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mesruk_ecda",
+    "target": "nehai_ibrahim",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ata_horasani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ibn_sihab_zuhri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tavus_keysan",
+    "target": "yezid_habib_ifr",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ummu_ata",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab2_dahhak_mesibi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "tab2_dahhak_b_muzahim2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_musa_b_nusayr",
+    "target": "tab2_musa_b_nusayr2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_muaviye",
+    "target": "recâ_hayve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ebu_zübeyr_mekki",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_esma_umeys",
+    "target": "tab2_fatima_bt_munzir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "katade_diame",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "mamer_rasid",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "eyyub_sahtiyani",
+    "target": "tab2_halil_b_ahmed",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tab_hasan_basri2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "reca_hayve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "tab_amer_b_serahil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ebu_zinad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "ebu_hanife",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "mekhul_dimashki",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab2_safiye_bt_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_yezid_b_ebi_habib",
+    "target": "tab_ibn_lahia",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "alkama_nakhai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "katade_diame",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ebu_yusuf_yakub",
+    "target": "muhammed_seybani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "kadi_sureyh",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_nafi_mevla_omer",
+    "target": "tab_ebu_zinad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_mücahid_b_cebr",
+    "target": "tab_ibn_cureyc",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "tab_yezid_b_ebi_habib",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_ubeydullah_b_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "omer_abdulaziz",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_tavus_b_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ubeydullah_utbe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "abdurrahman_avf_oglu",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "kasim_muhammed",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "amir_sarahsi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri2",
+    "target": "hasan_kahtan_yemeni",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "urve_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_ishak_subay",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_amr_as",
+    "target": "tab_ukbe_b_nafi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "mamer_rasid",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "malik_enes",
+    "target": "tab_abdullah_b_vehb",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "malik_enes",
+    "target": "abdullah_mübarek",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_musa_b_nusayr",
+    "target": "tab_tarik_b_ziyad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "urve_zubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "zuhri",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "tab_omer_b_abdulaziz",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "hasan_basri_ogrenci",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "zuhri",
+    "target": "leys_sad",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "abdurrezzak_sanani",
+    "target": "tab2_abdurrazzak_ogrenci",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_amer_b_serahil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "tab_nafi_mevla_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "mesruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ebu_ishak_subay",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab2_halil_b_ahmed",
+    "target": "tab2_sibevehy",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_muaze_adeviyye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "amir_sarahsil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ummu_husayn",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hammad_suleyman",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ubeydullah_utbe",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "abdullah_mesud_ogrenci",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_hanife",
+    "target": "ebu_yusuf_yakub",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "suleyman_amesh",
+    "target": "tab2_veki_cerrah2",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_amr",
+    "target": "tab_ebu_abdurrahman_hubuli",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "tavus_keysan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "zirr_hubeys",
+    "target": "asim_behdele",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "hammad_suleyman",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "sufyan_sevri",
+    "target": "veki_cerrah",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "mekhul_dimask",
+    "target": "abdurrahman_evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_mekhul_ed_dimeski",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "mekhul_dimask",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_vail_seddad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "leys_sad",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "tab_zuhri",
+    "target": "tab_leys_b_sad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "ebu_hanife",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "malik_enes",
+    "target": "buhlul_rashid",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_vehb_b_munebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "mamer_rasid",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "muhammed_munkedir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "malik_enes",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ebu_aliye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebubekir",
+    "target": "mesruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_nafi_mevla_omer",
+    "target": "tab_malik_b_enes",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "mesruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "malik_enes",
+    "target": "tab2_ibn_vecih",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "ibn_cureyc",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "urve_zubeyr",
+    "target": "ebu_zinad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "ebu_osman_nehdi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_ali",
+    "target": "tab_sekine_bt_husayn",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ata_horasani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "rabia_herevi",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "muaza_adeviyye",
+    "type": "teacher_student"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab_rabia_el_adeviyye",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "ebu_cafer_bakir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "muhammed_seybani",
+    "target": "imam_safii",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ibn_sihab_zuhri",
+    "target": "ata_horasani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "haris_miskîn",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "mücahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "vehb_münebbih",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab_fatima_bt_munzir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "aise_talha",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "sube_haccac",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ebu_ishak_subay",
+    "target": "sube_haccac",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "hammad_zeyd",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_ishak_subay",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "amir_sarahsil",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_dahhak_b_müzahim",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "imam_ahmed",
+    "target": "tab2_ebu_davud",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "meymun_mehran",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "said_cubeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_sad_vakkas",
+    "target": "busr_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_ikrime_mevla_ibn_abbas",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ebu_zinad",
+    "target": "malik_enes",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_muhammed_b_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "alkama_nakhai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "evzai",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "sabi_hemdan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ata_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "tab2_hafsa_abdurrahman2",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "muhammed_kab_kurazi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "muaviye",
+    "target": "tab_recâ_b_hayve",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "amir_sarahsi",
+    "target": "sufyan_sevri2",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_hafsa_bt_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ikrime_abbas",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "zeyd_eslem",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "alkame_kays",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "mucahid_cebr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "amir_sarahsi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "eyyub_sahtiyani",
+    "target": "hammad_zeyd",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "safiyye_bt_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "zuhri",
+    "target": "malik_enes",
+    "type": "tabiin_tebe"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "mekhul_dimashki",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "aise",
+    "target": "amir_şarâhîl",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "salim_abdullah_omer",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "kasim_muhammed",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibrahim_nehai",
+    "target": "hammad_ebu_suleyman",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_cabir_b_zeyd",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "salim_ebu_nadr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "huseyin_ali",
+    "target": "ebu_cafer_bakir",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_cureyc",
+    "target": "abdurrezzak_sanani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "ebu_osman_nehdi",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "tab2_ata_b_dinar",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "ata_yesar",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_zeynelâbidin",
+    "target": "tab_muhammed_bakir",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "katade_diame",
+    "target": "evzai",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "tab_zeynelâbidin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ummu_atiyye",
+    "target": "tab2_hafsa_sirin",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_ebu_hureyre_det",
+    "target": "salim_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_mesud",
+    "target": "masruk_ecda",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdullah_omer",
+    "target": "said_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "ebu_aliye",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "comp_abdullah_abbas",
+    "target": "ikrime_abbas",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "yezid_habib",
+    "target": "leys_sad",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "esma_ebubekir",
+    "target": "fatima_munzir",
+    "type": "teacher_student"
+  },
+  {
+    "source": "tab_ibn_sirin2",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "muhammed_munkedir",
+    "target": "tab2_muhammed_munkedire_oglu",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab_hasan_basri2",
+    "target": "rabia_adeviyye",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "nafi_mevla_omer",
+    "target": "malik_enes",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "comp_ebu_derdaa",
+    "target": "ummu_derda_suğra",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "abdurrezzak_sanani",
+    "target": "imam_ahmed",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "ebu_ziyad",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "mesruk_ecdai",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "kadi_sureyh",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "asim_behdele",
+    "target": "sufyan_sevri",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "omer_abdulaziz",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_hasan_b_ali",
+    "target": "tab2_ummu_ammare",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "ata_rebah",
+    "target": "ebu_hanife",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "tab2_cafer_sadik",
+    "target": "tab2_cabir_hayyan",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "omer",
+    "target": "tab_said_b_museyyeb",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "said_museyyeb",
+    "target": "ibn_sihab_zuhri",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "abdurrahman",
+    "target": "ebu_seleme_abdurrahman",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_abdulmelik_b_umeyr",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ibn_sirin",
+    "target": "eyyub_sahtiyani",
+    "type": "tabiin_tebe_tabiin"
+  },
+  {
+    "source": "amr_dinar",
+    "target": "tab2_abd_rabbih",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "comp_muaz_cebel",
+    "target": "ebu_muslim_havlani",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "ali",
+    "target": "sabi_hemdan",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "tab_ibrahim_en_nehai",
+    "target": "tab_amash",
+    "type": "tabiin_tabiin"
+  },
+  {
+    "source": "enes_malik",
+    "target": "tab_omer_b_abdulaziz",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "osman",
+    "target": "busr_abdullah",
+    "type": "sahabe_tabiin"
+  },
+  {
+    "source": "hasan_basri",
+    "target": "tab2_dahhak_b_muzahim2",
+    "type": "tabiin_tabiin"
+  }
+]

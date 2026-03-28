@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": "recon_seriyye_amr_suvaa",
+    "battle_id": "seriyye_amr_suvaa",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.0,
+        "lng": 38.5
+      },
+      "name": "Ruhât (Hüzeyl yurdu)",
+      "modern_location": "Yenbu civarı"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görev",
+      "date_range": "Ramazan 8",
+      "duration": "",
+      "description": "Hz. Peygamber Amr'ı Süvâ' putunu yıkmak üzere gönderdi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Yıkım",
+      "date_range": "Ramazan 8",
+      "duration": "",
+      "description": "Ruhât'taki Süvâ' putu yıkıldı. Bekçi: 'İlahının kendini savunduğunu gördün mü?'",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. el-Âs",
+      "estimated_troops": 20,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, II/874",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn el-Kelbî, Kitâbü'l-Esnâm",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Put yıkıldı",
+    "significance": "Put tapınaklarının sistematik tasfiyesinin parçası.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

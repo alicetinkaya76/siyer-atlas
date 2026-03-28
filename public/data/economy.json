@@ -1,0 +1,1044 @@
+{
+  "version": "0.15.0",
+  "description": "Siyer dönemi ekonomisi — pazarlar, para birimleri, ticaret uygulamaları, vergiler",
+  "markets": [
+    {
+      "id": "eco_ukaz",
+      "name": {
+        "ar": "سوق عكاظ",
+        "tr": "Ukâz Panayırı",
+        "en": "Suq Ukaz"
+      },
+      "lat": 21.85,
+      "lng": 40.3,
+      "type": "panayır",
+      "period": "Zilkade ayı (yıllık, 20 gün)",
+      "description": "Arabistan'ın en büyük panayırı. Hicaz'da Tâif yakınında. Ticaretle birlikte şiir yarışmaları, hukuk davalarının görüşülmesi, kabile ittifakları kurulurdu. Muallakât şiirleri burada ilan edildi.",
+      "goods": [
+        "kumaş",
+        "deri",
+        "silah",
+        "parfüm",
+        "köle",
+        "at"
+      ],
+      "tribes_active": [
+        "kureys",
+        "hevazin",
+        "sakif",
+        "temim"
+      ],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_zulmecaz",
+      "name": {
+        "ar": "سوق ذي المجاز",
+        "tr": "Zülmecâz Panayırı",
+        "en": "Suq Dhul-Majaz"
+      },
+      "lat": 21.43,
+      "lng": 39.95,
+      "type": "panayır",
+      "period": "Zilhicce 1-8 (hac öncesi, 8 gün)",
+      "description": "Arafat yakınında hac öncesi panayır. Ukâz ve Mecenne'den sonra üçüncü büyük fuar. Hac mevsiminin son ticaret durağı.",
+      "goods": [
+        "erzak",
+        "deve",
+        "giyim",
+        "buhur"
+      ],
+      "tribes_active": [
+        "kureys",
+        "huzaa"
+      ],
+      "quran_ref": "Bakara 2:198 — 'Rabbinizden lütuf istemenizde (ticaret yapmanızda) bir günah yoktur.'"
+    },
+    {
+      "id": "eco_mecenne",
+      "name": {
+        "ar": "سوق مجنة",
+        "tr": "Mecenne Panayırı",
+        "en": "Suq Majanna"
+      },
+      "lat": 21.65,
+      "lng": 39.9,
+      "type": "panayır",
+      "period": "Zilkade sonu - Zilhicce başı (10 gün)",
+      "description": "Mekke yakınında panayır. Ukâz'dan sonra, Zülmecâz'dan önce uğranır. Hac mevsimi ticaret zincirinin ikinci halkası.",
+      "goods": [
+        "deri",
+        "gıda",
+        "koku"
+      ],
+      "tribes_active": [
+        "kureys",
+        "kinane"
+      ],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_hubasa",
+      "name": {
+        "ar": "سوق حباشة",
+        "tr": "Hubâşe Panayırı",
+        "en": "Suq Hubasha"
+      },
+      "lat": 19.8,
+      "lng": 41.2,
+      "type": "panayır",
+      "period": "Receb ayı",
+      "description": "Tihâme bölgesinde Receb ayında kurulan panayır. Hz. Hatice'nin ticaret kervanları buraya da giderdi.",
+      "goods": [
+        "baharat",
+        "yemen ürünleri",
+        "buhur"
+      ],
+      "tribes_active": [],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_suk_medine",
+      "name": {
+        "ar": "سوق المدينة",
+        "tr": "Medine Çarşısı (Sûku'l-Medîne)",
+        "en": "Market of Medina"
+      },
+      "lat": 24.47,
+      "lng": 39.61,
+      "type": "şehir_çarşısı",
+      "period": "Sürekli",
+      "description": "Hz. Peygamber'in Medine'de kurduğu çarşı. Yahudi pazarları (Kaynuka çarşısı) ile rekabet. 'Vergi ve harç almayın' emri.",
+      "goods": [
+        "hurma",
+        "arpa",
+        "buğday",
+        "et",
+        "süt"
+      ],
+      "tribes_active": [
+        "evs",
+        "hazrec"
+      ],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_suk_kaynuka",
+      "name": {
+        "ar": "سوق بني قينقاع",
+        "tr": "Benî Kaynuka Çarşısı",
+        "en": "Banu Qaynuqa Market"
+      },
+      "lat": 24.465,
+      "lng": 39.615,
+      "type": "şehir_çarşısı",
+      "period": "Sürekli (sürgün öncesi)",
+      "description": "Benî Kaynuka Yahudilerinin Medine'deki kuyumculuk ve silah çarşısı. En işlek ticaret merkezi. Sürgünle kapandı (2/624).",
+      "goods": [
+        "altın",
+        "gümüş",
+        "silah",
+        "zırh",
+        "kumaş"
+      ],
+      "tribes_active": [
+        "beni_kaynuka_tribe"
+      ],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_suk_busra",
+      "name": {
+        "ar": "سوق بصرى",
+        "tr": "Busrâ Çarşısı",
+        "en": "Market of Bosra"
+      },
+      "lat": 32.52,
+      "lng": 36.48,
+      "type": "uluslararası_pazar",
+      "period": "Sürekli",
+      "description": "Güney Suriye'de Roma/Bizans döneminden kalma büyük ticaret merkezi. Kureyş kervanlarının kuzey uç noktası. Hz. Peygamber gençliğinde buraya geldi.",
+      "goods": [
+        "ipek",
+        "baharat",
+        "zeytinyağı",
+        "şarap",
+        "cam eşya"
+      ],
+      "tribes_active": [
+        "kureys",
+        "gassaniler"
+      ],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_suk_sana",
+      "name": {
+        "ar": "سوق صنعاء",
+        "tr": "San'a Çarşısı",
+        "en": "Market of Sana'a"
+      },
+      "lat": 15.36,
+      "lng": 44.21,
+      "type": "uluslararası_pazar",
+      "period": "Sürekli",
+      "description": "Yemen'in başkentinde kadim ticaret merkezi. Kureyş'in kış kervanının güney uç noktası. Buhur, baharat, deri ticareti.",
+      "goods": [
+        "buhur",
+        "mirra",
+        "baharat",
+        "deri",
+        "kılıç"
+      ],
+      "tribes_active": [],
+      "quran_ref": ""
+    },
+    {
+      "id": "eco_mecenne",
+      "name": {
+        "ar": "سوق مجنة",
+        "tr": "Mecenne Panayırı",
+        "en": "Suq Majanna"
+      },
+      "lat": 21.7,
+      "lng": 40.1,
+      "type": "panayır",
+      "period": "Zilkade sonları (Ukâz sonrası)",
+      "description": "Ukâz'dan sonra kurulan Mekke yakını panayır. Ticaret ve edebî faaliyetler. Hac hazırlığı döneminde."
+    },
+    {
+      "id": "eco_zulmecaz",
+      "name": {
+        "ar": "سوق ذي المجاز",
+        "tr": "Zülmecâz Panayırı",
+        "en": "Suq Dhu al-Majaz"
+      },
+      "lat": 21.38,
+      "lng": 39.9,
+      "type": "panayır",
+      "period": "Zilhicce başı (Mecenne sonrası)",
+      "description": "Arafat yakınında hac öncesi son panayır. Mina'ya gitmeden önce son ticaret ve sosyal etkinlik alanı."
+    },
+    {
+      "id": "eco_benu_kaynuka",
+      "name": {
+        "ar": "سوق بني قينقاع",
+        "tr": "Benî Kaynukā' Çarşısı",
+        "en": "Market of Banu Qaynuqa"
+      },
+      "lat": 24.47,
+      "lng": 39.61,
+      "type": "çarşı",
+      "period": "Sürekli (Medine)",
+      "description": "Medine'deki Yahudi kuyumcuların çarşısı. Altın ve gümüş işçiliği. Benî Kaynukā' sürgünüyle son buldu (2 H)."
+    },
+    {
+      "id": "eco_suk_medine",
+      "name": {
+        "ar": "سوق المدينة",
+        "tr": "Medine Pazarı",
+        "en": "Market of Medina"
+      },
+      "lat": 24.468,
+      "lng": 39.615,
+      "type": "pazar",
+      "period": "Sürekli",
+      "description": "Hz. Peygamber'in kurduğu serbest pazar. Vergi ve yer kirası alınmaz. 'Bu sizin pazarınızdır, kimse harç almaz' buyurdu. Hz. Ömer döneminde genişledi."
+    }
+  ],
+  "currencies": [
+    {
+      "id": "cur_dinar",
+      "name": {
+        "ar": "دينار",
+        "tr": "Dinar (Altın)",
+        "en": "Dinar (Gold)"
+      },
+      "origin": "Bizans (Solidus)",
+      "metal": "altın",
+      "weight_g": 4.25,
+      "description": "Bizans solidusundan alınan altın para birimi. Hz. Peygamber döneminde kullanıldı. Abdülmelik b. Mervân ilk İslâmî dinarı bastırdı (77/696).",
+      "exchange_note": "1 dinar = 10-12 dirhem (döneme göre değişir)"
+    },
+    {
+      "id": "cur_dirhem",
+      "name": {
+        "ar": "درهم",
+        "tr": "Dirhem (Gümüş)",
+        "en": "Dirham (Silver)"
+      },
+      "origin": "Sâsânî (Drahmâ)",
+      "metal": "gümüş",
+      "weight_g": 2.97,
+      "description": "Sâsânî drahmasından alınan gümüş para birimi. Günlük ticarette yaygın. Zekât nisâbı: 200 dirhem.",
+      "exchange_note": "Zekât: 200 dirhem üzerinden 1/40 = 5 dirhem"
+    },
+    {
+      "id": "cur_ukiyye",
+      "name": {
+        "ar": "أوقية",
+        "tr": "Ukıyye",
+        "en": "Uqiyyah"
+      },
+      "origin": "Arap",
+      "metal": "gümüş (tartı birimi)",
+      "weight_g": 119.0,
+      "description": "40 dirhem ağırlığında gümüş tartı birimi. Mehr, diyyet ve büyük ticaret işlemlerinde kullanılır.",
+      "exchange_note": "1 ukıyye = 40 dirhem"
+    },
+    {
+      "id": "cur_miskâl",
+      "name": {
+        "ar": "مثقال",
+        "tr": "Miskâl",
+        "en": "Mithqal"
+      },
+      "origin": "Arap",
+      "metal": "altın (tartı birimi)",
+      "weight_g": 4.25,
+      "description": "1 dinar ağırlığında altın tartı birimi. Zekât nisâbı: 20 miskâl altın.",
+      "exchange_note": "20 miskâl = zekât nisâbı"
+    }
+  ],
+  "trade_practices": [
+    {
+      "id": "tp_ilaf",
+      "name": {
+        "ar": "إيلاف",
+        "tr": "Îlâf",
+        "en": "Ilaf"
+      },
+      "description": "Kureyş'in kış (Yemen) ve yaz (Şam) kervan ticaret güvenlik antlaşması. Hâşim b. Abdümenâf tarafından kuruldu. Kabilelerle koruma anlaşmaları.",
+      "quran_ref": "Kureyş 106:1-4",
+      "type": "antlaşma"
+    },
+    {
+      "id": "tp_mudaraba",
+      "name": {
+        "ar": "مضاربة",
+        "tr": "Mudârebe",
+        "en": "Mudarabah"
+      },
+      "description": "Sermaye-emek ortaklığı. Bir taraf sermayeyi, diğer taraf emeği koyar. Kâr paylaşılır, zarar sermaye sahibine aittir. Hz. Hatice-Hz. Peygamber ticareti bu şekildeydi.",
+      "quran_ref": "",
+      "type": "ortaklık"
+    },
+    {
+      "id": "tp_musaraka",
+      "name": {
+        "ar": "مشاركة",
+        "tr": "Müşâreke",
+        "en": "Musharakah"
+      },
+      "description": "Sermaye ortaklığı. İki veya daha fazla kişi sermaye koyar, kâr ve zarara oranla ortak olur.",
+      "quran_ref": "",
+      "type": "ortaklık"
+    },
+    {
+      "id": "tp_selem",
+      "name": {
+        "ar": "سلم / سلف",
+        "tr": "Selem (Peşin Ödeme-Vadeli Teslim)",
+        "en": "Salam (Advance Payment)"
+      },
+      "description": "Peşin ödeme yapılıp malın belirli bir vadede teslim edilmesi. Hz. Peygamber Medine'ye geldiğinde hurma ticaretinde bunu düzenledi: 'Kim selem yaparsa, ölçüsü, tartısı ve vadesi belirli olsun.'",
+      "quran_ref": "Bakara 2:282",
+      "type": "satış"
+    },
+    {
+      "id": "tp_riba",
+      "name": {
+        "ar": "ربا",
+        "tr": "Ribâ (Câhiliye Fâizi)",
+        "en": "Riba (Usury)"
+      },
+      "description": "Câhiliye'de yaygın fâiz uygulaması. Borcunu ödeyemeyene 'ya öde ya iki katına çıksın' denirdi. Kur'ân'da aşamalı olarak yasaklandı. Vedâ Hutbesi'nde tamamen kaldırıldı.",
+      "quran_ref": "Bakara 2:275-281, Âl-i İmrân 3:130",
+      "type": "yasak"
+    },
+    {
+      "id": "tp_meysir",
+      "name": {
+        "ar": "ميسر",
+        "tr": "Meysir (Kumar)",
+        "en": "Maysir (Gambling)"
+      },
+      "description": "Câhiliye'de yaygın kumar türü. Ok çekme (ezlâm) ile deve paylaşımı. Kur'ân'da içkiyle birlikte yasaklandı.",
+      "quran_ref": "Mâide 5:90-91, Bakara 2:219",
+      "type": "yasak"
+    },
+    {
+      "id": "tp_diyyet",
+      "name": {
+        "ar": "دية",
+        "tr": "Diyyet (Kan Bedeli)",
+        "en": "Diyyah (Blood Money)"
+      },
+      "description": "Öldürme veya yaralama karşılığı ödenen tazminat. Câhiliye'de 100 deve. İslâm bunu kabul edip düzenledi. Kabileler arası barışın aracı.",
+      "quran_ref": "Nisâ 4:92",
+      "type": "hukuk"
+    },
+    {
+      "id": "tp_zekat",
+      "name": {
+        "ar": "زكاة",
+        "tr": "Zekât",
+        "en": "Zakat"
+      },
+      "description": "İslâm'ın beş şartından. Malın 1/40'ı (2.5%). Nisâb: 85g altın veya 595g gümüş. 8 sınıf hak sahibi (Tevbe 9:60). İlk zekât âmilleri Hz. Peygamber tarafından tayin edildi.",
+      "quran_ref": "Tevbe 9:60, Bakara 2:43",
+      "type": "vergi"
+    },
+    {
+      "id": "tp_usur",
+      "name": {
+        "ar": "عشر",
+        "tr": "Öşür (Tarım Vergisi)",
+        "en": "Ushr (Agricultural Tax)"
+      },
+      "description": "Tarım ürünlerinden alınan 1/10 vergi (yağmur sulamalı) veya 1/20 (suni sulamalı). Medine'de hurma, arpa, buğday, kuru üzüm üzerinden uygulandı.",
+      "quran_ref": "",
+      "type": "vergi"
+    },
+    {
+      "id": "tp_cizye",
+      "name": {
+        "ar": "جزية",
+        "tr": "Cizye",
+        "en": "Jizyah"
+      },
+      "description": "Zimmîlerden (gayrimüslim vatandaşlardan) alınan kişi başı vergi. Askerlik muafiyeti karşılığı. Hz. Peygamber Necrân Hristiyanlarıyla anlaşmasında uyguladı.",
+      "quran_ref": "Tevbe 9:29",
+      "type": "vergi"
+    },
+    {
+      "id": "tp_ganimet",
+      "name": {
+        "ar": "غنيمة / فيء",
+        "tr": "Ganîmet ve Fey'",
+        "en": "Spoils of War (Ghanimah/Fay')"
+      },
+      "description": "Savaşta elde edilen ganimetin 1/5'i (humus) devlete, 4/5'i savaşçılara. Fey': savaşmadan elde edilen mal (Benî Nadîr toprakları gibi).",
+      "quran_ref": "Enfâl 8:41, Haşr 59:6-7",
+      "type": "gelir"
+    },
+    {
+      "id": "eco_murabaha",
+      "name": {
+        "ar": "المرابحة",
+        "tr": "Murâbaha",
+        "en": "Murabaha"
+      },
+      "type": "ticaret_akdi",
+      "description": "Maliyet artı kâr marjı belirtilerek yapılan satış. Alıcıya malın alış fiyatı ve kâr oranı açıkça söylenir. Helâl bir ticaret yöntemi.",
+      "ruling": "Helâl (şeffaflık şartıyla)"
+    },
+    {
+      "id": "eco_icare",
+      "name": {
+        "ar": "الإجارة",
+        "tr": "İcâre (Kiralama)",
+        "en": "Ijara (Lease)"
+      },
+      "type": "ticaret_akdi",
+      "description": "Emek veya mülk kiralaması. Hz. Peygamber hicret sırasında Abdullah b. Ureykıt'ı kılavuz olarak kiraladı. İslâm hukukunda meşru.",
+      "ruling": "Helâl"
+    },
+    {
+      "id": "eco_sarf",
+      "name": {
+        "ar": "الصرف",
+        "tr": "Sarf (Döviz değişimi)",
+        "en": "Sarf (Currency Exchange)"
+      },
+      "type": "ticaret_akdi",
+      "description": "Altın-gümüş veya farklı para birimleri arası değişim. Peşin ve eşit miktarda olma şartı var. Vadeli yapılması ribâ sayılır.",
+      "ruling": "Peşin ve eşit şartıyla helâl"
+    },
+    {
+      "id": "tp_fey",
+      "name": {
+        "ar": "فيء",
+        "tr": "Fey'",
+        "en": "Fay' (spoils without battle)"
+      },
+      "description": "Savaşmadan elde edilen ganîmet. Benî Nadîr arazileri gibi. Tamamı Hz. Peygamber'in tasarrufunda. Haşr sûresinde açıklanır.",
+      "quran_ref": "Haşr 59:6-7",
+      "type": "gelir"
+    },
+    {
+      "id": "tp_lukata",
+      "name": {
+        "ar": "لقطة",
+        "tr": "Lukata",
+        "en": "Luqata (found property)"
+      },
+      "description": "Buluntu mal. Bir yıl ilan edilir, sahibi çıkmazsa bulana helal olur. Hz. Peygamber'in Medine hükümleri arasında.",
+      "quran_ref": "",
+      "type": "hukuk"
+    },
+    {
+      "id": "tp_sufa",
+      "name": {
+        "ar": "شفعة",
+        "tr": "Şüf'a",
+        "en": "Shufa (preemption right)"
+      },
+      "description": "Ortağın veya komşunun satışta öncelik hakkı. Hz. Peygamber: 'Komşu komşunun şüf'asına en çok hak sahibidir.'",
+      "quran_ref": "",
+      "type": "hukuk"
+    },
+    {
+      "id": "tp_ihya_mevat",
+      "name": {
+        "ar": "إحياء الموات",
+        "tr": "İhyâ-i Mevât",
+        "en": "Ihya al-Mawat (revival of dead land)"
+      },
+      "description": "Ölü/boş araziyi imar ederek mülkiyet kazanma. Hz. Peygamber: 'Kim ölü bir araziyi ihya ederse orası onundur.'",
+      "quran_ref": "",
+      "type": "arazi_hukuku"
+    },
+    {
+      "id": "tp_mudaraba",
+      "name": {
+        "ar": "مضاربة",
+        "tr": "Mudârabe",
+        "en": "Mudarabah (profit-sharing)"
+      },
+      "description": "Sermaye-emek ortaklığı. Bir taraf sermaye, diğer taraf emek koyar, kâr paylaşılır. Hz. Hatice-Hz. Peygamber ticaret modeli.",
+      "quran_ref": "",
+      "type": "ortaklık"
+    },
+    {
+      "id": "tp_musaraka",
+      "name": {
+        "ar": "مشاركة",
+        "tr": "Müşâreke",
+        "en": "Musharakah (partnership)"
+      },
+      "description": "Tarafların sermaye ve emekle ortak olduğu ticaret ortaklığı. Medine pazarında yaygın uygulama.",
+      "quran_ref": "",
+      "type": "ortaklık"
+    },
+    {
+      "id": "tp_cizye",
+      "name": {
+        "ar": "جزية",
+        "tr": "Cizye",
+        "en": "Jizyah (poll tax)"
+      },
+      "description": "Gayrimüslim vatandaşlardan (zimmî) alınan vergi. Koruma karşılığı. Tevbe 9:29'da hükmü geldi.",
+      "quran_ref": "Tevbe 9:29",
+      "type": "vergi"
+    },
+    {
+      "id": "tp_ushr",
+      "name": {
+        "ar": "عُشْر",
+        "tr": "Öşür",
+        "en": "Ushr (tithe)"
+      },
+      "description": "Tarım ürünlerinden onda bir veya sulama durumuna göre yirmide bir oranında alınan zekât. Yağmur suyu: %10, sulama: %5.",
+      "quran_ref": "En'âm 6:141",
+      "type": "vergi"
+    },
+    {
+      "id": "tp_selem",
+      "name": {
+        "ar": "السلم",
+        "tr": "Selem",
+        "en": "Salam (advance payment)"
+      },
+      "description": "Peşin ödeme ile vadeli teslim akdi. Hz. Peygamber Medine'ye geldiğinde halkın hurma konusunda selem yaptığını görüp şartlarını belirledi.",
+      "quran_ref": "",
+      "type": "akit"
+    },
+    {
+      "id": "tp_ariyye",
+      "name": {
+        "ar": "العارية",
+        "tr": "Âriyye",
+        "en": "Ariyyah (loan of use)"
+      },
+      "description": "Kullanım ödüncü. Hurma ağacının meyvesini belirli süre toplamak üzere ödünç verilmesi. Sosyal dayanışma aracı.",
+      "quran_ref": "",
+      "type": "hukuk"
+    },
+    {
+      "id": "tp_vedia",
+      "name": {
+        "ar": "الوديعة",
+        "tr": "Vedîa",
+        "en": "Wadi'ah (deposit)"
+      },
+      "description": "Emânet mal bırakma. Saklama ücreti alınmaz. Hz. Peygamber'e hicret öncesi Kureyş'in emânetleri bırakması (Hz. Ali'ye teslim).",
+      "quran_ref": "",
+      "type": "emânet"
+    },
+    {
+      "id": "tp_havaleh",
+      "name": {
+        "ar": "الحوالة",
+        "tr": "Havâle",
+        "en": "Hawalah (transfer of debt)"
+      },
+      "description": "Borç transfer akdi. 'Zengin olan borcunu ertelemesi zulümdür. Biriniz alacağı havale edilirse kabul etsin.'",
+      "quran_ref": "",
+      "type": "akit"
+    },
+    {
+      "id": "tp_sufa",
+      "name": {
+        "ar": "الشفعة",
+        "tr": "Şüf'a Hakkı",
+        "en": "Shufa Right of Preemption"
+      },
+      "description": "Ortağın satışta ön alım hakkı. 'Sınırları belirlenmiş arsa ve ev ortaklığında şüf'a yoktur' (paylaşılmış arazide geçerli).",
+      "quran_ref": "",
+      "type": "hukuk"
+    },
+    {
+      "id": "tp_ganima",
+      "name": {
+        "ar": "الغنيمة",
+        "tr": "Ganîmet",
+        "en": "Ghanimah (war booty)"
+      },
+      "description": "Savaş yoluyla elde edilen mal. Beşte biri (humus) devlete, kalanı mücâhitlere. Enfâl 8:41'de hükmü açıklandı.",
+      "quran_ref": "Enfâl 8:41",
+      "type": "gelir"
+    },
+    {
+      "id": "tp_sadaka",
+      "name": {
+        "ar": "الصدقة",
+        "tr": "Sadaka",
+        "en": "Sadaqah (voluntary charity)"
+      },
+      "description": "Gönüllü hayır. Farz zekâttan farklı. 'Gülümseme sadakadır, yoldan taş kaldırmak sadakadır.' Maddî ve manevî her iyilik.",
+      "quran_ref": "Bakara 2:261-263",
+      "type": "hayır"
+    },
+    {
+      "id": "tp_vakf",
+      "name": {
+        "ar": "الوقف",
+        "tr": "Vakıf Akdi",
+        "en": "Waqf Endowment"
+      },
+      "description": "Mülkü hayır amacıyla ebediyen tahsis etme. Hz. Ömer'in Hayber arazisini vakfetmesi ilk örneklerden. 'Aslını tut, gelirini infak et.'",
+      "quran_ref": "",
+      "type": "hayır"
+    }
+  ],
+  "key_commodities": [
+    {
+      "id": "com_hurma",
+      "name": {
+        "tr": "Hurma",
+        "en": "Dates",
+        "ar": "تمر"
+      },
+      "role": "Medine'nin temel gıdası ve ticaret malı. Zekâta tâbi. 200+ çeşit. Acve hurması meşhur."
+    },
+    {
+      "id": "com_buhur",
+      "name": {
+        "tr": "Buhur (Günlük)",
+        "en": "Frankincense",
+        "ar": "لبان"
+      },
+      "role": "Güney Arabistan'ın en değerli ihracatı. Tapınaklar ve saraylar için. Buhur Yolu Arabistan'ın omurgası."
+    },
+    {
+      "id": "com_mirra",
+      "name": {
+        "tr": "Mirra (Mür)",
+        "en": "Myrrh",
+        "ar": "مر"
+      },
+      "role": "Buhurla birlikte ticareti yapılan reçine. Tıbbi kullanım ve koku. Hadramevt'ten gelir."
+    },
+    {
+      "id": "com_ipek",
+      "name": {
+        "tr": "İpek",
+        "en": "Silk",
+        "ar": "حرير"
+      },
+      "role": "Çin'den gelen lüks mal. Busrâ ve Şam pazarlarında satılır. İslâm'da erkeklere haram kılındı."
+    },
+    {
+      "id": "com_baharat",
+      "name": {
+        "tr": "Baharat",
+        "en": "Spices",
+        "ar": "بهارات"
+      },
+      "role": "Hint Okyanusu ticaretinin ana malı. Yemen limanlarından Mekke üzerinden Şam'a ulaşır."
+    },
+    {
+      "id": "com_deve",
+      "name": {
+        "tr": "Deve",
+        "en": "Camel",
+        "ar": "إبل"
+      },
+      "role": "Hem ulaşım hem ticaret malı hem gıda. Diyyet birimi (100 deve). Zekâta tâbi. Savaşta stratejik."
+    },
+    {
+      "id": "com_koyun",
+      "name": {
+        "tr": "Koyun/Keçi",
+        "en": "Sheep/Goat",
+        "ar": "غنم"
+      },
+      "role": "Temel hayvancılık. Zekâta tâbi (40-120 koyun: 1 koyun). Kurbân hayvanı. Süt, yün, et kaynağı."
+    },
+    {
+      "id": "com_silah",
+      "name": {
+        "tr": "Silah ve Zırh",
+        "en": "Weapons and Armor",
+        "ar": "سلاح ودروع"
+      },
+      "role": "Kaynuka Yahudileri zırh ve kılıç üretirdi. Hint çeliği kılıçları değerli. Hz. Peygamber zırhını rehin bıraktı."
+    },
+    {
+      "id": "com_deri",
+      "name": {
+        "tr": "Deri (Edem)",
+        "en": "Leather",
+        "ar": "أديم"
+      },
+      "role": "Tâif derileri ünlü. Kırba (su tulumu), çadır, eyalet, kemer yapımında kullanılır."
+    },
+    {
+      "id": "com_tuz",
+      "name": {
+        "tr": "Tuz",
+        "en": "Salt",
+        "ar": "ملح"
+      },
+      "role": "Temel gıda koruyucu. Marib, Cevf bölgelerinden gelir. 'Onun tuzunu yemek' = ittifak kurma deyimi."
+    },
+    {
+      "id": "com_buhur",
+      "name": {
+        "tr": "Buhur / Günlük",
+        "en": "Frankincense",
+        "ar": "لُبَان"
+      },
+      "role": "Güney Arabistan'ın en değerli ihraç ürünü. Tapınak ritüellerinde ve tıpta kullanılır. Buhur Yolu Yemen-Şam arası 2000+ km."
+    },
+    {
+      "id": "com_mirr",
+      "name": {
+        "tr": "Mür / Mürrüsâfî",
+        "en": "Myrrh",
+        "ar": "مُرّ"
+      },
+      "role": "Tıp ve mumyalamada kullanılan reçine. Buhurla birlikte Güney Arabistan ihracatı. Roma ve Bizans'ta talep yüksek."
+    },
+    {
+      "id": "com_inci",
+      "name": {
+        "tr": "İnci",
+        "en": "Pearls",
+        "ar": "لؤلؤ"
+      },
+      "role": "Basra Körfezi ve Kızıldeniz'den çıkarılır. Kur'ân'da cennet nimetleri arasında. Lüks ticaret malı."
+    },
+    {
+      "id": "com_demir",
+      "name": {
+        "tr": "Demir",
+        "en": "Iron",
+        "ar": "حديد"
+      },
+      "role": "Silah ve ziraat aleti yapımı. Hadîd sûresi (57:25): 'Demiri indirdik; onda büyük güç ve insanlar için faydalar vardır.'"
+    },
+    {
+      "id": "com_at",
+      "name": {
+        "tr": "At",
+        "en": "Horses",
+        "ar": "خيل"
+      },
+      "role": "Savaş ve prestij hayvanı. Necid atları meşhur. Kur'ân'da Âdiyât sûresi (100:1-5). Ganîmet paylaşımında özel hüküm."
+    },
+    {
+      "id": "com_ipek",
+      "name": {
+        "tr": "İpek",
+        "en": "Silk",
+        "ar": "حرير"
+      },
+      "role": "Çin'den gelen lüks kumaş. Kara İpek Yolu ile gelir. Hz. Peygamber erkeklere ipek giymeyi yasakladı ama kadınlara izin verdi."
+    },
+    {
+      "id": "com_zeytin",
+      "name": {
+        "tr": "Zeytinyağı",
+        "en": "Olive Oil",
+        "ar": "زيت"
+      },
+      "role": "Şam bölgesinin temel ihraç ürünü. Kur'ân'da mübarek ağaç. Yemek, aydınlatma ve tıpta kullanılır."
+    },
+    {
+      "id": "com_tuz",
+      "name": {
+        "tr": "Tuz",
+        "en": "Salt",
+        "ar": "ملح"
+      },
+      "role": "Temel gıda koruyucu ve lezzet verici. Ribâ hadisinde altı maddeden biri. Ticaret yollarının önemli emtiası."
+    },
+    {
+      "id": "com_deve",
+      "name": {
+        "tr": "Deve",
+        "en": "Camel",
+        "ar": "إبل"
+      },
+      "role": "Çöl ticaretinin vazgeçilmezi. Ulaşım, savaş, süt, et, deri. Zekâtta özel nisabı var. Kur'ân'da yaratılış delili olarak zikredilir."
+    },
+    {
+      "id": "com_bugday",
+      "name": {
+        "tr": "Buğday / Hınta",
+        "en": "Wheat",
+        "ar": "حنطة"
+      },
+      "role": "Temel gıda maddesi. Şam'dan ithal edilir. Ribâ hadisinde altı maddeden biri. Fıtır sadakasında kullanılır."
+    }
+  ],
+  "institutions": [
+    {
+      "id": "eco_beytulmal",
+      "name": {
+        "ar": "بيت المال",
+        "tr": "Beytülmâl",
+        "en": "Bayt al-Mal (Public Treasury)"
+      },
+      "type": "kurum",
+      "established": "Hz. Ömer dönemi (634-644)",
+      "description": "İslâm devletinin merkezi hazinesi. Ganîmet, zekât, cizye, harac gelirlerinin toplandığı ve dağıtıldığı kurum. Hz. Ömer tarafından sistematize edildi.",
+      "sources_of_revenue": [
+        "zekât",
+        "cizye",
+        "harac",
+        "ganîmet",
+        "öşür",
+        "ticaret vergisi"
+      ],
+      "expenditures": [
+        "askerî maaşlar (atâ)",
+        "fakirler",
+        "kamu hizmetleri",
+        "yollar/köprüler"
+      ]
+    },
+    {
+      "id": "eco_hisbe",
+      "name": {
+        "ar": "الحسبة",
+        "tr": "Hisbe",
+        "en": "Hisba (Market Supervision)"
+      },
+      "type": "kurum",
+      "established": "Hz. Peygamber dönemi",
+      "description": "Çarşı ve pazar denetimi. Hz. Peygamber bizzat Medine çarşısını denetler, hileli satışı yasaklardı. Emr-i bi'l-ma'rûf nehy-i ani'l-münkerin ticarî uygulaması.",
+      "functions": [
+        "fiyat denetimi",
+        "ölçü-tartı kontrolü",
+        "hile önleme",
+        "gıda güvenliği"
+      ]
+    },
+    {
+      "id": "eco_vakif",
+      "name": {
+        "ar": "الوقف",
+        "tr": "Vakıf",
+        "en": "Waqf (Endowment)"
+      },
+      "type": "kurum",
+      "established": "Hz. Ömer dönemi (ilk vakıf: Hayber arazisi)",
+      "description": "Mülkün satılamaz şekilde hayır amacına tahsis edilmesi. Hz. Ömer'in Hayber'deki arazisini vakfetmesi ilk örnek. Geliri fakirlere, yolculara, akrabaya harcandı.",
+      "examples": [
+        "Ömer'in Hayber vakfı",
+        "Osman'ın Rûme kuyusu",
+        "Ebû Talha'nın Beyruhâ bahçesi"
+      ]
+    },
+    {
+      "id": "eco_harac",
+      "name": {
+        "ar": "الخراج",
+        "tr": "Harâc",
+        "en": "Kharaj (Land Tax)"
+      },
+      "type": "vergi",
+      "description": "Fethedilen topraklardan alınan arazi vergisi. Hz. Ömer döneminde Irak ve Şam arazilerine uygulandı. Araziler dağıtılmayıp yerli halkta bırakıldı, harac alındı.",
+      "rate": "Ürünün 1/3 ile 1/2 arası (toprağa göre değişir)"
+    },
+    {
+      "id": "eco_ata",
+      "name": {
+        "ar": "العطاء",
+        "tr": "Atâ (Dîvân maaşları)",
+        "en": "Ata (Stipend System)"
+      },
+      "type": "kurum",
+      "established": "Hz. Ömer (dîvân sistemi, 641)",
+      "description": "Devlet hazinesinden Müslümanlara düzenli maaş. Hz. Ömer kıdem sırasına göre belirledi: Bedir ehli en yüksek, sonra Uhud, sonra ilk Müslümanlar. Ensâr-Muhâcir ayrımı da var.",
+      "hierarchy": [
+        "Ezvâc-ı tâhirât (12,000 dirhem)",
+        "Bedir ehli (5,000)",
+        "Uhud ehli (4,000)",
+        "Muhâcirler",
+        "Ensâr"
+      ]
+    },
+    {
+      "id": "eco_suffe",
+      "name": {
+        "ar": "أهل الصُّفَّة",
+        "tr": "Ashâb-ı Suffe",
+        "en": "Ahl al-Suffa"
+      },
+      "type": "kurum",
+      "established": "622 (Hicret sonrası)",
+      "description": "Mescid-i Nebevî'nin sofasında kalan fakir sahâbîler topluluğu. İlim ve ibadet merkezi. Sayıları 70-400 arası değişti. Hz. Ebû Hüreyre en meşhuru.",
+      "sources_of_revenue": [
+        "sadaka",
+        "infak"
+      ]
+    },
+    {
+      "id": "eco_muhtesib",
+      "name": {
+        "ar": "المحتسب",
+        "tr": "Muhtesib",
+        "en": "Muhtasib (Market Inspector)"
+      },
+      "type": "kurum",
+      "established": "Hz. Peygamber dönemi",
+      "description": "Pazarda fiyat denetimi, tartı hilesi önleme, kalite kontrol. Hz. Peygamber bizzat pazar denetimi yaptı (ıslak buğday hadisi). Ömer döneminde kurumsallaştı."
+    },
+    {
+      "id": "eco_divan",
+      "name": {
+        "ar": "الديوان",
+        "tr": "Dîvân (Maaş Defteri)",
+        "en": "Diwan (Salary Register)"
+      },
+      "type": "kurum",
+      "established": "Hz. Ömer dönemi (20 H / 641)",
+      "description": "Devlet gelir-gider kayıt sistemi ve maaş dağıtım kurumu. Sahâbîler İslâm'a giriş tarihine göre sıralandı. İlk sistemik maliye kurumu."
+    },
+    {
+      "id": "eco_darulhikme",
+      "name": {
+        "ar": "بيت الحكمة",
+        "tr": "Dârülhikme (sonraki dönem)",
+        "en": "House of Wisdom (later period)"
+      },
+      "type": "kurum",
+      "established": "Abbâsî dönemi (830)",
+      "description": "Bilim ve tercüme akademisi. Hz. Peygamber'in 'ilim Çin'de de olsa arayın' hadisinin kurumsal karşılığı. (Not: Emevî/Abbâsî dönemi)"
+    },
+    {
+      "id": "eco_hisbe",
+      "name": {
+        "ar": "الحسبة",
+        "tr": "Hisbe (Pazar Denetim Sistemi)",
+        "en": "Hisbah System"
+      },
+      "type": "kurum",
+      "established": "Hz. Peygamber dönemi",
+      "description": "Emr-i bi'l-ma'rûf nehy-i ani'l-münker'in kurumsal uygulaması. Pazar denetimi, fiyat kontrolü, hileli mal tespiti. Hz. Peygamber'in ıslak buğday hadisi."
+    },
+    {
+      "id": "eco_ridde_hazine",
+      "name": {
+        "ar": "بيت مال الردة",
+        "tr": "Ridde Dönemi Hazine Politikası",
+        "en": "Treasury Policy During Ridda"
+      },
+      "type": "politika",
+      "established": "Hz. Ebû Bekir dönemi (632-634)",
+      "description": "Zekât vermeyi reddeden kabilelere karşı askerî müdahale. 'Vallahi bir deve bağını bile vermezlerse savaşırım' sözü. Zekâtın devlet otoritesi meselesi."
+    }
+  ],
+  "weights_measures": [
+    {
+      "id": "eco_sa",
+      "name": {
+        "ar": "الصاع",
+        "tr": "Sâ'",
+        "en": "Sa' (dry measure)"
+      },
+      "type": "ölçü",
+      "equivalent": "~2.6-3.0 kg (4 müdd)",
+      "description": "Kuru gıda ölçü birimi. Fıtır sadakası bir sâ' hurma veya arpa. Dört müdd = bir sâ'."
+    },
+    {
+      "id": "eco_mudd",
+      "name": {
+        "ar": "المد",
+        "tr": "Müdd",
+        "en": "Mudd"
+      },
+      "type": "ölçü",
+      "equivalent": "~0.65-0.75 kg",
+      "description": "İki avuç dolusu tahıl. Sâ'ın dörtte biri. Abdestte ve zekâtta ölçü birimi."
+    },
+    {
+      "id": "eco_vasak",
+      "name": {
+        "ar": "الوسق",
+        "tr": "Vesk",
+        "en": "Wasq"
+      },
+      "type": "ölçü",
+      "equivalent": "~130 kg (60 sâ')",
+      "description": "Bir deve yükü. 60 sâ' = 1 vesk. Nisab miktarı: 5 vesk (~650 kg) mahsulden öşür gerekir."
+    },
+    {
+      "id": "eco_ritl",
+      "name": {
+        "ar": "الرطل",
+        "tr": "Rıtl",
+        "en": "Ratl"
+      },
+      "type": "ağırlık",
+      "equivalent": "~450 g (Bağdat rıtlı) veya ~3.7 kg (Şam rıtlı)",
+      "description": "Sıvı ve katı ağırlık birimi. Bölgelere göre farklı değerler. Bağdat ve Şam rıtlı en yaygın."
+    },
+    {
+      "id": "eco_okka",
+      "name": {
+        "ar": "الأوقية",
+        "tr": "Ukıyye",
+        "en": "Uqiyyah (ounce)"
+      },
+      "type": "ağırlık",
+      "equivalent": "~40 dirhem (~120 gram)",
+      "description": "Ağırlık ölçü birimi. Mehr miktarı belirlemede kullanılır. Hz. Peygamber'in kızları 480 dirhem mehr ile evlendi (12 ukıyye)."
+    },
+    {
+      "id": "eco_kist",
+      "name": {
+        "ar": "القسط",
+        "tr": "Kıst",
+        "en": "Qist (half sa')"
+      },
+      "type": "ölçü",
+      "equivalent": "~1.3-1.5 kg (yarım sâ')",
+      "description": "Kuru gıda ölçüsü. Sâ'ın yarısı. Fidye ve keffâret hesaplamalarında kullanılır."
+    }
+  ]
+}

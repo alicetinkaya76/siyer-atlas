@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "id": "reconstruction_ridde_yemame",
+    "battle_id": "ridde_yemame",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Yemâme (Akrabâ) Muharebesi (Rebîülâhir 12 AH / Haziran-Temmuz 633 CE). Ridde savaşlarının en büyük ve en kanlı muharebesi. Hâlid b. Velîd'in Müseylimetü'l-Kezzâb'a karşı zaferi. 700+ Kur'ân hâfızının şehadeti mushaf cem'ini tetikledi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 24.6333,
+        "lng": 46.0333
+      },
+      "bbox": {
+        "north": 24.68,
+        "south": 24.59,
+        "east": 46.08,
+        "west": 45.98
+      },
+      "terrain_type": "oasis_plain",
+      "terrain_desc": {
+        "tr": "Yemâme bölgesi, Necid platosunun doğusunda verimli bir vaha. Akrabâ mevkii düz bir ovada yer alır; etrafı hurma bahçeleri (Hadîkatü'r-Rahmân) ve duvarlarla çevrili yerleşim birimleri.",
+        "en": "The Yamāma region, a fertile oasis east of the Najd plateau. The Aqrabāʾ site is a flat plain surrounded by date palm gardens (Ḥadīqat al-Raḥmān) and walled settlements."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_hadikat_rahman",
+        "name": {
+          "tr": "Hadîkatü'r-Rahmân (Ölüm Bahçesi)",
+          "en": "Ḥadīqat al-Raḥmān (Garden of Death)"
+        },
+        "lat": 24.635,
+        "lng": 46.04,
+        "type": "fortification",
+        "note_tr": "Müseylime güçlerinin sığındığı duvarlarla çevrili bahçe. Berâ b. Mâlik duvardan atılarak kapıyı açtı. İçeride kanlı çarpışma yaşandı."
+      },
+      {
+        "id": "lm_akraba_meydan",
+        "name": {
+          "tr": "Akrabâ Savaş Meydanı",
+          "en": "Aqrabāʾ Battlefield"
+        },
+        "lat": 24.633,
+        "lng": 46.033,
+        "type": "battlefield",
+        "note_tr": "İlk çarpışmanın başladığı açık alan. Müslümanlar burada geri püskürtüldü."
+      },
+      {
+        "id": "lm_halid_kamp",
+        "name": {
+          "tr": "Hâlid b. Velîd Karargâhı",
+          "en": "Khālid's Command Post"
+        },
+        "lat": 24.645,
+        "lng": 46.05,
+        "type": "camp",
+        "note_tr": "Hâlid'in birlikleri yeniden düzenlediği ve Muhâcirîn-Ensâr-Bedevî ayrımı yaptığı yer."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_yemame",
+        "name": {
+          "tr": "Medine → Yemâme Yürüyüş Güzergâhı",
+          "en": "Medina → Yamāma March Route"
+        },
+        "type": "advance",
+        "waypoints": [
+          {
+            "lat": 24.47,
+            "lng": 39.61,
+            "label": "Medine"
+          },
+          {
+            "lat": 24.55,
+            "lng": 42.0,
+            "label": "Necid geçişi"
+          },
+          {
+            "lat": 24.633,
+            "lng": 46.033,
+            "label": "Akrabâ"
+          }
+        ]
+      },
+      {
+        "id": "route_ricat_bahce",
+        "name": {
+          "tr": "Benî Hanîfe Bahçeye Çekilme",
+          "en": "Banū Ḥanīfa Retreat to Garden"
+        },
+        "type": "retreat",
+        "waypoints": [
+          {
+            "lat": 24.633,
+            "lng": 46.033,
+            "label": "Savaş meydanı"
+          },
+          {
+            "lat": 24.635,
+            "lng": 46.04,
+            "label": "Hadîkatü'r-Rahmân"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "İlk Hücum ve Geri Çekilme",
+      "date_range": "Rebîülâhir 12 AH / Haziran 633",
+      "duration": "1. gün sabah",
+      "description": "Hâlid Akrabâ'da Müseylime ordusuna taarruz etti. İlk saldırı başarısız oldu; Müslümanlar geri çekilmek zorunda kaldı. Benî Hanîfe savaşçılarının azmi ve sayı üstünlüğü etkili oldu.",
+      "events": [
+        {
+          "id": "evt_ilk_hucum",
+          "name": "İlk taarruz",
+          "lat": 24.633,
+          "lng": 46.033,
+          "desc": "Müslümanlar cepheden hücum etti ancak geri püskürtüldü."
+        },
+        {
+          "id": "evt_sancak_kaybi",
+          "name": "Sancak kayıpları",
+          "lat": 24.635,
+          "lng": 46.035,
+          "desc": "Birçok sancaktar şehit düştü; saflar karıştı."
+        },
+        {
+          "id": "evt_hafiz_sehadet_1",
+          "name": "Hâfız şehitleri (ilk dalga)",
+          "lat": 24.634,
+          "lng": 46.034,
+          "desc": "İlk safta savaşan Kur'ân hâfızlarından birçoğu şehit düştü."
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Yeniden Düzenleme",
+      "date_range": "Rebîülâhir 12 AH",
+      "duration": "1. gün öğle",
+      "description": "Hâlid birlikleri Muhâcirîn, Ensâr ve Bedevî kabileler olarak üç gruba ayırdı. Her grubun şeref duygusunu harekete geçirmek için ayrı sancak verdi. 'Hangi grup daha çok savaştı' rekabeti başladı.",
+      "events": [
+        {
+          "id": "evt_reorganize",
+          "name": "Muhâcirîn-Ensâr-Bedevî ayrımı",
+          "lat": 24.645,
+          "lng": 46.05,
+          "desc": "Hâlid birlikleri üçe ayırarak rekabet duygusu oluşturdu."
+        },
+        {
+          "id": "evt_moral_konusmasi",
+          "name": "Hâlid'in moral konuşması",
+          "lat": 24.645,
+          "lng": 46.05,
+          "desc": "Hâlid her gruba ayrı hitap ederek gazap ve azmi canlandırdı."
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "İkinci Hücum ve Bahçe Kuşatması",
+      "date_range": "Rebîülâhir 12 AH",
+      "duration": "1. gün ikindi",
+      "description": "Yeniden düzenlenen Müslüman ordusu karşı taarruza geçti. Benî Hanîfe geri çekilmeye başladı ve Hadîkatü'r-Rahmân'a sığındı. Berâ b. Mâlik duvardan içeri atılarak kapıyı açtı. Bahçe içinde kanlı çarpışma yaşandı.",
+      "events": [
+        {
+          "id": "evt_karsi_taarruz",
+          "name": "Karşı taarruz",
+          "lat": 24.633,
+          "lng": 46.033,
+          "desc": "Muhâcirîn ve Ensâr ön safta ilerledi; Benî Hanîfe çözülmeye başladı."
+        },
+        {
+          "id": "evt_bahce_signak",
+          "name": "Bahçeye sığınma",
+          "lat": 24.635,
+          "lng": 46.04,
+          "desc": "Müseylime ve kalan kuvvetler duvarla çevrili bahçeye sığındı."
+        },
+        {
+          "id": "evt_bara_duvar",
+          "name": "Berâ b. Mâlik'in duvar aşması",
+          "lat": 24.635,
+          "lng": 46.04,
+          "desc": "Berâ kalkanla duvardan atılarak kapıyı içeriden açtı."
+        },
+        {
+          "id": "evt_bahce_catisma",
+          "name": "Bahçe içi çatışma",
+          "lat": 24.636,
+          "lng": 46.041,
+          "desc": "Binlerce kişi dar alanda kılıçla çarpıştı — 'Hadîkatü'l-Mevt' adını aldı."
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "order": 4,
+      "name": "Müseylime'nin Öldürülmesi",
+      "date_range": "Rebîülâhir 12 AH",
+      "duration": "1. gün akşam",
+      "description": "Vahşî b. Harb mızrağıyla, Ebû Düceyne (rivayet var) kılıcıyla Müseylime'yi öldürdü. Benî Hanîfe teslim oldu. Kayıplar: Müslüman ~1,200 şehit (700+ hâfız dahil), Benî Hanîfe ~10,000 ölü.",
+      "events": [
+        {
+          "id": "evt_museylime_olum",
+          "name": "Müseylime öldürüldü",
+          "lat": 24.636,
+          "lng": 46.041,
+          "desc": "Vahşî mızrağıyla, Ebû Düceyne kılıcıyla Müseylime'yi ortadan kaldırdı."
+        },
+        {
+          "id": "evt_teslim",
+          "name": "Benî Hanîfe teslim",
+          "lat": 24.635,
+          "lng": 46.04,
+          "desc": "Kalan Benî Hanîfe savaşçıları teslim oldu; Yemâme bölgesi tekrar kontrol altına alındı."
+        },
+        {
+          "id": "evt_cem_karari",
+          "name": "Mushaf cem'i kararı (sonrası)",
+          "lat": 24.47,
+          "lng": 39.61,
+          "desc": "Hz. Ömer, Hz. Ebû Bekir'e hâfız kayıplarını hatırlatarak Kur'ân'ın yazılı olarak derlenmesini teklif etti."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâlid b. Velîd",
+      "estimated_troops": 13000,
+      "composition": "Muhâcirîn, Ensâr, Bedevî kabile savaşçıları"
+    },
+    "enemy": {
+      "commander": "Müseylimetü'l-Kezzâb (Benî Hanîfe)",
+      "estimated_troops": 40000,
+      "composition": "Benî Hanîfe kabilesi ve müttefikleri"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/280-300",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Kesîr, el-Bidâye ve'n-Nihâye, VI/338-350",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "İbn Sa'd, Tabakât, III/318-320 (Vâkıdî kanalıyla)",
+      "type": "primary"
+    },
+    {
+      "id": "src_4",
+      "text": "Belâzürî, Fütûhu'l-Büldân, 86-90",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 15,
+      "surah_name": "Hicr",
+      "ayah_range": "9",
+      "topic": {
+        "tr": "Kur'ân'ın korunması vaadi — Yemâme'deki hâfız kayıpları mushaf cem'ini tetikledi",
+        "en": "Promise of Qurʾān preservation — ḥāfiẓ losses at Yamāma triggered muṣḥaf compilation"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "Şüphesiz zikri biz indirdik, onu koruyacak olan da biziz",
+          "phase_id": "phase_4"
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surah_name": "Tevbe",
+      "ayah_range": "73",
+      "topic": {
+        "tr": "Münafıklara ve kâfirlere karşı cihad emri — Ridde bağlamı",
+        "en": "Command to strive against hypocrites and disbelievers"
+      },
+      "key_verses": [
+        {
+          "ayah": 73,
+          "topic_tr": "Ey Peygamber! Kâfirler ve münafıklarla cihad et",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_museylime_yalanci",
+      "topic": "Hz. Peygamber'in Müseylime'yi 'el-Kezzâb' (yalancı) olarak nitelendirmesi",
+      "relevance": "direct",
+      "source": "Buhârî, Megâzî, 70; Müslim, Fiten"
+    },
+    {
+      "hadith_id": "hds_hafizlar_yemame",
+      "topic": "Yemâme'de 700+ Kur'ân hâfızının şehadeti ve mushaf cem'i sürecinin başlaması",
+      "relevance": "direct",
+      "source": "Buhârî, Fedâilü'l-Kur'ân, 3"
+    },
+    {
+      "hadith_id": "hds_vahsi_museylime",
+      "topic": "Vahşî b. Harb: 'Hz. Hamza'yı öldürmüştüm, Müseylime'yi de ben öldürdüm'",
+      "relevance": "direct",
+      "source": "Buhârî, Megâzî, 24"
+    },
+    {
+      "hadith_id": "hds_ridde_savas_emri",
+      "topic": "Hz. Ebû Bekir: 'Allah'a yemin olsun, zekâtı vermeyenlerle savaşırım'",
+      "relevance": "contextual",
+      "source": "Buhârî, İ'tisâm, 28; Müslim, Îmân, 32"
+    }
+  ],
+  "impact": {
+    "result": "Ağır kayıplı kesin zafer — Müseylime öldürüldü",
+    "significance": "Ridde savaşlarının en kanlı muharebesi. 700+ hâfız şehit oldu → Hz. Ömer'in teklifiyle Kur'ân'ın cem'i (Zeyd b. Sâbit komisyonu) başladı. Vahşî b. Harb Müseylime'yi öldürdü. Yemâme bölgesi kalıcı olarak İslâm hâkimiyetine girdi.",
+    "cross_references": [
+      "ridde_buzaha",
+      "ridde_dibba"
+    ]
+  },
+  "visualization": {
+    "icon": "ridde",
+    "color": "#FF5722",
+    "priority": "high"
+  }
+}

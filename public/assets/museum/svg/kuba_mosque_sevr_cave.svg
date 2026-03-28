@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Georgia, serif">
+  <title>Mescid-i Kubâ ve Sevr Mağarası / Masjid Qubāʾ &amp; Cave of Thawr</title>
+  <defs>
+    <pattern id="mudbrick" width="16" height="10" patternUnits="userSpaceOnUse">
+      <rect width="16" height="10" fill="#C4A882"/>
+      <rect x="0" y="0" width="7" height="4" fill="#B8A070" rx="0.5"/>
+      <rect x="9" y="0" width="7" height="4" fill="#B8A070" rx="0.5"/>
+      <rect x="4" y="6" width="7" height="4" fill="#B8A070" rx="0.5"/>
+    </pattern>
+    <marker id="ma" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5" fill="#555"/>
+    </marker>
+    <marker id="ma-r" markerWidth="7" markerHeight="5" refX="0" refY="2.5" orient="auto">
+      <path d="M7,0 L0,2.5 L7,5" fill="#555"/>
+    </marker>
+    <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A6548"/>
+      <stop offset="100%" stop-color="#5A4A2F"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="#FDF8F0"/>
+  
+  <!-- ====== LEFT: MESCID-I KUBA ====== -->
+  <text x="200" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2C1810">Mescid-i Kubâ</text>
+  <text x="200" y="48" text-anchor="middle" font-size="11" fill="#666">Masjid Qubāʾ — İslam'ın İlk Mescidi (622 M)</text>
+  <text x="200" y="62" text-anchor="middle" font-size="10" fill="#888">DSM-ARC-KUB | Plan Görünüm</text>
+  
+  <!-- Mosque plan (top view) -->
+  <g transform="translate(200,230)">
+    <!-- Outer walls -->
+    <rect x="-90" y="-110" width="180" height="200" fill="url(#mudbrick)" stroke="#5D3A1A" stroke-width="2.5" rx="2"/>
+    
+    <!-- Inner courtyard -->
+    <rect x="-75" y="-95" width="150" height="120" fill="#F5ECD7" stroke="#8B7355" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-size="9" fill="#8B7355">Avlu</text>
+    <text x="0" y="-18" text-anchor="middle" font-size="8" fill="#AAA">Courtyard</text>
+    
+    <!-- Qibla wall (south - initially toward Jerusalem) -->
+    <rect x="-75" y="25" width="150" height="65" fill="#D4C4A8" stroke="#8B7355" stroke-width="1"/>
+    
+    <!-- Prayer area with palm trunk columns -->
+    <circle cx="-45" cy="45" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <circle cx="0" cy="45" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <circle cx="45" cy="45" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <circle cx="-45" cy="70" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <circle cx="0" cy="70" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <circle cx="45" cy="70" r="4" fill="#8B7355" stroke="#5D3A1A" stroke-width="1"/>
+    <text x="0" y="60" text-anchor="middle" font-size="7" fill="#5D3A1A">hurma direkler</text>
+    
+    <!-- Mihrab direction indicator -->
+    <path d="M 0 90 L -6 95 L 6 95 Z" fill="#C0392B"/>
+    <text x="0" y="108" text-anchor="middle" font-size="8" fill="#C0392B">Kıble → Kudüs</text>
+    <text x="0" y="118" text-anchor="middle" font-size="7" fill="#C0392B">(sonra Kâbe'ye döndü)</text>
+    
+    <!-- Entrance -->
+    <rect x="-15" y="-112" width="30" height="5" fill="#F5ECD7" stroke="#8B7355" stroke-width="1"/>
+    <text x="0" y="-118" text-anchor="middle" font-size="8" fill="#5D3A1A">Giriş</text>
+    
+    <!-- North arrow -->
+    <g transform="translate(120,-90)">
+      <line x1="0" y1="15" x2="0" y2="-8" stroke="#333" stroke-width="1.5" marker-end="url(#ma)"/>
+      <text x="0" y="-14" text-anchor="middle" font-size="9" fill="#333">N</text>
+    </g>
+    
+    <!-- Dimensions -->
+    <line x1="-90" y1="135" x2="90" y2="135" stroke="#555" stroke-width="0.7" marker-start="url(#ma-r)" marker-end="url(#ma)"/>
+    <text x="0" y="150" text-anchor="middle" font-size="9" fill="#555">~15-20 m (tahminî)</text>
+  </g>
+  
+  <!-- Kuba info box -->
+  <g transform="translate(30,420)">
+    <rect x="0" y="0" width="340" height="150" fill="#FDF8F0" stroke="#C4A882" stroke-width="1" rx="5"/>
+    <text x="170" y="18" text-anchor="middle" font-size="11" font-weight="bold" fill="#2C1810">Yapı Bilgisi / Construction</text>
+    <text x="10" y="36" font-size="9" fill="#333">• İslam'ın ilk mescidi (622 M, Hicret sırasında)</text>
+    <text x="10" y="50" font-size="9" fill="#333">• Taş temel + kerpiç duvar + hurma dalı çatı</text>
+    <text x="10" y="64" font-size="9" fill="#333">• Hurma gövdesi direkler (6 adet, 2 sıra)</text>
+    <text x="10" y="78" font-size="9" fill="#333">• Hz. Peygamber bizzat inşaata katıldı</text>
+    <text x="10" y="92" font-size="9" fill="#333">• Tahminî alan: ~200-300 m²</text>
+    <text x="10" y="108" font-size="9" fill="#C0392B" font-style="italic">لَّمَسْجِدٌ أُسِّسَ عَلَى التَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ</text>
+    <text x="10" y="122" font-size="8" fill="#666">"İlk gününden takvâ üzere kurulan mescid"</text>
+    <text x="10" y="135" font-size="8" fill="#666">(Tevbe 108) — Mescid-i Kubâ'ya işaret</text>
+    <text x="10" y="148" font-size="8" fill="#888">Konum: Medîne güneyi, ~3.5 km / 21.4112°N, 39.6175°E</text>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="400" y1="15" x2="400" y2="580" stroke="#C4A882" stroke-width="1" stroke-dasharray="6,4"/>
+  
+  <!-- ====== RIGHT: SEVR MAĞARASI ====== -->
+  <text x="600" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2C1810">Sevr Mağarası</text>
+  <text x="600" y="48" text-anchor="middle" font-size="11" fill="#666">Cave of Thawr (Jabal Thawr) — Hicret Sığınağı</text>
+  <text x="600" y="62" text-anchor="middle" font-size="10" fill="#888">DSM-GEO-C002 | Kesit Çizimi</text>
+  
+  <!-- Mountain cross-section -->
+  <g transform="translate(600,260)">
+    <!-- Mountain -->
+    <path d="M -180 120 L -120 60 L -70 20 L -20 -30 L 20 -50 L 60 -30 L 100 10 L 140 50 L 180 120" fill="url(#mtn)" stroke="#4A3A2A" stroke-width="2"/>
+    
+    <!-- Cave interior -->
+    <path d="M -10 -20 Q 0 -35, 20 -30 Q 35 -28, 30 -10 Q 35 5, 25 15 Q 15 25, 0 20 Q -15 18, -15 5 Q -18 -8, -10 -20 Z" fill="#E8DCC8" stroke="#4A3A2A" stroke-width="1.5"/>
+    
+    <!-- Cave opening (narrow) -->
+    <path d="M -15 -10 Q -22 -15, -25 -8 Q -20 -2, -15 -5" fill="none" stroke="#4A3A2A" stroke-width="2"/>
+    
+    <!-- Spider web at entrance -->
+    <line x1="-24" y1="-14" x2="-18" y2="-2" stroke="#C4A882" stroke-width="0.5"/>
+    <line x1="-26" y1="-8" x2="-16" y2="-8" stroke="#C4A882" stroke-width="0.5"/>
+    <line x1="-24" y1="-2" x2="-19" y2="-13" stroke="#C4A882" stroke-width="0.5"/>
+    <circle cx="-21" cy="-8" r="1" fill="#C4A882"/>
+    
+    <!-- Two figures inside -->
+    <circle cx="5" cy="-5" r="3.5" fill="#444" opacity="0.5"/>
+    <circle cx="18" cy="0" r="3.5" fill="#444" opacity="0.5"/>
+    
+    <!-- Pigeon nest on ledge -->
+    <ellipse cx="-16" cy="-18" rx="4" ry="2" fill="#8B7355"/>
+    <circle cx="-16" cy="-20" r="2" fill="#AAA" opacity="0.5"/>
+    
+    <!-- Annotations -->
+    <line x1="-30" y1="-20" x2="-60" y2="-40" stroke="#8B6914" stroke-width="0.8"/>
+    <text x="-65" y="-45" text-anchor="end" font-size="8" fill="#8B6914">Güvercin yuvası</text>
+    <text x="-65" y="-35" text-anchor="end" font-size="7" fill="#888">Pigeon nest</text>
+    
+    <line x1="-25" y1="-8" x2="-55" y2="-5" stroke="#8B6914" stroke-width="0.8"/>
+    <text x="-60" y="-8" text-anchor="end" font-size="8" fill="#8B6914">Örümcek ağı</text>
+    <text x="-60" y="2" text-anchor="end" font-size="7" fill="#888">Spider web</text>
+    
+    <line x1="5" y1="-10" x2="5" y2="-45" stroke="#8B6914" stroke-width="0.8"/>
+    <text x="5" y="-50" text-anchor="middle" font-size="8" fill="#2C1810">Hz. Peygamber</text>
+    <text x="5" y="-60" text-anchor="middle" font-size="8" fill="#2C1810">+ Hz. Ebû Bekir</text>
+    <text x="5" y="-70" text-anchor="middle" font-size="7" fill="#888">3 gece saklandılar</text>
+    
+    <!-- Altitude -->
+    <line x1="160" y1="-50" x2="160" y2="120" stroke="#2E86C1" stroke-width="0.8" stroke-dasharray="4,3"/>
+    <text x="155" y="40" text-anchor="end" font-size="9" fill="#2E86C1" transform="rotate(-90,155,40)">~467 m rakım</text>
+    
+    <!-- Cave size -->
+    <line x1="-10" y1="30" x2="30" y2="30" stroke="#555" stroke-width="0.7" marker-start="url(#ma-r)" marker-end="url(#ma)"/>
+    <text x="10" y="43" text-anchor="middle" font-size="8" fill="#555">~3-4 m çap</text>
+    
+    <!-- Direction to Mecca -->
+    <line x1="0" y1="130" x2="0" y2="150" stroke="#C0392B" stroke-width="1" marker-end="url(#ma)"/>
+    <text x="5" y="162" font-size="8" fill="#C0392B">Mekke'ye ~8 km ↓</text>
+  </g>
+  
+  <!-- Quran reference -->
+  <g transform="translate(430,410)">
+    <rect x="0" y="0" width="340" height="55" fill="#FFF8E7" stroke="#C4A882" stroke-width="1" rx="5"/>
+    <text x="170" y="18" text-anchor="middle" font-size="10" fill="#C0392B" font-style="italic">إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا</text>
+    <text x="170" y="33" text-anchor="middle" font-size="9" fill="#666">"Arkadaşına 'Üzülme, Allah bizimle' diyordu" (Tevbe 40)</text>
+    <text x="170" y="47" text-anchor="middle" font-size="8" fill="#666">"He said to his companion: Do not grieve, God is with us"</text>
+  </g>
+  
+  <!-- Sevr info box -->
+  <g transform="translate(430,475)">
+    <rect x="0" y="0" width="340" height="100" fill="#FDF8F0" stroke="#C4A882" stroke-width="1" rx="5"/>
+    <text x="170" y="18" text-anchor="middle" font-size="11" font-weight="bold" fill="#2C1810">Bilgi / Information</text>
+    <text x="10" y="36" font-size="9" fill="#333">• Konum: Mekke güneyi, ~8 km</text>
+    <text x="10" y="50" font-size="9" fill="#333">• Hicret: 1. gece Sevr'e çıkıldı, 3 gece kalındı</text>
+    <text x="10" y="64" font-size="9" fill="#333">• Abdullah b. Ebî Bekir her gece haber getirdi</text>
+    <text x="10" y="78" font-size="9" fill="#333">• Âmir b. Füheyre koyun sürerek iz sildi</text>
+    <text x="10" y="92" font-size="9" fill="#333">• Esmâ bt. Ebî Bekir (Zâtü'n-Nitâkayn) yemek taşıdı</text>
+  </g>
+</svg>

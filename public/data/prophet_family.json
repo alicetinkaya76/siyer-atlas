@@ -1,0 +1,859 @@
+{
+  "version": "0.18.0",
+  "description": "Hz. Peygamber'in (s.a.v.) ailesi, çocukları, eşleri, amcaları ve yakın akrabaları",
+  "entries": [
+    {
+      "id": "fam_hatice",
+      "name": {
+        "tr": "Hz. Hatîce bt. Huveylid",
+        "en": "Khadijah bint Khuwaylid"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "İlk eş (595–619 CE)",
+        "en": "First wife (595–619 CE)"
+      },
+      "birth_ce": 555,
+      "death_ce": 619,
+      "companion_id": "hatice",
+      "key_facts": {
+        "tr": "İlk iman eden kişi. 15 yıl tek eş. Hz. Peygamber'in en büyük destekçisi. Zengin tüccar.",
+        "en": "First believer. Only wife for 15 years. Prophet's greatest supporter. Wealthy merchant."
+      },
+      "children": [
+        "fam_kasim",
+        "fam_zeyneb",
+        "fam_rukiyye",
+        "fam_umm_kulsum",
+        "fam_fatima",
+        "fam_abdullah"
+      ],
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_hatice_selam"
+      ]
+    },
+    {
+      "id": "fam_sevde",
+      "name": {
+        "tr": "Hz. Sevde bt. Zem'a",
+        "en": "Sawda bint Zam'a"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "İkinci eş (619 CE)",
+        "en": "Second wife (619 CE)"
+      },
+      "birth_ce": 0,
+      "death_ce": 674,
+      "companion_id": "comp_sevde_bt_zama",
+      "key_facts": {
+        "tr": "Hatîce'den sonra ilk evlendiği hanım. Habeşistan muhâcirlerinden.",
+        "en": "First wife after Khadija. Among Abyssinia emigrants."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_aise",
+      "name": {
+        "tr": "Hz. Âişe bt. Ebî Bekir",
+        "en": "Aisha bint Abi Bakr"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Üçüncü eş (623/624 CE)",
+        "en": "Third wife (623/624 CE)"
+      },
+      "birth_ce": 613,
+      "death_ce": 678,
+      "companion_id": "aise",
+      "key_facts": {
+        "tr": "En çok hadis rivâyet eden eşi. Fıkıh ve tefsîr otoritesi. 2,210 hadis rivâyet etti.",
+        "en": "Wife who narrated most hadith. Authority in fiqh and tafsir. Narrated 2,210 hadith."
+      },
+      "children": [],
+      "quran_refs": [
+        {
+          "surah": 24,
+          "ayah": 11,
+          "text_tr": "İfk âyetleri — Âişe'nin beraat ettirilmesi"
+        }
+      ],
+      "hadith_refs": [
+        "hds_peygamber_ailede_hizmet"
+      ]
+    },
+    {
+      "id": "fam_hafsa",
+      "name": {
+        "tr": "Hz. Hafsa bt. Ömer",
+        "en": "Hafsa bint Umar"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Dördüncü eş (625 CE)",
+        "en": "Fourth wife (625 CE)"
+      },
+      "birth_ce": 605,
+      "death_ce": 665,
+      "companion_id": "comp_hafsa",
+      "key_facts": {
+        "tr": "Hz. Ömer'in kızı. Kur'ân mushafının muhâfızı. Okuma-yazma bilirdi.",
+        "en": "Daughter of Umar. Guardian of Quran manuscript. Was literate."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_zeyneb_bt_huzeyme",
+      "name": {
+        "tr": "Hz. Zeyneb bt. Huzeyme",
+        "en": "Zaynab bint Khuzayma"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Beşinci eş (625 CE)",
+        "en": "Fifth wife (625 CE)"
+      },
+      "birth_ce": 0,
+      "death_ce": 625,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Ümmü'l-Mesâkîn (yoksulların anası). Evlendikten 2-3 ay sonra vefat etti.",
+        "en": "Umm al-Masakin (mother of the poor). Died 2-3 months after marriage."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_umm_salama",
+      "name": {
+        "tr": "Hz. Ümmü Seleme (Hind bt. Ebî Ümeyye)",
+        "en": "Umm Salama (Hind bint Abi Umayya)"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Altıncı eş (626 CE)",
+        "en": "Sixth wife (626 CE)"
+      },
+      "birth_ce": 596,
+      "death_ce": 680,
+      "companion_id": "umm_salama",
+      "key_facts": {
+        "tr": "Hudeybiye'de kritik tavsiye veren hanım. 378 hadis rivâyet etti.",
+        "en": "Gave crucial advice at Hudaybiyya. Narrated 378 hadith."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_zeyneb_bt_cahs",
+      "name": {
+        "tr": "Hz. Zeyneb bt. Cahş",
+        "en": "Zaynab bint Jahsh"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Yedinci eş (627 CE)",
+        "en": "Seventh wife (627 CE)"
+      },
+      "birth_ce": 590,
+      "death_ce": 641,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Evlat edinme (tebennî) hükmünün kaldırılması vesîlesiyle evlendi. Allah'ın emriyle nikâhı kıyıldı.",
+        "en": "Marriage occasion for abolition of adoption (tabanni) ruling. Married by Allah's command."
+      },
+      "children": [],
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 37,
+          "text_tr": "Zeyd ondan ayrılınca onu sana nikâhladık."
+        }
+      ],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_cuveyriye",
+      "name": {
+        "tr": "Hz. Cüveyriye bt. Hâris",
+        "en": "Juwayriya bint al-Harith"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Sekizinci eş (627 CE)",
+        "en": "Eighth wife (627 CE)"
+      },
+      "birth_ce": 608,
+      "death_ce": 673,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Benî Mustalık reisinin kızı. Evlenmesiyle tüm kabile serbest bırakıldı.",
+        "en": "Daughter of Banu Mustaliq chief. Entire tribe freed through marriage."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_safiyye",
+      "name": {
+        "tr": "Hz. Safiyye bt. Huyey",
+        "en": "Safiyya bint Huyayy"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Dokuzuncu eş (628 CE)",
+        "en": "Ninth wife (628 CE)"
+      },
+      "birth_ce": 610,
+      "death_ce": 670,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Hayber'de esir alınıp âzâd edilerek evlenildi. Hârûn (a.s.) soyundan.",
+        "en": "Freed captive from Khaybar. Descendant of Prophet Aaron."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_safiyye_hayber"
+      ]
+    },
+    {
+      "id": "fam_umm_habiba",
+      "name": {
+        "tr": "Hz. Ümmü Habîbe (Remle bt. Ebî Süfyân)",
+        "en": "Umm Habiba (Ramla bint Abi Sufyan)"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "Onuncu eş (628 CE)",
+        "en": "Tenth wife (628 CE)"
+      },
+      "birth_ce": 589,
+      "death_ce": 666,
+      "companion_id": "umm_habibe",
+      "key_facts": {
+        "tr": "Ebû Süfyân'ın kızı. Habeşistan muhâciri. Necâşî vekâletiyle nikâhlandı.",
+        "en": "Daughter of Abu Sufyan. Abyssinia emigrant. Married by proxy via Negus."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_meymune",
+      "name": {
+        "tr": "Hz. Meymûne bt. Hâris",
+        "en": "Maymunah bint al-Harith"
+      },
+      "relation": "eş",
+      "relation_detail": {
+        "tr": "On birinci eş (629 CE)",
+        "en": "Eleventh wife (629 CE)"
+      },
+      "birth_ce": 594,
+      "death_ce": 681,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Peygamber'in son evlendiği hanım. Nikâhı Mekke'de kıyıldı (umre-i kaza).",
+        "en": "Prophet's last wife. Married in Mecca during umrah al-qada."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_kasim",
+      "name": {
+        "tr": "Kāsım",
+        "en": "Al-Qasim"
+      },
+      "relation": "oğul",
+      "relation_detail": {
+        "tr": "İlk çocuk, Hatîce'den",
+        "en": "First child, from Khadija"
+      },
+      "birth_ce": 598,
+      "death_ce": 601,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "İlk erkek çocuğu. Küçük yaşta vefat etti. Peygamber'in künyesi 'Ebu'l-Kāsım' buradan gelir.",
+        "en": "First son. Died in infancy. Prophet's kunya 'Abu al-Qasim' derived from him."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_abdullah",
+      "name": {
+        "tr": "Abdullah (Tayyib/Tâhir)",
+        "en": "Abdullah (Tayyib/Tahir)"
+      },
+      "relation": "oğul",
+      "relation_detail": {
+        "tr": "Hatîce'den",
+        "en": "From Khadija"
+      },
+      "birth_ce": 0,
+      "death_ce": 0,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "İslâm'dan sonra doğan oğul. Küçük yaşta vefat etti. Tayyib ve Tâhir lakaplarıyla da bilinir.",
+        "en": "Son born after Islam. Died in infancy. Also known as Tayyib and Tahir."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_ibrahim",
+      "name": {
+        "tr": "İbrâhîm",
+        "en": "Ibrahim"
+      },
+      "relation": "oğul",
+      "relation_detail": {
+        "tr": "Mâriye el-Kıbtiyye'den (630-632 CE)",
+        "en": "From Maria al-Qibtiyya (630-632 CE)"
+      },
+      "birth_ce": 630,
+      "death_ce": 632,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Son çocuğu. 18 aylıkken vefat etti. Vefatı günü güneş tutulması oldu; Peygamber bunu putperest inançlardan ayırdı.",
+        "en": "Last child. Died at 18 months. Solar eclipse on death day; Prophet distinguished it from pagan beliefs."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_zeyneb",
+      "name": {
+        "tr": "Zeyneb",
+        "en": "Zaynab"
+      },
+      "relation": "kız",
+      "relation_detail": {
+        "tr": "Hatîce'den, en büyük kız",
+        "en": "From Khadija, eldest daughter"
+      },
+      "birth_ce": 599,
+      "death_ce": 629,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Ebu'l-Âs b. Rebî' ile evlendi. Mekke'den Medine'ye hicret ederken saldırıya uğradı.",
+        "en": "Married Abu al-As ibn Rabi. Attacked during migration from Mecca to Medina."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_rukiyye",
+      "name": {
+        "tr": "Rukıyye",
+        "en": "Ruqayyah"
+      },
+      "relation": "kız",
+      "relation_detail": {
+        "tr": "Hatîce'den",
+        "en": "From Khadija"
+      },
+      "birth_ce": 601,
+      "death_ce": 624,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Hz. Osman'ın ilk eşi. Habeşistan'a hicret etti. Bedir savaşı sırasında Medine'de vefat etti.",
+        "en": "First wife of Uthman. Emigrated to Abyssinia. Died during Battle of Badr."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_umm_kulsum",
+      "name": {
+        "tr": "Ümmü Külsûm",
+        "en": "Umm Kulthum"
+      },
+      "relation": "kız",
+      "relation_detail": {
+        "tr": "Hatîce'den",
+        "en": "From Khadija"
+      },
+      "birth_ce": 603,
+      "death_ce": 630,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Rukıyye'nin vefatından sonra Hz. Osman ile evlendi. Bu sebeple Hz. Osman 'Zü'n-Nûreyn' (iki nur sahibi) lakabı aldı.",
+        "en": "Married Uthman after Ruqayyah's death, earning him title 'Dhu al-Nurayn' (possessor of two lights)."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_fatima",
+      "name": {
+        "tr": "Hz. Fâtımatü'z-Zehrâ",
+        "en": "Fatimah al-Zahra"
+      },
+      "relation": "kız",
+      "relation_detail": {
+        "tr": "Hatîce'den, en küçük kız",
+        "en": "From Khadija, youngest daughter"
+      },
+      "birth_ce": 605,
+      "death_ce": 632,
+      "companion_id": "comp_fatima_zehra",
+      "key_facts": {
+        "tr": "Hz. Ali'nin eşi. Hasan ve Hüseyin'in annesi. Peygamber soyunun devam ettiği nesil. Cennet kadınlarının seyyidesi.",
+        "en": "Wife of Ali. Mother of Hasan and Husayn. Lineage through which Prophet's descendants continue."
+      },
+      "children": [
+        "fam_hasan",
+        "fam_huseyin",
+        "fam_zeyneb_bt_ali",
+        "fam_umm_kulsum_bt_ali"
+      ],
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 33,
+          "text_tr": "Allah sizi tertemiz kılmak istiyor, ey ehl-i beyt!"
+        }
+      ],
+      "hadith_refs": [
+        "hds_fatima_seyyide"
+      ]
+    },
+    {
+      "id": "fam_hasan",
+      "name": {
+        "tr": "Hz. Hasan b. Ali",
+        "en": "Al-Hasan ibn Ali"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Fâtıma ve Ali'nin büyük oğlu",
+        "en": "Elder son of Fatima and Ali"
+      },
+      "birth_ce": 625,
+      "death_ce": 670,
+      "companion_id": "hasan_b_ali",
+      "key_facts": {
+        "tr": "Cennet gençlerinin seyyidi. 6 ay halifelik yaptı, sonra Muâviye'ye devretti (ümmetin birliği için).",
+        "en": "Master of youth of Paradise. Served as caliph for 6 months, then ceded to Mu'awiya for unity."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_cocuklara_sefkat"
+      ]
+    },
+    {
+      "id": "fam_huseyin",
+      "name": {
+        "tr": "Hz. Hüseyin b. Ali",
+        "en": "Al-Husayn ibn Ali"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Fâtıma ve Ali'nin küçük oğlu",
+        "en": "Younger son of Fatima and Ali"
+      },
+      "birth_ce": 626,
+      "death_ce": 680,
+      "companion_id": "huseyin_b_ali",
+      "key_facts": {
+        "tr": "Cennet gençlerinin seyyidi. Kerbelâ'da şehîd edildi (10 Muharrem 61H / 680 CE).",
+        "en": "Master of youth of Paradise. Martyred at Karbala (10 Muharram 61H / 680 CE)."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_ebu_talib",
+      "name": {
+        "tr": "Ebû Tâlib (Abdümenâf b. Abdülmuttalib)",
+        "en": "Abu Talib"
+      },
+      "relation": "amca",
+      "relation_detail": {
+        "tr": "Babasının kardeşi, hâmîsi",
+        "en": "Father's brother, protector"
+      },
+      "birth_ce": 539,
+      "death_ce": 619,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Peygamber'i 8 yaşından itibaren büyüttü. Ölene kadar himaye etti ama iman etmedi (tartışmalı). Vefatı 'Hüzün Yılı'.",
+        "en": "Raised Prophet from age 8. Protected him until death but didn't embrace Islam (debated)."
+      },
+      "children": [
+        "ali"
+      ],
+      "quran_refs": [
+        {
+          "surah": 28,
+          "ayah": 56,
+          "text_tr": "Sen sevdiğini hidayete erdiremezsin; Allah dilediğini hidayete erdirir."
+        }
+      ],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_hamza",
+      "name": {
+        "tr": "Hz. Hamza b. Abdülmuttalib",
+        "en": "Hamza ibn Abd al-Muttalib"
+      },
+      "relation": "amca",
+      "relation_detail": {
+        "tr": "Babasının kardeşi",
+        "en": "Father's brother"
+      },
+      "birth_ce": 570,
+      "death_ce": 625,
+      "companion_id": "hamza",
+      "key_facts": {
+        "tr": "Seyyidü'ş-Şühedâ (şehitlerin efendisi). Uhud'da şehîd düştü. Aslan avcısı olarak tanınırdı.",
+        "en": "Chief of Martyrs. Martyred at Uhud. Known as the lion hunter."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_abbas",
+      "name": {
+        "tr": "Hz. Abbâs b. Abdülmuttalib",
+        "en": "Al-Abbas ibn Abd al-Muttalib"
+      },
+      "relation": "amca",
+      "relation_detail": {
+        "tr": "Babasının kardeşi",
+        "en": "Father's brother"
+      },
+      "birth_ce": 566,
+      "death_ce": 653,
+      "companion_id": "abbas",
+      "key_facts": {
+        "tr": "Abbâsî hanedanının atası. Bedir'de esir alınıp fidye ile serbest bırakıldı. Mekke fethinde kritik rol oynadı.",
+        "en": "Ancestor of Abbasid dynasty. Captured at Badr. Played key role in Conquest of Mecca."
+      },
+      "children": [
+        "ibn_abbas"
+      ],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_ebu_leheb",
+      "name": {
+        "tr": "Ebû Leheb (Abdüluzzâ b. Abdülmuttalib)",
+        "en": "Abu Lahab"
+      },
+      "relation": "amca",
+      "relation_detail": {
+        "tr": "Babasının kardeşi, düşman",
+        "en": "Father's brother, adversary"
+      },
+      "birth_ce": 549,
+      "death_ce": 624,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Peygamber'in en büyük düşmanlarından. Eşi Ümmü Cemîl de İslâm'a düşmandı. Kur'ân'da lanetlendi.",
+        "en": "One of Prophet's greatest enemies. His wife Umm Jamil also opposed Islam. Cursed in Quran."
+      },
+      "children": [],
+      "quran_refs": [
+        {
+          "surah": 111,
+          "ayah": 1,
+          "text_tr": "Ebû Leheb'in elleri kurusun, kurudu!"
+        }
+      ],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_halime",
+      "name": {
+        "tr": "Halîme es-Sa'diyye",
+        "en": "Halimah al-Sa'diyyah"
+      },
+      "relation": "süt anne",
+      "relation_detail": {
+        "tr": "Benî Sa'd kabilesinden süt annesi",
+        "en": "Wet nurse from Banu Sa'd"
+      },
+      "birth_ce": 0,
+      "death_ce": 0,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Peygamber'i 4-5 yaşına kadar çölde emzirdi. Yanında bereketler gördü.",
+        "en": "Nursed Prophet in desert until age 4-5. Witnessed blessings in his presence."
+      },
+      "children": [],
+      "quran_refs": [],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_zeyd_b_harise",
+      "name": {
+        "tr": "Zeyd b. Hârise",
+        "en": "Zayd ibn Harithah"
+      },
+      "relation": "evlatlık / âzâdlı köle",
+      "relation_detail": {
+        "tr": "Evlat edinilen, sonra âzâd edilen, 'Peygamber'in sevgilisi'",
+        "en": "Adopted son, then freed, 'Beloved of the Prophet'"
+      },
+      "birth_ce": 581,
+      "death_ce": 629,
+      "companion_id": "zeyd_b_harise",
+      "key_facts": {
+        "tr": "Kur'ân'da ismiyle anılan tek sahâbî. Mûte savaşında şehîd düştü. Üsâme'nin babası.",
+        "en": "Only companion mentioned by name in Quran. Martyred at Mu'tah. Father of Usama."
+      },
+      "children": [],
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 37,
+          "text_tr": "Zeyd ondan ayrılınca..."
+        }
+      ],
+      "hadith_refs": []
+    },
+    {
+      "id": "fam_ali_b_husayn",
+      "name": {
+        "tr": "Ali b. el-Hüseyin (Zeynelâbidîn)",
+        "en": "Ali ibn al-Husayn (Zayn al-Abidin)"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Hz. Hüseyin'in oğlu, 4. İmâm",
+        "en": "Son of Husayn, 4th Imam"
+      },
+      "birth_ce": 659,
+      "death_ce": 713,
+      "companion_id": "tab_zeynelâbidin",
+      "key_facts": {
+        "tr": "Kerbelâ'dan sağ kurtulan tek Hüseyin oğlu. Sahîfe-i Seccâdiyye duâ mecmuasının sahibi. Medîne'nin en zâhid şahsiyetlerinden.",
+        "en": "Only surviving son of Husayn from Karbala. Author of Sahifa Sajjadiyyah prayers."
+      },
+      "links": {
+        "persons": [
+          "tab_zeynelâbidin",
+          "tab_husayn_b_ali"
+        ]
+      }
+    },
+    {
+      "id": "fam_muhammed_bakir2",
+      "name": {
+        "tr": "Muhammed el-Bâkır",
+        "en": "Muhammad al-Baqir"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Zeynelâbidîn'in oğlu, 5. İmâm",
+        "en": "Son of Zayn al-Abidin, 5th Imam"
+      },
+      "birth_ce": 677,
+      "death_ce": 733,
+      "companion_id": "tab_muhammed_bakir",
+      "key_facts": {
+        "tr": "İlmi 'yaran' (bâkır) lâkabı. Fıkıh, tefsir ve kelâm konularında otoriteydi.",
+        "en": "Title 'al-Baqir' (the one who splits open knowledge). Authority in fiqh, exegesis, theology."
+      },
+      "links": {
+        "persons": [
+          "tab_muhammed_bakir",
+          "tab_zeynelâbidin"
+        ]
+      }
+    },
+    {
+      "id": "fam_cafer_sadik2",
+      "name": {
+        "tr": "Ca'fer es-Sâdık",
+        "en": "Ja'far al-Sadiq"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Muhammed el-Bâkır'ın oğlu, 6. İmâm",
+        "en": "Son of al-Baqir, 6th Imam"
+      },
+      "birth_ce": 702,
+      "death_ce": 765,
+      "companion_id": "tab2_cafer_sadik",
+      "key_facts": {
+        "tr": "Ca'ferî mezhebinin eponym'i. Ebû Hanîfe ve Mâlik dahil birçok âlimin hocası. Kimyâ, astronomi ve tabiat felsefesiyle de ilgilendi.",
+        "en": "Eponym of Ja'fari school. Teacher of Abu Hanifa, Malik. Also interested in chemistry and astronomy."
+      },
+      "links": {
+        "persons": [
+          "tab2_cafer_sadik",
+          "tab_muhammed_bakir"
+        ]
+      }
+    },
+    {
+      "id": "fam_abdullah_abbas",
+      "name": {
+        "tr": "Abdullah b. Abbâs",
+        "en": "Abdullah ibn Abbas"
+      },
+      "relation": "amca oğlu",
+      "relation_detail": {
+        "tr": "Hz. Abbâs'ın oğlu, tefsir ilminin babası",
+        "en": "Son of Abbas, father of Quranic exegesis"
+      },
+      "birth_ce": 619,
+      "death_ce": 687,
+      "companion_id": "comp_abdullah_abbas",
+      "key_facts": {
+        "tr": "Hz. Peygamber'in duâsına mazhar: 'Allah'ım onu dinde fakih kıl ve tefsîr öğret.' 1.660 hadis rivâyet etti.",
+        "en": "Prophet prayed: 'O Allah, give him understanding in religion and teach him interpretation.' Narrated 1,660 hadith."
+      },
+      "links": {
+        "persons": [
+          "comp_abdullah_abbas",
+          "abbas"
+        ]
+      }
+    },
+    {
+      "id": "fam_ummu_kulsum_ali",
+      "name": {
+        "tr": "Ümmü Gülsüm bt. Ali",
+        "en": "Umm Kulthum bt. Ali"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Hz. Ali ve Fâtıma'nın kızı",
+        "en": "Daughter of Ali and Fatima"
+      },
+      "birth_ce": 627,
+      "death_ce": 680,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Hz. Ömer ile evlendi. Kerbelâ'da bulundu ve akabinde Yezîd'in meclisinde konuşma yaptı.",
+        "en": "Married Umar. Present at Karbala and gave a speech before Yazid."
+      },
+      "links": {
+        "persons": [
+          "ali",
+          "comp_fatima_zehra",
+          "omer"
+        ]
+      }
+    },
+    {
+      "id": "fam_zeyneb_bt_ali",
+      "name": {
+        "tr": "Zeyneb bt. Ali",
+        "en": "Zaynab bt. Ali"
+      },
+      "relation": "torun",
+      "relation_detail": {
+        "tr": "Hz. Ali ve Fâtıma'nın kızı",
+        "en": "Daughter of Ali and Fatima"
+      },
+      "birth_ce": 626,
+      "death_ce": 682,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Kerbelâ'da Hz. Hüseyin'in yanında. Esir olarak Kûfe ve Şam'a götürüldü. Yezîd'in meclisinde cesurca konuştu.",
+        "en": "With Husayn at Karbala. Taken captive to Kufa and Damascus. Spoke boldly before Yazid."
+      },
+      "links": {
+        "persons": [
+          "ali",
+          "comp_fatima_zehra",
+          "tab_husayn_b_ali"
+        ]
+      }
+    },
+    {
+      "id": "fam_amine",
+      "name": {
+        "tr": "Âmine bt. Vehb",
+        "en": "Amina bint Wahb"
+      },
+      "relation": "anne",
+      "relation_detail": {
+        "tr": "Hz. Peygamber'in annesi",
+        "en": "Prophet's mother"
+      },
+      "birth_ce": 549,
+      "death_ce": 577,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Benî Zühre kabilesinden. Hz. Peygamber 6 yaşındayken Ebvâ'da vefat etti.",
+        "en": "From Banu Zuhra. Died at Abwa when Prophet was 6 years old."
+      },
+      "links": {
+        "persons": []
+      }
+    },
+    {
+      "id": "fam_abdullah_babasi",
+      "name": {
+        "tr": "Abdullah b. Abdülmuttalib",
+        "en": "Abdullah ibn Abd al-Muttalib"
+      },
+      "relation": "baba",
+      "relation_detail": {
+        "tr": "Hz. Peygamber'in babası",
+        "en": "Prophet's father"
+      },
+      "birth_ce": 546,
+      "death_ce": 570,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Abdülmuttalib'in en sevgili oğlu. Hz. Peygamber doğmadan önce bir ticaret yolculuğunda Medîne'de (Yesrib) vefat etti.",
+        "en": "Most beloved son of Abd al-Muttalib. Died in Yathrib (Medina) on a trade journey before Prophet's birth."
+      },
+      "links": {
+        "persons": []
+      }
+    },
+    {
+      "id": "fam_abdulmuttalib",
+      "name": {
+        "tr": "Abdülmuttalib b. Hâşim",
+        "en": "Abd al-Muttalib ibn Hashim"
+      },
+      "relation": "dede",
+      "relation_detail": {
+        "tr": "Hz. Peygamber'in dedesi, Kureyş reisi",
+        "en": "Prophet's grandfather, Quraysh chief"
+      },
+      "birth_ce": 497,
+      "death_ce": 578,
+      "companion_id": "",
+      "key_facts": {
+        "tr": "Zemzem kuyusunu yeniden keşfetti. Fil Vak'ası'nda Kâbe'yi savundu: 'Kâbe'nin sahibi onu korur.' Hz. Peygamber 8 yaşına kadar onun himâyesinde büyüdü.",
+        "en": "Rediscovered Zamzam well. Defended Ka'ba during Elephant incident. Raised Prophet until age 8."
+      },
+      "links": {
+        "persons": []
+      }
+    }
+  ],
+  "total_entries": 35
+}

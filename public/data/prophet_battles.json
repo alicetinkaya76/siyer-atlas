@@ -1,0 +1,566 @@
+{
+  "version": "2.5.0",
+  "description": "Hz. Peygamber'in bizzat katıldığı/gönderdiği savaşlar — hadis ve âyet referanslarıyla",
+  "note": "battle_id'ler battles_v150.json ile eşleşir",
+  "total_entries": 15,
+  "entries": [
+    {
+      "id": "pb_bedir",
+      "battle_id": "gazve_bedir",
+      "name": {
+        "tr": "Bedir Gazvesi",
+        "en": "Battle of Badr"
+      },
+      "date_ce": 624,
+      "date_hijri": "2 (17 Ramazan)",
+      "prophet_role": {
+        "tr": "Bizzat komuta etti. Savaş öncesi secdeye kapanıp dua etti.",
+        "en": "Personally commanded. Prostrated in prayer before battle."
+      },
+      "quran_refs": [
+        {
+          "surah": 8,
+          "ayah": 9,
+          "text_tr": "Rabbinize yalvardığınızda O size cevap vermişti: Ben size ard arda bin melekle yardım edeceğim."
+        },
+        {
+          "surah": 3,
+          "ayah": 123,
+          "text_tr": "Andolsun ki siz güçsüzken Bedir'de Allah size yardım etmişti."
+        },
+        {
+          "surah": 8,
+          "ayah": 17,
+          "text_tr": "Attığın zaman sen atmadın, Allah attı."
+        }
+      ],
+      "hadith_refs": [
+        "hds_bedir_melekler",
+        "hds_asere_mubesssere"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Sayı azlığı iman gücüyle telafi edilir",
+          "en": "Numerical disadvantage compensated by strength of faith"
+        },
+        {
+          "tr": "İstişâre (danışma) ilkesi: Hubâb b. Münzir'in su kuyusu önerisi",
+          "en": "Consultation principle: Hubab's water well suggestion"
+        }
+      ]
+    },
+    {
+      "id": "pb_uhud",
+      "battle_id": "gazve_uhud",
+      "name": {
+        "tr": "Uhud Gazvesi",
+        "en": "Battle of Uhud"
+      },
+      "date_ce": 625,
+      "date_hijri": "3 (7 Şevval)",
+      "prophet_role": {
+        "tr": "Bizzat komuta etti. Yüzünden yaralandı, dişi kırıldı.",
+        "en": "Personally commanded. Face wounded, tooth broken."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 139,
+          "text_tr": "Gevşemeyin, üzülmeyin; eğer inanıyorsanız üstün olan sizsiniz."
+        },
+        {
+          "surah": 3,
+          "ayah": 152,
+          "text_tr": "İçinizden dünyayı isteyenler de ahireti isteyenler de vardı (okçulara)."
+        },
+        {
+          "surah": 3,
+          "ayah": 159,
+          "text_tr": "Sen onlara yumuşak davrandın; kaba ve katı kalpli olsaydın etrafından dağılırlardı."
+        }
+      ],
+      "hadith_refs": [
+        "hds_uhud_peygamber_yarali"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Komutana itaatin önemi (okçular tepesi)",
+          "en": "Importance of obeying commander (archers' hill)"
+        },
+        {
+          "tr": "Zaferden sonra bile disiplin gerekli",
+          "en": "Discipline necessary even after victory"
+        }
+      ]
+    },
+    {
+      "id": "pb_hendek",
+      "battle_id": "gazve_hendek",
+      "name": {
+        "tr": "Hendek (Ahzâb) Gazvesi",
+        "en": "Battle of the Trench (Khandaq)"
+      },
+      "date_ce": 627,
+      "date_hijri": "5 (Şevval-Zilkade)",
+      "prophet_role": {
+        "tr": "Hendek kazma fikrini (Selmân'dan) kabul etti, bizzat hendek kazdı, kaya kırdı.",
+        "en": "Adopted trench idea (from Salman), personally dug trench and broke rock."
+      },
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 9,
+          "text_tr": "Ey iman edenler! Allah'ın üzerinizdeki nimetini hatırlayın; hani size ordular gelmişti de üzerlerine bir rüzgâr ve görmediğiniz ordular göndermiştik."
+        },
+        {
+          "surah": 33,
+          "ayah": 22,
+          "text_tr": "Müminler düşman birliklerini gördüklerinde 'Bu Allah'ın ve Rasûlünün bize vaad ettiğidir' dediler."
+        }
+      ],
+      "hadith_refs": [
+        "hds_hendek_kaya"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Savunma stratejisinde yenilik (hendek Arap savaş geleneğinde yoktu)",
+          "en": "Innovation in defense (trench was unknown in Arab warfare)"
+        },
+        {
+          "tr": "Farklı milletlerin (İranlı Selmân) bilgisinden faydalanma",
+          "en": "Benefiting from knowledge of different nations (Persian Salman)"
+        }
+      ]
+    },
+    {
+      "id": "pb_hayber",
+      "battle_id": "gazve_hayber",
+      "name": {
+        "tr": "Hayber Gazvesi",
+        "en": "Battle of Khaybar"
+      },
+      "date_ce": 628,
+      "date_hijri": "7 (Muharrem)",
+      "prophet_role": {
+        "tr": "Komutayı Hz. Ali'ye verdi: 'Sancağı yarın öyle birine vereceğim ki Allah ve Rasûlü onu sever, o da Allah ve Rasûlünü sever.'",
+        "en": "Gave command to Ali: 'Tomorrow I'll give the flag to one loved by Allah and His Messenger.'"
+      },
+      "quran_refs": [
+        {
+          "surah": 48,
+          "ayah": 20,
+          "text_tr": "Allah size birçok ganimetler vaad etmiştir."
+        }
+      ],
+      "hadith_refs": [
+        "hds_safiyye_hayber"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Liyâkat esaslı komutanlık ataması",
+          "en": "Merit-based command appointment"
+        },
+        {
+          "tr": "Fetih sonrası zımmî statüsü (haraç karşılığı toprak kullanımı)",
+          "en": "Post-conquest dhimmi status (land use in exchange for kharaj)"
+        }
+      ]
+    },
+    {
+      "id": "pb_hudeybiye",
+      "battle_id": "gazve_hudeybiye",
+      "name": {
+        "tr": "Hudeybiye Antlaşması",
+        "en": "Treaty of Hudaybiyyah"
+      },
+      "date_ce": 628,
+      "date_hijri": "6 (Zilkade)",
+      "prophet_role": {
+        "tr": "Görünürde aleyhte olan şartları kabul etti ama stratejik olarak 'fethin fethi' oldu.",
+        "en": "Accepted seemingly unfavorable terms but strategically it was 'the victory of victories.'"
+      },
+      "quran_refs": [
+        {
+          "surah": 48,
+          "ayah": 1,
+          "text_tr": "Biz sana apaçık bir fetih verdik."
+        },
+        {
+          "surah": 48,
+          "ayah": 18,
+          "text_tr": "Andolsun ki Allah, ağaç altında sana biat eden mü'minlerden razı olmuştur."
+        }
+      ],
+      "hadith_refs": [
+        "hds_hudeybiye_sulh"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Savaş yerine diplomasi, uzun vadeli strateji",
+          "en": "Diplomacy over war, long-term strategy"
+        },
+        {
+          "tr": "Sabır ve sözünde durma",
+          "en": "Patience and keeping promises"
+        }
+      ]
+    },
+    {
+      "id": "pb_mekke_fethi",
+      "battle_id": "gazve_fetih_mekke",
+      "name": {
+        "tr": "Mekke'nin Fethi",
+        "en": "Conquest of Mecca"
+      },
+      "date_ce": 630,
+      "date_hijri": "8 (20 Ramazan)",
+      "prophet_role": {
+        "tr": "10.000 kişilik orduyla neredeyse kansız bir fetih gerçekleştirdi. Genel af ilân etti.",
+        "en": "Nearly bloodless conquest with 10,000 troops. Declared general amnesty."
+      },
+      "quran_refs": [
+        {
+          "surah": 110,
+          "ayah": 1,
+          "text_tr": "Allah'ın yardımı ve fetih geldiğinde..."
+        }
+      ],
+      "hadith_refs": [
+        "hds_mekke_fethi_af"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Zafer anında bile intikam yerine af",
+          "en": "Forgiveness even in moment of victory"
+        },
+        {
+          "tr": "Ka'be'deki 360 putu kırma — tevhidin restorasyonu",
+          "en": "Destroying 360 idols — restoration of monotheism"
+        }
+      ]
+    },
+    {
+      "id": "pb_huneyn",
+      "battle_id": "gazve_huneyn",
+      "name": {
+        "tr": "Huneyn Gazvesi",
+        "en": "Battle of Hunayn"
+      },
+      "date_ce": 630,
+      "date_hijri": "8 (Şevval)",
+      "prophet_role": {
+        "tr": "Herkes kaçarken tek başına direndi: 'Ben Peygamberim, yalan yok!'",
+        "en": "Stood alone when all fled: 'I am the Prophet, no lie!'"
+      },
+      "quran_refs": [
+        {
+          "surah": 9,
+          "ayah": 25,
+          "text_tr": "Allah size birçok yerde yardım etti. Huneyn gününde de — sayınızın çokluğu sizi böbürlendirmiş ama bir işe yaramamıştı."
+        },
+        {
+          "surah": 9,
+          "ayah": 26,
+          "text_tr": "Sonra Allah, Rasûlüne ve mü'minlere sekînetini (huzur) indirdi."
+        }
+      ],
+      "hadith_refs": [
+        "hds_huneyn_sebat"
+      ],
+      "key_lessons": [
+        {
+          "tr": "Çokluk gururuna kapılmama uyarısı",
+          "en": "Warning against pride in numbers"
+        },
+        {
+          "tr": "Liderlik cesâretinin örneği",
+          "en": "Example of leadership courage"
+        }
+      ]
+    },
+    {
+      "id": "pb_tebuk",
+      "battle_id": "gazve_tebuk",
+      "name": {
+        "tr": "Tebük Gazvesi",
+        "en": "Expedition of Tabuk"
+      },
+      "date_ce": 630,
+      "date_hijri": "9 (Receb)",
+      "prophet_role": {
+        "tr": "En uzak seferi. Sıcaklık, kıtlık ve münâfıkların geri çekilmesine rağmen yola çıktı.",
+        "en": "Longest expedition. Set out despite heat, scarcity, and hypocrites' withdrawal."
+      },
+      "quran_refs": [
+        {
+          "surah": 9,
+          "ayah": 38,
+          "text_tr": "Size ne oluyor ki 'Allah yolunda savaşa çıkın!' denildiğinde yere çakılıp kalıyorsunuz?"
+        },
+        {
+          "surah": 9,
+          "ayah": 118,
+          "text_tr": "Geri kalan üç kişi (Ka'b b. Mâlik, Hilâl b. Ümeyye, Mürâre b. Rebî')"
+        }
+      ],
+      "hadith_refs": [],
+      "key_lessons": [
+        {
+          "tr": "Süper güce (Bizans) karşı caydırıcılık",
+          "en": "Deterrence against superpower (Byzantium)"
+        },
+        {
+          "tr": "Münâfıkların tespiti",
+          "en": "Identification of hypocrites"
+        }
+      ]
+    },
+    {
+      "id": "pb_beni_kaynuka",
+      "battle_id": "gazve_beni_kaynuka",
+      "name": {
+        "tr": "Benî Kaynukā' Gazvesi",
+        "en": "Expedition against Banu Qaynuqa"
+      },
+      "date_ce": 624,
+      "date_hijri": "2 (Şevvâl)",
+      "prophet_role": {
+        "tr": "15 gün kuşatma sonrası sürgün kararı verdi. Abdullah b. Übeyy'in arabuluculuk girişimini değerlendirdi.",
+        "en": "Ordered exile after 15-day siege. Evaluated Abdullah ibn Ubayy's mediation attempt."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 13,
+          "text_tr": "Biri Allah yolunda çarpışan, diğeri kâfir olan iki topluluk."
+        }
+      ],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Benî Kaynukā' Yahudileri",
+      "result": {
+        "tr": "Sürgün (Şam'a)",
+        "en": "Exile (to Syria)"
+      },
+      "location_id": "medine",
+      "links": {
+        "persons": [],
+        "tribes": [],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "pb_beni_nadir",
+      "battle_id": "gazve_beni_nadir",
+      "name": {
+        "tr": "Benî Nadîr Gazvesi",
+        "en": "Expedition against Banu Nadir"
+      },
+      "date_ce": 625,
+      "date_hijri": "4 (Rebîülevvel)",
+      "prophet_role": {
+        "tr": "Suikast girişiminden sonra 6 gün kuşatma yaptı; sürgün emretti.",
+        "en": "Besieged for 6 days after assassination attempt; ordered exile."
+      },
+      "quran_refs": [
+        {
+          "surah": 59,
+          "ayah": 2,
+          "text_tr": "Kitap ehlinden kâfir olanları ilk sürgünde yurtlarından çıkaran O'dur."
+        }
+      ],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Benî Nadîr",
+      "result": {
+        "tr": "Sürgün (Hayber'e)",
+        "en": "Exile (to Khaybar)"
+      },
+      "location_id": "medine",
+      "links": {
+        "persons": [],
+        "tribes": [],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "pb_beni_kurayza",
+      "battle_id": "gazve_beni_kurayza",
+      "name": {
+        "tr": "Benî Kurayza Gazvesi",
+        "en": "Expedition against Banu Qurayza"
+      },
+      "date_ce": 627,
+      "date_hijri": "5 (Zilkāde)",
+      "prophet_role": {
+        "tr": "Hendek savaşından hemen sonra Sa'd b. Muâz'ı hakem tayin etti.",
+        "en": "Appointed Sa'd ibn Mu'adh as arbiter immediately after Battle of Trench."
+      },
+      "quran_refs": [
+        {
+          "surah": 33,
+          "ayah": 26,
+          "text_tr": "Onlara arka çıkan Ehl-i Kitab'ı kalelerinden indirdi."
+        }
+      ],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Benî Kurayza",
+      "result": {
+        "tr": "Sa'd b. Muâz'ın hükmü uygulandı",
+        "en": "Sa'd ibn Mu'adh's judgment applied"
+      },
+      "location_id": "medine",
+      "links": {
+        "persons": [
+          "sad_b_muaz"
+        ],
+        "tribes": [],
+        "locations": [
+          "medine"
+        ]
+      }
+    },
+    {
+      "id": "pb_mute",
+      "battle_id": "gazve_mute",
+      "name": {
+        "tr": "Mûte Savaşı",
+        "en": "Battle of Mu'tah"
+      },
+      "date_ce": 629,
+      "date_hijri": "8 (Cemâziyelûlâ)",
+      "prophet_role": {
+        "tr": "Komuta etmedi; üç komutanı sırasıyla tayin etti. Savaş sonucunu vahiyle ashâbına haber verdi.",
+        "en": "Did not command directly; appointed three successive commanders. Reported battle outcome through revelation."
+      },
+      "quran_refs": [],
+      "hadith_refs": [
+        "hds_mute"
+      ],
+      "commander": "Zeyd b. Hârise → Ca'fer b. Ebî Tâlib → Abdullah b. Revâha → Hâlid b. Velîd",
+      "enemy": "Bizans + Gassânîler",
+      "result": {
+        "tr": "Taktik geri çekilme",
+        "en": "Tactical withdrawal"
+      },
+      "location_id": "mute",
+      "links": {
+        "persons": [
+          "zeyd_b_harise",
+          "halid_b_velid"
+        ],
+        "tribes": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "pb_beni_mustaliq",
+      "battle_id": "gazve_beni_mustalik",
+      "name": {
+        "tr": "Benî Mustalikoğulları Gazvesi (Müreysî')",
+        "en": "Expedition against Banu Mustaliq"
+      },
+      "date_ce": 627,
+      "date_hijri": "5 (Şa'bân)",
+      "prophet_role": {
+        "tr": "Baskın saldırısıyla kısa sürede zafere ulaştı. İfk hâdisesi bu gazve dönüşünde yaşandı.",
+        "en": "Quick victory through surprise attack. Ifk (slander) incident occurred on return."
+      },
+      "quran_refs": [
+        {
+          "surah": 24,
+          "ayah": 11,
+          "text_tr": "İfk (iftirâ) olayı bu gazve dönüşünde gerçekleşti."
+        }
+      ],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Benî Mustalık",
+      "result": {
+        "tr": "Zafer ve esirler",
+        "en": "Victory and captives"
+      },
+      "location_id": "",
+      "links": {
+        "persons": [
+          "aise"
+        ],
+        "tribes": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "pb_taif",
+      "battle_id": "gazve_taif",
+      "name": {
+        "tr": "Tâif Kuşatması",
+        "en": "Siege of Ta'if"
+      },
+      "date_ce": 630,
+      "date_hijri": "8 (Şevvâl)",
+      "prophet_role": {
+        "tr": "Huneyn'den sonra Tâif'i kuşattı (15-20 gün). Mancınık kullandırdı. Fetih gerçekleşmeyince kuşatmayı kaldırdı.",
+        "en": "Besieged Ta'if after Hunayn for 15-20 days, using catapult. Lifted siege when conquest was not achieved."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Sakîf kabilesi",
+      "result": {
+        "tr": "Kuşatma kaldırıldı; Sakîf 1 yıl sonra gelerek İslâm'a girdi",
+        "en": "Siege lifted; Thaqif embraced Islam a year later"
+      },
+      "location_id": "taif",
+      "links": {
+        "persons": [],
+        "tribes": [
+          "sakif"
+        ],
+        "locations": [
+          "taif"
+        ]
+      }
+    },
+    {
+      "id": "pb_hamraul_esed",
+      "battle_id": "gazve_hamra_esed",
+      "name": {
+        "tr": "Hamrâü'l-Esed Gazvesi",
+        "en": "Expedition of Hamra al-Asad"
+      },
+      "date_ce": 625,
+      "date_hijri": "3 (Şevvâl)",
+      "prophet_role": {
+        "tr": "Uhud'un ertesi günü yaralı hâliyle orduyu toplayarak Kureyş'i takibe çıktı; düşmanın geri dönmemesini sağladı.",
+        "en": "Day after Uhud, gathered wounded army to pursue Quraysh, deterring their return."
+      },
+      "quran_refs": [
+        {
+          "surah": 3,
+          "ayah": 172,
+          "text_tr": "Yara aldıktan sonra Allah'ın ve Rasûlü'nün çağrısına uyanlar."
+        }
+      ],
+      "hadith_refs": [],
+      "commander": "Hz. Peygamber",
+      "enemy": "Kureyş (takip)",
+      "result": {
+        "tr": "Kureyş geri dönmedi; moral tazelendi",
+        "en": "Quraysh did not return; morale restored"
+      },
+      "location_id": "",
+      "links": {
+        "persons": [],
+        "tribes": [
+          "kureys"
+        ],
+        "locations": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "recon_ridde_buzaha",
+    "battle_id": "ridde_buzaha",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 27.5,
+        "lng": 43.5
+      },
+      "name": "Büzâha Muharebesi",
+      "modern_location": "Büzâha, Necid"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Yürüyüş",
+      "date_range": "Rebîülevvel 11",
+      "duration": "",
+      "description": "Hâlid Medine'den Necid'e doğru harekete geçti.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Muharebe",
+      "date_range": "Rebîülevvel 11",
+      "duration": "",
+      "description": "Büzâha'da Tuleyha güçleriyle karşılaşma; şiddetli çarpışma.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "Rebîülevvel 11",
+      "duration": "",
+      "description": "Tuleyha kaçtı; Benî Esed ve Gatafân teslim oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâlid b. Velîd",
+      "estimated_troops": 6000,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Tuleyha b. Huveylid",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/254-260",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Kesîr, el-Bidâye, VI/322",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 9,
+      "surah_name": "Tevbe",
+      "ayah_range": "5",
+      "topic": {
+        "tr": "Müşriklerle savaş emri — Ridde savaşlarının temel gerekçesi",
+        "en": "Command to fight polytheists — basis for Ridda wars"
+      },
+      "key_verses": [
+        {
+          "ayah": 5,
+          "topic_tr": "Haram aylar çıkınca müşrikleri öldürün",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_ebubekir_ridde",
+      "topic": "Hz. Ebû Bekir: 'Vallahi zekât için bir deve bağını bile vermekten kaçınırlarsa onlarla savaşırım'",
+      "relevance": "direct",
+      "source": "Buhârî, Zekât; Müslim, Îmân"
+    },
+    {
+      "hadith_id": "hds_ridde_iman",
+      "topic": "Hz. Peygamber: 'İnsanlarla lâ ilâhe illallah deyinceye kadar savaşmakla emrolundum'",
+      "relevance": "contextual",
+      "source": "Buhârî, Îmân"
+    }
+  ],
+  "impact": {
+    "result": "Tuleyha yenildi ve kaçtı (sonra Müslüman oldu)",
+    "significance": "Hz. Ebû Bekir'in ridde savaşlarındaki ilk büyük zafer. Necid bölgesi yeniden kontrol altına alındı.",
+    "cross_references": [
+      "ridde_yemame"
+    ]
+  },
+  "visualization": {
+    "icon": "ridde",
+    "color": "#FF5722",
+    "priority": "medium"
+  }
+}

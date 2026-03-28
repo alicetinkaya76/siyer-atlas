@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "id": "reconstruction_reci",
+    "battle_id": "seriyye_reci",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-26",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Recî' Vak'ası (Safer 4 AH / Temmuz 625 CE). 10 sahâbîlik keşif/irşad heyeti, Adal ve Kāre kabilelerinin ihanetiyle Hüzeyl kabilesine teslim edildi. Hubeyb b. Adiyy ve Zeyd b. Desine'nin şehadeti. Hubeyb'in çarmıhta namaz kılması ve bedduası meşhurdur."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 22.0,
+        "lng": 40.4
+      },
+      "bbox": {
+        "north": 22.05,
+        "south": 21.95,
+        "east": 40.48,
+        "west": 40.32
+      },
+      "terrain_type": "mountain_valley",
+      "terrain_desc": {
+        "tr": "Recî', Hicaz bölgesinde Mekke-Medîne yolunun batısında, Hüzeyl kabilesi topraklarında bir su kaynağı/mevki. Dağlık ve engebeli arazi, pusu kurmaya elverişli vadiler.",
+        "en": "Rajīʿ is a watering place in the Ḥijāz in Hudhayl territory, west of the Mecca-Medina road. Mountainous, rugged terrain with valleys suitable for ambush."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_reci_su",
+        "name": {
+          "tr": "Recî' Suyu",
+          "en": "Rajīʿ Water Source"
+        },
+        "lat": 22.0,
+        "lng": 40.4,
+        "type": "water_source",
+        "note_tr": "Olayın gerçekleştiği su kaynağı; Hüzeyl topraklarında."
+      },
+      {
+        "id": "lm_tenim_mekke",
+        "name": {
+          "tr": "Ten'îm (Mekke yakını)",
+          "en": "Tanʿīm (near Mecca)"
+        },
+        "lat": 21.45,
+        "lng": 39.82,
+        "type": "reference",
+        "note_tr": "Hubeyb ve Zeyd'in Kureyş'e satılıp götürüldüğü yer."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_reci",
+        "name": {
+          "tr": "Medîne → Recî'",
+          "en": "Medina → Rajīʿ"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 23.2,
+            "lng": 40.0,
+            "label": "Ara konak"
+          },
+          {
+            "lat": 22.0,
+            "lng": 40.4,
+            "label": "Recî'"
+          }
+        ]
+      },
+      {
+        "id": "route_reci_mekke",
+        "name": {
+          "tr": "Recî' → Mekke (esir güzergâhı)",
+          "en": "Rajīʿ → Mecca (captive route)"
+        },
+        "type": "captive_transfer",
+        "waypoints": [
+          {
+            "lat": 22.0,
+            "lng": 40.4,
+            "label": "Recî'"
+          },
+          {
+            "lat": 21.4225,
+            "lng": 39.8262,
+            "label": "Mekke"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Adal ve Kāre kabilelerinin talebi",
+        "en": "Background: Request from ʿAḍal and al-Qāra tribes"
+      },
+      "date_range": {
+        "start": "Safer 4 AH (başı)",
+        "end": "Safer 4 AH"
+      },
+      "duration": "~1 hafta",
+      "description": {
+        "tr": "Adal ve Kāre kabilelerinden bir heyet Hz. Peygamber'e gelerek 'Kabilemizde müslüman olanlar var, bize Kur'ân ve din öğretecek hocalar gönderin' dedi. Hz. Peygamber, 10 kişilik bir heyet gönderdi. Âsım b. Sâbit komutan tayin edildi. Ancak bu talep bir tuzaktı — kabileler Bedir'de yakınlarını kaybeden Hüzeyl (Lihyân kolu) ile anlaşmışlardı.",
+        "en": "A delegation from ʿAḍal and al-Qāra came to the Prophet requesting Qurʾān teachers. The Prophet sent 10 companions under the command of ʿĀṣim b. Thābit. However, this request was a trap — the tribes had conspired with Hudhayl (Liḥyān clan) who had lost relatives at Badr."
+      },
+      "events": [
+        {
+          "id": "E0_1_talep",
+          "name_tr": "Adal-Kāre heyetinin gelişi",
+          "description_tr": "İslam hocası talep ettiler ama tuzak kurmuşlardı."
+        },
+        {
+          "id": "E0_2_heyet_gonderme",
+          "name_tr": "10 kişilik heyetin gönderilmesi",
+          "description_tr": "Âsım b. Sâbit komutasında yola çıktılar."
+        }
+      ]
+    },
+    {
+      "id": "F1_pusu",
+      "order": 1,
+      "name": {
+        "tr": "Recî'de pusu ve çatışma",
+        "en": "Ambush at Rajīʿ and the fight"
+      },
+      "date_range": {
+        "start": "Safer 4 AH",
+        "end": "Safer 4 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Recî' suyuna ulaştıklarında 200 kişilik silahlı Hüzeyl grubu pusu kurmuştu. Sahâbîler kuşatıldı. Âsım b. Sâbit ve 7 sahâbî savaşarak şehit düştü. Âsım şehit olmadan önce 'Allahım! Beni müşriklere teslim etme!' diye dua etti. Şehadetinden sonra Kureyş, Bedir'de öldürdüğü kişilerin intikamı için başını almak istedi, ancak Allah arı sürüsü (debr/eşşebâbîr) göndererek cesedini korudu. Hubeyb b. Adiyy, Zeyd b. Desine ve bir sahâbî daha esir alındı.",
+        "en": "At the Rajīʿ water source, 200 armed Hudhayl fighters had set an ambush. The companions were surrounded. ʿĀṣim b. Thābit and 7 companions fought and were martyred. Before his death, ʿĀṣim prayed: 'O Allah, do not surrender me to the polytheists!' After his martyrdom, Quraysh wanted his head as revenge for Badr, but Allah sent a swarm of bees to protect his body. Khubayb b. ʿAdī, Zayd b. al-Dathinna, and one other were captured."
+      },
+      "events": [
+        {
+          "id": "E1_1_pusu",
+          "name_tr": "200 kişilik Hüzeyl pususu",
+          "description_tr": "10 sahâbî 200 silahlı tarafından kuşatıldı."
+        },
+        {
+          "id": "E1_2_asim_sehadet",
+          "name_tr": "Âsım b. Sâbit'in şehadeti",
+          "description_tr": "Savaşarak şehit oldu; cesedi arılar tarafından korundu."
+        },
+        {
+          "id": "E1_3_esir_alinma",
+          "name_tr": "Hubeyb, Zeyd ve bir sahâbînin esir alınması",
+          "description_tr": "Teslim ol çağrısına mecburen uydular."
+        }
+      ]
+    },
+    {
+      "id": "F2_mekke_esaret",
+      "order": 2,
+      "name": {
+        "tr": "Esirlerin Mekke'ye satılması",
+        "en": "Captives sold to Mecca"
+      },
+      "date_range": {
+        "start": "Safer 4 AH",
+        "end": "Safer-Rebîülevvel 4 AH"
+      },
+      "duration": "Birkaç hafta",
+      "description": {
+        "tr": "Hüzeyl, esirleri Mekke'ye götürüp Kureyş'e sattı. Hubeyb b. Adiyy, Hâris b. Âmir'in oğullarına satıldı (Hubeyb Bedir'de Hâris'i öldürmüştü). Zeyd b. Desine, Safvân b. Ümeyye'ye satıldı. Her ikisi de Ten'îm'de hapsedildi ve idam günleri belirlendi.",
+        "en": "Hudhayl took the captives to Mecca and sold them to Quraysh. Khubayb b. ʿAdī was sold to the sons of al-Ḥārith b. ʿĀmir (Khubayb had killed al-Ḥārith at Badr). Zayd b. al-Dathinna was sold to Ṣafwān b. Umayya. Both were imprisoned at Tanʿīm awaiting execution."
+      },
+      "events": [
+        {
+          "id": "E2_1_satis",
+          "name_tr": "Esirlerin Kureyş'e satılması",
+          "description_tr": "Hubeyb ve Zeyd Mekke'de esir pazarına çıkarıldı."
+        },
+        {
+          "id": "E2_2_hapis",
+          "name_tr": "Hapis ve idam kararı",
+          "description_tr": "Bedir intikamı olarak idam günü belirlendi."
+        }
+      ]
+    },
+    {
+      "id": "F3_hubeyb_sehadet",
+      "order": 3,
+      "name": {
+        "tr": "Hubeyb b. Adiyy'in çarmıhta şehadeti",
+        "en": "Martyrdom of Khubayb b. ʿAdī on the cross"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH",
+        "end": "Rebîülevvel 4 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Hubeyb, idam gününden önce esaretinde iki rekât namaz kıldı — 'İdam öncesi namaz' sünneti buradan gelir. Çarmıha gerilirken Kureyşliler sordu: 'Şimdi senin yerinde Muhammed olsun, sen de evinde otur ister misin?' Hubeyb: 'Vallahi, benim hayatım karşılığında onun ayağına bir diken bile batmasını istemem!' dedi. Bu cevap Ebû Süfyân'ı bile dehşete düşürdü ve 'Muhammed'in ashâbının ona olan sevgisi gibi bir sevgi görmedim' dedi. Hubeyb şehadetinden önce beddua etti: 'Allahım! Onları tek tek say, teker teker helak et, hiçbirini bırakma!' Sonra şehit edildi.",
+        "en": "Before execution, Khubayb prayed two rakʿas in captivity — the tradition of 'pre-execution prayer' originates here. On the cross, Quraysh asked: 'Would you wish Muḥammad were in your place while you sat safely at home?' Khubayb replied: 'By Allah, I would not wish even a thorn to prick his foot in exchange for my life!' Even Abū Sufyān was stunned, saying: 'I have never seen anyone loved as much as Muḥammad's companions love him.' Khubayb made a final supplication and was martyred."
+      },
+      "events": [
+        {
+          "id": "E3_1_namaz",
+          "name_tr": "Hubeyb'in idam öncesi iki rekât namaz kılması",
+          "description_tr": "Bu gelenek Hubeyb'le başladı."
+        },
+        {
+          "id": "E3_2_soru_cevap",
+          "name_tr": "'Muhammed senin yerinde olsun ister misin?' sorusu",
+          "description_tr": "Hubeyb'in 'Ayağına diken bile batmasını istemem!' cevabı."
+        },
+        {
+          "id": "E3_3_sehadet",
+          "name_tr": "Hubeyb'in çarmıhta şehadeti",
+          "description_tr": "Beddua ettikten sonra şehit edildi."
+        }
+      ]
+    },
+    {
+      "id": "F4_zeyd_sehadet",
+      "order": 4,
+      "name": {
+        "tr": "Zeyd b. Desine'nin şehadeti ve sonrası",
+        "en": "Martyrdom of Zayd b. al-Dathinna and aftermath"
+      },
+      "date_range": {
+        "start": "Rebîülevvel 4 AH",
+        "end": "Rebîülevvel 4 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Zeyd b. Desine de aynı gün veya yakın bir tarihte idam edildi. Ona da aynı soru soruldu ve benzer bir cevap verdi. Hz. Peygamber, Mekke'den haberi alınca çok üzüldü. Rivâyete göre Hubeyb'in şehadet anında Hz. Peygamber Medîne'de 'Ve aleykümüs-selâm yâ Hubeyb!' diye karşılık verdi — bunu duyan sahâbîler şaşırdı, sonra haberi öğrendiler. Daha sonra Amr b. Ümeyye ed-Damrî gizli operasyonla Hubeyb'in cesedini çarmıhtan indirdi.",
+        "en": "Zayd b. al-Dathinna was executed the same day or shortly after. Asked the same question, he gave a similar answer. The Prophet was deeply grieved upon receiving the news from Mecca. According to one report, at the moment of Khubayb's death, the Prophet in Medina responded: 'Wa ʿalaykum al-salām yā Khubayb!' — surprising companions who later learned what happened. Later, ʿAmr b. Umayya al-Ḍamrī conducted a covert operation to retrieve Khubayb's body from the cross."
+      },
+      "events": [
+        {
+          "id": "E4_1_zeyd_sehadet",
+          "name_tr": "Zeyd b. Desine'nin şehadeti",
+          "description_tr": "Aynı sadakatle şehit oldu."
+        },
+        {
+          "id": "E4_2_amr_operasyon",
+          "name_tr": "Amr b. Ümeyye'nin gizli operasyonu",
+          "description_tr": "Hubeyb'in cesedini çarmıhtan indirmekle görevlendirildi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "10",
+      "commander": "asim_b_sabit",
+      "commander_name": {
+        "tr": "Âsım b. Sâbit (komutan)",
+        "en": "ʿĀṣim b. Thābit (commander)"
+      },
+      "composition": {
+        "note_tr": "Hubeyb b. Adiyy, Zeyd b. Desine, Mersed b. Ebî Mersed, Hâlid b. Bükeyr ve diğerleri."
+      },
+      "equipment": {
+        "note_tr": "Hafif donanım; keşif/irşad heyeti."
+      }
+    },
+    "enemy": {
+      "total": "~200 (Hüzeyl / Lihyân kolu)",
+      "commander_name": {
+        "tr": "Lihyân kabilesi reisleri",
+        "en": "Liḥyān tribal leaders"
+      },
+      "composition": {
+        "huzeyl": {
+          "note_tr": "Lihyân kolu — Bedir intikamı peşindeydi"
+        },
+        "adal_kare": {
+          "note_tr": "Tuzağı kuran kabileler"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Megâzî, Bâbu gazvetü'r-Recî'",
+        "note_tr": "Hubeyb'in şehadeti, namazı ve bedduası en detaylı burada."
+      },
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Seriyyetü'r-Recî'",
+        "note_tr": "Âsım'ın cesedinin arılarla korunması ve esir olayları."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Recî'",
+        "note_tr": "Asker ve düşman sayıları."
+      }
+    ],
+    "hadith": [
+      "hds_reci_hubeyb_namaz",
+      "hds_reci_hubeyb_soru",
+      "hds_reci_asim_arilar"
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Hamidullah",
+        "work": "İslam Peygamberi",
+        "note_tr": "Recî' olayının istihbarat boyutu ve güvenlik dersleri."
+      },
+      {
+        "author": "Hayreddin Karaman",
+        "work": "İslam Hukuku Tarihi",
+        "note_tr": "Elçi dokunulmazlığı ve ihanet hukukî değerlendirmesi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Heyet sayısı",
+        "detail_tr": "Çoğu kaynak 10 derken, bazı rivâyetlerde 6 veya 8 kişi denir.",
+        "resolution_tr": "Buhârî'nin 10 rakamı tercih edildi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "169",
+      "phase_id": "F3_hubeyb_sehadet",
+      "topic": {
+        "tr": "Şehitlerin Allah katında diri olması (Bi'r-i Maûne ile paylaşılan bağlam)",
+        "en": "Martyrs being alive with Allah (context shared with Biʾr Maʿūna)"
+      },
+      "key_verses": [
+        {
+          "ayah": 169,
+          "topic_tr": "Allah yolunda öldürülenleri ölü sanmayın; bilakis Rableri katında diridirler",
+          "phase_id": "F3_hubeyb_sehadet",
+          "esbab_id": "en_aliimran_3_169"
+        }
+      ],
+      "nuzul_context_tr": "Bi'r-i Maûne ve Recî' şehitleri bağlamında nâzil olduğu rivâyet edilir."
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_ref": "Buhârî, Megâzî, 10; Ebû Dâvûd",
+      "phase_id": "F3_hubeyb_sehadet",
+      "topic": {
+        "tr": "Hubeyb'in idam öncesi iki rekât namaz kılması",
+        "en": "Khubayb's two-rakʿa prayer before execution"
+      },
+      "hadith_id": "hds_reci_hubeyb_namaz",
+      "db_status": "new",
+      "db_id": "hds_reci_hubeyb_namaz"
+    },
+    {
+      "hadith_ref": "Buhârî, Megâzî; İbn Hişâm",
+      "phase_id": "F3_hubeyb_sehadet",
+      "topic": {
+        "tr": "'Muhammed senin yerinde olsun ister misin?' sorusu ve Hubeyb'in cevabı",
+        "en": "'Would you wish Muhammad in your place?' — Khubayb's answer"
+      },
+      "hadith_id": "hds_reci_hubeyb_soru",
+      "db_status": "new",
+      "db_id": "hds_reci_hubeyb_soru"
+    },
+    {
+      "hadith_ref": "İbn Hişâm, es-Sîre; Ebû Hüreyre rivâyeti",
+      "phase_id": "F1_pusu",
+      "topic": {
+        "tr": "Âsım b. Sâbit'in cesedinin arı sürüsüyle korunması",
+        "en": "ʿĀṣim b. Thābit's body protected by a swarm of bees"
+      },
+      "hadith_id": "hds_reci_asim_arilar",
+      "db_status": "new",
+      "db_id": "hds_reci_asim_arilar"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "10 kişilik kayıp sayısal olarak küçük ama stratejik istihbarat açısından önemli: Hicaz'daki kabile güvenlik yapısının kırılganlığı ortaya çıktı.",
+      "en": "The loss of 10 was numerically small but strategically significant: it exposed the fragility of tribal security structures in the Ḥijāz."
+    },
+    "political": {
+      "tr": "Hüzeyl / Lihyân'ın ihaneti müslüman-kabile ilişkilerini gerdi. Bu olay, ileride Lihyân Gazvesi'ne (6 AH) zemin hazırladı.",
+      "en": "Hudhayl/Liḥyān treachery strained Muslim-tribal relations. This event set the stage for the later Liḥyān expedition (6 AH)."
+    },
+    "social": {
+      "tr": "Hubeyb'in çarmıhtaki sadakati ve Zeyd'in cevabı, sahâbîlerin Hz. Peygamber'e olan eşsiz bağlılığının simgesi oldu. Ebû Süfyân'ın bile itirafı bunu teyit eder.",
+      "en": "Khubayb's devotion on the cross and Zayd's answer became symbols of the companions' unparalleled loyalty to the Prophet, even acknowledged by Abū Sufyān."
+    },
+    "theological": {
+      "tr": "İdam öncesi namaz kılma sünneti Hubeyb'le başladı. Şehadet anında Allah'a tevekkül, İslam tarihinin en dokunaklı örneklerinden.",
+      "en": "The practice of pre-execution prayer began with Khubayb. His trust in Allah at the moment of martyrdom is one of the most poignant examples in Islamic history."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": 10,
+        "wounded": 0,
+        "note_tr": "7'si çatışmada, 3'ü esir sonrası idam"
+      },
+      "enemy": {
+        "killed": "Birkaç (çatışmada)",
+        "wounded": "Bilinmiyor"
+      }
+    },
+    "treaties": [],
+    "territorial_change": {
+      "tr": "Hüzeyl bölgesinde müslüman nüfuzu zayıfladı; ancak ileride telafi edildi.",
+      "en": "Muslim influence in Hudhayl territory weakened temporarily."
+    },
+    "subsequent_events": [
+      {
+        "id": "evt_lihyan_gazvesi",
+        "name_tr": "Lihyân Gazvesi (6 AH)",
+        "description_tr": "Hz. Peygamber Recî' intikamı için Lihyân üzerine yürüdü."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 11,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_captive": "#FF8F00",
+      "ambush": "#B71C1C",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâh",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_ambush",
+        "name": "Pusu bölgesi",
+        "type": "zone",
+        "default_visible": true
+      },
+      {
+        "id": "layer_phases",
+        "name": "Safhalar",
+        "type": "timeline",
+        "default_visible": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "id": "reconstruction_nihavend",
+    "battle_id": "nihavend",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Nihâvend Muharebesi — Fethu'l-Fütûh (Fetihlerin Fethi). 21 AH / 642 CE. Sâsânî İmparatorluğu'nun son büyük ordusu Nu'mân b. Mukarrin komutasında yenildi. Sâsânî direnci fiilen sona erdi."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 34.19,
+        "lng": 48.39
+      },
+      "bbox": {
+        "north": 34.25,
+        "south": 34.13,
+        "east": 48.45,
+        "west": 48.33
+      },
+      "terrain_type": "mountain_pass",
+      "terrain_desc": {
+        "tr": "Nihâvend, Zagros Dağları'nın batı eteklerinde, Hamedan-İsfahan arasında stratejik geçit. Dağlık arazi Sâsânî savunmasına avantaj sağlıyordu. İslâm ordusu açık ovada savaşmayı tercih etti.",
+        "en": "Nahāvand lies at the western foothills of the Zagros Mountains, a strategic pass between Hamadan and Isfahan. Mountainous terrain favored Sasanian defense. The Muslim army preferred fighting on open plains."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_nihavend_kale",
+        "name": {
+          "tr": "Nihâvend Kalesi",
+          "en": "Nahāvand Fortress"
+        },
+        "lat": 34.19,
+        "lng": 48.39,
+        "type": "fortress",
+        "note_tr": "Sâsânî garnizonu; Fîrûzân'ın karargâhı."
+      },
+      {
+        "id": "lm_zagros_gecidi",
+        "name": {
+          "tr": "Zagros Geçidi",
+          "en": "Zagros Pass"
+        },
+        "lat": 34.22,
+        "lng": 48.42,
+        "type": "mountain_pass",
+        "note_tr": "Sâsânî ordusunun sığındığı dağ geçidi."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_kufe_nihavend",
+        "name": {
+          "tr": "Kûfe → Nihâvend",
+          "en": "Kūfa → Nahāvand"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 32.05,
+            "lng": 44.35,
+            "label": "Kûfe"
+          },
+          {
+            "lat": 33.3,
+            "lng": 46.5,
+            "label": "Hulvân"
+          },
+          {
+            "lat": 34.19,
+            "lng": 48.39,
+            "label": "Nihâvend"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_hazirlik",
+      "order": 0,
+      "name": {
+        "tr": "Sâsânî son seferberlik",
+        "en": "Final Sasanian mobilization"
+      },
+      "date_range": {
+        "start": "21 AH",
+        "end": "21 AH"
+      },
+      "duration": "birkaç hafta",
+      "description": {
+        "tr": "III. Yezdicerd, imparatorluğun son kuvvetlerini Nihâvend'de topladı. Fîrûzân komutasında 100.000+ (abartılı) veya 40.000-60.000 asker. Hz. Ömer Nu'mân b. Mukarrin'i komutan atadı.",
+        "en": "Yazdegerd III gathered the empire's last forces at Nahāvand. Under Fīrūzān's command: 100,000+ (exaggerated) or 40,000-60,000 troops. ʿUmar appointed Nuʿmān b. Muqarrin as commander."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Hz. Ömer'in şûrası",
+          "description_tr": "Medîne'de istişare; büyük sefer kararı."
+        }
+      ]
+    },
+    {
+      "id": "F1_cevirme",
+      "order": 1,
+      "name": {
+        "tr": "İslâm ordusunun çevirme taktiği",
+        "en": "Muslim army's feigned retreat"
+      },
+      "date_range": {
+        "start": "21 AH",
+        "end": "21 AH"
+      },
+      "duration": "2-3 gün",
+      "description": {
+        "tr": "Nu'mân, Sâsânîleri kale ve dağ mevzilerinden çıkarmak için sahte geri çekilme yaptı. Ka'ka' b. Amr'ın birliği pusu kurdu. Sâsânîler kovalamaya çıkınca açık arazide yakalandı.",
+        "en": "Nuʿmān feigned a retreat to draw the Sasanians out of their fortified mountain positions. Qaʿqāʿ b. ʿAmr's unit set an ambush. When the Sasanians pursued, they were caught in open terrain."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Sahte geri çekilme",
+          "description_tr": "Sâsânîleri kale ve dağ mevzilerinden çıkarmak için planlı manevra."
+        }
+      ]
+    },
+    {
+      "id": "F2_muharebe",
+      "order": 2,
+      "name": {
+        "tr": "Kesin muharebe",
+        "en": "Decisive battle"
+      },
+      "date_range": {
+        "start": "21 AH",
+        "end": "21 AH"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Açık arazide yakalanan Sâsânî ordusu kuşatıldı. Nu'mân b. Mukarrin savaş sırasında şehit düştü; kardeşi Nuaym komutalığı devraldı. Fîrûzân kaçarken öldürüldü. Sâsânî direnci kırıldı.",
+        "en": "The Sasanian army caught in open terrain was encircled. Nuʿmān b. Muqarrin was martyred during battle; his brother Nuʿaym took command. Fīrūzān was killed while fleeing. Sasanian resistance was broken."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Nu'mân'ın şehadeti",
+          "description_tr": "Komutan savaş meydanında şehit düştü."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Fîrûzân'ın öldürülmesi",
+          "description_tr": "Sâsânî komutanı kaçarken yakalandı."
+        },
+        {
+          "id": "E2_3",
+          "name_tr": "Fethu'l-Fütûh ilânı",
+          "description_tr": "Hz. Ömer bu zafere 'fetihlerin fethi' adını verdi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~30.000",
+      "commander": "numan_b_mukarrin",
+      "commander_name": {
+        "tr": "Nu'mân b. Mukarrin el-Müzenî",
+        "en": "Nuʿmān b. Muqarrin al-Muzanī"
+      },
+      "composition": {
+        "kufe": {
+          "note_tr": "Kûfe merkezli Irak kuvvetleri"
+        },
+        "basra": {
+          "note_tr": "Basra'dan takviye birlikleri"
+        }
+      },
+      "equipment": {
+        "note_tr": "Kılıç, mızrak, ok; Kâdisiye tecrübesiyle filler karşısında geliştirilmiş taktikler."
+      }
+    },
+    "enemy": {
+      "total": "~40.000-60.000 (kaynaklarda 100.000-150.000)",
+      "commander_name": {
+        "tr": "Fîrûzân",
+        "en": "Fīrūzān"
+      },
+      "composition": {
+        "suvari": {
+          "note_tr": "Sâsânî ağır süvari (son elit kuvvet)"
+        },
+        "daylam": {
+          "note_tr": "Daylam dağlı askerleri"
+        },
+        "filler": {
+          "note_tr": "Az sayıda fil (Kâdisiye'den daha az)"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "IV/120-135",
+        "note_tr": "Detaylı muharebe anlatımı."
+      },
+      {
+        "author": "Belâzürî",
+        "work": "Fütûhu'l-Büldân",
+        "section": "300-310",
+        "note_tr": "Fetih sonrası idari düzenlemeler."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Morony",
+        "work": "Iraq after the Muslim Conquest",
+        "note_tr": "Sâsânî çöküşü analizi."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 22,
+      "surah_name": "Hac",
+      "ayah_range": "39-40",
+      "topic": {
+        "tr": "Zulme uğrayanlara savaş izni verilmesi",
+        "en": "Permission to fight given to those who are wronged"
+      },
+      "key_verses": [
+        {
+          "ayah": 39,
+          "topic_tr": "Kendilerine savaş açılanlara (savaşma) izni verilmiştir",
+          "phase_id": "F2_muharebe"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_kisra_hazineleri",
+      "topic": "Hz. Peygamber'in Kisrâ'nın bileziklerinin Sürâka b. Mâlik'e takılacağı müjdesi — Nihâvend sonrası gerçekleşti",
+      "relevance": "direct",
+      "source": "Beyhakî, Delâilü'n-Nübüvve"
+    },
+    {
+      "hadith_id": "hds_iran_fethi_mustu",
+      "topic": "Hendek kazılırken Hz. Peygamber'in İran fethi müjdesi",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel, Müsned"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Sâsânî düzenli ordusunun son büyük gücü imha edildi. Artık organize direniş kalmadı.",
+      "en": "The last major force of the Sasanian regular army was destroyed. No organized resistance remained."
+    },
+    "political": {
+      "tr": "Sâsânî İmparatorluğu fiilen sona erdi. III. Yezdicerd doğuya kaçtı (sonunda 31 AH'de Merv'de öldürüldü).",
+      "en": "The Sasanian Empire effectively ended. Yazdegerd III fled east (eventually killed at Merv in 31 AH)."
+    },
+    "theological": {
+      "tr": "Hz. Ömer'in 'Fethu'l-Fütûh' adlandırması bu zaferin tarihî önemini gösterir.",
+      "en": "ʿUmar's naming it 'Fatḥ al-Futūḥ' (Conquest of Conquests) shows its historical importance."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "Nu'mân b. Mukarrin + çok sayıda sahâbî",
+        "note_tr": "Komutan dahil ağır kayıplar."
+      },
+      "enemy": {
+        "killed": "~30.000+",
+        "note_tr": "Fîrûzân dahil."
+      }
+    },
+    "subsequent_events": [
+      {
+        "id": "fetih_horasan",
+        "name_tr": "Horasan Fethi",
+        "description_tr": "Nihâvend sonrası İran'ın doğusu açıldı."
+      },
+      {
+        "id": "fetih_azerbaycan",
+        "name_tr": "Azerbaycan Fethi",
+        "description_tr": "Kuzeye yayılma."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "route_march": "#1565C0",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

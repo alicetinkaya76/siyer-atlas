@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "recon_seriyye_nahle",
+    "battle_id": "seriyye_nahle",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": "seriyye_abdullah_cahs"
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.5,
+        "lng": 40.1
+      },
+      "name": "Nahle vadisi",
+      "modern_location": "Nakhla"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görev",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Mekke-Tâif yolunda keşif ve kervan müdahalesi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Receb 2",
+      "duration": "",
+      "description": "Haram ayda çatışma, Amr b. el-Hadramî öldürüldü.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Cahş",
+      "estimated_troops": 12,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, II/252",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Müslüman zaferi",
+    "significance": "",
+    "cross_references": [
+      "seriyye_abdullah_cahs"
+    ]
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#4CAF50",
+    "priority": "low"
+  }
+}

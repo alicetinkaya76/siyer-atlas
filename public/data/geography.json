@@ -1,0 +1,1332 @@
+{
+  "version": "0.15.0",
+  "description": "Siyer coğrafyası — dağlar, vadiler, ovalar, nehirler, çöller",
+  "mountains": [
+    {
+      "id": "geo_uhud",
+      "name": {
+        "ar": "جبل أحد",
+        "tr": "Uhud Dağı",
+        "en": "Mount Uhud"
+      },
+      "lat": 24.5019,
+      "lng": 39.6122,
+      "elevation_m": 1077,
+      "type": "dağ",
+      "description": "Medine'nin kuzeyinde. Uhud Gazvesi burada yapıldı. Hz. Peygamber: 'Uhud bizi sever, biz de Uhud'u severiz.'",
+      "related_events": [
+        "gazve_uhud"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_hira",
+      "name": {
+        "ar": "جبل حراء",
+        "tr": "Hira Dağı (Cebel-i Nûr)",
+        "en": "Mount Hira (Jabal al-Noor)"
+      },
+      "lat": 21.4575,
+      "lng": 39.8581,
+      "elevation_m": 642,
+      "type": "dağ",
+      "description": "Mekke'nin kuzeydoğusunda. İlk vahyin indiği Hira Mağarası burada. Hz. Peygamber burada tefekkür ederdi.",
+      "related_events": [],
+      "quran_refs": [
+        "Alak 96:1-5"
+      ]
+    },
+    {
+      "id": "geo_sevr",
+      "name": {
+        "ar": "جبل ثور",
+        "tr": "Sevr Dağı",
+        "en": "Mount Thawr"
+      },
+      "lat": 21.376,
+      "lng": 39.8485,
+      "elevation_m": 760,
+      "type": "dağ",
+      "description": "Mekke'nin güneyinde. Hicret sırasında Hz. Peygamber ve Hz. Ebû Bekir buradaki mağarada 3 gün gizlendi.",
+      "related_events": [],
+      "quran_refs": [
+        "Tevbe 9:40"
+      ]
+    },
+    {
+      "id": "geo_arafat",
+      "name": {
+        "ar": "جبل عرفات",
+        "tr": "Arafat Dağı (Cebel-i Rahme)",
+        "en": "Mount Arafat"
+      },
+      "lat": 21.3549,
+      "lng": 39.9842,
+      "elevation_m": 454,
+      "type": "dağ",
+      "description": "Mekke'nin güneydoğusunda. Hac'da vakfe yeri. Vedâ Hutbesi burada irad edildi.",
+      "related_events": [],
+      "quran_refs": [
+        "Bakara 2:198"
+      ]
+    },
+    {
+      "id": "geo_eca_selma",
+      "name": {
+        "ar": "جبلا أجأ وسلمى",
+        "tr": "Ecâ ve Selmâ Dağları",
+        "en": "Aja and Salma Mountains"
+      },
+      "lat": 27.5,
+      "lng": 41.7,
+      "elevation_m": 1544,
+      "type": "dağ_silsilesi",
+      "description": "Hâil bölgesinde iki paralel dağ silsilesi. Tayy kabilesinin yurdu. Hâtim et-Tâî burada yaşadı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_serat",
+      "name": {
+        "ar": "جبال السراة",
+        "tr": "Serât Dağları",
+        "en": "Sarawat Mountains"
+      },
+      "lat": 20.0,
+      "lng": 41.5,
+      "elevation_m": 3000,
+      "type": "dağ_silsilesi",
+      "description": "Arabistan yarımadasının batı omurgası. Yemen'den Tâif'e uzanır. 3.000m'ye ulaşır. Hicaz'ın doğal sınırı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ayr",
+      "name": {
+        "ar": "جبل عير",
+        "tr": "Ayr Dağı",
+        "en": "Mount Ayr"
+      },
+      "lat": 24.39,
+      "lng": 39.58,
+      "elevation_m": 955,
+      "type": "dağ",
+      "description": "Medine'nin güneyinde. Uhud ile birlikte Medine Haremi'nin sınırlarını belirler.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_sela",
+      "name": {
+        "ar": "جبل سلع",
+        "tr": "Sel' Dağı",
+        "en": "Mount Sal'"
+      },
+      "lat": 24.475,
+      "lng": 39.605,
+      "elevation_m": 80,
+      "type": "dağ",
+      "description": "Medine içinde küçük dağ. Hendek Gazvesi'nde Hz. Peygamber'in karargâhı buradaydı.",
+      "related_events": [
+        "gazve_hendek"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_rumma",
+      "name": {
+        "ar": "جبال الحجاز",
+        "tr": "Hicaz Dağları",
+        "en": "Hejaz Mountains"
+      },
+      "lat": 24.0,
+      "lng": 39.5,
+      "elevation_m": 2500,
+      "type": "dağ_silsilesi",
+      "description": "Serât silsilesinin kuzey uzantısı. Mekke-Medine arasındaki dağlık arazi. Ticaret yollarının geçtiği bölge.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_sinai",
+      "name": {
+        "ar": "جبل الطور",
+        "tr": "Tûr-i Sînâ (Sinâ Dağı)",
+        "en": "Mount Sinai"
+      },
+      "lat": 28.5394,
+      "lng": 33.9753,
+      "elevation_m": 2285,
+      "type": "dağ",
+      "description": "Hz. Mûsâ'ya vahiy inen kutsal dağ. Kur'ân'da 'et-Tûr' ve 'Tûr-i Sînîn' olarak geçer.",
+      "related_events": [],
+      "quran_refs": [
+        "Tûr 52:1",
+        "Tîn 95:2",
+        "Tâhâ 20:80"
+      ]
+    },
+    {
+      "id": "geo_thabir",
+      "name": {
+        "ar": "جبل ثبير",
+        "tr": "Sebîr Dağı",
+        "en": "Mount Thabir"
+      },
+      "lat": 21.36,
+      "lng": 39.93,
+      "elevation_m": 1300,
+      "type": "dağ",
+      "description": "Mekke yakınında. Câhiliye'de Kurban bayramında güneşin bu dağ üzerinden doğması beklenirdi. 'Eşrik Sebîr' geleneği.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_hira_dag",
+      "name": {
+        "ar": "جبل حراء",
+        "tr": "Hirâ Dağı (Nûr Dağı)",
+        "en": "Mount Hira (Jabal al-Nur)"
+      },
+      "lat": 21.4575,
+      "lng": 39.8583,
+      "elevation_m": 642,
+      "type": "dağ",
+      "description": "Mekke'nin kuzeydoğusunda. Hz. Peygamber'e ilk vahyin geldiği Hirâ mağarası burada. Nûr Dağı olarak da bilinir.",
+      "related_events": [
+        "ilk_vahiy"
+      ],
+      "quran_refs": [
+        "Alak 96:1-5"
+      ]
+    },
+    {
+      "id": "geo_sevr_dag",
+      "name": {
+        "ar": "جبل ثور",
+        "tr": "Sevr Dağı",
+        "en": "Mount Thawr"
+      },
+      "lat": 21.3762,
+      "lng": 39.8131,
+      "elevation_m": 760,
+      "type": "dağ",
+      "description": "Mekke'nin güneyinde. Hz. Peygamber ve Hz. Ebû Bekir hicret sırasında üç gün bu dağdaki mağarada gizlendi.",
+      "related_events": [
+        "hicret_medine",
+        "sevr_magarasi"
+      ],
+      "quran_refs": [
+        "Tevbe 9:40"
+      ]
+    },
+    {
+      "id": "geo_tur_sina",
+      "name": {
+        "ar": "جبل الطور",
+        "tr": "Tûr-i Sînâ",
+        "en": "Mount Sinai"
+      },
+      "lat": 28.5394,
+      "lng": 33.9753,
+      "elevation_m": 2285,
+      "type": "dağ",
+      "description": "Sînâ Yarımadası'nda. Hz. Mûsâ'nın Allah ile konuştuğu yer. Kur'ân'da çokça geçen kutsal dağ.",
+      "related_events": [],
+      "quran_refs": [
+        "Tîn 95:2",
+        "A'râf 7:143",
+        "Tâhâ 20:80"
+      ]
+    },
+    {
+      "id": "geo_arafat_dag",
+      "name": {
+        "ar": "جبل الرحمة",
+        "tr": "Rahmet Tepesi (Arafat)",
+        "en": "Mount of Mercy (Arafat)"
+      },
+      "lat": 21.3554,
+      "lng": 39.9844,
+      "elevation_m": 70,
+      "type": "tepe",
+      "description": "Arafat ovasında küçük tepe. Hz. Peygamber Vedâ Hutbesi'ni burada irad etti. Hac vakfesinin sembolik merkezi.",
+      "related_events": [
+        "veda_hacci"
+      ],
+      "quran_refs": []
+    }
+  ],
+  "valleys": [
+    {
+      "id": "geo_vadi_batha",
+      "name": {
+        "ar": "بطحاء مكة",
+        "tr": "Bathâ Vadisi (Mekke)",
+        "en": "Wadi Batha (Mecca)"
+      },
+      "lat": 21.42,
+      "lng": 39.82,
+      "type": "vadi",
+      "description": "Ka'be'nin içinde bulunduğu Mekke ana vadisi. Kureyş'in yerleşim alanı. İbrâhîm (a.s.): 'Ziraatsiz bir vadide...'",
+      "quran_refs": [
+        "İbrâhîm 14:37"
+      ]
+    },
+    {
+      "id": "geo_vadi_aqiq",
+      "name": {
+        "ar": "وادي العقيق",
+        "tr": "Akîk Vadisi",
+        "en": "Wadi al-Aqiq"
+      },
+      "lat": 24.48,
+      "lng": 39.55,
+      "type": "vadi",
+      "description": "Medine'nin batısında mübarek vadi. Hz. Peygamber burada namaz kılmıştır. Zülhuleyfe mîkâtına yakın.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_muhassar",
+      "name": {
+        "ar": "وادي محسر",
+        "tr": "Muhassir Vadisi",
+        "en": "Wadi Muhassar"
+      },
+      "lat": 21.39,
+      "lng": 39.91,
+      "type": "vadi",
+      "description": "Minâ ile Müzdelife arası. Fil Ashâbı'nın helâk edildiği yer. Hacılar burada hızlı geçer.",
+      "quran_refs": [
+        "Fîl 105:1-5"
+      ]
+    },
+    {
+      "id": "geo_vadi_tuva",
+      "name": {
+        "ar": "وادي طوى",
+        "tr": "Tuvâ Vadisi",
+        "en": "Wadi Tuwa"
+      },
+      "lat": 21.44,
+      "lng": 39.84,
+      "type": "vadi",
+      "description": "Mekke girişinde kutsal vadi. Hz. Peygamber Mekke fethinde burada konakladı.",
+      "quran_refs": [
+        "Nâzi'ât 79:16",
+        "Tâhâ 20:12"
+      ]
+    },
+    {
+      "id": "geo_vadi_hanif",
+      "name": {
+        "ar": "وادي حنين",
+        "tr": "Huneyn Vadisi",
+        "en": "Wadi Hunayn"
+      },
+      "lat": 21.55,
+      "lng": 40.05,
+      "type": "vadi",
+      "description": "Mekke-Tâif arasında. Huneyn Gazvesi burada yapıldı. 'Allah size birçok yerde yardım etti, Huneyn gününde de...'",
+      "quran_refs": [
+        "Tevbe 9:25"
+      ]
+    },
+    {
+      "id": "geo_vadi_nakhl",
+      "name": {
+        "ar": "وادي نخلة",
+        "tr": "Nahle Vadisi",
+        "en": "Wadi Nakhla"
+      },
+      "lat": 21.6,
+      "lng": 40.1,
+      "type": "vadi",
+      "description": "Mekke-Tâif arası. İlk silahlı çatışma (Nahle seriyyesi) burada. Cinlerin Kur'ân dinlediği yer.",
+      "quran_refs": [
+        "Cin 72:1",
+        "Ahkâf 46:29"
+      ]
+    },
+    {
+      "id": "geo_vadi_fatima",
+      "name": {
+        "ar": "وادي فاطمة",
+        "tr": "Fâtıma Vadisi (Merru'z-Zahrân)",
+        "en": "Wadi Fatimah / Marr az-Zahran"
+      },
+      "lat": 21.65,
+      "lng": 39.9,
+      "type": "vadi",
+      "description": "Mekke'ye yakın geniş vadi. Mekke fethi öncesi ordunun konakladığı yer. Ebû Süfyân burada Müslüman oldu.",
+      "related_events": [
+        "fetih_mekke"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_bathan",
+      "name": {
+        "ar": "وادي بطحان",
+        "tr": "Buthân Vadisi",
+        "en": "Wadi Buthan"
+      },
+      "lat": 24.46,
+      "lng": 39.6,
+      "type": "vadi",
+      "description": "Medine'nin batısından geçen ana vadi. Hendek Gazvesi'nde savunma hattının batı sınırını oluşturdu.",
+      "related_events": [
+        "gazve_hendek"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_kura",
+      "name": {
+        "ar": "وادي القرى",
+        "tr": "Vâdilkurâ",
+        "en": "Wadi al-Qura"
+      },
+      "lat": 26.78,
+      "lng": 37.0,
+      "type": "vadi",
+      "description": "Medine-Şam güzergâhında önemli tarım vadisi. Yahudi yerleşimleri vardı. Hayber'den sonra fethedildi.",
+      "related_events": [
+        "fetih_hayber"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_rum",
+      "name": {
+        "ar": "وادي رُم",
+        "tr": "Rum Vadisi",
+        "en": "Wadi Rum"
+      },
+      "lat": 29.5321,
+      "lng": 35.4125,
+      "type": "vadi",
+      "description": "Güney Ürdün'de kum taşı oluşumlu vadi. Şam-Hicaz arası ticaret güzergâhı. Semûd kavmiyle ilişkilendirilen bölge.",
+      "quran_refs": [
+        "Hicr 15:80-84"
+      ]
+    },
+    {
+      "id": "geo_vadi_hanin",
+      "name": {
+        "ar": "وادي حنين",
+        "tr": "Huneyn Vadisi",
+        "en": "Valley of Hunayn"
+      },
+      "lat": 21.47,
+      "lng": 40.35,
+      "type": "vadi",
+      "description": "Mekke-Tâif arası. Huneyn Gazvesi (630) burada yapıldı. Başlangıçta bozgun, ardından zafer.",
+      "related_events": [
+        "gazve_huneyn"
+      ],
+      "quran_refs": [
+        "Tevbe 9:25-26"
+      ]
+    },
+    {
+      "id": "geo_vadi_mina",
+      "name": {
+        "ar": "وادي منى",
+        "tr": "Minâ Vadisi",
+        "en": "Valley of Mina"
+      },
+      "lat": 21.4133,
+      "lng": 39.8933,
+      "type": "vadi",
+      "description": "Mekke ile Arafat arasında. Hac menâsikinin önemli kısmı (cemre atma, kurban) burada yapılır. Akabe bey'atları Minâ'da gerçekleşti.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_numan",
+      "name": {
+        "ar": "وادي نعمان",
+        "tr": "Nu'mân Vadisi",
+        "en": "Wadi Nu'man"
+      },
+      "lat": 21.3,
+      "lng": 40.1,
+      "type": "vadi",
+      "description": "Tâif-Mekke arasında bereketli vadi. Huneyn Gazvesi'nde Hevâzin ordusunun pusu kurduğu bölge.",
+      "related_events": [
+        "gazve_huneyn"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_aqiq",
+      "name": {
+        "ar": "وادي العقيق",
+        "tr": "Akîk Vadisi",
+        "en": "Wadi al-Aqiq"
+      },
+      "lat": 24.52,
+      "lng": 39.55,
+      "type": "vadi",
+      "description": "Medine'nin batısında mübarek vadi. Hz. Peygamber: 'Bu mübarek bir vadidir.' İhram mîkâtı Zülhuleyfe yakınında.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_vadi_tuva",
+      "name": {
+        "ar": "الوادي المقدس طوى",
+        "tr": "Tuvâ Vadisi",
+        "en": "Sacred Valley of Tuwa"
+      },
+      "lat": 21.44,
+      "lng": 39.83,
+      "type": "vadi",
+      "description": "Mekke yakınında mukaddes vadi. Hz. Mûsâ'ya hitap: 'Pabuçlarını çıkar, çünkü sen mukaddes Tuvâ vadisindesin.'",
+      "quran_refs": [
+        "Tâhâ 20:12",
+        "Nâziât 79:16"
+      ]
+    }
+  ],
+  "rivers_water": [
+    {
+      "id": "geo_zemzem",
+      "name": {
+        "ar": "زمزم",
+        "tr": "Zemzem Kuyusu",
+        "en": "Well of Zamzam"
+      },
+      "lat": 21.4226,
+      "lng": 39.8264,
+      "type": "kuyu",
+      "description": "Ka'be'nin 20m doğusunda. Hz. İsmâîl ve Hâcer için mucizevî olarak çıkan su. Abdülmuttalib tarafından yeniden kazıldı.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_nil",
+      "name": {
+        "ar": "النيل",
+        "tr": "Nil Nehri",
+        "en": "Nile River"
+      },
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "type": "nehir",
+      "description": "Dünyanın en uzun nehri. Mısır medeniyetinin kaynağı. Kur'ân'da Hz. Mûsâ kıssasında önemli rol.",
+      "length_km": 6650,
+      "quran_refs": [
+        "Tâhâ 20:39"
+      ]
+    },
+    {
+      "id": "geo_firat",
+      "name": {
+        "ar": "الفرات",
+        "tr": "Fırat Nehri",
+        "en": "Euphrates River"
+      },
+      "lat": 36.2,
+      "lng": 38.0,
+      "type": "nehir",
+      "description": "Mezopotamya'nın iki büyük nehrinden biri. İslâm fetihleri Fırat'ın ötesine ulaştı. Hz. Peygamber hadislerde zikretmiştir.",
+      "length_km": 2800,
+      "quran_refs": []
+    },
+    {
+      "id": "geo_dicle",
+      "name": {
+        "ar": "دجلة",
+        "tr": "Dicle Nehri",
+        "en": "Tigris River"
+      },
+      "lat": 33.3,
+      "lng": 44.4,
+      "type": "nehir",
+      "description": "Mezopotamya'nın ikinci büyük nehri. Bağdat ve Ctesiphon (Medâin) bu nehir kıyısında. Sa'd b. Ebî Vakkâs Irak fethinde Dicle'yi geçti.",
+      "length_km": 1900,
+      "quran_refs": []
+    },
+    {
+      "id": "geo_urdun",
+      "name": {
+        "ar": "نهر الأردن",
+        "tr": "Ürdün Nehri",
+        "en": "Jordan River"
+      },
+      "lat": 31.76,
+      "lng": 35.56,
+      "type": "nehir",
+      "description": "Filistin-Ürdün sınırında. Hz. Îsâ'nın vaftiz edildiği nehir. İslâm fetihleri bu bölgeye ulaştı.",
+      "length_km": 251,
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ceyhun",
+      "name": {
+        "ar": "جيحون / أمو دريا",
+        "tr": "Ceyhun (Amu Derya)",
+        "en": "Amu Darya (Oxus)"
+      },
+      "lat": 37.5,
+      "lng": 65.5,
+      "type": "nehir",
+      "description": "Mâverâünnehir'in güney sınırı. Kuteyb b. Müslim bu nehri geçerek Buhara ve Semerkand'ı fethetti.",
+      "length_km": 2540,
+      "quran_refs": []
+    },
+    {
+      "id": "geo_seyhun",
+      "name": {
+        "ar": "سيحون / سر دريا",
+        "tr": "Seyhun (Sır Derya)",
+        "en": "Syr Darya (Jaxartes)"
+      },
+      "lat": 40.5,
+      "lng": 68.0,
+      "type": "nehir",
+      "description": "Mâverâünnehir'in kuzey sınırı. Fergana vadisinden geçer. İslâm fetihlerin en doğu sınırlarından.",
+      "length_km": 2212,
+      "quran_refs": []
+    },
+    {
+      "id": "geo_bi_r_mâune",
+      "name": {
+        "ar": "بئر معونة",
+        "tr": "Bi'r-i Ma'ûne",
+        "en": "Bi'r Ma'una"
+      },
+      "lat": 24.8,
+      "lng": 40.5,
+      "type": "kuyu",
+      "description": "Medine'nin doğusunda. 70 kurrâ sahâbînin şehit edildiği acı olay (4/625). Ri'l, Zekvân ve Usayya kabilelerinin ihaneti.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_nil",
+      "name": {
+        "ar": "النيل",
+        "tr": "Nil Nehri",
+        "en": "Nile River"
+      },
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "type": "nehir",
+      "description": "Mısır'ın can damarı. Hz. Mûsâ kıssasında önemli. Firavun 'Nil altımdan akıyor' dedi.",
+      "quran_refs": [
+        "Zuhruf 43:51"
+      ]
+    },
+    {
+      "id": "geo_firat",
+      "name": {
+        "ar": "الفرات",
+        "tr": "Fırat Nehri",
+        "en": "Euphrates River"
+      },
+      "lat": 34.8,
+      "lng": 40.8,
+      "type": "nehir",
+      "description": "Mezopotamya'nın batı nehri. Hz. Peygamber Fırat'ın altından altın çıkacağını haber verdi (hadis).",
+      "quran_refs": [
+        "Furkān 25:53"
+      ]
+    },
+    {
+      "id": "geo_dicle",
+      "name": {
+        "ar": "دجلة",
+        "tr": "Dicle Nehri",
+        "en": "Tigris River"
+      },
+      "lat": 33.3,
+      "lng": 44.4,
+      "type": "nehir",
+      "description": "Mezopotamya'nın doğu nehri. Sâsânî başkenti Medâin/Ktesifon kıyısında. Hz. Ömer dönemi fetihleri.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ayn_zubeyde",
+      "name": {
+        "ar": "عين زبيدة",
+        "tr": "Zübeyde Pınarı/Ayn-ı Zübeyde",
+        "en": "Ayn Zubaydah"
+      },
+      "lat": 21.38,
+      "lng": 39.85,
+      "type": "kaynak",
+      "description": "Mekke'ye su taşıyan kanal sistemi. Hârûn er-Reşîd'in eşi Zübeyde tarafından inşa ettirildi. Zemzem dışında Mekke'nin en önemli su kaynağı.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_birel_aris",
+      "name": {
+        "ar": "بئر أريس",
+        "tr": "Erîs Kuyusu",
+        "en": "Bi'r Aris"
+      },
+      "lat": 24.4756,
+      "lng": 39.6134,
+      "type": "kuyu",
+      "description": "Medine'de Kubâ yakınında kuyu. Hz. Peygamber'in yüzüğü bu kuyuya düştü. Hz. Osman döneminde arandı ama bulunamadı.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_seyhan",
+      "name": {
+        "ar": "نهر سيحان",
+        "tr": "Seyhân Nehri",
+        "en": "Seyhan River"
+      },
+      "lat": 37.0,
+      "lng": 35.3,
+      "type": "nehir",
+      "description": "Anadolu'da nehir. Hadiste cennet nehirleri arasında Seyhân ve Ceyhân zikredilir.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ceyhun",
+      "name": {
+        "ar": "نهر جيحون",
+        "tr": "Ceyhûn / Amu Derya",
+        "en": "Oxus / Amu Darya"
+      },
+      "lat": 37.5,
+      "lng": 67.0,
+      "type": "nehir",
+      "description": "Orta Asya'nın büyük nehri. Hadiste cennet nehirleri arasında geçer. Mâverâünnehr bölgesini tanımlayan doğal sınır.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_birel_maune",
+      "name": {
+        "ar": "بئر معونة",
+        "tr": "Bi'r-i Maûne",
+        "en": "Bi'r Ma'una"
+      },
+      "lat": 25.0,
+      "lng": 40.5,
+      "type": "kuyu",
+      "description": "Necid bölgesinde kuyu. 70 kurra sahâbînin pusuya düşürülüp şehit edildiği trajik olay (4 H).",
+      "related_events": [
+        "birel_maune"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_havz_kevser",
+      "name": {
+        "ar": "الحوض",
+        "tr": "Havz-ı Kevser",
+        "en": "Pool of Kawthar"
+      },
+      "lat": 24.47,
+      "lng": 39.61,
+      "type": "kaynak",
+      "description": "Uhrevî/sembolik: Hz. Peygamber'in kıyâmetteki havuzu. 'Ben havzımın başında sizi bekleyeceğim.' Dünyevî karşılığı Medine suları.",
+      "quran_refs": [
+        "Kevser 108:1"
+      ]
+    },
+    {
+      "id": "geo_ayn_tabuk",
+      "name": {
+        "ar": "عين تبوك",
+        "tr": "Tebük Pınarı",
+        "en": "Spring of Tabuk"
+      },
+      "lat": 28.38,
+      "lng": 36.56,
+      "type": "kaynak",
+      "description": "Tebük seferinde ordunun uğradığı pınar. Suyu az iken Hz. Peygamber'in duasıyla çoğaldı rivayeti.",
+      "related_events": [
+        "tebuk"
+      ],
+      "quran_refs": []
+    }
+  ],
+  "deserts_plains": [
+    {
+      "id": "geo_rubulhali",
+      "name": {
+        "ar": "الربع الخالي",
+        "tr": "Rub'ulhâlî (Boş Çeyrek)",
+        "en": "Empty Quarter (Rub' al-Khali)"
+      },
+      "lat": 20.0,
+      "lng": 50.0,
+      "type": "çöl",
+      "description": "Dünyanın en büyük kesintisiz kum çölü. 650.000 km². Arabistan'ın güneydoğusunda. Ticaret yolları bu çölü dolanır.",
+      "area_km2": 650000
+    },
+    {
+      "id": "geo_nefud",
+      "name": {
+        "ar": "صحراء النفود",
+        "tr": "Nefûd Çölü",
+        "en": "An-Nafud Desert"
+      },
+      "lat": 28.5,
+      "lng": 41.0,
+      "type": "çöl",
+      "description": "Kuzey Arabistan'da büyük kum çölü. Kırmızı kum tepeleriyle ünlü. Tayy, Şemmer kabilelerinin alanları bu çölün kenarında.",
+      "area_km2": 103600
+    },
+    {
+      "id": "geo_dahna",
+      "name": {
+        "ar": "الدهناء",
+        "tr": "Dehnâ Çölü",
+        "en": "Ad-Dahna Desert"
+      },
+      "lat": 24.0,
+      "lng": 46.0,
+      "type": "çöl",
+      "description": "Nefûd ve Rub'ulhâlî'yi birbirine bağlayan dar kum şeridi. Necid'in doğu sınırı. Doğu ve batı Arabistan'ı ayırır.",
+      "area_km2": 45000
+    },
+    {
+      "id": "geo_tihame",
+      "name": {
+        "ar": "تهامة",
+        "tr": "Tihâme Ovası",
+        "en": "Tihamah Plain"
+      },
+      "lat": 20.5,
+      "lng": 40.0,
+      "type": "ova",
+      "description": "Kızıldeniz kıyısı boyunca uzanan dar kıyı ovası. Sıcak ve nemli. Mekke bu ovanın iç kısmında yer alır.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_necid_platosu",
+      "name": {
+        "ar": "هضبة نجد",
+        "tr": "Necid Yaylası",
+        "en": "Najd Plateau"
+      },
+      "lat": 24.5,
+      "lng": 44.0,
+      "type": "yayla",
+      "description": "Arabistan'ın orta yaylası. Ortalama 700-1500m yükseklik. Bedevi kabilelerin ana yurdu. Yemâme, Hâil, Riyad bölgelerini kapsar.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_harre",
+      "name": {
+        "ar": "حرة المدينة",
+        "tr": "Harre (Medine Lav Alanı)",
+        "en": "Harrat al-Madinah"
+      },
+      "lat": 24.5,
+      "lng": 39.7,
+      "type": "lav_alanı",
+      "description": "Medine'nin doğu ve batısındaki volkanik lav alanları. Siyah bazalt kayalarla kaplı. Harre Savaşı (63/683) burada yaşandı.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_badiyetus_sam",
+      "name": {
+        "ar": "بادية الشام",
+        "tr": "Şam Çölü (Bâdiyetü'ş-Şâm)",
+        "en": "Syrian Desert"
+      },
+      "lat": 33.0,
+      "lng": 39.0,
+      "type": "çöl",
+      "description": "Suriye, Irak, Ürdün arasında geniş çöl. Gassânîler ve Lahmîler bu çölün kenarında hüküm sürdü.",
+      "area_km2": 500000
+    },
+    {
+      "id": "geo_nefud",
+      "name": {
+        "ar": "النفود",
+        "tr": "Nefûd Çölü",
+        "en": "An-Nafud Desert"
+      },
+      "lat": 28.5,
+      "lng": 41.0,
+      "type": "çöl",
+      "description": "Kuzey Arabistan'da kırmızı kum çölü. 65.000 km². Şam-Necid arası doğal engel. Su'lûk şairlerinin sığınağı.",
+      "area_km2": 65000
+    },
+    {
+      "id": "geo_dahna",
+      "name": {
+        "ar": "الدهناء",
+        "tr": "Dehnâ Çölü",
+        "en": "Ad-Dahna Desert"
+      },
+      "lat": 24.0,
+      "lng": 46.0,
+      "type": "çöl",
+      "description": "Nefûd ile Rub'ulhâlî'yi birleştiren dar kum kuşağı (1200 km). Necid kabilelerinin doğu sınırı.",
+      "area_km2": 45000
+    },
+    {
+      "id": "geo_arafe",
+      "name": {
+        "ar": "عرفة",
+        "tr": "Arafat Ovası",
+        "en": "Plain of Arafat"
+      },
+      "lat": 21.3549,
+      "lng": 39.9841,
+      "type": "ova",
+      "description": "Mekke'nin 20 km doğusunda. Haccın rüknü olan vakfe burada yapılır. Vedâ Hutbesi burada irad edildi.",
+      "related_events": [
+        "veda_hacci"
+      ],
+      "quran_refs": [
+        "Bakara 2:198"
+      ]
+    },
+    {
+      "id": "geo_harre",
+      "name": {
+        "ar": "الحرة",
+        "tr": "Harre (Lav Ovası)",
+        "en": "Harra (Lava Field)"
+      },
+      "lat": 24.55,
+      "lng": 39.65,
+      "type": "lav ovası",
+      "description": "Medine çevresindeki volkanik lav arazileri. Medine'yi doğal savunma hattı olarak korur. Hz. Peygamber 'iki harre arası' diyerek Medine'yi tanımlamıştır.",
+      "quran_refs": []
+    },
+    {
+      "id": "geo_tie",
+      "name": {
+        "ar": "تيه بني إسرائيل",
+        "tr": "Tîh Çölü",
+        "en": "Wilderness of Tih"
+      },
+      "lat": 30.0,
+      "lng": 34.0,
+      "type": "çöl",
+      "description": "Sînâ Yarımadası'nda. Benî İsrâîl'in 40 yıl dolaştığı çöl. 'Kırk yıl yeryüzünde şaşkın dolaşacaklar.'",
+      "area_km2": 20000,
+      "quran_refs": [
+        "Mâide 5:26"
+      ]
+    },
+    {
+      "id": "geo_medyen",
+      "name": {
+        "ar": "أرض مدين",
+        "tr": "Medyen Diyarı",
+        "en": "Land of Midian"
+      },
+      "lat": 28.4,
+      "lng": 36.5,
+      "type": "bölge",
+      "description": "Kuzeybatı Arabistan/Güney Ürdün. Hz. Şuayb'ın kavmi. Hz. Mûsâ Medyen'e sığınıp Şuayb'ın kızıyla evlendi.",
+      "quran_refs": [
+        "A'râf 7:85",
+        "Kasas 28:22-28"
+      ]
+    }
+  ],
+  "mountain_passes": [
+    {
+      "id": "geo_aqaba_pass",
+      "name": {
+        "ar": "عقبة",
+        "tr": "Akabe Geçidi",
+        "en": "Aqaba Pass"
+      },
+      "lat": 21.4167,
+      "lng": 39.8167,
+      "elevation_m": 350,
+      "type": "geçit",
+      "description": "Mina yakınında. Birinci ve İkinci Akabe bey'atlarının yapıldığı yer. Medine Ensârı ile Hz. Peygamber arasındaki tarihi bağın başlangıcı.",
+      "related_events": [
+        "akabe_beyat_1",
+        "akabe_beyat_2"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_thaniyyat_veda",
+      "name": {
+        "ar": "ثنية الوداع",
+        "tr": "Seniyyetü'l-Vedâ",
+        "en": "Thaniyyat al-Wada"
+      },
+      "lat": 24.49,
+      "lng": 39.6,
+      "elevation_m": 450,
+      "type": "geçit",
+      "description": "Medine'nin kuzey girişindeki geçit. Hz. Peygamber hicret sırasında buradan karşılandı. 'Talaa'l-bedru aleynâ' neşidesi burada söylendi.",
+      "related_events": [
+        "hicret"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_shi'b_abi_talib",
+      "name": {
+        "ar": "شعب أبي طالب",
+        "tr": "Ebû Tâlib Geçidi/Mahallesi",
+        "en": "Shi'b Abi Talib"
+      },
+      "lat": 21.4261,
+      "lng": 39.8272,
+      "elevation_m": 310,
+      "type": "geçit",
+      "description": "Mekke'de Benî Hâşim'in 3 yıl (616-619) ambargo altında kuşatıldığı dar vadi/mahalle. Boykot sırasında sahâbîler açlık ve sefalet çekti.",
+      "related_events": [
+        "boykot"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_safa_merve",
+      "name": {
+        "ar": "الصفا والمروة",
+        "tr": "Safâ-Merve",
+        "en": "Safa and Marwa Hills"
+      },
+      "lat": 21.4234,
+      "lng": 39.8265,
+      "type": "geçit",
+      "description": "Ka'be yakınındaki iki tepe arası koşu (sa'y). Hz. Hâcer'in İsmâîl için su araması. Hac ve umre rüknü.",
+      "related_events": [
+        "hac"
+      ],
+      "quran_refs": [
+        "Bakara 2:158"
+      ]
+    },
+    {
+      "id": "geo_senik_mirar",
+      "name": {
+        "ar": "ثنية المِرار",
+        "tr": "Seniyyetü'l-Mirâr",
+        "en": "Thaniyyat al-Mirar"
+      },
+      "lat": 21.65,
+      "lng": 39.55,
+      "type": "geçit",
+      "description": "Hudeybiye yakınındaki geçit. Hz. Peygamber'in devesi Kasvâ burada çöktü, bu işaret olarak yorumlandı.",
+      "related_events": [
+        "hudaybiya"
+      ]
+    },
+    {
+      "id": "geo_senik_veda",
+      "name": {
+        "ar": "ثنية الوداع",
+        "tr": "Seniyyetü'l-Vedâ",
+        "en": "Thaniyyat al-Wada"
+      },
+      "lat": 24.49,
+      "lng": 39.6,
+      "type": "geçit",
+      "description": "Medine'nin kuzey girişindeki geçit. Hicret eden Hz. Peygamber'i Medineliler burada karşıladı. 'Seniyyetü'l-Vedâ üzerinden dolunay doğdu' şarkısı.",
+      "related_events": [
+        "hicret_medine"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_kadid",
+      "name": {
+        "ar": "قُدَيد",
+        "tr": "Kudayd Geçidi",
+        "en": "Qudayd Pass"
+      },
+      "lat": 22.5,
+      "lng": 39.4,
+      "type": "geçit",
+      "description": "Mekke-Medine yolu üzerinde geçit. Ticaret kervanlarının ve askerî seferlerin güzergâhı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_usfan",
+      "name": {
+        "ar": "عُسفان",
+        "tr": "Usfân",
+        "en": "Usfan"
+      },
+      "lat": 21.9,
+      "lng": 39.4,
+      "type": "geçit",
+      "description": "Mekke'nin kuzeybatısında stratejik nokta. Hudeybiye yolculuğunda Hz. Peygamber Usfân'dan geçerek farklı yol tuttu.",
+      "related_events": [
+        "hudaybiya"
+      ],
+      "quran_refs": []
+    }
+  ],
+  "ports_coasts": [
+    {
+      "id": "geo_cidde",
+      "name": {
+        "ar": "جدة",
+        "tr": "Cidde",
+        "en": "Jeddah"
+      },
+      "lat": 21.5433,
+      "lng": 39.1728,
+      "type": "liman",
+      "description": "Kızıldeniz'in en önemli limanı. Mekke'nin dış dünyaya açılan kapısı. Habeşistan muhâcirlerinin geri dönüş noktası. Hz. Havvâ'nın kabri rivayeti.",
+      "related_events": [
+        "habesistan_hicreti_donus"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_sifuelbahr",
+      "name": {
+        "ar": "سيف البحر",
+        "tr": "Sîfü'l-Bahr / el-Îs",
+        "en": "Sif al-Bahr / al-Is"
+      },
+      "lat": 25.0,
+      "lng": 37.3,
+      "type": "liman",
+      "description": "Kızıldeniz sahilinde. Hz. Hamza'nın ilk seriyyesinin hedefi. Kureyş kervanlarının Şam dönüşü sahil güzergâhı.",
+      "related_events": [
+        "seriyye_hamza_siful_bahr"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_aden",
+      "name": {
+        "ar": "عدن",
+        "tr": "Aden",
+        "en": "Aden"
+      },
+      "lat": 12.8,
+      "lng": 45.0283,
+      "type": "liman",
+      "description": "Yemen'in güney ucundaki stratejik liman. Hint Okyanusu-Kızıldeniz bağlantısı. Baharat ve buhur ticaretinin ana çıkış noktası.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ayla",
+      "name": {
+        "ar": "أيلة",
+        "tr": "Eyle (Akabe)",
+        "en": "Ayla (Aqaba)"
+      },
+      "lat": 29.5268,
+      "lng": 35.0078,
+      "type": "liman",
+      "description": "Akabe Körfezi'nin kuzeyinde. Tebük seferi sırasında Hz. Peygamber'le sulh yapan Hristiyan şehri. Şam-Hicaz deniz bağlantısı.",
+      "related_events": [
+        "gazve_tebuk"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_yenbu",
+      "name": {
+        "ar": "ينبع",
+        "tr": "Yenbû",
+        "en": "Yanbu"
+      },
+      "lat": 24.0895,
+      "lng": 38.0618,
+      "type": "liman",
+      "description": "Medine'nin Kızıldeniz limanı. Medine'ye deniz yoluyla ulaşım noktası. Ticaret gemilerinin uğrağı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_suhur",
+      "name": {
+        "ar": "الشُّعَيبة",
+        "tr": "Şuaybe",
+        "en": "Shu'ayba"
+      },
+      "lat": 21.35,
+      "lng": 39.07,
+      "type": "liman",
+      "description": "Mekke'nin eski limanı (Cidde'den önce). İlk Habeşistan hicretinde muhâcirlerin bindiği liman.",
+      "related_events": [
+        "habesistan_hicreti_1"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_zafar",
+      "name": {
+        "ar": "ظفار",
+        "tr": "Zafâr",
+        "en": "Dhofar"
+      },
+      "lat": 17.02,
+      "lng": 54.09,
+      "type": "liman",
+      "description": "Güney Arabistan'da buhur ticaretinin merkezi. Buhur/günlük ağaçları bölgesi. Yemen-Hint deniz yolu.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_aydhab",
+      "name": {
+        "ar": "عيذاب",
+        "tr": "Aydhâb",
+        "en": "Aydhab"
+      },
+      "lat": 22.3,
+      "lng": 36.5,
+      "type": "liman",
+      "description": "Mısır-Hicaz arası Kızıldeniz limanı. Hacıların ve tüccarların kullandığı önemli geçiş noktası. Sudan kıyısında.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_kulzum",
+      "name": {
+        "ar": "القلزم",
+        "tr": "Kulzüm (Süveyş)",
+        "en": "Clysma (Suez)"
+      },
+      "lat": 29.97,
+      "lng": 32.55,
+      "type": "liman",
+      "description": "Kızıldeniz'in kuzey ucunda liman. Mısır-Hicaz deniz ticaretinin başlangıç noktası. Hz. Mûsâ'nın denizi geçtiği yer rivayetleri.",
+      "related_events": [],
+      "quran_refs": [
+        "Bakara 2:50"
+      ]
+    },
+    {
+      "id": "geo_muza",
+      "name": {
+        "ar": "المخا",
+        "tr": "Muha (Mocha)",
+        "en": "Mocha"
+      },
+      "lat": 13.32,
+      "lng": 43.25,
+      "type": "liman",
+      "description": "Yemen'de Kızıldeniz limanı. Baharat ve kahve ticaretinin merkezi. Habeşistan bağlantısı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_ubulla",
+      "name": {
+        "ar": "الأبلة",
+        "tr": "Ubulla",
+        "en": "al-Ubulla"
+      },
+      "lat": 30.5,
+      "lng": 47.8,
+      "type": "liman",
+      "description": "Basra Körfezi'nde Sâsânî limanı. Hint-Arabistan deniz ticaretinin doğu terminali. Hz. Ömer döneminde fethedildi.",
+      "related_events": [],
+      "quran_refs": []
+    }
+  ],
+  "islands": [
+    {
+      "id": "geo_farasan",
+      "name": {
+        "ar": "جزر فرسان",
+        "tr": "Farasân Adaları",
+        "en": "Farasan Islands"
+      },
+      "lat": 16.7,
+      "lng": 41.9,
+      "type": "ada",
+      "description": "Kızıldeniz'de Yemen-Hicaz arası stratejik ada grubu. İnci avcılığı ve deniz ticareti.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_bahreyn",
+      "name": {
+        "ar": "البحرين",
+        "tr": "Bahreyn Adası",
+        "en": "Bahrain Island"
+      },
+      "lat": 26.0667,
+      "lng": 50.5577,
+      "type": "ada",
+      "description": "Basra Körfezi'nde. Abdülkays kabilesinin yurdu. İslâm'ın erken dönemde yayıldığı bölgelerden. İnci ticareti merkezi. Hz. Peygamber mektup gönderdi.",
+      "related_events": [
+        "mektup_bahreyn"
+      ],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_sokotra",
+      "name": {
+        "ar": "سُقُطْرى",
+        "tr": "Sokotra Adası",
+        "en": "Socotra Island"
+      },
+      "lat": 12.5,
+      "lng": 53.87,
+      "type": "ada",
+      "description": "Yemen açıklarında stratejik ada. Hint Okyanusu ticaretinde ara durak. Kadim Arap tüccarların uğrağı. Hristiyan cemaati vardı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_dahlak",
+      "name": {
+        "ar": "دهلك",
+        "tr": "Dahlak Adaları",
+        "en": "Dahlak Archipelago"
+      },
+      "lat": 15.7,
+      "lng": 40.2,
+      "type": "ada",
+      "description": "Kızıldeniz'de Habeşistan açıklarında ada grubu. İnci avcılığı. Hz. Ömer döneminde sürgün yeri olarak kullanıldı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_hormuz",
+      "name": {
+        "ar": "هرمز",
+        "tr": "Hürmüz Adası",
+        "en": "Hormuz Island"
+      },
+      "lat": 27.06,
+      "lng": 56.46,
+      "type": "ada",
+      "description": "Basra Körfezi girişinde stratejik ada. Hint-Arabistan deniz ticaretinde kontrol noktası. İnci ve baharat ticareti.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_kharg",
+      "name": {
+        "ar": "خارك",
+        "tr": "Hark Adası",
+        "en": "Kharg Island"
+      },
+      "lat": 29.23,
+      "lng": 50.33,
+      "type": "ada",
+      "description": "Basra Körfezi'nde. İnci dalışı merkezi. Sâsânî döneminde Hristiyan manastırı vardı.",
+      "related_events": [],
+      "quran_refs": []
+    },
+    {
+      "id": "geo_awal",
+      "name": {
+        "ar": "أوال",
+        "tr": "Avâl (Bahreyn Ana Ada)",
+        "en": "Awal (Bahrain Main Island)"
+      },
+      "lat": 26.07,
+      "lng": 50.55,
+      "type": "ada",
+      "description": "Bahreyn'in ana adası. Hz. Peygamber döneminde Münzir b. Sâvâ'ya mektup gönderildi. İnci dalışı ve ticaret merkezi.",
+      "related_events": [
+        "mektuplar"
+      ],
+      "quran_refs": []
+    }
+  ]
+}

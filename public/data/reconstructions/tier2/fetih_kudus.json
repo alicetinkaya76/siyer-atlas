@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "id": "reconstruction_fetih_kudus",
+    "battle_id": "fetih_kudus",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Kudüs'ün Fethi (Rebîülâhir 16 AH / 637 CE). Hz. Ömer'in bizzat Medine'den gelerek Kudüs'ü teslim alması. Patrik Sophronius yalnızca halifeye teslim olacağını bildirdi. Ömerî Ahidnâme (el-ʿUhdetü'l-ʿÖmeriyye) ile Hıristiyanların hakları güvenceye alındı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.7783,
+        "lng": 35.2354
+      },
+      "bbox": {
+        "north": 31.79,
+        "south": 31.76,
+        "east": 35.25,
+        "west": 35.22
+      },
+      "terrain_type": "fortified_city",
+      "terrain_desc": {
+        "tr": "Kudüs, Yahudiye Dağları üzerinde surlarla çevrili kadim şehir. Doğusunda Zeytin Dağı, batısında Hinnom Vadisi. Mescid-i Aksâ (Harem-i Şerîf) şehrin güneydoğusunda.",
+        "en": "Jerusalem, an ancient walled city atop the Judaean Hills. Mount of Olives to the east, Valley of Hinnom to the west. Al-Masjid al-Aqṣā (Noble Sanctuary) in the southeast."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_mescidi_aksa",
+        "name": {
+          "tr": "Mescid-i Aksâ / Harem-i Şerîf",
+          "en": "Al-Masjid al-Aqṣā / Noble Sanctuary"
+        },
+        "lat": 31.7761,
+        "lng": 35.2354,
+        "type": "religious",
+        "note_tr": "İslâm'ın ilk kıblesi, İsrâ mucizesinin mekânı. Hz. Ömer burada ilk namazı kıldı ve alanı temizletti."
+      },
+      {
+        "id": "lm_zeytin_dagi",
+        "name": {
+          "tr": "Zeytin Dağı (Tûr-i Zeytâ)",
+          "en": "Mount of Olives"
+        },
+        "lat": 31.778,
+        "lng": 35.245,
+        "type": "natural_landmark",
+        "note_tr": "Hz. Ömer'in Kudüs'e yaklaşırken şehri ilk gördüğü tepe. Teslim müzakerelerinin başladığı yer."
+      },
+      {
+        "id": "lm_davud_kapi",
+        "name": {
+          "tr": "Dâvud Kapısı (Bâbü'l-Halîl)",
+          "en": "Jaffa Gate / Bāb al-Khalīl"
+        },
+        "lat": 31.7764,
+        "lng": 35.2285,
+        "type": "gate",
+        "note_tr": "Hz. Ömer'in Kudüs'e girdiği kapılardan biri. Batı yönünde Yafa'ya açılan ana giriş."
+      },
+      {
+        "id": "lm_kilise_kiyame",
+        "name": {
+          "tr": "Kıyâme Kilisesi",
+          "en": "Church of the Holy Sepulchre"
+        },
+        "lat": 31.7785,
+        "lng": 35.2296,
+        "type": "religious",
+        "note_tr": "Sophronius Hz. Ömer'i burada ağırladı. Hz. Ömer namaz vaktinde kilise dışına çıkarak kıldı — Hıristiyanlara saygı gösterisi."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_omer_medine_kudus",
+        "name": {
+          "tr": "Hz. Ömer'in Medine → Kudüs Yolculuğu",
+          "en": "ʿUmar's Journey from Medina to Jerusalem"
+        },
+        "type": "advance",
+        "waypoints": [
+          {
+            "lat": 24.47,
+            "lng": 39.61,
+            "label": "Medine"
+          },
+          {
+            "lat": 29.5,
+            "lng": 35.0,
+            "label": "Eyle (Akabe)"
+          },
+          {
+            "lat": 31.5,
+            "lng": 35.0,
+            "label": "Hebron yakınları"
+          },
+          {
+            "lat": 31.778,
+            "lng": 35.245,
+            "label": "Zeytin Dağı — Kudüs"
+          }
+        ]
+      },
+      {
+        "id": "route_kuşatma_hatti",
+        "name": {
+          "tr": "Kuşatma Hattı",
+          "en": "Siege Line around Jerusalem"
+        },
+        "type": "siege",
+        "waypoints": [
+          {
+            "lat": 31.785,
+            "lng": 35.23,
+            "label": "Kuzey kapı"
+          },
+          {
+            "lat": 31.778,
+            "lng": 35.245,
+            "label": "Doğu — Zeytin Dağı"
+          },
+          {
+            "lat": 31.77,
+            "lng": 35.23,
+            "label": "Güney"
+          },
+          {
+            "lat": 31.778,
+            "lng": 35.22,
+            "label": "Batı — Yafa kapısı"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma Başlangıcı",
+      "date_range": "Rebîülevvel 16 AH / 637 CE",
+      "duration": "~4 ay",
+      "description": "Yermük zaferinden sonra Ebû Ubeyde ve Amr b. Âs Kudüs'ü kuşattı. Şehir güçlü surlarla korunuyordu; halk direndi.",
+      "events": [
+        {
+          "id": "evt_kusatma_baslangic",
+          "name": "Kuşatma başlangıcı",
+          "lat": 31.778,
+          "lng": 35.235,
+          "desc": "Ebû Ubeyde şehri çevirdi; su kaynakları kesilmedi, siviller korundu."
+        },
+        {
+          "id": "evt_teslim_davet",
+          "name": "İslâm'a / sulha davet",
+          "lat": 31.778,
+          "lng": 35.235,
+          "desc": "Ebû Ubeyde üç seçenek sundu: İslâm, cizye, savaş."
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sophronius'un Şartı",
+      "date_range": "Rebîülâhir 16 AH",
+      "duration": "müzakere dönemi",
+      "description": "Patrik Sophronius teslim olmayı kabul etti ancak şehri yalnızca halife Ömer'e bizzat teslim edeceğini bildirdi. Haber Medine'ye gönderildi.",
+      "events": [
+        {
+          "id": "evt_sophronius_sart",
+          "name": "Sophronius'un halife şartı",
+          "lat": 31.778,
+          "lng": 35.235,
+          "desc": "Patrik, teslimi bizzat halife ile görüşerek yapmak istedi."
+        },
+        {
+          "id": "evt_haber_medine",
+          "name": "Medine'ye haber",
+          "lat": 24.47,
+          "lng": 39.61,
+          "desc": "Ebû Ubeyde Hz. Ömer'e mektup gönderdi."
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Hz. Ömer'in Kudüs'e Gelişi",
+      "date_range": "Rebîülâhir 16 AH",
+      "duration": "~2 hafta yolculuk",
+      "description": "Hz. Ömer bir hizmetçisiyle birlikte, nöbetleşe deve sürerek Medine'den Kudüs'e geldi. Mütevazı giyimiyle karşılama heyetini şaşırttı. Zeytin Dağı'ndan şehre baktı.",
+      "events": [
+        {
+          "id": "evt_omer_yolculuk",
+          "name": "Hz. Ömer'in mütevazı yolculuğu",
+          "lat": 29.5,
+          "lng": 35.0,
+          "desc": "Hizmetçisiyle nöbetleşe deve sürdü; sıra hizmetçide iken Kudüs'e ulaştı."
+        },
+        {
+          "id": "evt_omer_zeytin_dagi",
+          "name": "Zeytin Dağı'nda buluşma",
+          "lat": 31.778,
+          "lng": 35.245,
+          "desc": "Hz. Ömer Zeytin Dağı'ndan Kudüs'ü gördü; komutanlarla buluştu."
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "order": 4,
+      "name": "Teslim ve Ömerî Ahdi",
+      "date_range": "Rebîülâhir 16 AH / 637 CE",
+      "duration": "1 gün",
+      "description": "Hz. Ömer Sophronius ile buluştu ve Ömerî Ahidnâme'yi imzaladı: Hıristiyanların can, mal, kilise güvenliği garanti altına alındı; Yahudilere Kudüs'e yerleşme izni verildi. Hz. Ömer Mescid-i Aksâ alanını temizletip ilk namazı kıldı.",
+      "events": [
+        {
+          "id": "evt_ahidname",
+          "name": "Ömerî Ahidnâme imzası",
+          "lat": 31.7785,
+          "lng": 35.2296,
+          "desc": "Hz. Ömer Kıyâme Kilisesi'nde Sophronius ile buluştu; ahidnâme imzalandı."
+        },
+        {
+          "id": "evt_aksa_namaz",
+          "name": "Mescid-i Aksâ'da ilk namaz",
+          "lat": 31.7761,
+          "lng": 35.2354,
+          "desc": "Hz. Ömer Harem-i Şerîf alanını temizletti ve orada ilk namazını kıldı."
+        },
+        {
+          "id": "evt_omer_kilise_disi",
+          "name": "Hz. Ömer'in kilise dışında namaz kılması",
+          "lat": 31.7787,
+          "lng": 35.2293,
+          "desc": "Hz. Ömer namaz vaktinde kilise dışına çıktı — 'İçeride kılsam sonra Müslümanlar kiliseyi mescide çevirir' dedi."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Ömer b. Hattâb (bizzat teslim aldı); Ebû Ubeyde b. Cerrâh (kuşatma komutanı)",
+      "estimated_troops": null,
+      "composition": "Suriye ordusu — Yermük gazileri"
+    },
+    "enemy": {
+      "commander": "Patrik Sophronius (Rum Ortodoks)",
+      "estimated_troops": null,
+      "composition": "Kudüs garnizonu ve şehir halkı"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/609-614",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûhu'l-Büldân, 139-143",
+      "type": "primary"
+    },
+    {
+      "id": "src_3",
+      "text": "İbn Kesîr, el-Bidâye ve'n-Nihâye, VII/55-60",
+      "type": "primary"
+    },
+    {
+      "id": "src_4",
+      "text": "Ya'kūbî, Târîh, II/167",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 17,
+      "surah_name": "İsrâ",
+      "ayah_range": "1",
+      "topic": {
+        "tr": "Mescid-i Aksâ — İsrâ olayının mekânı, 'çevresini mübarek kıldığımız'",
+        "en": "Al-Masjid al-Aqṣā — destination of the Night Journey, 'whose surroundings We have blessed'"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "İsrâ: Mescid-i Harâm'dan Mescid-i Aksâ'ya gece yürüyüşü",
+          "phase_id": "phase_4"
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surah_name": "Mâide",
+      "ayah_range": "21",
+      "topic": {
+        "tr": "Arz-ı Mukaddes kavramı — Mûsâ kavmine: 'Allah'ın size yazdığı kutsal toprağa girin'",
+        "en": "The Holy Land — Moses: 'Enter the Holy Land ordained for you'"
+      },
+      "key_verses": [
+        {
+          "ayah": 21,
+          "topic_tr": "Arz-ı Mukaddes kavramı — Kudüs'ün kutsallığı",
+          "phase_id": "phase_1"
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surah_name": "Enbiyâ",
+      "ayah_range": "105",
+      "topic": {
+        "tr": "Zabûr'da 'Yeryüzüne sâlih kullarım vâris olacaktır' — Kudüs fethi bağlamı",
+        "en": "In the Psalms: 'My righteous servants shall inherit the earth'"
+      },
+      "key_verses": [
+        {
+          "ayah": 105,
+          "topic_tr": "Sâlih kulların mirası — fetih teolojisi bağlamı",
+          "phase_id": "phase_4"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_uc_mescid",
+      "topic": "Hz. Peygamber: 'Üç mescidden başkasına yolculuk yapılmaz: Mescid-i Harâm, Mescid-i Nebevî, Mescid-i Aksâ'",
+      "relevance": "direct",
+      "source": "Buhârî, Fazlü's-Salât, 1; Müslim, Hacc, 511"
+    },
+    {
+      "hadith_id": "hds_isra_mirac",
+      "topic": "İsrâ ve Mi'râc — Hz. Peygamber'in Mescid-i Aksâ'da peygamberlere imamlık yapması",
+      "relevance": "direct",
+      "source": "Buhârî, Salât, 1; Müslim, Îmân, 259"
+    },
+    {
+      "hadith_id": "hds_omer_kudus_teslim",
+      "topic": "Hz. Ömer'in Kudüs'e girişi, Mescid-i Aksâ alanını temizletmesi ve ilk namaz",
+      "relevance": "direct",
+      "source": "Taberî, Târîh, III/609 (tarihî rivâyet)"
+    },
+    {
+      "hadith_id": "hds_sam_bereket",
+      "topic": "Hz. Peygamber: 'Allah'ım Şâm'ımızı ve Yemen'imizi mübarek kıl'",
+      "relevance": "contextual",
+      "source": "Buhârî, İstiskā, 3"
+    }
+  ],
+  "impact": {
+    "result": "Barışçıl teslim — Ömerî Ahidnâme",
+    "significance": "İslâm tarihinin en önemli diplomatik zaferlerinden biri. Hz. Ömer'in bizzat gelmesi, mütevazı tutumu ve Hıristiyanlara/Yahudilere verilen güvenceler İslâm hoşgörüsünün simgesi oldu. Mescid-i Aksâ yeniden ibadete açıldı.",
+    "cross_references": [
+      "yermuk",
+      "fetih_dimask",
+      "fetih_fihl"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#FFD700",
+    "priority": "high"
+  }
+}

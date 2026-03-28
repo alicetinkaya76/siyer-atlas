@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF6E3"/>
+      <stop offset="100%" stop-color="#F5E6C8"/>
+    </linearGradient>
+    <pattern id="sand" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#E8D5B0"/>
+      <circle cx="1" cy="1" r="0.5" fill="#D4C4A0" opacity="0.5"/>
+      <circle cx="4" cy="4" r="0.5" fill="#D4C4A0" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#bg3)" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#3D2B1F">Medîne Çarşısı (Sûku'l-Menâha) — سوق المناخة</text>
+  <text x="400" y="48" text-anchor="middle" font-size="12" fill="#6B4F12">Market Layout of Prophetic Medina — Schematic Plan</text>
+
+  <!-- Market ground area -->
+  <rect x="100" y="70" width="600" height="380" fill="url(#sand)" stroke="#8B7355" stroke-width="2" rx="5"/>
+
+  <!-- Mescid-i Nebevi reference (top) -->
+  <rect x="280" y="60" width="240" height="30" fill="#4A7C59" rx="3" opacity="0.8"/>
+  <text x="400" y="80" text-anchor="middle" font-size="11" fill="#FFF" font-weight="bold">← Mescid-i Nebevî yönü / المسجد النبوي →</text>
+
+  <!-- Main market street -->
+  <rect x="340" y="95" width="120" height="340" fill="#C4A882" stroke="#8B7355" stroke-width="1" rx="2" opacity="0.6"/>
+  <text x="400" y="115" text-anchor="middle" font-size="10" fill="#5A3E0E" font-weight="bold">Ana Yol</text>
+
+  <!-- Stall sections -->
+  <!-- Left side stalls -->
+  <!-- Silah tüccarları (Weapons) -->
+  <rect x="120" y="100" width="200" height="60" fill="#C44D3E" rx="4" opacity="0.15"/>
+  <rect x="120" y="100" width="200" height="60" fill="none" stroke="#C44D3E" stroke-width="1.5" rx="4"/>
+  <text x="220" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#C44D3E">Silâh Tüccarları</text>
+  <text x="220" y="140" text-anchor="middle" font-size="9" fill="#6B4F12">kılıç, mızrak, zırh — سوق السلاح</text>
+
+  <!-- Kumaş / Tekstil -->
+  <rect x="120" y="175" width="200" height="60" fill="#2E6B8A" rx="4" opacity="0.15"/>
+  <rect x="120" y="175" width="200" height="60" fill="none" stroke="#2E6B8A" stroke-width="1.5" rx="4"/>
+  <text x="220" y="200" text-anchor="middle" font-size="11" font-weight="bold" fill="#2E6B8A">Kumaş ve Elbise</text>
+  <text x="220" y="215" text-anchor="middle" font-size="9" fill="#6B4F12">bezzâzlar, boyacılar — البزّازون</text>
+
+  <!-- Kuyumcular -->
+  <rect x="120" y="250" width="200" height="60" fill="#8B6914" rx="4" opacity="0.15"/>
+  <rect x="120" y="250" width="200" height="60" fill="none" stroke="#8B6914" stroke-width="1.5" rx="4"/>
+  <text x="220" y="275" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B6914">Kuyumcular (Sarrâflar)</text>
+  <text x="220" y="290" text-anchor="middle" font-size="9" fill="#6B4F12">altın, gümüş, sikke — الصيارفة</text>
+
+  <!-- Right side stalls -->
+  <!-- Gıda / Yiyecek -->
+  <rect x="480" y="100" width="200" height="60" fill="#4A7C59" rx="4" opacity="0.15"/>
+  <rect x="480" y="100" width="200" height="60" fill="none" stroke="#4A7C59" stroke-width="1.5" rx="4"/>
+  <text x="580" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A7C59">Gıda Pazarı</text>
+  <text x="580" y="140" text-anchor="middle" font-size="9" fill="#6B4F12">hurma, tahıl, et — سوق الطعام</text>
+
+  <!-- Attarlar -->
+  <rect x="480" y="175" width="200" height="60" fill="#7B4F8A" rx="4" opacity="0.15"/>
+  <rect x="480" y="175" width="200" height="60" fill="none" stroke="#7B4F8A" stroke-width="1.5" rx="4"/>
+  <text x="580" y="200" text-anchor="middle" font-size="11" font-weight="bold" fill="#7B4F8A">Attârlar (Baharat)</text>
+  <text x="580" y="215" text-anchor="middle" font-size="9" fill="#6B4F12">misk, kâfûr, baharat — العطّارون</text>
+
+  <!-- Hayvan pazarı -->
+  <rect x="480" y="250" width="200" height="60" fill="#8B5A2B" rx="4" opacity="0.15"/>
+  <rect x="480" y="250" width="200" height="60" fill="none" stroke="#8B5A2B" stroke-width="1.5" rx="4"/>
+  <text x="580" y="275" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B5A2B">Hayvan Pazarı</text>
+  <text x="580" y="290" text-anchor="middle" font-size="9" fill="#6B4F12">deve, at, davar — سوق الإبل</text>
+
+  <!-- Bottom shared area -->
+  <!-- Demirciler / Bakırcılar -->
+  <rect x="120" y="330" width="260" height="55" fill="#666" rx="4" opacity="0.1"/>
+  <rect x="120" y="330" width="260" height="55" fill="none" stroke="#666" stroke-width="1.5" rx="4"/>
+  <text x="250" y="353" text-anchor="middle" font-size="11" font-weight="bold" fill="#555">Demirciler ve Bakırcılar</text>
+  <text x="250" y="370" text-anchor="middle" font-size="9" fill="#6B4F12">silah tamiri, kap-kacak — الحدّادون</text>
+
+  <!-- Çömlekçiler -->
+  <rect x="420" y="330" width="260" height="55" fill="#B87333" rx="4" opacity="0.1"/>
+  <rect x="420" y="330" width="260" height="55" fill="none" stroke="#B87333" stroke-width="1.5" rx="4"/>
+  <text x="550" y="353" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B5A2B">Çömlekçiler</text>
+  <text x="550" y="370" text-anchor="middle" font-size="9" fill="#6B4F12">testi, küp, destî — الفخّارون</text>
+
+  <!-- Well -->
+  <circle cx="400" cy="280" r="18" fill="#5BA3CF" stroke="#2E6B8A" stroke-width="2" opacity="0.8"/>
+  <text x="400" y="284" text-anchor="middle" font-size="8" fill="#FFF" font-weight="bold">Kuyu</text>
+  <text x="400" y="308" text-anchor="middle" font-size="8" fill="#2E6B8A">بئر</text>
+
+  <!-- Gate indicators -->
+  <rect x="380" y="420" width="40" height="15" fill="#3D2B1F" rx="2"/>
+  <text x="400" y="450" text-anchor="middle" font-size="9" fill="#3D2B1F">Güney Kapısı → Kubâ yolu</text>
+
+  <!-- Prophetic hadith box -->
+  <rect x="100" y="465" width="600" height="40" fill="#FFF8DC" stroke="#D4A574" rx="4"/>
+  <text x="400" y="482" text-anchor="middle" font-size="10" font-weight="bold" fill="#3D2B1F">"Bu sizin çarşınızdır; daraltılmasın ve vergi konulmasın."</text>
+  <text x="400" y="496" text-anchor="middle" font-size="9" fill="#6B4F12">Hz. Peygamber (s.a.v.) — İbn Mâce, Ticârât 40 | "هذا سوقكم فلا يُنتقص ولا يُضربنَّ عليه خراج"</text>
+
+  <text x="790" y="515" text-anchor="end" font-size="8" fill="#999">Dijital Siyer Müzesi v0.6.1 | Kaynak: Semhûdî, Vefâʾü'l-Vefâ; Hamîdullâh, Hz. Peygamber'in Savaşları</text>
+</svg>

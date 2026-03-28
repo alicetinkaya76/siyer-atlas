@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "id": "recon_fetih_zat_savari",
+    "battle_id": "fetih_zat_savari",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.18,
+        "lng": 29.65
+      },
+      "name": "Zâtü's-Sevârî (Direk Savaşı)",
+      "modern_location": "Likya açıkları, Akdeniz"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Karşılaşma",
+      "date_range": "34",
+      "duration": "",
+      "description": "200 Müslüman gemisi 500 Bizans gemisiyle karşılaştı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Yakın Savaş",
+      "date_range": "34",
+      "duration": "",
+      "description": "Gemiler birbirine bağlandı; kara savaşına dönüştü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "34",
+      "duration": "",
+      "description": "İmparator yaralı olarak kaçtı; Müslüman zaferi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Abdullah b. Sa'd b. Ebî Serh",
+      "estimated_troops": 200,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "II. Konstans (Bizans İmparatoru)",
+      "estimated_troops": 500,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, IV/290",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/103",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_deniz_gazisi",
+      "topic": "Deniz gazisi müjdesi",
+      "relevance": "contextual",
+      "source": "Buhârî, Cihâd"
+    }
+  ],
+  "impact": {
+    "result": "Müslüman zaferi",
+    "significance": "İslâm tarihinin ilk büyük deniz muharebesi. Bizans deniz üstünlüğü kırıldı. 'Direk Savaşı' adı gemilerin yakın savaşından gelir.",
+    "cross_references": [
+      "fetih_kıbrıs"
+    ]
+  },
+  "visualization": {
+    "icon": "deniz_savasi",
+    "color": "#00BCD4",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "recon_seriyye_hamza_siful_bahr",
+    "battle_id": "seriyye_hamza_siful_bahr",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": "seriyye_hamza"
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 23.0833,
+        "lng": 39.0833
+      },
+      "name": "Sîfü'l-Bahr (kıyı bölgesi)",
+      "modern_location": "Al-Abwa sahil şeridi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Görev",
+      "date_range": "Ramazan 1",
+      "duration": "",
+      "description": "Mekke-Şam kervan yolu denetimi için gönderildi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sonuç",
+      "date_range": "Ramazan 1",
+      "duration": "",
+      "description": "Cühenî aracılığıyla çatışma olmadan döndü.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hamza b. Abdülmuttalib",
+      "estimated_troops": 30,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Sa'd, et-Tabakât, II/6",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Çatışmasız",
+    "significance": "Kervan yollarının kontrolü stratejisinin ilk uygulaması.",
+    "cross_references": [
+      "seriyye_hamza"
+    ]
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

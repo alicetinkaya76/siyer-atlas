@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "id": "recon_fetih_kuzey_afrika",
+    "battle_id": "fetih_kuzey_afrika",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 35.6781,
+        "lng": 10.0963
+      },
+      "name": "Kuzey Afrika Fetihleri (Tamamlanma)",
+      "modern_location": "Tunus / Kuzey Afrika"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kâhine Direnişi",
+      "date_range": "74",
+      "duration": "",
+      "description": "Berber kraliçesi Kâhine ilk seferde Müslümanları geri püskürttü.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "İkinci Sefer",
+      "date_range": "79",
+      "duration": "",
+      "description": "Hassân ikinci sefer düzenledi; Kâhine yenildi.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Tam Kontrol",
+      "date_range": "79",
+      "duration": "",
+      "description": "Kuzey Afrika tamamen İslâm yönetimine girdi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hassân b. Nu'mân + Mûsâ b. Nusayr",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Kâhine (Berber) / Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbnü'l-Esîr, el-Kâmil, IV/370",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Haldûn, Kitâbü'l-İber",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "28",
+      "topic": {
+        "tr": "Allah Resûlü'nü hidâyet ve hak din ile gönderdi — bütün dinlere üstün kılmak için",
+        "en": "He sent His Messenger with guidance and the religion of truth to prevail"
+      },
+      "key_verses": [
+        {
+          "ayah": 28,
+          "topic_tr": "İslâm'ın Kuzey Afrika'ya yayılması bağlamı",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_magrib_islam",
+      "topic": "Hz. Peygamber: 'Mağrib (batı) halkı kıyamete kadar hak üzere kalacaktır' — rivâyet tartışmalı",
+      "relevance": "contextual",
+      "source": "Müslim, İmâre, 177 (Şam/Mağrib rivâyeti)"
+    }
+  ],
+  "impact": {
+    "result": "Kuzey Afrika tamamıyla fethedildi",
+    "significance": "Berber Kâhine direnişinin kırılması. Kuzey Afrika'nın tamamen İslâm kontrolüne girmesi. Endülüs'e geçiş zemini.",
+    "cross_references": [
+      "fetih_kayrevan",
+      "fetih_endulus"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

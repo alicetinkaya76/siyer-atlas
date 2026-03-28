@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "recon_fetih_trablusgarp",
+    "battle_id": "fetih_trablusgarp",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.9,
+        "lng": 13.18
+      },
+      "name": "Trablusgarp Fethi",
+      "modern_location": "Trablus, Libya"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "23",
+      "duration": "",
+      "description": "Amr batıya ilerledi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "23",
+      "duration": "",
+      "description": "Trablusgarp ele geçirildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Amr b. Âs",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 228",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 61,
+      "surah_name": "Saff",
+      "ayah_range": "9",
+      "topic": {
+        "tr": "Allah, İslâm'ı bütün dinlere üstün kılmak için gönderdi",
+        "en": "God sent His Messenger with guidance and the religion of truth to prevail over all religion"
+      },
+      "key_verses": [
+        {
+          "ayah": 9,
+          "topic_tr": "İslâm'ın yayılma vaadi — fetih motivasyonu",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_magrib_fetih",
+      "topic": "Hz. Ömer döneminde Mağrib fetihlerinin genişlemesi — hadis rivâyet bağlamı",
+      "relevance": "contextual",
+      "source": "Taberî, Târîh (tarihî rivâyet)"
+    }
+  ],
+  "impact": {
+    "result": "Zafer",
+    "significance": "Libya kıyılarının kontrolü.",
+    "cross_references": [
+      "fetih_barka"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

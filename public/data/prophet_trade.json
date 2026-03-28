@@ -1,0 +1,427 @@
+{
+  "version": "0.18.0",
+  "description": "Hz. Peygamber'in ticaret hayatı, iş ahlâkı ve ekonomik prensipleri",
+  "total_entries": 15,
+  "entries": [
+    {
+      "id": "trd_koyun_gutme",
+      "topic": {
+        "tr": "Çobanlık Dönemi",
+        "en": "Shepherding Period"
+      },
+      "period": {
+        "tr": "Çocukluk-gençlik (~8-25 yaş)",
+        "en": "Childhood-youth (~8-25 years)"
+      },
+      "description": {
+        "tr": "Mekkelilerin koyunlarını ücretle güttü. Her peygamberin koyun güttüğünü bildirdi.",
+        "en": "Shepherded sheep of Meccans for wages. Stated every prophet tended sheep."
+      },
+      "hadith_refs": [
+        "hds_koyun_guetme"
+      ],
+      "location_ids": [
+        "mekke"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Emek ve alın teri ile kazanç",
+          "en": "Earning through labor and sweat"
+        }
+      ]
+    },
+    {
+      "id": "trd_ilk_sam_yolculugu",
+      "topic": {
+        "tr": "İlk Şam Yolculuğu (Amcasıyla)",
+        "en": "First Syria Journey (with Uncle)"
+      },
+      "period": {
+        "tr": "~12 yaş (583/584 CE)",
+        "en": "~12 years old (583/584 CE)"
+      },
+      "description": {
+        "tr": "Amcası Ebû Tâlib ile birlikte Şam ticaret kervanına katıldı. Râhip Bahîrâ ile karşılaşma.",
+        "en": "Joined Syria trade caravan with uncle Abu Talib. Encounter with monk Bahira."
+      },
+      "hadith_refs": [],
+      "location_ids": [
+        "mekke",
+        "sam",
+        "busra"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Ticaret eğitiminin erken başlaması",
+          "en": "Early start of trade education"
+        }
+      ]
+    },
+    {
+      "id": "trd_hatice_ortakligi",
+      "topic": {
+        "tr": "Hz. Hatîce ile Ticaret Ortaklığı",
+        "en": "Trade Partnership with Khadija"
+      },
+      "period": {
+        "tr": "~25 yaş (595 CE)",
+        "en": "~25 years old (595 CE)"
+      },
+      "description": {
+        "tr": "Hatîce'nin sermâyesiyle Şam'a ticaret kervanı götürdü. Meysere refakatçi olarak gitti. Olağanüstü kâr elde etti.",
+        "en": "Led trade caravan to Syria with Khadija's capital. Maysara as attendant. Achieved extraordinary profit."
+      },
+      "hadith_refs": [
+        "hds_peygamber_ticaret"
+      ],
+      "location_ids": [
+        "mekke",
+        "sam"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Mudârabe (emek-sermâye ortaklığı)",
+          "en": "Mudaraba (labor-capital partnership)"
+        },
+        {
+          "tr": "Kadın girişimciliği",
+          "en": "Female entrepreneurship"
+        }
+      ]
+    },
+    {
+      "id": "trd_el_emin_unvani",
+      "topic": {
+        "tr": "el-Emîn (Güvenilir) Unvanı",
+        "en": "Al-Amin (The Trustworthy) Title"
+      },
+      "period": {
+        "tr": "Peygamberlik öncesi",
+        "en": "Pre-prophethood"
+      },
+      "description": {
+        "tr": "Ticaret ahlâkı sayesinde Mekkeliler tarafından 'el-Emîn' (güvenilir) olarak anıldı. Ka'be hakemliği de bu güvene dayanır.",
+        "en": "Called 'al-Amin' (trustworthy) by Meccans due to trade ethics. Ka'ba arbitration based on this trust."
+      },
+      "hadith_refs": [],
+      "location_ids": [
+        "mekke"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Dürüstlük ticarette en büyük sermayedir",
+          "en": "Honesty is the greatest capital in trade"
+        }
+      ]
+    },
+    {
+      "id": "trd_medine_pazari",
+      "topic": {
+        "tr": "Medîne Pazarı Kurulması",
+        "en": "Establishment of Medina Market"
+      },
+      "period": {
+        "tr": "Hicret sonrası (622+ CE)",
+        "en": "Post-Hijra (622+ CE)"
+      },
+      "description": {
+        "tr": "Benî Kaynukā' Yahudi pazarına alternatif olarak açık ve vergi/ücret alınmayan bir pazar kurdu.",
+        "en": "Established open market as alternative to Banu Qaynuqa Jewish market — no rent or tax."
+      },
+      "hadith_refs": [],
+      "location_ids": [
+        "medine"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Serbest pazar, tekel karşıtlığı",
+          "en": "Free market, anti-monopoly"
+        },
+        {
+          "tr": "Pazar yeri ücretsizdir",
+          "en": "Marketplace is free"
+        }
+      ]
+    },
+    {
+      "id": "trd_faiz_yasagi",
+      "topic": {
+        "tr": "Faiz (Ribâ) Yasağı",
+        "en": "Prohibition of Interest (Riba)"
+      },
+      "period": {
+        "tr": "Medenî dönem",
+        "en": "Medinan period"
+      },
+      "description": {
+        "tr": "Vedâ Hutbesi'nde tüm câhiliye faizlerini kaldırdı. İlk kaldırdığı Abbâs amcasının faizi.",
+        "en": "Abolished all pre-Islamic interest at Farewell Sermon. First abolished was uncle Abbas's interest."
+      },
+      "hadith_refs": [
+        "hds_veda_hutbesi_hadis"
+      ],
+      "location_ids": [
+        "arafat"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Faiz yasağı — emeksiz kazanç reddi",
+          "en": "Interest prohibition — rejection of unearned income"
+        }
+      ]
+    },
+    {
+      "id": "trd_ticaret_ahlaki",
+      "topic": {
+        "tr": "Ticaret Ahlâkı Prensipleri",
+        "en": "Trade Ethics Principles"
+      },
+      "period": {
+        "tr": "Genel",
+        "en": "General"
+      },
+      "description": {
+        "tr": "Aldatma (gabn), stokçuluk (ihtikar), sahte yemin, malın ayıbını gizleme yasaklanmıştır.",
+        "en": "Fraud, hoarding, false oaths, hiding defects in goods prohibited."
+      },
+      "hadith_refs": [],
+      "location_ids": [],
+      "economic_principles": [
+        {
+          "tr": "Alıcı-satıcı arasında şeffaflık",
+          "en": "Transparency between buyer and seller"
+        },
+        {
+          "tr": "İhtikâr (stokçuluk) yasağı",
+          "en": "Prohibition of hoarding"
+        },
+        {
+          "tr": "Gabn-i fâhiş (aşırı aldatma) yasağı",
+          "en": "Prohibition of excessive fraud"
+        },
+        {
+          "tr": "Müşteriye hile yapmama",
+          "en": "No deception of customers"
+        }
+      ]
+    },
+    {
+      "id": "trd_sadaka_zekat",
+      "topic": {
+        "tr": "Zekât ve Sadaka Sistemi",
+        "en": "Zakat and Charity System"
+      },
+      "period": {
+        "tr": "Hicretin 2. yılı+",
+        "en": "2nd year of Hijra+"
+      },
+      "description": {
+        "tr": "Servetin %2.5'i yıllık zekât olarak fakirlere dağıtılır. Sadaka-i câriye (sürekli sadaka) teşvik edilir.",
+        "en": "2.5% annual wealth tax distributed to poor. Ongoing charity (sadaqah jariyah) encouraged."
+      },
+      "hadith_refs": [
+        "hds_zekat_koprü"
+      ],
+      "location_ids": [
+        "medine"
+      ],
+      "economic_principles": [
+        {
+          "tr": "Servetin dolaşımda kalması",
+          "en": "Keeping wealth in circulation"
+        },
+        {
+          "tr": "Sosyal adâlet mekanizması",
+          "en": "Social justice mechanism"
+        }
+      ]
+    },
+    {
+      "id": "trd_ikinciSam_yolculugu",
+      "topic": {
+        "tr": "İkinci Şam Yolculuğu (Hz. Hatîce adına)",
+        "en": "Second Syria journey (for Khadijah)"
+      },
+      "period": {
+        "tr": "25 yaş civarı",
+        "en": "Around age 25"
+      },
+      "description": {
+        "tr": "Hz. Hatîce'nin sermayesiyle Meysere eşliğinde Şam ticareti. Kârı iki katına çıkardı; el-Emîn güvenilirliği pekişti.",
+        "en": "Traded with Khadijah's capital accompanied by Maysara. Doubled profits; cemented al-Amin reputation."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "location_ids": [
+        "mekke",
+        "sam"
+      ],
+      "links": {
+        "persons": [
+          "hatice"
+        ],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_yemen_ticareti",
+      "topic": {
+        "tr": "Yemen Ticaret Yolu",
+        "en": "Yemen Trade Route"
+      },
+      "period": {
+        "tr": "Gençlik dönemi",
+        "en": "Youth period"
+      },
+      "description": {
+        "tr": "Mekkelilerin kış yolculuğu (rihle-i şitâ) kapsamında Yemen'e ticaret seferleri. Baharat, buhur ve deri ticareti.",
+        "en": "Winter caravan journeys to Yemen for spices, incense, and leather trade."
+      },
+      "quran_refs": [
+        {
+          "surah": 106,
+          "ayah": 2
+        }
+      ],
+      "hadith_refs": [],
+      "location_ids": [
+        "mekke",
+        "yemen"
+      ],
+      "links": {
+        "persons": [],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_ukaz_panayiri",
+      "topic": {
+        "tr": "Ukāz Panayırı",
+        "en": "Ukaz Fair"
+      },
+      "period": {
+        "tr": "Nübüvvet öncesi + sonrası",
+        "en": "Pre and post-prophethood"
+      },
+      "description": {
+        "tr": "Mekke yakınındaki en büyük panayır. Ticaret, şiir, hitâbet yarışmaları. Hz. Peygamber burada da tebliğ yaptı.",
+        "en": "Largest fair near Mecca. Trade, poetry, oratory contests. Prophet also preached here."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "location_ids": [
+        "mekke"
+      ],
+      "links": {
+        "persons": [],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_medine_sufe_fakirlik",
+      "topic": {
+        "tr": "Medîne'de Ehl-i Suffe Ekonomisi",
+        "en": "Economy of Ahl al-Suffah in Medina"
+      },
+      "period": {
+        "tr": "Hicret sonrası",
+        "en": "Post-Hijra"
+      },
+      "description": {
+        "tr": "Mescid-i Nebevî sofasında yaşayan 70-80 fakir sahâbî. Hz. Peygamber onlara yemek ve eğitim sağladı. İslâm'ın ilk vakıf modeli.",
+        "en": "70-80 poor companions living in mosque portico. Prophet provided food and education. Early waqf model."
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "location_ids": [
+        "medine"
+      ],
+      "links": {
+        "persons": [
+          "comp_ebu_hureyre_det"
+        ],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_ganimet_dagitimi",
+      "topic": {
+        "tr": "Ganîmet Dağıtım İlkeleri",
+        "en": "Spoils Distribution Principles"
+      },
+      "period": {
+        "tr": "Bedir'den itibaren",
+        "en": "From Badr onwards"
+      },
+      "description": {
+        "tr": "Beşte bir (humus) devlete, geri kalanı savaşçılara. Atlıya 3, yayaya 1 pay. Enfâl 41 temel düzenleme.",
+        "en": "One-fifth (khumus) to state, rest to fighters. Cavalry 3 shares, infantry 1. Anfal 41 is key ruling."
+      },
+      "quran_refs": [
+        {
+          "surah": 8,
+          "ayah": 41
+        }
+      ],
+      "hadith_refs": [],
+      "location_ids": [],
+      "links": {
+        "persons": [],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_vergi_cizye",
+      "topic": {
+        "tr": "Cizye ve Haraç Sistemi",
+        "en": "Jizya and Kharaj System"
+      },
+      "period": {
+        "tr": "Medîne döneminin sonları",
+        "en": "Late Medina period"
+      },
+      "description": {
+        "tr": "Gayrimüslim tebaadan cizye (kişi vergisi) ve fethedilen topraklardan haraç (arazi vergisi) sistemi. Necrân Hıristiyanları ile ilk cizye anlaşması.",
+        "en": "Jizya (poll tax) from non-Muslim subjects and kharaj (land tax) from conquered lands. First jizya agreement with Najran Christians."
+      },
+      "quran_refs": [
+        {
+          "surah": 9,
+          "ayah": 29
+        }
+      ],
+      "hadith_refs": [],
+      "location_ids": [
+        "medine"
+      ],
+      "links": {
+        "persons": [],
+        "economy_ids": []
+      }
+    },
+    {
+      "id": "trd_ihtikar_yasagi",
+      "topic": {
+        "tr": "İhtikâr (Stokçuluk) Yasağı",
+        "en": "Prohibition of Hoarding"
+      },
+      "period": {
+        "tr": "Medîne dönemi",
+        "en": "Medina period"
+      },
+      "description": {
+        "tr": "Temel gıda maddelerinin fiyat artışı için stoklanması yasaklandı: 'İhtikâr yapan günahkârdır.'",
+        "en": "Hoarding essential goods to inflate prices prohibited: 'The hoarder is a sinner.'"
+      },
+      "quran_refs": [],
+      "hadith_refs": [],
+      "location_ids": [
+        "medine"
+      ],
+      "links": {
+        "persons": [],
+        "economy_ids": []
+      }
+    }
+  ]
+}

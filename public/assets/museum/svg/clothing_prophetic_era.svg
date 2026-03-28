@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf6ef"/><stop offset="100%" stop-color="#f0e8d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#bg6)"/>
+  <text x="350" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Asr-ı Saâdet Giyim Kültürü / Prophetic-Era Clothing</text>
+  <text x="350" y="44" text-anchor="middle" font-size="10" fill="#7f8c8d">ملابس عصر النبوّة</text>
+
+  <!-- 1. RIDÂ (upper garment) -->
+  <g transform="translate(100,200)">
+    <!-- Simplified robe shape -->
+    <path d="M-30,-60 Q0,-70 30,-60 L35,-10 Q30,20 25,50 L-25,50 Q-30,20 -35,-10Z" fill="#E8D5A3" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Sleeves -->
+    <path d="M-30,-55 Q-55,-40 -50,-10" fill="none" stroke="#8B6914" stroke-width="1.5"/>
+    <path d="M30,-55 Q55,-40 50,-10" fill="none" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Fold lines -->
+    <path d="M0,-60 L0,50" fill="none" stroke="#c4a882" stroke-width="0.5" stroke-dasharray="3,2"/>
+    <circle cy="-60" r="8" fill="#E8D5A3" stroke="#8B6914" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(100,280)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#5B2C06">RIDÂ</text>
+    <text y="14" text-anchor="middle" font-size="10" fill="#8B6914">الرِّداء</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Üst örtü / şal</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Omuzlara atılır</text>
+    <text y="58" text-anchor="middle" font-size="7" fill="#7f8c8d">Pamuk veya yün</text>
+  </g>
+
+  <!-- 2. İZÂR (lower garment) -->
+  <g transform="translate(260,200)">
+    <!-- Wrap-around skirt shape -->
+    <path d="M-35,-20 Q0,-25 35,-20 L30,55 Q0,60 -30,55Z" fill="#D5C4A1" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Fold/wrap line -->
+    <path d="M10,-20 Q5,15 8,55" fill="none" stroke="#c4a882" stroke-width="1" stroke-dasharray="3,2"/>
+    <!-- Belt line -->
+    <line x1="-35" y1="-15" x2="35" y2="-15" stroke="#6d5b3e" stroke-width="2"/>
+  </g>
+  <g transform="translate(260,280)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#5B2C06">İZÂR</text>
+    <text y="14" text-anchor="middle" font-size="10" fill="#8B6914">الإزار</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Alt peştamal</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Bele sarılır</text>
+    <text y="58" text-anchor="middle" font-size="7" fill="#7f8c8d">Topuktan yukarda</text>
+  </g>
+
+  <!-- 3. İMÂME (turban) -->
+  <g transform="translate(420,180)">
+    <!-- Turban wrapped layers -->
+    <ellipse rx="30" ry="20" fill="#F5E6C8" stroke="#8B6914" stroke-width="1.5"/>
+    <ellipse rx="25" ry="16" fill="#E8D5A3" stroke="#c4a882" stroke-width="0.5"/>
+    <path d="M25,5 Q35,20 30,40 Q28,50 25,55" fill="none" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Wrap spiral lines -->
+    <path d="M-20,-10 Q0,-18 20,-10" fill="none" stroke="#c4a882" stroke-width="0.5"/>
+    <path d="M-15,0 Q0,-6 15,0" fill="none" stroke="#c4a882" stroke-width="0.5"/>
+  </g>
+  <g transform="translate(420,280)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#5B2C06">İMÂME</text>
+    <text y="14" text-anchor="middle" font-size="10" fill="#8B6914">العِمَامة</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Sarık</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Siyah veya beyaz</text>
+    <text y="58" text-anchor="middle" font-size="7" fill="#7f8c8d">Sarkıtma (azebe) var</text>
+  </g>
+
+  <!-- 4. NA'L (sandal) -->
+  <g transform="translate(580,190)">
+    <!-- Sandal shape -->
+    <path d="M-18,15 Q-22,0 -15,-15 Q0,-22 15,-15 Q22,0 18,15 Q0,20 -18,15Z" fill="#8B6914" stroke="#5B2C06" stroke-width="1.5"/>
+    <!-- Strap -->
+    <path d="M0,-18 L0,5 M-12,10 L0,5 L12,10" fill="none" stroke="#5B2C06" stroke-width="1.5"/>
+    <!-- Second sandal (slightly behind) -->
+    <path d="M12,25 Q8,10 15,-5 Q28,-12 40,-5 Q48,10 44,25 Q28,30 12,25Z" fill="#A0896A" stroke="#6d5b3e" stroke-width="1" opacity="0.7"/>
+  </g>
+  <g transform="translate(580,280)">
+    <text text-anchor="middle" font-size="12" font-weight="bold" fill="#5B2C06">NA'L</text>
+    <text y="14" text-anchor="middle" font-size="10" fill="#8B6914">النَّعْل</text>
+    <text y="30" text-anchor="middle" font-size="8" fill="#5D4E37">Sandalet / nalın</text>
+    <text y="44" text-anchor="middle" font-size="7" fill="#7f8c8d">Deri, iki kayışlı</text>
+    <text y="58" text-anchor="middle" font-size="7" fill="#7f8c8d">Sol ayakla çıkar</text>
+  </g>
+
+  <!-- Separator line -->
+  <line x1="50" y1="375" x2="650" y2="375" stroke="#E8D5A3" stroke-width="1"/>
+
+  <!-- Additional garments row -->
+  <g transform="translate(120,410)">
+    <rect x="-50" y="-15" width="100" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-1" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Kamîs قميص</text>
+    <text y="12" text-anchor="middle" font-size="7" fill="#5D4E37">Gömlek — Hz. Peygamber</text>
+    <text y="24" text-anchor="middle" font-size="7" fill="#7f8c8d">en çok gömlek severdi</text>
+  </g>
+  <g transform="translate(280,410)">
+    <rect x="-50" y="-15" width="100" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-1" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Cübbe جُبّة</text>
+    <text y="12" text-anchor="middle" font-size="7" fill="#5D4E37">Üst giysi / kaftan</text>
+    <text y="24" text-anchor="middle" font-size="7" fill="#7f8c8d">Rum/Kisrâ hediyesi</text>
+  </g>
+  <g transform="translate(440,410)">
+    <rect x="-50" y="-15" width="100" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-1" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Bürde بُردة</text>
+    <text y="12" text-anchor="middle" font-size="7" fill="#5D4E37">Yemen hırkası / şalı</text>
+    <text y="24" text-anchor="middle" font-size="7" fill="#7f8c8d">Ka'b b. Züheyr şiiri</text>
+  </g>
+  <g transform="translate(600,410)">
+    <rect x="-50" y="-15" width="100" height="48" rx="5" fill="#fff" opacity="0.8" stroke="#8B6914"/>
+    <text y="-1" text-anchor="middle" font-size="9" font-weight="bold" fill="#5B2C06">Hâtem خاتَم</text>
+    <text y="12" text-anchor="middle" font-size="7" fill="#5D4E37">Gümüş mühür yüzük</text>
+    <text y="24" text-anchor="middle" font-size="7" fill="#7f8c8d">"محمد رسول الله"</text>
+  </g>
+
+  <!-- Hadis notu -->
+  <g transform="translate(350,475)">
+    <text text-anchor="middle" font-size="8" fill="#7f8c8d" font-style="italic">"En sevdiği renk beyaz idi." — Tirmizî, Libâs 1</text>
+  </g>
+
+  <text x="350" y="495" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #25</text>
+</svg>

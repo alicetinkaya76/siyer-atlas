@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "recon_fetih_kayrevan",
+    "battle_id": "fetih_kayrevan",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 35.6781,
+        "lng": 10.0963
+      },
+      "name": "Kayrevân'ın Kuruluşu",
+      "modern_location": "Kayrevan, Tunus"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Şehir Kurma",
+      "date_range": "50",
+      "duration": "",
+      "description": "Ukbe b. Nâfi' Kayrevân'ı kurdu; cami inşa edildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ukbe b. Nâfi'",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 229",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/450",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_magrib_fethi",
+      "topic": "Hz. Peygamber'in batıya yönelik fetih işaretleri",
+      "relevance": "contextual",
+      "source": "Genel hadis literatürü"
+    }
+  ],
+  "impact": {
+    "result": "Kayrevân garnizon şehri kuruldu",
+    "significance": "Kuzey Afrika'nın İslâm merkezi olarak kurulan garnizon şehir. İslâm'ın Mağrib'e yayılmasının üssü.",
+    "cross_references": [
+      "fetih_ifrıkiye",
+      "fetih_kuzey_afrika"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

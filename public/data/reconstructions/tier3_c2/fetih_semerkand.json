@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_fetih_semerkand",
+    "battle_id": "fetih_semerkand",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 39.65,
+        "lng": 66.96
+      },
+      "name": "Semerkand Fethi",
+      "modern_location": "Semerkand, Özbekistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma",
+      "date_range": "93",
+      "duration": "",
+      "description": "Kuteybe Semerkand'ı kuşattı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Fetih",
+      "date_range": "93",
+      "duration": "",
+      "description": "Semerkand sulh/kuvvetle fethedildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Kuteybe b. Müslim",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, VI/510",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 421",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_maveraunnehir",
+      "topic": "Hz. Peygamber'in Mâverâünnehir bölgesindeki fetihlere dolaylı işareti",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel (zayıf rivâyet — tarihî bağlam)"
+    }
+  ],
+  "impact": {
+    "result": "Fethedildi",
+    "significance": "İpek Yolu'nun en önemli şehirlerinden biri. İslâm kültürünün Orta Asya'daki kalbi olacak.",
+    "cross_references": [
+      "fetih_buhara"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

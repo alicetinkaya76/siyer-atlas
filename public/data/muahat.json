@@ -1,0 +1,149 @@
+[
+  {
+    "muhajir": "ebubekir",
+    "ansar": "harşe_zeyd",
+    "muhajir_name": "Ebû Bekir",
+    "ansar_name": "Hârice b. Zeyd (halîfi)",
+    "note": ""
+  },
+  {
+    "muhajir": "omer",
+    "ansar": "itban_malik",
+    "muhajir_name": "Ömer",
+    "ansar_name": "İtbân b. Mâlik",
+    "note": ""
+  },
+  {
+    "muhajir": "osman",
+    "ansar": "evs_sabit_bedir",
+    "muhajir_name": "Osman",
+    "ansar_name": "Evs b. Sâbit (Neccâr)",
+    "note": ""
+  },
+  {
+    "muhajir": "abdurrahman",
+    "ansar": "sad_rebi",
+    "muhajir_name": "Abdurrahman b. Avf",
+    "ansar_name": "Sa'd b. Rebî'",
+    "note": "Sa'd malının yarısını ve hanımlarından birini teklif etti, Abdurrahman pazarda ticaret yapmayı tercih etti."
+  },
+  {
+    "muhajir": "zubeyr",
+    "ansar": "seleme_abdulasad",
+    "muhajir_name": "Zübeyr b. Avvâm",
+    "ansar_name": "Seleme b. Selâme",
+    "note": ""
+  },
+  {
+    "muhajir": "talha",
+    "ansar": "kab_malik",
+    "muhajir_name": "Talha b. Ubeydullah",
+    "ansar_name": "Ka'b b. Mâlik",
+    "note": ""
+  },
+  {
+    "muhajir": "comp_ebu_ubeyde",
+    "ansar": "comp_sad_b_muaz",
+    "muhajir_name": "Ebû Ubeyde",
+    "ansar_name": "Sa'd b. Muâz",
+    "note": ""
+  },
+  {
+    "muhajir": "comp_mus_ab",
+    "ansar": "comp_ebu_eyyub",
+    "muhajir_name": "Mus'ab b. Umeyr",
+    "ansar_name": "Ebû Eyyûb el-Ensârî",
+    "note": ""
+  },
+  {
+    "muhajir": "ammar_yasir",
+    "ansar": "comp_huzeyfe",
+    "muhajir_name": "Ammâr b. Yâsir",
+    "ansar_name": "Huzeyfe b. Yemân",
+    "note": ""
+  },
+  {
+    "muhajir": "ebu_huzeyfe",
+    "ansar": "abbad_bişr",
+    "muhajir_name": "Ebû Huzeyfe b. Utbe",
+    "ansar_name": "Abbâd b. Bişr",
+    "note": ""
+  },
+  {
+    "muhajir": "bilal",
+    "ansar": "ebu_ruveyha_hasami",
+    "muhajir_name": "Bilâl-i Habeşî",
+    "ansar_name": "Ebû Ruveyha el-Has'amî",
+    "note": "İslâm kardeşliğinin renk ve ırk ayrımı tanımadığının sembolü."
+  },
+  {
+    "muhajir": "comp_salim_mevla",
+    "ansar": "muaz_maiz_bedir",
+    "muhajir_name": "Sâlim (Mevlâ Ebî Huzeyfe)",
+    "ansar_name": "Muâz b. Mâis",
+    "note": ""
+  },
+  {
+    "muhajir": "comp_sad_vakkas",
+    "ansar": "comp_sad_b_ubade",
+    "muhajir_name": "Sa'd b. Ebî Vakkâs",
+    "ansar_name": "Sa'd b. Ubâde (veya halîfi)",
+    "note": ""
+  },
+  {
+    "muhajir": "said_zeyd",
+    "ansar": "comp_ubey_kab",
+    "muhajir_name": "Saîd b. Zeyd",
+    "ansar_name": "Ubeyy b. Ka'b",
+    "note": "İki büyük Kur'ân hâfızı/kâtibi birbirine kardeş yapıldı."
+  },
+  {
+    "muhajir": "ali",
+    "ansar": "peygamber",
+    "muhajir_name": "Hz. Ali",
+    "ansar_name": "Hz. Peygamber (s.a.v.)",
+    "note": "Hz. Peygamber Ali'yi kendine kardeş yaptı."
+  },
+  {
+    "muhajir": "comp_cafer_tayyar",
+    "ansar": "comp_muaz_cebel",
+    "muhajir_name": "Ca'fer b. Ebî Tâlib",
+    "ansar_name": "Muâz b. Cebel",
+    "note": ""
+  },
+  {
+    "muhajir": "hamza",
+    "ansar": "comp_zeyd_harise",
+    "muhajir_name": "Hz. Hamza",
+    "ansar_name": "Zeyd b. Hârise",
+    "note": "Hz. Peygamber'in amcası ve evlatlığı."
+  },
+  {
+    "muhajir": "osman_mazun",
+    "ansar": "comp_ebu_talha",
+    "muhajir_name": "Osman b. Maz'ûn",
+    "ansar_name": "Ebû Talha el-Ensârî",
+    "note": ""
+  },
+  {
+    "muhajir": "habbab_eret",
+    "ansar": "cemil_iyas",
+    "muhajir_name": "Habbâb b. Eret",
+    "ansar_name": "Cemîl b. İyâs",
+    "note": ""
+  },
+  {
+    "muhajir": "ebu_seleme_abdullah",
+    "ansar": "sad_hayseme",
+    "muhajir_name": "Ebû Seleme",
+    "ansar_name": "Sa'd b. Hayseme",
+    "note": ""
+  },
+  {
+    "muhajir": "suheyb_rumi",
+    "ansar": "haris_simme",
+    "muhajir_name": "Suheyb er-Rûmî",
+    "ansar_name": "Hâris b. Sımme",
+    "note": ""
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "recon_kuşatma_konstantiniyye_1",
+    "battle_id": "kuşatma_konstantiniyye_1",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 41.01,
+        "lng": 28.98
+      },
+      "name": "Birinci Konstantiniyye Kuşatması",
+      "modern_location": "İstanbul"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma Başlangıcı",
+      "date_range": "49",
+      "duration": "",
+      "description": "Emevî donanma ve kara ordusu Konstantiniyye önlerinde.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Kuşatma Süreci",
+      "date_range": "49-52",
+      "duration": "",
+      "description": "Birkaç yıl süren kuşatma; Rum ateşi kullanıldı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Geri Çekilme",
+      "date_range": "52",
+      "duration": "",
+      "description": "Ağır kayıplarla çekilme. Ebû Eyyûb el-Ensârî şehit.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Yezîd b. Muâviye + Ebû Eyyûb el-Ensârî",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "IV. Konstantin (Bizans)",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, V/220",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbnü'l-Esîr, el-Kâmil, III/448",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 30,
+      "surah_name": "Rûm",
+      "ayah_range": "2-4",
+      "topic": {
+        "tr": "Rumlar yenildi; yakın bir yerde. Onlar yenilgilerinden sonra galip gelecekler — İslâm-Bizans ilişkilerinin ilâhî perspektifi",
+        "en": "The Romans were defeated in a nearby land; after their defeat they will be victorious — divine perspective on Islam-Byzantine relations"
+      },
+      "key_verses": [
+        {
+          "ayah": 2,
+          "topic_tr": "Rûm Sûresi — Bizans ile ilişkilerin Kur'ânî bağlamı",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_konstantiniyye",
+      "topic": "Hz. Peygamber: 'Konstantiniyye mutlaka fethedilecektir. Onu fetheden komutan ne güzel komutan, onu fetheden ordu ne güzel ordudur'",
+      "relevance": "direct",
+      "source": "Ahmed b. Hanbel, Müsned"
+    },
+    {
+      "hadith_id": "hds_ebu_eyyub",
+      "topic": "Ebû Eyyûb el-Ensârî'nin bu kuşatmada şehit düşmesi — İstanbul'da türbesi",
+      "relevance": "direct",
+      "source": "Tarihî rivâyetler"
+    }
+  ],
+  "impact": {
+    "result": "Kuşatma başarısız — Ebû Eyyûb şehit oldu",
+    "significance": "İlk Konstantiniyye kuşatması. Ebû Eyyûb el-Ensârî (Hz. Peygamber'in ev sahibi) burada vefat etti ve surların dibine defnedildi.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

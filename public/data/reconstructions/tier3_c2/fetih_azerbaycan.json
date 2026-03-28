@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "id": "recon_fetih_azerbaycan",
+    "battle_id": "fetih_azerbaycan",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 38.0,
+        "lng": 46.3
+      },
+      "name": "Azerbaycan Fethi",
+      "modern_location": "Güney Azerbaycan, İran"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "22",
+      "duration": "",
+      "description": "İki kollu ilerleme.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Sulh",
+      "date_range": "22",
+      "duration": "",
+      "description": "Sulh anlaşmasıyla teslim.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Bükeyr b. Abdullah / Utbe b. Ferkad",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "İsfendiyâr",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 326",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Taberî, Târîh, IV/152",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 48,
+      "surah_name": "Fetih",
+      "ayah_range": "20",
+      "topic": {
+        "tr": "Allah size elde edeceğiniz birçok ganîmet vaad etti",
+        "en": "God has promised you much gain that you will acquire"
+      },
+      "key_verses": [
+        {
+          "ayah": 20,
+          "topic_tr": "Fetih müjdesi — gelecek fetihler vaadi",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_sam_iran_fetih",
+      "topic": "Hz. Peygamber'in İran topraklarının fethedileceğine dair müjdesi",
+      "relevance": "contextual",
+      "source": "Müslim, Fiten, 78"
+    }
+  ],
+  "impact": {
+    "result": "Sulh",
+    "significance": "Kafkasya'nın güneyinin İslâm kontrolüne girmesi.",
+    "cross_references": [
+      "nihavend"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

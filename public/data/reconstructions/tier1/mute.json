@@ -1,0 +1,1337 @@
+{
+  "meta": {
+    "id": "reconstruction_mute",
+    "battle_id": "gazve_mute",
+    "version": "1.0.0",
+    "tier": 1,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Mûte Seferi — İslâm tarihinin ilk Bizans ile savaşı (Cumâde'l-Ûlâ 8 AH / Eylül 629). Hz. Peygamber katılmadı; üç komutanı sırasıyla tayin etti: Zeyd b. Hârise → Ca'fer b. Ebî Tâlib → Abdullah b. Revâha. Üçü de şehit oldu. Hâlid b. Velîd'in taktik dehası ile ordu kurtarıldı — 'Seyfullah' lakabı. 3.000 Müslüman vs. ~100.000-200.000 Bizans/Gassân koalisyonu (rakamlar tartışmalı). Arap Yarımadası dışındaki ilk büyük askerî harekât; Şam/Filistin cephesinin açılışı. Bedir/Uhud/Hendek/Hayber/Mekke Fethi/Huneyn şemasıyla tam uyumlu."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.05,
+        "lng": 35.7
+      },
+      "bbox": {
+        "north": 31.25,
+        "south": 30.1,
+        "east": 36.0,
+        "west": 35.4
+      },
+      "terrain_type": "open_plain",
+      "terrain_desc": {
+        "tr": "Mûte, bugünkü Ürdün'ün Kerek vilâyetinde (el-Mezâr bölgesi), Ölüdeniz'in (Lut Gölü) güneydoğusunda bir düzlüktedir. Bölge, Belkā ovalarının güney uzantısıdır; hafif engebeli, kurak step arazisi. Muharebe açık alanda, düz veya hafif eğimli bir ovada gerçekleşti. Bizans ağır süvarisi için elverişli zemin; buna karşın sayıca az olan Müslüman ordusunun manevra alanı kısıtlıydı. Bugün el-Mezâr el-Cenûbî kasabasında üç komutanın türbeleri bulunmaktadır.",
+        "en": "Mu'tah is located in modern Jordan's Kerak Governorate (al-Mazar district), southeast of the Dead Sea. The area is the southern extension of the Balqa plains — gently rolling, arid steppe terrain. The battle took place in open ground on a flat or gently sloping plain. The terrain favored the Byzantine heavy cavalry; conversely, the numerically inferior Muslim force had limited room for maneuver. Today the town of al-Mazar al-Janubi houses the tombs of the three commanders."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_mute_battlefield",
+        "name": {
+          "tr": "Mûte Savaş Alanı",
+          "en": "Mu'tah Battlefield"
+        },
+        "lat": 31.05,
+        "lng": 35.7,
+        "type": "battlefield",
+        "phase_ids": [
+          "F3_zeyd",
+          "F4_cafer",
+          "F5_abdullah_halid"
+        ],
+        "desc_tr": "Ana muharebe alanı. Bugünkü Ürdün Kerek vilâyeti, el-Mezâr el-Cenûbî yakınları. Üç komutanın şehâdet ettiği meydan.",
+        "desc_en": "Main battlefield near modern al-Mazar al-Janubi, Kerak Governorate, Jordan. Site where the three commanders fell."
+      },
+      {
+        "id": "lm_mezar_cenubi",
+        "name": {
+          "tr": "el-Mezâr el-Cenûbî (Türbeler)",
+          "en": "al-Mazar al-Janubi (Shrines)"
+        },
+        "lat": 31.045,
+        "lng": 35.688,
+        "type": "shrine",
+        "phase_ids": [
+          "F3_zeyd",
+          "F4_cafer",
+          "F5_abdullah_halid"
+        ],
+        "desc_tr": "Zeyd b. Hârise, Ca'fer b. Ebî Tâlib (Tayyâr) ve Abdullah b. Revâha'nın makamları/türbeleri. Bugün ziyaret yeri.",
+        "desc_en": "Shrines/maqams of Zayd ibn Haritha, Ja'far ibn Abi Talib (al-Tayyar), and Abdullah ibn Rawaha. Pilgrimage site today."
+      },
+      {
+        "id": "lm_maan",
+        "name": {
+          "tr": "Maân",
+          "en": "Ma'an"
+        },
+        "lat": 30.2,
+        "lng": 35.73,
+        "type": "staging",
+        "phase_ids": [
+          "F2_march"
+        ],
+        "desc_tr": "Medîne'den gelen ordunun Mûte öncesi konakladığı ve düşman kuvvetinin büyüklüğünü öğrendiği mevki. İki gün şûrâ yapıldı.",
+        "desc_en": "Staging point where the army from Medina camped before Mu'tah and learned of the enemy's overwhelming numbers. Two days of consultation (shura) held here."
+      },
+      {
+        "id": "lm_medine_veda",
+        "name": {
+          "tr": "Medîne — Ordunun Uğurlanması",
+          "en": "Medina — Army Send-off"
+        },
+        "lat": 24.467,
+        "lng": 39.611,
+        "type": "departure",
+        "phase_ids": [
+          "F1_preparation"
+        ],
+        "desc_tr": "Hz. Peygamber'in Seniyyetü'l-Vedâ'da orduyu uğurladığı nokta. Üç komutanı sırasıyla tayin etti.",
+        "desc_en": "Where the Prophet bade farewell to the army at Thaniyyat al-Wada'. He appointed the three successive commanders."
+      },
+      {
+        "id": "lm_seniyyetul_veda",
+        "name": {
+          "tr": "Seniyyetü'l-Vedâ",
+          "en": "Thaniyyat al-Wada'"
+        },
+        "lat": 24.49,
+        "lng": 39.6,
+        "type": "departure_point",
+        "phase_ids": [
+          "F1_preparation"
+        ],
+        "desc_tr": "Medîne'nin kuzeyindeki geçit. Sefer ve hicret uğurlamalarının yapıldığı meşhur nokta.",
+        "desc_en": "Mountain pass north of Medina, famous site for farewell ceremonies for expeditions and emigrations."
+      },
+      {
+        "id": "lm_busra",
+        "name": {
+          "tr": "Busrâ (Hedef)",
+          "en": "Bosra (Objective)"
+        },
+        "lat": 32.52,
+        "lng": 36.48,
+        "type": "objective",
+        "phase_ids": [
+          "F0_background"
+        ],
+        "desc_tr": "Gassânî merkezi ve Bizans sınır kalesi. Hâris b. Umeyr'in öldürüldüğü yer yakınları — seferin asıl hedefi.",
+        "desc_en": "Ghassanid capital and Byzantine frontier fortress. Near where Harith ibn Umayr was killed — the original objective of the expedition."
+      },
+      {
+        "id": "lm_elci_cinayet",
+        "name": {
+          "tr": "Elçi Cinayeti Noktası (tahmini)",
+          "en": "Envoy Murder Site (approximate)"
+        },
+        "lat": 31.2,
+        "lng": 35.8,
+        "type": "incident",
+        "phase_ids": [
+          "F0_background"
+        ],
+        "desc_tr": "Hâris b. Umeyr el-Ezdî'nin Gassânî valisi Şurahbîl b. Amr tarafından öldürüldüğü tahmini nokta. Bu cinayet seferin doğrudan sebebidir.",
+        "desc_en": "Approximate site where Harith ibn Umayr al-Azdi was killed by Ghassanid governor Shurahbil ibn Amr. This murder directly triggered the expedition."
+      },
+      {
+        "id": "lm_cafer_turbe",
+        "name": {
+          "tr": "Ca'fer b. Ebî Tâlib Türbesi",
+          "en": "Shrine of Ja'far ibn Abi Talib"
+        },
+        "lat": 31.048,
+        "lng": 35.69,
+        "type": "shrine",
+        "phase_ids": [
+          "F4_cafer"
+        ],
+        "desc_tr": "Ca'fer et-Tayyâr'ın makamı. İki kolunun kesilmesine rağmen sancağı bırakmadığı rivâyet edilir. Hz. Peygamber: 'Allah ona kanatlar verdi, cennette uçuyor' — 'Tayyâr' lakabı.",
+        "desc_en": "Shrine of Ja'far al-Tayyar. He reportedly held the banner even after both arms were severed. The Prophet said: 'God gave him wings; he flies in Paradise' — hence the epithet 'al-Tayyar' (the Flyer)."
+      },
+      {
+        "id": "lm_halid_kanat",
+        "name": {
+          "tr": "Hâlid'in Kanat Değiştirme Noktası (tahmini)",
+          "en": "Khalid's Wing Swap Point (approximate)"
+        },
+        "lat": 31.06,
+        "lng": 35.72,
+        "type": "tactical",
+        "phase_ids": [
+          "F6_withdrawal"
+        ],
+        "desc_tr": "Hâlid b. Velîd'in ertesi gün sağ ve sol kanatları değiştirip arkadan toz bulutları kaldırarak düşmana takviye geldiği izlenimi yarattığı tahmini mevki.",
+        "desc_en": "Approximate position where Khalid ibn al-Walid swapped wings and raised dust clouds from behind to create the impression of reinforcements arriving."
+      },
+      {
+        "id": "lm_oludeniz",
+        "name": {
+          "tr": "Ölüdeniz (Lut Gölü)",
+          "en": "Dead Sea (Sea of Lot)"
+        },
+        "lat": 31.5,
+        "lng": 35.5,
+        "type": "geographic_reference",
+        "phase_ids": [],
+        "desc_tr": "Coğrafi referans noktası. Mûte, Ölüdeniz'in güneydoğusundadır.",
+        "desc_en": "Geographic reference. Mu'tah is located southeast of the Dead Sea."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_mute",
+        "name": {
+          "tr": "Medîne → Maân → Mûte Sefer Güzergâhı",
+          "en": "Medina → Ma'an → Mu'tah Expedition Route"
+        },
+        "type": "march",
+        "distance_km": 1000,
+        "note_tr": "3.000 kişilik ordunun Medîne'den Mûte'ye ~1.000 km'lik yürüyüşü. Şam ticaret yolu (Hicaz-Şam) boyunca kuzeye ilerleme. Maân'da konaklama ve istişare. Yaklaşık 2-3 haftalık yürüyüş.",
+        "note_en": "~1,000 km march of the 3,000-strong army from Medina to Mu'tah. Northward advance along the Hijaz-Damascus trade route. Camping and consultation at Ma'an. Approximately 2-3 weeks march.",
+        "waypoints": [
+          {
+            "lat": 24.467,
+            "lng": 39.611,
+            "label": "Medîne (hareket)"
+          },
+          {
+            "lat": 25.8,
+            "lng": 39.55,
+            "label": "el-Ulâ (konak)"
+          },
+          {
+            "lat": 27.5,
+            "lng": 36.6,
+            "label": "Teymâ yol ayrımı"
+          },
+          {
+            "lat": 28.8,
+            "lng": 36.0,
+            "label": "Tabük bölgesi"
+          },
+          {
+            "lat": 30.2,
+            "lng": 35.73,
+            "label": "Maân (şûrâ)"
+          },
+          {
+            "lat": 31.05,
+            "lng": 35.7,
+            "label": "Mûte (muharebe)"
+          }
+        ]
+      },
+      {
+        "id": "route_mute_medine_donus",
+        "name": {
+          "tr": "Mûte → Medîne Dönüş Güzergâhı",
+          "en": "Mu'tah → Medina Return Route"
+        },
+        "type": "retreat",
+        "distance_km": 1000,
+        "note_tr": "Hâlid b. Velîd komutasında taktik çekilme sonrası Medîne'ye dönüş. Aynı güzergâh. Medîneliler orduyu karşıladığında 'Kaçaklar!' diye bağırdı; Hz. Peygamber onları düzeltti: 'Hayır, dönücüler (kürrâr)!'",
+        "note_en": "Return to Medina after Khalid ibn al-Walid's tactical withdrawal. Same route. When Medinese met the army shouting 'Runaways!', the Prophet corrected them: 'No, returners (kurrar)!'"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Elçi cinayeti, Gassânîler ve Bizans tehdidi",
+        "en": "Background: Envoy murder, Ghassanids, and Byzantine threat"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH öncesi (629 CE başı)",
+      "duration": "~birkaç ay (olayların birikmesi)",
+      "description": {
+        "tr": "Hz. Peygamber, Hudeybiye Antlaşması'ndan (6 AH) sonra çevre devletlere İslâm'a davet mektupları göndermişti. Bu elçilerden biri olan Hâris b. Umeyr el-Ezdî, Busrâ (bugünkü Suriye, Havran bölgesi) valisine gönderilmişti. Ancak Gassânî hükümdarı (veya Busrâ valisi) Şurahbîl b. Amr el-Gassânî, uluslararası teamüllere aykırı olarak elçiyi yakalattı ve öldürttü. Bu, Peygamber döneminde öldürülen tek elçidir ve diplomatik açıdan son derece ağır bir ihlâldir.\n\nGassânîler, Bizans İmparatorluğu'nun Arap sınırında tampon devlet işlevi gören bir Hristiyan Arap hanedanıydı. Şam ve Filistin bölgesinde Bizans'ın vasalı olarak hüküm sürüyorlardı. Elçi cinayeti, dolaylı olarak Bizans otoritesine karşı bir meydan okumayı gerektiriyordu.\n\nHz. Peygamber bu haberi alınca çok öfkelendi ve derhal bir sefer ordusu hazırlanmasını emretti. Bu, İslâm tarihinin Arap Yarımadası dışına ilk büyük askerî harekâtı olacaktı.",
+        "en": "After the Treaty of Hudaybiyya (6 AH), the Prophet had sent letters to surrounding rulers inviting them to Islam. One envoy, Harith ibn Umayr al-Azdi, was sent to the governor of Bosra (modern Syria, Hauran region). However, the Ghassanid ruler (or Bosra governor) Shurahbil ibn Amr al-Ghassani violated international convention by capturing and executing the envoy. This was the only envoy killed in the Prophet's lifetime — an extremely grave diplomatic violation.\n\nThe Ghassanids were a Christian Arab dynasty that served as a buffer state on the Arab frontier of the Byzantine Empire. They ruled as Byzantine vassals in the Syria-Palestine region. The envoy murder implicitly required a challenge to Byzantine authority.\n\nWhen the Prophet received this news, he was deeply angered and immediately ordered the preparation of an expeditionary force. This would be the first major Muslim military operation beyond the Arabian Peninsula."
+      },
+      "key_events": [
+        {
+          "id": "F0_E1",
+          "event": {
+            "tr": "Hz. Peygamber'in çevre hükümdarlara İslâm'a davet mektupları göndermesi (6-7 AH)",
+            "en": "The Prophet's letters of invitation to Islam sent to surrounding rulers (6-7 AH)"
+          }
+        },
+        {
+          "id": "F0_E2",
+          "event": {
+            "tr": "Hâris b. Umeyr el-Ezdî'nin Busrâ'ya elçi olarak gönderilmesi",
+            "en": "Harith ibn Umayr al-Azdi sent as envoy to Bosra"
+          }
+        },
+        {
+          "id": "F0_E3",
+          "event": {
+            "tr": "Şurahbîl b. Amr el-Gassânî'nin elçiyi öldürtmesi — İslâm tarihinde benzersiz diplomatik ihlâl",
+            "en": "Shurahbil ibn Amr al-Ghassani's murder of the envoy — unprecedented diplomatic violation in Islamic history"
+          }
+        },
+        {
+          "id": "F0_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in haberi alması ve sefer emri vermesi",
+            "en": "The Prophet receiving the news and ordering the expedition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F1_preparation",
+      "order": 1,
+      "name": {
+        "tr": "Hazırlık: Ordunun toplanması ve üç komutanın tayini",
+        "en": "Preparation: Army assembly and appointment of three commanders"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH başı (Eylül 629)",
+      "duration": "~3-5 gün",
+      "description": {
+        "tr": "Hz. Peygamber 3.000 kişilik bir ordu topladı — o döneme kadar Medîne'den gönderilen en büyük seriyye kuvveti. Komuta zincirini benzersiz bir şekilde önceden belirledi: 'Sancağı Zeyd b. Hârise alsın; Zeyd şehit olursa Ca'fer b. Ebî Tâlib alsın; o da şehit olursa Abdullah b. Revâha alsın.' Bu, Hz. Peygamber'in seferin ne denli tehlikeli olacağını bildiğini göstermektedir.\n\nZeyd b. Hârise, Hz. Peygamber'in azatlısı ve evlâtlığı, en çok seriyye komuta eden sahâbîdir. Ca'fer b. Ebî Tâlib, Ali'nin ağabeyi, Habeşistan muhâcirlerinin sözcüsü, Necâşî'nin huzurunda İslâm'ı savunmuştur. Abdullah b. Revâha ise Akabe bîatlarının öncüsü, Ensâr'ın önde gelen şairi ve cesur bir komutandır.\n\nAbdullah b. Revâha, ayrılırken duygusal şiirler okudu — şehâdete hazırlıklı olduğunu gösteren meşhur beyitler. Hz. Peygamber orduyu Seniyyetü'l-Vedâ'da uğurladı.",
+        "en": "The Prophet assembled a 3,000-strong army — the largest expeditionary force (sariyya) sent from Medina up to that point. He uniquely pre-determined the chain of command: 'Let Zayd ibn Haritha take the banner; if Zayd falls, Ja'far ibn Abi Talib takes it; if he falls, Abdullah ibn Rawaha takes it.' This shows the Prophet knew the danger the expedition would face.\n\nZayd ibn Haritha was the Prophet's freedman and adopted son, the companion who commanded the most expeditions. Ja'far ibn Abi Talib was Ali's elder brother, spokesman of the Abyssinian emigrants, who defended Islam before the Negus. Abdullah ibn Rawaha was a pioneer of the Aqaba pledges, a leading Ansari poet, and a courageous commander.\n\nAbdullah ibn Rawaha recited emotional poetry upon departure — famous verses showing his readiness for martyrdom. The Prophet bade the army farewell at Thaniyyat al-Wada'."
+      },
+      "key_events": [
+        {
+          "id": "F1_E1",
+          "event": {
+            "tr": "3.000 kişilik ordunun toplanması — Medîne'den gönderilen en büyük seriyye",
+            "en": "Assembly of 3,000-strong army — largest expeditionary force sent from Medina"
+          }
+        },
+        {
+          "id": "F1_E2",
+          "event": {
+            "tr": "Hz. Peygamber'in komuta zincirini önceden belirlemesi: Zeyd → Ca'fer → Abdullah",
+            "en": "Prophet's pre-determination of chain of command: Zayd → Ja'far → Abdullah"
+          }
+        },
+        {
+          "id": "F1_E3",
+          "event": {
+            "tr": "Abdullah b. Revâha'nın veda şiirleri — şehâdete hazırlık",
+            "en": "Abdullah ibn Rawaha's farewell poetry — readiness for martyrdom"
+          }
+        },
+        {
+          "id": "F1_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in orduyu Seniyyetü'l-Vedâ'da uğurlaması",
+            "en": "Prophet's farewell to the army at Thaniyyat al-Wada'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F2_march",
+      "order": 2,
+      "name": {
+        "tr": "Yürüyüş: Medîne → Maân → Mûte güzergâhı ve istişare",
+        "en": "March: Medina → Ma'an → Mu'tah route and consultation"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH (Eylül 629)",
+      "duration": "~2-3 hafta yürüyüş + 2 gün Maân'da",
+      "description": {
+        "tr": "Ordu, Hicaz-Şam ticaret yolunu takip ederek ~1.000 km'lik bir yürüyüşe çıktı. Güzergâh: Medîne → el-Ulâ → Teymâ yol ayrımı → Tabük bölgesi → Maân. Bu mesafe, Arap ordularının alıştığı çöl seferlerinin çok ötesindeydi.\n\nOrdu Maân'a ulaştığında düşman kuvvetinin beklenenden çok daha büyük olduğunu öğrendi: Herakleios'un (veya onun valilerinin) büyük bir ordu topladığı, Gassânî, Lahm, Cüzâm ve diğer Arap kabilelerinin Bizans saflarına katıldığı haberi geldi. Rakamlar rivâyetlerde 100.000-200.000 arasında verilir (modern tarihçiler bunları abartılı bulur; muhtemelen 10.000-50.000 arası).\n\nOrdu Maân'da iki gün istişare (şûrâ) yaptı. Bazı komutanlar Hz. Peygamber'e haber gönderip takviye istemeyi veya geri dönmeyi önerdi. Ancak Abdullah b. Revâha coşkulu bir konuşma yaptı: 'Biz sayıyla değil, imanla savaşıyoruz! Ya zafer ya şehâdet — ikisi de hayırdır!' Bu konuşma orduyu ilerlemeye ikna etti.",
+        "en": "The army embarked on a ~1,000 km march following the Hijaz-Damascus trade route: Medina → al-Ula → Tayma junction → Tabuk region → Ma'an. This distance was far beyond the desert campaigns Arab armies were accustomed to.\n\nWhen the army reached Ma'an, they learned the enemy force was far larger than expected: Heraclius (or his governors) had assembled a great army, with the Ghassanids, Lakhm, Judham, and other Arab tribes joining the Byzantine ranks. Numbers in the sources range from 100,000-200,000 (modern historians consider these exaggerated; probably 10,000-50,000).\n\nThe army held two days of consultation (shura) at Ma'an. Some commanders suggested sending word to the Prophet for reinforcements or withdrawing. But Abdullah ibn Rawaha gave an impassioned speech: 'We fight not with numbers but with faith! Either victory or martyrdom — both are good!' This speech convinced the army to advance."
+      },
+      "key_events": [
+        {
+          "id": "F2_E1",
+          "event": {
+            "tr": "Ordunun ~1.000 km yürüyüşe çıkması — Hicaz-Şam ticaret yolu",
+            "en": "Army's ~1,000 km march — Hijaz-Damascus trade route"
+          }
+        },
+        {
+          "id": "F2_E2",
+          "event": {
+            "tr": "Maân'a varış ve düşman kuvvetinin büyüklüğünün öğrenilmesi",
+            "en": "Arrival at Ma'an and learning of the enemy force's size"
+          }
+        },
+        {
+          "id": "F2_E3",
+          "event": {
+            "tr": "İki günlük şûrâ: geri dönme/takviye vs. ilerleme tartışması",
+            "en": "Two-day consultation: debate between retreat/reinforcement vs. advance"
+          }
+        },
+        {
+          "id": "F2_E4",
+          "event": {
+            "tr": "Abdullah b. Revâha'nın coşkulu konuşması — 'Ya zafer ya şehâdet!'",
+            "en": "Abdullah ibn Rawaha's passionate speech — 'Either victory or martyrdom!'"
+          }
+        },
+        {
+          "id": "F2_E5",
+          "event": {
+            "tr": "Ordunun Maân'dan Mûte'ye ilerleme kararı",
+            "en": "Army's decision to advance from Ma'an to Mu'tah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F3_zeyd",
+      "order": 3,
+      "name": {
+        "tr": "İlk muharebe: Zeyd b. Hârise'nin komutası ve şehâdeti",
+        "en": "First engagement: Zayd ibn Haritha's command and martyrdom"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH (Eylül 629) — savaşın ilk günü",
+      "duration": "Savaşın ilk saatleri",
+      "description": {
+        "tr": "Müslüman ordusu Mûte ovasına ulaştığında karşısında devasa bir Bizans-Gassân koalisyon ordusu buldu. Herakleios'un kardeşi (veya komutanlarından biri — rivâyetler farklıdır) Theodoros (Tedârus) komutasında düzenli Bizans ağır piyadesi ve süvarisi, Gassânî hafif süvarileri ve Cüzâm, Lahm gibi yardımcı Arap kuvvetleri mevcuttu.\n\nZeyd b. Hârise, Resûlullah'ın beyaz sancağını taşıyarak düşman saflarına daldı. Sayısal eşitsizliğe rağmen Müslümanlar büyük cesaretle savaştı. Zeyd, savaşın en yoğun anında mızrak darbeleriyle şehit düştü. Kur'ân'da ismiyle anılan tek sahâbî (Ahzâb 33:37) olan Zeyd, Peygamber'in en yakın insanlarından biriydi; oğlu Üsâme o sırada Medîne'deydi.\n\nHz. Peygamber, Medîne'de minberde bu anı vahiyle ashâbına haber verdi: 'Sancağı Zeyd aldı ve şehit oldu...' diyerek gözleri yaşararak anlattı.",
+        "en": "When the Muslim army reached the plain of Mu'tah, they faced a massive Byzantine-Ghassanid coalition force. Under the command of Theodore (Tadarus — accounts vary whether he was Heraclius' brother or a general), there were regular Byzantine heavy infantry and cavalry, Ghassanid light cavalry, and auxiliary Arab forces from Judham, Lakhm, and other tribes.\n\nZayd ibn Haritha charged into enemy lines carrying the Prophet's white banner. Despite overwhelming numerical odds, the Muslims fought with great courage. Zayd fell to spear thrusts at the height of battle. The only companion mentioned by name in the Quran (al-Ahzab 33:37), Zayd was one of the closest people to the Prophet; his son Usama was in Medina at the time.\n\nIn Medina, the Prophet, on his pulpit, reported this moment to his companions through revelation: 'Zayd took the banner and was martyred...' he narrated with tears in his eyes."
+      },
+      "key_events": [
+        {
+          "id": "F3_E1",
+          "event": {
+            "tr": "İki ordunun Mûte ovasında karşılaşması",
+            "en": "Two armies meeting on the plain of Mu'tah"
+          }
+        },
+        {
+          "id": "F3_E2",
+          "event": {
+            "tr": "Zeyd b. Hârise'nin sancağı taşıyarak düşman saflarına dalması",
+            "en": "Zayd ibn Haritha charging into enemy lines carrying the banner"
+          }
+        },
+        {
+          "id": "F3_E3",
+          "event": {
+            "tr": "Zeyd b. Hârise'nin şehâdeti — mızrak darbeleriyle",
+            "en": "Martyrdom of Zayd ibn Haritha — by spear thrusts"
+          }
+        },
+        {
+          "id": "F3_E4",
+          "event": {
+            "tr": "Hz. Peygamber'in Medîne'de minberden şehâdeti vahiyle haber vermesi",
+            "en": "Prophet reporting the martyrdom from his pulpit in Medina through revelation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F4_cafer",
+      "order": 4,
+      "name": {
+        "tr": "Ca'fer b. Ebî Tâlib: İki kolun kesilmesi ve şehâdeti — 'Tayyâr'",
+        "en": "Ja'far ibn Abi Talib: Both arms severed and martyrdom — 'al-Tayyar'"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH — savaşın devamı",
+      "duration": "Savaşın orta bölümü",
+      "description": {
+        "tr": "Zeyd'in şehâdetinin ardından Ca'fer b. Ebî Tâlib sancağı kaptı. Ali'nin (r.a.) ağabeyi, Habeşistan muhâcirlerinin yıllardır sözcüsü olan Ca'fer, o gün tarihte eşine az rastlanan bir cesaret sergiledi.\n\nCa'fer, 33 yaşında, Bizans ağır süvarisi ile göğüs göğüse savaştı. Önce sağ eli kesildi — sancağı sol eline aldı. Sol eli de kesildi — sancağı iki kol kalıntısıyla göğsüne bastırdı. Sonunda şehit düştü. Rivâyetlere göre vücudunda 90'dan fazla kılıç ve mızrak yarası bulundu — hepsi önden, hiçbiri arkadan.\n\nHz. Peygamber, Ca'fer'in şehâdetini de Medîne'de haber verdi ve ağladı. Daha sonra: 'Allah, Ca'fer'e kesilen iki kolunun yerine iki kanat verdi, cennette meleklerle uçuyor' buyurdu. Bu sebeple Ca'fer 'Tayyâr' (Uçan) veya 'Zü'l-Cenâheyn' (İki Kanatlı) lakabıyla anılır.\n\nCa'fer'in şehâdeti, İslâm tarihinin en dramatik ve en çok anlatılan kahramanlık sahnelerinden biridir.",
+        "en": "After Zayd's martyrdom, Ja'far ibn Abi Talib seized the banner. Ali's elder brother, the longtime spokesman of the Abyssinian emigrants, Ja'far displayed rarely paralleled courage that day.\n\nJa'far, aged 33, fought the Byzantine heavy cavalry in hand-to-hand combat. First his right hand was severed — he took the banner in his left. His left hand was also severed — he pressed the banner to his chest with his stumps. He finally fell. According to reports, over 90 sword and spear wounds were found on his body — all from the front, none from behind.\n\nThe Prophet reported Ja'far's martyrdom in Medina as well and wept. He later said: 'God gave Ja'far two wings in place of his severed arms; he flies in Paradise with the angels.' Hence Ja'far is known as 'al-Tayyar' (the Flyer) or 'Dhu al-Janahayn' (the Two-Winged).\n\nJa'far's martyrdom is one of the most dramatic and widely narrated acts of heroism in Islamic history."
+      },
+      "key_events": [
+        {
+          "id": "F4_E1",
+          "event": {
+            "tr": "Ca'fer b. Ebî Tâlib'in sancağı Zeyd'den devralması",
+            "en": "Ja'far ibn Abi Talib taking the banner from Zayd"
+          }
+        },
+        {
+          "id": "F4_E2",
+          "event": {
+            "tr": "Sağ elin kesilmesi — sancağı sol ele alma",
+            "en": "Right hand severed — taking banner in left hand"
+          }
+        },
+        {
+          "id": "F4_E3",
+          "event": {
+            "tr": "Sol elin de kesilmesi — sancağı göğsüne bastırma",
+            "en": "Left hand also severed — pressing banner to chest"
+          }
+        },
+        {
+          "id": "F4_E4",
+          "event": {
+            "tr": "Ca'fer'in şehâdeti — 90'dan fazla yara (hepsi önden)",
+            "en": "Ja'far's martyrdom — over 90 wounds (all from the front)"
+          }
+        },
+        {
+          "id": "F4_E5",
+          "event": {
+            "tr": "Hz. Peygamber: 'Allah ona iki kanat verdi' — 'Tayyâr' lakabı",
+            "en": "Prophet: 'God gave him two wings' — epithet 'al-Tayyar'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F5_abdullah_halid",
+      "order": 5,
+      "name": {
+        "tr": "Abdullah b. Revâha'nın şehâdeti ve Hâlid b. Velîd'in komutayı devralması",
+        "en": "Abdullah ibn Rawaha's martyrdom and Khalid ibn al-Walid assuming command"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH — savaşın son bölümü",
+      "duration": "Savaşın son bölümü — akşama doğru",
+      "description": {
+        "tr": "Ca'fer'in ardından sancağı Abdullah b. Revâha devraldı. Ensâr'ın önde gelen şair-komutanlarından Abdullah, bir an tereddüt etti — ve kendi kendine: 'Ey nefsim! Mutlaka ineceksin (öleceksin)! İsteyerek veya istemeyerek, zorunlu olarak ineceksin!' diyerek kendini cesaretlendirdi. Bu beyitler meşhurdur.\n\nAbdullah da düşman saflarına daldı ve kısa süre sonra şehit oldu. Böylece Hz. Peygamber'in tayin ettiği üç komutanın üçü de arka arkaya şehit olmuştu.\n\nOrdu bir an komutansız kaldı. Bu kritik anda Sâbit b. Erkam (veya Sâbit b. Akrem) sancağı yerden kaldırıp ordunun en tecrübeli savaşçısı Hâlid b. Velîd'e verdi. Hâlid, henüz birkaç ay önce Müslüman olmuştu (Hâlid b. Velîd, Amr b. el-Âs ve Osman b. Talha birlikte hicret etmişlerdi); ancak taktik dehası tartışmasızdı. Rivâyete göre o gün elinde 9 kılıç kırılmıştır.\n\nHz. Peygamber Medîne'de: '...sonra sancağı Allah'ın kılıçlarından bir kılıç aldı' diyerek Hâlid'i 'Seyfullah' (Allah'ın Kılıcı) ilan etti.",
+        "en": "After Ja'far, Abdullah ibn Rawaha took the banner. A leading Ansari poet-commander, Abdullah hesitated for a moment — then rallied himself: 'O my soul! You must descend (die)! Willingly or unwillingly, you must descend!' These verses are famous.\n\nAbdullah too charged into enemy lines and was soon martyred. All three commanders appointed by the Prophet had now fallen in succession.\n\nThe army was momentarily leaderless. At this critical moment, Thabit ibn Arqam (or Thabit ibn Aqram) picked up the banner and handed it to the most experienced warrior — Khalid ibn al-Walid. Khalid had become Muslim only a few months earlier (he, Amr ibn al-As, and Uthman ibn Talha had emigrated together); but his tactical genius was undisputed. According to one narration, 9 swords broke in his hand that day.\n\nThe Prophet said in Medina: '...then one of God's swords took the banner' — proclaiming Khalid 'Sayfullah' (the Sword of God)."
+      },
+      "key_events": [
+        {
+          "id": "F5_E1",
+          "event": {
+            "tr": "Abdullah b. Revâha'nın sancağı devralması ve ünlü beyitleri",
+            "en": "Abdullah ibn Rawaha taking the banner and his famous verses"
+          }
+        },
+        {
+          "id": "F5_E2",
+          "event": {
+            "tr": "Abdullah b. Revâha'nın şehâdeti — üç komutanın üçü de şehit",
+            "en": "Abdullah ibn Rawaha's martyrdom — all three appointed commanders martyred"
+          }
+        },
+        {
+          "id": "F5_E3",
+          "event": {
+            "tr": "Sâbit b. Erkam'ın sancağı Hâlid b. Velîd'e vermesi",
+            "en": "Thabit ibn Arqam handing the banner to Khalid ibn al-Walid"
+          }
+        },
+        {
+          "id": "F5_E4",
+          "event": {
+            "tr": "Hâlid'in komutayı devralması — elinde 9 kılıç kırılması",
+            "en": "Khalid assuming command — 9 swords breaking in his hand"
+          }
+        },
+        {
+          "id": "F5_E5",
+          "event": {
+            "tr": "Hz. Peygamber'in Hâlid'i 'Seyfullah' (Allah'ın Kılıcı) ilan etmesi",
+            "en": "Prophet proclaiming Khalid 'Sayfullah' (Sword of God)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "F6_withdrawal",
+      "order": 6,
+      "name": {
+        "tr": "Hâlid'in taktik çekilmesi: Ordunun kurtarılması ve Medîne'ye dönüş",
+        "en": "Khalid's tactical withdrawal: Saving the army and return to Medina"
+      },
+      "date_range": "Cumâde'l-Ûlâ 8 AH — ertesi gün(ler)",
+      "duration": "1-2 gün muharebe düzenlemesi + ~3 hafta dönüş yürüyüşü",
+      "description": {
+        "tr": "Hâlid b. Velîd, komutayı devralır almaz durumu soğukkanlılıkla değerlendirdi. Karşısında ezici üstünlüğe sahip bir düşman vardı; ancak ordunun toptan imhâsını önlemek en büyük öncelikti. Hâlid, savaş tarihinde ders kitaplarına geçecek bir taktik uyguladı:\n\n1) Gece, sağ ve sol kanatları yer değiştirdi\n2) Arkaya bir müfreze göndererek sabah toz bulutu kaldırmalarını emretti\n3) Sabah olduğunda düşman, karşısında 'yeni' bir düzen gördü ve arkadan gelen toz bulutlarını takviye kuvveti sandı\n4) Bu psikolojik üstünlüğü kullanarak düzenli bir şekilde savaşarak geri çekildi\n\nBizans-Gassân kuvvetleri, takviye geldiğini düşünerek temkinli davrandı ve takip etmedi (veya sınırlı takip etti). Hâlid, 3.000 kişilik ordunun büyük bölümünü sağ salim Medîne'ye ulaştırdı.\n\nMedîne'ye dönüşte halk orduyu 'Kaçaklar! (el-Ferrâr)' diye karşıladı. Hz. Peygamber buna karşı çıktı: 'Hayır! Onlar dönücülerdir (el-Kürrâr)! Allah'ın izniyle tekrar savaşacaklardır!' Bu ifade, Mûte'nin bir zafer olmasa da onurlu ve stratejik bir çekilme olduğunu tescil etti.\n\nMûte, İslâm ordusunun Bizans ile ilk temasını sağladı ve gelecekteki Şam-Filistin fetihleri (Yermük, Ecnâdeyn) için zemin hazırladı. Hâlid'in askeri dehasının ilk büyük gösterisi oldu.",
+        "en": "Khalid ibn al-Walid, upon assuming command, coolly assessed the situation. He faced an overwhelmingly superior enemy; but preventing the total annihilation of the army was the top priority. Khalid executed a tactic that would enter military textbooks:\n\n1) During the night, he swapped the right and left wings\n2) He sent a detachment to the rear with orders to raise dust clouds at dawn\n3) At morning, the enemy saw a 'new' formation and mistook the dust clouds for reinforcements\n4) Using this psychological advantage, he conducted an orderly fighting withdrawal\n\nThe Byzantine-Ghassanid forces, thinking reinforcements had arrived, acted cautiously and did not pursue (or pursued only limitedly). Khalid brought most of the 3,000-strong army safely back to Medina.\n\nUpon return, the people of Medina greeted them with 'Runaways! (al-Farrar)'. The Prophet objected: 'No! They are returners (al-Kurrar)! By God's will, they will fight again!' This statement certified Mu'tah as an honorable and strategic withdrawal, even if not a victory.\n\nMu'tah established the Muslim army's first contact with Byzantium and laid the groundwork for future Syria-Palestine conquests (Yarmouk, Ajnadayn). It was the first great demonstration of Khalid's military genius."
+      },
+      "key_events": [
+        {
+          "id": "F6_E1",
+          "event": {
+            "tr": "Hâlid'in gece kanat değiştirme taktiği",
+            "en": "Khalid's nighttime wing-swapping tactic"
+          }
+        },
+        {
+          "id": "F6_E2",
+          "event": {
+            "tr": "Arkadan toz bulutu kaldırılması — düşmana takviye izlenimi",
+            "en": "Dust clouds raised from behind — impression of reinforcements for the enemy"
+          }
+        },
+        {
+          "id": "F6_E3",
+          "event": {
+            "tr": "Düzenli taktik çekilme — ordunun büyük bölümünün kurtarılması",
+            "en": "Orderly tactical withdrawal — saving the bulk of the army"
+          }
+        },
+        {
+          "id": "F6_E4",
+          "event": {
+            "tr": "Bizans-Gassân ordusunun takipten vazgeçmesi",
+            "en": "Byzantine-Ghassanid army abandoning pursuit"
+          }
+        },
+        {
+          "id": "F6_E5",
+          "event": {
+            "tr": "Medîne'ye dönüş — 'Ferrâr' ithamı ve Hz. Peygamber'in 'Kürrâr' düzeltmesi",
+            "en": "Return to Medina — 'Runaways' accusation and Prophet's 'Returners' correction"
+          }
+        },
+        {
+          "id": "F6_E6",
+          "event": {
+            "tr": "Hz. Peygamber'in Ca'fer'in ailesine taziyesi — oğlu Abdullah'ın başını okşaması",
+            "en": "Prophet's condolence visit to Ja'far's family — stroking his son Abdullah's head"
+          }
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": 3000,
+      "total_range": "3.000 (kaynaklarda genel ittifak; İbn Hişâm, Vâkıdî, İbn Sa'd)",
+      "commander": "sequential_three_plus_halid",
+      "commander_name": {
+        "tr": "Zeyd b. Hârise → Ca'fer b. Ebî Tâlib → Abdullah b. Revâha → Hâlid b. Velîd",
+        "en": "Zayd ibn Haritha → Ja'far ibn Abi Talib → Abdullah ibn Rawaha → Khalid ibn al-Walid"
+      },
+      "composition": {
+        "muhajirin": {
+          "count_est": "belirtilmez — önemli oranda",
+          "note_tr": "Muhâcirlerden önemli bir kuvvet. Komutanların üçü de farklı grupları temsil ediyor: Zeyd (azatlı/mevâlî), Ca'fer (Hâşimî/muhâcir), Abdullah (Ensâr)."
+        },
+        "ansar": {
+          "count_est": "belirtilmez — önemli oranda",
+          "note_tr": "Ensâr'dan katılım yüksek. Abdullah b. Revâha Hazrec kabilesinden."
+        },
+        "cavalry": {
+          "count_est": "sınırlı — muhtemelen birkaç yüz",
+          "note_tr": "Süvari sayısı kaynaklarda belirtilmez. Bizans ağır süvarisi karşısında dezavantajlı."
+        }
+      },
+      "key_commanders": [
+        {
+          "id": "comp_zeyd_harise",
+          "role": "Başkomutan (1. sıra) — sancaktar",
+          "note_tr": "Hz. Peygamber'in azatlısı ve evlâtlığı. En çok seriyye komuta eden sahâbî. İlk şehit olan komutan."
+        },
+        {
+          "id": "comp_cafer_tayyar",
+          "role": "Başkomutan (2. sıra) — Zeyd'den sonra",
+          "note_tr": "Hz. Ali'nin ağabeyi. Habeşistan muhâcirlerinin sözcüsü. İki kolunu kaybederek şehit oldu — 'Tayyâr' lakabı."
+        },
+        {
+          "id": "comp_abdullah_revaha",
+          "role": "Başkomutan (3. sıra) — Ca'fer'den sonra",
+          "note_tr": "Ensâr'ın önde gelen şair-komutanı. Akabe bîatlarında bulundu. Şehâdete hazırlıklı idi."
+        },
+        {
+          "id": "comp_halid_velid",
+          "role": "Fiilî komutan (ordu tarafından seçildi) — 'Seyfullah'",
+          "note_tr": "Birkaç ay önce Müslüman olmuş olan askeri deha. Taktik çekilme ile orduyu kurtardı. Bu savaşla 'Allah'ın Kılıcı' lakabını aldı."
+        }
+      ],
+      "equipment": {
+        "swords": "evet",
+        "bows": "evet",
+        "armor": "sınırlı — Bizans zırhlılarıyla kıyaslanamaz",
+        "spears": "evet",
+        "horses": "sınırlı sayıda"
+      }
+    },
+    "enemy": {
+      "total": 100000,
+      "total_range": "100.000-200.000 (İbn Hişâm/Vâkıdî rivâyetleri; modern tarihçiler abartılı bulur, muhtemelen 10.000-50.000)",
+      "commander": "theodoros",
+      "commander_name": {
+        "tr": "Tedârus (Theodoros) — Herakleios'un kardeşi veya komutanı",
+        "en": "Theodore — brother or general of Heraclius"
+      },
+      "composition": {
+        "byzantine_regular": {
+          "count_est": "ana kuvvet",
+          "note_tr": "Bizans düzenli ordusu: ağır piyade (skutatoi), ağır süvari (kataphraktoi/klibanophoros). Profesyonel, zırhlı, disiplinli."
+        },
+        "ghassanid": {
+          "count_est": "önemli sayıda",
+          "note_tr": "Gassânî hafif süvarisi. Çöl savaşında deneyimli Arap tampon devleti kuvvetleri."
+        },
+        "allied_arab_tribes": {
+          "count_est": "binlerce",
+          "note_tr": "Lahm, Cüzâm, Belkīn ve diğer Bizans vasalı Arap kabileleri."
+        }
+      },
+      "key_commanders": [
+        {
+          "id": "theodoros",
+          "role": "Başkomutan",
+          "note_tr": "Herakleios'un kardeşi (veya generali). Kimliği tartışmalı; bazı rivâyetler Mâlik b. Zâfile adını verir."
+        },
+        {
+          "id": "shurahbil_amr",
+          "role": "Gassânî valisi — savaşın sebebi (elçi katili)",
+          "note_tr": "Hâris b. Umeyr'i öldüren Gassânî hükümdarı/valisi. Rivâyetlerde Busrâ emîri olarak geçer."
+        }
+      ],
+      "equipment": {
+        "heavy_cavalry": "evet — kataphraktoi (tam zırhlı süvari)",
+        "heavy_infantry": "evet — skutatoi (kalkan ve mızraklı ağır piyade)",
+        "armor": "tam zırh — Bizans standartlarında",
+        "bows": "evet — okçu birlikleri",
+        "siege_capability": "uygulanabilir ancak kullanılmadı"
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "id": "IH",
+        "name": "İbn Hişâm, es-Sîretü'n-Nebeviyye",
+        "ref": "IV/15-25",
+        "note_tr": "Ana anlatım. Komutanların tayini, Maân istişaresi, üç şehâdet ve Hâlid'in çekilmesi. Düşman sayısını '100.000 Rum ve 100.000 müşrik Arap' olarak verir."
+      },
+      {
+        "id": "WQ",
+        "name": "Vâkıdî, Kitâbü'l-Megâzî",
+        "ref": "II/755-771",
+        "note_tr": "En detaylı kaynak. Günlük olaylar, isim listeleri, Abdullah b. Revâha'nın şiirleri, Maân şûrâsı, Ca'fer'in yaraları. 200.000 düşman rakamını verir."
+      },
+      {
+        "id": "IS",
+        "name": "İbn Sa'd, et-Tabakâtü'l-Kübrâ",
+        "ref": "II/128-131; III/34-39 (Ca'fer); III/40-42 (Zeyd)",
+        "note_tr": "Komutan biyografileri detaylı. Ca'fer'in 90+ yarası, Zeyd'in ve Abdullah'ın son anları."
+      },
+      {
+        "id": "TAB",
+        "name": "Taberî, Târîhu'r-Rusül ve'l-Mülûk",
+        "ref": "III/38-47",
+        "note_tr": "Kronolojik düzen. Farklı isnâd zincirleri ile paralel rivâyetler. Hâlid'in taktiği hakkında ek bilgiler."
+      },
+      {
+        "id": "BLZ",
+        "name": "Belâzürî, Fütûhu'l-Büldân",
+        "ref": "I/120-122",
+        "note_tr": "Fetih perspektifinden kısa anlatım. Mûte'nin Şam fetihleri için önemi vurgulanır."
+      }
+    ],
+    "hadith": [
+      {
+        "id": "hds_mute",
+        "ref": "Buhârî, Megâzî 44",
+        "topic_tr": "Sancağı Zeyd aldı ve şehit oldu, sonra Ca'fer aldı o da şehit oldu, sonra Abdullah b. Revâha aldı o da şehit oldu. Sonra sancağı Allah'ın kılıçlarından bir kılıç aldı ve fetih nasip oldu."
+      },
+      {
+        "id": "hds_mute_minber",
+        "ref": "Buhârî, Megâzî 44; Müslim, Fedâilü's-Sahâbe",
+        "topic_tr": "Hz. Peygamber'in minberden gözleri yaşararak şehâdetleri haber vermesi — vahiyle anlık bilgi."
+      },
+      {
+        "id": "hds_mute_cafer_kanat",
+        "ref": "Buhârî, Megâzî 44; Tirmizî, Menâkıb",
+        "topic_tr": "Ca'fer'e iki kanat verilmesi — 'Ca'fer-i Tayyâr' rivâyeti. Cennette meleklerle uçar."
+      },
+      {
+        "id": "hds_mute_halid_kiliclari",
+        "ref": "Buhârî, Megâzî 44",
+        "topic_tr": "Hâlid: 'O gün elimde 9 kılıç kırıldı, elimde sadece bir Yemen palası kaldı.' Kılıçların kırılması savaşın şiddetinin göstergesi."
+      },
+      {
+        "id": "hds_mute_cafer_ailesi",
+        "ref": "Buhârî, Cenâiz; Müslim, Fedâilü's-Sahâbe",
+        "topic_tr": "Hz. Peygamber'in Ca'fer'in evine gidip çocuklarını kucaklaması, oğlu Abdullah'ın başını okşaması, 'Ca'fer'in ailesi için yemek hazırlayın' emri."
+      },
+      {
+        "id": "hds_mute_revaha_siir",
+        "ref": "İbn Hişâm, Sîre IV; Vâkıdî II/759",
+        "topic_tr": "Abdullah b. Revâha'nın savaş öncesi şiirleri: 'Ey nefsim! İstesen de istemesen de mutlaka ineceksin...' Şehâdete hazırlık beyitleri."
+      },
+      {
+        "id": "hds_mute_kurrar",
+        "ref": "Ebû Dâvûd, Cihâd; Ahmed b. Hanbel, Müsned",
+        "topic_tr": "Medîne'ye dönüşte halkın 'Ferrâr (kaçaklar)!' demesi, Hz. Peygamber'in 'Kürrâr (dönücüler)!' düzeltmesi."
+      }
+    ],
+    "modern_studies": [
+      {
+        "id": "MOD_Shaban",
+        "name": "M. A. Shaban, Islamic History: A New Interpretation",
+        "note_tr": "Mûte'nin diplomatik bağlamını ve Bizans ilişkilerini analiz eder."
+      },
+      {
+        "id": "MOD_Donner",
+        "name": "Fred M. Donner, The Early Islamic Conquests",
+        "note_tr": "Mûte'nin ilk İslâm fetihleri silsilesindeki yerini değerlendirir."
+      },
+      {
+        "id": "MOD_Kennedy",
+        "name": "Hugh Kennedy, The Great Arab Conquests",
+        "note_tr": "Hâlid'in taktik dehasını ve Mûte'nin Yermük için hazırlık niteliğini vurgular."
+      },
+      {
+        "id": "MOD_Akram",
+        "name": "A. I. Akram, The Sword of Allah: Khalid bin al-Waleed",
+        "note_tr": "Hâlid odaklı detaylı askerî analiz. Taktik çekilmenin teknik boyutları."
+      },
+      {
+        "id": "MOD_Hamidullah",
+        "name": "Muhammed Hamidullah, İslam Peygamberi (The Prophet of Islam)",
+        "note_tr": "Mûte'nin Arap Yarımadası dışındaki ilk askerî harekât olarak önemini analiz eder."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "id": "SC1_enemy_count",
+        "topic": {
+          "tr": "Düşman ordu sayısı",
+          "en": "Enemy army size"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "100.000 Rum + 100.000 müşrik Arap = 200.000"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "200.000"
+          },
+          {
+            "source": "Modern tarihçiler",
+            "claim": "Büyük ihtimalle 10.000-50.000 arası; 200.000 Bizans'ın bölgedeki toplam kapasitesiyle örtüşmez"
+          }
+        ],
+        "assessment": "200.000 rakamı neredeyse kesinlikle abartılı. Bizans'ın bu bölgede bu kadar büyük bir kuvveti sınıra yığması stratejik olarak akla uzak. Ancak Müslüman ordusunun çok büyük bir kuvvetle karşılaştığı kesin."
+      },
+      {
+        "id": "SC2_halid_tactic",
+        "topic": {
+          "tr": "Hâlid'in çekilme taktiğinin detayları",
+          "en": "Details of Khalid's withdrawal tactic"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm/Vâkıdî",
+            "claim": "Gece kanat değiştirme + toz bulutu taktiği"
+          },
+          {
+            "source": "Taberî",
+            "claim": "Daha basit bir düzenli çekilme"
+          },
+          {
+            "source": "Modern askeri tarih",
+            "claim": "Kanat değiştirme + toz bulutu taktiği savaş tarihinde nadir görülen parlak bir manevra"
+          }
+        ],
+        "assessment": "Temel taktik (kanat değiştirme + sahte takviye izlenimi) kaynaklarda geniş kabul görür. Detaylar farklılık gösterse de Hâlid'in askeri dehasını gösteren bir başarı olduğu tartışmasız."
+      },
+      {
+        "id": "SC3_theodoros_identity",
+        "topic": {
+          "tr": "Bizans komutanının kimliği",
+          "en": "Identity of the Byzantine commander"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "Herakleios'un kardeşi Tedârus (Theodoros)"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "Benzer rivâyet — Tedârus / Theodoros"
+          },
+          {
+            "source": "Bizans kaynakları",
+            "claim": "Bu savaştan Bizans kaynaklarında neredeyse hiç bahsedilmez; Theodoros'un kimliği doğrulanamaz"
+          },
+          {
+            "source": "Modern araştırma",
+            "claim": "Muhtemelen Herakleios'un kardeşi değil, bölgesel bir Bizans generali"
+          }
+        ],
+        "assessment": "Bizans komutanının Herakleios'un kardeşi olduğu iddiası tartışmalı. Bizans kaynakları bu savaşı neredeyse hiç kaydetmemiş olması, Bizans için küçük bir sınır çatışması olarak değerlendirildiğini düşündürür."
+      },
+      {
+        "id": "SC4_battle_duration",
+        "topic": {
+          "tr": "Savaşın süresi",
+          "en": "Duration of the battle"
+        },
+        "positions": [
+          {
+            "source": "Vâkıdî",
+            "claim": "Birkaç gün sürdü"
+          },
+          {
+            "source": "İbn Hişâm",
+            "claim": "Tek gün ağırlıklı anlatım"
+          },
+          {
+            "source": "Modern yorumlar",
+            "claim": "Muhtemelen 1-3 gün; ilk gün ana çatışma, sonraki gün(ler) çekilme"
+          }
+        ],
+        "assessment": "Kesin süre belirsiz. Ana çatışma ve üç komutanın şehâdeti muhtemelen tek gün, Hâlid'in çekilme manevrası ertesi gün(ler)."
+      },
+      {
+        "id": "SC5_cafer_wounds",
+        "topic": {
+          "tr": "Ca'fer'in yara sayısı",
+          "en": "Number of Ja'far's wounds"
+        },
+        "positions": [
+          {
+            "source": "İbn Sa'd",
+            "claim": "90'dan fazla yara"
+          },
+          {
+            "source": "İbn Hişâm",
+            "claim": "50'den fazla yara (hepsi önden)"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "72 yara"
+          }
+        ],
+        "assessment": "Kesin sayı değişkenlik gösterir, ancak tüm rivâyetler çok sayıda yara olduğunda ve hepsinin önden geldiğinde ittifak eder — arkasını dönmediğinin kanıtı."
+      },
+      {
+        "id": "SC6_prophet_knowledge",
+        "topic": {
+          "tr": "Hz. Peygamber'in savaşı nasıl bildiği",
+          "en": "How the Prophet knew about the battle in real-time"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm/Buhârî",
+            "claim": "Vahiy/keşif yoluyla anlık bilgi — minberden anlattı"
+          },
+          {
+            "source": "Rasyonalist yorum",
+            "claim": "Haberciler aracılığıyla birkaç gün sonra öğrenmiş olabilir"
+          },
+          {
+            "source": "Geleneksel İslâm anlayışı",
+            "claim": "Mucize — 1.000 km uzaktaki olayları vahiyle eş zamanlı bildi"
+          }
+        ],
+        "assessment": "İslâm geleneğinde Hz. Peygamber'in minberden olayları anlık aktarması mucize olarak kabul edilir. Hadis kaynakları (Buhârî) bu rivâyeti sahih olarak nakleder."
+      },
+      {
+        "id": "SC7_result_assessment",
+        "topic": {
+          "tr": "Savaşın sonucu: Zafer mi, yenilgi mi, çekilme mi?",
+          "en": "Battle outcome: Victory, defeat, or withdrawal?"
+        },
+        "positions": [
+          {
+            "source": "İslâm kaynakları",
+            "claim": "'Fetih nasip oldu' — Hâlid'in çekilmesi bir tür zafer"
+          },
+          {
+            "source": "Medîne halkı",
+            "claim": "'Ferrâr' (kaçaklar) olarak karşıladı — yenilgi algısı"
+          },
+          {
+            "source": "Hz. Peygamber",
+            "claim": "'Kürrâr' (dönücüler) — onurlu çekilme"
+          },
+          {
+            "source": "Modern askeri tarih",
+            "claim": "Taktik yenilgi fakat stratejik başarı — ordunun korunması ve gelecek fetihlerin temeli"
+          }
+        ],
+        "assessment": "Mûte, klasik bir taktik geri çekilmedir. Savaş alanında kazanılmadı, ancak ordunun imhâsı önlendi ve Bizans'a meydan okundu. Stratejik açıdan İslâm'ın Şam cephesine ilk adımıdır."
+      },
+      {
+        "id": "SC8_shurahbil_role",
+        "topic": {
+          "tr": "Şurahbîl b. Amr'ın konumu",
+          "en": "Status of Shurahbil ibn Amr"
+        },
+        "positions": [
+          {
+            "source": "İbn Hişâm",
+            "claim": "Busrâ emîri (Gassânî valisi)"
+          },
+          {
+            "source": "Vâkıdî",
+            "claim": "Gassânî hükümdarı veya yüksek rütbeli komutan"
+          },
+          {
+            "source": "Modern araştırma",
+            "claim": "Muhtemelen bölgesel Gassânî valisi, bağımsız hükümdar değil"
+          }
+        ],
+        "assessment": "Şurahbîl'in kesin statüsü belirsiz. Gassânîler'in bu dönemde Bizans vasalı oldukları göz önünde bulundurulmalı."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 3,
+      "surah_name": "Âl-i İmrân",
+      "ayah_range": "169-171",
+      "phase_id": "F3_zeyd,F4_cafer,F5_abdullah_halid",
+      "topic": {
+        "tr": "Şühedâ âyetleri: 'Allah yolunda öldürülenleri sakın ölüler sanma. Bilâkis onlar diridirler, Rableri katında rızıklanmaktadırlar. Allah'ın lütfundan kendilerine verdiği şeylerle sevinç içindedirler...' Genel şehâdet âyetleri olmakla birlikte, tefsir geleneğinde Mûte şehitleri (Zeyd, Ca'fer, Abdullah) ile özellikle ilişkilendirilir. Bazı müfessirler bu âyetlerin Uhud şehitleri için indiğini söyler, ancak Mûte şehitlerine de şâmildir.",
+        "en": "Martyrdom verses: 'Do not think of those killed in God's cause as dead. They are alive with their Lord, well provided for. Happy with what God has given them of His bounty...' While general martyrdom verses, the exegetical tradition particularly associates them with the Mu'tah martyrs (Zayd, Ja'far, Abdullah). Some exegetes say these were revealed for the Uhud martyrs, but they encompass the Mu'tah martyrs as well."
+      },
+      "key_verses": [
+        {
+          "surah": 3,
+          "ayah": 169,
+          "text_tr": "Allah yolunda öldürülenleri sakın ölüler sanma..."
+        },
+        {
+          "surah": 3,
+          "ayah": 170,
+          "text_tr": "...Rableri katında rızıklanmaktadırlar..."
+        },
+        {
+          "surah": 3,
+          "ayah": 171,
+          "text_tr": "...Allah mü'minlerin ecrini zayi etmez."
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surah_name": "el-Ahzâb",
+      "ayah_range": "37",
+      "phase_id": "F3_zeyd",
+      "topic": {
+        "tr": "Zeyd b. Hârise'nin Kur'ân'da ismen anılan tek sahâbî olması: '...Zeyd ondan ilişkisini kesince, onu seninle evlendirdik...' Mûte'de şehit olan Zeyd'in Kur'ân'daki yeri — evlâtlık meselesi bağlamında inmişti ancak Zeyd'in İslâm tarihindeki benzersiz konumunu gösterir.",
+        "en": "Zayd ibn Haritha as the only companion mentioned by name in the Quran: '...When Zayd no longer wanted her, We married her to you...' The Quranic status of Zayd who was martyred at Mu'tah — revealed in the context of adoption but demonstrates Zayd's unique position in Islamic history."
+      },
+      "key_verses": [
+        {
+          "surah": 33,
+          "ayah": 37,
+          "text_tr": "...Zeyd ondan ilişkisini kesince, onu seninle evlendirdik..."
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_mute",
+      "topic": "Mûte savaşı ve üç komutan",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_minber",
+      "topic": "Hz. Peygamber'in minberden Mûte haberlerini aktarması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_cafer_kanat",
+      "topic": "Ca'fer-i Tayyâr'ın iki kanadı",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_halid_kiliclari",
+      "topic": "Hâlid b. Velîd'in Mûte'de 9 kılıç kırması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_cafer_ailesi",
+      "topic": "Hz. Peygamber'in Ca'fer'in ailesini ziyareti",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_revaha_siir",
+      "topic": "Abdullah b. Revâha'nın savaş öncesi şiirleri",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mute_kurrar",
+      "topic": "Ferrâr değil Kürrâr: Hz. Peygamber'in orduyu savunması",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Mûte, İslâm ordusunun Arap Yarımadası dışındaki ilk büyük askerî harekâtıdır. Sayısal olarak çok büyük bir Bizans-Arap koalisyonuna karşı savaşılmış, savaş alanında kazanılamamış ancak ordunun imhâsı önlenmiştir. Hâlid b. Velîd'in taktik dehası ilk kez büyük çapta ortaya çıkmıştır. Mûte'nin askerî dersleri: 1) Küçük ama motivasyonu yüksek bir kuvvet dev bir orduya karşı ayakta kalabilir, 2) Zincirleme komuta tayini (succession planning) hayati önem taşır, 3) Düzenli çekilme bir felâketi zafere çevirebilir, 4) Arap hafif süvarisi Bizans ağır kuvvetlerine karşı zayıf kalır — gelecek savaşlarda farklı taktikler geliştirilmeli. Mûte, 7 yıl sonra Yermük'te (636) Hâlid'in kesin zafer kazanacağı cephenin ilk provası olmuştur.",
+      "en": "Mu'tah was the Muslim army's first major military operation beyond the Arabian Peninsula. They fought a numerically vastly superior Byzantine-Arab coalition; though unable to win on the battlefield, the army's destruction was prevented. Khalid ibn al-Walid's tactical genius emerged for the first time at large scale. Military lessons: 1) A small but highly motivated force can survive against a vastly larger army, 2) Chain-of-command succession planning is vital, 3) An orderly withdrawal can turn disaster into survival, 4) Arab light cavalry is weak against Byzantine heavy forces — different tactics needed for future battles. Mu'tah was the first rehearsal for the front where Khalid would achieve decisive victory at Yarmouk (636) seven years later."
+    },
+    "political": {
+      "tr": "Mûte, İslâm devletinin Bizans İmparatorluğu ile ilk doğrudan askerî temasıdır. Elçi cinayetine verilen askeri cevap, İslâm devletinin uluslararası diplomatik normları ciddiye aldığını gösterdi. Gassânî tampon devletinin rolü sorgulandı — bu savaştan sonra Gassânîler ile Bizans arasındaki ilişki zayıflamaya başladı. Mûte, gelecekteki Şam ve Filistin fetihleri (Ecnâdeyn 634, Yermük 636, Kudüs 637) için hem psikolojik hem stratejik zemin hazırladı. Arap kabileleri, 3.000 kişilik bir ordunun 100.000+ düşmana meydan okuyabildiğini gördü — bu moral etkisi büyüktü.",
+      "en": "Mu'tah was the Islamic state's first direct military contact with the Byzantine Empire. The military response to the envoy murder showed the Islamic state took international diplomatic norms seriously. The role of the Ghassanid buffer state was questioned — the Ghassanid-Byzantine relationship began weakening after this battle. Mu'tah prepared psychological and strategic ground for future Syria-Palestine conquests (Ajnadayn 634, Yarmouk 636, Jerusalem 637). Arab tribes saw that a 3,000-strong army could challenge a 100,000+ enemy — the morale impact was tremendous."
+    },
+    "religious": {
+      "tr": "Mûte, şehâdet kavramının en güçlü örneklerinden biridir. Üç komutanın arka arkaya şehit düşmesi, İslâm'da fedakârlık ve cesaret idealinin sembolü oldu. Hz. Peygamber'in minberden olayları eş zamanlı aktarması, İslâm geleneğinde mucize olarak kabul edilir. Ca'fer'e cennette kanat verilmesi inancı, şehâdetin ödülünü somutlaştıran en bilinen örnektir. Abdullah b. Revâha'nın şiirleri, ölüme bilinçli hazırlığın edebî ifadesi olarak sîret geleneğinin klasikleridir. Hz. Peygamber'in Ca'fer'in ailesine taziye geleneği, İslâm toplumsal dayanışmasının temellerinden birini oluşturur.",
+      "en": "Mu'tah provides one of the most powerful examples of martyrdom. The successive martyrdoms of three commanders became symbols of sacrifice and courage in Islam. The Prophet's real-time reporting from the pulpit is regarded as a miracle. The belief in Ja'far receiving wings in Paradise is the best-known example of concretizing the reward of martyrdom. Abdullah ibn Rawaha's poetry as literary expression of conscious preparation for death are classics of sira tradition. The Prophet's condolence tradition for Ja'far's family forms one of the foundations of Islamic social solidarity."
+    }
+  },
+  "visualization": {
+    "default_zoom": 7,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "martyrdom": "#FFD600",
+      "withdrawal": "#FF6F00",
+      "route_march": "#1565C0",
+      "route_return": "#0D47A1",
+      "landmark": "#6A1B9A",
+      "shrine": "#E65100",
+      "staging": "#00838F",
+      "geographic_ref": "#546E7A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli Noktalar",
+        "type": "markers",
+        "default_visible": true,
+        "data_source": "spatial.key_landmarks",
+        "style": {
+          "icon": "landmark",
+          "color": "#6A1B9A"
+        }
+      },
+      {
+        "id": "layer_march_route",
+        "name": "Medîne → Mûte Yürüyüşü",
+        "type": "route",
+        "default_visible": true,
+        "data_source": "spatial.routes[0]",
+        "style": {
+          "color": "#1565C0",
+          "weight": 3,
+          "dashArray": "8,4"
+        }
+      },
+      {
+        "id": "layer_return_route",
+        "name": "Mûte → Medîne Dönüş",
+        "type": "route",
+        "default_visible": false,
+        "data_source": "spatial.routes[1]",
+        "style": {
+          "color": "#0D47A1",
+          "weight": 2,
+          "dashArray": "4,8"
+        }
+      },
+      {
+        "id": "layer_muslim_forces",
+        "name": "Müslüman Kuvvetleri",
+        "type": "force_positions",
+        "default_visible": true,
+        "style": {
+          "color": "#2E7D32",
+          "icon": "sword"
+        }
+      },
+      {
+        "id": "layer_enemy_forces",
+        "name": "Bizans-Gassân Koalisyonu",
+        "type": "force_positions",
+        "default_visible": true,
+        "style": {
+          "color": "#C62828",
+          "icon": "shield"
+        }
+      },
+      {
+        "id": "layer_martyrdom_points",
+        "name": "Şehâdet Noktaları",
+        "type": "special_markers",
+        "default_visible": true,
+        "style": {
+          "color": "#FFD600",
+          "icon": "star"
+        }
+      },
+      {
+        "id": "layer_shrines",
+        "name": "Türbeler (Bugün)",
+        "type": "markers",
+        "default_visible": true,
+        "style": {
+          "color": "#E65100",
+          "icon": "mosque"
+        }
+      }
+    ],
+    "phase_animations": [
+      {
+        "phase_id": "F0_background",
+        "focus": {
+          "lat": 31.2,
+          "lng": 35.8
+        },
+        "zoom": 8
+      },
+      {
+        "phase_id": "F1_preparation",
+        "focus": {
+          "lat": 24.467,
+          "lng": 39.611
+        },
+        "zoom": 12
+      },
+      {
+        "phase_id": "F2_march",
+        "focus": {
+          "lat": 27.5,
+          "lng": 37.5
+        },
+        "zoom": 6
+      },
+      {
+        "phase_id": "F3_zeyd",
+        "focus": {
+          "lat": 31.05,
+          "lng": 35.7
+        },
+        "zoom": 13
+      },
+      {
+        "phase_id": "F4_cafer",
+        "focus": {
+          "lat": 31.05,
+          "lng": 35.7
+        },
+        "zoom": 14
+      },
+      {
+        "phase_id": "F5_abdullah_halid",
+        "focus": {
+          "lat": 31.05,
+          "lng": 35.7
+        },
+        "zoom": 13
+      },
+      {
+        "phase_id": "F6_withdrawal",
+        "focus": {
+          "lat": 27.5,
+          "lng": 37.5
+        },
+        "zoom": 6
+      }
+    ]
+  },
+  "cross_references": {
+    "prophet_battles": {
+      "id": "pb_mute",
+      "status": "valid"
+    },
+    "companions": [
+      {
+        "id": "comp_zeyd_harise",
+        "role": "başkomutan (1. sıra) — şehit",
+        "status": "valid"
+      },
+      {
+        "id": "comp_cafer_tayyar",
+        "role": "başkomutan (2. sıra) — şehit, Tayyâr",
+        "status": "valid"
+      },
+      {
+        "id": "comp_abdullah_revaha",
+        "role": "başkomutan (3. sıra) — şehit",
+        "status": "valid"
+      },
+      {
+        "id": "comp_halid_velid",
+        "role": "fiilî komutan — Seyfullah",
+        "status": "valid"
+      },
+      {
+        "id": "comp_usame_zeyd",
+        "role": "Zeyd'in oğlu — Medîne'de",
+        "status": "valid"
+      }
+    ],
+    "locations": [
+      {
+        "id": "mute",
+        "status": "valid"
+      },
+      {
+        "id": "medine",
+        "status": "valid"
+      }
+    ],
+    "tribes": [
+      {
+        "id": "gassaniler",
+        "role": "Bizans vasalı — elçi cinayeti",
+        "status": "valid"
+      },
+      {
+        "id": "gassan",
+        "role": "Gassân kabilesi",
+        "status": "valid"
+      }
+    ],
+    "hadith_db": [
+      {
+        "id": "hds_mute",
+        "status": "exists"
+      }
+    ],
+    "hadith_new_needed": [
+      {
+        "id": "hds_mute_minber",
+        "ref": "Buhârî, Megâzî 44; Müslim, Fedâilü's-Sahâbe",
+        "topic_tr": "Hz. Peygamber'in minberden şehâdetleri haber vermesi"
+      },
+      {
+        "id": "hds_mute_cafer_kanat",
+        "ref": "Buhârî, Megâzî 44; Tirmizî, Menâkıb",
+        "topic_tr": "Ca'fer'e iki kanat verilmesi — Tayyâr lakabı"
+      },
+      {
+        "id": "hds_mute_halid_kiliclari",
+        "ref": "Buhârî, Megâzî 44",
+        "topic_tr": "Hâlid'in elinde 9 kılıç kırılması"
+      },
+      {
+        "id": "hds_mute_cafer_ailesi",
+        "ref": "Buhârî, Cenâiz; Müslim, Fedâilü's-Sahâbe",
+        "topic_tr": "Hz. Peygamber'in Ca'fer'in ailesi için taziye"
+      },
+      {
+        "id": "hds_mute_revaha_siir",
+        "ref": "İbn Hişâm, Sîre IV; Vâkıdî II/759",
+        "topic_tr": "Abdullah b. Revâha'nın şehâdet şiirleri"
+      },
+      {
+        "id": "hds_mute_kurrar",
+        "ref": "Ebû Dâvûd, Cihâd; Ahmed b. Hanbel, Müsned",
+        "topic_tr": "Hz. Peygamber'in 'Kürrâr' düzeltmesi"
+      }
+    ],
+    "esbab_nuzul": [],
+    "related_battles": [
+      {
+        "id": "reconstruction_bedir",
+        "relation": "Zeyd ve Hâlid'in her ikisi de katıldığı savaşlar zinciri"
+      },
+      {
+        "id": "reconstruction_uhud",
+        "relation": "Şehâdet teması — Uhud şehitlerinin ardından Âl-i İmrân 169-171"
+      },
+      {
+        "id": "reconstruction_hayber",
+        "relation": "Hayber'den hemen sonra — aynı yıl (7-8 AH)"
+      },
+      {
+        "id": "reconstruction_mekke_fethi",
+        "relation": "Mekke fethinden birkaç ay önce — kronolojik sıralama"
+      },
+      {
+        "id": "reconstruction_huneyn",
+        "relation": "Hâlid b. Velîd her ikisinde de kritik rol"
+      }
+    ]
+  }
+}

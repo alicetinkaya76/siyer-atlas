@@ -1,0 +1,256 @@
+[
+  {
+    "id": "mekke_sam",
+    "name": {
+      "ar": "طريق الشام",
+      "tr": "Mekke-Şam Ticaret Yolu",
+      "en": "Mecca-Damascus Trade Route"
+    },
+    "waypoints": [
+      {
+        "name": "Mekke",
+        "lat": 21.42,
+        "lng": 39.83
+      },
+      {
+        "name": "Medine",
+        "lat": 24.47,
+        "lng": 39.61
+      },
+      {
+        "name": "Hayber",
+        "lat": 25.68,
+        "lng": 39.3
+      },
+      {
+        "name": "Tebük",
+        "lat": 28.38,
+        "lng": 36.57
+      },
+      {
+        "name": "Busrâ",
+        "lat": 32.52,
+        "lng": 36.48
+      },
+      {
+        "name": "Dımaşk",
+        "lat": 33.51,
+        "lng": 36.28
+      }
+    ],
+    "description": "Kureyş'in en önemli ticaret güzergâhı. Yaz kervanı. Bedir Gazvesi bu kervan yolunun kontrolü için yapıldı.",
+    "season": "yaz (sayf)",
+    "quran_ref": "Kureyş 106:2",
+    "goods": [
+      "baharat",
+      "ipek",
+      "parfüm",
+      "deri",
+      "silah",
+      "buhur",
+      "deve"
+    ]
+  },
+  {
+    "id": "mekke_yemen",
+    "name": {
+      "ar": "طريق اليمن",
+      "tr": "Mekke-Yemen Ticaret Yolu",
+      "en": "Mecca-Yemen Trade Route"
+    },
+    "waypoints": [
+      {
+        "name": "Mekke",
+        "lat": 21.42,
+        "lng": 39.83
+      },
+      {
+        "name": "Tâif",
+        "lat": 21.27,
+        "lng": 40.52
+      },
+      {
+        "name": "Necrân",
+        "lat": 17.5,
+        "lng": 44.23
+      },
+      {
+        "name": "San'â",
+        "lat": 15.37,
+        "lng": 44.19
+      },
+      {
+        "name": "Aden",
+        "lat": 12.78,
+        "lng": 45.03
+      }
+    ],
+    "description": "Kureyş'in kış kervanı. Hint ve Afrika malları Yemen limanlarından alınırdı.",
+    "season": "kış (şitâ')",
+    "quran_ref": "Kureyş 106:2",
+    "goods": [
+      "baharat",
+      "buhur",
+      "mürrüsafi",
+      "altın",
+      "fildişi",
+      "köle",
+      "deri"
+    ]
+  },
+  {
+    "id": "baharat_yolu",
+    "name": {
+      "ar": "طريق البخور",
+      "tr": "Buhur/Baharat Yolu (Aden-Petra)",
+      "en": "Incense Route"
+    },
+    "waypoints": [
+      {
+        "name": "Aden",
+        "lat": 12.78,
+        "lng": 45.03
+      },
+      {
+        "name": "Şibâm",
+        "lat": 15.92,
+        "lng": 48.63
+      },
+      {
+        "name": "Necrân",
+        "lat": 17.5,
+        "lng": 44.23
+      },
+      {
+        "name": "Mekke",
+        "lat": 21.42,
+        "lng": 39.83
+      },
+      {
+        "name": "Medine",
+        "lat": 24.47,
+        "lng": 39.61
+      },
+      {
+        "name": "Dedân (el-Ulâ)",
+        "lat": 26.62,
+        "lng": 37.92
+      },
+      {
+        "name": "Petra",
+        "lat": 30.33,
+        "lng": 35.44
+      },
+      {
+        "name": "Gazze",
+        "lat": 31.5,
+        "lng": 34.47
+      }
+    ],
+    "description": "Güney Arabistan'dan Akdeniz'e uzanan kadim buhur ve baharat yolu. Binlerce yıllık.",
+    "season": "tüm yıl",
+    "goods": [
+      "buhur",
+      "mürrüsafi",
+      "tarçın",
+      "biber"
+    ]
+  },
+  {
+    "id": "hac_yolu_irak",
+    "name": {
+      "ar": "درب زبيدة",
+      "tr": "Zübeyde Yolu (Bağdat-Mekke)",
+      "en": "Darb Zubayda (Baghdad-Mecca)"
+    },
+    "waypoints": [
+      {
+        "name": "Bağdat",
+        "lat": 33.31,
+        "lng": 44.37
+      },
+      {
+        "name": "Kûfe",
+        "lat": 32.03,
+        "lng": 44.4
+      },
+      {
+        "name": "Rebeze",
+        "lat": 25.4,
+        "lng": 42.5
+      },
+      {
+        "name": "Medine",
+        "lat": 24.47,
+        "lng": 39.61
+      },
+      {
+        "name": "Mekke",
+        "lat": 21.42,
+        "lng": 39.83
+      }
+    ],
+    "description": "Hârûn er-Reşîd'in eşi Zübeyde'nin genişlettiği Irak-Hicaz hac yolu.",
+    "season": "hac mevsimi",
+    "goods": [
+      "hac malzemeleri",
+      "kumaş",
+      "hurma"
+    ]
+  },
+  {
+    "id": "ipek_yolu_batı",
+    "name": {
+      "ar": "طريق الحرير الغربي",
+      "tr": "İpek Yolu (Batı Kolu)",
+      "en": "Silk Road (Western Branch)"
+    },
+    "waypoints": [
+      {
+        "name": "Buhârâ",
+        "lat": 39.77,
+        "lng": 64.42
+      },
+      {
+        "name": "Merv",
+        "lat": 37.66,
+        "lng": 62.17
+      },
+      {
+        "name": "Nişâbur",
+        "lat": 36.21,
+        "lng": 58.8
+      },
+      {
+        "name": "Rey",
+        "lat": 35.6,
+        "lng": 51.45
+      },
+      {
+        "name": "Bağdat",
+        "lat": 33.31,
+        "lng": 44.37
+      },
+      {
+        "name": "Halep",
+        "lat": 36.2,
+        "lng": 37.15
+      },
+      {
+        "name": "Antakya",
+        "lat": 36.2,
+        "lng": 36.16
+      }
+    ],
+    "description": "Çin'den Akdeniz'e uzanan ipek yolunun batı kolu. Abbâsî döneminde en canlı hali.",
+    "season": "tüm yıl",
+    "goods": [
+      "ipek",
+      "baharat",
+      "porselen",
+      "cam",
+      "kâğıt",
+      "misk"
+    ]
+  }
+]

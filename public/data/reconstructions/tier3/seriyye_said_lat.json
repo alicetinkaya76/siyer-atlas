@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_said_lat",
+    "battle_id": "seriyye_said_lat",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 21.2703,
+        "lng": 40.516
+      },
+      "name": "Tâif (Lât tapınağı)",
+      "modern_location": "Taif, Suudi Arabistan"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Arka plan",
+      "date_range": "Ramazan 9",
+      "duration": "",
+      "description": "Tâif heyeti Medine'ye gelip İslam'ı kabul etti. Hz. Peygamber Lât'ın yıkılmasını emretti.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Yıkım",
+      "date_range": "Ramazan 9",
+      "duration": "",
+      "description": "Mugîre b. Şu'be ve Ebû Süfyân Lât'ı yıktı. Sakîf kadınları ağladı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Sonuç",
+      "date_range": "Ramazan 9",
+      "duration": "",
+      "description": "Tapınağın hazinesi Müslümanlar arasında paylaştırıldı.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Mugîre b. Şu'be / Ebû Süfyân b. Harb",
+      "estimated_troops": 25,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, III/965-967",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, IV/134",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Lât tapınağı yıkıldı",
+    "significance": "Hicaz'ın en önemli üç putunun sonuncusunun da yıkılması (Uzzâ, Menât, Lât).",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "recon_fetih_halep",
+    "battle_id": "fetih_halep",
+    "version": "1.2",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 36.2,
+        "lng": 37.15
+      },
+      "name": "Halep'in Fethi",
+      "modern_location": "Halep / Aleppo, Suriye"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Kuşatma",
+      "date_range": "16",
+      "duration": "",
+      "description": "Ebû Ubeyde Halep kalesini kuşattı.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Teslim",
+      "date_range": "16",
+      "duration": "",
+      "description": "Halep sulh/kuvvetle fethedildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Ebû Ubeyde b. Cerrâh",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Bizans garnizonu",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Belâzürî, Fütûh, 147",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Taberî, Târîh, III/600",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [
+    {
+      "surah": 17,
+      "surah_name": "İsrâ",
+      "ayah_range": "1",
+      "topic": {
+        "tr": "Mescid-i Aksâ çevresinin mübarek kılınması — Şam/Halep bölgesini kapsar",
+        "en": "The blessed surroundings of al-Aqṣā — encompasses the Syrian region including Aleppo"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Şam bölgesinin mübarek kılınması",
+          "phase_id": "phase_1"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_sam_hayir",
+      "topic": "Hz. Peygamber: 'Allah'ım Şâm'ımızı mübarek kıl' — Halep Şam bölgesindedir",
+      "relevance": "contextual",
+      "source": "Buhârî, İstiskā, 3"
+    }
+  ],
+  "impact": {
+    "result": "Halep fethedildi",
+    "significance": "Kuzey Suriye'nin kontrolü. Antakya yolunun açılması.",
+    "cross_references": [
+      "fetih_antakya",
+      "yermuk"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#c0392b"/>
+    </marker>
+    <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5e6c8"/>
+      <stop offset="100%" stop-color="#e8d5a3"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#sandGrad)"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50">Hicret Güzergâhı / Hijra Route</text>
+  <text x="300" y="55" text-anchor="middle" font-size="12" fill="#7f8c8d">622 CE — Mekke → Medîne (~450 km)</text>
+
+  <!-- Compass -->
+  <g transform="translate(545,85)">
+    <circle r="22" fill="#fff" stroke="#bdc3c7" stroke-width="1"/>
+    <text y="-8" text-anchor="middle" font-size="11" font-weight="bold" fill="#c0392b">N</text>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#2c3e50" stroke-width="1.5"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#2c3e50" stroke-width="1"/>
+  </g>
+
+  <!-- Terrain hints -->
+  <!-- Hejaz mountains (simplified ridge line) -->
+  <path d="M50,200 Q80,170 120,195 Q160,165 200,190 Q240,160 280,185 Q320,155 360,180 Q400,150 440,175 Q480,145 520,170"
+        fill="none" stroke="#c4a882" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <text x="290" y="155" text-anchor="middle" font-size="9" fill="#a0896a" font-style="italic">Hicâz Dağları / Hejaz Mountains</text>
+
+  <!-- Red Sea (left edge) -->
+  <path d="M0,100 Q30,300 20,500 Q10,650 0,800" fill="#d4e6f1" stroke="#85c1e9" stroke-width="1" opacity="0.6"/>
+  <text x="18" y="400" font-size="9" fill="#2980b9" transform="rotate(-90,18,400)">Kızıldeniz / Red Sea</text>
+
+  <!-- MEKKE (bottom) -->
+  <g transform="translate(350,700)">
+    <rect x="-60" y="-25" width="120" height="50" rx="8" fill="#e74c3c" filter="url(#shadow)" opacity="0.9"/>
+    <text y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">MEKKE</text>
+    <text y="12" text-anchor="middle" font-size="10" fill="#fadbd8">مكّة المكرّمة</text>
+  </g>
+
+  <!-- MEDÎNE (top) -->
+  <g transform="translate(280,120)">
+    <rect x="-60" y="-25" width="120" height="50" rx="8" fill="#27ae60" filter="url(#shadow)" opacity="0.9"/>
+    <text y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">MEDİNE</text>
+    <text y="12" text-anchor="middle" font-size="10" fill="#d5f5e3">المدينة المنوّرة</text>
+  </g>
+
+  <!-- Normal direct route (grey, dashed) -->
+  <path d="M310,700 Q300,500 290,300 Q285,200 280,145"
+        fill="none" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="260" y="420" font-size="9" fill="#95a5a6" transform="rotate(-80,260,420)">Normal kervan yolu (~13 gün)</text>
+
+  <!-- HIJRA ROUTE (red, solid, southward detour) -->
+  <!-- Mekke → Sevr Mağarası (south) -->
+  <path d="M350,675 Q370,690 390,710 Q410,730 400,750"
+        fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Sevr → Coastal detour west -->
+  <path d="M395,750 Q300,760 200,720 Q120,680 100,600"
+        fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Coastal route north -->
+  <path d="M100,600 Q80,500 90,400 Q100,300 130,230"
+        fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Turn east to Quba/Medina -->
+  <path d="M130,230 Q170,190 220,170 Q250,155 270,145"
+        fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- STOPS along route -->
+  <!-- 1. Sevr Mağarası -->
+  <g transform="translate(400,750)">
+    <circle r="7" fill="#f39c12" stroke="#fff" stroke-width="2"/>
+    <text x="14" y="4" font-size="10" font-weight="bold" fill="#2c3e50">① Sevr Mağarası</text>
+    <text x="14" y="16" font-size="8" fill="#7f8c8d">3 gece gizlenme / 3 nights hiding</text>
+  </g>
+
+  <!-- 2. Sahil yolu -->
+  <g transform="translate(90,600)">
+    <circle r="5" fill="#f39c12" stroke="#fff" stroke-width="1.5"/>
+    <text x="-75" y="-8" font-size="9" font-weight="bold" fill="#2c3e50">② Sahil Güzergâhı</text>
+    <text x="-75" y="4" font-size="8" fill="#7f8c8d">Kılavuz: Abdullah b. Uraykıt</text>
+  </g>
+
+  <!-- 3. Ümm-i Ma'bed Çadırı -->
+  <g transform="translate(95,430)">
+    <circle r="5" fill="#f39c12" stroke="#fff" stroke-width="1.5"/>
+    <text x="12" y="4" font-size="9" font-weight="bold" fill="#2c3e50">③ Ümm-i Ma'bed Çadırı</text>
+  </g>
+
+  <!-- 4. Kubâ -->
+  <g transform="translate(220,185)">
+    <circle r="6" fill="#2ecc71" stroke="#fff" stroke-width="2"/>
+    <text x="12" y="-4" font-size="10" font-weight="bold" fill="#2c3e50">④ Kubâ</text>
+    <text x="12" y="8" font-size="8" fill="#7f8c8d">İlk mescid / First mosque</text>
+    <text x="12" y="20" font-size="8" fill="#7f8c8d">8 Rebîülevvel / 23 Eylül 622</text>
+  </g>
+
+  <!-- Hz. Ebû Bekir evi (starting point marker) -->
+  <g transform="translate(350,700)">
+    <text x="70" y="-10" font-size="8" fill="#8e44ad">Hz. Ebû Bekir evi</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(30,760)">
+    <rect x="-10" y="-15" width="210" height="45" rx="5" fill="#fff" opacity="0.8" stroke="#bdc3c7"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#c0392b" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#2c3e50">Hicret güzergâhı (~8 gün, ~450 km)</text>
+    <line x1="0" y1="18" x2="30" y2="18" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="8,5"/>
+    <text x="35" y="22" font-size="9" fill="#95a5a6">Normal kervan yolu</text>
+  </g>
+
+  <!-- Scale -->
+  <g transform="translate(430,775)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#2c3e50" stroke-width="1.5"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="#2c3e50" stroke-width="1.5"/>
+    <line x1="80" y1="-4" x2="80" y2="4" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="40" y="14" text-anchor="middle" font-size="8" fill="#2c3e50">~100 km</text>
+  </g>
+
+  <!-- Attribution -->
+  <text x="300" y="795" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #17</text>
+</svg>

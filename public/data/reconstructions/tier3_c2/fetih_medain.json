@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "recon_fetih_medain",
+    "battle_id": "fetih_medain",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 33.09,
+        "lng": 44.58
+      },
+      "name": "Medâin (Ktesifon) Fethi",
+      "modern_location": "Salmân-ı Pâk, Bağdat güneyinde"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Nehir Geçişi",
+      "date_range": "Safer 16",
+      "duration": "",
+      "description": "Sa'd ordusunu Dicle'den geçirdi — 'Dicle Geçişi' savaş olmadan.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Başkente Giriş",
+      "date_range": "Safer 16",
+      "duration": "",
+      "description": "Yezdicerd kaçtı; Medâin boşaltılmış olarak bulundu.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Ganimet",
+      "date_range": "Safer 16",
+      "duration": "",
+      "description": "Devasa Sâsânî hazinesi ele geçirildi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Sa'd b. Ebî Vakkâs",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "III. Yezdicerd (kaçtı)",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/540-555",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 263",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_kisra_hazineleri",
+      "topic": "Kisrâ'nın hazinelerinin müslümanlara verileceği müjdesi — Medâin'de gerçekleşti",
+      "relevance": "direct",
+      "source": "Buhârî, Megâzî"
+    }
+  ],
+  "impact": {
+    "result": "Sâsânî başkenti düştü",
+    "significance": "600 yıllık Sâsânî İmparatorluğu'nun başkentinin fethi. Hz. Ömer'in 'Kisrâ'nın hazineleri' müjdesi. Tâk-ı Kisrâ (Ctesiphon Kemeri) ele geçirildi.",
+    "cross_references": [
+      "kadisiye",
+      "fetih_celula",
+      "nihavend"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

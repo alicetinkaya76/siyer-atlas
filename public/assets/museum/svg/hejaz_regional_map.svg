@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4e6f1" stop-opacity="0.3"/><stop offset="30%" stop-color="#f5e6c8"/><stop offset="100%" stop-color="#e8d5a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg9)"/>
+  <text x="300" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Hicaz Bölgesi Haritası / Map of the Hejaz</text>
+  <text x="300" y="44" text-anchor="middle" font-size="10" fill="#7f8c8d">خريطة الحجاز — Siyer Coğrafyası</text>
+
+  <!-- Red Sea (west coast) -->
+  <path d="M0,80 Q40,200 30,350 Q20,500 30,650 Q35,750 30,800" fill="#d4e6f1" stroke="#85c1e9" stroke-width="1" opacity="0.6"/>
+  <text x="15" y="450" font-size="9" fill="#2980b9" font-weight="bold" transform="rotate(-90,15,450)">Kızıldeniz / البحر الأحمر</text>
+
+  <!-- Mountain range (Hejaz mountains) -->
+  <path d="M120,80 Q130,150 125,250 Q130,400 125,550 Q130,680 128,780" fill="none" stroke="#a0896a" stroke-width="4" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- MAJOR CITIES -->
+  <!-- MEDİNE (north) -->
+  <g transform="translate(320,180)">
+    <circle r="12" fill="#27ae60" stroke="#fff" stroke-width="2"/>
+    <text x="18" y="-4" font-size="12" font-weight="bold" fill="#1e8449">MEDİNE</text>
+    <text x="18" y="10" font-size="8" fill="#27ae60">المدينة المنوّرة</text>
+  </g>
+
+  <!-- MEKKE (south-central) -->
+  <g transform="translate(280,520)">
+    <rect x="-8" y="-8" width="16" height="16" fill="#2c3e50" stroke="#d4ac0d" stroke-width="2" transform="rotate(45,0,0)"/>
+    <text x="20" y="-4" font-size="12" font-weight="bold" fill="#2c3e50">MEKKE</text>
+    <text x="20" y="10" font-size="8" fill="#8b6914">مكّة المكرّمة</text>
+  </g>
+
+  <!-- TÂİF -->
+  <g transform="translate(350,580)">
+    <circle r="7" fill="#8e44ad" stroke="#fff" stroke-width="1.5"/>
+    <text x="14" y="4" font-size="10" font-weight="bold" fill="#8e44ad">Tâif</text>
+    <text x="14" y="16" font-size="7" fill="#8e44ad">الطائف</text>
+  </g>
+
+  <!-- HAYBER -->
+  <g transform="translate(260,110)">
+    <circle r="7" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+    <text x="14" y="4" font-size="10" font-weight="bold" fill="#c0392b">Hayber</text>
+    <text x="14" y="16" font-size="7" fill="#c0392b">خيبر (628 CE)</text>
+  </g>
+
+  <!-- BATTLE SITES -->
+  <!-- Bedir -->
+  <g transform="translate(210,380)">
+    <circle r="6" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+    <text x="12" y="-2" font-size="9" font-weight="bold" fill="#e74c3c">⚔ Bedir</text>
+    <text x="12" y="10" font-size="7" fill="#c0392b">624 CE</text>
+  </g>
+
+  <!-- Uhud -->
+  <g transform="translate(340,160)">
+    <circle r="5" fill="#e74c3c" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="8" fill="#e74c3c">⚔ Uhud (625)</text>
+  </g>
+
+  <!-- Hendek (at Medina) -->
+  <path d="M280,170 Q320,160 360,170" fill="none" stroke="#6d4c2a" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="395" y="168" font-size="7" fill="#6d4c2a">Hendek (627)</text>
+
+  <!-- Hudeybiye -->
+  <g transform="translate(230,490)">
+    <circle r="5" fill="#f39c12" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="8" fill="#d4ac0d">Hudeybiye (628)</text>
+  </g>
+
+  <!-- Huneyn -->
+  <g transform="translate(320,560)">
+    <circle r="5" fill="#e74c3c" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="8" fill="#e74c3c">⚔ Huneyn (630)</text>
+  </g>
+
+  <!-- Batn-ı Nahle -->
+  <g transform="translate(310,460)">
+    <circle r="4" fill="#d35400" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="7" fill="#d35400">Batn-ı Nahle</text>
+  </g>
+
+  <!-- Tebük (far north) -->
+  <g transform="translate(400,60)">
+    <circle r="6" fill="#1a5276" stroke="#fff" stroke-width="1.5"/>
+    <text x="12" y="4" font-size="9" font-weight="bold" fill="#1a5276">Tebük</text>
+    <text x="12" y="16" font-size="7" fill="#1a5276">تبوك (630 CE)</text>
+  </g>
+
+  <!-- Routes -->
+  <!-- Medina-Mecca route -->
+  <path d="M310,195 Q290,300 270,380 Q260,450 275,505" fill="none" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- Medina-Khaybar route -->
+  <path d="M300,175 Q280,140 265,120" fill="none" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- Mecca-Taif route -->
+  <path d="M295,530 Q320,555 340,575" fill="none" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- Other locations -->
+  <!-- Cidde (coast) -->
+  <g transform="translate(100,500)">
+    <circle r="4" fill="#2980b9" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="8" fill="#2980b9">Cidde</text>
+  </g>
+
+  <!-- Yenbu (coast) -->
+  <g transform="translate(90,280)">
+    <circle r="4" fill="#2980b9" stroke="#fff" stroke-width="1"/>
+    <text x="10" y="4" font-size="8" fill="#2980b9">Yenbû'</text>
+  </g>
+
+  <!-- Arafat/Mina cluster -->
+  <g transform="translate(320,540)">
+    <circle r="3" fill="#1e8449"/><text x="8" y="3" font-size="6" fill="#1e8449">Arafat · Minâ</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(380,650)">
+    <rect x="-10" y="-15" width="200" height="95" rx="5" fill="#fff" opacity="0.85" stroke="#bdc3c7"/>
+    <text font-size="9" font-weight="bold" fill="#2c3e50">Açıklama / Legend</text>
+    <rect x="0" y="8" width="8" height="8" fill="#2c3e50" transform="rotate(45,4,12)"/><text x="18" y="16" font-size="7" fill="#2c3e50">Kâbe / Mekke</text>
+    <circle cx="4" cy="30" r="4" fill="#27ae60"/><text x="18" y="34" font-size="7" fill="#2c3e50">Medîne</text>
+    <circle cx="4" cy="46" r="4" fill="#e74c3c"/><text x="18" y="50" font-size="7" fill="#2c3e50">Savaş alanı</text>
+    <circle cx="4" cy="62" r="4" fill="#2980b9"/><text x="18" y="66" font-size="7" fill="#2c3e50">Liman şehri</text>
+    <circle cx="4" cy="78" r="4" fill="#f39c12"/><text x="18" y="82" font-size="7" fill="#2c3e50">Antlaşma yeri</text>
+  </g>
+
+  <!-- Scale -->
+  <g transform="translate(380,760)">
+    <line x1="0" y1="0" x2="100" y2="0" stroke="#2c3e50" stroke-width="1.5"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="#2c3e50" stroke-width="1.5"/>
+    <line x1="100" y1="-4" x2="100" y2="4" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="50" y="14" text-anchor="middle" font-size="8" fill="#2c3e50">~150 km</text>
+  </g>
+
+  <g transform="translate(550,75)"><circle r="18" fill="#fff" stroke="#bdc3c7" stroke-width="1" opacity="0.8"/><text y="-4" text-anchor="middle" font-size="10" font-weight="bold" fill="#c0392b">N</text><text y="8" text-anchor="middle" font-size="8" fill="#7f8c8d">↑</text></g>
+  <text x="300" y="793" text-anchor="middle" font-size="7" fill="#bdc3c7">Dijital Siyer Müzesi — v0.7.0 — SVG #28</text>
+</svg>

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_seriyye_zeyd_harsa",
+    "battle_id": "seriyye_zeyd_harsa",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 26.0,
+        "lng": 37.5
+      },
+      "name": "el-Îs (Kızıldeniz kıyısı)",
+      "modern_location": "Yenbu kuzeyi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Pusu",
+      "date_range": "Cemâziyelûlâ 6",
+      "duration": "",
+      "description": "Zeyd 170 kişiyle el-Îs'te pusu kurdu.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Ele geçirme",
+      "date_range": "Cemâziyelûlâ 6",
+      "duration": "",
+      "description": "Kervan ele geçirildi. Ebû'l-Âs esir düştü.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Serbest bırakma",
+      "date_range": "Cemâziyelûlâ 6",
+      "duration": "",
+      "description": "Hz. Zeyneb eman verdi. Hz. Peygamber onayladı. Ebû'l-Âs malları iade edip sonra Müslüman oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Zeyd b. Hârise",
+      "estimated_troops": 170,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Vâkıdî, el-Megâzî, II/553-555",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "İbn Hişâm, es-Sîre, III/306",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [],
+  "impact": {
+    "result": "Kervan ele geçirildi, Ebû'l-Âs serbest",
+    "significance": "Akrabalık bağı ve savaş hukuku örneği. Emân müessesesinin uygulanması.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "seriyye",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

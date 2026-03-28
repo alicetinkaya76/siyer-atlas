@@ -1,0 +1,2355 @@
+{
+  "version": "v2.12.0",
+  "total_items": 260,
+  "categories": {
+    "weapons": 47,
+    "architecture": 52,
+    "daily_life": 62,
+    "geography": 45,
+    "medical": 24,
+    "manuscripts": 17,
+    "flags": 13
+  },
+  "items": [
+    {
+      "id": "sword_zulfiqar",
+      "name": {
+        "tr": "Zülfekār",
+        "en": "Dhul-Fiqar",
+        "ar": "ذو الفقار"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_masur",
+      "name": {
+        "tr": "el-Ma'sûr",
+        "en": "al-Ma'thur",
+        "ar": "المأثور"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_battar",
+      "name": {
+        "tr": "el-Battâr",
+        "en": "al-Battar",
+        "ar": "البتّار"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_hatf",
+      "name": {
+        "tr": "el-Hatf",
+        "en": "al-Hatf",
+        "ar": "الحتف"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_mikhzam",
+      "name": {
+        "tr": "el-Mihzem",
+        "en": "al-Mikhdham",
+        "ar": "المِخْذَم"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_rasub",
+      "name": {
+        "tr": "er-Resûb",
+        "en": "al-Rasub",
+        "ar": "الرَّسوب"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_qadib",
+      "name": {
+        "tr": "el-Kadîb",
+        "en": "al-Qadib",
+        "ar": "القَضيب"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_qalai",
+      "name": {
+        "tr": "el-Kal'î",
+        "en": "al-Qal'i",
+        "ar": "القَلَعي"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "sword_adb",
+      "name": {
+        "tr": "el-Adb",
+        "en": "al-'Adb",
+        "ar": "العَضْب"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_aneze",
+      "name": {
+        "tr": "el-Aneze",
+        "en": "al-'Anaza",
+        "ar": "العَنَزَة"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_bayda",
+      "name": {
+        "tr": "el-Beydâ (Mızrak)",
+        "en": "al-Bayda (Spear)",
+        "ar": "البيضاء (الرمح)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_musawi",
+      "name": {
+        "tr": "el-Müsennâ",
+        "en": "al-Muthanna",
+        "ar": "المُثَنَّى"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_harba_hamza",
+      "name": {
+        "tr": "Hz. Hamza'nın Mızrağı",
+        "en": "Hamza's Spear",
+        "ar": "رمح حمزة"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_harba_wahshi",
+      "name": {
+        "tr": "Vahşî'nin Harbesi",
+        "en": "Wahshi's Javelin",
+        "ar": "حربة وحشي"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_harbat_zubayr",
+      "name": {
+        "tr": "Zübeyr b. Avvâm'ın Mızrağı",
+        "en": "Zubayr's Lance",
+        "ar": "رمح الزبير بن العوام"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "spear_harbat_generic",
+      "name": {
+        "tr": "Harbe (Genel Fırlatma Mızrağı)",
+        "en": "Harba (Generic Javelin)",
+        "ar": "حربة (عامة)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "bow_rawha",
+      "name": {
+        "tr": "er-Revhâ",
+        "en": "al-Rawha",
+        "ar": "الرَّوحاء"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "bow_safra",
+      "name": {
+        "tr": "es-Safrâ",
+        "en": "al-Safra",
+        "ar": "الصفراء"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "bow_katum",
+      "name": {
+        "tr": "el-Ketûm",
+        "en": "al-Katum",
+        "ar": "الكَتوم"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "bow_bayda_bow",
+      "name": {
+        "tr": "el-Beydâ (Yay)",
+        "en": "al-Bayda (Bow)",
+        "ar": "البيضاء (القوس)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "arrow_arab_types",
+      "name": {
+        "tr": "Arap Ok Tipleri (Nüşşâb, Nebl, Sahm)",
+        "en": "Arab Arrow Types (Nushshab, Nabl, Sahm)",
+        "ar": "أنواع السهام العربية (نشّاب، نبل، سهم)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "quiver_sadak",
+      "name": {
+        "tr": "Sadak / Tirkeş (Ok Çantası)",
+        "en": "Quiver (Sadak / Kinana)",
+        "ar": "الكنانة / الجعبة"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "shield_zaluq",
+      "name": {
+        "tr": "ez-Zelûk",
+        "en": "al-Zaluq",
+        "ar": "الزَّلوق"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "shield_futuq",
+      "name": {
+        "tr": "el-Futûk",
+        "en": "al-Futuq",
+        "ar": "الفُتُق"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "shield_uhud",
+      "name": {
+        "tr": "Uhud Kalkan Duvarı (Genel)",
+        "en": "Uhud Shield Wall (General)",
+        "ar": "جدار التروس في أُحد (عام)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "shield_yemen",
+      "name": {
+        "tr": "Yemen Kalkanı (ed-Dılâme)",
+        "en": "Yemeni Shield (al-Dilam)",
+        "ar": "الترس اليمني (الديلمية)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "shield_quraysh",
+      "name": {
+        "tr": "Kureyş Kalkanı (Genel Daraka)",
+        "en": "Quraysh Shield (General Daraqah)",
+        "ar": "ترس قريش (دَرَقة عامة)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_zat_fudul",
+      "name": {
+        "tr": "Zâtü'l-Füdûl",
+        "en": "Dhat al-Fudul",
+        "ar": "ذات الفضول"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_fidda",
+      "name": {
+        "tr": "el-Fidda",
+        "en": "al-Fidda",
+        "ar": "الفِضّة"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_sadiyya",
+      "name": {
+        "tr": "es-Sa'diyye",
+        "en": "al-Sa'diyya",
+        "ar": "السَّعدية"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_zat_hawashi",
+      "name": {
+        "tr": "Zâtü'l-Havâşî",
+        "en": "Dhat al-Hawashi",
+        "ar": "ذات الحواشي"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_zat_wisah",
+      "name": {
+        "tr": "Zâtü'l-Vişâh",
+        "en": "Dhat al-Wishah",
+        "ar": "ذات الوِشاح"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_batra",
+      "name": {
+        "tr": "el-Betrâ",
+        "en": "al-Batra",
+        "ar": "البَتْراء"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "armor_dir_generic",
+      "name": {
+        "tr": "Dir' (Genel Halka Zırh)",
+        "en": "Dir' (General Chain Mail)",
+        "ar": "الدِّرع (عامة)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "helmet_muwashah",
+      "name": {
+        "tr": "el-Müşevvah (el-Müveşşah)",
+        "en": "al-Muwashshash",
+        "ar": "المُوَشَّح"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "helmet_zu_subugh",
+      "name": {
+        "tr": "Zü's-Sebûğ",
+        "en": "Dhu al-Subugh",
+        "ar": "ذو السُّبوغ"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "helmet_burnus",
+      "name": {
+        "tr": "el-Bürnus (Zırh Başlık)",
+        "en": "al-Burnus (Armored Hood)",
+        "ar": "البُرنس (غطاء مُدرَّع)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "helmet_bayda_generic",
+      "name": {
+        "tr": "Beyza (Genel Arap Miğferi)",
+        "en": "Bayda (General Arab Helmet)",
+        "ar": "البيضة (خوذة عربية عامة)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "dagger_prophet",
+      "name": {
+        "tr": "Hz. Peygamber'in Hançeri",
+        "en": "The Prophet's Dagger",
+        "ar": "خنجر النبي ﷺ"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "dagger_sikkin",
+      "name": {
+        "tr": "Sikkîn (Bıçak — Genel)",
+        "en": "Sikkin (Knife — General)",
+        "ar": "السكّين (عامة)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "dagger_janbiyya",
+      "name": {
+        "tr": "Cenbe / Cenbiyye (Yemen Hançeri)",
+        "en": "Janbiyya (Yemeni Dagger)",
+        "ar": "الجنبية (الخنجر اليمني)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "dagger_hijazi",
+      "name": {
+        "tr": "Hicâzî Hançer (Genel)",
+        "en": "Hijazi Dagger (General)",
+        "ar": "الخنجر الحجازي (عام)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "siege_manjaniq",
+      "name": {
+        "tr": "Mancınık",
+        "en": "Manjaniq (Catapult/Trebuchet)",
+        "ar": "المنجنيق"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "siege_dabbaba",
+      "name": {
+        "tr": "Debbâbe (Koçbaşı Sığınağı)",
+        "en": "Dabbaba (Battering Ram/Shelter)",
+        "ar": "الدبّابة (كبش الحصار)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "siege_nari_arrow",
+      "name": {
+        "tr": "Ateşli Ok (Nâr)",
+        "en": "Incendiary Arrow (Nar)",
+        "ar": "السهم الحارق (النار)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "siege_hendek",
+      "name": {
+        "tr": "Hendek (Savunma Çukuru)",
+        "en": "Khandaq (Defensive Trench)",
+        "ar": "الخندق"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "siege_arish",
+      "name": {
+        "tr": "Arîş (Kumandan Çadırı / Gölgelik)",
+        "en": "Arish (Commander's Shelter)",
+        "ar": "العريش (سقيفة القائد)"
+      },
+      "category": "weapons"
+    },
+    {
+      "id": "arch_hatice_evi",
+      "name": {
+        "tr": "Hz. Hatîce'nin Evi (Mekke)",
+        "en": "House of Khadija (Mecca)",
+        "ar": "دار خديجة (مكة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_darul_erkam",
+      "name": {
+        "tr": "Dâru'l-Erkam (Erkam b. Ebi'l-Erkam'ın Evi)",
+        "en": "Dar al-Arqam (House of al-Arqam)",
+        "ar": "دار الأرقم بن أبي الأرقم"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_ebu_bekir_evi",
+      "name": {
+        "tr": "Hz. Ebû Bekir'in Evi (Mekke)",
+        "en": "House of Abu Bakr (Mecca)",
+        "ar": "دار أبي بكر (مكة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_peygamber_hucreleri",
+      "name": {
+        "tr": "Hz. Peygamber'in Hücreleri (Medîne)",
+        "en": "The Prophet's Chambers (Medina)",
+        "ar": "حُجرات النبي ﷺ (المدينة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_ebu_eyyub_evi",
+      "name": {
+        "tr": "Ebû Eyyûb el-Ensârî'nin Evi",
+        "en": "House of Abu Ayyub al-Ansari",
+        "ar": "دار أبي أيوب الأنصاري"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_suffah",
+      "name": {
+        "tr": "Suffe (Mescid-i Nebevî'nin Gölgeliği)",
+        "en": "Suffa (The Shaded Bench of Masjid al-Nabawi)",
+        "ar": "الصُّفَّة (مظلة المسجد النبوي)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_7c_mekke_evi",
+      "name": {
+        "tr": "7. Yüzyıl Mekke Evi (Genel Rekonstrüksiyon)",
+        "en": "7th-Century Meccan House (General Reconstruction)",
+        "ar": "بيت مكي من القرن السابع (إعادة بناء عامة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_7c_medine_evi",
+      "name": {
+        "tr": "7. Yüzyıl Medîne Evi (Genel Rekonstrüksiyon)",
+        "en": "7th-Century Medinan House (General Reconstruction)",
+        "ar": "بيت مدني من القرن السابع (إعادة بناء عامة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_7c_bedevi_cadir",
+      "name": {
+        "tr": "Bedevî Çadırı (Beyt eş-Şa'r)",
+        "en": "Bedouin Tent (Bayt al-Sha'r)",
+        "ar": "بيت الشَّعر (خيمة بدوية)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_ebu_talib_sib",
+      "name": {
+        "tr": "Şi'b-i Ebî Tâlib (Boykot Vadisi)",
+        "en": "Shi'b Abi Talib (Boycott Valley)",
+        "ar": "شِعب أبي طالب (وادي المقاطعة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_sad_muaz_evi",
+      "name": {
+        "tr": "Sa'd b. Muâz'ın Evi / Hendek Çadırı",
+        "en": "House of Sa'd ibn Mu'adh / Trench Tent",
+        "ar": "دار سعد بن معاذ / خيمة الخندق"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_ebu_sufyan_evi",
+      "name": {
+        "tr": "Ebû Süfyân'ın Evi (Mekke Fethi)",
+        "en": "House of Abu Sufyan (Conquest of Mecca)",
+        "ar": "دار أبي سفيان (فتح مكة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_nebevi_v1",
+      "name": {
+        "tr": "Mescid-i Nebevî — İlk Hali (622 M)",
+        "en": "Masjid al-Nabawi — Original Form (622 CE)",
+        "ar": "المسجد النبوي — الشكل الأول (٦٢٢م)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_kuba",
+      "name": {
+        "tr": "Mescid-i Kubâ",
+        "en": "Masjid Quba",
+        "ar": "مسجد قُباء"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_kibleteyn",
+      "name": {
+        "tr": "Mescid-i Kıbleteyn (İki Kıbleli Mescid)",
+        "en": "Masjid al-Qiblatain (Mosque of Two Qiblas)",
+        "ar": "مسجد القبلتين"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_dirar",
+      "name": {
+        "tr": "Mescid-i Dırâr (Münafıklar Mescidi)",
+        "en": "Masjid al-Dirar (Mosque of Harm)",
+        "ar": "مسجد الضرار"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_fetih",
+      "name": {
+        "tr": "Fetih Mescidleri (Yedi Mescid / Hendek Mescidleri)",
+        "en": "Mosques of Victory (Seven Mosques / Trench Mosques)",
+        "ar": "مساجد الفتح (المساجد السبعة / مساجد الخندق)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_cuma",
+      "name": {
+        "tr": "Mescid-i Cuma (Rânûnâ Vadisi)",
+        "en": "Masjid al-Jumu'a (Ranuna Valley)",
+        "ar": "مسجد الجمعة (وادي رانوناء)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_musalla",
+      "name": {
+        "tr": "Musallâ (Eid / Bayram Namazgâhı)",
+        "en": "Musalla (Eid Prayer Ground)",
+        "ar": "المُصلّى (مصلّى العيد)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_ahzab",
+      "name": {
+        "tr": "Mescid-i Ahzâb (Feth Mescidi)",
+        "en": "Masjid al-Ahzab (Mosque of the Confederates)",
+        "ar": "مسجد الأحزاب (مسجد الفتح)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_kabe_7c",
+      "name": {
+        "tr": "Kâbe — 7. Yüzyıl Hali",
+        "en": "Kaaba — 7th-Century Form",
+        "ar": "الكعبة — شكلها في القرن السابع"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_safa_merve",
+      "name": {
+        "tr": "Safâ ve Merve Tepeleri",
+        "en": "Hills of Safa and Marwa",
+        "ar": "الصفا والمروة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mescid_haram",
+      "name": {
+        "tr": "Mescid-i Harâm Alanı — 7. Yüzyıl",
+        "en": "Masjid al-Haram Precinct — 7th Century",
+        "ar": "حرم المسجد الحرام — القرن السابع"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_arafat_meydani",
+      "name": {
+        "tr": "Arafat Meydanı ve Cebel-i Rahme",
+        "en": "Plain of Arafat and Mount of Mercy",
+        "ar": "صعيد عرفات وجبل الرحمة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mina",
+      "name": {
+        "tr": "Minâ Vadisi ve Cemerat",
+        "en": "Valley of Mina and Jamarat",
+        "ar": "وادي مِنى والجمرات"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_muzdelife",
+      "name": {
+        "tr": "Müzdelife (Meş'ar-i Harâm)",
+        "en": "Muzdalifa (Mash'ar al-Haram)",
+        "ar": "المزدلفة (المشعر الحرام)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_ukaz_panayiri",
+      "name": {
+        "tr": "Ukâz Panayırı",
+        "en": "Ukaz Fair",
+        "ar": "سوق عُكاظ"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_medine_pazari",
+      "name": {
+        "tr": "Medîne Çarşısı (Sûku'l-Medîne)",
+        "en": "Medina Market (Suq al-Madina)",
+        "ar": "سوق المدينة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_zulmecaz",
+      "name": {
+        "tr": "Zülmecâz Panayırı",
+        "en": "Dhu al-Majaz Fair",
+        "ar": "سوق ذي المجاز"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mecenne",
+      "name": {
+        "tr": "Mecenne Panayırı",
+        "en": "Majanna Fair",
+        "ar": "سوق مجنّة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_kaynuka_carsi",
+      "name": {
+        "tr": "Benî Kaynukā' Çarşısı",
+        "en": "Banu Qaynuqa Market",
+        "ar": "سوق بني قينقاع"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_7c_han",
+      "name": {
+        "tr": "Kervan Hanı / Ribât (Genel)",
+        "en": "Caravanserai / Ribat (General)",
+        "ar": "خان القوافل / رباط (عام)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_darun_nedve",
+      "name": {
+        "tr": "Dâru'n-Nedve (Kureyş Meclisi)",
+        "en": "Dar al-Nadwa (Quraysh Assembly Hall)",
+        "ar": "دار الندوة (مجلس قريش)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_suk_mekke",
+      "name": {
+        "tr": "Mekke Çarşıları (Genel)",
+        "en": "Meccan Markets (General)",
+        "ar": "أسواق مكة (عام)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_darun_nedve_sifin",
+      "name": {
+        "tr": "Sıkāye ve Rifâde Binası",
+        "en": "Siqaya and Rifada Building",
+        "ar": "السقاية والرفادة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hendek",
+      "name": {
+        "tr": "Hendek (Savunma Çukuru) — 627 M",
+        "en": "The Trench (Khandaq) — 627 CE",
+        "ar": "الخندق — ٦٢٧م"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hayber_kalesi",
+      "name": {
+        "tr": "Hayber Kalesi (Na'im, Natat, Şıkk)",
+        "en": "Fortress of Khaybar (Na'im, Natat, Shiqq)",
+        "ar": "حصون خيبر (نعيم، نطاة، شقّ)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_taif_surlari",
+      "name": {
+        "tr": "Tâif Surları",
+        "en": "Walls of Ta'if",
+        "ar": "أسوار الطائف"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_medine_utum",
+      "name": {
+        "tr": "Medîne Utumları (Kule-Hisarlar)",
+        "en": "Medinan Utum (Tower-Forts)",
+        "ar": "آطام المدينة (الأبراج الحصينة)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_kurayza_kalesi",
+      "name": {
+        "tr": "Benî Kurayza Kalesi",
+        "en": "Fortress of Banu Qurayza",
+        "ar": "حصن بني قريظة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_nadir_kalesi",
+      "name": {
+        "tr": "Benî Nadîr Kalesi",
+        "en": "Fortress of Banu Nadir",
+        "ar": "حصن بني النضير"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_bedir_ordugahi",
+      "name": {
+        "tr": "Bedir Ordugâhı",
+        "en": "Camp at Badr",
+        "ar": "معسكر بدر"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_uhud_ordugahi",
+      "name": {
+        "tr": "Uhud Ordugâhı ve Okçu Tepesi",
+        "en": "Uhud Camp and Archers' Hill",
+        "ar": "معسكر أحد وجبل الرُّماة"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hudeybiye_ordugahi",
+      "name": {
+        "tr": "Hudeybiye Ordugâhı",
+        "en": "Camp at Hudaybiya",
+        "ar": "معسكر الحديبية"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_mekke_fetih_ordugahi",
+      "name": {
+        "tr": "Mekke Fethi Ordugâhı (Merru'z-Zahrân)",
+        "en": "Conquest of Mecca Camp (Marr al-Zahran)",
+        "ar": "معسكر فتح مكة (مرّ الظهران)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_tebuk_ordugahi",
+      "name": {
+        "tr": "Tebük Ordugâhı",
+        "en": "Camp at Tabuk",
+        "ar": "معسكر تبوك"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hendek_ordugahi",
+      "name": {
+        "tr": "Hendek Gazvesi İç Ordugâh",
+        "en": "Inner Camp of the Trench Battle",
+        "ar": "المعسكر الداخلي في غزوة الخندق"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hayber_ordugahi",
+      "name": {
+        "tr": "Hayber Kuşatma Ordugâhı",
+        "en": "Siege Camp at Khaybar",
+        "ar": "معسكر حصار خيبر"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_huneyn_ordugahi",
+      "name": {
+        "tr": "Huneyn Vadisi Ordugâhı",
+        "en": "Camp at Hunayn Valley",
+        "ar": "معسكر وادي حنين"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_hicr_ismail",
+      "name": {
+        "tr": "Hicr-i İsmâîl (Hatîm)",
+        "en": "Hijr Ismail (Hatim)",
+        "ar": "حِجر إسماعيل (الحطيم)"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_makam_ibrahim",
+      "name": {
+        "tr": "Makâm-ı İbrâhîm",
+        "en": "Maqam Ibrahim (Station of Abraham)",
+        "ar": "مقام إبراهيم"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "arch_fedek_kalesi",
+      "name": {
+        "tr": "Fedek Kalesi",
+        "en": "Fortress of Fadak",
+        "ar": "حصن فدك"
+      },
+      "category": "architecture"
+    },
+    {
+      "id": "dl_kazan",
+      "name": {
+        "tr": "Bakır Kazan (Burme)",
+        "en": "Copper Cauldron (Burma)",
+        "ar": "القِدْر النحاسي (البُرمة)"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_tencere",
+      "name": {
+        "tr": "Tencere (Kıdr)",
+        "en": "Cooking Pot (Qidr)",
+        "ar": "القِدْر"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_sacayak",
+      "name": {
+        "tr": "Sacayak (Esâfî)",
+        "en": "Cooking Trivet (Athāfī)",
+        "ar": "الأثافي"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kepce",
+      "name": {
+        "tr": "Kepçe (Mığrefe)",
+        "en": "Ladle (Mighrafa)",
+        "ar": "المِغْرَفة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_degirmen",
+      "name": {
+        "tr": "El Değirmeni (Rahâ)",
+        "en": "Hand Mill (Raḥā)",
+        "ar": "الرَّحى"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_tennur",
+      "name": {
+        "tr": "Tennûr (Tandır)",
+        "en": "Clay Oven (Tannūr)",
+        "ar": "التَّنُّور"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_sis",
+      "name": {
+        "tr": "Şiş (Seffûd)",
+        "en": "Skewer (Saffūd)",
+        "ar": "السَّفُّود"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_havan",
+      "name": {
+        "tr": "Havan (Mihrâs)",
+        "en": "Mortar and Pestle (Mihrās)",
+        "ar": "المِهْراس"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_testi",
+      "name": {
+        "tr": "Testi (Cerre)",
+        "en": "Water Jug (Jarra)",
+        "ar": "الجَرّة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_ibrik",
+      "name": {
+        "tr": "İbrik",
+        "en": "Ewer (Ibrīq)",
+        "ar": "الإبريق"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_canak",
+      "name": {
+        "tr": "Çanak (Kas'a / Cefne)",
+        "en": "Bowl (Qaṣʿa / Jafna)",
+        "ar": "القَصْعة / الجَفنة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_desti",
+      "name": {
+        "tr": "Destî (Küp)",
+        "en": "Storage Jar (Dastī)",
+        "ar": "الدَّسْتيّ (الخابية)"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kadeh",
+      "name": {
+        "tr": "Kadeh (Ke's)",
+        "en": "Drinking Cup (Kaʾs)",
+        "ar": "الكَأس"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kirba",
+      "name": {
+        "tr": "Kırba (Kırbe)",
+        "en": "Waterskin (Qirba)",
+        "ar": "القِرْبة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_zenbil",
+      "name": {
+        "tr": "Zenbil (Sepet)",
+        "en": "Basket (Zanbīl)",
+        "ar": "الزَّنبيل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_matara",
+      "name": {
+        "tr": "Matara (İdâve)",
+        "en": "Water Flask (Idāwa)",
+        "ar": "الإداوة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_hurma",
+      "name": {
+        "tr": "Hurma (Temr)",
+        "en": "Dates (Tamr)",
+        "ar": "التَّمْر"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_telbine",
+      "name": {
+        "tr": "Telbîne",
+        "en": "Talbīna (Barley Porridge)",
+        "ar": "التَّلبينة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_serid",
+      "name": {
+        "tr": "Serîd (Tirit)",
+        "en": "Tharīd (Bread-Broth Dish)",
+        "ar": "الثَّريد"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_zeytinyagi",
+      "name": {
+        "tr": "Zeytinyağı (Zeyt)",
+        "en": "Olive Oil (Zayt)",
+        "ar": "الزَّيت"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_bal",
+      "name": {
+        "tr": "Bal (Asel)",
+        "en": "Honey (ʿAsal)",
+        "ar": "العَسَل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_arpa_ekmegi",
+      "name": {
+        "tr": "Arpa Ekmeği (Hubzü'ş-Şaîr)",
+        "en": "Barley Bread (Khubz al-Shaʿīr)",
+        "ar": "خبز الشعير"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_sirke",
+      "name": {
+        "tr": "Sirke (Hall)",
+        "en": "Vinegar (Khall)",
+        "ar": "الخَلّ"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kabak",
+      "name": {
+        "tr": "Kabak (Dubbâ')",
+        "en": "Gourd (Dubbāʾ)",
+        "ar": "الدُّبَّاء"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_burde",
+      "name": {
+        "tr": "Bürde (Hırka-i Şerîf)",
+        "en": "Cloak (Burda)",
+        "ar": "البُردة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_izar",
+      "name": {
+        "tr": "İzâr",
+        "en": "Lower Garment (Izār)",
+        "ar": "الإزار"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_rida",
+      "name": {
+        "tr": "Ridâ",
+        "en": "Upper Garment (Ridāʾ)",
+        "ar": "الرِّداء"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_imame",
+      "name": {
+        "tr": "İmâme (Sarık)",
+        "en": "Turban (ʿImāma)",
+        "ar": "العِمامة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_nalin",
+      "name": {
+        "tr": "Nalın (Na'l)",
+        "en": "Sandals (Naʿl)",
+        "ar": "النَّعْل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_hirka",
+      "name": {
+        "tr": "Hırka (Cübbe)",
+        "en": "Robe (Jubba)",
+        "ar": "الجُبّة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_dokuma",
+      "name": {
+        "tr": "Dokuma Tezgâhı (Minsel)",
+        "en": "Loom (Minsal)",
+        "ar": "المِنسَل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_misk",
+      "name": {
+        "tr": "Misk (Koku)",
+        "en": "Musk (Perfume)",
+        "ar": "المِسْك"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_dinar",
+      "name": {
+        "tr": "Dînâr (Altın Sikke)",
+        "en": "Dinar (Gold Coin)",
+        "ar": "الدِّينار"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_dirhem",
+      "name": {
+        "tr": "Dirhem (Gümüş Sikke)",
+        "en": "Dirham (Silver Coin)",
+        "ar": "الدِّرهم"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_fels",
+      "name": {
+        "tr": "Fels (Bakır Sikke)",
+        "en": "Fals (Copper Coin)",
+        "ar": "الفَلْس"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_bizans_solidus",
+      "name": {
+        "tr": "Bizans Solidusu",
+        "en": "Byzantine Solidus",
+        "ar": "السوليدوس البيزنطي"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_sasani_drahmisi",
+      "name": {
+        "tr": "Sâsânî Drahmisi",
+        "en": "Sasanian Drachm",
+        "ar": "الدرهم الساساني"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_mizan",
+      "name": {
+        "tr": "Mîzân (Terazi)",
+        "en": "Balance Scale (Mīzān)",
+        "ar": "الميزان"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_sa",
+      "name": {
+        "tr": "Sâ' (Hacim Ölçüsü)",
+        "en": "Ṣāʿ (Volume Measure)",
+        "ar": "الصَّاع"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_mudd",
+      "name": {
+        "tr": "Müdd",
+        "en": "Mudd (Grain Measure)",
+        "ar": "المُدّ"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_ritl",
+      "name": {
+        "tr": "Rıtl (Ağırlık Birimi)",
+        "en": "Riṭl (Weight Unit)",
+        "ar": "الرِّطل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_ukkiyye",
+      "name": {
+        "tr": "Ukkiyye",
+        "en": "Ūqiyya (Ounce)",
+        "ar": "الأُوقيّة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_zira",
+      "name": {
+        "tr": "Zirâ' (Arşın)",
+        "en": "Cubit (Dhirāʿ)",
+        "ar": "الذِّراع"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_himyeri_sikkesi",
+      "name": {
+        "tr": "Himyerî Sikkesi",
+        "en": "Himyarite Coin",
+        "ar": "العملة الحِمْيَرية"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kalem",
+      "name": {
+        "tr": "Kalem (Kalem)",
+        "en": "Reed Pen (Qalam)",
+        "ar": "القَلَم"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_murekkep",
+      "name": {
+        "tr": "Mürekkep (Hibr/Midâd)",
+        "en": "Ink (Ḥibr/Midād)",
+        "ar": "الحِبْر / المِداد"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_parsomen",
+      "name": {
+        "tr": "Parşömen / Rakk",
+        "en": "Parchment (Raqq)",
+        "ar": "الرَّقّ"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_levha",
+      "name": {
+        "tr": "Levha (Levh)",
+        "en": "Writing Tablet (Lawḥ)",
+        "ar": "اللَّوح"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_boya",
+      "name": {
+        "tr": "Boya ve Zırnık",
+        "en": "Dye and Pigment",
+        "ar": "الصِّبْغ والزِّرنيخ"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_muhur",
+      "name": {
+        "tr": "Mühür (Hâtem)",
+        "en": "Seal (Khātam)",
+        "ar": "الخاتَم"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_baharat",
+      "name": {
+        "tr": "Baharat (Tâbil)",
+        "en": "Spices (Tawābil)",
+        "ar": "التوابل"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_gunluk",
+      "name": {
+        "tr": "Günlük / Buhur (Lubân)",
+        "en": "Frankincense (Lubān)",
+        "ar": "اللُّبان"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_deri",
+      "name": {
+        "tr": "Deri (Cild)",
+        "en": "Leather (Jild)",
+        "ar": "الجِلد"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_ipek",
+      "name": {
+        "tr": "İpek (Harîr)",
+        "en": "Silk (Ḥarīr)",
+        "ar": "الحَرير"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_tuz",
+      "name": {
+        "tr": "Tuz (Milh)",
+        "en": "Salt (Milḥ)",
+        "ar": "المِلح"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kina",
+      "name": {
+        "tr": "Kına (Hinnâ)",
+        "en": "Henna (Ḥinnāʾ)",
+        "ar": "الحِنّاء"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_kandil",
+      "name": {
+        "tr": "Kandil (Sirâc/Misbâh)",
+        "en": "Oil Lamp (Sirāj/Miṣbāḥ)",
+        "ar": "السِّراج / المِصباح"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_hasir",
+      "name": {
+        "tr": "Hasır (Hasîr)",
+        "en": "Reed Mat (Ḥaṣīr)",
+        "ar": "الحصير"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_yatak",
+      "name": {
+        "tr": "Yatak (Firâş)",
+        "en": "Bedding (Firāsh)",
+        "ar": "الفِراش"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_ayna",
+      "name": {
+        "tr": "Ayna (Mir'ât)",
+        "en": "Mirror (Mirʾāt)",
+        "ar": "المِرآة"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_tarak",
+      "name": {
+        "tr": "Tarak (Müşt)",
+        "en": "Comb (Musht)",
+        "ar": "المُشط"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "dl_misvak",
+      "name": {
+        "tr": "Misvak (Sivâk)",
+        "en": "Tooth Stick (Siwāk)",
+        "ar": "السِّواك"
+      },
+      "category": "daily_life"
+    },
+    {
+      "id": "geo_sacred_001",
+      "name": {
+        "tr": "Kâbe-i Muazzama",
+        "en": "The Holy Kaaba",
+        "ar": "الكعبة المشرّفة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_002",
+      "name": {
+        "tr": "Mescid-i Nebevî",
+        "en": "The Prophet's Mosque",
+        "ar": "المسجد النبوي"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_003",
+      "name": {
+        "tr": "Mescid-i Aksâ",
+        "en": "Al-Aqsa Mosque",
+        "ar": "المسجد الأقصى"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_004",
+      "name": {
+        "tr": "Arafat Dağı ve Ovası",
+        "en": "Mount Arafat and Plain",
+        "ar": "جبل عرفات وسهله"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_005",
+      "name": {
+        "tr": "Minâ",
+        "en": "Mina",
+        "ar": "مِنى"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_006",
+      "name": {
+        "tr": "Müzdelife (Meş'ar-i Harâm)",
+        "en": "Muzdalifa (al-Mash'ar al-Haram)",
+        "ar": "المزدلفة (المشعر الحرام)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_sacred_007",
+      "name": {
+        "tr": "Mescid-i Kubâ",
+        "en": "Quba Mosque",
+        "ar": "مسجد قُباء"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_001",
+      "name": {
+        "tr": "Hira Mağarası (Cebel-i Nûr)",
+        "en": "Cave of Hira (Jabal al-Nur)",
+        "ar": "غار حراء (جبل النور)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_002",
+      "name": {
+        "tr": "Sevr Mağarası (Cebel-i Sevr)",
+        "en": "Cave of Thawr (Jabal Thawr)",
+        "ar": "غار ثور (جبل ثور)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_003",
+      "name": {
+        "tr": "Uhud Dağı",
+        "en": "Mount Uhud",
+        "ar": "جبل أُحُد"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_004",
+      "name": {
+        "tr": "Cebel-i Rahme (Arafat tepesi)",
+        "en": "Jabal al-Rahma (Mount of Mercy)",
+        "ar": "جبل الرحمة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_005",
+      "name": {
+        "tr": "Tûr-i Sînâ (Sînâ Dağı)",
+        "en": "Mount Sinai (Tur Sina)",
+        "ar": "جبل الطور (طور سيناء)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_cave_006",
+      "name": {
+        "tr": "Cebel-i Ebû Kubeys",
+        "en": "Mount Abu Qubays",
+        "ar": "جبل أبي قُبَيس"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_001",
+      "name": {
+        "tr": "Zemzem Kuyusu",
+        "en": "Well of Zamzam",
+        "ar": "بئر زمزم"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_002",
+      "name": {
+        "tr": "Bi'r-i Maûne",
+        "en": "Well of Ma'una (Bi'r Ma'una)",
+        "ar": "بئر معونة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_003",
+      "name": {
+        "tr": "Bi'r-i Erîs (Hâtemu'n-Nübüvve Kuyusu)",
+        "en": "Well of Aris (Prophetic Ring Well)",
+        "ar": "بئر أريس (بئر خاتم النبوة)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_004",
+      "name": {
+        "tr": "Bedir Kuyuları",
+        "en": "Wells of Badr",
+        "ar": "آبار بدر"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_005",
+      "name": {
+        "tr": "Bi'r-i Rûme (Osman Kuyusu)",
+        "en": "Well of Ruma (Uthman's Well)",
+        "ar": "بئر رومة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_001",
+      "name": {
+        "tr": "Şi'b-i Ebî Tâlib (Boykot Vadisi)",
+        "en": "Valley of Abu Talib (Boycott Valley)",
+        "ar": "شِعب أبي طالب"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_002",
+      "name": {
+        "tr": "Vâdî-i Buthân (Buthân Vadisi)",
+        "en": "Wadi Buthan",
+        "ar": "وادي بُطحان"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_003",
+      "name": {
+        "tr": "Vâdî'l-Akîk",
+        "en": "Wadi al-Aqiq",
+        "ar": "وادي العقيق"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_004",
+      "name": {
+        "tr": "Vedân Vadisi (Ebvâ)",
+        "en": "Wadi Waddan (Abwa)",
+        "ar": "وادي وَدّان (الأبواء)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_005",
+      "name": {
+        "tr": "Hendek (Hattâboğlu Mevkii)",
+        "en": "The Trench (Khandaq)",
+        "ar": "الخندق"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_006",
+      "name": {
+        "tr": "Huneyn Vadisi",
+        "en": "Valley of Hunayn",
+        "ar": "وادي حُنَين"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_valley_007",
+      "name": {
+        "tr": "Nahle Vadisi",
+        "en": "Wadi Nakhla",
+        "ar": "وادي نَخلة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_001",
+      "name": {
+        "tr": "Bedir Savaş Alanı",
+        "en": "Battlefield of Badr",
+        "ar": "ميدان معركة بدر"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_002",
+      "name": {
+        "tr": "Mûte Savaş Alanı",
+        "en": "Battlefield of Mu'ta",
+        "ar": "ميدان معركة مؤتة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_003",
+      "name": {
+        "tr": "Hayber Kalesi ve Arazisi",
+        "en": "Fortress and Lands of Khaybar",
+        "ar": "حصون خيبر وأراضيها"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_004",
+      "name": {
+        "tr": "Tebük Seferi Menzili",
+        "en": "Tabuk Expedition Site",
+        "ar": "موضع غزوة تبوك"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_005",
+      "name": {
+        "tr": "Benî Kurayza Mahallesi",
+        "en": "Quarter of Banu Qurayza",
+        "ar": "حيّ بني قُرَيظة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_battle_006",
+      "name": {
+        "tr": "Yermük Savaş Alanı",
+        "en": "Battlefield of Yarmouk",
+        "ar": "ميدان معركة اليرموك"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_route_001",
+      "name": {
+        "tr": "Hicret Yolu (Mekke → Medîne)",
+        "en": "Hijra Route (Mecca → Medina)",
+        "ar": "طريق الهجرة (مكة → المدينة)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_route_002",
+      "name": {
+        "tr": "Kureyş Ticaret Yolu (Kışlık-Yazlık)",
+        "en": "Quraysh Trade Route (Winter-Summer)",
+        "ar": "طريق تجارة قريش (رحلة الشتاء والصيف)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_route_003",
+      "name": {
+        "tr": "Hac Güzergâhı (Zülhuleyfe Mîkâtı)",
+        "en": "Pilgrimage Route (Dhul-Hulayfa Miqat)",
+        "ar": "طريق الحج (ميقات ذي الحُلَيفة)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_route_004",
+      "name": {
+        "tr": "Habeşistan Hicret Yolu",
+        "en": "Abyssinia Migration Route",
+        "ar": "طريق هجرة الحبشة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_desert_001",
+      "name": {
+        "tr": "Hicâz Harre'si (Harre-i Vâkım)",
+        "en": "Harra of Hijaz (Harrat Waqim)",
+        "ar": "حرّة واقم (الحرّة الشرقية)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_desert_002",
+      "name": {
+        "tr": "Rubʿu'l-Hâlî (Büyük Kum Çölü)",
+        "en": "Rub' al-Khali (Empty Quarter)",
+        "ar": "الربع الخالي"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_desert_003",
+      "name": {
+        "tr": "Safâ ve Merve Tepeleri",
+        "en": "Hills of Safa and Marwa",
+        "ar": "الصفا والمروة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_desert_004",
+      "name": {
+        "tr": "Nefûd Çölü",
+        "en": "Nafud Desert (An-Nafud)",
+        "ar": "صحراء النفود"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_desert_005",
+      "name": {
+        "tr": "Tâif Dağlık Bölgesi",
+        "en": "Ta'if Highlands",
+        "ar": "مرتفعات الطائف"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_port_001",
+      "name": {
+        "tr": "Şu'aybe Limanı",
+        "en": "Port of Shu'ayba",
+        "ar": "ميناء الشُّعَيبة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_port_002",
+      "name": {
+        "tr": "Cüdde (Cidde) Limanı",
+        "en": "Port of Jeddah",
+        "ar": "ميناء جُدّة"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_port_003",
+      "name": {
+        "tr": "Aden Limanı",
+        "en": "Port of Aden",
+        "ar": "ميناء عدن"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_port_004",
+      "name": {
+        "tr": "Eyle (Akabe) Limanı",
+        "en": "Port of Ayla (Aqaba)",
+        "ar": "ميناء أيلة (العقبة)"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "geo_well_006",
+      "name": {
+        "tr": "Hudeybiye Kuyusu",
+        "en": "Well of Hudaybiyyah",
+        "ar": "بئر الحديبية"
+      },
+      "category": "geography"
+    },
+    {
+      "id": "med_hacamat_aleti",
+      "name": {
+        "tr": "Hacâmat Aleti (Mihcem)",
+        "en": "Cupping Instrument (Mihjam)",
+        "ar": "مِحْجَم"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_kina",
+      "name": {
+        "tr": "Kına (Hinnâ)",
+        "en": "Henna (Hinna)",
+        "ar": "حِنّاء"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_sena_yapragi",
+      "name": {
+        "tr": "Senâ Yaprağı (Senâ Mekkî)",
+        "en": "Senna Leaf",
+        "ar": "سَنَا مَكّي"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_bal",
+      "name": {
+        "tr": "Bal (Asel)",
+        "en": "Honey (Asal)",
+        "ar": "عَسَل"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_habbes_sevda",
+      "name": {
+        "tr": "Çörekotu (Habbet-üs Sevdâ)",
+        "en": "Black Seed (Habbat al-Sawda)",
+        "ar": "حَبّة السَوداء"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_misvak",
+      "name": {
+        "tr": "Misvak (Siwâk)",
+        "en": "Miswak (Siwak)",
+        "ar": "سِواك / مِسواك"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_zemzem",
+      "name": {
+        "tr": "Zemzem Suyu",
+        "en": "Zamzam Water",
+        "ar": "ماء زَمزَم"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_hurma",
+      "name": {
+        "tr": "Acve Hurması",
+        "en": "Ajwa Date",
+        "ar": "عَجوة المدينة"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_kay_daglamak",
+      "name": {
+        "tr": "Dağlama Aleti (Mikvâ/Mîsem)",
+        "en": "Cauterization Tool (Mikwa)",
+        "ar": "مِكْواة / مِيسَم"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_kust_hindi",
+      "name": {
+        "tr": "Kust (Ud-ı Hindî / Ud-ı Bahrî)",
+        "en": "Costus (Indian/Sea Costus)",
+        "ar": "قُسط هندي / قُسط بحري"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_telbine",
+      "name": {
+        "tr": "Telbîne",
+        "en": "Talbina (Barley Porridge)",
+        "ar": "تَلبينة"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_su_ve_sirke",
+      "name": {
+        "tr": "Sirke (Hâll)",
+        "en": "Vinegar (Khall)",
+        "ar": "خَلّ"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_zeytin_yagi",
+      "name": {
+        "tr": "Zeytinyağı (Zeyt)",
+        "en": "Olive Oil (Zayt)",
+        "ar": "زَيت الزيتون"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_rukye",
+      "name": {
+        "tr": "Rukye (Şifâ Duaları)",
+        "en": "Ruqya (Healing Prayers)",
+        "ar": "رُقية شرعية"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_deve_sutu",
+      "name": {
+        "tr": "Deve Sütü ve İdrarı",
+        "en": "Camel Milk and Urine",
+        "ar": "لبن الإبل وأبوالها"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_keme",
+      "name": {
+        "tr": "Kem'e (Çöl Mantarı)",
+        "en": "Desert Truffle (Kamʾa)",
+        "ar": "الكمأة"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_habbur_reshad",
+      "name": {
+        "tr": "Habbü'r-Reşâd (Tere Tohumu)",
+        "en": "Garden Cress Seeds (Ḥabb al-Rashād)",
+        "ar": "حبّ الرشاد"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_amber",
+      "name": {
+        "tr": "Ud ve Buhur (Tütsü)",
+        "en": "Oud and Incense (ʿŪd / Bukhūr)",
+        "ar": "العود والبخور"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_su_tedavi",
+      "name": {
+        "tr": "Su ile Tedavi (Humma Hadisi)",
+        "en": "Water Therapy for Fever",
+        "ar": "الماء للحمى"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_surme",
+      "name": {
+        "tr": "Sürme (İsmid / Kohl)",
+        "en": "Kohl Antimony (Ithmid)",
+        "ar": "الإثمد / الكحل"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_nebiz",
+      "name": {
+        "tr": "Nebîz (Hurma/Kuru Üzüm Suyu)",
+        "en": "Nabīdh (Date/Raisin Infusion)",
+        "ar": "النبيذ"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_hicama_kase",
+      "name": {
+        "tr": "Kan Alma Kabı (Mihceme)",
+        "en": "Cupping Vessel (Miḥjama)",
+        "ar": "المحجمة"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_sater",
+      "name": {
+        "tr": "Sa'ter (Dağ Kekiği / Zahter)",
+        "en": "Thyme / Zaʿtar",
+        "ar": "الصعتر / الزعتر"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "med_ihlidj",
+      "name": {
+        "tr": "İhlîlec (Halîle Meyvesi)",
+        "en": "Terminalia (Ihlīlaj)",
+        "ar": "الإهليلج"
+      },
+      "category": "medical"
+    },
+    {
+      "id": "ms_mushaf_osman",
+      "name": {
+        "tr": "Hz. Osman Mushafı (İmam Mushaf)",
+        "en": "Uthman's Mushaf (Imam Codex)",
+        "ar": "مُصحف عثمان (المصحف الإمام)"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mushaf_ebubekir",
+      "name": {
+        "tr": "Hz. Ebû Bekir Mushafı (İlk Cem)",
+        "en": "Abu Bakr's Mushaf (First Compilation)",
+        "ar": "مصحف أبي بكر (الجمع الأول)"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_sahife_sadika",
+      "name": {
+        "tr": "Sahîfe-i Sâdıka",
+        "en": "Al-Sahifa al-Sadiqa (The Truthful Script)",
+        "ar": "الصحيفة الصادقة"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_sahife_ali",
+      "name": {
+        "tr": "Hz. Ali'nin Sahîfesi",
+        "en": "Ali's Sahifa",
+        "ar": "صحيفة عليّ"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_medine_vesikasi",
+      "name": {
+        "tr": "Medine Vesîkası (Medine Sözleşmesi)",
+        "en": "Constitution of Medina",
+        "ar": "صحيفة المدينة (دستور المدينة)"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_hudeybiye_metni",
+      "name": {
+        "tr": "Hudeybiye Antlaşması Metni",
+        "en": "Treaty of Hudaybiyyah Text",
+        "ar": "نص صلح الحُديبية"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_herakleios",
+      "name": {
+        "tr": "Hz. Peygamber'in Herakleios'a Mektubu",
+        "en": "Prophet's Letter to Heraclius",
+        "ar": "كتاب النبي ﷺ إلى هرقل"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_mukavkis",
+      "name": {
+        "tr": "Hz. Peygamber'in Mukavkıs'a Mektubu",
+        "en": "Prophet's Letter to Muqawqis",
+        "ar": "كتاب النبي ﷺ إلى المقوقس"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_sahife_cabir",
+      "name": {
+        "tr": "Câbir b. Abdullah'ın Hadis Sahîfesi",
+        "en": "Jabir ibn Abdullah's Hadith Collection",
+        "ar": "صحيفة جابر بن عبد الله"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_sahife_hemmam",
+      "name": {
+        "tr": "Sahîfe-i Hemmâm b. Münebbih",
+        "en": "Sahifa of Hammam ibn Munabbih",
+        "ar": "صحيفة همّام بن منبّه"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_muhur",
+      "name": {
+        "tr": "Peygamber Mührü",
+        "en": "Prophet's Seal",
+        "ar": "خاتم النبي ﷺ"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_kisra",
+      "name": {
+        "tr": "Hz. Peygamber'in Kisrâ'ya Mektubu",
+        "en": "Prophet's Letter to Khosrau (Kisrā)",
+        "ar": "كتاب النبي إلى كسرى"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_necasi",
+      "name": {
+        "tr": "Hz. Peygamber'in Necâşî'ye Mektubu",
+        "en": "Prophet's Letter to the Negus (Najāshī)",
+        "ar": "كتاب النبي إلى النجاشي"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_munzir",
+      "name": {
+        "tr": "Hz. Peygamber'in Münzir b. Sâvâ'ya Mektubu",
+        "en": "Prophet's Letter to al-Mundhir ibn Sāwā",
+        "ar": "كتاب النبي إلى المنذر بن ساوى"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_haris_gassani",
+      "name": {
+        "tr": "Hz. Peygamber'in Hâris el-Gassânî'ye Mektubu",
+        "en": "Prophet's Letter to al-Ḥārith al-Ghassānī",
+        "ar": "كتاب النبي إلى الحارث الغساني"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_mektup_hawze",
+      "name": {
+        "tr": "Hz. Peygamber'in Hevze b. Ali'ye Mektubu",
+        "en": "Prophet's Letter to Hawdha ibn ʿAlī",
+        "ar": "كتاب النبي إلى هوذة بن علي"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "ms_vasiyetname",
+      "name": {
+        "tr": "Hz. Peygamber'in Son Vasiyetleri",
+        "en": "The Prophet's Final Testaments",
+        "ar": "وصايا النبي الأخيرة"
+      },
+      "category": "manuscripts"
+    },
+    {
+      "id": "flag_ukab",
+      "name": {
+        "tr": "Ukâb (Kartal) — Siyah Sancak",
+        "en": "Al-Uqab (The Eagle) — Black Banner",
+        "ar": "العُقاب — الراية السوداء"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_liva_beyaz",
+      "name": {
+        "tr": "Livâ — Beyaz Bayrak",
+        "en": "Al-Liwa — White Flag",
+        "ar": "اللِّواء — الراية البيضاء"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_rayah_hayber",
+      "name": {
+        "tr": "Hayber Sancağı",
+        "en": "Banner of Khaybar",
+        "ar": "راية خيبر"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_halid",
+      "name": {
+        "tr": "Hâlid b. Velîd'in Sancağı",
+        "en": "Khalid ibn al-Walid's Banner",
+        "ar": "راية خالد بن الوليد"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_sad",
+      "name": {
+        "tr": "Sa'd b. Ubâde'nin Ensâr Sancağı",
+        "en": "Sa'd ibn Ubada's Ansar Banner",
+        "ar": "راية الأنصار — سعد بن عبادة"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_muhacirun",
+      "name": {
+        "tr": "Muhâcirûn Sancağı",
+        "en": "Muhajirun Banner",
+        "ar": "راية المهاجرين"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_usame",
+      "name": {
+        "tr": "Üsâme Ordusu Sancağı",
+        "en": "Usama's Army Banner",
+        "ar": "راية جيش أسامة"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_rayah_mute",
+      "name": {
+        "tr": "Mûte Sancağı",
+        "en": "Banner of Mu'ta",
+        "ar": "راية مؤتة"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_evs",
+      "name": {
+        "tr": "Evs Kabilesi Sancağı",
+        "en": "Banner of the Aws Tribe",
+        "ar": "راية الأوس"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_sancak_hazrec",
+      "name": {
+        "tr": "Hazrec Kabilesi Sancağı",
+        "en": "Banner of the Khazraj Tribe",
+        "ar": "راية الخزرج"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_rayah_tebuk",
+      "name": {
+        "tr": "Tebük Seferi Sancağı",
+        "en": "Banner of the Tabūk Expedition",
+        "ar": "راية تبوك"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_rayah_hendek",
+      "name": {
+        "tr": "Hendek Savaşı Sancağı",
+        "en": "Banner of the Battle of the Trench",
+        "ar": "راية الخندق"
+      },
+      "category": "flags"
+    },
+    {
+      "id": "flag_rayah_beni_kaynuka",
+      "name": {
+        "tr": "Benî Kaynukâ Seferi Sancağı",
+        "en": "Banner of the Banū Qaynuqāʿ Expedition",
+        "ar": "راية بني قينقاع"
+      },
+      "category": "flags"
+    }
+  ]
+}

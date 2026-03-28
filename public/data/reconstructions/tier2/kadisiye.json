@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "id": "reconstruction_kadisiye",
+    "battle_id": "kadisiye",
+    "version": "2.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Kâdisiye Muharebesi (Muharrem veya Şaban 15 AH / 636-637 CE). Sâsânî İmparatorluğu'nun çöküşünü başlatan muharebe. Sa'd b. Ebî Vakkâs komutasında 3-4 günlük epik savaş. Rüstem öldürüldü, Sâsânî ordusu dağıldı."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 32.05,
+        "lng": 44.35
+      },
+      "bbox": {
+        "north": 32.12,
+        "south": 31.98,
+        "east": 44.42,
+        "west": 44.28
+      },
+      "terrain_type": "river_plain",
+      "terrain_desc": {
+        "tr": "Kâdisiye, Kûfe'nin güneybatısında, Necef ile Hîre arasındaki düz ovada. Atîk Kanalı (Nehru Atîk) savaş alanını ikiye bölüyor. Batıda çöl, doğuda Fırat sulak alanları.",
+        "en": "Qādisīya lies on the flat plain southwest of Kūfa, between Najaf and Ḥīra. The ʿAtīq Canal bisects the battlefield. Desert to the west, Euphrates wetlands to the east."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_kadisiye_kale",
+        "name": {
+          "tr": "Kâdisiye Kalesi (Kasru Kâdisiye)",
+          "en": "Qādisīya Castle"
+        },
+        "lat": 32.05,
+        "lng": 44.35,
+        "type": "fortress",
+        "note_tr": "Sa'd b. Ebî Vakkâs'ın hastalığı sebebiyle savaşı buradan izlediği rivayet edilen kale."
+      },
+      {
+        "id": "lm_atik_kanali",
+        "name": {
+          "tr": "Atîk Kanalı",
+          "en": "ʿAtīq Canal"
+        },
+        "lat": 32.04,
+        "lng": 44.34,
+        "type": "water_body",
+        "note_tr": "Savaş alanını bölüen kanal; Sâsânî filleri burada geçti."
+      },
+      {
+        "id": "lm_kadisiye_kopru",
+        "name": {
+          "tr": "Kâdisiye Köprüsü",
+          "en": "Qādisīya Bridge"
+        },
+        "lat": 32.06,
+        "lng": 44.36,
+        "type": "bridge",
+        "note_tr": "Kanal üzerindeki köprü; stratejik kontrol noktası."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_kadisiye",
+        "name": {
+          "tr": "Medîne → Kâdisiye yürüyüşü",
+          "en": "Medina → Qādisīya march"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.47,
+            "lng": 39.61,
+            "label": "Medîne"
+          },
+          {
+            "lat": 27.5,
+            "lng": 41.7,
+            "label": "Hâil"
+          },
+          {
+            "lat": 30.0,
+            "lng": 43.5,
+            "label": "Hîre"
+          },
+          {
+            "lat": 32.05,
+            "lng": 44.35,
+            "label": "Kâdisiye"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_hazirlik",
+      "order": 0,
+      "name": {
+        "tr": "Hazırlık: Rüstem ile müzakereler",
+        "en": "Preparation: Negotiations with Rustam"
+      },
+      "date_range": {
+        "start": "Muharrem 15 AH",
+        "end": "Muharrem 15 AH"
+      },
+      "duration": "birkaç gün",
+      "description": {
+        "tr": "Rib'î b. Âmir, Rüstem'e elçi gönderildi. Meşhur konuşması: 'Allah bizi, insanları insanlara kulluktan Allah'a kulluğa, dünya darlığından genişliğine, dinlerin zulmünden İslâm'ın adaletine çıkarmak için gönderdi.' Rüstem reddetti.",
+        "en": "Ribʿī b. ʿĀmir was sent as envoy to Rustam. His famous speech: 'God sent us to lead people from servitude to people to servitude to God, from the narrowness of this world to its expanse, from the tyranny of religions to the justice of Islam.' Rustam refused."
+      },
+      "events": [
+        {
+          "id": "E0_1",
+          "name_tr": "Rib'î b. Âmir'in Rüstem'e elçiliği",
+          "description_tr": "Meşhur diyalog; İslâm'ın fetih motivasyonunu özetleyen konuşma."
+        }
+      ]
+    },
+    {
+      "id": "F1_yevmul_ermas",
+      "order": 1,
+      "name": {
+        "tr": "Yevmü'l-Ermâs (1. gün — Heyecan/Zırh Günü)",
+        "en": "Day of Armāth (Day 1 — Day of Fury)"
+      },
+      "date_range": {
+        "start": "1. gün",
+        "end": "1. gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Sâsânî fil birliği (33 fil) İslâm saflarına saldırdı. Atlar fillerden ürktü. İslâm süvarileri yere indi, piyade olarak savaştı. Ağır kayıplar; ancak İslâm hattı kırılmadı.",
+        "en": "The Sasanian elephant corps (33 elephants) attacked Muslim lines. Horses panicked at the elephants. Muslim cavalry dismounted and fought as infantry. Heavy losses; but the Muslim line held."
+      },
+      "events": [
+        {
+          "id": "E1_1",
+          "name_tr": "Fil taarruzu",
+          "description_tr": "33 Sâsânî savaş fili İslâm hattına saldırdı."
+        },
+        {
+          "id": "E1_2",
+          "name_tr": "Atların ürkmesi",
+          "description_tr": "İslâm süvarileri yere inmek zorunda kaldı."
+        }
+      ]
+    },
+    {
+      "id": "F2_yevmul_agvas",
+      "order": 2,
+      "name": {
+        "tr": "Yevmü'l-Ağvâs (2. gün — Yardım Günü)",
+        "en": "Day of Aghwāth (Day 2 — Day of Succor)"
+      },
+      "date_range": {
+        "start": "2. gün",
+        "end": "2. gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Suriye cephesinden Ka'ka' b. Amr komutasında takviye geldi. Ka'ka' askerleri gruplara ayırarak ardı ardına giriş yaptırdı; Sâsânîler sürekli yeni kuvvet geldiğini sandı. Fillerin hortumları ve gözleri hedef alınarak etkisiz hale getirildi.",
+        "en": "Reinforcements arrived from the Syrian front under Qaʿqāʿ b. ʿAmr. Qaʿqāʿ divided his soldiers into groups entering sequentially; Sasanians thought new forces were continuously arriving. Elephants were neutralized by targeting their trunks and eyes."
+      },
+      "events": [
+        {
+          "id": "E2_1",
+          "name_tr": "Ka'ka' b. Amr'ın takviyesi",
+          "description_tr": "Psikolojik üstünlük sağlayan ardışık giriş taktiği."
+        },
+        {
+          "id": "E2_2",
+          "name_tr": "Fillerin etkisizleştirilmesi",
+          "description_tr": "Gözler ve hortumlar hedef alındı."
+        }
+      ]
+    },
+    {
+      "id": "F3_yevmul_imas",
+      "order": 3,
+      "name": {
+        "tr": "Yevmü'l-İmâs (3. gün — Göz Kırpma/Yaklaşma Günü)",
+        "en": "Day of Imās (Day 3)"
+      },
+      "date_range": {
+        "start": "3. gün",
+        "end": "3. gün"
+      },
+      "duration": "1 gün",
+      "description": {
+        "tr": "Üçüncü gün de sonuçsuz kaldı. Gece boyu devam eden Leyletü'l-Herîr (Uğultu Gecesi) başladı.",
+        "en": "The third day also ended inconclusively. The night-long Laylat al-Harīr (Night of Clamor) began."
+      },
+      "events": []
+    },
+    {
+      "id": "F4_laylatul_harir",
+      "order": 4,
+      "name": {
+        "tr": "Leyletü'l-Herîr ve Kesin Gün (3-4. gün geçişi)",
+        "en": "Night of Clamor and Decisive Day"
+      },
+      "date_range": {
+        "start": "3. gece - 4. gün",
+        "end": "4. gün"
+      },
+      "duration": "~18 saat",
+      "description": {
+        "tr": "Gece boyu süren çarpışma; sabaha kadar hiç durmadı. Şafak sökerken kum fırtınası çıktı (Sâsânîlerin yüzüne). Ka'ka' b. Amr ve Hâşim b. Utbe Sâsânî merkezine yüklendi. Rüstem kaçarken yakalanıp öldürüldü. Sâsânî bayrağı (Direfş-i Kâviyânî) ele geçirildi. Büyük zafer.",
+        "en": "Night-long fighting; never stopped until dawn. At dawn, a sandstorm arose (blowing into Sasanian faces). Qaʿqāʿ b. ʿAmr and Hāshim b. ʿUtba charged the Sasanian center. Rustam was caught fleeing and killed. The Sasanian imperial banner (Dirafsh-i Kāviyān) was captured. Decisive victory."
+      },
+      "events": [
+        {
+          "id": "E4_1",
+          "name_tr": "Leyletü'l-Herîr (gece boyu savaş)",
+          "description_tr": "Sabaha kadar hiç durmayan çarpışma."
+        },
+        {
+          "id": "E4_2",
+          "name_tr": "Rüstem'in öldürülmesi",
+          "description_tr": "Hilâl b. Ullefe tarafından öldürüldü."
+        },
+        {
+          "id": "E4_3",
+          "name_tr": "Direfş-i Kâviyânî ele geçirildi",
+          "description_tr": "Sâsânî imparatorluk sancağı; muazzam maddi ve sembolik değer."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~30.000-36.000",
+      "commander": "sad_b_ebi_vakkas",
+      "commander_name": {
+        "tr": "Sa'd b. Ebî Vakkâs",
+        "en": "Saʿd b. Abī Waqqāṣ"
+      },
+      "composition": {
+        "medine": {
+          "note_tr": "Hz. Ömer'in gönderdiği Medîne merkezli kuvvetler"
+        },
+        "suriye_takviye": {
+          "note_tr": "Ka'ka' b. Amr komutasında Suriye cephesinden takviye"
+        },
+        "kabile": {
+          "note_tr": "Kuzeydoğu Arap kabilelerinden katılımlar"
+        }
+      },
+      "equipment": {
+        "note_tr": "Kılıç, mızrak, ok. At ve deve. Filler karşısında özel taktik geliştirildi."
+      }
+    },
+    "enemy": {
+      "total": "~60.000-120.000 (kaynaklara göre; modern: ~40.000-60.000)",
+      "commander_name": {
+        "tr": "Rüstem-i Ferruhzâd (Sâsânî başkumandanı)",
+        "en": "Rustam Farrōkhzād (Sasanian supreme commander)"
+      },
+      "composition": {
+        "savaran": {
+          "note_tr": "Sâsânî ağır süvari (cataphract/clibanarii)"
+        },
+        "filler": {
+          "note_tr": "33 savaş fili — muharebede kilit rol"
+        },
+        "piyade": {
+          "note_tr": "Sâsânî paygan (düzenli piyade)"
+        },
+        "daylamiler": {
+          "note_tr": "Daylam dağlı askerleri"
+        }
+      }
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "Taberî",
+        "work": "Târîh",
+        "section": "III/530-570",
+        "note_tr": "En detaylı anlatım; gün gün savaş seyrini verir."
+      },
+      {
+        "author": "Belâzürî",
+        "work": "Fütûhu'l-Büldân",
+        "section": "250-265",
+        "note_tr": "Irak fetihlerinde Kâdisiye merkezî."
+      },
+      {
+        "author": "İbnü'l-Esîr",
+        "work": "el-Kâmil",
+        "section": "II/350-380",
+        "note_tr": "Derli toplu kronolojik anlatım."
+      },
+      {
+        "author": "Dîneverî",
+        "work": "el-Ahbâru't-Tıvâl",
+        "section": "",
+        "note_tr": "İran perspektifinden değerli bilgiler."
+      }
+    ],
+    "modern_studies": [
+      {
+        "author": "M. Morony",
+        "work": "Iraq after the Muslim Conquest",
+        "note_tr": "Irak'ın İslâm fethinden sonraki dönüşümü."
+      },
+      {
+        "author": "F. Donner",
+        "work": "The Early Islamic Conquests",
+        "note_tr": "Fetih hareketinin kapsamlı analizi."
+      }
+    ],
+    "source_conflicts": [
+      {
+        "topic_tr": "Tarih",
+        "detail_tr": "Muharrem 14 AH, Şaban 15 AH veya Muharrem 15 AH arasında ihtilaf.",
+        "resolution_tr": "Çoğunluk 15 AH (636 CE) tarihini tercih eder."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 8,
+      "surah_name": "Enfâl",
+      "ayah_range": "45-46",
+      "topic": {
+        "tr": "Düşmanla karşılaştığınızda sebat edin, Allah'ı çok zikredin",
+        "en": "When you encounter the enemy, stand firm and remember God much"
+      },
+      "key_verses": [
+        {
+          "ayah": 45,
+          "topic_tr": "Sebat, zikir ve itaat emri — Kâdisiye'nin 4 günlük dayanışmasını yansıtır",
+          "phase_id": "F1_yevmul_ermas"
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "surah_name": "Bakara",
+      "ayah_range": "249-251",
+      "topic": {
+        "tr": "Az topluluğun çok topluluğa galip gelmesi — Tâlût-Câlût kıssası",
+        "en": "A small company defeating a larger one — story of Ṭālūt and Jālūt"
+      },
+      "key_verses": [
+        {
+          "ayah": 249,
+          "topic_tr": "Nice az topluluk Allah'ın izniyle çok topluluğa galip gelmiştir",
+          "phase_id": "F4_laylatul_harir"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_sad_vakkas_dua",
+      "topic": "Sa'd b. Ebî Vakkâs'ın duası kabul edilen sahâbî oluşu — Hz. Peygamber: 'Allahım, Sa'd'ın okunu doğrult ve duasını kabul et'",
+      "relevance": "direct",
+      "source": "Tirmizî"
+    },
+    {
+      "hadith_id": "hds_irak_fethi",
+      "topic": "Hz. Peygamber'in Kisrâ'nın hazinelerinin müslümanlara verileceği müjdesi",
+      "relevance": "contextual",
+      "source": "Buhârî, Megâzî"
+    },
+    {
+      "hadith_id": "hds_ribibn_amir",
+      "topic": "Rib'î b. Âmir'in Rüstem'e elçiliği sırasındaki konuşması — İslâm fetih felsefesini özetler",
+      "relevance": "direct",
+      "source": "Taberî (hadis olmasa da sahâbî sözü)"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Sâsânî ordusunun ana gücü imha edildi. Rüstem'in ölümü merkezî komutayı çökertti. Medâin'e giden yol açıldı.",
+      "en": "The main Sasanian army was destroyed. Rustam's death collapsed the central command. The road to Ctesiphon was opened."
+    },
+    "political": {
+      "tr": "Sâsânî İmparatorluğu'nun çöküşünü başlattı. III. Yezdicerd kaçtı. Irak kalıcı olarak İslâm hâkimiyetine girdi.",
+      "en": "Triggered the collapse of the Sasanian Empire. Yazdegerd III fled. Iraq permanently entered Muslim control."
+    },
+    "theological": {
+      "tr": "Hz. Ömer'in halifelik yönetiminin en büyük askeri başarısı. Rib'î'nin konuşması İslâm'ın evrensel mesajını özetledi.",
+      "en": "The greatest military achievement of ʿUmar's caliphate. Ribʿī's speech epitomized Islam's universal message."
+    },
+    "casualties_detail": {
+      "muslim": {
+        "killed": "~8.500",
+        "note_tr": "Ağır kayıplar; ancak zafer kazanıldı."
+      },
+      "enemy": {
+        "killed": "~30.000+",
+        "note_tr": "Rüstem dahil birçok Sâsânî komutanı öldü."
+      }
+    },
+    "subsequent_events": [
+      {
+        "id": "fetih_medain",
+        "name_tr": "Medâin/Ktesifon Fethi",
+        "description_tr": "Kâdisiye sonrası Sâsânî başkenti ele geçirildi."
+      },
+      {
+        "id": "nihavend",
+        "name_tr": "Nihâvend Muharebesi (21 AH)",
+        "description_tr": "Fethu'l-Fütûh — Sâsânî İmparatorluğu'nun sonu."
+      }
+    ]
+  },
+  "visualization": {
+    "default_zoom": 12,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "route_march": "#1565C0",
+      "landmark": "#6A1B9A"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "overlay",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Rotalar",
+        "type": "overlay",
+        "default_visible": true
+      }
+    ]
+  }
+}

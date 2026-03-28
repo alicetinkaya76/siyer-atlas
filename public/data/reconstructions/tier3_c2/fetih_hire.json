@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "recon_fetih_hire",
+    "battle_id": "fetih_hire",
+    "version": "1.1",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 31.9833,
+        "lng": 44.45
+      },
+      "name": "Hîre Fethi",
+      "modern_location": "Kûfe yakını, Irak"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Yürüyüş",
+      "date_range": "Muharrem 12",
+      "duration": "",
+      "description": "Hâlid Yemâme'den Irak'a yöneldi.",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Teslim",
+      "date_range": "Safer 12",
+      "duration": "",
+      "description": "Hîre halkı cizye ödeyerek teslim oldu.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hâlid b. Velîd",
+      "estimated_troops": null,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "Lahmî beyleri",
+      "estimated_troops": null,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "Taberî, Târîh, III/344-350",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Belâzürî, Fütûh, 243",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_halid_seyfullah",
+      "topic": "Hz. Peygamber'in Hâlid'e 'Allah'ın kılıcı' unvanını vermesi",
+      "relevance": "contextual",
+      "source": "Ahmed b. Hanbel"
+    }
+  ],
+  "impact": {
+    "result": "Sulh ile teslim",
+    "significance": "Irak fetihlerinin ilk önemli adımı. Lahmî Arap krallığının merkezi ele geçirildi.",
+    "cross_references": [
+      "kadisiye"
+    ]
+  },
+  "visualization": {
+    "icon": "fetih",
+    "color": "#2196F3",
+    "priority": "low"
+  }
+}

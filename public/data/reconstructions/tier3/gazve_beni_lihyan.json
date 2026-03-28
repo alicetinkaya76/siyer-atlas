@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "recon_gazve_beni_lihyan",
+    "battle_id": "gazve_beni_lihyan",
+    "version": "1.0",
+    "tier": 3,
+    "schema_version": "1.0",
+    "last_updated": "2026-03-27",
+    "author": "Siyer Atlası / Claude",
+    "notes": ""
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 22.5,
+        "lng": 39.8
+      },
+      "name": "Guran / Recî' (Benî Lihyân yurdu)",
+      "modern_location": "Hicaz kıyı bölgesi"
+    },
+    "key_landmarks": [],
+    "routes": []
+  },
+  "phases": [
+    {
+      "id": "phase_1",
+      "order": 1,
+      "name": "Sefer",
+      "date_range": "Rebîülevvel 6",
+      "duration": "",
+      "description": "Recî' faciası intikamı için Medine'den çıkış. Şam yoluna gidiyormuş gibi davrandı (savaş hilesi).",
+      "events": []
+    },
+    {
+      "id": "phase_2",
+      "order": 2,
+      "name": "Varış",
+      "date_range": "Rebîülevvel 6",
+      "duration": "",
+      "description": "Guran bölgesine ulaştı. Benî Lihyân dağlara kaçmıştı.",
+      "events": []
+    },
+    {
+      "id": "phase_3",
+      "order": 3,
+      "name": "Geri dönüş",
+      "date_range": "Rebîülevvel 6",
+      "duration": "",
+      "description": "İki gün bekledi, Usfân üzerinden döndü. Mekkelilere gözdağı verdi.",
+      "events": []
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "commander": "Hz. Muhammed (s.a.v.)",
+      "estimated_troops": 200,
+      "composition": ""
+    },
+    "enemy": {
+      "commander": "",
+      "estimated_troops": 0,
+      "composition": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "text": "İbn Hişâm, es-Sîre, III/292",
+      "type": "primary"
+    },
+    {
+      "id": "src_2",
+      "text": "Vâkıdî, el-Megâzî, II/534-536",
+      "type": "primary"
+    }
+  ],
+  "quran_connections": [],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_reci_hubeyb_namaz",
+      "topic": "Hubeyb b. Adiyy'in idam öncesi iki rekât namaz kılması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_reci_asim_arilar",
+      "topic": "Âsım b. Sâbit'in cesedinin arı sürüsüyle korunması",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_reci_hubeyb_soru",
+      "topic": "Hubeyb'e 'Muhammed senin yerinde olsun ister misin?' sorusu ve cevabı",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "result": "Karşılaşma olmadı, caydırıcı etki",
+    "significance": "Recî' intikamı. Medine'nin güneye doğru güç projeksiyonu.",
+    "cross_references": []
+  },
+  "visualization": {
+    "icon": "gazve",
+    "color": "#FF9800",
+    "priority": "low"
+  }
+}

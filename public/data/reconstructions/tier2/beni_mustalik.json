@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "id": "reconstruction_beni_mustalik",
+    "battle_id": "gazve_beni_mustalik",
+    "version": "1.0.0",
+    "tier": 2,
+    "last_updated": "2026-03-27",
+    "schema_version": "gazve_reconstruction_v1",
+    "author": "siyer_atlas_pipeline",
+    "notes": "Benî Müstalik / Müreysî' Gazvesi (Şaban 5 veya 6 AH / 626-627 CE). Hz. Peygamber, Huzâa kollarından Benî Müstalik'in müslümanlara saldırı hazırlığı istihbaratını alınca sefere çıktı. Müreysî' suyu başında kısa çatışmayla zafer. İfk hadisesi (Hz. Âişe'ye iftira) ve münâfıkların fitne girişimleri bu gazve dönüşünde yaşandı. Kur'ân'dan Nûr 11-20 ve Münâfıkûn 1-8 bu olayla bağlantılıdır."
+  },
+  "spatial": {
+    "battlefield": {
+      "center": {
+        "lat": 23.55,
+        "lng": 39.25
+      },
+      "bbox": {
+        "north": 23.62,
+        "south": 23.48,
+        "east": 39.35,
+        "west": 39.15
+      },
+      "terrain_type": "oasis_well",
+      "terrain_desc": {
+        "tr": "Müreysî' suyu, Kudeyd yakınlarında, Mekke-Medîne yolu üzerinde bir su kaynağı. Hicaz'ın batı kıyı düzlüğü (Tihâme) ile iç bölge arasında geçiş alanı. Benî Müstalik'in yayla/otlak bölgesi.",
+        "en": "The spring of Muraysiʿ is near Qudayd, on the Mecca-Medina route. A transitional zone between the Tihāma coastal plain and the interior highlands of the Ḥijāz. The seasonal pastureland of Banū al-Muṣṭaliq."
+      }
+    },
+    "key_landmarks": [
+      {
+        "id": "lm_mureysi_suyu",
+        "name": {
+          "tr": "Müreysî' Suyu",
+          "en": "Muraysiʿ Spring"
+        },
+        "lat": 23.55,
+        "lng": 39.25,
+        "type": "water_source",
+        "note_tr": "Çatışmanın gerçekleştiği su kaynağı; Benî Müstalik'in toplanma noktası."
+      },
+      {
+        "id": "lm_kudeyd",
+        "name": {
+          "tr": "Kudeyd",
+          "en": "Qudayd"
+        },
+        "lat": 23.48,
+        "lng": 39.18,
+        "type": "settlement",
+        "note_tr": "Müreysî' yakınında yerleşim merkezi; Mekke-Medîne kervan yolu üzerinde."
+      },
+      {
+        "id": "lm_ifk_konagi",
+        "name": {
+          "tr": "İfk Hadisesi Konağı",
+          "en": "Ifk Incident Campsite"
+        },
+        "lat": 23.9,
+        "lng": 39.4,
+        "type": "campsite",
+        "note_tr": "Dönüş yolunda Hz. Âişe'nin geride kaldığı konak yeri (rivâyete göre Medîne'ye yakın)."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route_medine_mureysi",
+        "name": {
+          "tr": "Medîne → Müreysî'",
+          "en": "Medina → Muraysiʿ"
+        },
+        "type": "march",
+        "waypoints": [
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          },
+          {
+            "lat": 24.0,
+            "lng": 39.4,
+            "label": "Ara konak"
+          },
+          {
+            "lat": 23.55,
+            "lng": 39.25,
+            "label": "Müreysî' Suyu"
+          }
+        ]
+      },
+      {
+        "id": "route_donus",
+        "name": {
+          "tr": "Müreysî' → Medîne (dönüş)",
+          "en": "Muraysiʿ → Medina (return)"
+        },
+        "type": "return",
+        "waypoints": [
+          {
+            "lat": 23.55,
+            "lng": 39.25,
+            "label": "Müreysî'"
+          },
+          {
+            "lat": 23.9,
+            "lng": 39.4,
+            "label": "İfk konağı"
+          },
+          {
+            "lat": 24.4672,
+            "lng": 39.6112,
+            "label": "Medîne"
+          }
+        ]
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "F0_background",
+      "order": 0,
+      "name": {
+        "tr": "Arka plan: Saldırı istihbaratı",
+        "en": "Background: Intelligence of attack preparation"
+      },
+      "date_range": {
+        "start": "Receb 5 AH",
+        "end": "Şaban 5 AH (başı)"
+      },
+      "duration": "~2-3 hafta",
+      "description": {
+        "tr": "Huzâa kollarından Benî Müstalik'in reisi Hâris b. Ebî Dırâr, çevre kabileleri toplayarak Medîne'ye saldırı hazırlığına girdi. Hz. Peygamber, Büreyde b. Husayb el-Eslemî'yi istihbarat için gönderdi. Büreyde, Hâris'in yanına gidip saldırı planını doğruladı ve hızla geri döndü.",
+        "en": "Al-Ḥārith b. Abī Ḍirār, chief of Banū al-Muṣṭaliq (a sub-clan of Khuzāʿa), rallied neighboring tribes for an attack on Medina. The Prophet sent Burayda b. al-Ḥuṣayb al-Aslamī to gather intelligence. Burayda confirmed the attack preparations and returned swiftly."
+      },
+      "events": [
+        {
+          "id": "E0_1_istihbarat",
+          "type": "intelligence",
+          "description_tr": "Müslümanlar Hâris b. Ebî Dırâr'ın toplanma haberini aldı.",
+          "description_en": "Muslims received news of al-Ḥārith b. Abī Ḍirār's mobilization."
+        },
+        {
+          "id": "E0_2_bureyde_keşif",
+          "type": "reconnaissance",
+          "description_tr": "Büreyde b. Husayb keşfe gönderildi; planı doğruladı.",
+          "description_en": "Burayda b. al-Ḥuṣayb was sent for reconnaissance and confirmed the plan."
+        }
+      ]
+    },
+    {
+      "id": "F1_seferberlik",
+      "order": 1,
+      "name": {
+        "tr": "Seferberlik ve yürüyüş",
+        "en": "Mobilization and march"
+      },
+      "date_range": {
+        "start": "2 Şaban 5 AH",
+        "end": "~8 Şaban 5 AH"
+      },
+      "duration": "~5-6 gün",
+      "description": {
+        "tr": "Hz. Peygamber hızla seferberlik ilan etti. Muhâcir ve Ensâr'dan büyük bir kuvvet toplandı. Münâfıkların reisi Abdullah b. Übey b. Selûl da katıldı (bu, münafıkların son büyük sefer katılımı). Zeyd b. Hârise, Hz. Peygamber'in yokluğunda Medîne'de vekil bırakıldı. Ordu güneybatıya Müreysî' istikametine yürüdü.",
+        "en": "The Prophet quickly declared mobilization. A large force of Muhājirūn and Anṣār assembled. ʿAbd Allāh b. Ubayy b. Salūl, leader of the hypocrites, also joined (their last major campaign participation). Zayd b. Ḥāritha was left as deputy in Medina. The army marched southwest toward Muraysiʿ."
+      },
+      "events": [
+        {
+          "id": "E1_1_seferberlik",
+          "type": "mobilization",
+          "description_tr": "Hz. Peygamber 'Düşman saldırmadan biz varalım' diyerek hızla hareket etti.",
+          "description_en": "The Prophet said 'Let us reach them before they attack us' and moved swiftly."
+        },
+        {
+          "id": "E1_2_munafik_katilim",
+          "type": "political",
+          "description_tr": "Abdullah b. Übey ve münâfıklar orduda; bu son büyük gazveye katılımları.",
+          "description_en": "ʿAbd Allāh b. Ubayy and hypocrites joined; their last major campaign participation."
+        }
+      ]
+    },
+    {
+      "id": "F2_catisma",
+      "order": 2,
+      "name": {
+        "tr": "Müreysî' Çatışması",
+        "en": "Battle at Muraysiʿ"
+      },
+      "date_range": {
+        "start": "~10 Şaban 5 AH",
+        "end": "~10 Şaban 5 AH"
+      },
+      "duration": "Birkaç saat",
+      "description": {
+        "tr": "Müslüman ordusu Müreysî' suyuna ulaştığında Benî Müstalik hazırlıksız yakalandı. Hz. Peygamber önce İslam'a davet etti, reddedilince ok atışıyla savaş başladı. Müslümanlar genel hücuma geçti. Kısa süren çatışmada 10 düşman öldürüldü; müslümanlardan 1 şehit (Hişâm b. Subâbe, yanlışlıkla kendi tarafından vuruldu). Hâris b. Ebî Dırâr dahil 200 aile esir alındı; çok sayıda deve ve koyun ganimet oldu.",
+        "en": "The Muslim army arrived at Muraysiʿ spring, catching Banū al-Muṣṭaliq off-guard. The Prophet first invited them to Islam; when refused, the battle began with arrow volleys. A general Muslim assault followed. In the brief fighting, 10 enemies were killed; 1 Muslim casualty (Hishām b. Ṣubāba, accidentally killed by friendly fire). About 200 families were taken captive including al-Ḥārith b. Abī Ḍirār; large numbers of camels and sheep were captured."
+      },
+      "events": [
+        {
+          "id": "E2_1_davet",
+          "type": "diplomacy",
+          "description_tr": "Hz. Peygamber savaş öncesi İslam'a davet etti; reddedildi.",
+          "description_en": "The Prophet invited them to Islam before battle; they refused."
+        },
+        {
+          "id": "E2_2_ok_atisi",
+          "type": "combat",
+          "description_tr": "Ok atışıyla başlayan çatışma, kısa sürede genel hücuma dönüştü.",
+          "description_en": "Arrow volleys opened the battle, quickly escalating to a general assault."
+        },
+        {
+          "id": "E2_3_esirler",
+          "type": "capture",
+          "description_tr": "200 aile esir alındı; büyük ganimet (deve, koyun) ele geçirildi.",
+          "description_en": "200 families captured; large spoils (camels, sheep) seized."
+        }
+      ]
+    },
+    {
+      "id": "F3_munafik_fitne",
+      "order": 3,
+      "name": {
+        "tr": "Münâfıkların fitne girişimi",
+        "en": "Hypocrites' sedition attempt"
+      },
+      "date_range": {
+        "start": "10 Şaban 5 AH",
+        "end": "~12 Şaban 5 AH"
+      },
+      "duration": "1-2 gün",
+      "description": {
+        "tr": "Su başında Muhâcirlerden Cehcâh b. Mesûd ile Ensâr'dan Sinân b. Veber arasında bir kavga çıktı. Abdullah b. Übey bunu fırsata çevirip 'Medîne'ye dönersek en güçlü olanlar (kendisi) en zayıf olanları (müslümanlar) oradan çıkaracaktır' dedi. Zeyd b. Erkam bunu Hz. Peygamber'e haber verdi. Hz. Ömer, Abdullah'ın öldürülmesini istedi ancak Hz. Peygamber 'Muhammed arkadaşlarını öldürüyor denmesin' diyerek reddetti. Bunun üzerine Münâfıkûn sûresi nâzil oldu.",
+        "en": "A quarrel erupted between the Muhājir Jahjāh b. Masʿūd and the Anṣārī Sinān b. Wabar at the well. ʿAbd Allāh b. Ubayy exploited the incident, declaring 'When we return to Medina, the mightier will drive out the weaker.' Zayd b. Arqam reported this to the Prophet. ʿUmar requested permission to kill ʿAbd Allāh, but the Prophet refused, saying 'People should not say Muḥammad kills his companions.' Sūrat al-Munāfiqūn was then revealed."
+      },
+      "events": [
+        {
+          "id": "E3_1_kavga",
+          "type": "internal_conflict",
+          "description_tr": "Muhâcir-Ensâr arasında su kavgası; münâfıkların kışkırtması.",
+          "description_en": "Quarrel between a Muhājir and Anṣārī; hypocrites' provocation."
+        },
+        {
+          "id": "E3_2_ubey_fitne",
+          "type": "political",
+          "description_tr": "Abdullah b. Übey: 'Medîne'ye dönersek güçlü olan zayıfı çıkaracak.'",
+          "description_en": "ʿAbd Allāh b. Ubayy: 'The mightier will drive out the weaker from Medina.'"
+        },
+        {
+          "id": "E3_3_zeyd_haber",
+          "type": "intelligence",
+          "description_tr": "Zeyd b. Erkam, b. Übey'in sözlerini Hz. Peygamber'e bildirdi.",
+          "description_en": "Zayd b. Arqam reported b. Ubayy's words to the Prophet."
+        },
+        {
+          "id": "E3_4_munafikun_nuzul",
+          "type": "revelation",
+          "description_tr": "Münâfıkûn sûresi nâzil oldu; Abdullah b. Übey'in oğlu babasını Medîne'ye sokmamakla tehdit etti.",
+          "description_en": "Sūrat al-Munāfiqūn revealed; ʿAbd Allāh b. Ubayy's son threatened to bar his father from Medina."
+        }
+      ]
+    },
+    {
+      "id": "F4_ifk",
+      "order": 4,
+      "name": {
+        "tr": "İfk hadisesi",
+        "en": "The Ifk (slander) incident"
+      },
+      "date_range": {
+        "start": "~13 Şaban 5 AH",
+        "end": "~Şevval 5 AH"
+      },
+      "duration": "~1-2 ay",
+      "description": {
+        "tr": "Dönüş yolunda Hz. Âişe ihtiyaç için ayrıldığı sırada gerdanlığını kaybetti ve aramaya koyuldu. Bu arada ordu hareket etti; Hz. Âişe geride kaldı. Safvân b. Muattal artçı olarak gelip onu buldu ve devesiyle Medîne'ye ulaştırdı. Münâfıkların başı Abdullah b. Übey, bu olayı Hz. Âişe'ye zina iftirasına çevirdi. Hassân b. Sâbit, Mıstah b. Üsâse ve Hamne bnt. Cahş da iftiraya katıldı. Hz. Peygamber çok üzüldü; bir ay boyunca vahiy gelmedi. Sonunda Nûr sûresi 11-20. âyetler nâzil olarak Hz. Âişe'nin berâatını ilan etti ve iftira atanlara had cezası (80 sopa) uygulandı.",
+        "en": "On the return journey, ʿĀʾisha went aside and lost her necklace. While searching, the army departed without her. Ṣafwān b. al-Muʿaṭṭal, the rear guard, found her and brought her to Medina on his camel. ʿAbd Allāh b. Ubayy turned this into a slander accusation of adultery against ʿĀʾisha. Ḥassān b. Thābit, Misṭaḥ b. Uthātha, and Ḥamna bt. Jaḥsh also spread the rumor. The Prophet was deeply grieved; revelation ceased for about a month. Finally, Sūrat al-Nūr 11-20 was revealed, declaring ʿĀʾisha's innocence. The slanderers received the ḥadd punishment (80 lashes)."
+      },
+      "events": [
+        {
+          "id": "E4_1_gerdanlik",
+          "type": "incident",
+          "description_tr": "Hz. Âişe gerdanlığını kaybedip geride kaldı; Safvân onu buldu.",
+          "description_en": "ʿĀʾisha lost her necklace and was left behind; Ṣafwān found her."
+        },
+        {
+          "id": "E4_2_iftira",
+          "type": "slander",
+          "description_tr": "Abdullah b. Übey başta olmak üzere münâfıklar iftira yaydı.",
+          "description_en": "Hypocrites led by ʿAbd Allāh b. Ubayy spread the slander."
+        },
+        {
+          "id": "E4_3_beraat",
+          "type": "revelation",
+          "description_tr": "Nûr 11-20 nâzil oldu; Hz. Âişe'nin berâatı ilan edildi; had cezası uygulandı.",
+          "description_en": "Nūr 11-20 revealed, declaring ʿĀʾisha's innocence; ḥadd punishment applied."
+        }
+      ]
+    }
+  ],
+  "forces": {
+    "muslim": {
+      "total": "~700+ (rivâyetlere göre)",
+      "commander": "prophet",
+      "commander_name": {
+        "tr": "Hz. Peygamber (s.a.v.)",
+        "en": "Prophet Muhammad (pbuh)"
+      },
+      "composition": {
+        "muhajirun": {
+          "note_tr": "Muhâcirlerden önemli grup; Hz. Ebû Bekir, Hz. Ömer katıldı."
+        },
+        "ansar": {
+          "note_tr": "Ensâr'dan geniş katılım."
+        },
+        "munafikun": {
+          "note_tr": "Abdullah b. Übey ve münâfıklar da orduda; son büyük katılımları."
+        }
+      },
+      "equipment": {
+        "note_tr": "Tam savaş teçhizatı; süvari ve piyade birlikte."
+      },
+      "banner": {
+        "tr": "Sancaktarlar belirlendi; Muhâcir ve Ensâr ayrı sancaklar.",
+        "en": "Banner-bearers assigned; separate Muhājir and Anṣār banners."
+      }
+    },
+    "enemy": {
+      "total": "~Birkaç yüz savaşçı + aileler",
+      "commander_name": {
+        "tr": "Hâris b. Ebî Dırâr",
+        "en": "al-Ḥārith b. Abī Ḍirār"
+      },
+      "composition": {
+        "beni_mustalik": {
+          "note_tr": "Huzâa kabilesinin Müstalik kolu; çevre kabilelerden de destek aldılar."
+        }
+      },
+      "note_tr": "Hazırlıksız yakalandılar; planlı bir müdafaa kuramadılar."
+    }
+  },
+  "sources": {
+    "primary": [
+      {
+        "author": "İbn Hişâm",
+        "work": "es-Sîretü'n-Nebeviyye",
+        "section": "Gazvetü Benî Müstalik / Müreysî'",
+        "note_tr": "En kapsamlı anlatım; ifk hadisesi ayrıntısı Hz. Âişe'den."
+      },
+      {
+        "author": "Vâkıdî",
+        "work": "Kitâbü'l-Megāzî",
+        "section": "Gazvetü'l-Müreysî'",
+        "note_tr": "Asker sayısı, esir ayrıntıları, ganimet dağılımı bilgisi."
+      },
+      {
+        "author": "Buhârî",
+        "work": "Sahîh",
+        "section": "Megâzî, Bâbu gazvetü Benî Müstalik; Şehâdât (İfk)",
+        "note_tr": "Hz. Âişe'nin ifk hadisesini bizzat anlattığı uzun hadis."
+      },
+      {
+        "author": "Müslim",
+        "work": "Sahîh",
+        "section": "Tevbe, Bâbu hâdîsi'l-ifk",
+        "note_tr": "İfk hadisesinin Müslim'deki rivâyeti."
+      }
+    ],
+    "secondary": [
+      {
+        "author": "İbn Sa'd",
+        "work": "et-Tabakātü'l-kübrâ",
+        "note_tr": "Esirler ve Cüveyriye bnt. Hâris'in müslüman olması."
+      },
+      {
+        "author": "Taberî",
+        "work": "Târîhu'r-rusül ve'l-mülûk",
+        "note_tr": "Kronolojik yerleştirme ve farklı tarih rivâyetleri."
+      }
+    ]
+  },
+  "quran_connections": [
+    {
+      "surah": 24,
+      "surah_name": "Nûr",
+      "ayah_range": "11-20",
+      "phase_id": "F4_ifk",
+      "topic": {
+        "tr": "İfk hadisesi: Hz. Âişe'ye atılan iftiranın reddi ve iftira atanlara ceza",
+        "en": "The Ifk incident: rejection of the slander against ʿĀʾisha and punishment for slanderers"
+      },
+      "key_verses": [
+        {
+          "ayah": 11,
+          "topic_tr": "İfki uyduranlar sizden bir gruptur; her birine kazandığı günah kadar ceza vardır",
+          "phase_id": "F4_ifk",
+          "esbab_id": "en_nur_24_11_20"
+        },
+        {
+          "ayah": 12,
+          "topic_tr": "Müminler neden birbirleri hakkında iyi zan beslemediler?",
+          "phase_id": "F4_ifk",
+          "esbab_id": "en_nur_24_11_20"
+        },
+        {
+          "ayah": 16,
+          "topic_tr": "Bu büyük bir iftiradır, demeniz gerekmez miydi?",
+          "phase_id": "F4_ifk",
+          "esbab_id": "en_nur_24_11_20"
+        }
+      ]
+    },
+    {
+      "surah": 63,
+      "surah_name": "Münâfıkûn",
+      "ayah_range": "1-8",
+      "phase_id": "F3_munafik_fitne",
+      "topic": {
+        "tr": "Münâfıkların nitelikleri ve Abdullah b. Übey'in 'güçlü olan zayıfı çıkaracak' sözü",
+        "en": "Characteristics of hypocrites and ʿAbd Allāh b. Ubayy's statement about driving out the weaker"
+      },
+      "key_verses": [
+        {
+          "ayah": 1,
+          "topic_tr": "Münâfıklar gelip 'Şahitlik ederiz ki sen Allah'ın Resûlüsün' dediler — ama yalancıdırlar",
+          "phase_id": "F3_munafik_fitne",
+          "esbab_id": "en_munafikun_63_1_8"
+        },
+        {
+          "ayah": 8,
+          "topic_tr": "Medîne'ye dönersek güçlü olan zayıfı çıkaracak — izzet Allah'ın, Resûlü'nün ve müminlerindir",
+          "phase_id": "F3_munafik_fitne",
+          "esbab_id": "en_munafikun_63_1_8"
+        }
+      ]
+    }
+  ],
+  "hadith_connections": [
+    {
+      "hadith_id": "hds_mustalik_baskin",
+      "topic": "Müreysî' suyunda Benî Müstalik'e ani baskın ve kesin zafer",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mustalik_ifk_aisha",
+      "topic": "Hz. Âişe'nin ifk hadisesini bizzat anlattığı uzun rivâyet — vahiyle berâat",
+      "relevance": "direct"
+    },
+    {
+      "hadith_id": "hds_mustalik_zeyd_erkam",
+      "topic": "Zeyd b. Erkam'ın Abdullah b. Übey'in 'güçlü olan zayıfı çıkaracak' sözünü bildirmesi",
+      "relevance": "direct"
+    }
+  ],
+  "impact": {
+    "military": {
+      "tr": "Hızlı ve kesin zafer; Hicaz'ın güneybatısında müslüman hakimiyeti perçinlendi. Benî Müstalik'in askeri gücü tamamen kırıldı.",
+      "en": "Swift and decisive victory; Muslim dominance consolidated in southwestern Ḥijāz. Banū al-Muṣṭaliq's military power was completely broken."
+    },
+    "political": {
+      "tr": "Cüveyriye bnt. Hâris ile Hz. Peygamber'in evliliği, esirlerin serbest bırakılmasına ve kabilenin topluca İslam'a girmesine vesile oldu. Münâfıkların maskesi Münâfıkûn sûresiyle düştü. Abdullah b. Übey'in oğlu bile babasını kınadı.",
+      "en": "The Prophet's marriage to Juwayriya bt. al-Ḥārith led to the release of captives and the tribe's collective conversion. The hypocrites were unmasked by Sūrat al-Munāfiqūn. Even ʿAbd Allāh b. Ubayy's son condemned his father."
+    },
+    "social": {
+      "tr": "İfk hadisesi, İslam hukukunda zina iftirası (kazf) cezasının temelini oluşturdu — 4 şahit şartı ve 80 sopa cezası. Toplumda gıybet ve zan konusunda bilinç oluştu.",
+      "en": "The Ifk incident established the foundation for the Islamic legal punishment for slander (qadhf) — the requirement of 4 witnesses and 80 lashes. Community awareness of backbiting and suspicion developed."
+    },
+    "religious": {
+      "tr": "Nûr sûresi 11-20 ve Münâfıkûn sûresi bu gazve vesilesiyle nâzil oldu. Hüsnüzan (iyi niyet) ve iffet kavramları Kur'ânî düzeyde vurgulandı.",
+      "en": "Sūrat al-Nūr 11-20 and Sūrat al-Munāfiqūn were revealed in connection with this campaign. Good faith (ḥusn al-ẓann) and chastity were emphasized at the Qurʾānic level."
+    }
+  },
+  "visualization": {
+    "default_zoom": 10,
+    "map_style": "terrain",
+    "animation_type": "phased",
+    "color_scheme": {
+      "muslim": "#2E7D32",
+      "enemy": "#C62828",
+      "neutral": "#5D4037",
+      "route_march": "#1565C0",
+      "route_return": "#6A1B9A",
+      "landmark": "#FF8F00"
+    },
+    "layers": [
+      {
+        "id": "layer_terrain",
+        "name": "Arazi",
+        "type": "base",
+        "default_visible": true
+      },
+      {
+        "id": "layer_landmarks",
+        "name": "Önemli noktalar",
+        "type": "poi",
+        "default_visible": true
+      },
+      {
+        "id": "layer_routes",
+        "name": "Güzergâhlar",
+        "type": "route",
+        "default_visible": true
+      },
+      {
+        "id": "layer_forces",
+        "name": "Kuvvetler",
+        "type": "military",
+        "default_visible": true
+      }
+    ]
+  }
+}
