@@ -1,6 +1,6 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 
-const BASE_PATH = '/data';
+const BASE_PATH = import.meta.env.BASE_URL + 'data';
 
 /** Fetch JSON data from public/data/ with TanStack Query caching */
 export function useData<T>(key: string, enabled = true) {
