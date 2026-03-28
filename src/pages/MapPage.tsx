@@ -378,7 +378,7 @@ export default function MapPage() {
           filteredBattles.map((t) => (
             <Marker
               key={t.battle_id}
-              position={[t.lat, t.lng]}
+              position={[t.lat ?? 0, t.lng ?? 0]}
               icon={createBattleIcon(resultCategory(t.result), t.tier)}
             >
               <Popup maxWidth={300} className="glass-popup">
@@ -397,7 +397,7 @@ export default function MapPage() {
 
         {/* ─── LOCATION LAYER (from locations.json — 185 entries) ─── */}
         {activeLayers.includes('locations') &&
-          locations.map((loc) => (
+          locations.filter((loc) => loc.lat && loc.lng).map((loc) => (
             <Marker
               key={loc.id}
               position={[loc.lat, loc.lng]}
@@ -489,7 +489,7 @@ export default function MapPage() {
           tribes.map((tribe) => (
             <CircleMarker
               key={tribe.id}
-              center={[tribe.center_lat, tribe.center_lng]}
+              center={[tribe.center_lat ?? 0, tribe.center_lng ?? 0]}
               radius={8}
               pathOptions={{
                 color: '#a16207',
