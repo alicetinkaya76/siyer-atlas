@@ -8,7 +8,7 @@ import {
   RESULT_LABELS,
   BATTLE_TYPE_LABELS,
 } from '@/utils/dataHelpers';
-import { getBattleSvg } from '@/config/battleSvgMap';
+import { getBattleSvg, BATTLE_CONTEXTUAL_SVGS, CONTEXTUAL_SVG_MAP } from '@/config/battleSvgMap';
 import { BattleSvgViewer } from '@/components/battle/BattleSvgViewer';
 import { Spinner } from '@/components/common/Spinner';
 import { FADE_IN } from '@/config/constants';
@@ -628,6 +628,32 @@ export default function BattleDetailPage() {
             </div>
           )}
         </div>
+
+        {/* ─── RELATED VISUALS (Contextual SVGs) ─── */}
+        {battle && BATTLE_CONTEXTUAL_SVGS[battle.id] && (
+          <div className="mt-6 flex flex-col gap-3">
+            <h3 className="text-sm font-bold flex items-center gap-2" style={{ fontFamily: 'var(--font-display)', color: 'var(--text-primary)' }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-accent)" strokeWidth="2" strokeLinecap="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="m21 15-5-5L5 21" /></svg>
+              {lang === 'en' ? 'Related Visuals' : 'İlgili Görseller'}
+            </h3>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {BATTLE_CONTEXTUAL_SVGS[battle.id]!.map((svgKey) => {
+                const ctx = CONTEXTUAL_SVG_MAP[svgKey];
+                if (!ctx) return null;
+                return (
+                  <div key={svgKey} className="rounded-xl overflow-hidden transition-shadow hover:shadow-md" style={{ border: '1px solid var(--border-color)' }}>
+                    <div className="relative" style={{ background: '#FAF8F3', height: 100 }}>
+                      <img src={ctx.path} alt={localize(ctx.caption)} className="h-full w-full object-contain p-2" loading="lazy" />
+                    </div>
+                    <p className="px-2 py-1.5 text-[10px] font-medium truncate" style={{ color: 'var(--text-secondary)', background: 'var(--bg-tertiary)', borderTop: '1px solid var(--border-color)' }}>
+                      {localize(ctx.caption)}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </motion.div>
   );

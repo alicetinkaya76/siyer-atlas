@@ -92,6 +92,76 @@ export const CONTEXTUAL_SVG_MAP: Record<string, { path: string; caption: { tr: s
     path: `${SVG_DIR}/hejaz_regional_map.svg`,
     caption: { tr: 'Hicaz Bölge Haritası', en: 'Hejaz Regional Map', ar: 'خريطة منطقة الحجاز' },
   },
+  medine_plan: {
+    path: `${SVG_DIR}/medine_city_plan.svg`,
+    caption: { tr: 'Medîne Şehir Planı', en: 'Medina City Plan', ar: 'مخطط مدينة المدينة' },
+  },
+  mescid_nebevi: {
+    path: `${SVG_DIR}/masjid_nabawi_original.svg`,
+    caption: { tr: 'Mescid-i Nebevî (Orijinal Plan)', en: 'Prophet\'s Mosque (Original Plan)', ar: 'المسجد النبوي (المخطط الأصلي)' },
+  },
+  kaaba: {
+    path: `${SVG_DIR}/kaaba_7c_plan.svg`,
+    caption: { tr: 'Kâbe — 7. Yüzyıl Planı', en: 'Kaaba — 7th Century Plan', ar: 'الكعبة — مخطط القرن السابع' },
+  },
+  kuba_sevr: {
+    path: `${SVG_DIR}/kuba_mosque_sevr_cave.svg`,
+    caption: { tr: 'Kubâ Mescidi ve Sevr Mağarası', en: 'Quba Mosque & Cave of Thawr', ar: 'مسجد قباء وغار ثور' },
+  },
+  hira: {
+    path: `${SVG_DIR}/hira_cave_section.svg`,
+    caption: { tr: 'Hirâ Mağarası Kesiti', en: 'Cave of Hira Cross-Section', ar: 'مقطع غار حراء' },
+  },
+  siege_weapons: {
+    path: `${SVG_DIR}/siege_weapons.svg`,
+    caption: { tr: 'Kuşatma Silahları', en: 'Siege Weapons', ar: 'أسلحة الحصار' },
+  },
+  swords: {
+    path: `${SVG_DIR}/sword_zulfiqar.svg`,
+    caption: { tr: 'Zülfikâr Kılıcı', en: 'Zulfiqar Sword', ar: 'سيف ذو الفقار' },
+  },
+  armor: {
+    path: `${SVG_DIR}/armor_dir_zat_fudul.svg`,
+    caption: { tr: 'Zırh — Dir\' ve Zât-ı Fudûl', en: 'Armor — Dir\' and Dhat al-Fudul', ar: 'الدروع' },
+  },
+  spears: {
+    path: `${SVG_DIR}/spear_lance_types.svg`,
+    caption: { tr: 'Mızrak ve Süngü Türleri', en: 'Spear & Lance Types', ar: 'أنواع الرماح' },
+  },
+  shields: {
+    path: `${SVG_DIR}/shields_turs_daraqah.svg`,
+    caption: { tr: 'Kalkan Türleri — Türs ve Daraka', en: 'Shield Types — Turs & Daraqah', ar: 'أنواع الدروع' },
+  },
+  bows: {
+    path: `${SVG_DIR}/bow_quiver_composite.svg`,
+    caption: { tr: 'Yay ve Sadak', en: 'Bow & Quiver', ar: 'القوس والجعبة' },
+  },
+  cavalry: {
+    path: `${SVG_DIR}/cavalry_horse_equipment.svg`,
+    caption: { tr: 'Süvari Teçhizatı', en: 'Cavalry Equipment', ar: 'معدات الفرسان' },
+  },
+  medina_market: {
+    path: `${SVG_DIR}/medina_market_plan.svg`,
+    caption: { tr: 'Medîne Pazarı Planı', en: 'Medina Market Plan', ar: 'مخطط سوق المدينة' },
+  },
+};
+
+/**
+ * Maps battle IDs to lists of contextual SVG keys for "Related Visuals" section
+ */
+export const BATTLE_CONTEXTUAL_SVGS: Record<string, string[]> = {
+  gazve_bedir: ['swords', 'armor', 'cavalry', 'hicaz'],
+  gazve_uhud: ['swords', 'bows', 'shields', 'armor'],
+  gazve_hendek: ['siege_weapons', 'spears', 'medine_plan'],
+  gazve_beni_kurayza: ['siege_weapons', 'medine_plan'],
+  gazve_beni_nadir: ['medine_plan'],
+  gazve_beni_kaynuka: ['medine_plan', 'swords'],
+  gazve_hayber: ['siege_weapons', 'swords', 'cavalry'],
+  gazve_huneyn: ['cavalry', 'bows', 'swords'],
+  gazve_taif: ['siege_weapons'],
+  gazve_tebuk: ['cavalry', 'hicaz'],
+  seriyye_mute: ['cavalry', 'swords', 'spears'],
+  gazve_mute: ['cavalry', 'swords', 'spears'],
 };
 
 /** Check if a battle has SVG visualizations */

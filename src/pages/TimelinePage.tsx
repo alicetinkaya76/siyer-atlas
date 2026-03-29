@@ -1,14 +1,18 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTimelineStore } from '@/stores/useTimelineStore';
 import { useUnifiedTimeline } from '@/hooks/useUnifiedTimeline';
 import { TimelineChart } from '@/components/timeline/TimelineChart';
 import { TimelineBar } from '@/components/timeline/TimelineBar';
 import { EventTypeLegend } from '@/components/timeline/EventTypeLegend';
+import { BattleSvgViewer } from '@/components/battle/BattleSvgViewer';
 import { Spinner } from '@/components/common/Spinner';
 import { FADE_IN } from '@/config/constants';
 import type { UnifiedEvent } from '@/types';
+
+const BASE = import.meta.env.BASE_URL || '/';
+const TIMELINE_SVG = `${BASE}assets/museum/svg/sira_timeline.svg`;
 
 /* ─── CATEGORY COLORS (same as chart) ─── */
 const CAT_COLORS: Record<string, string> = {
@@ -125,13 +129,14 @@ function StatsStrip({ events, militaryCount, prophetCount }: { events: UnifiedEv
 export default function TimelinePage() {
   useTranslation();
   const { events, isLoading, militaryCount, prophetCount } = useUnifiedTimeline();
+  const [showSvgTimeline, setShowSvgTimeline] = useState(false);
 
   return (
     <motion.div {...FADE_IN} className="flex flex-col gap-5 p-4 md:p-6 max-w-7xl mx-auto w-full">
       {/* Header */}
       <div className="flex items-center gap-3">
         <span className="text-2xl">⏳</span>
-        <div>
+        <div className="flex-1">
           <h1 className="text-2xl font-bold" style={{ fontFamily: 'var(--font-display)', color: 'var(--text-primary)' }}>
             Zaman Çizelgesi
           </h1>
@@ -139,7 +144,43 @@ export default function TimelinePage() {
             570–661 CE · {militaryCount} askerî + {prophetCount} genel = {events.length} olay
           </p>
         </div>
+        {/* SVG Timeline Toggle */}
+        <button
+          onClick={() => setShowSvgTimeline(!showSvgTimeline)}
+          className="flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-medium transition-all"
+          style={{
+            background: showSvgTimeline ? 'rgba(212,175,55,0.15)' : 'var(--bg-tertiary)',
+            color: showSvgTimeline ? 'var(--text-accent)' : 'var(--text-tertiary)',
+            border: `1px solid ${showSvgTimeline ? 'rgba(212,175,55,0.3)' : 'transparent'}`,
+          }}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="m9 8 6 4-6 4z" />
+          </svg>
+          {showSvgTimeline ? 'Gizle' : 'Görsel Sîret'}
+        </button>
       </div>
+
+      {/* SVG Timeline Hero Banner */}
+      <AnimatePresence>
+        {showSvgTimeline && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="overflow-hidden"
+          >
+            <BattleSvgViewer
+              src={TIMELINE_SVG}
+              caption={{ tr: 'Sîret-i Nebevî — Görsel Zaman Çizelgesi', en: 'Prophetic Biography — Visual Timeline', ar: 'السيرة النبوية — الخط الزمني المرئي' }}
+              mode="hero"
+              maxHeight={500}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {isLoading ? (
         <div className="flex justify-center py-20"><Spinner size="lg" /></div>

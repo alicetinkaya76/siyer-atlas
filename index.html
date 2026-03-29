@@ -7,16 +7,60 @@
   <meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)" />
 
   <title>Siyer Atlası — Asr-ı Saâdet İnteraktif Atlası</title>
-  <meta name="description" content="Asr-ı Saâdet'i (570–661 CE) interaktif harita, zaman çizelgesi, ilişki ağları, dijital müze ve savaş rekonstrüksiyonları ile keşfedin." />
+  <meta name="description" content="Asr-ı Saâdet'i (570–661 CE) interaktif harita, zaman çizelgesi, ilişki ağları, dijital müze ve savaş rekonstrüksiyonları ile keşfedin. 97 savaş, 850+ sahâbî, 31 SVG illüstrasyon, 160 radyo tiyatrosu bölümü." />
+  <meta name="keywords" content="siyer, atlas, asr-ı saadet, İslam tarihi, sahabe, savaş, Hz. Muhammed, interactive map, Islamic history, sīrah" />
+  <meta name="author" content="Dr. Ali Çetinkaya & Dr. Hüseyin Gökalp — Selçuk Üniversitesi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alicetinkaya76.github.io/siyer-atlas/" />
 
   <!-- OG Tags -->
-  <meta property="og:title" content="Siyer Atlası" />
-  <meta property="og:description" content="Asr-ı Saâdet İnteraktif Atlası — Harita, Zaman Çizelgesi, Dijital Müze" />
+  <meta property="og:title" content="Siyer Atlası — Asr-ı Saâdet İnteraktif Atlası" />
+  <meta property="og:description" content="570–661 CE dönemi: interaktif harita, zaman çizelgesi, dijital müze, 97 savaş rekonstrüksiyonu, 850+ sahâbî profili." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://alicetinkaya76.github.io/siyer-atlas/" />
+  <meta property="og:image" content="https://alicetinkaya76.github.io/siyer-atlas/icons/icon-512.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:locale:alternate" content="ar_SA" />
+  <meta property="og:site_name" content="Siyer Atlası" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Siyer Atlası" />
+  <meta name="twitter:description" content="Asr-ı Saâdet İnteraktif Atlası — Harita, Zaman Çizelgesi, Dijital Müze" />
+  <meta name="twitter:image" content="https://alicetinkaya76.github.io/siyer-atlas/icons/icon-512.png" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="/siyer-atlas/manifest.json" />
+  <link rel="apple-touch-icon" href="/siyer-atlas/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Siyer Atlası" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Siyer Atlası",
+    "alternateName": "Asr-ı Saâdet İnteraktif Atlası",
+    "description": "Interactive atlas covering the Prophetic era (570–661 CE) with maps, timelines, digital museum, battle reconstructions, and network analysis.",
+    "url": "https://alicetinkaya76.github.io/siyer-atlas/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All",
+    "author": {
+      "@type": "Person",
+      "name": "Ali Çetinkaya",
+      "affiliation": { "@type": "Organization", "name": "Selçuk Üniversitesi" }
+    },
+    "inLanguage": ["tr", "en", "ar"],
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
 
   <!-- Critical Fonts (single load) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,5 +103,15 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+  <script>
+    /* Service Worker Registration */
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/siyer-atlas/sw.js')
+          .then(function(reg) { console.log('SW registered:', reg.scope); })
+          .catch(function(err) { console.log('SW failed:', err); });
+      });
+    }
+  </script>
 </body>
 </html>

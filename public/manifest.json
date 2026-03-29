@@ -1,0 +1,47 @@
+{
+  "name": "Siyer Atlası — Asr-ı Saâdet İnteraktif Atlası",
+  "short_name": "Siyer Atlası",
+  "description": "Asr-ı Saâdet'i (570–661 CE) interaktif harita, zaman çizelgesi, ilişki ağları, dijital müze ve savaş rekonstrüksiyonları ile keşfedin.",
+  "start_url": "/siyer-atlas/",
+  "scope": "/siyer-atlas/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1a1a2e",
+  "theme_color": "#d4af37",
+  "lang": "tr",
+  "dir": "ltr",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {
+      "src": "/siyer-atlas/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/siyer-atlas/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Harita",
+      "short_name": "Harita",
+      "url": "/siyer-atlas/map",
+      "icons": [{ "src": "/siyer-atlas/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Zaman Çizelgesi",
+      "short_name": "Timeline",
+      "url": "/siyer-atlas/timeline"
+    },
+    {
+      "name": "Dijital Müze",
+      "short_name": "Müze",
+      "url": "/siyer-atlas/museum"
+    }
+  ]
+}

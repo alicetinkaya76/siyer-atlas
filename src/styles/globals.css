@@ -582,6 +582,57 @@ input[type="range"]::-moz-range-thumb {
   }
 }
 
+/* ─── MOBILE POLISH (< 640px) ─── */
+@media (max-width: 639px) {
+  /* Tighter padding on small screens */
+  .page-enter {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* Cards get less padding */
+  .card {
+    padding: 10px;
+  }
+
+  /* Stats grid collapses to 3 cols */
+  .grid-cols-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Now playing bar adjustments */
+  .fixed.bottom-0 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  /* Touch targets minimum 44px */
+  button {
+    min-height: 36px;
+  }
+
+  /* Prevent text overflow in cards */
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1.1rem; }
+  h3 { font-size: 0.875rem; }
+}
+
+/* ─── TABLET ADJUSTMENTS ─── */
+@media (min-width: 640px) and (max-width: 1023px) {
+  /* Two column layout tweaks */
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* ─── STANDALONE PWA MODE ─── */
+@media (display-mode: standalone) {
+  /* Extra top padding for status bar */
+  body {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
 /* ─── PRINT ─── */
 @media print {
   .no-print {
