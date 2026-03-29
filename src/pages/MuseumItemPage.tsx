@@ -3,7 +3,9 @@ import { useParams, Link, useNavigate } from 'react-router';
 import { useData } from '@/hooks/useData';
 import { useLocalizedField } from '@/hooks/useLocalizedField';
 import { getCategoryColor, getCategoryIcon } from '@/config/museum';
+import { getMuseumSvg } from '@/config/museumSvgMap';
 import { Spinner } from '@/components/common/Spinner';
+import { BattleSvgViewer } from '@/components/battle/BattleSvgViewer';
 import { MuseumImage } from '@/components/common/MuseumImage';
 import type { LocalizedText } from '@/types';
 
@@ -54,14 +56,22 @@ export default function MuseumItemPage() {
   const item = useMemo(() => catData?.items?.find((it) => it.id === id), [catData, id]);
   const color = getCategoryColor(category ?? '');
 
+  // SVG lookup
+  const svgEntry = useMemo(() => {
+    if (!item) return null;
+    return getMuseumSvg(item.id, item.subcategory);
+  }, [item]);
+
+  const hasSvgHero = !!svgEntry && item?.visual_type !== 'none';
+
   if (isLoading) return <div className="flex h-[60vh] items-center justify-center"><Spinner size="lg" /></div>;
 
   if (!item) {
     return (
       <div className="flex flex-col items-center gap-4 p-12 text-center">
         <span className="text-4xl">❌</span>
-        <p style={{ color: 'var(--text-secondary)' }}>{lang === 'en' ? 'Item not found' : 'Öğe bulunamadı'}</p>
-        <Link to={`/museum/${category ?? ''}`} className="text-sm underline" style={{ color: 'var(--text-accent)' }}>← {lang === 'en' ? 'Back' : 'Geri'}</Link>
+        <p style={{ color: 'var(--text-secondary)' }}>{lang === 'en' ? 'Item not found' : lang === 'ar' ? 'العنصر غير موجود' : 'Öğe bulunamadı'}</p>
+        <Link to={`/museum/${category ?? ''}`} className="text-sm underline" style={{ color: 'var(--text-accent)' }}>← {lang === 'en' ? 'Back' : lang === 'ar' ? 'رجوع' : 'Geri'}</Link>
       </div>
     );
   }
@@ -81,20 +91,34 @@ export default function MuseumItemPage() {
     <div className="page-enter flex flex-col gap-4 p-4 pb-24 sm:p-6">
       <div className="mx-auto w-full max-w-4xl">
         <Link to={`/museum/${category ?? ''}`} className="mb-4 inline-flex items-center gap-1 text-xs" style={{ color: 'var(--text-tertiary)', textDecoration: 'none' }}>
-          ← {lang === 'en' ? 'Back to list' : 'Listeye dön'}
+          ← {lang === 'en' ? 'Back to list' : lang === 'ar' ? 'العودة للقائمة' : 'Listeye dön'}
         </Link>
+
+        {/* ─── SVG Hero Banner ─── */}
+        {hasSvgHero && svgEntry && (
+          <div className="mb-4">
+            <BattleSvgViewer
+              src={svgEntry.src}
+              caption={svgEntry.caption}
+              mode="hero"
+              maxHeight={420}
+            />
+          </div>
+        )}
 
         {/* ─── Hero Card ─── */}
         <div className="card mb-6 overflow-hidden">
-          {/* Hero Image */}
-          <MuseumImage
-            src={item.image}
-            alt={localize(item.name)}
-            category={category ?? ''}
-            className="w-full"
-            aspectRatio="16/9"
-            rounded=""
-          />
+          {/* Fallback: MuseumImage for non-SVG items */}
+          {!hasSvgHero && (
+            <MuseumImage
+              src={item.image}
+              alt={localize(item.name)}
+              category={category ?? ''}
+              className="w-full"
+              aspectRatio="16/9"
+              rounded=""
+            />
+          )}
 
           <div className="p-5 sm:p-6" style={{ borderBottom: '1px solid var(--border-color)' }}>
             <div className="flex items-start gap-4">
@@ -111,8 +135,14 @@ export default function MuseumItemPage() {
                     {item.subcategory.replace(/_/g, ' ')}
                   </span>
                   {item.period && <span className="badge" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-tertiary)' }}>{item.period}</span>}
-                  {item.visual_type && item.visual_type !== 'none' && (
-                    <span className="badge" style={{ background: 'rgba(124,58,237,0.08)', color: '#7c3aed' }}>{item.visual_type.replace(/_/g, ' ')}</span>
+                  {hasSvgHero && (
+                    <span className="badge flex items-center gap-1" style={{ background: 'rgba(124,58,237,0.08)', color: '#7c3aed', border: '1px solid rgba(124,58,237,0.15)' }}>
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <path d="m9 8 6 4-6 4z" />
+                      </svg>
+                      SVG {item.visual_type?.replace(/_/g, ' ') ?? ''}
+                    </span>
                   )}
                   {item.coordinates && (
                     <button
@@ -132,10 +162,10 @@ export default function MuseumItemPage() {
           {/* Quick stats */}
           <div className="grid grid-cols-2 gap-px sm:grid-cols-4" style={{ background: 'var(--border-color)' }}>
             {[
-              { label: lang === 'en' ? 'Material' : 'Malzeme', value: txt(item.material) || '—', icon: '🔩' },
-              { label: lang === 'en' ? 'Dimensions' : 'Boyutlar', value: txt(item.dimensions) || '—', icon: '📏' },
-              { label: lang === 'en' ? 'Location' : 'Bulunduğu Yer', value: txt(item.current_location) || '—', icon: '🏛️' },
-              { label: lang === 'en' ? 'Type' : 'Tür', value: txt(item.type) || '—', icon: '📋' },
+              { label: lang === 'ar' ? 'المادة' : lang === 'en' ? 'Material' : 'Malzeme', value: txt(item.material) || '—', icon: '🔩' },
+              { label: lang === 'ar' ? 'الأبعاد' : lang === 'en' ? 'Dimensions' : 'Boyutlar', value: txt(item.dimensions) || '—', icon: '📏' },
+              { label: lang === 'ar' ? 'الموقع' : lang === 'en' ? 'Location' : 'Bulunduğu Yer', value: txt(item.current_location) || '—', icon: '🏛️' },
+              { label: lang === 'ar' ? 'النوع' : lang === 'en' ? 'Type' : 'Tür', value: txt(item.type) || '—', icon: '📋' },
             ].map((s, i) => (
               <div key={i} className="p-3" style={{ background: 'var(--bg-secondary)' }}>
                 <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>{s.icon} {s.label}</p>
@@ -147,14 +177,28 @@ export default function MuseumItemPage() {
 
         {/* ─── Description ─── */}
         <div className="card p-5 sm:p-6 mb-4">
-          <h2 className="text-sm font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📜 {lang === 'en' ? 'Description' : 'Açıklama'}</h2>
+          <h2 className="text-sm font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📜 {lang === 'ar' ? 'الوصف' : lang === 'en' ? 'Description' : 'Açıklama'}</h2>
           <p className="whitespace-pre-line text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>{txt(item.description)}</p>
         </div>
+
+        {/* ─── Visual Description (SVG context) ─── */}
+        {hasSvgHero && item.visual_description && (
+          <div className="card p-5 sm:p-6 mb-4">
+            <h2 className="text-sm font-semibold mb-2 flex items-center gap-1.5" style={{ color: 'var(--text-accent)' }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="m9 8 6 4-6 4z" />
+              </svg>
+              {lang === 'ar' ? 'وصف الرسم التوضيحي' : lang === 'en' ? 'Illustration Notes' : 'Çizim Açıklaması'}
+            </h2>
+            <p className="whitespace-pre-line text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>{txt(item.visual_description)}</p>
+          </div>
+        )}
 
         {/* ─── Historical Context ─── */}
         {item.historical_context && (
           <div className="card p-5 sm:p-6 mb-4">
-            <h2 className="text-sm font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📚 {lang === 'en' ? 'Historical Context' : 'Tarihî Bağlam'}</h2>
+            <h2 className="text-sm font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📚 {lang === 'ar' ? 'السياق التاريخي' : lang === 'en' ? 'Historical Context' : 'Tarihî Bağlam'}</h2>
             <p className="whitespace-pre-line text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>{txt(item.historical_context)}</p>
           </div>
         )}
@@ -162,14 +206,14 @@ export default function MuseumItemPage() {
         {/* ─── Period Comparison ─── */}
         {item.period_comparison && (
           <div className="card p-5 sm:p-6 mb-4">
-            <h2 className="text-sm font-semibold mb-3" style={{ color: 'var(--text-accent)' }}>⚖️ {lang === 'en' ? 'Before & After Islam' : 'İslâm Öncesi ve Sonrası'}</h2>
+            <h2 className="text-sm font-semibold mb-3" style={{ color: 'var(--text-accent)' }}>⚖️ {lang === 'ar' ? 'قبل الإسلام وبعده' : lang === 'en' ? 'Before & After Islam' : 'İslâm Öncesi ve Sonrası'}</h2>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <div className="rounded-lg p-3" style={{ background: 'rgba(161,98,7,0.06)', border: '1px solid rgba(161,98,7,0.15)' }}>
-                <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#a16207' }}>{lang === 'en' ? 'Pre-Islamic' : 'İslâm Öncesi'}</p>
+                <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#a16207' }}>{lang === 'ar' ? 'ما قبل الإسلام' : lang === 'en' ? 'Pre-Islamic' : 'İslâm Öncesi'}</p>
                 <p className="text-xs leading-relaxed" style={{ color: 'var(--text-primary)' }}>{txt((item.period_comparison as any).jahiliyya || (item.period_comparison as any).pre_islamic)}</p>
               </div>
               <div className="rounded-lg p-3" style={{ background: 'rgba(21,128,61,0.06)', border: '1px solid rgba(21,128,61,0.15)' }}>
-                <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#15803d' }}>{lang === 'en' ? 'Islamic' : 'İslâmî'}</p>
+                <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#15803d' }}>{lang === 'ar' ? 'الإسلامي' : lang === 'en' ? 'Islamic' : 'İslâmî'}</p>
                 <p className="text-xs leading-relaxed" style={{ color: 'var(--text-primary)' }}>{txt((item.period_comparison as any).islamic)}</p>
               </div>
             </div>
@@ -178,10 +222,9 @@ export default function MuseumItemPage() {
 
         {/* ─── Cross References ─── */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-4">
-          {/* Related Persons */}
           {item.related_persons && item.related_persons.length > 0 && (
             <div className="card p-4">
-              <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>👤 {lang === 'en' ? 'Related Persons' : 'İlgili Kişiler'}</h3>
+              <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>👤 {lang === 'ar' ? 'الأشخاص المرتبطون' : lang === 'en' ? 'Related Persons' : 'İlgili Kişiler'}</h3>
               <div className="flex flex-col gap-1">
                 {item.related_persons.map((p: any, i: number) => {
                   const name = txt(p.name || p.id || '');
@@ -200,10 +243,9 @@ export default function MuseumItemPage() {
             </div>
           )}
 
-          {/* Related Events */}
           {item.related_events && item.related_events.length > 0 && (
             <div className="card p-4">
-              <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>⚔️ {lang === 'en' ? 'Related Events' : 'İlgili Olaylar'}</h3>
+              <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>⚔️ {lang === 'ar' ? 'الأحداث المرتبطة' : lang === 'en' ? 'Related Events' : 'İlgili Olaylar'}</h3>
               <div className="flex flex-col gap-1">
                 {item.related_events.map((ev: any, i: number) => {
                   const name = txt(ev.name || ev.event || '');
@@ -228,7 +270,7 @@ export default function MuseumItemPage() {
           <div className="card p-5 sm:p-6 mb-4">
             {item.quran_refs && item.quran_refs.length > 0 && (
               <div className="mb-3">
-                <h3 className="text-xs font-semibold mb-1" style={{ color: 'var(--text-accent)' }}>📖 {lang === 'en' ? "Qur'an References" : "Kur'ân Referansları"}</h3>
+                <h3 className="text-xs font-semibold mb-1" style={{ color: 'var(--text-accent)' }}>📖 {lang === 'ar' ? 'آيات قرآنية' : lang === 'en' ? "Qur'an References" : "Kur'ân Referansları"}</h3>
                 <div className="flex flex-wrap gap-1.5">
                   {item.quran_refs.map((r: any, i: number) => {
                     const label = typeof r === 'string' ? r : (r.surah && r.ayah ? `${r.surah}:${r.ayah}` : txt(r));
@@ -241,7 +283,7 @@ export default function MuseumItemPage() {
             )}
             {item.hadith_refs && item.hadith_refs.length > 0 && (
               <div>
-                <h3 className="text-xs font-semibold mb-1" style={{ color: 'var(--text-accent)' }}>📜 {lang === 'en' ? 'Hadith References' : 'Hadis Referansları'}</h3>
+                <h3 className="text-xs font-semibold mb-1" style={{ color: 'var(--text-accent)' }}>📜 {lang === 'ar' ? 'أحاديث نبوية' : lang === 'en' ? 'Hadith References' : 'Hadis Referansları'}</h3>
                 <div className="flex flex-col gap-1">
                   {item.hadith_refs.map((r: any, i: number) => {
                     const label = typeof r === 'string' ? r : (r.collection ? `${r.collection}${r.book ? ', ' + r.book : ''}${r.number ? ' #' + r.number : ''}` : txt(r));
@@ -256,7 +298,7 @@ export default function MuseumItemPage() {
         {/* ─── Sources ─── */}
         {item.sources && item.sources.length > 0 && (
           <div className="card p-5 sm:p-6">
-            <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📎 {lang === 'en' ? 'Sources' : 'Kaynaklar'}</h3>
+            <h3 className="text-xs font-semibold mb-2" style={{ color: 'var(--text-accent)' }}>📎 {lang === 'ar' ? 'المصادر' : lang === 'en' ? 'Sources' : 'Kaynaklar'}</h3>
             <div className="flex flex-col gap-1.5">
               {item.sources.map((s: any, i: number) => (
                 <p key={i} className="text-xs" style={{ color: 'var(--text-secondary)' }}>
@@ -270,7 +312,7 @@ export default function MuseumItemPage() {
         {/* Authenticity note */}
         {item.authenticity_note && (
           <div className="mt-4 rounded-lg p-3" style={{ background: 'rgba(161,98,7,0.06)', border: '1px solid rgba(161,98,7,0.15)' }}>
-            <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#a16207' }}>⚠️ {lang === 'en' ? 'Authenticity Note' : 'Otantiklik Notu'}</p>
+            <p className="text-[10px] font-medium uppercase tracking-wider mb-1" style={{ color: '#a16207' }}>⚠️ {lang === 'ar' ? 'ملاحظة التوثيق' : lang === 'en' ? 'Authenticity Note' : 'Otantiklik Notu'}</p>
             <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>{txt(item.authenticity_note)}</p>
           </div>
         )}
